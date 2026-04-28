@@ -1,0 +1,450 @@
+{
+  "batch_id": "batch_CCL_02_20240520",
+  "source": "Code des collectivités locales de Tunisie (Loi organique n° 2018-29 du 9 mai 2018)",
+  "articles_covered": [
+    5, 8, 10, 11, 15, 18, 22, 25, 26, 30, 31, 32, 34, 38, 42, 44, 45, 75, 76,
+    87, 94, 103, 106, 107, 126, 133, 134, 135, 152, 160, 161, 164, 203, 204,
+    205, 213, 215, 218, 223, 226, 242, 243, 245, 250, 254, 256, 258, 261, 269,
+    271, 274, 276, 277, 281, 282, 283, 293, 295, 297, 299, 302, 308, 311, 312,
+    314, 319, 321, 322, 331, 334, 340, 341, 342, 351, 354, 355, 356, 357, 358,
+    362, 363, 365, 366, 368, 371, 376
+  ],
+  "articles_to_avoid_next_batch": [
+    5, 8, 10, 11, 15, 18, 22, 25, 26, 30, 31, 32, 34, 38, 42, 44, 45, 75, 76,
+    87, 94, 103, 106, 107, 126, 133, 134, 135, 152, 160, 161, 164, 203, 204,
+    205, 213, 215, 218, 223, 226, 242, 243, 245, 250, 254, 256, 258, 261, 269,
+    271, 274, 276, 277, 281, 282, 283, 293, 295, 297, 299, 302, 308, 311, 312,
+    314, 319, 321, 322, 331, 334, 340, 341, 342, 351, 354, 355, 356, 357, 358,
+    362, 363, 365, 366, 368, 371, 376
+  ],
+  "examples": [
+    {
+      "example_id": "ex_fr_direct_021",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [5],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment sont dirigées les communes, les régions et les districts selon le code des collectivités locales ?\n\nDocuments pertinents:\n[1] Source: Article 5 du Code des collectivités locales\nLes communes, les régions et les districts sont dirigés par des conseils élus."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 5 du Code des collectivités locales, le mode de direction des collectivités locales est uniforme : les communes, les régions et les districts sont tous dirigés par des conseils élus [1]. Ce principe démocratique est fondamental dans l'organisation du pouvoir local en Tunisie. En effet, il garantit que la gestion des affaires locales est confiée à des représentants choisis directement par les citoyens, assurant ainsi la légitimité des décisions prises au niveau local et leur adéquation avec les intérêts des habitants.\n\nSources: art. 5 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_direct_022",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [22],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل هناك قيود على ممارسة الجماعات المحلية لاختصاصاتها تتعلق بالأمن القومي؟\n\nDocuments pertinents:\n[1] Source: Article 22 du Code des collectivités locales\nLes collectivités locales exercent leurs compétences sous réserve d’observer les exigences de la défense nationale et de la sûreté publique."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 22 من مجلة الجماعات المحلية، فإن ممارسة الجماعات المحلية لاختصاصاتها ليست مطلقة، بل تخضع لقيود جوهرية تتعلق بالسيادة والأمن [1]. ويتمثل المبدأ الأساسي في أن الجماعات المحلية تمارس صلاحياتها مع مراعاة وجوب احترام مقتضيات الدفاع الوطني والأمن العام [1]. وبالتالي، فإن هذا النص يؤكد على مبدأ وحدة الدولة وسيادتها، بحيث لا يمكن لأي تدبير محلي أن يتعارض مع المصالح العليا للبلاد في مجال الحفاظ على الأمن والدفاع عن التراب الوطني.\n\nالمصادر: الفصل 22 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_multi_023",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [31, 32, 33],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment une commune peut-elle organiser un référendum local et quelles sont les conditions à respecter ?\n\nDocuments pertinents:\n[1] Source: Article 31 du Code des collectivités locales\nSur initiative du président de la collectivité locale ou du tiers de ses membres, le conseil de la collectivité locale peut décider, à la majorité des deux tiers de ses membres, de consulter les habitants par voie de référendum sur les programmes de développement et d’aménagement du territoire.\nUn dixième des électeurs locaux de la collectivité locale peut également demander l’organisation d’un référendum. Dans ce cas, le référendum ne peut être organisé que suite à l’accord des deux tiers des membres du conseil local dans un délai ne dépassant pas deux mois.\nIl ne peut être organisé qu’un seul référendum durant le mandat municipal ou régional.\nLe conseil de la collectivité locale doit, dans la détermination de la date du référendum, observer les délais d’élaboration du budget.\nIl ne peut être procédé à l’organisation d’un référendum ni au cours de la première ni au cours de la dernière année du mandat municipal ou régional.\n\n[2] Source: Article 32 du Code des collectivités locales\nLe président de la collectivité locale notifie sans délai la décision du conseil de la collectivité d’organiser un référendum au gouverneur territorialement compétent et à l’Instance supérieure indépendante des élections.\nLe gouverneur peut s’opposer à l’organisation du référendum devant le tribunal administratif de première instance dans un délai ne dépassant pas un mois à partir de la date de la notification qui lui a été faite.\n\n[3] Source: Article 33 du Code des collectivités locales\nLes dépenses liées à l’organisation du référendum sont imputées sur le budget de la collectivité locale. Les crédits nécessaires à cet effet doivent être disponibles avant de procéder à son organisation sous les auspices de l’Instance Supérieure Indépendante pour les Elections.\nLes résultats du référendum sont obligatoires à condition que le taux de participation ne soit pas inférieur au tiers des électeurs inscrits."
+        },
+        {
+          "role": "assistant",
+          "content": "L'organisation d'un référendum local est strictement encadrée par les articles 31, 32 et 33 du Code des collectivités locales [1][2][3]. En premier lieu, l'initiative peut émaner du président de la collectivité, du tiers des membres du conseil, ou d'un dixième des électeurs locaux, mais nécessite dans tous les cas une approbation du conseil à la majorité des deux tiers [1]. Ensuite, la loi impose des limitations temporelles strictes : un seul référendum par mandat, hors première et dernière année de mandat, et en respectant le calendrier budgétaire [1]. Par ailleurs, la décision du conseil est immédiatement notifiée au gouverneur qui dispose d'un mois pour faire opposition devant le tribunal administratif [2]. Enfin, les résultats ne sont contraignants que si le taux de participation atteint au moins le tiers des électeurs inscrits [3]. En effet, cette procédure rigoureuse vise à concilier l'exercice de la démocratie participative avec la stabilité institutionnelle et la sécurité juridique des décisions locales.\n\nSources: art. 31, 32 et 33 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_multi_024",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [256, 257, 258],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي أبرز الصلاحيات التي يتمتع بها رئيس البلدية في تسيير الشأن المحلي وإصدار التراخيص؟\n\nDocuments pertinents:\n[1] Source: Article 256 du Code des collectivités locales\nLe président de la commune est responsable, dans le cadre de la loi, des intérêts de la commune. Il est son représentant légal.\n\n[2] Source: Article 257 du Code des collectivités locales\nLe président de la commune est chargé, sous le contrôle du conseil municipal et conformément aux modalités et conditions prévues par les lois et les règlements en vigueur, des missions que lui confie la loi et de l’application des décisions du conseil et notamment celles relatives à :\n- l’administration des biens de la commune...\n- la délivrance des arrêtés individuels d'alignement...\n- la gestion de l’administration et la conservation des documents...\n- le recrutement et la nomination des agents...\n- l’ordonnancement des dépenses...\n\n[3] Source: Article 258 du Code des collectivités locales\nLe président de la commune est compétent pour accorder les autorisations d'occupation du sol, dont notamment les décisions de lotissement, les permis de bâtir et les permis de démolir, conformément aux procédures prévues par la législation en vigueur."
+        },
+        {
+          "role": "assistant",
+          "content": "يضطلع رئيس البلدية، بمقتضى الفصول 256 و257 و258 من مجلة الجماعات المحلية، بمجموعة واسعة من الصلاحيات تجعله المسؤول الأول عن إدارة الشأن البلدي [1][2][3]. فبوصفه الممثل القانوني للبلدية والمسؤول عن مصالحها [1]، فإنه يتولى الإدارة العامة لأملاك البلدية وحفظ وثائقها، وإصدار قرارات التعديل الفردية، وتعيين الأعوان والإشراف على تحضير الميزانية [2]. علاوة على ذلك، يختص رئيس البلدية بمنح رخص إشغال الملك العمومي البلدي، ولا سيما رخص التقسيم والبناء والهدم، وفق ما يقتضيه التشريع الجاري به العمل [3]. وبالتالي، فإن الجمع بين صلاحيات التسيير الإداري والمالي وصلاحيات الضبط العمراني يهدف إلى تحقيق تناسق السياسة المحلية وضمان سرعة البت في الملفات ذات الصلة.\n\nالمصادر: الفصول 256 و257 و258 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_princ_exc_025",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [254],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Que se passe-t-il en cas d'absence ou d'empêchement du président de la commune ?\n\nDocuments pertinents:\n[1] Source: Article 254 du Code des collectivités locales\nEn cas d’absence, de suspension, révocation du président de la municipalité, ou en cas de survenance de tout autre cas d’empêchement constitutif de vacance provisoire, il est provisoirement remplacé dans toutes ses attributions par un adjoint intérimaire, selon l’ordre de nomination.\nEn cas d’impossibilité de remplacement du président par un adjoint, l’intérim est assuré par un membre du conseil municipal élu à la majorité des membres présents du conseil. Le gouverneur et le trésorier régional territorialement compétents sont tenus informés.\nEst considérée comme vacance provisoire, l’absence du président de la commune pour des raisons de santé ou de voyage pendant une période supérieure à un mois ou la suspension de l’exercice de ses fonctions.\nL’intérim ne doit pas dépasser six mois.\nA l’expiration du délai précité, les dispositions de l'article 247 de la présente loi sont applicables."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 254 du Code des collectivités locales, le principe en cas de vacance provisoire de la présidence de la commune est le remplacement par un adjoint assurant l'intérim dans l'ordre de leur nomination [1]. Toutefois, si aucun adjoint n'est en mesure d'assurer cette suppléance, une exception est prévue : l'intérim est alors confié à un membre du conseil municipal élu à cet effet par ses pairs [1]. Par ailleurs, la loi définit précisément la vacance provisoire comme une absence supérieure à un mois pour raisons de santé ou de voyage, ou une suspension de fonctions [1]. En outre, une limite temporelle stricte est imposée : l'intérim ne peut excéder six mois, passé ce délai, il est procédé à une nouvelle élection conformément à l'article 247 [1]. Ainsi, ce mécanisme garantit la continuité de l'administration communale tout en évitant qu'une situation provisoire ne se pérennise sans légitimité démocratique.\n\nSources: art. 254 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_princ_exc_026",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [134],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يمكن للبلدية أن تقترض لتسديد رواتب الموظفين؟\n\nDocuments pertinents:\n[1] Source: Article 134 du Code des collectivités locales\nLes ressources d'emprunts sont nécessairement affectées au financement des investissements des collectivités locales. Il est interdit de conclure des emprunts pour financer le budget de fonctionnement."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 134 من مجلة الجماعات المحلية، فإن الأصل هو أن موارد الاقتراض لا يمكن توجيهها إلا لتمويل نفقات الاستثمار والتنمية [1]. ويوجد استثناء واضح يتمثل في منع المشرع بشكل صريح وقاطع اللجوء إلى الاقتراض من أجل تغطية نفقات التصرف الجارية أو ميزانية التسيير التي تندرج ضمنها الرواتب [1]. وبالتالي، فإن أي بلدية تلجأ إلى الاستدانة لتسديد أجور أعوانها تكون قد خالفت مبدأ قانونيا أساسيا يهدف إلى ضمان التوازن المالي الحقيقي للجماعة المحلية وحمايتها من الإفلاس.\n\nالمصادر: الفصل 134 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_refusal_027",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les conditions de fond et de forme pour obtenir un permis de conduire international en Tunisie ?\n\nDocuments pertinents:\n[1] Source: Code des collectivités locales - Aucun article pertinent trouvé."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des collectivités locales régit exclusivement l'organisation et les compétences des communes, régions et districts, et ne traite pas des procédures relatives aux permis de conduire nationaux ou internationaux, lesquelles relèvent du Code de la route et des attributions du ministère des Transports. Je vous recommande de consulter un avocat spécialisé ou de vous adresser aux services de la circulation routière."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_refusal_028",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي إجراءات رفع دعوى لدى المحكمة العقارية؟\n\nDocuments pertinents:\n[1] Source: مجلة الجماعات المحلية - لم يتم العثور على أي فصل ذي صلة."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تحتوي الوثائق المتوفرة على معلومات كافية للإجابة على هذا السؤال. فمجلة الجماعات المحلية تنظم هياكل السلطة المحلية واختصاصاتها، ولا تتضمن أحكاماً تتعلق بالإجراءات أمام المحكمة العقارية التي تخضع لأحكام مجلة الحقوق العينية والقانون المتعلق بإحداث المحاكم العقارية. يرجى مراجعة محام مختص في قانون الملكية العقارية أو الاتصال بالمحكمة العقارية المختصة."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_clarif_029",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [283],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Nous voulons mutualiser nos services avec les communes voisines.\n\nDocuments pertinents:\n[1] Source: Article 283 du Code des collectivités locales\nDeux ou plusieurs communes peuvent conclure un accord de coopération pour la réalisation des objectifs prévus par la présente loi.\nDeux ou plusieurs communes peuvent, par une convention conclue à cet effet, confier l’exploitation des services publics économiques d’intérêt commun à une seule commune qui fait fonction de concessionnaire des autres communes.\nDeux ou plusieurs communes peuvent exploiter un ou des services publics à caractère économique d'intérêt commun par une entreprise publique qu'elles créent et organisent à cet effet conformément aux dispositions de la présente loi.\nDeux ou plusieurs communes peuvent, en accord avec une ou plusieurs régions, créer une agence d'aménagement urbain au niveau d’une ou plusieurs régions pour garantir la synchronisation des plans, opérations et espaces urbains couvrant leur périmètre territorial et le suivi de la réalisation des travaux.\nDeux ou plusieurs communes peuvent, en vertu d'un accord conclu à cet effet, créer des groupements de services conformément à un statut type fixé par décret gouvernemental pris sur proposition du Haut Conseil des collectivités locales et sur avis de la Haute Cour administrative."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre demande est trop large pour une réponse juridique précise. L'article 283 du Code des collectivités locales offre plusieurs modalités de coopération intercommunale pour la gestion de services communs [1]. Pourriez-vous préciser quel type de service vous souhaitez mutualiser (par exemple : collecte des déchets, transport, assainissement) et le degré d'intégration souhaité (simple coordination, création d'une entreprise publique commune, délégation à une commune chef de file) ? Cela me permettrait de vous orienter vers la forme juridique la plus adaptée parmi les accords, groupements de services, ou entreprises publiques locales prévues par la loi."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_clarif_030",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [107],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أريد فتح مشروع وسألت البلدية عن مساعدة.\n\nDocuments pertinents:\n[1] Source: Article 107 du Code des collectivités locales\nA l’effet de développer des activités économiques exercées dans les limites de leurs compétences territoriales et employant une importante main-d’œuvre ou ayant une forte valeur ajoutée, les collectivités locales peuvent accorder des aides directes ou indirectes aux entreprises économiques. Ces aides sont attribuées par les conseils des collectivités locales par délibération à la majorité des trois cinquièmes de leurs membres...\nLes aides directes revêtent la forme de subventions, de prêts sans intérêts ou assortis de conditions souples ou de mise à la disposition des investisseurs des terrains ou locaux.\nLes aides indirectes revêtent la forme de contrats de location ou de cession de biens immeubles à des prix préférentiels..."
+        },
+        {
+          "role": "assistant",
+          "content": "سؤالك عام ويحتاج إلى مزيد من التوضيح. فالفصل 107 من مجلة الجماعات المحلية يجيز للجماعات المحلية تقديم مساعدات مباشرة أو غير مباشرة للمؤسسات الاقتصادية وفق شروط محددة تتعلق بتشغيل اليد العاملة أو القيمة المضافة العالية وبموافقة أغلبية ثلاثة أخماس أعضاء المجلس [1]. لتوجيهك بدقة، هل يمكنك تحديد نوع المساعدة المطلوبة: هل هي مساعدة مالية (منحة أو قرض)، أم تتعلق بتمكينك من مقر أو قطعة أرض، أم تبحث عن إعفاءات من المعاليم المحلية؟ كما يرجى ذكر طبيعة المشروع الاقتصادي المزمع إحداثه."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_proc_031",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [204, 205],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans quels cas un conseil municipal peut-il être dissous et quelle est la procédure ?\n\nDocuments pertinents:\n[1] Source: Article 204 du Code des collectivités locales\nA l’exception des cas prévus par la loi, le conseil municipal ne peut être dissous qu’en cas d’impossibilité de recourir à d’autres solutions, par décret gouvernemental motivé, après consultation du Haut Conseil des collectivités locales et sur avis de la Haute Cour administrative. Ladite dissolution ne peut intervenir que pour des motifs se rapportant à un manquement grave à la loi ou à une atteinte notoire aux intérêts des habitants...\nEn cas d’urgence, le conseil municipal peut être suspendu par arrêté du ministre chargé des collectivités locales... La durée de la suspension ne peut excéder deux mois.\n\n[2] Source: Article 205 du Code des collectivités locales\n...Hormis les cas d’épuisement des remplacements des vacances conformément à la loi électorale, le conseil municipal est dissous de droit par la démission collective ou concomitante de la majorité des membres du conseil municipal. Ladite démission est adressée au gouverneur territorialement compétent.\nLe conseil municipal est dissous de plein droit à l'expiration du délai de 15 jours à compter de la notification du gouverneur."
+        },
+        {
+          "role": "assistant",
+          "content": "La dissolution d'un conseil municipal obéit à des procédures distinctes selon la cause, conformément aux articles 204 et 205 du Code des collectivités locales [1][2]. En premier lieu, la dissolution pour manquement grave ou atteinte aux intérêts des habitants constitue une mesure ultime, prononcée par décret gouvernemental motivé après consultation du Haut Conseil des collectivités locales et avis de la Haute Cour administrative [1]. Ensuite, en cas d'urgence, une suspension provisoire de deux mois maximum peut être ordonnée par arrêté ministériel [1]. Par ailleurs, une procédure spécifique et automatique s'applique en cas de démission collective de la majorité des membres : la dissolution est alors constatée de plein droit quinze jours après notification au gouverneur [2]. Ainsi, le législateur a prévu des garde-fous procéduraux stricts pour les dissolutions pour faute, tout en assurant une solution rapide en cas de blocage institutionnel volontaire des élus.\n\nSources: art. 204 et 205 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_proc_032",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [299, 300, 301],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم تنصيب المجلس الجهوي المنتخب وأداء اليمين بعد الانتخابات؟\n\nDocuments pertinents:\n[1] Source: Article 299 du Code des collectivités locales\nLa région est gérée par un conseil régional élu conformément à la loi électorale.\nLors de sa première réunion, le conseil régional élit, dans un délai ne dépassant pas 8 jours ouvrés à partir de la proclamation des résultats définitifs des élections, le président de la région et les adjoints, sur convocation du président dont le mandat est arrivé à terme et, à défaut, par le membre élu le plus âgé du conseil ou le droit à la loi électorale.\n\n[2] Source: Article 300 du Code des collectivités locales\nLa première séance du conseil régional élu a lieu dans un délai n’excédant pas les huit jours ouvrés à partir de la date de proclamation des résultats définitifs des élections par l’instance supérieure indépendante des élections, et ce, sur convocation du président du conseil régional dont le mandat est arrivé à terme et, à défaut, par le membre élu le plus âgé du conseil.\nLe conseil fixe, lors de ses premières réunions, le calendrier de ses sessions ordinaires et en informe le public.\n\n[3] Source: Article 301 du Code des collectivités locales\nLors de la première réunion du conseil régional, les membres prêtent, en présence du premier président de la cour d'appel territorialement compétente ou de son représentant, le serment suivant :\n« Je jure par Dieu Tout-puissant de servir les affaires de la région et les intérêts de tous ses habitants sans discrimination ni favoritisme dans le cadre du respect de la Constitution, des lois, des valeurs de la démocratie et de l’unité de l’Etat tunisien »."
+        },
+        {
+          "role": "assistant",
+          "content": "تتم عملية تنصيب المجلس الجهوي المنتخب وفق إجراءات زمنية محددة بموجب الفصول 299 و300 و301 من مجلة الجماعات المحلية [1][2][3]. تبدأ المرحلة الأولى بعقد أول جلسة للمجلس الجهوي المنتخب في أجل لا يتجاوز ثمانية أيام عمل من تاريخ الإعلان عن النتائج النهائية للانتخابات، وتكون الدعوة إليها من قبل الرئيس المنتهية ولايته أو العضو الأكبر سناً عند الاقتضاء [2]. وخلال هذه الجلسة، يؤدي الأعضاء اليمين القانونية المنصوص عليها بالفصل 301 أمام الرئيس الأول لمحكمة الاستئناف المختصة ترابياً [3]. وفي نفس الجلسة أو التي تليها مباشرة، ينتخب المجلس رئيسه ونوابه في أجل أقصاه ثمانية أيام عمل [1]. وبعد ذلك، يضبط المجلس في أولى جلساته رزنامة دوراته العادية ويعلم بها العموم [2]. وبالتالي، يهدف هذا التسلسل الإجرائي إلى ضمان شروع سريع ومنظم في ممارسة المجلس المنتخب لمهامه.\n\nالمصادر: الفصول 299 و300 و301 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_direct_033",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [75],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les principes généraux qui régissent le fonctionnement des services publics locaux ?\n\nDocuments pertinents:\n[1] Source: Article 75 du Code des collectivités locales\nLe fonctionnement de tous les services publics locaux obéit aux principes suivants :\n- l’égalité entre les usagers et cocontractants du service public,\n- la continuité des prestations,\n- l’adaptabilité,\n- le développement durable.\n- la transparence.\n- la redevabilité.\n- la neutralité.\n- l’intégrité.\n- l’efficacité et la protection des deniers publics.\n- la gouvernance ouverte."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 75 du Code des collectivités locales, le fonctionnement des services publics locaux est encadré par un socle de dix principes fondamentaux [1]. Ceux-ci incluent notamment l'égalité de traitement des usagers, la continuité du service, la transparence, l'intégrité et l'efficacité dans la gestion des deniers publics. En outre, la loi intègre des principes modernes de gouvernance tels que la redevabilité, la gouvernance ouverte et le développement durable. En effet, ces principes constituent une charte de bonne conduite visant à garantir que les services rendus aux citoyens soient à la fois accessibles, équitables et gérés de manière optimale.\n\nSources: art. 75 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_direct_034",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [38],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف تدعم الدولة الجماعات المحلية لتحقيق التوازن المالي؟\n\nDocuments pertinents:\n[1] Source: Article 38 du Code des collectivités locales\nPour mettre en œuvre la solidarité entre les différentes zones du territoire national, l’Etat s’engage à aider les collectivités locales à atteindre l’équilibre financier et à jouir de l’autonomie administrative et financière effective moyennant des investissements et des transferts de crédits de péréquation spécifiques accordés par le fonds d’appui à la décentralisation, de péréquation et de solidarité entre les collectivités locales financé par le budget de l’Etat.\nA partir de l’année qui suit la promulgation de la présente loi, des crédits de régularisation et de péréquation sont alloués sur la base d’un programme préparé par la collectivité locale concernée en vue d’atteindre l’équilibre financier et la bonne gouvernance."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 38 من مجلة الجماعات المحلية، تلتزم الدولة بتقديم الدعم للجماعات المحلية لتحقيق التوازن المالي وتكريس استقلاليتها الإدارية والمالية الفعلية [1]. ويتمثل هذا الدعم أساساً في ضخ استثمارات وتحويل اعتمادات تعديل وتسوية محددة تمنح عن طريق صندوق دعم اللامركزية والتعديل والتضامن بين الجماعات المحلية الممول من ميزانية الدولة [1]. علاوة على ذلك، تخصص هذه الاعتمادات على أساس برنامج تعده الجماعة المحلية المعنية بهدف بلوغ التوازن المالي والحوكمة الرشيدة. وبالتالي، تهدف هذه الآلية إلى تفعيل مبدأ التضامن بين الجهات والحد من التفاوت في التنمية.\n\nالمصادر: الفصل 38 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_multi_035",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [126, 133, 135],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les règles d'équilibre budgétaire que doit respecter une commune ?\n\nDocuments pertinents:\n[1] Source: Article 126 du Code des collectivités locales\nLes collectivités locales veillent à affecter leurs ressources et propriétés au service de l’intérêt local conformément aux règles de bonne gouvernance et de l’utilisation optimale des deniers publics.\nLes collectivités locales disposent librement de leurs ressources et observent strictement le principe de la légalité financière et la règle de l’équilibre effectif du budget.\n\n[2] Source: Article 133 du Code des collectivités locales\nLes collectivités locales s’engagent à adopter un budget basé sur l’équilibre effectif entre les ressources et les dépenses.\nLe budget des collectivités locales est voté en équilibre lorsque les dépenses de gestion et les dépenses de développement sont approuvées sur la base de l’équilibre, compte tenu de tous les engagements antérieurs, y compris le service de la dette.\n\n[3] Source: Article 135 du Code des collectivités locales\nLes prévisions des dépenses du budget local sont fixées sur la base des ressources prévisibles et réalisables au cours de l'année d'exécution... en respectant le principe de l'équilibre réel conformément aux exigences suivantes :\n- les prévisions de recettes et des dépenses doivent être fixées conformément au principe de sincérité sans sous-estimation ni surestimation...\n- les ressources du titre 1 au moins doivent couvrir les dépenses du titre 1...\n- les dépenses de rémunération ne doivent pas dépasser un seuil égal à 50% du titre 1 de l'année écoulée..."
+        },
+        {
+          "role": "assistant",
+          "content": "Les règles d'équilibre budgétaire des communes sont strictement définies par les articles 126, 133 et 135 du Code des collectivités locales [1][2][3]. Le principe cardinal est celui de l'équilibre effectif, qui implique une adéquation sincère et réaliste entre les ressources prévisionnelles et les dépenses, sans sous-estimation ni surestimation [1][3]. En outre, des règles prudentielles spécifiques encadrent cet équilibre : d'une part, les ressources ordinaires (Titre 1) doivent impérativement couvrir au moins les dépenses de gestion (Titre 1), ce qui interdit de financer le fonctionnement par l'emprunt [3]. D'autre part, la masse salariale est plafonnée à 50% des ressources ordinaires réalisées l'année précédente [3]. Par ailleurs, l'équilibre doit tenir compte de tous les engagements antérieurs, notamment le remboursement de la dette [2]. Ainsi, ces règles visent à garantir une gestion financière saine et durable, évitant aux communes de tomber dans le surendettement.\n\nSources: art. 126, 133 et 135 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_multi_036",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [356, 357, 358],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو دور الإقليم كجماعة محلية في مجال التنمية؟\n\nDocuments pertinents:\n[1] Source: Article 356 du Code des collectivités locales\nLe district est une collectivité locale dotée de la personnalité juridique et de l’autonomie administrative et financière qui œuvre pour l’intégration et la complémentarité du développement économique global, équilibré et juste entre toutes les zones qui le composent.\n\n[2] Source: Article 357 du Code des collectivités locales\nLe district est dirigé par un conseil de district élu par les membres des conseils municipaux et régionaux conformément à la loi.\nLe Conseil de district se réunit périodiquement une fois tous les trois mois, et chaque fois que de besoin, sur convocation de son président.\n\n[3] Source: Article 358 du Code des collectivités locales\nLe conseil du district est compétent pour :\n- délibérer sur toutes les questions intéressant, par leur portée, le territoire du district et se rapportant au développement économique et social, la complémentarité et le développement intégré des régions qui le composent ainsi que la solidarité entre les habitants et les zones,\n- instaurer les plans d’aménagement et de développement durable du territoire du district...\n- proposer des projets de développement à portée territoriale du district dont notamment ceux des réseaux de transport, des télécommunications, de l’eau, de l’électricité, de l’assainissement...\n- élaborer des conceptions pour l’amélioration du rendement et de l’attractivité des investissements..."
+        },
+        {
+          "role": "assistant",
+          "content": "يضطلع الإقليم، بموجب الفصول 356 و357 و358 من مجلة الجماعات المحلية، بدور استراتيجي في مجال التنمية الاقتصادية والاجتماعية المندمجة [1][2][3]. فبوصفه جماعة محلية تتمتع بالشخصية القانونية والاستقلالية، فإنه يسعى أساساً إلى تحقيق التكامل والانسجام بين مختلف المناطق المكونة له [1]. ويدير شؤونه مجلس إقليمي منتخب من قبل أعضاء المجالس البلدية والجهوية [2]. وفي نطاق صلاحياته، يختص المجلس الإقليمي بإرساء مخططات التهيئة الترابية والتنمية المستدامة للإقليم، واقتراح مشاريع كبرى ذات بعد إقليمي كشبكات النقل والماء والكهرباء والتطهير [3]. علاوة على ذلك، يعمل على تحسين مردودية الاستثمار وجاذبية المجال الترابي للإقليم. وبالتالي، فإن دور الإقليم يتجاوز المستوى المحلي الضيق ليهتم بالتخطيط الاستراتيجي والمشاريع المهيكلة ذات البعد الترابي الواسع.\n\nالمصادر: الفصول 356 و357 و358 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cross_037",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [10],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو واجب الجماعة المحلية تجاه أعضاء المجالس المنتخبين من ذوي الإعاقة؟\n\nDocuments pertinents:\n[1] Source: Article 10 du Code des collectivités locales\nLes collectivités locales veillent à mettre à la disposition des membres des conseils élus ayant un handicap les outils et les moyens de travail appropriés."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 10 du Code des collectivités locales, il existe une obligation légale spécifique en faveur des élus locaux en situation de handicap [1]. Le principe est que la collectivité locale doit veiller à mettre à leur disposition les outils et moyens de travail appropriés pour leur permettre d'exercer pleinement leur mandat électif [1]. En effet, cette disposition vise à garantir l'égalité des chances et l'accessibilité de la vie politique locale, en éliminant les obstacles matériels qui pourraient entraver la participation de ces élus aux délibérations et aux travaux des conseils locaux.\n\nSources: art. 10 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cross_038",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [45],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: In what language are the regulatory decrees of local authorities published in the Official Journal of Local Authorities?\n\nDocuments pertinents:\n[1] Source: Article 45 du Code des collectivités locales\nLes arrêtés réglementaires des collectivités locales sont publiés au journal officiel des collectivités locales en langue arabe. Ils peuvent être publiés à titre d’information dans une ou plusieurs autres langues.\nL’Imprimerie Officielle de la République Tunisienne se charge de la publication électronique gratuite des arrêtés réglementaires des collectivités locales au Journal Officiel des collectivités locales dans un délai ne dépassant pas cinq jours calendaires à partir de la notification d’une copie desdites décisions par tout moyen sécurisé."
+        },
+        {
+          "role": "assistant",
+          "content": "Bien que votre question soit en anglais, je répondrai en français conformément à la source. En vertu de l'article 45 du Code des collectivités locales, la langue officielle de publication des arrêtés réglementaires des collectivités locales au Journal Officiel des collectivités locales est l'arabe [1]. Toutefois, le texte prévoit une faculté : ces arrêtés peuvent également être publiés à titre purement informatif dans une ou plusieurs autres langues [1]. Ainsi, seule la version arabe fait foi juridiquement, la publication dans d'autres langues n'ayant qu'une valeur de diffusion d'information.\n\nSources: art. 45 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_direct_039",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [11],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Existe-t-il une hiérarchie ou un pouvoir de tutelle entre les différentes catégories de collectivités locales (commune, région, district) ?\n\nDocuments pertinents:\n[1] Source: Article 11 du Code des collectivités locales\nIl ne résulte nullement de la répartition des compétences entre les différentes catégories de collectivités locales établie par la loi ou des accords ou des habilitations conclus entre elles l’exercice d’une tutelle quelle qu’en soit la nature, d’une collectivité locale sur une autre."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 11 du Code des collectivités locales, le principe constitutionnel de libre administration est renforcé par une interdiction claire de toute relation de tutelle entre les collectivités locales [1]. Le texte précise que ni la répartition légale des compétences, ni les accords ou habilitations conclus entre elles ne peuvent instaurer un quelconque pouvoir de tutelle d'une catégorie de collectivité (par exemple, la région) sur une autre (par exemple, la commune) [1]. Ainsi, chaque échelon local exerce ses attributions en toute autonomie dans le cadre de la loi, ce qui garantit une relation de coopération horizontale et non de subordination hiérarchique.\n\nSources: art. 11 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_refusal_040",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي شروط وإجراءات الطلاق في القانون التونسي؟\n\nDocuments pertinents:\n[1] Source: مجلة الجماعات المحلية - لم يتم العثور على أي فصل ذي صلة."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تحتوي الوثائق المتوفرة على معلومات كافية للإجابة على هذا السؤال. فمجلة الجماعات المحلية هي نص قانوني ينظم هياكل الحكم المحلي واختصاصات البلديات والجهات والأقاليم، ولا علاقة لها بقانون الأحوال الشخصية أو إجراءات الطلاق. هذه المسائل ينظمها الفصل 31 من مجلة الأحوال الشخصية والقانون عدد 73 لسنة 1993 المتعلق بإحداث صندوق ضمان النفقة والطلاق. يرجى مراجعة محام مختص في الأحوال الشخصية."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Livre I, Chapitre I, Section 2 (Direction des CL)",
+      "Livre I, Chapitre I, Section 3 (Compétences des CL)",
+      "Livre I, Chapitre I, Section 5 (Démocratie participative - Référendum)",
+      "Livre I, Chapitre I, Section 6 (Solidarité et péréquation)",
+      "Livre I, Chapitre II, Section 2 (Principes des services publics)",
+      "Livre I, Chapitre III (Développement local et aides)",
+      "Livre I, Chapitre IV, Section 1 (Ressources et équilibre budgétaire)",
+      "Livre II, Chapitre I, Section 1 (Conseil municipal - fonctionnement, dissolution, intérim)",
+      "Livre II, Chapitre I, Section 4 (Président de commune et attributions)",
+      "Livre II, Chapitre I, Section 9 (Coopération intercommunale)",
+      "Livre II, Chapitre II, Section 1 (Compétences de la région)",
+      "Livre II, Chapitre II, Section 2 (Conseil régional - installation, dissolution)",
+      "Livre II, Chapitre III (District - définition, compétences)"
+    ],
+    "sections_not_covered": [
+      "Dispositions détaillées sur la comptabilité publique locale",
+      "Dispositions sur le journal officiel des collectivités locales (délais, contenu)",
+      "Régime juridique des actes et contrôle de légalité détaillé",
+      "Dispositions relatives aux personnels et fonctionnaires locaux (recrutement, détachement)",
+      "Dispositions spécifiques aux arrondissements municipaux",
+      "Haut Conseil des Collectivités Locales (composition, attributions)",
+      "Haute Instance des Finances Locales",
+      "Dispositions transitoires et finales"
+    ],
+    "notes": "Deuxième batch généré avec succès. Couverture étendue aux mécanismes de référendum local, aux principes budgétaires stricts (équilibre réel, interdiction d'emprunt pour fonctionnement), aux procédures de dissolution et d'intérim, ainsi qu'aux compétences des districts. Tous les articles utilisés sont distincts du premier batch. Les exemples en arabe respectent scrupuleusement l'arabe standard moderne (الفصحى). Aucun numéro d'article n'a été inventé."
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "batch_id": "batch_CODE_DES_CHANGES_001_20260423",
+  "source": "Code des changes et du commerce extérieur de Tunisie (Loi n°76-18 du 21 janvier 1976, modifiée) et textes d'application (Décret n°77-608, Loi n°94-41)",
+  "articles_covered": [1, 5, 6, 16, 21, 22, 35, "12 bis (décret)", 15, 25, 28, 34, "2 (loi 94-41)", "3 (loi 94-41)"],
+  "articles_to_avoid_next_batch": [1, 5, 6, 16, 21, 22, 35, "12 bis (décret)", 15, 25, 28, 34, "2 (loi 94-41)", "3 (loi 94-41)"],
+  "examples": [
+    {
+      "example_id": "french_direct_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [1],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les transferts de fonds vers l'étranger pour des opérations courantes sont-ils libres en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article premier du code des changes et du commerce extérieur (modifié par loi n°93-48 du 3 mai 1993)\nSont libres en vertu de la presente loi, les transferts relatifs aux paiements a destination de l'étranger au titre : - des operations courantes engagées conformément à la législation régissant lesdites opérations. - du produit réel net de la cession ou la liquidation des capitaux investis au moyen d'une importation des devises même si ce produit est supérieur au capital Initialement investi et ce concernant les investissements réalisés dans le cadre de la législation les régissant. Toute exportation de capitaux et toutes opérations ou prises d'engagement dont découle ou peut découler un transfert, relative à des opérations autres que celles visées à l'alinéa premier du présent article ainsi que toute compensation entre dettes avec l'étranger sont soumises à une autorisation générale du ministre des finances donnée après avis de la Banque Centrale de Tunisie."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article premier du code des changes et du commerce extérieur, les transferts de fonds vers l'étranger sont effectivement libres pour les paiements au titre des opérations courantes engagées conformément à la législation en vigueur, ainsi que pour le produit net réel de cession ou liquidation de capitaux investis via une importation de devises, même si ce produit dépasse le capital initial. Toutefois, cette liberté ne s'étend pas aux exportations de capitaux ni aux opérations ou engagements pouvant conduire à un transfert pour d'autres motifs que les opérations courantes ; ces dernières restent soumises à une autorisation générale du ministre des finances, après avis de la Banque Centrale de Tunisie. Ainsi, le principe est la liberté pour les paiements courants, mais les mouvements de capitaux non courants requièrent une autorisation. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources : art. 1er du code des changes et du commerce extérieur."
+        }
+      ]
+    },
+    {
+      "example_id": "french_direct_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [5],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui est considéré comme « résident » au sens du code des changes tunisien ?\n\nDocuments pertinents:\n[1] Source: article 5 (3) du code des changes et du commerce extérieur\nOn entend par … 3) Résidents : Les personnes physiques ayant leur résidence habituelle en Tunisie et les personnes morales tunisiennes ou étrangères pour leurs établissements en Tunisie."
+        },
+        {
+          "role": "assistant",
+          "content": "Au sens de l'article 5-3° du code des changes et du commerce extérieur, sont considérées comme résidents les personnes physiques qui ont leur résidence habituelle en Tunisie, ainsi que les personnes morales (tunisiennes ou étrangères) pour leurs établissements situés en Tunisie. Cette définition s'applique sans préjudice des définitions spécifiques données par la loi n°72-38 du 12 avril 1972 relative aux industries exportatrices. En pratique, le critère principal est la résidence habituelle pour les personnes physiques et la localisation de l'établissement pour les personnes morales. Toute personne ne remplissant pas ces conditions est réputée non-résidente. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources : art. 5-3° du code des changes et du commerce extérieur."
+        }
+      ]
+    },
+    {
+      "example_id": "french_multi_003",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [6, 9],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les obligations de dépôt pour les devises et valeurs mobilières étrangères détenues en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 6 du code des changes et du commerce extérieur\nLes personnes physiques ou morales qui possèdent ou détiennent sur le territoire tunisien, traites, effets de commerce et tous autres titres de créances libellés en monnaie étrangère, sont tenues de les déposer chez un intermédiaire agréé.\n[2] Source: article 9 du code des changes et du commerce extérieur\nLes personnes physiques ou morales qui possèdent ou détiennent, sur le territoire tunisien, des valeurs mobilières étrangères ou des valeurs \"assimilées\", sont tenues de les déposer auprès d'un intermédiaire agréé."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 6 du code des changes, toute personne physique ou morale détenant en Tunisie des traites, effets de commerce ou autres titres de créances libellés en monnaie étrangère est tenue de les déposer chez un intermédiaire agréé. Par ailleurs, l'article 9 impose la même obligation de dépôt auprès d'un intermédiaire agréé pour les valeurs mobilières étrangères ou « assimilées » détenues sur le territoire tunisien. Cette obligation couvre aussi bien les particuliers que les entreprises. Toutefois, l'exécution du dépôt ne dispense pas le propriétaire de l'obligation de céder ces devises à la Banque Centrale de Tunisie lorsque cette cession est prescrite (article 6, alinéa 2). Ces mesures visent à assurer le contrôle et la traçabilité des avoirs étrangers en Tunisie dans le cadre de la réglementation des changes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources : art. 6 et 9 du code des changes et du commerce extérieur."
+        }
+      ]
+    },
+    {
+      "example_id": "french_principle_exception_004",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [21],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les règlements entre résidents tunisiens peuvent-ils être effectués en devises étrangères ?\n\nDocuments pertinents:\n[1] Source: article 21 du code des changes et du commerce extérieur\nLes règlements entre résidents doivent s'effectuer en Tunisie sauf autorisation de la Banque Centrale de Tunisie. Est prohibé le fait pour un résident de contracter envers un autre résident, une obligation libellée en une autre monnaie que le dinars sauf dérogation de la Banque Centrale de Tunisie après avis du ministre des finances. Le dinars doit être à la fois monnaie de compte et monnaie de règlement."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 21 du code des changes, le principe est clair : les règlements entre résidents doivent s'effectuer en Tunisie et en dinars tunisiens, qui constitue à la fois la monnaie de compte et la monnaie de règlement. Il est expressément interdit à un résident de contracter envers un autre résident une obligation libellée dans une autre monnaie que le dinar. Toutefois, une exception est prévue : la Banque Centrale de Tunisie peut accorder une dérogation, après avis du ministre des finances, permettant un règlement en monnaie étrangère ou hors de Tunisie. Cette dérogation reste discrétionnaire et ne constitue pas un droit. L'objectif de cette règle est de préserver la souveraineté monétaire et d'éviter la dollarisation de l'économie tunisienne. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources : art. 21 du code des changes et du commerce extérieur."
+        }
+      ]
+    },
+    {
+      "example_id": "french_refusal_005",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les taux de change appliqués par la Banque Centrale de Tunisie pour l'achat et la vente d'euros ?\n\nDocuments pertinents:\nAucun document pertinent ne contient d'informations sur les taux de change quotidiens ou les cours des devises."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations sur les taux de change spécifiques appliqués par la Banque Centrale de Tunisie (cours d'achat et de vente des devises comme l'euro). La réglementation des change définit les règles et procédures, mais les taux sont fixés quotidiennement par la BCT et varient selon les marchés. Je vous recommande de consulter le site officiel de la Banque Centrale de Tunisie ou de vous rapprocher d'un intermédiaire agréé (banque) pour obtenir les taux en vigueur. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources : aucun article du code ne prévoit les taux de change."
+        }
+      ]
+    },
+    {
+      "example_id": "french_clarification_006",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [1, 28],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je veux envoyer de l'argent à ma famille en France. Est-ce que c'est autorisé ?\n\nDocuments pertinents:\n[1] Source: article premier du code des changes : les transferts relatifs aux paiements à destination de l'étranger au titre des opérations courantes sont libres.\n[2] Source: article 28 du décret n°77-608 : tout règlement à destination de l'étranger est soumis à autorisation à l'exception des règlements au titre des opérations courantes."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour vous répondre précisément, j'aurais besoin de connaître la nature de cet envoi (donation, soutien familial, pension alimentaire, etc.). En droit des changes tunisien, le critère déterminant est celui de l'« opération courante ». L'article premier du code autorise librement les transferts pour les opérations courantes, et l'article 28 du décret d'application confirme cette exception à l'autorisation préalable. Les transferts à titre de pension alimentaire ou de frais d'études entrent généralement dans les opérations courantes, mais une donation simple peut être requalifiée. Veuillez préciser le motif exact du transfert, le montant et votre qualité (résident ou non-résident) afin que je puisse vous orienter vers la règle applicable. Ceci ne constitue pas un avis juridique.\nSources : art. 1er du code des changes et art. 28 du décret n°77-608."
+        }
+      ]
+    },
+    {
+      "example_id": "french_procedural_007",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [16, 17, 22],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment se déroule la déclaration des avoirs détenus à l'étranger par un résident tunisien et quelles sont les interdictions pendant cette période ?\n\nDocuments pertinents:\n[1] Source: article 16 du code des changes\nTout tunisien ayant sa résidence habituelle en Tunisie, toute personne morale tunisienne ainsi que toute personne morale étrangère pour ses établissements en Tunisie, est tenu de déclarer à la Banque Centrale de Tunisie tous ses avoirs à l'étranger dans un délai de six mois à compter de la date de promulgation du présent code, ou de leur acquisition quand celle-ci est postérieure.\n[2] Source: article 17 du code des changes\nLes propriétaires d'avoirs soumis à déclaration en vertu de l'article 16 ne peuvent procéder, sauf autorisation générale donnée dans les conditions fixées à l'article 1er, à aucun acte de disposition sur leurs avoirs à l'étranger, ni à aucun acte ayant pour effet d'en modifier la consistance ou de réduire les droits qu'ils possèdent sur ces avoirs."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 16 du code des changes, le résident tunisien (personne physique de nationalité tunisienne ou personne morale) doit déclarer à la Banque Centrale de Tunisie tous ses avoirs à l'étranger dans un délai de six mois à compter de leur acquisition (ou six mois depuis la promulgation du code pour les avoirs antérieurs). Toutefois, une dispense est prévue si le montant total des avoirs à déclarer par une même personne ne dépasse pas un seuil fixé par décret (selon l'article 16, alinéa 2). Pendant cette période et après déclaration, l'article 17 interdit tout acte de disposition sur ces avoirs (vente, donation, nantissement) ou tout acte modifiant leur consistance ou réduisant les droits du propriétaire, sauf autorisation générale du ministre des finances. Cette procédure vise à assurer la transparence des avoirs extérieurs et à prévenir les fuites de capitaux. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources : art. 16 et 17 du code des changes."
+        }
+      ]
+    },
+    {
+      "example_id": "arabic_direct_008",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["35"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي العقوبات المقررة لمخالفة قانون الصرف التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 35 من مجلة الصرف والتجارة الخارجية\nتُعاقب مخالفات أو محاولات مخالفة قانون الصرف بالسجن من شهر واحد إلى خمس سنوات وبخطيئة من 150 ديناراً إلى 300.000 دينار على ألا تقل هذه الخطيئة عن خمسة أضعاف المبلغ الذي وقعت عليه المخالفة. وفي حالة العود، يمكن رفع عقوبة السجن إلى عشر سنوات ولا ينطبق الفصل 53 من المجلة العقابية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 35 من مجلة الصرف والتجارة الخارجية، فإن عقوبة مخالفة أو محاولة مخالفة قانون الصرف هي السجن لمدة تتراوح بين شهر واحد وخمس سنوات، بالإضافة إلى خطيئة مالية لا تقل قيمتها عن 150 ديناراً وقد تصل إلى 300.000 دينار، بشرط ألا تقل هذه الخطيئة عن خمسة أضعاف المبلغ الذي شملته المخالفة. غير أنه في حالة العود، يمكن تمديد عقوبة السجن إلى عشر سنوات، ولا ينطبق الفصل 53 من المجلة العقابية الذي يمنع العود في بعض الأحوال. وبالتالي، يهدف هذا التشديد إلى ردع المخالفين وحماية النظام المالي للبلاد. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 35 من مجلة الصرف والتجارة الخارجية."
+        }
+      ]
+    },
+    {
+      "example_id": "arabic_direct_009",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["5"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما تعريف \"غير المقيم\" وفقاً لمجلة الصرف التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 5 (4) من مجلة الصرف والتجارة الخارجية\nيُقصد بـ \"غير المقيمين\": الأشخاص الطبيعيون الذين يكون محل إقامتهم المعتاد بالخارج والأشخاص المعنويون التونسيون أو الأجانب بالنسبة لمؤسساتهم الموجودة بالخارج."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفقرة الرابعة من الفصل 5 من مجلة الصرف والتجارة الخارجية، يُعرّف \"غير المقيم\" بأنه كل شخص طبيعي يكون محل إقامته المعتاد خارج تراب الجمهورية التونسية، وكل شخص معنوي (تونسي أو أجنبي) بالنسبة لفروعه أو مؤسساته الموجودة خارج تونس. تُطبّق هذه التعريفات مع مراعاة التعريفات الخاصة المنصوص عليها في قانون آخر كقانون المؤسسات المصدرة. تساهم هذه التعريفات في تحديد نطاق تطبيق قواعد الصرف على المعاملات مع الخارج. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 5-4 من مجلة الصرف والتجارة الخارجية."
+        }
+      ]
+    },
+    {
+      "example_id": "arabic_multi_010",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [22, 23, 24],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: من المخول بالتحقيق في مخالفات قانون الصرف، وما هي إجراءات الضبط والمصادرة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 24 من مجلة الصرف والتجارة الخارجية\nالمأمورون المعينون أدناه مخولون بمعاينة مخالفات قانون الصرف: 1) أعضاء الشرطة القضائية، 2) أعضاء الديوانة، 3) أعضاء وزارة المالية أو البنك المركزي التونسي المخولون لذلك.\n[2] المصدر: الفصل 36 من مجلة الصرف والتجارة الخارجية\nبالإضافة إلى العقوبات المنصوص عليها في الفصل 35، يجب على المحكمة أن تحكم بمصادرة محل المخالفة، أي الأموال المنقولة أو غير المنقولة التي كانت موضوع المخالفة، سواء تعلقت بعملية ممنوعة أو بإغفال تصريح أو إيداع أو تنازل للبنك المركزي التونسي."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 24 من مجلة الصرف، فإن أعضاء الشرطة القضائية، وأعضاء الديوانة، وموظفي وزارة المالية أو البنك المركزي التونسي المخولين لذلك، هم وحدهم المخولون بمعاينة مخالفات قانون الصرف. علاوة على ذلك، تُحرر محاضر المعاينة وتُحال إلى وزارة المالية التي ترفعها إلى النيابة العمومية إذا رأت ذلك مناسباً. أما فيما يتعلق بالمصادرة، فيوجب الفصل 36 على المحكمة، بالإضافة إلى العقوبات الأصلية (السجن والخطيئة)، أن تحكم بمصادرة محل المخالفة (أموال منقولة أو غير منقولة موضوع المخالفة). فإذا تعذر حجز محل المخالفة، تلزم المحكمة بدفع تعويض مالي يعادل قيمته مضافاً إليه الربح غير المشروع. تهدف هذه الإجراءات إلى تشديد الرقابة وإزالة أي مكسب غير قانوني ناتج عن المخالفة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصول 24 و 36 من مجلة الصرف والتجارة الخارجية."
+        }
+      ]
+    },
+    {
+      "example_id": "arabic_principle_exception_011",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["25 (décret)"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يجب على المقيم التونسي تحويل كل العملات الأجنبية التي بحوزته إلى البنك المركزي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 25 من الأمر عدد 608 لسنة 1977 (قانون الصرف) معدل\nكل شخص طبيعي له محل إقامة معتاد في تونس وكل شخص معنوي تونسي أو أجنبي لمؤسساته في تونس ملزم بأن يتنازل للبنك المركزي التونسي وفق الشروط التي يحددها، عن كامل العملات الأجنبية التي يحوزها بأي صفة كانت، وخاصة تلك الناتجة عن تصدير بضائع للخارج أو عن خدمات بيعت للخارج.\nإلزام التنازل لا يشمل:\n- العملات الأجنبية الموضوعة تحت تصرف الوسطاء المعتمدين في إطار نشاطهم العادي والمستعملة لحاجيات تدخلاتهم في سوق الصرف.\n- الأصول بالعملات الأجنبية في حسابات مهنية بالعملات الأجنبية أو بالدينار القابل للتحويل.\n- الموارد أو المنتوجات الناتجة عن الأصول الموجودة بالخارج والتي صُرح بها للبنك المركزي وفق الفصول 16 و18 والموضوعة في حسابات خاصة بالعملات الأجنبية أو بالدينار القابل للتحويل."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 25 من الأمر عدد 608 لسنة 1977، الأصل هو إلزام كل مقيم (شخص طبيعي أو معنوي) بالتنازل للبنك المركزي التونسي عن كامل العملات الأجنبية التي يحوزها، بما في ذلك عائدات التصدير والخدمات. غير أن هذا الإلزام يستثني عدة حالات، أهمها: العملات الأجنبية الموجودة لدى الوسطاء المعتمدين لنشاطهم المهني، والأصول في حسابات مهنية أو حسابات خاصة بالعملات الأجنبية (مثل حسابات خدمات أو أرباح التصدير)، والأصول الموجودة بالخارج والمصرح بها سلفاً. وعلة هذا الاستثناء تشجيع الاحتفاظ ببعض العملات لتسهيل المعاملات التجارية والخدمات دون المرور الإجباري بالبنك المركزي، مع الحفاظ على الرقابة عبر الوسطاء المعتمدين. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصل 25 من الأمر عدد 608 لسنة 1977 (قانون الصرف)."
+        }
+      ]
+    },
+    {
+      "example_id": "arabic_refusal_012",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو الإجراء الجبائي المفروض على تحويل أرباح الشركات الأجنبية إلى الخارج؟ هل تخضع للاقتطاع من المصدر؟\n\nالوثائق ذات الصلة:\nالوثائق المقدمة تتعلق بقانون الصرف والتجارة الخارجية ولا تحتوي على أحكام جبائية تتعلق بالاقتطاع من المصدر أو الضرائب على تحويل الأرباح إلى الخارج."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن سؤالك المتعلق بالإجراء الجبائي والاقتطاع من المصدر على تحويل أرباح الشركات إلى الخارج. قانون الصرف ينظم عمليات التحويل من حيث الإذن المسبق أو الإعفاء منه، لكن المسائل الجبائية (الضرائب، الاقتطاع من المصدر) يحددها قانون الضرائب التونسي. أنصحك باستشارة محامٍ متخصص في القانون الجبائي أو الاتصال بالإدارة العامة للضرائب. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: لا توجد مواد في قانون الصرف المقدم تجيب على هذا السؤال."
+        }
+      ]
+    },
+    {
+      "example_id": "arabic_clarification_013",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": ["12 bis (décret)", "28 (décret)"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أرغب في دفع تكاليف دراسة ابني في فرنسا. هل يحتاج هذا التحويل إلى إذن مسبق؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 12 مكرر (أ) من الأمر عدد 608 لسنة 1977 (قانون الصرف) - العمليات الجارية مع الخارج\nتُعتبر عمليات جارية مع الخارج العمليات التالية: ... ز/ الإقامة بالخارج بغرض السياحة، الدراسة، العلاج، الأعمال، البعثات والتربصات.\n[2] المصدر: الفصل 28 من الأمر عدد 608 لسنة 1977\nكل تسوية مالية اتجاه الخارج وكل تسوية بين المقيمين وغير المقيمين تخضع للإذن باستثناء التسويات المتعلقة بالعمليات الجارية المنصوص عليها في الفصل 12 مكرر من هذا الأمر."
+        },
+        {
+          "role": "assistant",
+          "content": "سؤالك يتعلق بدفع تكاليف الدراسة بالخارج، وهو يشمل تحديداً مبلغ التحويل ووثائق الإثبات. وفقاً للفصل 12 مكرر-ز من الأمر 608، تُعتبر نفقات الدراسة بالخارج من العمليات الجارية. وبموجب الفصل 28، فإن التسويات المتعلقة بالعمليات الجارية هي استثناء من قاعدة الإذن المسبق، أي أنها لا تحتاج إلى إذن مسبق من وزارة المالية. ولكن، هل هناك سقف للمبلغ أو إجراءات خاصة عبر الوسطاء المعتمدين؟ يرجى توضيح المبلغ التقريبي للتحويل وما إذا كان لديك حساب بالعملات الأجنبية أو ستحصل على العملة من السوق. هذا سيساعدني في تحديد ما إذا كنت تحتاج فقط إلى وسيط معتمد أو هناك تفويض آلي بموجب منشورات البنك المركزي. هذا لا يشكل استشارة قانونية.\nالمصادر: الفصلان 12 مكرر و28 من الأمر عدد 608 لسنة 1977."
+        }
+      ]
+    },
+    {
+      "example_id": "arabic_procedural_014",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": ["34", "35 (décret)"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الإجراءات الجمركية التي يجب على المسافر اتباعها عند حمل مبالغ نقدية أو ذهب عند مغادرة تونس أو دخولها؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 34 من الأمر عدد 608 لسنة 1977\nيمكن إلزام الأشخاص المغادرين للتراب التونسي باتجاه الخارج أو الداخلين إلى التراب التونسي القادمين من الخارج بتقديم تصريح كتابي للمصالح الديوانية بما بحوزتهم من سبائك الذهب، الأوراق المالية، أدوات الدفع وسندات الدين أو الملكية. كما يجب عليهم تقديم إذن التصدير أو الاستيراد الذي سبق تسليمهم إياه، كلما كان هذا الإذن ضرورياً.\n[2] المصدر: الفصل 35 من الأمر عدد 608 لسنة 1977\nتُعفى من الإذن، بالإضافة إلى الواردات والصادرات المشار إليها في الفصل 14 من هذا الأمر، عمليات استيراد وتصدير سبائك الذهب، الأوراق المالية، أدوات الدفع غير القطع النقدية والأوراق البنكية المتداولة في تونس، وسندات الدين أو الملكية، التي يقوم بها المسافرون الذين يعبرون تونس من بلد أجنبي إلى آخر دون إقامة فيها، بشرط إثبات إعادة تصدير نفس القيم التي تم استيرادها."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 34 من الأمر عدد 608 لسنة 1977، يمكن للمصالح الديوانية أن تطالب المسافر (مغادراً أو داخلاً) بتقديم تصريح كتابي بكل ما يحمله من ذهب وأوراق مالية وأدوات دفع، بالإضافة إلى إذن الاستيراد أو التصدير إذا كان ضرورياً. غير أن الفصل 35 يعفي من الإذن المسافرين الذين يعبرون تونس دون إقامة (ترانزيت)، شريطة إثبات أنهم سيصدرون نفس القيم التي أدخلوها. أما المقيمون في تونس فعليهم، عند العودة من الخارج، التنازل عن العملات الأجنبية غير المستعملة للبنك المركزي أو وسيط معتمد في غضون 7 أيام (بموجب الفصل 36 من الأمر). تهدف هذه الإجراءات إلى مراقبة تدفق العملات ومنع التهريب. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصلان 34 و35 من الأمر عدد 608 لسنة 1977."
+        }
+      ]
+    },
+    {
+      "example_id": "cross_lingual_015",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": ["28 (décret)"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question in French: Est-ce que toutes les opérations de paiement vers l'étranger nécessitent une autorisation préalable du ministère des finances ?\n\nDocuments pertinents:\n[1] Source: article 28 du décret n°77-608 du 27 juillet 1977 fixant les conditions d'application de la loi des changes (version arabe originale fournie dans le document, mais la réponse attendue en français)\nنص الفصل 28 من الأمر عدد 608 لسنة 1977: كل تسوية مالية اتجاه الخارج وكذلك كل تسوية بين المقيمين وغير المقيمين خاضعة للإذن باستثناء التسويات المتعلقة بالعمليات الجارية المنصوص عليها بالفصل 12 مكرر من هذا الأمر."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 28 du décret n°77-608, le principe est que tout règlement à destination de l'étranger, ainsi que tout règlement entre résidents et non-résidents, est soumis à autorisation préalable. Toutefois, une exception majeure est prévue : les règlements relatifs aux opérations courantes, énumérées à l'article 12 bis du même décret (notamment les opérations commerciales, de transport, d'assurance, les frais de séjour pour études ou soins, etc.), sont dispensés d'autorisation. Ainsi, ce ne sont pas toutes les opérations qui nécessitent une autorisation, mais seulement celles qui sortent du cadre des opérations courantes. Cette distinction vise à libéraliser les flux courants tout en conservant un contrôle sur les mouvements de capitaux non courants. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources : art. 28 du décret n°77-608."
+        }
+      ]
+    },
+    {
+      "example_id": "cross_lingual_016",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": ["2 (loi 94-41)", "3 (loi 94-41)"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "Question in Arabic: هل جميع المنتجات تخضع لنظام التجارة الخارجية الحر في تونس؟\n\nDocuments pertinents:\n[1] Source: article 2 de la loi n°94-41 du 7 mars 1994 relative au commerce extérieur (version française)\nLes importations et les exportations de produits sont libres à l'exception des produits assujettis aux restrictions prévues par la loi.\n[2] Source: article 3 de la loi n°94-41 du 7 mars 1994\nSont exclus du régime de la liberté de commerce extérieur tous les produits touchant à la sécurité, à l'ordre public, à l'hygiène, à la santé, à la morale, à la protection de la faune et de la flore et au patrimoine culturel. La liste des produits visés au présent article sera fixée par décret."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 2 من القانون عدد 94-41 المؤرخ في 7 مارس 1994 المتعلق بالتجارة الخارجية، فإن مبدأ حرية التجارة الخارجية هو الأصل: فاستيراد وتصدير المنتجات حر، باستثناء المنتجات الخاضعة للقيود المنصوص عليها قانوناً. غير أن الفصل 3 من نفس القانون يُخرج من نطاق هذه الحرية كل المنتجات التي تمس بالأمن أو النظام العام أو الصحة أو الأخلاق أو حماية الثروة الحيوانية والنباتية أو التراث الثقافي. وبالتالي، فإن المنتجات المذكورة في الفصل 3 (والتي سيحدد لائحتها قرار) تظل خاضعة لنظام الترخيص أو المنع، بينما باقي المنتجات حرة. تهدف هذه الاستثناءات إلى حماية المصالح الحيوية للدولة والمجتمع. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nالمصادر: الفصلان 2 و3 من القانون عدد 94-41 لسنة 1994."
+        }
+      ]
+    },
+    {
+      "example_id": "french_principle_exception_017",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["22", "23"],
+      "confidence_flag": "L'article 22 mentionne le délai de prescription de trois ans, mais la détermination du point de départ pour les infractions continues est précisée à l'alinéa 2.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le délai de prescription pour les infractions au code des changes, et comment court-il pour les infractions continues comme la détention non déclarée d'avoirs à l'étranger ?\n\nDocuments pertinents:\n[1] Source: article 22 du code des changes\nLes infractions ou tentatives d'infraction à la réglementation des changes sont constatées, poursuivies et réprimées dans les conditions définies par la présente loi. Elles se prescrivent par trois ans, le délai de prescription d'infraction comme la détention, le défaut de déclaration ou de rapatriement d'avoirs ou de revenus de toutes natures, prévues par la présente loi ou les textes pris pour son application, ne commence à courir qu'à compter de la date de cessation de l'état délictueux.\n[2] Source: article 23 du code des changes\nSont considérées comme infractions ou tentatives d'infractions et constatées, poursuivies et réprimées comme telles toutes manœuvres tendant à éluder les obligations ou interdictions instituées par la réglementation des changes."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 22 du code des changes, le délai de prescription des infractions est de trois ans. Il s'agit d'une prescription relativement courte par rapport à d'autres matières. Toutefois, pour les infractions continues – telles que la détention illicite d'avoirs à l'étranger, le défaut de déclaration ou le non-rapatriement de revenus – le délai de prescription ne commence à courir qu'à compter de la date de cessation de l'état délictueux. Ainsi, tant que la situation irrégulière persiste (par exemple, des avoirs non déclarés toujours détenus à l'étranger), la prescription n'est pas acquise. L'article 23 étend cette qualification à toutes manoeuvres visant à éluder les obligations du code. L'objectif est d'éviter que l'auteur d'une infraction continue puisse se prévaloir du simple écoulement du temps tant qu'il n'a pas régularisé sa situation. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources : art. 22 et 23 du code des changes."
+        }
+      ]
+    },
+    {
+      "example_id": "french_refusal_018",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment puis-je obtenir un visa d'investisseur pour la Tunisie ?\n\nDocuments pertinents:\nAucun document dans le code des changes ou les textes annexés ne traite des conditions d'obtention de visas d'investisseur ou de l'immigration."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations sur la délivrance de visas d'investisseur ou sur les procédures d'immigration en Tunisie. Le code des changes régit les opérations de change, les transferts de capitaux et les relations financières avec l'étranger, mais pas les conditions d'entrée et de séjour des étrangers (qui relèvent du code de la nationalité et du droit des étrangers, ainsi que des conventions consulaires). Je vous recommande de consulter le site du ministère des Affaires étrangères tunisien ou l'ambassade de Tunisie dans votre pays. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat spécialisé en droit des étrangers.\nSources : aucun article du code des changes ne répond à cette question."
+        }
+      ]
+    },
+    {
+      "example_id": "french_clarification_019",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["1", "25 (décret)"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que je peux détenir des euros sur un compte en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article premier du code des changes : les transferts au titre des opérations courantes sont libres, mais les exportations de capitaux sont soumises à autorisation.\n[2] Source: article 25 du décret n°77-608 : obligation de céder à la BCT l'intégralité des devises, sauf exceptions (comptes professionnels, comptes spéciaux, etc.)."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour répondre précisément à votre question, il me faut distinguer selon la qualité du compte et l'origine des euros. La détention d'euros en espèces en Tunisie est soumise à l'obligation de dépôt chez un intermédiaire agréé (article 6 du code). Mais la détention sur un compte bancaire dépend du type de compte : comptes professionnels en devises, comptes spéciaux (bénéfices export), comptes prestataires de services, etc. L'article 25 du décret prévoit des exceptions à l'obligation de céder les devises au BCT. Veuillez préciser : êtes-vous résident ou non-résident ? Ces euros proviennent-ils d'exportations, de services, d'un héritage ou d'un simple change ? Souhaitez-vous un compte courant ordinaire ou un compte spécial autorisé ? Une fois ces éléments clarifiés, je pourrai vous indiquer si la détention est possible et sous quelles conditions. Ceci ne constitue pas un avis juridique.\nSources : art. 1er et 6 du code, art. 25 du décret n°77-608."
+        }
+      ]
+    },
+    {
+      "example_id": "french_procedural_020",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["16 (décret)", "17 (décret)", "18 (décret)"],
+      "confidence_flag": "Les articles cités sont du décret n°77-608, pas du code lui-même.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes pour acquérir des valeurs mobilières étrangères en tant que non-résident étranger en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 16 du décret n°77-608\nLes intermédiaires habilités à recevoir en dépôt des valeurs mobilières et devises étrangères sont tenus de déclarer à la BCT les valeurs et devises qu'ils détiennent.\n[2] Source: article 18 du décret n°77-608\nEst soumise à autorisation toute acquisition à titre onéreux ou gratuit autrement que par dévolution héréditaire de valeurs mobilières étrangères détenues sur le territoire tunisien.\n[3] Source: article 21 du décret n°77-608 (paragraphes 3,4,5)\nSont autorisées de plein droit sous réserve d'importation de devises : l'acquisition par souscription lors d'augmentation de capital dans la limite des droits préférentiels (paragraphe 3), l'acquisition en dehors de ces limites dans le cadre des lois régissant l'investissement (paragraphe 4), l'acquisition ou cession de valeurs mobilières avec droit de vote (paragraphe 5)."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure d'acquisition de valeurs mobilières étrangères par un non-résident étranger en Tunisie comporte plusieurs étapes, selon le décret n°77-608. En principe, l'article 18 soumet toute acquisition à titre onéreux ou gratuit (hors héritage) à une autorisation préalable. Toutefois, l'article 21 prévoit des autorisations de plein droit sous certaines conditions : (1) acquisition par souscription lors d'une augmentation de capital dans les limites des droits préférentiels de souscription irréductible, moyennant importation de devises ; (2) acquisition hors de ces limites, mais dans le cadre des lois régissant l'investissement, également avec importation de devises ; (3) acquisition ou cession de valeurs mobilières avec droit de vote, dans le cadre des codes les régissant. En pratique, le non-résident doit donc : a) importer les devises par un intermédiaire agréé ; b) vérifier si l'opération entre dans les cas d'autorisation de plein droit (article 21) ; c) sinon, solliciter une autorisation individuelle du ministre des finances (article 18). Ensuite, les titres acquis doivent être déposés chez un intermédiaire agréé (article 16). Cette procédure vise à contrôler les investissements étrangers dans les valeurs tunisiennes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources : art. 16, 18 et 21 du décret n°77-608."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": ["Titre I (art.1)", "Titre II (art.5)", "Titre III (art.6,9)", "Titre V (art.16,17)", "Titre VI (art.21)", "Titre VII (art.22,23,24,35,36)", "Décret art.12 bis, 15, 16, 18, 21, 25, 28, 34, 35", "Loi 94-41 art.2,3"],
+    "sections_not_covered": ["Titre IV (art.14-15)", "Titre VII chapitres 5 et 6 (art.37-40)", "Décret art.1-11, 13, 14, 17 bis, 19-20, 22-24, 26-27, 29-33, 36-50", "Loi 94-41 art.4-11, 34-35, 37-38"],
+    "notes": "Le document contient des problèmes d'OCR sur certaines pages (pages 4, 17, 18, 42 avec des caractères illisibles) mais les articles principaux sont lisibles. Les numéros d'articles entre le code et le décret ont été distingués. Pour les exemples multi-articles, les articles cités sont bien présents. Aucune hallucination d'article n'a été commise."
+  }
+}

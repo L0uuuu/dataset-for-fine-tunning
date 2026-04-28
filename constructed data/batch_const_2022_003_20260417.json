@@ -1,0 +1,433 @@
+{
+  "batch_id": "batch_CONST_2022_003_20260417",
+  "source": "Constitution de la République tunisienne du 25 juillet 2022",
+  "articles_covered": [4, 7, 8, 10, 11, 13, 17, 18, 20, 21, 27, 28, 36, 57, 61, 62, 63, 66, 67, 69, 72, 73, 77, 81, 82, 83, 85, 86, 93, 100, 107, 108],
+  "articles_to_avoid_next_batch": [4,7,8,10,11,13,17,18,20,21,27,28,36,57,61,62,63,66,67,69,72,73,77,81,82,83,85,86,93,100,107,108],
+  "examples": [
+    {
+      "example_id": "const_fr_direct_003",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [4],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la nature de l'État tunisien en ce qui concerne son unité ?\n\nDocuments pertinents:\n[1] Source: article 4 de la Constitution tunisienne du 25 juillet 2022\nLa Tunisie est un Etat unitaire. Il n'est pas permis d'édicter toute législation portant atteinte à son unité."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 4 de la Constitution tunisienne de 2022, la Tunisie est un État unitaire. Il est interdit d'adopter toute législation portant atteinte à son unité. Cette disposition consacre le principe de l'indivisibilité du territoire et de l'unicité du peuple et des institutions. La finalité est d'éviter toute forme de séparatisme ou de fédéralisme, et de garantir la cohésion nationale.\n\nSource: art. 4 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "const_ar_direct_003",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [8],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي مواصفات العلم التونسي وفق الدستور؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 8 من دستور الجمهورية التونسية لسنة 2022\nعلم الدولة التونسية أحمر، يتوسطه طبق القانون دائرة بيضاء بها نجمة حمراء خماسية الأطراف يحيط بها هلال أحمر."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 8 من دستور 2022، علم الدولة التونسية أحمر اللون، ويتوسطه دائرة بيضاء تحتوي على نجمة حمراء خماسية الأطراف محاطة بهلال أحمر، وذلك وفقاً للشروط التي يحددها القانون. وهذا الوصف يكرس الرموز الوطنية المستقرة منذ الاستقلال، ويهدف إلى توحيد الهوية الوطنية والاعتزاز بالانتماء.\n\nالمصادر: الفصل 8 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "const_fr_multi_003",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [61, 62, 63],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les règles concernant l'exercice du mandat de député en matière d'activités professionnelles, de changement de bloc parlementaire et de prorogation en cas de guerre ?\n\nDocuments pertinents:\n[1] Source: article 61 de la Constitution\nIl est interdit au député d'exercer une quelconque activité, avec ou sans rémunération. Le mandat de député est révocable dans les conditions fixées par la loi électorale.\n\n[2] Source: article 62 de la Constitution\nSi un député se retire du bloc parlementaire auquel il appartenait au début de la législature, il lui est interdit de rejoindre un autre bloc.\n\n[3] Source: article 63 de la Constitution\nAu cas où les élections ne pourraient avoir lieu à leur date pour cause de guerre ou de péril imminent, le mandat de l'Assemblée est prorogé par loi."
+        },
+        {
+          "role": "assistant",
+          "content": "Le statut du député est encadré par plusieurs dispositions. L'article 61 interdit au député d'exercer toute activité rémunérée ou non (exclusivité du mandat), et prévoit la révocabilité du mandat selon la loi électorale. L'article 62 interdit à un député qui se retire de son bloc parlementaire de rejoindre un autre bloc (interdiction du transfuge). Enfin, l'article 63 prévoit qu'en cas de guerre ou de péril imminent empêchant les élections, le mandat de l'Assemblée est prorogé par une loi. La finalité est de garantir la stabilité parlementaire, de lutter contre l'instabilité politique et d'assurer la continuité des institutions en situation de crise.\n\nSources: art. 61, 62, 63 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "const_ar_multi_003",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [81, 82, 83],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يتم تشكيل المجلس الوطني للجهات والأقاليم، وما هي القيود المتعلقة بالعضوية فيه؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 81 من الدستور\nالمجلس الوطني للجهات والأقاليم يتكون من نواب منتخبين من الجهات والأقاليم. وينتخب أعضاء كل مجلس جهوي من بينهم ثلاثة أعضاء لتمثيل جهاتهم داخل المجلس الوطني للجهات والأقاليم. وينتخب الأعضاء المنتخبون للمجالس الجهوية لكل إقليم من بينهم نائباً واحداً لتمثيل الإقليم داخل المجلس الوطني للجهات والأقاليم. ويتم تعويض نائب ممثل الإقليم وفق الشروط التي يحددها القانون الانتخابي.\n\n[2] المصدر: الفصل 82 من الدستور\nلا يجوز الجمع بين عضوية مجلس نواب الشعب وعضوية المجلس الوطني للجهات والأقاليم. كما لا يجوز الجمع بين العضوية في المجلس الوطني للجهات والأقاليم وأي نشاط بأجر أو بدونه.\n\n[3] المصدر: الفصل 83 من الدستور\nتسري الأحكام المتعلقة بالحصانة البرلمانية لأعضاء مجلس نواب الشعب على أعضاء المجلس الوطني للجهات والأقاليم."
+        },
+        {
+          "role": "assistant",
+          "content": "يحدد الدستور تكوين المجلس الوطني للجهات والأقاليم وقيود العضوية فيه. أولاً، الفصل 81 ينص على أن المجلس يتكون من نواب منتخبين من الجهات والأقاليم: كل مجلس جهوي ينتخب ثلاثة ممثلين، وكل إقليم ينتخب نائباً واحداً. ثانياً، الفصل 82 يحظر الجمع بين عضوية هذا المجلس وعضوية مجلس نواب الشعب، كما يحظر الجمع بين العضوية وأي نشاط آخر بأجر أو بدونه (تفرد المهمة). ثالثاً، الفصل 83 يمدد حصانة البرلمان لأعضاء هذا المجلس. وتهدف هذه الأحكام إلى ضمان تمثيل لامركزي حقيقي مع منع تضارب المصالح وضمان استقلالية الأعضاء.\n\nالمصادر: الفصول 81، 82، 83 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "const_fr_principle_exception_003",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [27, 28],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La liberté de croyance et l'exercice des cultes sont-ils absolus en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 27 de la Constitution\nL'Etat garantit la liberté de croyance et de conscience.\n\n[2] Source: article 28 de la Constitution\nL'Etat protège le libre exercice des cultes tant qu'il ne porte atteinte à la sécurité publique."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe posé par l'article 27 est que l'État garantit la liberté de croyance et de conscience (liberté intérieure absolue). Toutefois, l'article 28 ajoute une exception importante : l'État protège le libre exercice des cultes, mais seulement \"tant qu'il ne porte atteinte à la sécurité publique\". Ainsi, la manifestation extérieure de la religion (exercice du culte) peut être limitée pour des raisons d'ordre public et de sécurité. En revanche, la croyance intérieure ne peut faire l'objet d'aucune restriction. La finalité est de concilier la liberté religieuse avec la nécessité de préserver la paix sociale et la sûreté.\n\nSources: art. 27 et 28 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "const_ar_principle_exception_003",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [107, 108],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن لرئيس الجمهورية أن يفوض صلاحياته لرئيس الحكومة في حالة عارض صحي؟ وماذا يحدث للحكومة خلال فترة هذا العارض؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 107 من الدستور\nفي حالة عارض مؤقت، يمكن لرئيس الجمهورية أن يفوض بموجب أمر رئاسي صلاحياته إلى رئيس الحكومة، باستثناء سلطة حل مجلس نواب الشعب أو المجلس الوطني للجهات والأقاليم.\n\n[2] المصدر: الفصل 108 من الدستور\nخلال مدة العارض، تبقى الحكومة قائمة حتى انتهاء العارض، ولو كانت موضوع لائحة لوم. ويخبر رئيس الجمهورية مجلس نواب الشعب والمجلس الوطني للجهات والأقاليم بالتفويض المؤقت لسلطاته."
+        },
+        {
+          "role": "assistant",
+          "content": "المبدأ العام في الفصل 107 هو أنه يمكن لرئيس الجمهورية تفويض صلاحياته مؤقتاً لرئيس الحكومة في حالة عارض صحي أو غيره، مع استثناء وحيد: لا يمكن تفويض سلطة حل المجلسين. أما الفصل 108 فينص على أنه خلال فترة العارض، تبقى الحكومة قائمة حتى لو قدمت ضدها لائحة لوم (أي أنها محمية من الإقالة)، ويجب على الرئيس إعلام المجلسين بالتفويض. تهدف هذه الأحكام إلى ضمان استمرارية الدولة مع منع تعطيل المؤسسات، مع حماية الحكومة من الإطاحة خلال فترة هشة.\n\nالمصادر: الفصلان 107 و 108 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "const_fr_refusal_002",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [36],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la procédure exacte pour la réinsertion professionnelle des détenus après leur libération ?\n\nDocuments pertinents:\n[1] Source: article 36 de la Constitution\nTout détenu a droit à un traitement humain qui préserve sa dignité. L'Etat prend en considération, lors de l'exécution des peines privatives de liberté, l'intérêt de la famille et veille à la réhabilitation du détenu et à sa réinsertion dans la société."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question sur la procédure exacte de réinsertion professionnelle des détenus. L'article 36 de la Constitution énonce le principe de la réhabilitation et de la réinsertion, mais n'en détaille pas les modalités procédurales. Celles-ci relèvent de la législation pénitentiaire et des textes réglementaires. Je vous recommande de consulter le code de l'exécution des peines ou un avocat spécialisé.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "const_ar_refusal_002",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [21],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يحق لحزب سياسي تونسي تنظيم ندوة تثقيفية داخل إحدى المدارس الثانوية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 21 من الدستور التونسي 2022\nتضمن الدولة حياد المؤسسات التربوية عن أي استغلال حزبي."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثيقة المقدمة (الفصل 21 من الدستور) تنص على مبدأ حياد المؤسسات التربوية عن أي استغلال حزبي، لكنها لا تجيب بشكل قاطع على سؤال ما إذا كانت ندوة تثقيفية واحدة تشكل \"استغلالاً حزبياً\" محظوراً. هذا التحديد يتطلب تفسيراً قضائياً أو تشريعياً دقيقاً لا توفره المادة الدستورية وحدها. أنصحك باستشارة محامٍ متخصص في القانون الانتخابي والتربوي.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "const_fr_clarification_002",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [17, 18],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: L'État doit-il obligatoirement créer des entreprises publiques pour lutter contre le chômage ?\n\nDocuments pertinents:\n[1] Source: article 17 de la Constitution\nL'Etat garantit la coexistence entre les secteurs public et privé et œuvre à assurer la complémentarité entre eux sur la base de la justice sociale.\n\n[2] Source: article 18 de la Constitution\nL'Etat doit fournir tous les moyens juridiques et matériels aux personnes en chômage pour la création de projets de développement."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour répondre précisément, j'ai besoin d'une clarification : par \"créer des entreprises publiques\", entendez-vous des entreprises entièrement détenues par l'État, ou bien des aides à la création d'entreprises privées par les chômeurs ? L'article 17 garantit la coexistence des secteurs public et privé mais ne crée pas d'obligation de créer des entreprises publiques. L'article 18 oblige l'État à fournir des moyens juridiques et matériels aux chômeurs pour créer des projets de développement, ce qui peut inclure des entreprises privées ou des coopératives, mais pas nécessairement des entreprises publiques. Veuillez préciser le type d'entreprise visé.\n\nSources: art. 17 et 18 de la Constitution. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "const_ar_clarification_002",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [69],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن لنائب أن يقترح قانوناً يزيد من مخصصات وزارة معينة دون تغطيتها بموارد إضافية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 69 من الدستور\nلا تقبل اقتراحات القوانين أو التعديلات المقدمة من النواب إذا كانت تخل بالتوازنات المالية للدولة."
+        },
+        {
+          "role": "assistant",
+          "content": "لإجابة دقيقة، أحتاج إلى توضيح: هل الاقتراح المقصود يزيد النفقات فقط دون تحديد إيرادات جديدة أو تخفيضات في بنود أخرى؟ الفصل 69 من الدستور يمنع قبول أي اقتراح قانون أو تعديل \"يخل بالتوازنات المالية للدولة\". إذا كان الاقتراح يزيد مخصصات وزارة دون أي تعويض (مصادر إيرادات جديدة أو خفض في مكان آخر)، فمن المحتمل أن يعد مخلًا بالتوازنات وغير مقبول. لكن التفسير الدقيق لمصطلح \"التوازنات المالية\" يعود إلى مكتب مجلس النواب أو المحكمة الدستورية. يرجى توضيح ما إذا كان الاقتراح يتضمن تدابير تعويضية.\n\nالمصادر: الفصل 69 من الدستور. هذا لا يشكل استشارة قانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "const_fr_procedural_002",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [72, 73],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment fonctionnent les commissions parlementaires et le pouvoir de légiférer par décrets-lois pendant les vacances de l'Assemblée ?\n\nDocuments pertinents:\n[1] Source: article 72 de la Constitution\nL'Assemblée des représentants du peuple élit, parmi ses membres, des commissions permanentes qui fonctionnent sans interruption, même pendant les vacances de l'Assemblée.\n\n[2] Source: article 73 de la Constitution\nLe président de la République peut prendre, pendant les vacances de l'Assemblée, après en avoir informé la commission permanente compétente, des décrets-lois qui sont soumis à l'approbation de l'Assemblée des représentants du peuple, et ce, au cours de la session ordinaire suivant les vacances."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure de travail parlementaire en période de vacances est organisée comme suit. En vertu de l'article 72, l'Assemblée élit des commissions permanentes qui siègent sans interruption, même pendant les vacances. L'article 73 permet au Président de la République, après information de la commission permanente compétente, de prendre des décrets-lois pendant les vacances. Ces décrets-lois doivent ensuite être soumis à l'approbation de l'Assemblée lors de la session ordinaire suivant les vacances. Ainsi, le pouvoir législatif d'urgence du président est encadré : il nécessite l'information préalable d'une commission et la ratification ultérieure par l'Assemblée. La finalité est d'éviter la paralysie législative pendant les vacances tout en respectant la séparation des pouvoirs.\n\nSources: art. 72 et 73 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "const_ar_procedural_002",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [85, 86],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي صلاحيات المجلس الوطني للجهات والأقاليم في الرقابة على تنفيذ الميزانية، وكيف ينظم القانون علاقته بمجلس نواب الشعب؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 85 من الدستور\nيمارس مجلس الجهات والأقاليم صلاحيات الرقابة والمحاسبة في المسائل المختلفة المتعلقة بتنفيذ الميزانية ومخططات التنمية.\n\n[2] المصدر: الفصل 86 من الدستور\nينظم القانون العلاقات بين مجلس نواب الشعب والمجلس الوطني للجهات والأقاليم."
+        },
+        {
+          "role": "assistant",
+          "content": "تتوزع صلاحيات المجلس الوطني للجهات والأقاليم على النحو التالي: أولاً، الفصل 85 يخوله ممارسة صلاحيات الرقابة والمحاسبة في المسائل المتعلقة بتنفيذ الميزانية ومخططات التنمية. وهذا يعني أنه جهة رقابية على التنفيذ المالي والتنموي. ثانياً، الفصل 86 ينص على أن القانون هو الذي ينظم العلاقات بين المجلسين (مجلس نواب الشعب والمجلس الوطني للجهات والأقاليم)، مما يترك التفاصيل الإجرائية للتشريع العادي. تهدف هذه الأحكام إلى إرساء رقابة جهوية على المالية العامة مع مرونة تنظيم العلاقات بين الغرفتين.\n\nالمصادر: الفصلان 85 و 86 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "const_fr_direct_004",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [7],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la position de la Tunisie vis-à-vis du Grand Maghreb arabe ?\n\nDocuments pertinents:\n[1] Source: article 7 de la Constitution\nLa République tunisienne constitue une partie du Grand Maghreb arabe. Elle œuvre à la réalisation de son unité dans le cadre de l'intérêt commun."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 7 de la Constitution tunisienne de 2022, la République tunisienne fait partie du Grand Maghreb arabe (Union du Maghreb arabe). Elle œuvre à la réalisation de l'unité maghrébine dans le cadre de l'intérêt commun. Cette disposition affirme l'appartenance régionale de la Tunisie et son engagement en faveur de l'intégration maghrébine. La finalité est de promouvoir la coopération économique, politique et sécuritaire entre les cinq pays maghrébins.\n\nSource: art. 7 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "const_ar_direct_004",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [13],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو التزام الدولة تجاه الشباب وفق الدستور التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 13 من الدستور التونسي 2022\nتسهر الدولة على توفير الظروف الملائمة لنمو قدرات الشباب وعلى وضع كل الوسائل تحت تصرفه ليساهم إسهاماً فعالاً في التنمية الشاملة للبلاد."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 13 من دستور 2022، تلتزم الدولة بتوفير الظروف الملائمة لنمو قدرات الشباب ووضع كل الوسائل تحت تصرفه ليساهم إسهاماً فعالاً في التنمية الشاملة للبلاد. وهذا يعني أن الدولة مطالبة بوضع سياسات عمومية للتعليم والتكوين والتشغيل والمشاركة المدنية للشباب. وتهدف هذه المادة إلى تحويل الشباب من فئة سلبية إلى فاعل أساسي في التنمية.\n\nالمصادر: الفصل 13 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "const_fr_multi_004",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [66, 67],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les limites de l'immunité parlementaire et quel est le rôle de l'Assemblée des représentants du peuple dans la fonction législative ?\n\nDocuments pertinents:\n[1] Source: article 66 de la Constitution\nLe député ne bénéficie pas de l'immunité parlementaire à l'égard des infractions d'injure, de diffamation et d'échange de violences commises à l'intérieur comme à l'extérieur de l'Assemblée, et il n'en bénéficie pas également au cas où il entrave le fonctionnement régulier de l'Assemblée.\n\n[2] Source: article 67 de la Constitution\nL'Assemblée des représentants du peuple exerce la fonction législative dans les limites des compétences qui lui sont dévolues par la présente Constitution."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 66 précise que l'immunité parlementaire n'est pas absolue : le député n'en bénéficie pas pour les infractions d'injure, de diffamation et de violences, qu'elles soient commises à l'intérieur ou à l'extérieur de l'Assemblée, ni s'il entrave le fonctionnement régulier de l'Assemblée. Ainsi, l'immunité est levée de plein droit pour ces actes. Par ailleurs, l'article 67 dispose que l'Assemblée des représentants du peuple exerce la fonction législative dans les limites de ses compétences constitutionnelles. La finalité de ces dispositions est d'éviter les abus de l'immunité tout en protégeant la liberté d'expression nécessaire au travail parlementaire.\n\nSources: art. 66 et 67 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "const_ar_multi_004",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [10, 11],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي رموز الدولة التونسية الأخرى (بالإضافة إلى العلم) التي يحددها الدستور؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 10 من الدستور\nشعار الجمهورية التونسية يحدده القانون.\n\n[2] المصدر: الفصل 11 من الدستور\nالنشيد الرسمي للجمهورية التونسية هو \"حماة الحمى\"."
+        },
+        {
+          "role": "assistant",
+          "content": "إضافة إلى العلم المنصوص عليه في الفصل 8، يذكر الدستور رموزاً وطنية أخرى. الفصل 10 ينص على أن شعار الجمهورية يحدده القانون (أي أنه ليس مفصلاً في الدستور نفسه). أما الفصل 11 فيحدد النشيد الرسمي للجمهورية التونسية باسم \"حماة الحمى\". وبذلك، يكفل الدستور هوية الدولة من خلال النشيد ويحيل الشعار إلى تشريع عادي، مما يسمح بمرونة في تعديل الشعار مع بقاء النشيد ثابتاً.\n\nالمصادر: الفصلان 10 و 11 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "const_fr_principle_exception_004",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [77],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Le plan de développement est-il adopté par la loi ou par décret ?\n\nDocuments pertinents:\n[1] Source: article 77 de la Constitution\nLes orientations de développement sont fixées dans le plan de développement qui est approuvé par loi."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 77 de la Constitution, les orientations de développement sont fixées dans le plan de développement, et ce plan est approuvé par une loi (donc par le Parlement). La finalité est de soumettre la politique de développement à un contrôle démocratique, les représentants du peuple ayant le dernier mot. Il n'y a pas d'exception prévue dans cet article : l'approbation législative est la règle.\n\nSource: art. 77 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "const_ar_principle_exception_004",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [93],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أين المقر الرسمي لرئاسة الجمهورية التونسية؟ وهل يمكن نقله؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 93 من الدستور\nالمقر الرسمي لرئاسة الجمهورية محدد بالعاصمة تونس. ويمكن نقله مؤقتاً، في الظروف الاستثنائية، إلى أي مكان آخر من تراب الجمهورية."
+        },
+        {
+          "role": "assistant",
+          "content": "المبدأ المنصوص عليه في الفصل 93 هو أن المقر الرسمي لرئاسة الجمهورية هو العاصمة تونس. غير أن هناك استثناء: في الظروف الاستثنائية (كالحرب أو الكوارث الطبيعية)، يمكن نقل المقر مؤقتاً إلى أي مكان آخر من التراب التونسي. وتهدف هذه المرونة إلى ضمان استمرارية عمل مؤسسة الرئاسة حتى في حالات الطوارئ التي تجعل العاصمة غير آمنة أو غير مناسبة.\n\nالمصادر: الفصل 93 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "const_cross_fr_ar_002",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [20],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui est tenu de déclarer son patrimoine selon la Constitution tunisienne ?\n\nDocuments pertinents:\n[1] Source: article 20 of the Tunisian Constitution of July 25, 2022 (original French text as provided)\nLe Président de la République, le Chef et les membres du Gouvernement, les membres de toute assemblée représentative et les magistrats doivent déclarer leur patrimoine, conformément à la loi. Cette disposition s'applique aux membres des instances indépendantes et à tout occupant d'un emploi supérieur."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 20 de la Constitution, sont tenus de déclarer leur patrimoine : le Président de la République, le Chef et les membres du Gouvernement, les membres de toute assemblée représentative (députés), les magistrats, les membres des instances indépendantes et tout occupant d'un emploi supérieur. Cette obligation vise à lutter contre la corruption et à garantir la transparence des hauts responsables. La finalité est de renforcer la redevabilité et la confiance des citoyens dans les institutions.\n\nSource: art. 20 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "const_cross_ar_fr_002",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [100],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل لرئيس الجمهورية التونسية الحق في العفو؟\n\nالوثائق ذات الصلة:\n[1] Source: Article 100 of the Tunisian Constitution of July 25, 2022 (original French text as provided)\nLe Président de la République dispose du droit de grâce."
+        },
+        {
+          "role": "assistant",
+          "content": "نعم، وفقاً للفصل 100 من الدستور التونسي لسنة 2022، يتمتع رئيس الجمهورية بحق العفو (الرئاسي). وهذا يعني أنه يمكنه تخفيف أو إسقاط العقوبات الصادرة بحق محكوم عليهم، إما بشكل فردي أو بمناسبة مناسبات وطنية. ويهدف هذا الحق إلى إظهار الرحمة أو تصحيح ظروف إنسانية خاصة، مع بقائه مقيداً بأحكام القانون وضوابطه.\n\nالمصادر: الفصل 100 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": ["Chapitre I: art 4,7,8,10,11,13,17,18,20,21", "Chapitre II: art 27,28,36", "Chapitre III: art 57,61,62,63,66,67,69,72,73,77,81,82,83,85,86", "Chapitre IV: art 93,100,107,108"],
+    "sections_not_covered": ["Chapitre V (justice) - déjà couvert dans batch précédent", "Chapitre VI (Cour constitutionnelle) - déjà couvert", "Chapitres VII à XI - déjà couverts partiellement"],
+    "notes": "Deuxième batch pour la Constitution de 2022, utilisant des articles non exploités dans le premier batch. Les exemples en arabe respectent strictement l'arabe standard formel sans aucun dialecte. Les citations suivent les normes tunisiennes (art. X de la Constitution). Les réponses incluent les disclaimers requis. Aucun article inventé ; tous sont textuellement présents dans le document fourni."
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "batch_id": "batch_CC_002_20260420",
+  "source": "Code de Commerce de Tunisie",
+  "articles_covered": [
+    4, 8, 9, 11, 192, 194, 196, 198, 199, 200, 201, 204, 206, 209, 212, 218,
+    219, 227, 230, 234, 235, 237, 240, 241, 243, 245
+  ],
+  "articles_to_avoid_next_batch": [
+    2, 5, 7, 189, 190, 191, 193, 205, 217, 229, 276, 283, 285, 289, 290, 306,
+    335, 340, 411, 416, 434, 475, 541, 569, 598, 601, 609, 625, 705, 728, 4, 8,
+    9, 11, 192, 194, 196, 198, 199, 200, 201, 204, 206, 209, 212, 218, 219, 227,
+    230, 234, 235, 237, 240, 241, 243, 245
+  ],
+  "examples": [
+    {
+      "example_id": "ex_cc_fr_011",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [8],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont exactement les obligations comptables détaillées d'un commerçant soumis à la tenue de livres selon le Code de Commerce ?\n\nDocuments pertinents:\n[1] Source: article 8 du Code de Commerce\nLes personnes physiques ou morales soumises à l'obligation de la tenue d'une comptabilité doivent : 1) enregistrer, jour par jour, sur un livre-journal, toutes leurs opérations ou, mensuellement, les totaux seulement de ces opérations, lorsque ces totaux sont obtenus grâce à la tenue de livres auxiliaires; ces derniers sont alors soumis aux mêmes conditions de tenue que le livre-journal proprement dit; 2) dresser, au moins une fois par an, un inventaire des éléments actifs et passifs de leur entreprise. Le détail de cet inventaire est porté sur un livre d'inventaire; 3) conserver, pendant 10 ans, tous documents justificatifs des opérations inscrites sur les livres susvisés."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 8 du Code de Commerce, le commerçant soumis à l'obligation comptable doit respecter trois obligations précises. Premièrement, il doit enregistrer ses opérations jour par jour sur un livre-journal, ou à défaut mensuellement si des livres auxiliaires permettent d'obtenir ces totaux, auquel cas ces livres auxiliaires sont soumis aux mêmes conditions de tenue [1]. Deuxièmement, il doit dresser au moins une fois par an un inventaire détaillé de ses éléments actifs et passifs sur un livre d'inventaire [1]. Troisièmement, il doit conserver tous les documents justificatifs pendant un délai de dix ans [1].\n\nSources: art. 8 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_012",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [11],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon associé veut utiliser nos livres comptables comme preuve devant le tribunal commercial contre notre fournisseur. Est-ce possible même si nous n'avons pas fait parapher tous les livres ?\n\nDocuments pertinents:\n[1] Source: article 11 du Code de Commerce\nLes livres de commerce, régulièrement tenus, peuvent être admis par le juge pour faire preuve entre commerçants pour faits de commerce. Toutefois, les livres que les commerçants sont obligés de tenir et pour lesquels ils n'ont pas observé les formalités ci-dessus prescrites, ne peuvent être représentés ni faire foi en justice au profit de ceux qui les ont tenus, sans préjudice des cas particuliers prévus au livre relatif aux procédures collectives. (Modifié par Art.2 de la loi n° 2016-36 du 29 avril 2016)."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 11 du Code de Commerce, le principe est que les livres de commerce régulièrement tenus peuvent être admis par le juge pour faire preuve entre commerçants pour des faits de commerce [1]. Toutefois, le législateur a posé une exception importante : si les livres obligatoires n'ont pas respecté les formalités prescrites, notamment le cottage et le paraphe prévus à l'article 9, ils ne peuvent être représentés ni faire foi en justice au profit de celui qui les a tenus [1]. Autrement dit, si vos livres n'ont pas été paraphés conformément à la loi, vous ne pourrez pas les invoquer comme preuve à votre propre profit. Par ailleurs, il convient de noter que cette interdiction ne joue que contre celui qui a tenu les livres ; le juge pourrait éventuellement les admettre comme preuve contre vous. En effet, cette règle vise à sanctionner la négligence du commerçant dans l'accomplissement de ses obligations formelles tout en préservant les droits des tiers. Les cas particuliers relatifs aux procédures collectives constituent toutefois un régime dérogatoire [1].\n\nSources: art. 11 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_013",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [192, 204],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai acheté un fonds de commerce il y a un mois mais je n'ai ni publié l'acte ni déposé le contrat au domicile élu. Le vendeur me réclame le paiement du prix. Quels sont les risques juridiques pour moi ?\n\nDocuments pertinents:\n[1] Source: article 192 du Code de Commerce\nA partir de la vente et jusqu'à l'expiration d'un délai de vingt jours après la publication au Journal Officiel de la République tunisienne, l'acquéreur est tenu de laisser en dépôt, au domicile élu, un des originaux de l'acte de vente, si l'acte a été dressé sous seing privé, ou une expédition, si l'acte est authentique. Il est tenu de les communiquer à tout créancier ou opposant. Ceux-ci peuvent en prendre, sans déplacement, communication et copie. Dans le même délai, le vendeur peut prendre communication et copie des oppositions. Si le fonds de commerce fait l'objet de nantissements inscrits, l'acheteur doit dans le même délai, notifier par huissier de justice aux créanciers inscrits à leur domicile élu lors de leurs inscriptions, et ce, au fin d'opposition. A défaut il ne peut opposer aux créanciers le prix payé.\n\n[2] Source: article 204 du Code de Commerce\nL'acquéreur qui, sans avoir fait les publications dans les formes prescrites, ou qui, soit avant l'expiration du délai de vingt jours, soit au mépris des inscriptions ou oppositions, aura versé le prix au vendeur, n'est pas libéré à l'égard des tiers; il en est de même au cas où l'acquéreur n'aurait pas déposé son contrat au domicile élu conformément à l'article 192 ci-dessus."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 192 et 204 du Code de Commerce, votre situation vous expose à des risques juridiques significatifs. L'article 192 vous imposait de déposer un original de l'acte de vente au domicile élu et de notifier les créanciers inscrits par huissier dans un délai de vingt jours après la publication au Journal Officiel [1]. L'article 204 prévoit expressément que l'acquéreur qui n'a pas effectué les publications prescrites ou qui n'a pas déposé son contrat au domicile élu n'est pas libéré à l'égard des tiers, même s'il a déjà versé le prix au vendeur [2]. Concrètement, cela signifie que si vous payez le vendeur maintenant, les créanciers du vendeur pourront vous réclamer à nouveau le paiement de leurs créances sur le fonds. De plus, si le fonds est grevé de nantissements inscrits et que vous n'avez pas notifié les créanciers inscrits, vous ne pouvez pas opposer le prix payé à ces créanciers [1]. Ainsi, le non-respect de ces formalités vous prive du bénéfice de la purge du passif, qui est précisément l'objectif de ces procédures.\n\nSources: art. 192, 204 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_014",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [194, 196, 198],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que créancier inscrit sur un fonds de commerce qui vient d'être vendu, le prix ne suffit pas à me désintéresser. Comment puis-je déclencher une surenchère du sixième et existe-t-il des cas où ce droit m'est refusé ?\n\nDocuments pertinents:\n[1] Source: article 194 du Code de Commerce\nSi le prix ne suffit pas à désintéresser les créanciers inscrits et ceux qui se sont révélés par des oppositions au plus tard dans le délai fixé à l'article 193, ces créanciers peuvent former, dans les dix jours qui suivent l'expiration du délai d'opposition, une surenchère du sixième. Les dispositions des articles 252, 254 à 257 ci-après sont applicables pour tout ce qui n'est pas prévu au présent article.\n\n[2] Source: article 196 du Code de Commerce\nLa surenchère du sixième aura lieu aux mêmes conditions et délais que la vente sur laquelle la surenchère est intervenue.\n\n[3] Source: article 198 du Code de Commerce\nLa surenchère du sixième n'est pas admise après la vente judiciaire d'un fonds de commerce, ou la vente poursuivie à la requête d'un syndic de faillite, de liquidateurs et d'administrateurs judiciaires, ou de copropriétaires indivis du fonds et faite aux enchères publiques."
+        },
+        {
+          "role": "assistant",
+          "content": "La surenchère du sixième obéit à une procédure séquentielle stricte. En premier lieu, l'article 194 subordonne ce droit à deux conditions cumulatives : l'insuffisance du prix pour désintéresser les créanciers inscrits et opposants, et le respect d'un délai de dix jours à compter de l'expiration du délai d'opposition prévu à l'article 193 [1]. En deuxième lieu, l'article 196 précise que la surenchère se déroule selon les mêmes conditions et délais que la vente initiale [2]. Toutefois, l'article 198 énonce une exception importante : la surenchère n'est pas admise après une vente judiciaire, une vente poursuivie par un syndic de faillite, des liquidateurs ou administrateurs judiciaires, ou encore une vente aux enchères par des copropriétaires indivis [3]. Ainsi, si la vente initiale a déjà eu lieu dans ces formes solennelles, le législateur a estimé que les garanties offertes aux créanciers étaient suffisantes et qu'il n'y avait pas lieu de permettre une surenchère qui retarderait la réalisation du fonds.\n\nSources: art. 194, 196, 198 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_015",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les taux de TVA applicables aux opérations de vente de marchandises en Tunisie pour l'année en cours ?\n\nDocuments pertinents:\n[1] Source: article 2 du Code de Commerce\nEst commerçant, quiconque, à titre professionnel, procède à des actes de production, circulation, spéculation, entremise, sous réserve des exceptions prévues par la loi...\n\n[2] Source: article 8 du Code de Commerce\nLes personnes physiques ou morales soumises à l'obligation de la tenue d'une comptabilité doivent : 1) enregistrer, jour par jour, sur un livre-journal, toutes leurs opérations..."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code de Commerce définit la qualité de commerçant et les obligations comptables, mais ne fixe aucun taux d'imposition. Les taux de TVA relèvent du Code de l'Impôt sur le Revenu des Personnes Physiques et de l'Impôt sur les Sociétés ainsi que de la législation fiscale spécifique. Je vous recommande de consulter un expert-comptable ou les services de l'Administration fiscale.\n\nCeci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_016",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [237],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je veux donner mon fonds de commerce en nantissement à la banque. Qu'est-ce qui est inclus automatiquement dans le gage ?\n\nDocuments pertinents:\n[1] Source: article 237 du Code de Commerce\nSont seuls susceptibles d'être compris dans le nantissement comme faisant partie d'un fonds de commerce : l'enseigne et le nom commercial, le droit au bail, la clientèle et l'achalandage, le mobilier commercial, le matériel et l'outillage servant à l'exploitation du fonds, les brevets d'invention, les licences, les marques de fabrique et de commerce, les dessins et modèles industriels et généralement les droits de propriété industrielle, littéraire ou artistique qui y sont attachés. Le certificat d'addition, postérieur au nantissement qui comprend le brevet auquel il s'applique, suivra le sort de ce brevet et fera partie, comme lui, du gage constitué. A défaut de désignation expresse et précise dans l'acte qui le constate, le nantissement ne comprend que l'enseigne et le nom commercial, le droit au bail, la clientèle et l'achalandage. Si le nantissement porte sur un fonds de commerce et ses succursales, celles-ci doivent être désignées par l'indication précise de leurs sièges."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question nécessite une précision importante. L'article 237 du Code de Commerce distingue deux situations selon la rédaction de l'acte de nantissement. Si l'acte désigne expressément et précisément les éléments gagés, le nantissement peut comprendre tous les éléments énumérés : incorporels, matériel, outillage, brevets, marques, etc. [1]. En revanche, à défaut de désignation expresse et précise, le nantissement ne comprend automatiquement que les éléments incorporels fondamentaux : l'enseigne, le nom commercial, le droit au bail, la clientèle et l'achalandage [1]. Pourriez-vous préciser si votre acte de nantissement mentionne spécifiquement le matériel et les marchandises, ou s'il s'agit d'un acte à clauses générales sans désignation détaillée ?\n\nSources: art. 237 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_017",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [234, 235],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis propriétaire d'un fonds de commerce que j'ai mis en location. Un fournisseur me réclame le paiement de marchandises commandées par le locataire. Suis-je solidairement responsable de ces dettes ?\n\nDocuments pertinents:\n[1] Source: article 234 du Code de Commerce\nJusqu'à la publication du contrat de location, le loueur du fonds est solidairement responsable, avec le locataire, des dettes contractées par celui-ci à l'occasion de l'exploitation du fonds.\n\n[2] Source: article 235 du Code de Commerce\nLes dispositions de l'article 234 ci-dessus ne s'appliquent pas aux contrats de location passés par les mandataires de justice, à condition qu'ils aient été autorisés aux fins desdits contrats par l'autorité de laquelle ils tiennent leur mandat."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 234 du Code de Commerce, le principe est que le loueur d'un fonds de commerce est solidairement responsable avec le locataire des dettes contractées par ce dernier dans le cadre de l'exploitation, mais uniquement jusqu'à la publication du contrat de location au Journal Officiel [1]. Ainsi, la responsabilité solidaire du loueur est temporaire : elle cesse dès que la publicité est accomplie, moment à partir duquel les tiers sont informés de la location et ne peuvent plus invoquer l'apparence créée par l'exploitation du fonds au nom du loueur. Toutefois, l'article 235 prévoit une exception notable : cette solidarité ne s'applique pas aux contrats de location conclus par des mandataires de justice (syndics, liquidateurs, administrateurs judiciaires) lorsque ceux-ci ont été autorisés par l'autorité dont ils tiennent leur mandat [2]. Cette exception se justifie par le fait que dans le cadre des procédures collectives, la publicité est assurée par d'autres mécanismes et que le mandataire de justice agit dans un cadre contrôlé. Par conséquent, si la location a fait l'objet d'une publication régulière, ou si elle a été conclue par un mandataire de justice dûment autorisé, vous ne seriez pas tenu solidairement.\n\nSources: art. 234, 235 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_018",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [212],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Pendant combien de temps l'inscription du privilège du vendeur sur le registre public reste-t-elle valide, et faut-il la renouveler ?\n\nDocuments pertinents:\n[1] Source: article 212 du Code de Commerce\nL'inscription conserve le privilège pendant dix ans à compter du jour de sa date; son effet cesse si elle n'a pas été renouvelée avant l'expiration de ce délai. Elle garantit, au même rang que le principal, deux années d'intérêts."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 212 du Code de Commerce, l'inscription du privilège conserve son effet pendant une durée de dix ans à compter de sa date [1]. Si le vendeur souhaite maintenir la protection de son privilège au-delà de ce délai, il doit impérativement procéder au renouvellement de l'inscription avant l'expiration des dix ans, faute de quoi l'inscription perd tout effet [1]. Par ailleurs, il est utile de noter que l'inscription garantit non seulement le principal de la créance, mais aussi deux années d'intérêts, au même rang que le capital [1].\n\nSources: art. 212 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_019",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [230],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Le locataire d'un fonds de commerce est-il considéré comme commerçant et assume-t-il les risques de l'exploitation ?\n\nDocuments pertinents:\n[1] Source: article 230 du Code de Commerce\nLe locataire prend à sa charge l'exploitation moyennant le paiement d'un loyer au propriétaire. Il exploite le fonds à ses risques et périls. Il n'est ni cessionnaire, ni sous-locataire du bail de l'immeuble."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 230 du Code de Commerce, le locataire d'un fonds de commerce exploite celui-ci à ses risques et périls, moyennant le paiement d'un loyer au propriétaire du fonds [1]. L'article précise également qu'il n'a ni la qualité de cessionnaire ni celle de sous-locataire du bail de l'immeuble, ce qui signifie que son droit dérive du contrat de location du fonds et non du bail immobilier [1]. En outre, conformément à l'article 231, le locataire a la qualité de commerçant et est soumis à toutes les obligations qui en découlent, notamment l'inscription au registre du commerce.\n\nSources: art. 230 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_011",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [9],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: مَن له صلاحية ترقيم ووضع إمضاء على دفتر اليومية ودفتر الجرد التجاريين؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 9 من مجلة التجارة\nيكون دفتر اليومية ودفتر الجرد المشار إليهما بالفصل 8 مرقمّين وموقّعين من طرف القاضي أو من طرف رئيس البلدية أو أحد معاونيه، وذلك في الشكل العادي ودون مصاريف."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 9 من مجلة التجارة، تتمثل عملية ترقيم ووضع الإمضاء على دفتر اليومية ودفتر الجرد لدى أحد الأشخاص المحددين حصراً بالنص، وهم: إمّا القاضي، أو رئيس البلدية، أو أحد معاونيه [1]. ويتم ذلك وفق الإجراءات المعتادة ودون تحمّل أي مصاريف من قبل التاجر [1].\n\nالمصادر: الفصل 9 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_012",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [199, 200, 201],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: قمت ببيع محلي التجاري وحصلت على ثمنه، لكن تقدم أحد الدائنين باعتراض على دفع الثمن. ما هي القواعد المتعلقة بتوزيع ثمن المحل التجاري في حالة وجود اعتراضات؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 199 من مجلة التجارة\nيجب على كل من يحوز ثمن اقتناء محل تجاري أن يقوم بتوزيعه في غضون ثلاثة أشهر من تاريخ عقد البيع. وعند انقضاء هذا الأجل، يجوز لأكثر الأطراف نشاطاً أن يلجأ إلى قاضي المستعجلات لدى المحكمة التي يقع في دائرة اختصاصها المحل، فيأمر إمّا بإيداع الثمن بالصندوق الوطني للإيداع والاحتياط، أو بتعيين حارس قضائي موزّع.\n\n[2] المصدر: الفصل 200 من مجلة التجارة\nفي حالة الاعتراض على دفع ثمن البيع، يمكن للبائع، في جميع الأحوال، بعد انقضاء الأجل المحدد بعشرين يوما بالفصل 192، أن يلجأ إلى قاضي المستعجلات لدى المحكمة بقصد الحصول على دفع ثمنه رغم الاعتراض، بشرط إيداع مبلغ كافٍ بصندوق الإيداع والاحتياط أو بين يدي طرف ثالث مكلف بذلك، يحدده قاضي المستعجلات، للإجابة عن أسباب الاعتراض في حالة ما إذا اعترف بأنه مدين أو صدر بحكم إدانته.\n\n[3] المصدر: الفصل 201 من مجلة التجارة\nتخصّص المبالغ المودعة على هذا النحو بين يدي الطرف الثالث الحائز لضمان الديون التي من أجلها حصل الاعتراض، ويمنح امتيازاً حصرياً على سائر الديون عليها فيما يخص ذلك الإيداع."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى أحكام مجلة التجارة، يخضع توزيع ثمن المحل التجاري لقواعد دقيقة تراعي حقوق الدائنين المعترضين. فبموجب الفصل 199، يتحتم على من يحوز الثمن إجراء التوزيع في أجل أقصاه ثلاثة أشهر من تاريخ عقد البيع، وإلا جاز لأي طرف أن يطلب من قاضي المستعجلات إما إيداع الثمن بالصندوق الوطني للإيداع والاحتياط أو تعيين حارس قضائي موزّع [1]. أمّا إذا تقدم دائن باعتراض، فإن الفصل 200 يمنح البائع إمكانية اللجوء إلى قاضي المستعجلات بعد انقضاء أجل العشرين يوماً للحصول على ثمنه رغم الاعتراض، شريطة إيداع مبلغ كافٍ لتغطية الديون المعترض بشأنها [2]. وفي جميع الأحوال، ينص الفصل 201 على أن المبالغ المودعة تُخصص لضمان ديون المعترضين مع منحهم امتيازاً حصرياً عليها [3]. وبالتالي، فإن هذه الآلية تهدف إلى حماية الدائنين من تصرّف البائع بالثمن قبل تصفية الاعتراضات المقدمة.\n\nالمصادر: الفصول 199 و200 و201 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_013",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [243, 245],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: بصفتي دائناً لم يتقاضى دينه، أريد طلب بيع المحل التجاري التابع لمديني قسراً. ما هي المراحل الإجرائية الأساسية لهذه العملية؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 243 من مجلة التجارة\nيجوز لكل دائن يمارس إجراءات حجز تنفيذي والمدين الذي تُمارَس في مواجهته هذه الإجراءات أن يطلبا، أمام المحكمة التي يقع في دائرة اختصاصها المحل التجاري، بيع المحل التجاري المحجوز مع ما يتبعه من معدات وبضائع. وبناءً على طلب الدائن المباشر للإجراءات، تأمر المحكمة بأنه في حالة عدم الدفع في الأجل المحدد للمدين، يتم البيع بناءً على طلب هذا الدائن بعد إنجاز الإجراءات المقررة بالفصل 244... وتسمّي المحكمة عند الاقتضاء مديراً مؤقتاً للمحل، وتحدد أسعار الافتتاح، وتعين الشروط الرئيسية للبيع، وتكلف الموظف العمومي المختص للقيام بذلك وبتحرير دفتر الشروط. وتصدر المحكمة حكماً تنفيذياً على الأصل في غضون شهر من تسجيل القضية.\n\n[2] المصدر: الفصل 245 من مجلة التجارة\nيقوم الطالب المباشر بإجراء إنذار لصاحب المحل والدائنين المقيدين سابقاً على القرار الذي أمر بالبيع، في الموطن المختار المبين بقيودهم، قبل خمسة عشر يوماً على الأقل من البيع، للاطلاع على دفتر الشروط وتقديم ملاحظاتهم وحضور المزاد إن شاؤوا. ويتم البيع بعد عشرة أيام على الأقل من تعليق إعلانات تتضمن أسماء ومهن ومواطن الطالب وصاحب المحل... كما يُدرج الإعلان بالرسمية والجمهورية وعند ذلك في جريدة يومية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصلين 243 و245 من مجلة التجارة، تمر عملية البيع القسري للمحل التجاري بمراحل إجرائية محددة. أولاً، يتعين على الدائن ممارسة إجراءات الحجز التنفيذي ثم تقديم طلب إلى المحكمة المختصة ترابياً لاستصدار حكم ببيع المحل التجاري المحجوز مع معداته وبضائعه [1]. ثانياً، تصدر المحكمة حكماً تنفيذياً خلال شهر من تسجيل القضية، يتضمن تحديد أسعار الافتتاح والشروط الرئيسية للبيع وتعيين الموظف العمومي المكلف بتحرير دفتر الشروط [1]. ثالثاً، يقوم الطالب بإنذار صاحب المحل والدائنين المقيدين قبل خمسة عشر يوماً على الأقل من البيع للاطلاع على دفتر الشروط وتقديم ملاحظاتهم [2]. رابعاً، تتم عملية التعليق والإشهار بنشر الإعلان بالرسمية والجمهورية وفي جريدة يومية قبل عشرة أيام على الأقل من موعد المزاد [2]. وأخيراً، يقوم الموظف العمومي المختص بإجراء البيع في أجل أقصاه ستون يوماً من تاريخ تكليفه [1].\n\nالمصادر: الفصلان 243 و245 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_014",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الإجراءات القانونية اللازمة لفصل عامل لأسباب اقتصادية في تونس؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 2 من مجلة التجارة\nيُعتبر تاجراً كل من يزاول بصفة مهنية أعمال الإنتاج والتداول والمضاربة والوساطة...\n\n[2] المصدر: الفصل 230 من مجلة التجارة\nيتحمل المستأجر عملية الاستغلال مقابل دفع إيجار لصاحب المحل. ويستغل المحل على مسؤوليته ومخاطرته."
+        },
+        {
+          "role": "assistant",
+          "content": "إن المستندات المتوفرة، والمتمثلة في مجلة التجارة، لا تتضمن أي أحكام تتعلق بإجراءات فصل العمال لأسباب اقتصادية. فمجلة التجارة تنصبّ على تنظيم العلاقات التجارية وأحكام المحل التجاري وغيرها من المؤسسات التجارية، في حين أن مسائل الشغل والفصل تخضع لأحكام مجلة الشغل. أنصحكم بمراجعة مجلة الشغل أو الرجوع إلى محامٍ مختص في قانون الشغل للحصول على إجابة دقيقة حول وضعيتكم.\n\nهذا الرد لا يشكل استشارة قانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_015",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [227],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les_documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكنني اشتراط الاحتفاظ بجزء من ثمن البيع في حالة فسخ عقد بيع المحل التجاري؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 227 من مجلة التجارة\nتُعتبر كأن لم تكن، في كل عقد يتضمن بيع محل تجاري، الشرط الذي بموجبه يحتفظ البائع بكل الثمن المدفوع أو بجزء منه في حالة الفسخ."
+        },
+        {
+          "role": "assistant",
+          "content": "ينص الفصل 227 من مجلة التجارة صراحة على أن أي شرط يُدرج في عقد بيع المحل التجاري يقضي باحتفاظ البائع بكل الثمن أو بجزء منه في حالة الفسخ يُعتبر كأن لم يكن [1]. غير أن سؤالك يفتقر إلى التوضيح حول ما إذا كنتم بصدد إبرام العقد حالياً أو كنتم تسعون إلى الطعن في شرط وارد بعقد سابق. فإذا كان الأمر يتعلق بعقد لم يُبرم بعد، فإن إدراج مثل هذا الشرط لن يُنتج أي أثر قانوني. أمّا إذا كان الشرط موجوداً فعلاً في عقد مثار نزاع، فإنه يُعتبر باطلاً ويجوز التمسك ببطلانه أمام القضاء.\n\nالمصادر: الفصل 227 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_016",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [240],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: إذا كان المحل التجاري محل رهن حيازي لصالح عدة دائنين، فكيف يتم تحديد أولوية كل واحد منهم في استخلاص دينه؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 240 من مجلة التجارة\nيُحدّد ترتيب الدائنين المرتهنين فيما بينهم بتاريخ قيودهم. ويأتي الدائنون المقيّدون في اليوم نفسه على قدم المساواة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 240 من مجلة التجارة، يُعمل بقاعدة الأسبقية الزمنية لتحديد ترتيب الدائنين المرتهنين على محل تجاري [1]. فالدائن الذي سبق إلى إجراء قيده في السجل العام يحظى بأولوية على الدائنين الذين تليه في التسجيل. غير أن القانون يستثني من هذه القاعدة حالة الدائنين الذين أجروا قيودهم في اليوم نفسه، إذ يأتون على قدم المساواة ويقتسمون ثمن البيع بنسب ديونهم [1].\n\nالمصادر: الفصل 240 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_017",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [206, 209],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: باعتُ محلاً تجارياً ونسيت إجراء قيد امتياز البائع في الآجل القانوني، كما أنني أغفلت بعض البيانات الإلزامية في الحدود. هل يمكن أن أُطالب ببطلان قيد غيري من الدائنين لمجرد نقص في بياناتهم؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 206 من مجلة التجارة\nيجب أن يتم القيد تحت طائلة البطلان في غضون خمسة عشر يوماً من عقد البيع. ويبقى هذا الأجل سارياً حتى في حالة صدور حكم بإعلان الإفلاس. يمكن التمسك بهذا البطلان من قبل كل شخص له مصلحة، ومنطوق به حتى من قبل المدين. والقيد المتخذ على هذا النحو يتقدم على كل قيد آخر تم من طرف المشتري. وهو قابل للمواجهة في حالة إفلاس المشتري.\n\n[2] المصدر: الفصل 209 من مجلة التجارة\nلا يترتب على الإغفال في الحدود من بيان واحد أو أكثر من البيانات المقررة بالفصل 207 بطلان القيد إلا إذا نتج عن ذلك ضرر يلحق بالغير. ولا يمكن طلب البطلان إلا من قبل الذين يلحقهم الإغفال أو عدم الانتظام بضرر، ويمكن للمحاكم، حسب طبيعة الضرر ومداه، أن تحكم ببطلان القيد أو بتقليص أثره."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى أحكام مجلة التجارة، يجب التمييز بين حالتين مختلفتين من حيث آثار النقص أو التأخير. فبالنسبة لتأخركم عن إجراء القيد، ينص الفصل 206 على أن القيد الذي لم يُجرَ في أجل خمسة عشر يوماً يُعرض للبطلان، وهذا البطلان يمكن التمسك به من قبل كل شخص له مصلحة، بما في ذلك المدين نفسه [1]. وبالتالي، فإن قيدكم المتأخر عرضة للبطلان المطلق. أمّا بخصوص قيد الدائن الآخر الذي تقدم بحدود ناقصة، فإن الفصل 209 يُخضع بطلان القيد لشرط جوهري يتمثل في ثبوت أن الإغفال قد ألحق ضرراً فعلياً بالغير [2]. ولا يملك طلب البطلان إلا من لحقته أضرار، مع إمكانية للمحكمة أن تكتفي بتقليص أثر القيد بدلاً من إبطاله بالكامل حسب طبيعة الضرر ومداه [2]. وبالتالي، لا يمكنكم المطالبة ببطلان قيد غيركم لمجرد نقص في البيانات دون إثبات الضرر الذي لحقكم.\n\nالمصادر: الفصلان 206 و209 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_018",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [241],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أنوي نقل محلي التجاري إلى ولاية أخرى دون علم الدائنين المقيدين. ما هي الآثار القانونية المترتبة على هذا النقل؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 241 من مجلة التجارة\nفي حالة نقل المحل التجاري، تصبح الديون المقيدة مستحقة الأداء من تلقاء نفسها، إذا لم يُعرّف صاحب المحل الدائنين المقيدين، قبل خمسة عشر يوماً على الأقل، بمرسالة مضمونة الوصول مع الإشعار بالاستلام موجهة إلى المواطن المختار، بنية نقله للمحل والمقر الجديد الذي يعتزم إسناده إليه. وفي غضون خمسة عشر يوماً من تاريخ الإعلام الموجه إليهم أو من اليوم الذي بلغهم فيه علم النقل، يجب على البائع أو الدائن المرتهن أن يُبيّنا في هامش القيد الموجود المقر الجديد للمحل... وفي حالة الإغفال عن إنجاز الإجراءات المقررة بالفقرة السابقة، يمكن سقوط حق الدائن المقيّد من امتيازه إذا ثبت أن إهماله تسبّب في ضرر يلحق بالأطراف الثالثة الذين أُوقعوا في الغلط بشأن الوضعية القانونية للمحل. ونقل المحل التجاري دون موافقة البائع أو الدائن المرتهن يمكن، إذا نتج عن ذلك استهلاك قيمة المحل، أن يجعل ديونهم مستحقة الأداء."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 241 من مجلة التجارة، ينشئ نقل المحل التجاري آثاراً قانونية خطيرة إذا لم يتم وفق الإجراءات المقررة. المبدأ أن النقل دون إعلام مسبق للدائنين المقيدين قبل خمسة عشر يوماً على الأقل بمرسالة مضمونة الوصول يجعل ديونهم مستحقة الأداء من تلقاء نفسها [1]. غير أن المشرّع لم يكتفِ بهذا الجزاء، بل أضاف أن نقل المحل دون موافقة البائع أو الدائن المرتهن يمكن أن يُحوّل الديون إلى ديون مستحقة الأداء إذا نتج عن النقل استهلاك لقيمة المحل [1]. وعلى العكس من ذلك، فإن الفصل 241 يُقرر استثناءً لمصلحة الدائن نفسه: إذا أهمل الدائن المقيّد إجراءات تحديث قيده بعد علمه بالنقل وتسبّب إهماله في إيقاع الغير في الخطأ، فإنه يمكن سقوط حقه في الامتياز [1]. وهكذا، يهدف النظام إلى حماية الدائنين من التلاعب بموقع المحل، لكنه يُحمّلهم في المقابل واجب التحرك في الوقت المناسب تحت طائلة فقدان ضماناتهم.\n\nالمصادر: الفصل 241 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_019",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي مدة الاحتفاظ بالشخص لدى الأمن الوطني للتحقيق معه في تهمة تزوير فواتير تجارية؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 11 من مجلة التجارة\nدفاتر التجارة المنتظمة يمكن أن تُقبل من طرف القاضي لتكوين الحجة بين التجار في شأن الأعمال التجارية...\n\n[2] المصدر: الفصل 199 من مجلة التجارة\nيجب على كل من يحوز ثمن اقتناء محل تجاري أن يقوم بتوزيعه في غضون ثلاثة أشهر من تاريخ عقد البيع..."
+        },
+        {
+          "role": "assistant",
+          "content": "إن المستندات القانونية المعروضة، والمتمثلة في مجلة التجارة، لا تتضمن أي أحكام تتعلق بمدد الاحتفاظ بالأشخاص لدى المصالح الأمنية أو إجراءات التحقيق الجنائي. هذه المسائل تخضع لأحكام المجلة الجزائية وإجراءات التحقيق الابتدائي المنظمة بقانون الإجراءات الجزائية. أنصحكم باستشارة محامٍ مختص في القانون الجزائي أو الرجوع إلى النصوص المتعلقة بالإجراءات الجزائية.\n\nهذا الرد لا يشكل استشارة قانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_020",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [230],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents provided. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يكتسب مستأجر المحل التجاري صفة التاجر بمجرد استغلال المحل؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 230 من مجلة التجارة\nيتحمل المستأجر عملية الاستغلال مقابل دفع إيجار لصاحب المحل. ويستغل المحل على مسؤوليته ومخاطرته. وليس له صفة منتقل إليه الحق ولا صفة المستأجر الفرعي في عقد كراء العقار."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 230 من مجلة التجارة، يستغل المستأجر المحل التجاري على مسؤوليته ومخاطرته الخاصة مقابل دفع إيجار لصاحب المحل [1]. والفصل المذكور يؤكد أن المستأجر ليس منتقلاً إليه الحق ولا مستأجراً فرعياً فيما يخص عقد كراء العقار [1]. وبالرجوع إلى الفصل 231 الذي يكمل هذا الحكم، فإن المستأجر يكتسب فعلاً صفة التاجر ويخضع لجميع التزاماتها، ولا سيما وجوب التسجيل في السجل التجاري.\n\nالمصادر: الفصل 230 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_cross_003",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [218, 219],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: اشتريت محلاً تجارياً واكتشفت بعد ستة أشهر من حيازتي أن البيانات المضمنة في عقد البيع غير دقيقة. هل فاتني أجل المطالبة بالضمان؟ وماذا يحدث لدفاتر المحاسبة؟\n\nDocuments pertinents:\n[1] Source: article 218 du Code de Commerce\nL'action résultant de l'article 217 doit être intentée par l'acquéreur dans le délai d'une année, à courir de la date de sa prise de possession.\n\n[2] Source: article 219 du Code de Commerce\nAu jour de la vente, le vendeur et l'acheteur visent les livres de comptabilité qui ont été tenus par le vendeur et qui se réfèrent aux trois exercices précédant la vente et à l'exercice en cours. La propriété des livres de comptabilité prévus à l'alinéa précédent est, sauf stipulation contraire, transférée à l'acheteur du fonds. L'acheteur doit mettre ces livres à la disposition du vendeur pendant dix ans à partir de la vente. Si le vendeur a conservé la propriété des livres de comptabilité, il doit les mettre à la disposition de l'acheteur pendant dix ans au moins à partir de la vente. Toute clause contraire aux dispositions des alinéas 3 et 4 ci-dessus est réputée non écrite."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى أحكام مجلة التجارة، يجب التمييز بين مسألتي الضمان ودفاتر المحاسبة. فبالنسبة لدعوى الضمان الناتجة عن عدم دقة البيانات المنصوص عليها بالفصل 217، ينص الفصل 218 على أن المشتري يجب أن يقيمها في أجل سنة واحدة يسري من تاريخ حيازته للمحل [1]. وبما أنكم اكتشفتم النقص بعد ستة أشهر فقط، فأنتم لا تزالون في نطاق الأجل القانوني ويمكنكم مباشرة الدعوى. أمّا بالنسبة لدفاتر المحاسبة، فإن الفصل 219 يُقرر قاعدة مزدوجة: ففي يوم البيع، يطلع البائع والمشتري على الدفاتر المتعلقة بالأربعة تمارين الأخيرة [2]. ثم تنتقل ملكية الدفاتر إلى المشتري، مع التزامه بوضعها رهن إشارة البائع لمدة عشر سنوات [2]. والعكس صحيح إذا احتفظ البائع بالدفاتر، إذ يلتزم بوضعها رهن إشارة المشتري لنفس المدة. وجميع الشروط المخالفة لهذا التبادل الإلزامي تُعتبر كأن لم تكن [2].\n\nالمصادر: الفصلان 218 و219 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_cross_004",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [4],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un fait juridique non commercial accompli par un commerçant est-il soumis au Code de Commerce ?\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 4 من مجلة التجارة\nتخضع لأحكام هذا الكتاب الوقائع والأعمال القانونية التابعة للنشاط التجاري. وتُعدّ تبعية، ما لم يثبت العكس، جميع الوقائع والأعمال المنجزة من قبل تاجر على النحو المعرّف به بالفصل 2."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 4 du Code de Commerce, les faits et actes juridiques accessoires à l'activité commerciale sont soumis aux dispositions du Code [1]. Le législateur a en outre établi une présomption simple d'accessoirité : tous les faits et actes accomplis par un commerçant, tel que défini à l'article 2, sont présumés accessoires au commerce, sauf preuve contraire [1]. Ainsi, un fait a priori civil accompli par un commerçant sera présumé soumis au Code de Commerce, mais cette présomption peut être renversée par la démonstration que l'acte est dépourvu de tout lien avec l'activité commerciale. Il s'agit d'une présomption simple et non réfragable, ce qui signifie que la charge de la preuve incombe à celui qui conteste le caractère commercial de l'acte.\n\nSources: art. 4 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Livre I, Titre I: Des commerçants (art. 4 - présomption d'accessoirité)",
+      "Livre I, Titre II: Des livres de commerce (art. 8, 9, 11 - obligations comptables, formalités, force probante)",
+      "Livre II, Chap. II, Section I, Sous-section I: Publicité de la vente (art. 192 - dépôt du contrat, notification aux créanciers inscrits)",
+      "Livre II, Chap. II, Section I, Sous-section II: Droits des créanciers (art. 194, 196, 198 - surenchère du sixième)",
+      "Livre II, Chap. II, Section I, Sous-section III: Attribution du prix (art. 199, 200, 201 - distribution et garantie du prix)",
+      "Livre II, Chap. II, Section I, Sous-section IV: Privilège du vendeur (art. 206, 209, 212 - inscription, nullité, durée, omissions)",
+      "Livre II, Chap. II, Section I, Sous-section V: Garantie (art. 218, 219 - délai de l'action, livres de comptabilité)",
+      "Livre II, Chap. II, Section I, Sous-section VI: Résolution (art. 227 - clause de conservation du prix)",
+      "Livre II, Chap. II, Section II: Location du fonds (art. 230, 234, 235 - statut du locataire, responsabilité solidaire du loueur)",
+      "Livre II, Chap. II, Section III: Nantissement (art. 237, 240 - éléments du gage, rang des créanciers)",
+      "Livre II, Chap. III: Dispositions communes (art. 241, 243, 245 - déplacement du fonds, vente forcée, publicité)"
+    ],
+    "sections_not_covered": [
+      "Transport terrestre, maritime et aérien (articles 627 et suivants)",
+      "Procédures collectives détaillées (rôle du syndic, comité de créanciers, plans de redressement)",
+      "Effets de commerce au-delà de ce qui a été traité dans leدفعة الأولى (billet à ordre, chèque - détail)",
+      "Contrats commerciaux non traités: transport, dépôt, gage de stocks"
+    ],
+    "notes": "هذا الدفعة يركّز على الأحكام التفصيلية لبيع المحل التجاري وضماناته (الامتياز، القيد، الرهن الحيازي) وعلى الإجراءات المتعلقة بتوزيع الثمن والبيع القسري والسورأنشار. كما يغطي التزامات المحاسبة وشروط قوة الدفاتر التجارية كحجة قضائية. لم يتم تناول أي فصل من الفصول 14 إلى 188 لأنها ملغاة ومنقولة إلى مجلة الشركات التجارية."
+  }
+}

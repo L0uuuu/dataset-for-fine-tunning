@@ -1,0 +1,441 @@
+{
+  "batch_id": "batch_CDR_002_20260421",
+  "source": "Code des droits réels de Tunisie",
+  "articles_covered": [5, 7, 9, 10, 20, 25, 36, 37, 42, 44, 45, 46, 47, 53, 58, 59, 62, 70, 71, 74, 75, 89, 90, 91, 103, 104, 106, 107, 108, 109, 111],
+  "articles_to_avoid_next_batch": [5, 7, 9, 10, 20, 25, 36, 37, 42, 44, 45, 46, 47, 53, 58, 59, 62, 70, 71, 74, 75, 89, 90, 91, 103, 104, 106, 107, 108, 109, 111],
+  "examples": [
+    {
+      "example_id": "CDR_001_fr_direct_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [5],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels biens sont considérés comme immeubles par nature selon le Code des droits réels ?\n\nDocuments pertinents:\n[1] Source: article 5 du CDR\nSont immeubles par nature les fonds de terre, les bâtiments et les plantes tant qu'elles ne sont pas détachées du sol."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 5 du CDR, sont immeubles par nature les fonds de terre, les bâtiments et les plantes tant qu'elles ne sont pas détachées du sol [1]. Cette qualification détermine le régime juridique applicable au bien, notamment en matière de publicité foncière et d'hypothèque.\n\nSources: art. 5 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_fr_direct_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [25],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai trouvé un trésor caché dans mon terrain, à qui appartient-il ?\n\nDocuments pertinents:\n[1] Source: article 25 du CDR\nLe trésor ou la chose cachée, dont la propriété ne peut être établie au profit de personne, appartient pour trois cinquièmes au propriétaire du bien où a été découvert ce trésor ou cette chose, pour un cinquième à celui qui l'a découvert et pour un cinquième à l'Etat."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 25 du CDR, le trésor dont la propriété ne peut être établie au profit de personne est réparti en trois parts : trois cinquièmes reviennent au propriétaire du bien où il a été découvert, un cinquième à celui qui l'a découvert et un cinquième à l'Etat [1]. Ainsi, en tant que propriétaire du terrain, vous avez droit à la part la plus importante, soit les trois cinquièmes.\n\nSources: art. 25 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_fr_direct_003",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [20],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Peut-on forcer quelqu'un à céder sa propriété en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 20 du CDR\nNul ne peut être contraint de céder sa propriété sauf dans les cas prévus par la loi et moyennant une juste indemnité."
+        },
+        {
+          "role": "assistant",
+          "content": "Non. En vertu de l'article 20 du CDR, nul ne peut être contraint de céder sa propriété sauf dans les cas prévus par la loi et moyennant une juste indemnité [1]. Ce principe constitue une garantie fondamentale du droit de propriété.\n\nSources: art. 20 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_ar_direct_001",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [7],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: متى تتحوّل المحاصيل والثمار من عقارات إلى منقولات وفقاً لمجلة الحقوق العينية؟\n\nDocuments pertinents:\n[1] Source: article 7 du CDR\nLes récoltes pendantes par les racines et les fruits non encore cueillis sont également immeubles. Dès que les épis sont coupés et les fruits détachés, quoique non enlevés, ils deviennent meubles."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 7 من مجلة الحقوق العينية، تُعتبر المحاصيل المعلّقة بجذورها والثمار غير المقطوفة عقارات بالطبيعة. غير أنّها تتحوّل إلى منقولات بمجرّد قطع السنابل وانفصال الثمار، ولو لم تُنقل من مكانها بعد [1].\n\nSources: الفصل 7 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_ar_direct_002",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [74, 75],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: من يتحمّل تكاليف ترميم الجدار المشترك بين منزلين؟\n\nDocuments pertinents:\n[1] Source: article 74 du CDR\nLa réparation et la reconstruction du mur mitoyen sont à la charge des copropriétaires et proportionnellement au droit de chacun d'eux.\n\n[2] Source: article 75 du CDR\nTout copropriétaire d'un mur mitoyen peut ne pas contribuer aux réparations et reconstructions en abandonnant le droit de mitoyenneté, pourvu que le mur mitoyen ne soutienne pas un bâtiment lui appartenant."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 74 من مجلة الحقوق العينية، تتحمّل تكاليف ترميم وإعادة بناء الجدار المشترك جميع الملاك المشتركين بنسبة حقوق كلّ منهم [1]. غير أنّه وفقاً للفصل 75، يجوز لأيّ مالك مشترك أن يتخلى عن حقّ المشاعة بدل المساهمة في التكاليف، شريطة ألا يكون الجدار المشترك سانداً لبناية ملكه [2].\n\nSources: الفصلان 74 و75 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_ar_direct_003",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [53],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يُفترض حسن النية في حيازة المنقولات وفقاً لمجلة الحقوق العينية؟\n\nDocuments pertinents:\n[1] Source: article 53 du CDR\nCelui qui possède de bonne foi une chose mobilière ou un ensemble de meubles est présumé avoir acquis cette chose régulièrement, sauf à celui qui allègue le contraire à le prouver.\nN'est pas présumé de bonne foi, celui qui savait ou devait savoir, au moment où il a reçu la chose, que celui dont il l'a reçue n'avait pas le droit d'en disposer."
+        },
+        {
+          "role": "assistant",
+          "content": "نعم، بمقتضى الفصل 53 من مجلة الحقوق العينية، يُفترض أنّ من يحوز بحسن نية شيئاً منقولاً أو مجموعة منقولات قد اكتسبه بشكل قانوني، ويقع عبء الإثبات على من يدّعي العكس [1]. غير أنّ هذا الافتراض لا يسري على من كان يعلم أو ينبغي أن يعلم، وقت تسلّم الشيء، أنّ من سلّمه إليه لا يملك حق التصرف فيه.\n\nSources: الفصل 53 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_fr_multi_001",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [42, 44],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la différence entre le possesseur de bonne foi et le possesseur de mauvaise foi en matière de restitution des fruits ?\n\nDocuments pertinents:\n[1] Source: article 42 du CDR\nLe possesseur de mauvaise foi est tenu de restituer avec la chose, tous les fruits naturels et civils qu'il a perçus ou qu'il aurait pu percevoir, s'il avait administré d'une manière normale depuis le moment où la chose lui est parvenue, il n'a droit qu'au remboursement des dépenses nécessaires à la conservation de la chose et à la perception des fruits. Les frais de restitution de la chose sont à sa charge.\n\n[2] Source: article 44 du CDR\nLe possesseur de bonne foi fait les fruits siens, et il n'est tenu de restituer que ceux qui existent encore au moment où il est assigné en restitution de la chose, et ceux qu'il a perçus depuis ce moment.\nIl doit, d'autre part, supporter les frais d'entretien et ceux de perception des fruits.\nLe possesseur de bonne foi est celui qui possède en vertu d'un titre dont il ignore les vices."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 42 du CDR, le possesseur de mauvaise foi est tenu de restituer tous les fruits perçus ou qui auraient pu être perçus depuis le moment où la chose lui est parvenue [1]. Il n'a droit qu'au remboursement des dépenses nécessaires à la conservation de la chose. En revanche, conformément à l'article 44, le possesseur de bonne foi fait les fruits siens et n'est tenu de restituer que ceux qui existent encore au moment où il est assigné en restitution ainsi que ceux perçus dès ce moment [2]. Le possesseur de bonne foi est défini comme celui qui possède en vertu d'un titre dont il ignore les vices. Ainsi, la bonne foi constitue un régime de faveur substantiel pour le possesseur.\n\nSources: art. 42, 44 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_fr_multi_002",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [89, 90, 91],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment fonctionne le syndicat de copropriété dans un immeuble divisé par étages, et quelles majorités sont requises pour les décisions ?\n\nDocuments pertinents:\n[1] Source: article 89 du CDR (modifié par la loi n° 97-68)\nL'ensemble des propriétaires visés au paragraphe premier de l'article 85 du présent code sont constitués de plein droit et en vertu de la présente loi en syndicat de propriétaires doté de la personnalité civile, et d'un président qui en est le mandataire légal, chargé de le représenter en justice en tant que demandeur ou défendeur, ainsi qu'auprès des diverses administrations et entreprises publiques.\nLe président du syndicat est choisi conformément aux dispositions de l'article 97 du présent code.\nLe président du syndicat peut être assisté d'un comité composé de trois à neuf propriétaires choisis parmi eux à la majorité fixée à l'article 91 du présent code.\nLe syndicat des propriétaires est chargé notamment de la conservation de l'immeuble ou de l'ensemble immobilier, de la gestion et de l'entretien des parties communes, conformément aux dispositions du présent code, et du règlement de copropriété visé à l'article 90.\n\n[2] Source: article 90 du CDR (modifié par la loi n° 97-68)\nLe syndicat des propriétaires doit adopter un règlement dit « règlement de copropriété » comportant la détermination, la fixation et la description de chaque partie commune, en vue d'assurer la bonne utilisation et la bonne gestion de l'immeuble, et ce, conformément à un règlement-type approuvé par décret pris sur proposition du ministre chargé des affaires foncières.\nIl peut être ajouté à ce règlement de copropriété des règles spécifiques répondant aux caractéristiques de l'immeuble en copropriété, approuvées par l'ensemble des propriétaires à la majorité fixée à l'article 91 du présent code et conformément aux procédures fixées par le règlement de copropriété.\nCe règlement oblige l'ensemble des propriétaires ainsi que ceux qui acquièrent d'eux un droit sur l'immeuble.\n\n[3] Source: article 91 du CDR (modifié par la loi n° 97-68)\nL'insertion ou la modification des règles spécifiques dans le règlement de copropriété ne peut avoir lieu qu'à la majorité des propriétaires présents ou de leurs représentants, et chacun d'entre eux dispose d'un nombre de voix correspondant à la fraction qui lui revient dans les parties communes et indivises.\nToutefois, lorsque la fraction dont dispose un propriétaire dépasse la moitié de l'ensemble des parts dans les parties communes indivises, le nombre de voix dont dispose ce propriétaire est réduit à l'ensemble des voix du reste des propriétaires.\nDans ce cas, ainsi que dans les autres cas de partage égal des voix, celle du président du syndicat est prépondérante."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 89 du CDR, l'ensemble des propriétaires d'un immeuble divisé par étages ou appartements est constitué de plein droit en syndicat de propriétaires doté de la personnalité civile, sous la direction d'un président qui en est le mandataire légal [1]. Le syndicat est chargé de la conservation, de la gestion et de l'entretien des parties communes. Il doit adopter un règlement de copropriété conforme à un règlement-type approuvé par décret, qui oblige tous les propriétaires actuels et futurs [2]. Concernant les majorités, l'article 91 dispose que l'insertion ou la modification des règles spécifiques nécessite la majorité des propriétaires présents ou représentés, chacun disposant d'un nombre de voix proportionnel à sa fraction dans les parties communes [3]. Toutefois, lorsqu'un propriétaire détient plus de la moitié des parts, son nombre de voix est réduit à celui du reste des propriétaires. En cas d'égalité des voix, celle du président est prépondérante. Ce mécanisme vise à prévenir la domination d'un seul copropriétaire.\n\nSources: art. 89, 90, 91 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_ar_multi_001",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [58, 59, 62],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي حقوق الشركاء على الشيوع في استعمال الشيء المشترك واستغلاله؟ وهل يجوز لأحدهم إدخال تغييرات عليه دون موافقة الباقين؟\n\nDocuments pertinents:\n[1] Source: article 58 du CDR\nChaque coindivisaire peut se servir de la chose commune à proportion de son droit, pourvu qu'il n'en fasse pas un usage contraire à sa nature ou à sa destination et qu'il ne s'en serve pas contre l'intérêt des autres coindivisaires, ou de manière à les empêcher de s'en servir suivant leur droit.\n\n[2] Source: article 59 du CDR\nChaque coindivisaire peut aliéner sa quote-part, la céder, la constituer en nantissement et en disposer à titre onéreux ou gratuit, à moins qu'il n'ait qu'un droit personnel.\n\n[3] Source: article 62 du CDR\nAucun des coindivisaires ne peut faire d'innovations à la chose commune sans le consentement, exprès ou tacite, des autres.\nEn cas de contravention, on suivra les règles ci-après :\n1) Lorsque le partage en nature est possible, il y sera procédé. Si la partie sur laquelle l'innovation a été faite tombe dans le lot d'un autre coindivisaire, celui-ci peut, soit contraindre son coindivisaire, à remettre, à ses frais, les choses en l'état et, le cas échéant, à réparer le préjudice qu'il peut avoir éprouvé, soit rembourser la valeur des matériaux et le prix de la main-d'œuvre sans égard à la plus-value que la chose a pu acquérir;\n2) Lorsque la chose est impartageable, les autres coindivisaires ont le même choix; s'ils préfèrent le remboursement de la valeur des matériaux et du prix de la main-d'œuvre, chacun d'eux sera tenu en proportion de sa quote-part. En cas de désaccord sur le parti à prendre, l'avis de la majorité des coindivisaires oblige la minorité, la majorité étant déterminée par la somme des quotes-parts dépassant la moitié de la valeur de la chose commune."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 58 من مجلة الحقوق العينية، يجوز لكلّ شريك على الشيوع الانتفاع بالشيء المشترك بنسبة حصته، بشرط ألا يكون ذلك على خلاف طبيعة الشيء أو غرضه أو ضدّ مصلحة باقي الشركاء [1]. كما يجوز له التنازل عن حصته أو رهنها أو التصرف فيها بعوض أو بغير عوض، ما لم يكن صاحب حق شخصي فقط [2]. غير أنّ الفصل 62 ينصّ صراحة على أنّه لا يجوز لأيّ شريك إدخال تغييرات على الشيء المشترك دون موافقة باقي الشركاء صراحة أو ضمناً [3]. وفي حالة المخالفة، يحقّ للشركاء إمّا إلزام المخالف بإعادة الشيء إلى حالته الأصلية على نفقته، أو المطالبة بقيمة المواد وأجرة العمل دون اعتبار لزيادة القيمة. وفي حالة عدم الاتفاق، يلزم رأي الأغلبية المحددة بمجموع الحصص التي تتجاوز نصف قيمة الشيء المشترك.\n\nSources: الفصول 58 و59 و62 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_ar_cross_multi_001",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [103, 109],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: إذا تنازع عدة أشخاص على حق الشفعة بشأن عقار واحد، فما هو الترتيب المتبع لفضّ هذا النزاع؟\n\nDocuments pertinents:\n[1] Source: article 103 du CDR\nLe retrait est l'acte par lequel un indivisaire se substitue, dans les cas et selon les conditions prévues par les articles suivants, à celui qui a acquis d'un autre indivisaire; tout ou partie de sa quote-part.\n\n[2] Source: article 109 du CDR\nEn cas de pluralité de retrayants relativement à un même immeuble, ils exercent leur droit dans l'ordre suivant :\n1) le propriétaire du sol à l'égard du superficiaire et réciproquement;\n2) les cohéritiers;\n3) les copropriétaires indivis et les copropriétaires divis d'une maison d'habitation dans le cas visé par l'article 104.\nPour ces deux dernières catégories, celui qui a la quote-part la plus importante sera préféré à celui qui a une part moindre.\nEn cas d'égalité des quotes-parts, il y aurait lieu à tirage au sort."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 103 من مجلة الحقوق العينية، الشفعة هي العمل الذي يتيح للشريك على الشيوع أن يحلّ محلّ من اشترى حصة من شريك آخر [1]. وفي حالة تعدّد طالبي الشفعة بشأن عقار واحد، ينصّ الفصل 109 على أن يمارس كلّ منهم حقّه وفقاً للترتيب التالي: أوّلاً، مالك الأرض بالنسبة للمستفيد من حق البناء والعكس؛ ثانياً، الورثة؛ ثالثاً، الشركاء على الشيوع والشركاء المفرّزون في منزل سكني غير الخاضع لنظام الملكية المشتركة [2]. وبالنسبة للفئتين الأخيرتين، يُفضّل صاحب الحصة الأكبر، وفي حالة تساوي الحصص يُلجأ إلى القرعة.\n\nSources: الفصلان 103 و109 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_fr_principle_001",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [45, 46, 47],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les différents délais de prescription acquisitive applicables aux immeubles en droit tunisien ?\n\nDocuments pertinents:\n[1] Source: article 45 du CDR\nDevient propriétaire par prescription, celui qui exerce sur un immeuble ou un droit réel immobilier, pendant quinze ans et à titre de propriétaire, une possession paisible, publique, continue, non interrompue et non équivoque.\nLa possession entachée d'un vice ne produit d'effets que lorsque le vice a cessé.\n\n[2] Source: article 46 du CDR\nLa durée de la prescription est réduite à dix ans, lorsque la possession est acquise de bonne foi, et en vertu d'un acte juridique qui aurait transféré la propriété s'il était émané du véritable propriétaire.\nLa bonne foi s'apprécie au moment où la possession a été acquise.\n\n[3] Source: article 47 du CDR\nEntre héritiers et copropriétaires, la durée de la prescription est élevée à trente ans."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 45 du CDR, le délai de droit commun de la prescription acquisitive est de quinze ans, à condition que la possession soit paisible, publique, continue, non interrompue et non équivoque [1]. Toutefois, ce délai est réduit à dix ans par exception lorsque deux conditions cumulatives sont réunies : la possession doit avoir été acquise de bonne foi et en vertu d'un acte juridique qui aurait transféré la propriété s'il avait été émané du véritable propriétaire [2]. La bonne foi s'apprécie au moment de l'acquisition de la possession. Par ailleurs, l'article 47 prévoit un régime dérogatoire inverse entre héritiers et copropriétaires, pour lesquels le délai est élevé à trente ans [3]. Ainsi, le législateur a aménagé trois régimes distincts selon la qualité du possesseur et sa relation avec le véritable propriétaire, le délai le plus long s'appliquant aux situations de confiance familiale ou de co-propriété.\n\nSources: art. 45, 46, 47 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_fr_principle_002",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [36],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon voisin a construit un mur sur mon terrain sans mon accord, quels sont mes droits ?\n\nDocuments pertinents:\n[1] Source: article 36 du CDR\nLorsque des constructions, plantations et ouvrages ont été faits par un tiers et avec ses matériaux mais sans le consentement du propriétaire du fonds, ce dernier a le droit; soit de les conserver, soit de contraindre leur auteur à les enlever.\nSi le propriétaire du fonds en demande la suppression, celle-ci est faite aux frais de leur auteur, sans aucune indemnité; il peut, en outre, être condamné à des dommages-intérêts pour le préjudice que peut avoir subi le propriétaire du fonds.\nSi, au contraire, le propriétaire du fonds demande à les conserver, il doit rembourser la valeur des matériaux et le prix de la main-d'œuvre, sans égard à la plus-value que le fonds a pu acquérir.\nToutefois, si les constructions, plantations ou ouvrages ont été faits par un possesseur de bonne foi évincé, le propriétaire du fonds ne peut en demander la suppression mais il a le choix ou de rembourser la valeur des matériaux et du prix de la main-d'œuvre ou de rembourser une somme égale à la plus-value acquise par le fonds."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 36 du CDR, lorsque des constructions ont été faites par un tiers sans votre consentement, vous avez le choix entre deux options [1]. Premièrement, vous pouvez exiger la suppression des constructions aux frais de leur auteur, sans aucune indemnité, et pouvez en outre réclamer des dommages-intérêts pour le préjudice subi. Deuxièmement, vous pouvez demander à conserver les constructions, auquel cas vous devez rembourser la valeur des matériaux et le prix de la main-d'œuvre, sans égard à la plus-value du fonds. Toutefois, il existe une exception importante : si les constructions ont été faites par un possesseur de bonne foi évincé, vous ne pouvez plus en demander la suppression. Vous n'avez alors que le choix entre rembourser les matériaux et la main-d'œuvre ou rembourser une somme égale à la plus-value acquise par le fonds. Cette exception protège celui qui a investi de bonne foi dans un bien dont il ignorait les vices du titre.\n\nSources: art. 36 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_ar_principle_001",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [106, 107, 108],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الحالات التي لا يجوز فيها ممارسة حق الشفعة وفقاً لمجلة الحقوق العينية؟\n\nDocuments pertinents:\n[1] Source: article 106 du CDR\nLe voisin ne peut exercer le droit de préemption à l'encontre de son voisin.\n\n[2] Source: article 107 du CDR\nLe copropriétaire ne peut exercer le droit de préemption à l'encontre de son copropriétaire.\n\n[3] Source: article 108 du CDR\nLe droit de préemption ne peut pas être exercé :\n1) lorsque la vente est faite aux enchères publiques conformément à la loi;\n2) lorsque la vente est passée entre les ascendants et les descendants ou entre les conjoints."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 108 من مجلة الحقوق العينية، لا يجوز ممارسة حق الشفعة في حالتين أساسيتين: أوّلاً، عندما تتمّ البيع في مناقصة عمومية وفقاً للقانون؛ ثانياً، عندما يكون البيع بين الأصول والفروع أو بين الزوجين [3]. علاوة على ذلك، ينصّ الفصلان 106 و107 على قاعدتين مهمتين إضافيتين: فالجار لا يجوز له ممارسة حق الشفعة ضدّ جاره [1]، وكذلك الشريك المفرّز لا يجوز له ممارسة هذا الحق ضدّ شريكه المفرّز [2]. وبالتالي، فإنّ المشرّع ضيّق نطاق حق الشفعة وقصره على حالات محددة تستوجب حماية مصلحة مشروعة للشريك على الشيوع أو الوريث، واستثنى صراحة العلاقات الجوارية والشراكة المفرّزة والبيوع العمومية والبيع بين الأقارب من الدرجة الأولى.\n\nSources: الفصول 106 و107 و108 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_fr_refusal_001",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Combien de temps dure la procédure d'immatriculation foncière et quels sont les frais à prévoir ?\n\nDocuments pertinents:\n[1] Source: article 4 du CDR (loi de promulgation)\nDemeure expressément en vigueur, le décret-loi n° 64-3 du 20 février 1964, relatif à l'immatriculation foncière obligatoire, tel qu'il a été ratifié par la loi n° 64-3 du 21 avril 1964."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question concernant les délais et les frais de la procédure d'immatriculation foncière. Je vous recommande de consulter un avocat spécialisé ou de vous adresser à la conservation de la propriété foncière compétente."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_fr_refusal_002",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les règles fiscales applicables à la plus-value immobilière lors de la vente d'un terrain en Tunisie ?\n\nDocuments pertinents:\n[1] Source: Sommaire du CDR\nInstitution d'un impôt sur la fortune immobilière…………. 165"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations sur la fiscalité de la plus-value immobilière. Je vous recommande de consulter un avocat spécialisé en droit fiscal ou l'administration fiscale compétente."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_ar_refusal_001",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي شروط صياغة عقد البيع العقاري وشكله المطلوب في القانون التونسي؟\n\nDocuments pertinents:\n[1] Source: article 2 du CDR (loi de promulgation)\nSont abrogées à compter de la mise en vigueur dudit code, toutes dispositions contraires et notamment : [...]\n- Les articles 110 à 113, 1227 à 1248, 1351 à 1364, 1532 à 1612 et 1623 à 1632 du code des obligations et des contrats."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تتضمن الوثائق المقدّمة معلومات كافية للإجابة عن هذا السؤال المتعلق بشروط صياغة عقد البيع العقاري. يُرجى استشارة محامٍ متخصص أو الرجوع إلى مجلة الالتزامات والعقود."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_fr_clarification_001",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [37],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai construit un mur qui empiète sur le terrain du voisin, puis-je devenir propriétaire de cette portion ?\n\nDocuments pertinents:\n[1] Source: article 37 du CDR\nLorsque le propriétaire, en faisant des constructions et ouvrages sur son fonds, empiète de bonne foi sur une petite portion du fonds voisin, le tribunal pourra le déclarer propriétaire de cette portion moyennant une indemnité équitable."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question nécessite une clarification. L'article 37 du CDR prévoit la possibilité pour le tribunal de déclarer le propriétaire constructeur propriétaire de la portion empiétée, mais à deux conditions cumulatives : l'empiétement doit porter sur une « petite portion » du fonds voisin, et le constructeur doit être de bonne foi [1]. Pouvez-vous préciser l'étendue de l'empiétement par rapport à la surface totale du fonds voisin, et indiquer si vous ignoriez les limites de votre propriété au moment de la construction ? Ces éléments détermineront si cette disposition vous est applicable."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_ar_clarification_001",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [9, 10],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: لقد وضعت آلات زراعية في أرضي، هل تُعتبر هذه الآلات عقارات؟\n\nDocuments pertinents:\n[1] Source: article 9 du CDR\nSont immeubles par destination, les animaux, le matériel et autres objets que le propriétaire du fonds a placés pour le service et l'exploitation de ce fonds.\n\n[2] Source: article 10 du CDR\nSont immeubles par destination, les objets mobiliers que le propriétaire attache à son fonds de telle sorte qu'on ne saurait les en détacher sans les détériorer, ou sans détériorer la partie du fonds à laquelle ils sont attachés."
+        },
+        {
+          "role": "assistant",
+          "content": "يتطلّب الأمر توضيحاً قبل الإجابة. وفقاً للفصلين 9 و10 من مجلة الحقوق العينية، تُعتبر الأشياء المنقولة عقارات بالتخصيص في حالتين مختلفتين: إمّا لأنّ المالك وضعها لخدمة العقار واستغلاله كالآلات والحيوانات [1]، أو لأنّها مُثبّتة في العقار بطريقة لا يمكن فصلها دون إتلافها أو إتلاف جزء من العقار [2]. فهل الآلات الزراعية التي أشرت إليها مُثبّتة بشكل دائم في الأرض بحيث يتعذّر نقلها دون تلفها، أم هي مجرد آلات موضوعة لخدمة الاستغلال الزراعي وقابلة للنقل؟ يكون الحكم مختلفاً بحسب كلّ حالة."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_ar_procedural_001",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [70, 71],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتمّ إنهاء حالة الشيوع، وما هي الإجراءات المتبعة لطلب القسمة؟\n\nDocuments pertinents:\n[1] Source: article 70 du CDR\nL'indivision prend fin :\n1) par la perte totale de la chose commune;\n2) lorsque les coindivisaires n'ont plus de droits sur la chose commune;\n3) par la réunion de toutes les quotes-parts sur la tête d'un seul coindivisaire;\n4) par le partage;\n5) par la licitation.\n\n[2] Source: article 71 du CDR\nNul ne peut être contraint à demeurer dans l'indivision, chacun des coindivisaires peut toujours provoquer le partage, nonobstant toute clause contraire.\nToutefois, les coindivisaires peuvent convenir par écrit de ne pas demander le partage pendant un délai déterminé. Le tribunal pourra, cependant, ordonner la résiliation de la convention et le partage, s'il y a juste motif.\nLe délai fixé par la convention ne peut pas dépasser cinq années.\nSi les coindivisaires conviennent d'un délai supérieur, il est ramené à cette durée. Le délai ne peut être prorogé, lorsqu'il est expiré, que par un nouvel écrit."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 70 من مجلة الحقوق العينية، تنتهي حالة الشيوع بخمس حالات: فقدان الشيء المشترك كلياً، وزوال حقوق الشركاء عليه، واجتماع جميع الحصص في يد شريك واحد، والقسمة، والبيع بالمزاد العلني [1]. أمّا إجراءات طلب القسمة، فينصّ الفصل 71 على أنّه لا يمكن إكراه أيّ شريك على البقاء في حالة الشيوع، ويجوز لكلّ شريك أن يطلب القسمة في أيّ وقت حتّى ولو وُجد شرط مخالف [2]. غير أنّه يجوز للشركاء الاتفاق كتابة على عدم طلب القسمة خلال مدّة محددة لا تتجاوز خمس سنوات، فإذا اتفقوا على مدّة أطول رُدّت إلى هذه المدّة. ولا يجوز تمديد هذا الأجل بعد انقضائه إلّا بمكتوب جديد. ويجوز للمحكمة أن تأمر بفسخ الاتفاق والقسمة إذا وُجد سبب مشروع.\n\nSources: الفصلان 70 و71 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_001_ar_cross_procedural_001",
+      "language": "cross_lingual",
+      "category": "procedural",
+      "articles_referenced": [103, 104, 111],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الإجراءات الواجب اتّباعها لممارسة حق الشفعة، ومن هم الأشخاص المؤهلون لذلك؟\n\nDocuments pertinents:\n[1] Source: article 103 du CDR\nLe retrait est l'acte par lequel un indivisaire se substitue, dans les cas et selon les conditions prévues par les articles suivants, à celui qui a acquis d'un autre indivisaire; tout ou partie de sa quote-part.\n\n[2] Source: article 104 du CDR\nEst considéré comme indivisaire, au sens de l'article précédent:\n1) tout copropriétaire indivis d'un immeuble ou tout cohéritier relativement à un immeuble successoral;\n2) le superficiaire relativement au sol vendu;\n3) le propriétaire du sol relativement à la superficie vendue;\n4) le copropriétaire divis d'une maison d'habitation non soumise au statut de la copropriété des immeubles divisés par étages ou par appartements.\n\n[3] Source: article 111 du CDR\nCelui qui veut exercer la préemption doit présenter sa requête avec les pièces établissant qu'il a offert de rembourser à l'acquéreur son prix d'acquisition et les loyaux coûts du contrat ou, en cas de refus de l'acquéreur, qu'il a consigné ladite somme à la caisse des dépôts et consignations. Cette consignation n'est pas subordonnée à une autorisation du tribunal.\nToute clause ayant pour but de rendre le prix d'acquisition indéterminé est réputée non écrite."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 103 من مجلة الحقوق العينية، الشفعة هي العمل الذي يتيح للشريك على الشيوع أن يحلّ محلّ المشتري في الحصة المبيعة [1]. أمّا الأشخاص المؤهلون لممارسة هذا الحق، فيحددهم الفصل 104 على وجه الحصر: المالك على الشيوع لعقار، والوريث بالنسبة للعقار الموروث، وصاحب حق البناء بالنسبة للأرض المبيعة والعكس، والشريك المفرّز في منزل سكني غير الخاضع لنظام الملكية المشتركة للعقارات المفرّزة بطوابق أو شقق [2]. وفيما يخصّ الإجراءات، ينصّ الفصل 111 على وجوب تقديم طلب مرفق بالمستندات التي تثبت عرض استرداد ثمن الشراء والتكاليف المشروعة للعقد على المشتري، أو إيداع المبلغ في صندوق الإيداع والكفالات في حالة رفض المشتري، وذلك دون حاجة إلى ترخيص من المحكمة [3]. كما تُعتبر باطلة كلّ شرط يجعل ثمن الشراء غير محدد.\n\nSources: الفصول 103 و104 و111 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Livre I, Titre I, Chap. I (Immeubles) - articles 5, 7, 9, 10",
+      "Livre I, Titre II (Droit de propriété) - article 20",
+      "Livre I, Titre II, Sous-Titre I, Chap. I (Occupation) - article 25",
+      "Livre I, Titre II, Sous-Titre I, Chap. II, Section II (Accession artificielle) - articles 36, 37",
+      "Livre I, Titre II, Sous-Titre I, Chap. III, Section I (Possession) - articles 42, 44",
+      "Livre I, Titre II, Sous-Titre I, Chap. III, Section II (Prescription acquisitive) - articles 45, 46, 47",
+      "Livre I, Titre II, Sous-Titre I, Chap. III, Section III (Possession des meubles) - article 53",
+      "Livre I, Titre II, Sous-Titre II, Chap. I (Indivision - dispositions générales) - articles 58, 59, 62, 70, 71",
+      "Livre I, Titre II, Sous-Titre II, Chap. II (Mur et fossé mitoyens) - articles 74, 75",
+      "Livre I, Titre II, Sous-Titre II, Chap. III (Copropriété par étages) - articles 89, 90, 91",
+      "Livre I, Titre II, Sous-Titre II, Chap. IV (Retrait/préemption) - articles 103, 104, 106, 107, 108, 109, 111"
+    ],
+    "sections_not_covered": [
+      "Livre I, Titre I, Chap. I - articles 1-4, 6, 8, 11, 12 (classification des biens, droits réels immobiliers)",
+      "Livre I, Titre I, Chap. II (Meubles) - articles 13-15",
+      "Livre I, Titre I, Chap. III (Biens de l'Etat) - article 16",
+      "Livre I, Titre II - articles 17-19, 21 (attributs de la propriété, propriété du sol/sous-sol)",
+      "Livre I, Titre II, Sous-Titre I, Chap. I - articles 23-24, 26 (occupation, épaves, antiquités)",
+      "Livre I, Titre II, Sous-Titre I, Chap. II, Section I (Accession naturelle) - articles 27-33",
+      "Livre I, Titre II, Sous-Titre I, Chap. II, Section II - articles 34-35",
+      "Livre I, Titre II, Sous-Titre I, Chap. III, Section I - articles 38-41, 43",
+      "Livre I, Titre II, Sous-Titre I, Chap. III, Section II - articles 48-52 (interruption de prescription)",
+      "Livre I, Titre II, Sous-Titre I, Chap. III, Section III - articles 54-55 (meubles perdus/volés, transformation)",
+      "Livre I, Titre II, Sous-Titre II, Chap. I - articles 56-57, 60-61, 63-69",
+      "Livre I, Titre II, Sous-Titre II, Chap. II - articles 72-73, 76-84",
+      "Livre I, Titre II, Sous-Titre II, Chap. III - articles 85-88, 92-102",
+      "Livre I, Titre II, Sous-Titre II, Chap. IV - articles 105, 110, 112+",
+      "Livre II et suivants (non fournis dans le texte transmis - coupure après article 112)"
+    ],
+    "notes": "Le texte fourni s'interrompt en milieu d'article 112. Les articles 113 et suivants ainsi que tout le Livre II et éventuels livres suivants n'ont pas été fournis et ne peuvent donc pas être couverts. Les prochains batches devraient prioriser les sections non couvertes du Livre I, notamment l'accession naturelle (art. 27-33), la copropriété par étages restante (art. 85-88, 92-102), la mitoyenneté restante (art. 72-73, 76-84), et les dispositions sur la possession des meubles (art. 54-55)."
+  }
+}

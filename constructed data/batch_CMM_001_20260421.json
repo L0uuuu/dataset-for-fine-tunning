@@ -1,0 +1,471 @@
+{
+  "batch_id": "batch_CMM_001_20260421",
+  "source": "Code de Commerce Maritime de Tunisie (Loi n° 62-13 du 24 avril 1962)",
+  "articles_covered": [1, 4, 6, 7, 8, 12, 18, 21, 23, 44, 48, 50, 58, 65, 71, 78, 100, 130, 132, 133, 144, 147, 165, 171, 194, 201, 206, 207, 231, 237, 238, 244, 245, 255, 256, 297, 327, 345],
+  "articles_to_avoid_next_batch": [1, 4, 6, 7, 8, 12, 18, 21, 23, 44, 48, 50, 58, 65, 71, 78, 100, 130, 132, 133, 144, 147, 165, 171, 194, 201, 206, 207, 231, 237, 238, 244, 245, 255, 256, 297, 327, 345],
+  "examples": [
+    {
+      "example_id": "CMM_FR_DIRECT_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [1],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Le Code de Commerce Maritime tunisien s'applique-t-il uniquement aux activités lucratives ?\n\nDocuments pertinents:\n[1] Source: Article 1 du Code de Commerce Maritime\nLe présent Code s'applique à toute espèce de navigation maritime, qu'elle soit ou non à but lucratif, qu'elle soit exercée pour le compte de personnes privées ou publiques, y compris l'Etat."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 1er du Code de Commerce Maritime [1], le champ d'application est très large. En effet, ce code s'applique à toute espèce de navigation maritime, que cette navigation soit exercée à but lucratif ou non. Par ailleurs, le texte précise expressément qu'il s'applique que l'activité soit exercée pour le compte de personnes privées, publiques, y compris l'État. Ainsi, une navigation de plaisance ou un service public maritime sont également soumis aux dispositions de ce code.\n\nSources: art. 1 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_DIRECT_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [6],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les documents de bord obligatoires pour un navire tunisien ?\n\nDocuments pertinents:\n[1] Source: Article 6 du Code de Commerce Maritime\nTout navire tunisien, sauf les exceptions prévues à l'article 8, doit avoir les papiers de bord suivants :\n- Acte de nationalité ;\n- Congé ;\n- registre d'équipage,\n- Documents sanitaires ;\n- Titres de sécurité et registre des procès-verbaux de visites ;\n- Livre de bord, registre de discipline et journal de la machine, s'il y a lieu.\nLes navires étrangers doivent avoir les papiers de bord exigés par leur loi nationale."
+        },
+        {
+          "role": "assistant",
+          "content": "Selon l'article 6 du Code de Commerce Maritime [1], la liste des papiers de bord obligatoires pour un navire tunisien comprend six catégories principales. Il s'agit de l'acte de nationalité, du congé, du registre d'équipage, des documents sanitaires, des titres de sécurité accompagnés du registre des procès-verbaux de visites, et enfin du livre de bord, du registre de discipline ainsi que du journal de la machine s'il y a lieu. Toutefois, cet article prévoit l'existence d'exceptions mentionnées à l'article 8 du même code. En outre, le texte rappelle que les navires étrangers sont soumis à la loi de leur pavillon concernant leurs propres documents de bord.\n\nSources: art. 6 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_DIRECT_003",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [78],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: L'hypothèque maritime peut-elle être légale en droit tunisien ?\n\nDocuments pertinents:\n[1] Source: Article 78 du Code de Commerce Maritime\nL'hypothèque maritime est toujours conventionnelle.\nElle n'est valable que si elle est consentie sur un ou plusieurs navires spécialement désignés et pour une somme déterminée."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 78 du Code de Commerce Maritime [1], le principe est clair : l'hypothèque maritime est toujours conventionnelle. Cela signifie qu'elle ne peut jamais résulter de la seule volonté de la loi (hypothèque légale) ou d'une décision de justice, mais doit impérativement être consentie par une convention entre les parties. Par ailleurs, pour être valable, cette convention doit impérativement porter sur un ou plusieurs navires spécialement désignés et pour une somme d'argent déterminée, garantissant ainsi la sécurité juridique des transactions.\n\nSources: art. 78 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_MULTI_001",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [1, 4, 3],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la définition légale de la navigation maritime et du navire en droit tunisien ?\n\nDocuments pertinents:\n[1] Source: Article 3 du Code de Commerce Maritime\nLa navigation est dite maritime lorsqu'elle s'exerce sur la mer, dans les ports et les rades, sur les lacs, étangs, canaux et parties de rivières où les eaux sont salées et communiquent avec la mer.\n[2] Source: Article 4 du Code de Commerce Maritime\nLe navire est le bâtiment affecté à la navigation maritime."
+        },
+        {
+          "role": "assistant",
+          "content": "Les définitions sont données par les articles 3 et 4 du Code de Commerce Maritime. En premier lieu, l'article 3 [1] définit la navigation maritime par son espace géographique : elle s'exerce non seulement sur la mer, mais aussi dans les ports, rades, lacs, étangs, canaux et parties de rivières où les eaux sont salées et communiquent avec la mer. En second lieu, l'article 4 [2] précise que le navire est le bâtiment affecté à la navigation maritime. Ainsi, c'est l'affectation du bâtiment à cette navigation qui lui confère la qualification juridique de navire au sens du code.\n\nSources: art. 3 et 4 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_MULTI_002",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [130, 165],
+      "confidence_flag": "L'article 165 a été modifié plusieurs fois. Le texte fourni est celui de la version modifiée par la loi n°98-22 du 16 mars 1998.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la différence entre un armateur et un fréteur selon le Code de Commerce Maritime tunisien ?\n\nDocuments pertinents:\n[1] Source: Article 130 du Code de Commerce Maritime\nL'armateur est la personne qui assure l'équipement ou l'exploitation d'un navire à des fins lucratives ou autres.\n[2] Source: Article 165 (Modifié par la loi n°98-22 du 16 mars 1998) du Code de Commerce Maritime\nLe fréteur est la personne qui, à un titre quelconque mais régulier, met à la disposition d'une autre personne appelée affréteur, tout ou partie d'un navire, à une date, pour une durée, à des conditions et à des fins fixées par la convention des parties et, en cas d'insuffisance ou d'obscurité, par le présent code et les usages du commerce maritime."
+        },
+        {
+          "role": "assistant",
+          "content": "Les notions sont distinctes bien que complémentaires dans l'exploitation maritime. En vertu de l'article 130 [1], l'armateur est défini comme la personne qui assure l'équipement ou l'exploitation du navire, que ce soit à but lucratif ou non. Il s'agit donc de la notion la plus large englobant la gestion nautique et/ou commerciale. En revanche, selon l'article 165 [2], le fréteur est spécifiquement la personne qui met le navire à disposition d'un affréteur en vertu d'un contrat. Ainsi, un fréteur peut être ou ne pas être l'armateur ; par exemple, un propriétaire qui loue son navire sans en assurer la gestion nautique reste fréteur sans être l'armateur au sens de l'exploitation. Par ailleurs, l'article 165 précise que l'affréteur peut lui-même acquérir la qualité de transporteur maritime à l'égard des tiers.\n\nSources: art. 130 et 165 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_PRINC_EXC_001",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [48],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Le capitaine a-t-il le droit d'abandonner son navire en cas de danger ?\n\nDocuments pertinents:\n[1] Source: Article 48 du Code de Commerce Maritime\nLe capitaine ne doit pas abandonner son navire pendant le voyage pour quelque cause ou danger que ce soit, sans l'avis des officiers du bord ou, à défaut, des principaux. En ce cas, il devra s'efforcer de sauver les papiers de bord, l'argent et les marchandises les plus précieuses. Il doit quitter son navire le dernier."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 48 du Code de Commerce Maritime [1], le principe est l'interdiction absolue pour le capitaine d'abandonner son navire pendant le voyage, et ce, pour quelque cause ou danger que ce soit. Cette obligation vise à garantir la sécurité du navire et de l'expédition. Toutefois, le texte prévoit une exception procédurale majeure : l'abandon peut être envisagé seulement après avoir pris l'avis des officiers du bord ou, à défaut, des principaux membres de l'équipage. Par ailleurs, même en cas d'abandon justifié par une situation désespérée, le capitaine reste tenu à une obligation de sauvegarde : il doit s'efforcer de sauver les documents de bord, l'argent et les marchandises les plus précieuses. Enfin, la loi impose une règle de conduite symbolique et impérative : le capitaine doit quitter le navire le dernier, assumant ainsi sa responsabilité jusqu'au bout.\n\nSources: art. 48 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_PRINC_EXC_002",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [132, 133],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La responsabilité de l'armateur est-elle toujours limitée forfaitairement ?\n\nDocuments pertinents:\n[1] Source: Article 132 du Code de Commerce Maritime\nLa limitation de responsabilité s'applique à tous les cas dans lesquels l'armateur est déclaré responsable en raison de la propriété ou de l'usage, direction et contrôle du navire sans qu'il ait été besoin de prouver la faute de l'armateur.\nElle est écartée dans tous les cas où il est établi qu'un événement, donnant naissance à la créance, a été causé par le fait ou la faute de l'armateur, ou quand il est prouvé que celui-ci a participé à l'engagement pris par le capitaine ou qu'il l'a ratifié.\nElle est également écartée en ce qui concerne les créances du Capitaine et de l'équipage.\n[2] Source: Article 133 du Code de Commerce Maritime\nLa limitation de la responsabilité de l'armateur est fixée forfaitairement :\n1) en ce qui concerne les créances de réparation des dommages matériels, à un montant global de cent cinquante dinars (150,000D) par tonneau de jauge brute.\n2) en ce qui concerne les créances de réparation des dommages corporels, à un montant global de deux cent cinquante dinars (250,000D) par tonneau de jauge brute."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe posé par l'article 133 du Code de Commerce Maritime [2] est celui d'une limitation forfaitaire de la responsabilité de l'armateur, calculée en fonction du tonnage du navire (150 dinars par tonneau pour les dommages matériels et 250 dinars pour les dommages corporels). Cette règle vise à protéger l'entreprise maritime contre des risques financiers disproportionnés. Toutefois, l'article 132 [1] prévoit des exceptions importantes où cette limitation est écartée. Ainsi, l'armateur ne peut pas se prévaloir de cette limitation s'il est prouvé que le dommage résulte de son fait ou de sa faute personnelle, ou s'il a participé ou ratifié l'engagement fautif du capitaine. Par ailleurs, la loi écarte expressément la limitation en ce qui concerne les créances salariales du capitaine et de l'équipage, qui bénéficient d'une protection renforcée.\n\nSources: art. 132 et 133 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_REFUSAL_001",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les taux actuels des droits de port et de phare applicables à un navire de commerce faisant escale à Radès ?\n\nDocuments pertinents:\nAucun document pertinent trouvé dans la base de connaissances relative au Code de Commerce Maritime."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis, qui constituent le Code de Commerce Maritime, ne contiennent pas d'informations sur les tarifs ou les taux en vigueur des droits de port et de phare, lesquels sont généralement fixés par des textes réglementaires spécifiques (arrêtés ministériels) ou relèvent de la gestion de l'Office de la Marine Marchande et des Ports. Je vous recommande de consulter un avocat spécialisé en droit maritime ou de vous rapprocher des services compétents du ministère chargé du transport."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_CLARIF_001",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [100, 107, 108],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je souhaite faire saisir un navire qui me doit de l'argent. Quelle procédure dois-je suivre ?\n\nDocuments pertinents:\n[1] Source: Article 100 du Code de Commerce Maritime\nLa saisie conservatoire des navires tunisiens ou étrangers, non susceptibles d'hypothèque ou susceptibles d'hypothèque, peut être autorisée par ordonnance sur requête...\n[2] Source: Article 107 du Code de Commerce Maritime\nLa saisie-exécution des navires tunisiens ou étrangers susceptibles d'hypothèque est effectuée dans les délais et formes du Code de Procédure Civile de Commerciale.\n[3] Source: Article 108 du Code de Commerce Maritime\nLa saisie-exécution des navires susceptibles d'hypothèque est effectuée, soit en vertu d'une décision de justice ayant acquis force de chose jugée, soit, si le navire est immatriculé en Tunisie, en vertu d'un titre inscrit."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question porte sur la saisie d'un navire, mais le régime juridique applicable dépend de deux critères essentiels que vous n'avez pas précisés. En effet, le Code de Commerce Maritime distingue nettement la saisie conservatoire [1] et la saisie-exécution [2][3]. La saisie conservatoire est une mesure provisoire visant à garantir une créance maritime avant l'obtention d'un jugement. La saisie-exécution, quant à elle, suppose que vous disposiez déjà d'un titre exécutoire (un jugement définitif ou un titre inscrit si le navire est immatriculé en Tunisie). Pour vous orienter correctement, pourriez-vous préciser si vous disposez déjà d'une décision de justice condamnant le débiteur, ou s'il s'agit simplement de bloquer le navire en attendant un procès ?"
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_PROC_001",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [23, 24, 27],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes et obligations pour immatriculer un navire nouvellement construit en Tunisie ?\n\nDocuments pertinents:\n[1] Source: Article 23 du Code de Commerce Maritime\nTout navire navigant sous pavillon tunisien doit être immatriculé au chef-lieu d'un quartier maritime qui devient son port d'attache.\n[2] Source: Article 24 du Code de Commerce Maritime\nPour les navires construits en Tunisie, l'immatriculation a lieu sur production à l'autorité maritime du port d'attache du navire par le propriétaire ou son mandataire, du certificat de jaugeage et d'une copie originale de l'acte de vente.\n[3] Source: Article 27 du Code de Commerce Maritime\nEn cas de transfert de la propriété du navire entraînant perte de sa nationalité tunisienne ou s'il est disparu ou perdu, le propriétaire ou son ayant cause est tenu d'en aviser par écrit, dans la quinzaine de la survenance de l'un des événements susvisés, le bureau du port d'immatriculation aux fins après vérification par ce bureau, d'annulation du feuillet du registre matricule relatif à ce navire."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure d'immatriculation d'un navire neuf en Tunisie se déroule en plusieurs phases. En premier lieu, conformément à l'article 23 [1], le navire doit être rattaché au chef-lieu d'un quartier maritime qui deviendra son port d'attache. En deuxième lieu, selon l'article 24 [2], le propriétaire ou son mandataire doit se présenter auprès de l'autorité maritime de ce port d'attache et produire deux documents essentiels : le certificat de jaugeage (qui atteste des caractéristiques techniques du navire) et une copie originale de l'acte de vente (ou du contrat de construction). Par ailleurs, l'article 27 [3] précise qu'en fin de vie du navire, en cas de vente à l'étranger, de disparition ou de perte, le propriétaire a l'obligation d'aviser le bureau d'immatriculation dans les quinze jours afin que le feuillet matricule soit annulé, ce qui clôture la vie administrative du navire sous pavillon tunisien.\n\nSources: art. 23, 24 et 27 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_DIRECT_001",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [44],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: من هو الربان حسب مجلة التجارة البحرية التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 44 من مجلة التجارة البحرية\nالربان هو الشخص المستوفي للشروط القانونية الذي يسند إليه أمر قيادة السفينة أو الشخص الذي يمارسها فعلا بصفة وقتية لأسباب مشروعة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 44 من مجلة التجارة البحرية [1]، يُعرّف الربان بأنه الشخص المستوفي للشروط القانونية الذي تُسند إليه مهمة قيادة السفينة. وعلاوة على ذلك، يشمل هذا التعريف أيضا الشخص الذي يمارس مهام القيادة فعليا وبصفة وقتية لأسباب مشروعة، مما يضمن استمرارية القيادة القانونية للسفينة في جميع الظروف.\n\nالمصادر: الفصل 44 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_DIRECT_002",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [65],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي أنواع السفن التي يجوز رهنها رهنا بحريا وفقا للقانون التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 65 من مجلة التجارة البحرية (منقح بالقانون عدد 4 لسنة 1972)\nلا تقبل الرهن إلا السفن ذات الدفع الآلي المبنية أو التي هي قيد البناء والمقيدة بالسجل العيني."
+        },
+        {
+          "role": "assistant",
+          "content": "استنادا إلى الفصل 65 من مجلة التجارة البحرية [1]، فإن المشرع التونسي حدد بشكل دقيق السفن القابلة للرهن البحري. بمقتضى هذا الفصل، لا تقبل الرهن إلا السفن ذات الدفع الآلي، أي تلك المزودة بمحركات، سواء كانت قد اكتمل بناؤها بالفعل أو كانت لا تزال قيد البناء. ويشترط بالإضافة إلى ذلك أن تكون هذه السفن مقيدة بالسجل العيني المعد لذلك. وبالتالي، فإن سفن الصيد الشراعية التقليدية أو سفن النزهة غير المزودة بمحركات لا تخضع لنظام الرهن البحري المنصوص عليه في المجلة.\n\nالمصادر: الفصل 65 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_MULTI_001",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [297, 298, 345],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يتم إثبات عقد التأمين البحري وما هي أنواع وثائق التأمين على البضائع؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 301 من مجلة التجارة البحرية\nلا يمكن إثبات عقد التأمين إلا بكتابة أو بوثيقة تأمين.\n[2] المصدر: الفصل 345 من مجلة التجارة البحرية\nيتم التأمين على البضائع إما بوثيقة تدعى خاصة لا مفعول لها إلا لرحلة واحدة وإما بوثيقة تدعى وثيقة التأمين العائمة أو وثيقة الاشتراك."
+        },
+        {
+          "role": "assistant",
+          "content": "بخصوص إثبات عقد التأمين البحري، ينص الفصل 301 من مجلة التجارة البحرية [1] على قاعدة شكلية هامة، وهي أن العقد لا يمكن إثباته إلا بالكتابة أو بما يعرف بوثيقة التأمين. ويهدف هذا الشرط إلى ضمان وضوح الالتزامات بين المؤمن والمؤمن له. وبالانتقال إلى أنواع وثائق التأمين على البضائع، يوضح الفصل 345 [2] وجود نوعين رئيسيين: الأول هو الوثيقة الخاصة التي تقتصر تغطيتها على رحلة بحرية واحدة محددة، والثاني هو وثيقة التأمين العائمة أو وثيقة الاشتراك، وهي مصممة لتغطية عدة شحنات متعاقبة خلال فترة زمنية معينة دون الحاجة لإصدار وثيقة جديدة لكل شحنة على حدة.\n\nالمصادر: الفصلان 301 و345 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_PRINC_EXC_001",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [245],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يستحق مكافأة عن عملية المساعدة أو الإنقاذ البحري حتى لو لم تنجح العملية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 245 من مجلة التجارة البحرية\nكل عمل من أعمال المساعدة أو الإنقاذ تكون له نتيجة مفيدة يخول الحق في مكافأة عادلة.\nما لم يوجد شرط مخالف، لا تستحق أية مكافأة إذا ظلت المساعدة أو الإغاثة المقدمة دون نتيجة مفيدة.\nلا يمكن بأي حال من الأحوال أن يتجاوز المبلغ الواجب دفعه قيمة الأشياء التي تم إنقاذها."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 245 من مجلة التجارة البحرية [1]، فإن مبدأ استحقاق المكافأة في عمليات المساعدة والإنقاذ البحري يقوم على أساس معيار \"النتيجة المفيدة\". فالقاعدة العامة هي أن كل عمل إنقاذ تترتب عليه نتيجة مفيدة يخول المنقذ الحق في مكافأة عادلة. غير أن الفصل نفسه يورد استثناء هاما يتمثل في اشتراط وجود اتفاق مخالف، فإذا لم تنص الاتفاقية على خلاف ذلك، فإنه لا تستحق أي مكافأة إذا ظلت جهود المساعدة أو الإغاثة دون نتيجة مفيدة. وتجدر الإشارة إلى قاعدة جوهرية أخرى وهي أن المكافأة لا يمكن أن تتجاوز بأي حال قيمة الأشياء التي تم إنقاذها فعليا، وذلك ضمانا لعدم إثراء المنقذ على حساب المنقوذ.\n\nالمصادر: الفصل 245 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_REFUSAL_001",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي إجراءات الحصول على رخصة الصيد البحري في المياه التونسية؟\n\nالوثائق ذات الصلة:\nلم يتم العثور على أي وثيقة ذات صلة في قاعدة المعارف المتعلقة بمجلة التجارة البحرية."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تتضمن الوثائق المتوفرة، والمتمثلة في مجلة التجارة البحرية، معلومات كافية للإجابة عن هذا السؤال، حيث أن تنظيم الصيد البحري ورخصه يخضع لنصوص قانونية وترتيبية خاصة منفصلة عن المجلة. أنصحكم بالرجوع إلى المصالح المختصة بوزارة الفلاحة والموارد المائية والصيد البحري أو استشارة محام مختص في القانون البحري وقانون الصيد البحري."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_CLARIF_001",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [237, 238],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: من يتحمل مسؤولية التصادم بين سفينتين؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 237 من مجلة التجارة البحرية\nفي حالة حصول تصادم بين سفن بحرية، أو بين سفن بحرية وزوارق الملاحة الداخلية، تسوى التعويضات المستحقة بسبب الأضرار اللاحقة بالسفن والأشياء أو الأشخاص الموجودين على متنها طبقا للأحكام التالية دون اعتبار للمياه التي وقع فيها التصادم.\n[2] المصدر: الفصل 238 من مجلة التجارة البحرية\nإذا كان التصادم ناشئا عن خطأ إحدى السفن، يتحمل إصلاح الضرر من ارتكبه. وإذا كان التصادم ناشئا عن خطأ عدة سفن لسفينة غير مخطئة، يتحمل إصلاح الضرر بالتضامن أولئك الذين ارتكبوا الخطأ."
+        },
+        {
+          "role": "assistant",
+          "content": "إن الإجابة على سؤالكم تتوقف على تحديد الطرف الذي ارتكب الخطأ، وهو أمر لا يمكن الجزم به دون معرفة ظروف وملابسات حادثة التصادم. استنادا إلى أحكام الفصلين 237 و238 من مجلة التجارة البحرية [1][2]، فإن النظام القانوني للتصادم يرتكز على أساس الخطأ. فإذا كان التصادم ناشئا عن خطأ إحدى السفن، تحملت وحدها مسؤولية التعويض. أما إذا كان التصادم ناتجا عن خطأ مشترك لعدة سفن وألحق ضررا بسفينة بريئة، فإن المسؤولية تكون تضامنية بين السفن المخطئة تجاه السفينة المتضررة. بناء على ذلك، هل بإمكانكم تزويدي بمزيد من التفاصيل حول ملابسات الحادث لتحديد الطرف الذي يمكن نسب الخطأ إليه؟"
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_PROC_001",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [171, 201],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الخطوات القانونية لإبرام عقد إيجار سفينة للقيام برحلة تجارية محددة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 171 من مجلة التجارة البحرية\nالإيجار أو \"عقد الإيجار البحري\" هو الاتفاق الذي يربط المؤجر والمستأجر.\n[2] المصدر: الفصل 201 من مجلة التجارة البحرية\nيجب على المؤجر أن يضع السفينة المتفق عليها تحت تصرف المستأجر في الزمان والمكان المتفق عليهما... للمستأجر أن يفسخ الاتفاق بشرط توجيه إشعار موصى فيه إلى الطرف الآخر. وفي هذه الحالة يفقد المؤجر أجرة النقل المتفق عليها ويكون مسؤولا عن تعويضات الضرر للمستأجر. وللمؤجر نفس الحق في حالة ما إذا لم يشرع المستأجر في الشحن في الأجل المحدد."
+        },
+        {
+          "role": "assistant",
+          "content": "لإبرام عقد إيجار سفينة لرحلة محددة، يجب اتباع المراحل القانونية التالية وفقا لمجلة التجارة البحرية. أولا، يجب تحرير الاتفاق كتابة كما يستفاد من مقتضيات الفصل 171 [1] الذي يعرف العقد. ثانيا، يلتزم المؤجر بموجب الفصل 201 [2] بوضع السفينة المتفق عليها تحت تصرف المستأجر في الزمان والمكان المحددين في العقد. في مرحلة لاحقة، إذا أخل أحد الطرفين بالتزاماته، كعدم إحضار المؤجر للسفينة في الوقت المحدد أو عدم شروع المستأجر في الشحن خلال أيام الاستعداد المسموح بها، يحق للطرف المتضرر فسخ العقد بشرط توجيه إشعار موصى فيه للطرف الآخر، مع أحقيته في المطالبة بالتعويض عن الضرر. هذه الآلية تضمن توازنا في الحقوق بين طرفي العقد طوال فترة تنفيذ الرحلة.\n\nالمصادر: الفصلان 171 و201 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_CROSS_FR_AR_001",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [50],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: بماذا يجب على الربان تدوين جميع الأحداث التي تقع أثناء الرحلة؟\n\nDocuments pertinents:\n[1] Source: الفصل 50 من مجلة التجارة البحرية\nيمسك الربان دفترا يسمى \"دفتر السفينة\" مختوما ومؤشرا عليه من قبل قاض يعينه رئيس المحكمة الابتدائية لمكان قيد السفينة.\nيجب أن يتضمن دفتر السفينة:\n- البيان الدقيق لجميع الأحداث التي تطرأ ولجميع القرارات المتخذة أثناء الرحلة،\n- الملاحظات اليومية المتعلقة بحالة الجو والبحر،\n- بداية سريان آجال الإخطار المسبق لإنزال أفراد الطاقم،\n- ذكر الولادات أو الوفيات الحاصلة على ظهر السفينة،\n- وبصفة عامة، كل ما يتعلق بواقعة مسؤولية الربان وكل ما يمكن أن ينجر عنه حساب يقدم أو طلب يصاغ."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 50 من مجلة التجارة البحرية [1]، يلتزم الربان بإمساك دفتر يسمى \"دفتر السفينة\". هذا الدفتر يخضع لإجراء شكلي يتمثل في ختمه والتأشير عليه من قبل قاض يعينه رئيس المحكمة الابتدائية لميناء قيد السفينة. ويجب أن يتضمن الدفتر بشكل دقيق جميع الأحداث التي تطرأ والقرارات المتخذة أثناء الرحلة، بالإضافة إلى الملاحظات اليومية عن حالة الجو والبحر، وتاريخ بدء الإخطار لإنزال البحارة، وذكر الولادات والوفيات. وتهدف هذه الإجراءات إلى توثيق كافة وقائع الرحلة ليكون الدفتر حجة قانونية.\n\nالمصادر: الفصل 50 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_CROSS_AR_FR_001",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [194],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: Quelle est la définition juridique du terme \"staries\" dans un contrat maritime ?\n\nالوثائق ذات الصلة:\n[1] المصدر: Article 194 du Code de Commerce Maritime\nLe temps alloué à l'affréteur pour le chargement et le déchargement est appelé « staries ».\nCe temps est fixé par la convention ou, à défaut, par les usages du port. Il doit être compté par jour et d'heure à heure."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 194 du Code de Commerce Maritime [1], le terme \"staries\" désigne le délai imparti contractuellement à l'affréteur pour réaliser les opérations de chargement et de déchargement de la marchandise. Ce temps n'est pas illimité ; il est fixé en priorité par la convention des parties (la charte-partie). En l'absence de stipulation contractuelle, ce sont les usages du port concerné qui s'appliquent. Par ailleurs, le texte précise que ce délai se calcule de manière rigoureuse, par jour et d'heure à heure. Le dépassement de ce délai ouvre droit à des indemnités dites de \"surestaries\".\n\nSources: art. 194 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_MULTI_003",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [7, 8],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qu'est-ce que l'acte de nationalité et quels navires en sont dispensés ?\n\nDocuments pertinents:\n[1] Source: Article 7 du Code de Commerce Maritime\nL'acte de nationalité est la pièce qui constate le droit du navire à battre pavillon tunisien. Il est délivré au nom du Président de la République par le secrétaire d'Etat intéressé. Il contient la description du navire, atteste que ce navire a été jaugé et immatriculé.\n[2] Source: Article 8 du Code de Commerce Maritime\nSont dispensés :\n1) les embarcations employées au transit des passagers et des marchandises entre la terre et la rade, et vice-versa ;\n2) celles qui sont affectées à l'exploitation d'entreprises agricoles, industrielles ou commerciales ;\n5) les navires de plaisance ayant leur port d'attache en Tunisie, lorsqu'ils exercent une navigation côtière le long des côtes tunisiennes,\n6) les navires en relâche, lorsque la relâche ne dépasse pas vingt-quatre heures."
+        },
+        {
+          "role": "assistant",
+          "content": "Selon l'article 7 du Code de Commerce Maritime [1], l'acte de nationalité est le document officiel qui constate le droit du navire à battre pavillon tunisien. Délivré au nom du Président de la République, il atteste que le navire a été jaugé et immatriculé, et contient sa description détaillée ainsi que l'identité du propriétaire. Toutefois, l'article 8 [2] prévoit des exceptions notables à cette obligation. Sont ainsi dispensés de la détention de certains papiers de bord, notamment les embarcations de transit entre terre et rade, les navires affectés à l'exploitation d'entreprises agricoles ou industrielles, les navires de plaisance pratiquant une navigation côtière le long des côtes tunisiennes, ainsi que les navires en relâche pour une durée n'excédant pas vingt-quatre heures. En effet, ces catégories sont soumises à un régime administratif allégé en raison de la nature limitée de leur navigation.\n\nSources: art. 7 et 8 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_PRINC_EXC_002",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [21],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يحق لأحد الشركاء في ملكية السفينة بيع حصته بحرية لأي شخص؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 21 من مجلة التجارة البحرية\nيجوز لكل شريك أن يتنازل للغير عن حصته في السفينة دون إذن بقية الشركاء مع مراعاة ممارسة حق الاسترداد خلال خمسة عشر يوما من تاريخ إعلامهم بالتنازل.\nغير أنه إذا كان هذا التنازل لفائدة أجنبي وكان من شأنه أن يفقد السفينة جنسيتها التونسية فلا يكون صحيحا إلا بموافقة جميع الشركاء مع مراعاة الترخيص المسبق من السلطة البحرية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 21 من مجلة التجارة البحرية [1]، فإن المبدأ العام يخول لكل شريك في ملكية السفينة الحق في التنازل عن حصته للغير بحرية، دون حاجة إلى إذن مسبق من بقية الشركاء. غير أن هذا المبدأ مقيد بآلية حمائية لصالح باقي الشركاء تتمثل في حق الاسترداد، حيث يحق لهم شراء الحصة المعروضة للبيع خلال خمسة عشر يوما من تاريخ إعلامهم بالتنازل. علاوة على ذلك، يرد استثناء جوهري يتعلق بجنسية السفينة، فإذا كان المتنازل إليه شخصا أجنبيا وكان التنازل سيؤدي إلى فقدان السفينة لجنسيتها التونسية، فإن صحة هذا التنازل تصبح مشروطة بموافقة جميع الشركاء دون استثناء وبضرورة الحصول على ترخيص مسبق من السلطة البحرية المختصة، وذلك حفاظا على الأسطول الوطني.\n\nالمصادر: الفصل 21 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "LIVRE PREMIER - TITRE PREMIER (Dispositions générales)",
+      "LIVRE PREMIER - TITRE II (Papiers de bord)",
+      "LIVRE PREMIER - TITRE III - Chapitre I (Propriété des navires)",
+      "LIVRE PREMIER - TITRE IV - Chapitre I (Equipage)",
+      "LIVRE II - TITRE I - Chapitre I (Privilèges et hypothèques)",
+      "LIVRE II - TITRE I - Chapitre II (Saisie conservatoire)",
+      "LIVRE III - TITRE I (Armateur) et TITRE II (Limitation de responsabilité)",
+      "LIVRE IV - TITRE II (Personnes concourant à l'exploitation)",
+      "LIVRE IV - TITRE III (Transports maritimes)",
+      "LIVRE V - TITRE I (Abordage), TITRE II (Assistance), TITRE III (Avaries communes)",
+      "LIVRE VI - TITRE I (Assurances maritimes)"
+    ],
+    "sections_not_covered": [
+      "LIVRE I - TITRE IV - Chapitre III (Pilote) - couvert partiellement via définition article 64 mais non utilisé en exemple",
+      "LIVRE II - TITRE II - Section II (Saisie-exécution des navires de 10 tonneaux et plus) - détails procéduraux non utilisés",
+      "LIVRE IV - TITRE IV - Chapitre V (Ventes maritimes) - hors article 231",
+      "LIVRE VI - TITRE II - Chapitre II (Assurance sur facultés) - couvert partiellement"
+    ],
+    "notes": "Lot initial couvrant les définitions fondamentales et les régimes de responsabilité. Le prochain lot devrait explorer plus en détail la saisie-exécution, les contrats de transport de passagers, et les ventes maritimes."
+  }
+}

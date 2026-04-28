@@ -1,0 +1,179 @@
+You are helping me generate high-quality training data to fine-tune Gemma 4 E4B 
+as a legal RAG chatbot for Tunisian law. The chatbot will be deployed CPU-only 
+with Qdrant (bge-m3 dense + sparse embeddings) and graph-based context expansion.
+
+I will upload a Tunisian legal source (PDF, typically a code — e.g., Code des 
+obligations et contrats, Code des sociétés commerciales, Code du travail, etc.).
+
+YOUR TASK
+For each PDF I upload, generate ONE batch of 20 training examples in valid JSON, 
+randomly sampled across different articles/sections of the code for broad coverage.
+
+BATCH COMPOSITION (20 examples total)
+
+Language split:
+- 10 examples in French
+- 10 examples in Arabic (natural Modern Standard Arabic, NOT translated from French)
+- Include 2 cross-lingual examples (question in one language, source article in 
+  the other, answer in the question's language)
+
+Question pattern mix (aim for roughly this distribution):
+- 6 direct grounded Q&A — factual questions with specific answers from one article
+- 4 multi-article synthesis — questions requiring combining 2–3 related articles
+- 3 principle + exception — questions where the answer states a rule AND exceptions
+- 3 refusal examples — plausible questions the code does NOT actually answer; 
+  assistant should politely decline and recommend consulting a lawyer
+- 2 clarification examples — ambiguous questions requiring clarification before 
+  answering
+- 2 procedural/lifecycle questions — questions about sequential phases or processes
+
+Realistic user personas — questions should sound like real Tunisian users:
+- Citizens (everyday concerns, often in Arabic)
+- Business owners / entrepreneurs (often in French)
+- HR managers, administrators (mixed)
+- Students (either language, more academic framing)
+DO NOT write artificial textbook-style questions.
+
+STYLE REQUIREMENTS (based on analysis of real Tunisian jurist writing)
+
+1. CITATION FORMAT — Use authentic Tunisian legal citation:
+   - Codified law: "article X du [Code abbreviation]" (e.g., "article 2 du COC", 
+     "article 96 du CSC")
+   - Ranges: "articles X et suivants" or "articles X à Y"
+   - Combined: "articles X et Y du [Code]"
+   - End each substantive answer with a source line: "Sources: art. X, Y du [Code]"
+   - Arabic citation: "الفصل X من [اسم المجلة]" (e.g., "الفصل 2 من مجلة الالتزامات 
+     والعقود")
+
+2. ANSWER STRUCTURE (principe + exception + finalité):
+   For substantive questions, structure answers in three movements:
+   (a) State the principle with citation
+   (b) Acknowledge significant exceptions, nuances, or related provisions
+   (c) Briefly explain the purpose/rationale of the rule
+   Use legal connectors: "En vertu de", "En outre", "Par ailleurs", "Toutefois", 
+   "Ainsi", "En effet" / "بمقتضى", "علاوة على ذلك", "غير أن", "وبالتالي"
+
+3. ANSWER LENGTH:
+   - Simple factual questions: 50–100 words
+   - Substantive questions (principle + exception): 150–250 words
+   - Refusal/clarification: 40–80 words
+
+4. DISCLAIMERS — Include in consumer-safe form on substantive answers:
+   - French: "Ceci ne constitue pas un avis juridique. Pour votre situation 
+     spécifique, consultez un avocat."
+   - Arabic: "هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+
+5. GROUNDING — Answers must be STRICTLY grounded in the provided article text.
+   - Do NOT invent article numbers
+   - Do NOT cite doctrine or jurisprudence that isn't in the retrieved text
+   - If uncertain about any article number or content, add a "confidence_flag" 
+     field to that example noting the uncertainty
+
+6. REFUSAL BEHAVIOR — For refusal examples:
+   "Les documents fournis ne contiennent pas d'informations suffisantes pour 
+   répondre à cette question. Je vous recommande de consulter un avocat spécialisé 
+   ou [relevant authority]."
+   Arabic equivalent in natural phrasing.
+
+RETRIEVED CONTEXT FORMAT (IMPORTANT)
+
+Every example must be formatted as if it came from a RAG pipeline. The user 
+message must include:
+- The question
+- The retrieved article text(s) in a "Documents pertinents" section
+- For multi-article questions, include 2–3 related articles
+
+This trains the model for how production inference actually works.
+
+OUTPUT SCHEMA
+
+Return ONLY valid JSON. No preamble, no markdown code fences, no commentary.
+Structure:
+
+{
+  "batch_id": "batch_[CODE]_[NUMBER]_[YYYYMMDD]",
+  "source": "<name of code, e.g., 'Code des obligations et contrats de Tunisie'>",
+  "articles_covered": [<list of article numbers used>],
+  "articles_to_avoid_next_batch": [<same list, for reference>],
+  "examples": [
+    {
+      "example_id": "<unique id>",
+      "language": "fr | ar | cross_lingual",
+      "category": "direct | multi_article | principle_exception | refusal | clarification | procedural",
+      "articles_referenced": [<article numbers>],
+      "confidence_flag": "<optional: note any uncertainty>",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: <question>\n\nDocuments pertinents:\n[1] Source: <citation>\n<full article text>\n\n[2] Source: <citation if multi-article>\n<full article text>"
+        },
+        {
+          "role": "assistant",
+          "content": "<answer following style requirements, with inline citations [1], [2] and a source line at the end>"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [<list>],
+    "sections_not_covered": [<list>],
+    "notes": "<any important observations>"
+  }
+}
+
+IMPORTANT BEHAVIORS
+
+1. Before generating, read the PDF carefully and identify the code's structure 
+   (livres, titres, chapitres, sections). Sample articles from DIFFERENT sections 
+   for broad coverage — don't cluster all examples in one part of the code.
+
+2. If the PDF appears to be scanned/OCR with quality issues, tell me immediately 
+   before generating. If article numbers or text are ambiguous, flag them in 
+   confidence_flag rather than guessing.
+
+3. Arabic examples should be written in natural MSA as a Tunisian would phrase 
+   legal questions, NOT translated from French. Topics can overlap with French 
+   examples but phrasing must be native.
+  CRITICAL ARABIC LANGUAGE REQUIREMENT:
+   All Arabic content — questions AND answers — must be written in formal 
+   Modern Standard Arabic (الفصحى) exclusively. This is a legal chatbot for 
+   professional use.
+   
+   ABSOLUTELY FORBIDDEN in any Arabic text:
+   - Tunisian dialect (Derja/دارجة): no شنوة، وقتاش، كيفاش، فيسع، باش، ياخي، برشا
+   - Egyptian dialect: no عايز، ازاي، كده
+   - Levantine dialect: no شو، كيف، هلق
+   - Gulf dialect: no وش، ليش، حق
+   - Any colloquial phrasing or informal register
+   
+   REQUIRED Arabic register:
+   - Use formal legal vocabulary: ما هي الشروط، كيف يتم، ما مدى، هل يجوز
+   - Use proper legal connectors: بمقتضى، وفقاً لـ، استناداً إلى، غير أنّ، علاوة على
+   - Questions should sound like a law student or legal professional asking, 
+     not a casual conversation
+   
+   Examples of CORRECT Arabic questions:
+   ✅ "ما هي الشروط القانونية لتأسيس شركة ذات مسؤولية محدودة في تونس؟"
+   ✅ "هل يجوز عزل المتصرف في الشركة دون سبب مشروع؟"
+   ✅ "ما هي التزامات المسيّر في مجال الشفافية المالية؟"
+   
+   Examples of WRONG Arabic questions (dialect — NEVER generate these):
+   ❌ "شنوة لازم نعمل باش نفتح شركة؟"
+   ❌ "كيفاش نحل الشركة متاعي؟"
+   ❌ "وقتاش المسير يتنحى؟"
+   
+   If ANY generated Arabic text contains dialect, that example is INVALID 
+   and must be regenerated in formal MSA.
+
+4. If I paste a list of article numbers from previous batches to avoid, do not 
+   reuse those articles.
+
+5. If you cannot verify something, flag it. I would rather have 15 solid examples 
+   than 20 with hallucinated article numbers. Hallucinated article numbers in 
+   training data will teach my production model to hallucinate article numbers 
+   in legal advice — this is a serious harm I am trying to prevent.
+

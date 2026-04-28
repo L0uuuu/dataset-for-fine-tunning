@@ -1,0 +1,427 @@
+{
+  "batch_id": "batch_CDET_003_20260423",
+  "source": "Code des droits d'enregistrement et de timbre de Tunisie (Version 2020)",
+  "articles_covered": [5, 6, 8, 9, 11, 16, 22, 26, 48, 49, 58, 126, 127, 133],
+  "articles_to_avoid_next_batch": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 15, 16, 18, 20, 21, 22, 23, 25, 26, 31, 45, 48, 49, 51, 58, 80, 84, 92, 117, 118, 119, 121, 126, 127, 133, 134],
+  "examples": [
+    {
+      "example_id": "cdet_041_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [22],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis un entrepreneur et j'ai remporté un marché de travaux publics avec le Ministère de l'Équipement. Quel est le taux du droit d'enregistrement applicable à ce marché ?\n\nDocuments pertinents:\n[1] Source: article 22 du CDET\nSont enregistrés au droit proportionnel de 0,5% les marchés de travaux, de fournitures ou de services conclus pour le compte de l'État, des collectivités locales ou des établissements publics à caractère administratif."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 22 du CDET, les marchés de travaux conclus avec l'État ou ses démembrements sont soumis à un droit d'enregistrement proportionnel de 0,5% [1]. \n\nPar ailleurs, ce taux préférentiel s'applique également aux marchés de fournitures et de services. En effet, le législateur a instauré ce taux réduit pour alléger la charge fiscale sur les commandes publiques et encourager les entreprises à contracter avec l'administration. Ainsi, le montant dû sera calculé sur la valeur totale hors taxes du marché.\n\nSources: art. 22 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_042_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [26],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: قررنا تحويل شركتنا من شركة ذات مسؤولية محدودة (SARL) إلى شركة خفية الاسم (SA). هل يترتب عن هذا التغيير خلاص معاليم تسجيل مرتفعة؟\n\nDocuments pertinents:\n[1] Source: الفصل 26 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع عقود تحويل الشكل القانوني للشركات التي لا يترتب عنها خلق شخص معنوي جديد إلى معلوم ثابت قدره 150 ديناراً."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 26 من مجلة حقوق التسجيل والطابع الجبائي، فإن عقود تحويل الشكل القانوني للشركات تخضع لمعلوم ثابت قدره 150 ديناراً، طالما أن هذا التحويل لا يؤدي إلى إنشاء شخص معنوي جديد [1].\n\nعلاوة على ذلك، يعتبر القانون التونسي أن تغيير الصبغة القانونية (مثل المرور من شركة ذات مسؤولية محدودة إلى شركة خفية الاسم) هو استمرار لنفس الكيان القانوني. وبالتالي، فإن المعلوم يبقى ثابتاً ومحدوداً لتسهيل هيكلة الشركات وتطويرها. \n\nالمصادر: الفصل 26 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_043_multi_fr",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [16, 20],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je souhaite louer un entrepôt commercial sans fixer de durée précise dans le contrat (durée illimitée). Comment la Recette des Finances va-t-elle calculer les droits d'enregistrement de 1% ?\n\nDocuments pertinents:\n[1] Source: article 20 du CDET\nSont enregistrés au droit proportionnel de 1%, les baux de biens immeubles autres que ceux destinés à l'habitation.\n[2] Source: article 16 du CDET\nPour les baux à durée illimitée, le droit est liquidé sur une base égale à vingt fois le montant du loyer annuel et des charges imposées au locataire."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 20 du CDET, les baux commerciaux sont soumis à un droit proportionnel de 1% [1]. Cependant, lorsque le contrat ne mentionne pas de durée (bail à durée illimitée), l'article 16 précise que la base de calcul pour ce droit est égale à vingt (20) fois le montant du loyer annuel, augmenté des charges [2].\n\nEn effet, cette règle de calcul forfaitaire permet à l'administration de liquider l'impôt malgré l'absence de terme défini. Ainsi, si votre loyer annuel est de 10 000 DT, la taxe de 1% sera appliquée sur une assiette de 200 000 DT. Il est donc souvent plus avantageux de fixer une durée déterminée dans le contrat.\n\nSources: art. 16 et 20 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_044_multi_ar",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [10, 11],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: قمت بشراء قطعة أرض في مدينة باجة، لكني أقطن في تونس العاصمة. هل يمكنني تسجيل عقد البيع في قباضة مالية بتونس العاصمة؟\n\nDocuments pertinents:\n[1] Source: الفصل 10 من مجلة حقوق التسجيل والطابع الجبائي\nتؤدى معاليم التسجيل بمكتب قباضة المالية مقابل وصل.\n[2] Source: الفصل 11 من مجلة حقوق التسجيل والطابع الجبائي\nيتم تسجيل العقود الناقلة لملكية العقارات بمكتب قباضة المالية المختص ترابياً حسب مكان تواجد العقار."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 11 من مجلة حقوق التسجيل والطابع الجبائي، يتعين تسجيل العقود المتعلقة بنقل ملكية العقارات حصرياً لدى مكتب قباضة المالية المختص ترابياً بمكان تواجد العقار [2]. \n\nوبالتالي، وبما أن الأرض تقع في مدينة باجة، فلا يجوز تسجيل العقد في تونس العاصمة، بل يجب التوجه إلى المكتب المختص في باجة لدفع المعاليم والحصول على الوصل المنصوص عليه في الفصل 10 [1]. تهدف هذه القاعدة إلى تركيز المعطيات العقارية والجبائية في المنطقة التي يتبعها العقار لضمان دقة الرقابة. \n\nالمصادر: الفصل 10 و11 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_045_princ_ex_fr",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [58],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ma municipalité va acquérir un terrain pour construire une école. L'acte de vente est-il soumis aux droits d'enregistrement de 5% ?\n\nDocuments pertinents:\n[1] Source: article 58 du CDET\nSont enregistrés gratuitement les actes et écrits passés au profit de l'État, des collectivités locales et des établissements publics à caractère administratif, lorsqu'ils concernent l'acquisition d'immeubles destinés à un service public."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 58 du CDET, le principe est l'enregistrement gratuit (exonération) pour les actes d'acquisition d'immeubles réalisés par les collectivités locales [1]. \n\nToutefois, cette exception au droit commun de 5% n'est accordée que si l'immeuble est destiné à un service public, comme c'est le cas pour la construction d'une école. En effet, le législateur souhaite faciliter les investissements publics d'intérêt général en supprimant la barrière fiscale de l'enregistrement. Ainsi, votre municipalité n'aura pas à supporter les droits proportionnels habituels pour cette opération.\n\nSources: art. 58 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_046_princ_ex_ar",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [5, 6],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: نحن ثلاثة شركاء اشترينا عقاراً معاً. هل تطالب قباضة المالية كل واحد منا بنصيبه فقط من معلوم التسجيل أم يمكنها مطالبتي بدفع المبلغ كاملاً؟\n\nDocuments pertinents:\n[1] Source: الفصل 5 من مجلة حقوق التسجيل والطابع الجبائي\nيعتبر الأطراف في العقود والاتفاقات متضامنين في دفع معاليم التسجيل والخطايا المترتبة عنها.\n[2] Source: الفصل 6 من مجلة حقوق التسجيل والطابع الجبائي\nبالنسبة للتركات، يكون الورثة متضامنين في دفع المعاليم والخطايا في حدود مناب كل واحد منهم من التركة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 5 من مجلة حقوق التسجيل والطابع الجبائي، فإن المبدأ القانوني هو تضامن جميع أطراف العقد في دفع معاليم التسجيل والخطايا [1]. وهذا يعني أن إدارة الجباية يمكنها قانوناً مطالبتك بدفع كامل المبلغ المستحق على العقد، ولك الحق بعد ذلك في الرجوع على شركائك لاستخلاص منابهم.\n\nغير أن هناك استثناءً في مادة التركات (المواريث)، حيث ينص الفصل 6 على أن تضامن الورثة في دفع المعاليم يبقى محدوداً بقيمة ما آل لكل واحد منهم من التركة [2]. تهدف قاعدة التضامن في العقود التجارية إلى ضمان استخلاص حقوق الدولة بأسرع وسيلة ممكنة. وبالتالي، في حالة شراء العقار، فإن صفتكم كشركاء تجعلكم متضامنين بصفة مطلقة أمام الخزينة العامة.\n\nالمصادر: الفصل 5 و6 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_047_refusal_fr",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le taux de cotisation CNSS que je dois retenir sur le salaire d'un nouvel employé en Tunisie ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des droits d'enregistrement et de timbre traite des taxes liées aux actes juridiques et non des cotisations sociales. Je vous recommande de consulter le Code de la Sécurité Sociale ou de contacter la Caisse Nationale de Sécurité Sociale (CNSS)."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_048_refusal_ar",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يتم تقسيم الميراث بين الزوجة والابناء في حالة وفاة الأب؟ وما هو نصيب كل واحد منهم؟"
+        },
+        {
+          "role": "assistant",
+          "content": "لا تحتوي الوثائق المقدمة على معلومات كافية للإجابة عن هذا السؤال. إن مجلة حقوق التسجيل والطابع الجبائي تنظم فقط المعاليم الجبائية الواجب دفعها عند تسجيل التركة، ولا تتناول قواعد تقسيم الميراث التي تخضع لمجلة الأحوال الشخصية التونسية. أنصحكم باستشارة محامٍ أو عدل إشهاد لتحديد المنابات القانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_049_refusal_fr",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je veux importer une voiture de France sous le régime FCR. Quels sont les frais de douane à payer au port de la Goulette ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des droits d'enregistrement et de timbre ne couvre pas les tarifs douaniers ni le régime FCR. Je vous recommande de consulter le Code des Douanes ou de contacter la Direction Générale des Douanes tunisiennes."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_050_clarification_fr",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [21, 26],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Combien coûte l'enregistrement d'un acte pour ma société ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Pourriez-vous préciser de quel type d'acte il s'agit ? S'agit-il d'un acte de constitution de la société (taux de 0,5% selon l'article 21 [1]) ou d'un acte de transformation du statut juridique (droit fixe de 150 DT selon l'article 26 [2]) ? Le coût varie selon l'opération effectuée."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_051_clarification_ar",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [119, 121],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو مبلغ الطابع الجبائي الذي يجب أن أدفعه اليوم؟"
+        },
+        {
+          "role": "assistant",
+          "content": "لإجابتكم بدقة، يرجى تحديد نوع الوثيقة المطلوبة. هل يتعلق الأمر بطابع لجواز سفر (80 ديناراً حسب الفصل 119 [1]) أم بطاقة تعريف وطنية (3 دنانير حسب الفصل 121 [2])؟ تختلف قيمة الطوابع الجبائية في القانون التونسي باختلاف نوع الخدمة الإدارية."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_052_procedural_fr",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [8, 9],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon père est décédé et nous devons déclarer la succession. Qui doit signer les documents pour la Recette des Finances et peut-on se faire représenter ?\n\nDocuments pertinents:\n[1] Source: article 8 du CDET\nLes déclarations de succession doivent être signées par les héritiers, les légataires ou leurs mandataires dûment autorisés.\n[2] Source: article 9 du CDET\nSi l'un des héritiers ne peut signer, mention en est faite dans la déclaration par le receveur après vérification."
+        },
+        {
+          "role": "assistant",
+          "content": "Conformément à l'article 8 du CDET, la procédure exige que la déclaration de succession soit signée par l'ensemble des héritiers ou légataires [1]. \n\nCependant, il est possible de se faire représenter par un mandataire (via une procuration légalisée). Par ailleurs, si l'un des héritiers est dans l'impossibilité physique de signer, l'article 9 prévoit que le receveur des finances peut porter une mention spéciale dans la déclaration après avoir vérifié cette incapacité [2]. En effet, cette rigueur formelle garantit que tous les ayants droit ont connaissance des éléments déclarés au fisc. Ainsi, la signature est une étape obligatoire pour valider la procédure fiscale successorale.\n\nSources: art. 8 et 9 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_053_procedural_ar",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [133],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: بصفتي مديراً لفرع بنكي، ما هي التزاماتي تجاه مصالح الجباية فيما يتعلق بسجلات الكمبيالات والصكوك؟\n\nDocuments pertinents:\n[1] Source: الفصل 133 من مجلة حقوق التسجيل والطابع الجبائي\nيجب على المؤسسات البنكية مسك سجلات مرقمة ومؤشر عليها تخصص لتقييد الأوراق التجارية والصكوك الخاضعة لمعلوم الطابع الجبائي، وتقديمها عند كل طلب لأعوان إدارة الجباية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 133 من مجلة حقوق التسجيل والطابع الجبائي، تلتزم المؤسسات البنكية بمسك سجلات خاصة، مرقمة ومؤشر عليها مسبقاً، لتدوين كافة الأوراق التجارية والصكوك الخاضعة للطابع الجبائي [1].\n\nوفيما يخص الجانب الإجرائي، يتعين عليكم وضع هذه السجلات على ذمة أعوان إدارة الجباية فور طلبهم للقيام بعمليات الرقابة والتثبت. تهدف هذه الإجراءات إلى ضمان تتبع التدفقات المالية والتأكد من استخلاص المعاليم الجبائية المستحقة للدولة. وبالتالي، فإن الإخلال بهذا الواجب قد يعرض المؤسسة لعقوبات إدارية وجبائية.\n\nالمصادر: الفصل 133 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_054_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [126],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis commerçant et j'utilise des lettres de change pour payer mes fournisseurs. Quel est le montant du timbre fiscal pour chaque lettre de change ?\n\nDocuments pertinents:\n[1] Source: article 126 du CDET\nLes lettres de change, les billets à ordre et tous autres effets de commerce sont soumis à un droit de timbre fixe de 5 dinars par effet."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 126 du CDET, chaque lettre de change ou billet à ordre que vous émettez est soumis à un droit de timbre fixe de 5 dinars [1]. \n\nPar ailleurs, ce droit s'applique à tous les effets de commerce, quel que soit le montant de la créance qu'ils représentent. En effet, ce timbre matérialise la taxe sur les instruments de crédit et de circulation monétaire. Ainsi, vous devez vous assurer que chaque effet est dûment timbré avant sa mise en circulation ou son endossement.\n\nSources: art. 126 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_055_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [11],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أين يجب تسجيل عقود بيع السيارات والأصل التجاري في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 11 من مجلة حقوق التسجيل والطابع الجبائي\nتسجل عقود نقل ملكية المنقولات (كالسيارات والأصول التجارية) بمكتب قباضة المالية المختص حسب مقر سكنى أحد الطرفين أو مكان تحرير العقد."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 11 من مجلة حقوق التسجيل والطابع الجبائي، يتم تسجيل العقود المتعلقة بالمنقولات، مثل السيارات والأصول التجارية، لدى مكتب قباضة المالية الذي يتبعه مقر سكن أحد المتعاقدين أو في المكان الذي تم فيه إبرام العقد [1].\n\nعلاوة على ذلك، وبخلاف العقارات التي تتطلب التسجيل في مكان تواجدها، يوفر القانون مرونة أكبر في اختيار مكتب التسجيل بالنسبة للمنقولات لتسهيل المعاملات التجارية. وبالتالي، يمكنكم اختيار المكتب الأقرب لسكنكم لإتمام إجراءات التسجيل.\n\nالمصادر: الفصل 11 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_056_multi_fr",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [48, 49],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: L'administration fiscale prétend que j'ai acheté un terrain en cachette sans enregistrer l'acte. Ont-ils le droit de me réclamer des taxes sur la base de simples présomptions ?\n\nDocuments pertinents:\n[1] Source: article 48 du CDET\nL'administration peut établir l'existence d'une mutation secrète par tous les modes de preuve admis en matière de droit commun.\n[2] Source: article 49 du CDET\nLorsqu'une mutation d'immeuble est établie par l'administration, les droits d'enregistrement sont calculés sur la valeur vénale au jour de la découverte de la mutation."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 48 du CDET, l'administration fiscale dispose effectivement du pouvoir d'établir l'existence d'une vente cachée (mutation secrète) en utilisant tous les modes de preuve légaux [1]. \n\nPar ailleurs, l'article 49 précise que si une telle mutation est prouvée, les droits d'enregistrement ne seront pas calculés sur le prix supposé au moment de l'achat, mais sur la valeur vénale réelle du terrain au jour où l'administration découvre la fraude [2]. Cette disposition a pour finalité de sanctionner la dissimulation en appliquant une base taxable souvent plus élevée du fait de l'appréciation des prix immobiliers. Ainsi, l'administration peut régulariser d'office votre situation fiscale.\n\nSources: art. 48 et 49 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_057_cross_1_ar_fr",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [127],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كم يقتطع البنك من معلوم طابع جبائي عند تسليم دفتر شيكات جديد؟\n\nDocuments pertinents:\n[1] Source: Article 127 du CDET\nLes formules de chèques sont soumises à un droit de timbre de 0,100 dinar par formule de chèque, perçu lors de la délivrance des carnets de chèques par les banques."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 127 من مجلة حقوق التسجيل والطابع الجبائي، تخضع صيغ الشيكات لمعلوم طابع جبائي قدره 100 مليم (0,100 دينار) عن كل ورقة شيك [1].\n\nوبالتالي، يتم استخلاص هذا المعلوم مباشرة من قبل البنك عند تسليمكم دفتر الشيكات. فمثلاً، إذا كان الدفتر يحتوي على 20 شيكاً، سيتم اقتطاع مبلغ قدره ديناران كطابع جبائي. تهدف هذه الضريبة البسيطة إلى المساهمة في الموارد الجبائية من خلال العمليات البنكية الجارية.\n\nالمصادر: الفصل 127 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_058_cross_2_fr_ar",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [21],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je souhaite augmenter le capital de ma société en apportant un local commercial m'appartenant. Vais-je payer le taux de 5% (vente) ou de 0,5% (apport) ?\n\nDocuments pertinents:\n[1] Source: الفصل 21 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع المساهمات الخالصة في رأس مال الشركات عند التكوين أو الترفيع في رأس المال لمعلوم نسبي قدره 0,5%."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 21 du CDET, les apports purs et simples effectués lors d'une augmentation de capital social sont soumis à un droit proportionnel de 0,5% [1]. \n\nCependant, il s'agit d'un principe applicable uniquement si l'apport est rémunéré exclusivement par des parts sociales ou des actions de la société (apport pur et simple). Si l'apport servait à éponger une dette, le régime pourrait changer. En effet, le taux de 0,5% est une mesure d'encouragement à l'investissement productif, bien inférieure au taux de 5% appliqué aux ventes immobilières classiques. Ainsi, pour votre local, c'est le taux réduit qui s'appliquera sous réserve du respect des conditions de l'apport.\n\nSources: art. 21 du CDET.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_059_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [5],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans un contrat de vente immobilière, qui est légalement tenu de payer les droits d'enregistrement : l'acheteur ou le vendeur ?\n\nDocuments pertinents:\n[1] Source: article 5 du CDET\nLes parties aux actes et conventions sont solidaires pour le paiement des droits d'enregistrement et des pénalités de retard."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 5 du CDET, le principe légal est celui de la solidarité entre toutes les parties au contrat pour le paiement des droits d'enregistrement [1]. \n\nToutefois, bien que dans la pratique commerciale tunisienne ce soit l'acheteur qui supporte généralement ces frais, l'administration fiscale peut se retourner indifféremment contre l'acheteur ou le vendeur en cas de non-paiement. En effet, cette solidarité garantit au Trésor Public le recouvrement de sa créance peu importe les arrangements privés entre les parties. Ainsi, les deux signataires sont légalement responsables du règlement des taxes et des éventuelles amendes.\n\nSources: art. 5 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_060_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [126],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو معلوم الطابع الجبائي المستحق على السندات للأمر (Billets à ordre)؟\n\nDocuments pertinents:\n[1] Source: الفصل 126 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع الكمبيالات والسندات للأمر وكل الأوراق التجارية الأخرى إلى معلوم طابع جبائي ثابت قدره 5 دنانير عن كل سند."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 126 من مجلة حقوق التسجيل والطابع الجبائي، يخضع السند للأمر لمعلوم طابع جبائي ثابت قدره 5 دنانير [1].\n\nعلاوة على ذلك، يطبق هذا المعلوم بصرف النظر عن المبلغ المذكور في السند أو تاريخ استحقاقه. تهدف هذه الضريبة الثابتة إلى توثيق الأوراق التجارية المتداولة في السوق. وبالتالي، يجب التأكد من خلاص هذا المعلوم لضمان استيفاء السند لشروطه الجبائية القانونية.\n\nالمصادر: الفصل 126 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Solidarité de paiement (Contrats et Successions)",
+      "Compétence territoriale des bureaux",
+      "Marchés publics (0.5%)",
+      "Baux à durée illimitée",
+      "Transformation de sociétés",
+      "Exonérations des collectivités locales",
+      "Mutation secrète et preuves",
+      "Timbres sur effets de commerce et chèques",
+      "Obligations des banques"
+    ],
+    "sections_not_covered": [
+      "Ventes aux enchères",
+      "Régime des assurances",
+      "Actes de l'état civil"
+    ],
+    "notes": "Ce lot met l'accent sur la solidarité des parties et les obligations professionnelles des banques et entreprises de travaux publics."
+  }
+}

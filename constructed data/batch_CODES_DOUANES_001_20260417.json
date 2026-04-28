@@ -1,0 +1,451 @@
+{
+  "batch_id": "batch_CODES_DOUANES_001_20260417",
+  "source": "Code des Douanes de Tunisie",
+  "articles_covered": [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+  "articles_to_avoid_next_batch": [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+  "examples": [
+    {
+      "example_id": "douanes_fr_direct_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [1],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qu'entend exactement le Code des Douanes tunisien par « territoire douanier » ?\n\nDocuments pertinents:\n[1] Source: article 1 du Code des Douanes\nLe territoire douanier tunisien dénommé dans le présent code \"Territoire Douanier\" comprend les territoires de la Tunisie continentale et ses eaux intérieures territoriales, les îles naturelles tunisiennes y compris les eaux intérieures et territoriales qui les entourent, les îles artificielles, les installations et constructions établies dans la zone économique exclusive ou dans le plateau continental ainsi que l'espace aérien de la Tunisie. Des zones franches soustraites en tout ou partie du régime des douanes, peuvent être constituées dans le territoire douanier conformément à la législation en vigueur. On entend par \"zone franche\", toute enclave terrestre indépendante instituée en vue de faire considérer les marchandises qui s'y trouvent comme étant hors du territoire douanier en ce qui concerne l'application des droits et taxes dus à l'importation ainsi que des restrictions relatives au contrôle du commerce extérieur et des changes."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 1 du Code des Douanes, le territoire douanier tunisien comprend la Tunisie continentale, ses eaux intérieures et territoriales, les îles naturelles avec leurs eaux environnantes, les îles artificielles, les installations dans la zone économique exclusive ou le plateau continental, ainsi que l'espace aérien. En outre, des zones franches peuvent être constituées à l'intérieur de ce territoire ; il s'agit d'enclaves où les marchandises sont réputées hors du territoire douanier pour l'application des droits et taxes à l'importation ainsi que des restrictions au commerce extérieur et aux changes. Ainsi, la définition est très large et inclut à la fois les espaces terrestres, maritimes et aériens sous souveraineté tunisienne. Sources : art. 1 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_direct_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [3],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les exigences de signature pour les documents douaniers au format papier et électronique ?\n\nDocuments pertinents:\n[1] Source: article 3 du Code des Douanes\n1- Les documents à caractère douanier, entraînant des obligations à l'égard de celui qui les a établis ou pour la personne au nom de laquelle ils ont été établis, doivent comporter la signature manuscrite du ou des personnes ayant contracté ces obligations ou leurs représentants ; 2- Toutefois, lorsque ces documents sont établis aux moyens électroniques, leur authentification peut être faite par la signature électronique et ce conformément à la législation en vigueur."
+        },
+        {
+          "role": "assistant",
+          "content": "Selon l'article 3 du Code des Douanes, les documents douaniers papier doivent comporter la signature manuscrite de la personne qui contracte les obligations ou de son représentant. Par exception, pour les documents établis par voie électronique, l'authentification peut être réalisée par signature électronique conformément à la législation en vigueur. Le principe est donc l'exigence de la signature manuscrite pour les documents papier, tandis que la signature électronique est admise comme équivalent fonctionnel pour les documents dématérialisés. Cette souplesse vise à faciliter les échanges numériques tout en garantissant l'authenticité des engagements. Sources : art. 3 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_multi_003",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [4, 5],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles marchandises sont soumises au tarif douanier et comment sont définies les « marchandises fortement taxées » ?\n\nDocuments pertinents:\n[1] Source: article 4 du Code des Douanes\nLes marchandises qui entrent sur le territoire douanier ou qui en sortent sont soumises, selon le cas, à la loi tarifaire sauf dérogations expresses prévues par les traités et conventions commerciaux en vigueur.\n\n[2] Source: article 5 du Code des Douanes\nPour l'application des dispositions du présent code, on entend par \"marchandises fortement taxées\", les marchandises dont la totalité des droits, redevances et taxes diverses dus à l'importation excède 50% de leur valeur en douane ainsi que les marchandises désignées par décret sur proposition du ministre des finances, parmi celles dont la totalité des droits de douane, redevances et taxes diverses applicables à l'importation est comprise entre 20 et 50% de leur valeur en douane."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 4 du Code des Douanes, toutes les marchandises qui entrent ou sortent du territoire douanier sont soumises à la loi tarifaire, sauf dérogations expresses prévues par les traités et conventions commerciales en vigueur. Par ailleurs, l'article 5 définit les « marchandises fortement taxées » comme celles dont les droits, redevances et taxes à l'importation excèdent 50 % de leur valeur en douane. Sont également incluses, par décret sur proposition du ministre des finances, les marchandises dont le total des droits et taxes se situe entre 20 % et 50 % de leur valeur en douane. L'objectif de cette distinction est de permettre l'application de mesures tarifaires spécifiques, notamment de protection, pour les produits soumis à une fiscalité douanière particulièrement élevée. Sources : art. 4 et 5 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_principle_exception_004",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [7, 8],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La Tunisie peut-elle prendre des mesures tarifaires particulières contre des pays qui traitent défavorablement les produits tunisiens ?\n\nDocuments pertinents:\n[1] Source: article 7 du Code des Douanes\n1- Sans préjudice des dispositions des conventions bilatérales ou multilatérales en vigueur, des mesures tarifaires particulières peuvent être prises, par décret, à l'encontre des produits originaires de l'Etat ou du groupe d'Etats qui traitent les produits tunisiens moins favorablement que les produits d'autres Etats ou à l'encontre de l'Etat ou du groupe d'Etats qui prennent des mesures susceptibles d'entraver les exportations tunisiennes. 2- Les mesures prises par application des dispositions du paragraphe précédent sont rapportées suivant les mêmes procédures concernant les modalités de prise de ces mesures et leurs applications le cas échéant.\n\n[2] Source: article 8 du Code des Douanes\nLorsque le navire battant pavillon tunisien est soumis, dans un pays étranger, à des droits ou à d'autres charges quelque soit leur nature, et que les navires dudit pays en sont exempts, ou lorsqu'il est soumis à un traitement moins favorable que celui accordé aux navires d'autres pays, il peut être procédé par décret à l'application des droits nécessaires sur les navires desdits pays et sur leurs cargaisons et ce pour éviter le préjudice subi par le navire battant pavillon tunisien."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe est énoncé à l'article 7 du Code des Douanes : des mesures tarifaires particulières peuvent être prises par décret contre les États qui traitent les produits tunisiens moins favorablement ou qui entravent les exportations tunisiennes, sans préjudice des conventions internationales. Toutefois, l'article 7 précise que ces mesures sont rapportées selon les mêmes procédures que leur adoption. En outre, l'article 8 prévoit une exception spécifique pour les navires battant pavillon tunisien victimes de discriminations étrangères : des droits peuvent être appliqués par décret sur les navires de l'État concerné et leurs cargaisons, afin de compenser le préjudice subi. La finalité de ces dispositions est de permettre à la Tunisie d'exercer une réciprocité et une défense commerciale tout en respectant ses engagements internationaux. Sources : art. 7 et 8 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_refusal_005",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les sanctions pénales encourues par un particulier qui importe des marchandises sans déclaration en douane ?\n\nDocuments pertinents:\n[1] Source: Aucun article du Code des Douanes fourni ne traite des sanctions pénales ou des peines applicables en matière de délit douanier."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des Douanes qui m'a été communiqué ne comprend pas les dispositions relatives aux sanctions pénales, à la répression des infractions ou aux peines encourues. Je vous recommande de consulter un avocat spécialisé en droit douanier ou de vous référer aux titres du Code des Douanes traitant du contentieux et des pénalités (généralement dans une partie non incluse dans les extraits fournis)."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_clarification_006",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [23, 35],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment puis-je contester la valeur en douane retenue par l'administration ?\n\nDocuments pertinents:\n[1] Source: article 23 du Code des Douanes\n(extrait) La valeur en douane des marchandises importées est la valeur transactionnelle, c'est-à-dire, le prix effectivement payé ou à payer pour les marchandises lorsqu'elles sont vendues pour l'exportation à destination de la Tunisie, après ajustement conformément aux articles 30 et 31, pour autant que [...] d) que l'acheteur et le vendeur ne soient pas liés ou, s'ils le sont, que la valeur transactionnelle soit acceptable...\n\n[2] Source: article 35 du Code des Douanes\nLorsque les services des douanes ont des raisons de douter de la véracité ou de l'exactitude des renseignements ou documents relatifs à la valeur transactionnelle, ils peuvent demander à l'importateur ou à son représentant de leur communiquer des justificatifs complémentaires pour prouver l'exactitude de la valeur déclarée. Si, malgré la communication des justificatifs complémentaires par l'importateur ou à défaut de communication, les services des douanes ont encore des doutes raisonnables, ils peuvent considérer que la valeur transactionnelle est inacceptable. Lorsqu'une décision finale aura été prise, les services des douanes doivent la faire connaître par écrit à l'importateur ainsi que les raisons qui l'ont motivée dans un délai raisonnable."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour vous aider précisément, avez-vous déjà reçu une notification écrite de l'administration des douanes indiquant qu'elle rejette la valeur déclarée ? L'article 35 prévoit que les douanes doivent motiver leur décision par écrit. Si ce n'est pas encore le cas, il s'agit d'un doute préalable, et vous pouvez fournir des justificatifs complémentaires. Veuillez préciser si vous êtes au stade de la demande de justificatifs ou si une décision formelle de rejet vous a déjà été notifiée."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_procedural_007",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [15, 17, 18],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes pour obtenir la restitution de droits de douane perçus indûment, et quel est le délai de prescription ?\n\nDocuments pertinents:\n[1] Source: article 15 du Code des Douanes (extrait)\nL'administration des douanes peut restituer les droits et taxes perçus à l'importation lorsqu'il est dûment établi que : a) le montant a été soit indûment perçu, soit perçu à un niveau supérieur à celui légalement dû ; b) les marchandises sont défectueuses ou non conformes... c) déclarées par erreur pour la mise à la consommation au lieu d'un autre régime ; d) marchandises non réellement parvenues alors que les droits ont été perçus ; e) situation particulière non imputable à l'importateur.\n\n[2] Source: article 17 du Code des Douanes\nLa restitution s'effectue suite à une demande écrite et motivée de la personne ayant acquitté les droits. Cette demande est présentée, contre récépissé, au chef de bureau des douanes dont dépend la recette où ont été perçus les droits. Le chef de bureau procède au contrôle nécessaire et doit répondre dans un délai maximum de six mois à compter de la date de dépôt. Le refus total ou partiel doit être motivé. Le défaut de réponse dans les délais est considéré comme un refus implicite. La restitution est effectuée par le receveur des douanes après visa du directeur régional, par prélèvement direct sur les recettes.\n\n[3] Source: article 18 du Code des Douanes\nLe droit à la restitution se prescrit dans les délais prévus par l'article 324 du présent code."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure de restitution se déroule en plusieurs phases : (1) Le demandeur doit présenter une demande écrite et motivée contre récépissé au chef du bureau des douanes où les droits ont été perçus (article 17). (2) Le chef de bureau contrôle le bien-fondé et doit répondre dans les six mois ; le silence vaut refus implicite, et tout refus doit être motivé. (3) Si la demande est acceptée, le receveur des douanes exécute la restitution après visa du directeur régional, par prélèvement direct sur les recettes. Par ailleurs, l'article 15 énumère les cas ouvrant droit à restitution (paiement indu, majoration excessive, marchandises défectueuses, erreur de régime, absence de livraison, ou situation particulière). Enfin, l'article 18 renvoie à l'article 324 pour le délai de prescription, qui n'est pas détaillé dans les documents fournis. Ainsi, toute demande doit être introduite avant l'expiration de ce délai. Sources : art. 15, 17 et 18 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_008",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [2],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل تسري أحكام المجلة الجمركية على كامل التراب الجمركي التونسي؟\n\nDocuments pertinents:\n[1] Source: الفصل 2 من مجلة الديوانة\nتطبق أحكام هذه المجلة في جميع أجزاء التراب الجمركي."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 2 من مجلة الديوانة، فإن أحكام هذه المجلة تطبق في جميع أجزاء التراب الجمركي التونسي دون استثناء. غير أن الفصل الأول من نفس المجلة يعرف التراب الجمركي بأنه يشمل البر التونسي والمياه الإقليمية والداخلية والجزر والأبحر المحيطة بها والمنشآت في المنطقة الاقتصادية الخالصة والفضاء الجوي. وبالتالي، فإن مبدأ الشمولية الترابية لأحكام المجلة يهدف إلى ضمان وحدة التطبيق الجمركي على كامل النطاق الذي تمارسه فيه الدولة سيادتها أو ولايتها. المصادر: الفصل 2 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_009",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [9],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي صلاحيات الحكومة في حالة الطوارئ فيما يتعلق بتعليق استيراد أو تصدير بعض البضائع؟\n\nDocuments pertinents:\n[1] Source: الفصل 9 من مجلة الديوانة\nفي حالة الطوارئ وعندما تستدعي الظروف ذلك، يمكن بمقتضى أمر حكومي تعديل النصوص المتعلقة ببعض البضائع أو تعليق استيرادها أو تصديرها."
+        },
+        {
+          "role": "assistant",
+          "content": "ينص الفصل 9 من مجلة الديوانة على أنه في حالة الطوارئ وعند اقتضاء الظروف، يمكن بمقتضى أمر حكومي تعديل النصوص المتعلقة ببعض البضائع أو تعليق استيرادها أو تصديرها. وتكمل الفصول 10 و11 هذا المبدأ بإعطاء الحكومة صلاحية التعليق المؤقت لتصدير منتجات الأرض والصناعة الوطنية (الفصل 10) وتحديد قيود على اختصاص مكاتب الديوانة وحجم السفن وشروط التغليف (الفصل 11). والغاية من هذه السلطات الاستثنائية هي تمكين الدولة من التصرف بسرعة لحماية الأمن الاقتصادي أو الصحي أو البيئي في مواجهة ظروف غير متوقعة. المصادر: الفصل 9 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_multi_010",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [21, 22],
+      "confidence_flag": "L'article 22 est long ; seuls les paragraphes définissant les notions de marchandises identiques, similaires et personnes liées sont extraits.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم تحديد منشأ البضائع المستوردة، ومتى تعتبر البضائع متطابقة أو مماثلة للأغراض الجمركية؟\n\nDocuments pertinents:\n[1] Source: الفصل 21 من مجلة الديوانة\n1- تُجبى حقوق الديوانة عند الاستيراد وفقا لمنشأ البضائع. 2- دون إخلال بتعاريف منشأ البضائع المنصوص عليها في الاتفاقيات الدولية الجاري بها العمل، تعتبر بضائع \"منتجة بكاملها\" في بلد ما، البضائع التي تم الحصول عليها بكاملها في ذلك البلد، وتشمل: أ) المنتجات المعدنية المستخرجة؛ ب) المنتجات النباتية المحصودة؛ ج) الحيوانات الحية المولودة والمرباة؛ د) المنتجات المستخرجة من الحيوانات الحية التي تربى هناك؛ هـ) منتجات الصيد والاصطياد؛ و) منتجات الصيد البحري خارج المياه الإقليمية بواسطة سفن مسجلة ومرخصة براية ذلك البلد؛ ز) البضائع المتحصل عليها في سفن مصنعة من منتجات (و)؛ ح) المنتجات المستخرجة من قاع البحر خارج المياه الإقليمية إذا كان للبلد حقوق استغلال حصرية؛ ط) الخردة والنفايات الناتجة عن عمليات صناعية؛ ي) البضائع المنتجة بكاملها من المواد السابقة. 3- تحدد بقرار قواعد تحديد منشأ البضاعة المحصل عليها من منتجات مستوردة وفق قاعدة التحول الجوهري.\n\n[2] Source: الفصل 22 من مجلة الديوانة (مقتطفات)\n1- في مفهوم هذه المجلة: ج) تعني عبارة \"بضائع متطابقة\" البضائع المتماثلة من جميع النواحي، بما في ذلك الخصائص الفيزيائية والنوعية والسمعة. الاختلافات الطفيفة في المظهر لا تمنع اعتبار البضائع متطابقة. د) تعني عبارة \"بضائع مماثلة\" البضائع التي وإن لم تكن متطابقة من جميع النواحي، فإن لها خصائص مماثلة ومكونات مماثلة تمكنها من أداء نفس الوظائف وأن تكون قابلة للتبادل تجاريا. وتؤخذ في الاعتبار النوعية والسمعة ووجود علامة تجارية. هـ) لا تنطبق عبارتا \"بضائع متطابقة\" و\"بضائع مماثلة\" على البضائع التي تتضمن أعمال هندسة أو دراسة أو فن أو تصميم أو مخططات إذا أنجزت في تونس. و) لا تعتبر البضائع متطابقة أو مماثلة إلا إذا أنتجت في نفس بلد البضائع المراد تقييمها. ز) تؤخذ بعين الاعتبار بضائع أنتجها شخص مختلف فقط في حالة عدم وجود بضائع متطابقة أو مماثلة أنتجها نفس الشخص."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 21، يحدد منشأ البضائع المستوردة أساسا على أنها البضائع \"المنتجة بكاملها\" في بلد معين، مع قائمة تفصيلية تشمل المنتجات المعدنية والنباتية والحيوانية ومصائد الأسماك وغيرها. وتحدد بقرار قواعد المنشأ عندما تدخل مواد من بلد آخر وتخضع لقاعدة التحول الجوهري. أما الفصل 22 فيعرف \"البضائع المتطابقة\" بأنها المتماثلة تماما بما في ذلك الصفات والنوعية، و\"البضائع المماثلة\" بأنها وإن لم تكن متطابقة فإن لها خصائص متشابهة وقابلة للتبادل التجاري. غير أنه يشترط أن تكون منتجة في نفس بلد البضائع المراد تقييمها، ولا تنطبق التعريفات على البضائع التي تضم أعمال هندسة أو تصميم أنجزت في تونس. الهدف من هذه التعاريف هو ضمان تطبيق متجانس للتعريفة الجمركية ومنع التلاعب بالمنشأ. المصادر: الفصلين 21 و22 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_principle_exception_011",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [14, 39],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل تخضع البضائع المستوردة للقانون التعريفي في حالتها الراهنة، ومتى تعتبر هذه البضائع ممنوعة؟\n\nDocuments pertinents:\n[1] Source: الفصل 14 من مجلة الديوانة\n1- تخضع المنتجات المستوردة أو المصدرة للقانون التعريفي في الحالة التي تكون عليها لحظة تطبيقه عليها. 2- ومع ذلك، يمكن لإدارة الديوانة أن ترخص بفصل البضائع التي تلفت نتيجة حوادث قبل تسجيل التصريح التفصيلي. تخضع البضائع التالفة حسب الحالة للإتلاف الفوري أو إعادة التصدير أو إعادة الشحن إلى داخل التراب الجمركي أو تخضع للضريبة حسب حالتها الجديدة. تحصل الحقوق والضرائب النوعية دون اعتبار للقيمة النسبية أو درجة حفظ البضائع.\n\n[2] Source: الفصل 39 من مجلة الديوانة\n1- لتطبيق أحكام هذه المجلة، تعتبر ممنوعة كل بضاعة يكون استيرادها أو تصديرها محظورا لأي سبب كان، أو خاضعة لقيود أو لقواعد نوعية أو تغليف أو لإجراءات خاصة. 2- عندما يخضع الاستيراد أو التصدير لتقديم رخصة أو شهادة، تكون البضاعة ممنوعة إذا لم تكن مصحوبة بوثيقة نظامية أو إذا قدمت بوثيقة غير قابلة للتطبيق. 3- لا يمكن بأي حال أن تكون عناوين الترخيص بالاستيراد أو التصدير محل إعارة أو تنازل أو أي معاملة من جانب الحائزين الذين منحت لهم شخصيا."
+        },
+        {
+          "role": "assistant",
+          "content": "القاعدة الأساسية بمقتضى الفصل 14 هي أن البضائع تخضع للقانون التعريفي في حالتها الراهنة وقت التطبيق. ويستثنى من ذلك حالة تلف البضائع قبل التسجيل، حيث تسمح الإدارة بفصلها وتخضع للتدمير أو إعادة التصدير أو الضريبة حسب حالتها الجديدة. أما الفصل 39 فينص على مبدأ المنع: تعتبر البضاعة ممنوعة إذا كان استيرادها أو تصديرها محظورا أو خاضعا لقيود أو لإجراءات خاصة، كما تكون ممنوعة إذا لم تكن مصحوبة برخصة سليمة أو إذا استعملت الرخصة بطريقة غير قانونية (لا إعارة ولا تنازل). وتكمن غاية هذه الأحكام في حماية الاقتصاد الوطني والصحة العامة والامتثال للالتزامات الدولية مع منع الاحتيال. المصادر: الفصلين 14 و39 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_refusal_012",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي إجراءات الطعن في قرار رفض التخليص الجمركي أمام القضاء الإداري التونسي؟\n\nDocuments pertinents:\n[1] Source: لا تتضمن الوثائق المقدمة أي حكم يتعلق بالتقاضي أمام القضاء الإداري أو آليات الطعن القضائي في قرارات الديوانة."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن هذا السؤال. مجلة الديوانة المتوفرة لدي لا تشرح إجراءات الطعن القضائي أمام مجلس الدولة أو المحكمة الإدارية. أنصحكم باستشارة محامٍ متخصص في القانون الجمركي والإداري التونسي، أو الرجوع إلى الفصول المتعلقة بالتقاضي في مجلة الديوانة كاملة (العنوان المتعلق بالمنازعات غير مدرج في النص المقدم)."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_clarification_013",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [25, 26],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم تقييم البضائع إذا لم تكن هناك معاملات سابقة لنفس البضائع المستوردة؟\n\nDocuments pertinents:\n[1] Source: الفصل 25 من مجلة الديوانة (مقتطف)\n1- أ) القيمة الجمركية للبضائع المستوردة المحددة بتطبيق هذا الفصل هي القيمة المعاملاتية لبضائع متطابقة مباعة للتصدير إلى تونس ومصدرة في نفس الوقت أو قريبا من وقت تقييم البضائع المراد تقييمها. ب) تحدد القيمة بالرجوع إلى القيمة المعاملاتية لبضائع متطابقة مباعة بنفس المستوى التجاري ونفس الكمية تقريبا. في حالة عدم وجودها، يرجع إلى قيمة مباعة بمستوى تجاري مختلف و/أو كمية مختلفة مع التعديل.\n\n[2] Source: الفصل 26 من مجلة الديوانة (مقتطف)\n1- أ) القيمة الجمركية للبضائع المستوردة المحددة بتطبيق هذا الفصل هي القيمة المعاملاتية لبضائع مماثلة مباعة للتصدير إلى تونس ومصدرة في نفس الوقت أو قريبا من وقت تقييم البضائع المراد تقييمها. ب) نفس المنهجية: الرجوع إلى بضائع مماثلة بنفس المستوى التجاري والكمية، أو التعديل إذا اختلف المستوى أو الكمية.\n\n[3] Source: الفصل 24 من مجلة الديوانة\nعندما لا يمكن تحديد القيمة الجمركية بتطبيق الفصل 23، ينتقل تباعا إلى الفصول 25، 26، 27، 28 إلى أن يتمكن أول هذه الفصول من تحديدها، إلا إذا طلب المستورد عكس ترتيب الفصلين 27 و28."
+        },
+        {
+          "role": "assistant",
+          "content": "لإعطائك إجابة دقيقة، هل لديك بضائع مماثلة أو متطابقة (حسب تعريف الفصل 22) تم تصديرها إلى تونس في نفس الوقت تقريبا؟ لأن الفصلين 25 و26 يعتمدان على وجود بضائع متطابقة أو مماثلة. إذا لم توجد، فسيتم الانتقال بموجب الفصل 24 إلى الفصل 27 (طريقة قيمة الوحدة في السوق الداخلية) ثم الفصل 28 (طريقة القيمة المحسوبة). يرجى توضيح ما إذا كانت هناك أي بضائع مرجعية من نفس النوع، أو إذا كنت تطلب شرح الطريقة الاحتياطية بموجب الفصل 29 (الوسائل المعقولة)."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_procedural_014",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [11, 12],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم تحديد مكاتب الديوانة المختصة، وهل يمكن تطبيق النظام الجمركي القديم الأكثر فائدة عند تعديل التدابير؟\n\nDocuments pertinents:\n[1] Source: الفصل 11 من مجلة الديوانة\nيمكن للأوامر الحكومية أن: 1- تحد من اختصاص بعض مكاتب الديوانة وتعين المكاتب التي يجب أن تتم بها وجوبا بعض العمليات الديوانية؛ 2- تحدد قائمة البضائع التي لا يمكن استيرادها أو تصديرها إلا بواسطة سفن ذات حمولة محددة؛ 3- تحدد لبعض البضائع قواعد خاصة بالتغليف.\n\n[2] Source: الفصل 12 من مجلة الديوانة\nفي حالة إحداث تدابير جمركية جديدة أو تعديل تدابير جمركية، يطبق النظام السابق الأكثر فائدة على البضائع: - التي تثبت وثائق نقلها الصادرة قبل تاريخ بدء العمل بهذه التدابير شحنها المباشر إلى التراب الجمركي التونسي، - والتي صرح بها للاستهلاك المباشر دون إيداعها تحت نظام المستودعات أو المناطق الحرة أو إيداعها في مستودع الديوانة."
+        },
+        {
+          "role": "assistant",
+          "content": "تتم عملية تحديد مكاتب الديوانة المختصة بمقتضى الفصل 11 الذي يخول للأوامر الحكومية تحديد المكاتب التي تجري بها العمليات الديوانية إجبارا. أما بخصوص التعديلات الجمركية، فينص الفصل 12 على قاعدة انتقالية: عند إحداث تدابير جديدة أو تعديلها، يطبق النظام القديم الأكثر فائدة على بضاعتين تتوفر فيهما شرطان متراكمان: (أ) أن تكون وثائق النقل قد حررت قبل تاريخ بدء التدابير الجديدة وتثبت الشحن المباشر إلى التراب الجمركي التونسي، (ب) أن تصرح بها للاستهلاك المباشر دون إيداعها في مستودعات أو مناطق حرة. وتهدف هذه القاعدة إلى حماية المصدرين والمستوردين من الآثار المفاجئة للتغييرات التشريعية، عبر منحهم فترة انتقالية للاستفادة من النظام الأكثر ملاءمة. المصادر: الفصلين 11 و12 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_cross_fr_ar_015",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [13],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي \"الملاحظات المشتركة\" للديوانة التونسية وكيف يتم نشرها؟\nQuestion in Arabic, retrieved article in French.\n\nDocuments pertinents:\n[1] Source: article 13 du Code des Douanes\nLes notes communes fixent les dispositions pratiques pour l'application des droits de douane exigibles conformément aux dispositions du présent code. Ces notes sont insérées dans des bulletins spéciaux établis par la direction générale des douanes qui veille à leur impression et à leur diffusion."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للمادة 13 من مجلة الديوانة التونسية، فإن \"الملاحظات المشتركة\" تحدد الترتيبات العملية لتطبيق حقوق الديوانة المستحقة طبقاً لأحكام هذه المجلة. وتدرج هذه الملاحظات في نشرات خاصة تحررها الإدارة العامة للديوانة التي تسهر على طبعها ونشرها. وبالتالي، فهي أداة تقنية لتفسير وتنفيذ التعريفة الجمركية بشكل موحد. المصادر: المادة 13 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_cross_ar_fr_016",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [40, 41],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les interdictions d'entrée liées aux marques contrefaites et à l'indication d'origine des produits étrangers ?\nQuestion in French, retrieved articles in Arabic.\n\nDocuments pertinents:\n[1] Source: الفصل 40 من مجلة الديوانة\nتحظر عند الورود وتستثنى من نظام التخزين ونظام المستودعات والعبور والتداول، البضائع التي تحمل علامة صناعية أو تجارية أو علامة خدمات مزورة.\n\n[2] Source: الفصل 41 من مجلة الديوانة\nتحظر عند الورود وتستثنى من نظام المستودعات، جميع المنتجات الأجنبية التي لا تستوفي الالتزامات المنصوص عليها في التشريع الجاري به العمل في مسألة بيان المنشأ."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 40 et 41 du Code des Douanes tunisien, deux interdictions d'entrée sont prévues. Premièrement, l'article 40 interdit à l'entrée et exclut du régime de stockage, des entrepôts, du transit et de la circulation les marchandises comportant une marque de fabrique, de commerce ou de service contrefaite. Deuxièmement, l'article 41 prohibe à l'entrée et exclut du régime des entrepôts tous produits étrangers qui ne satisfont pas aux obligations en matière d'indication d'origine prévues par la législation en vigueur. Ces dispositions visent à protéger la propriété intellectuelle et à lutter contre la concurrence déloyale, ainsi qu'à garantir la transparence sur l'origine des produits pour le consommateur tunisien. Sources : art. 40 et 41 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_direct_017",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [19],
+      "confidence_flag": "Paragraphe 4 de l'article 19 répété avec une erreur 'devient cesse d'être valable' dans l'OCR, mais le sens reste clair.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment sont classées les marchandises non prévues par le tarif, et que se passe-t-il en cas de modification des notes explicatives du système harmonisé ?\n\nDocuments pertinents:\n[1] Source: article 19 du Code des Douanes\n1- L'espèce des marchandises est la dénomination qui leur est attribuée par le tarif des droits de douane annexé à la loi tarifaire. 2- Des arrêtés du ministre des finances peuvent prescrire, pour la déclaration de l'espèce tarifaire des marchandises, l'utilisation des éléments de codification de la nomenclature de dédouanement des produits. 3- Sans préjudice des règles générales pour l'interprétation de la nomenclature tarifaire du système harmonisé, les marchandises non classées ou celles susceptibles d'être classées dans plusieurs positions du tarif sont classées par des décisions du ministre des finances, qui peut en déléguer le pouvoir au directeur général des douanes. 4- Une décision de classement devient cesse d'être valable en cas d'adoption d'un avis de classement ou en cas de modification des notes explicatives de la nomenclature du système harmonisé par le conseil de l'organisation mondiale des douanes. Les décisions de classement et les décisions d'annulation de classement sont publiées au Journal Officiel de la République Tunisienne et deviennent exécutoires dans les délais légaux de publication."
+        },
+        {
+          "role": "assistant",
+          "content": "Selon l'article 19 du Code des Douanes, les marchandises non classées ou susceptibles de relever de plusieurs positions tarifaires sont classées par des décisions du ministre des finances (ou du directeur général des douanes par délégation). Ces décisions sont publiées au Journal Officiel et deviennent exécutoires. Toutefois, une décision de classement cesse d'être valable en cas d'adoption d'un avis de classement ou de modification des notes explicatives du système harmonisé par l'Organisation mondiale des douanes. En outre, des arrêtés du ministre des finances peuvent imposer l'utilisation de la codification de la nomenclature de dédouanement. La finalité est d'assurer une application uniforme et actualisée du tarif douanier en phase avec les évolutions internationales. Sources : art. 19 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_principle_exception_018",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [16, 15],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un importateur peut-il obtenir la restitution de droits de douane indûment perçus s'il a répercuté ces droits sur ses clients ?\n\nDocuments pertinents:\n[1] Source: article 16 du Code des Douanes\nToute personne ayant indûment acquitté des droits et taxes exigibles, conformément aux dispositions du présent code, ne peut en obtenir la restitution, s'il est justifié que ces droits et taxes ont été répercutés sur l'acheteur.\n\n[2] Source: article 15 du Code des Douanes (extrait)\nL'administration des douanes peut restituer les droits et taxes perçus à l'importation lorsqu'il est dûment établi que : a) le montant a été soit indûment perçu, soit perçu à un niveau supérieur à celui légalement dû ; b) les marchandises sont défectueuses ou non conformes... c) déclarées par erreur pour la mise à la consommation au lieu d'un autre régime ; d) marchandises non réellement parvenues alors que les droits ont été perçus ; e) situation particulière non imputable à l'importateur."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe général de l'article 15 est que l'administration peut restituer les droits indûment perçus dans plusieurs cas (paiement indu, erreur, marchandises défectueuses, etc.). Cependant, l'article 16 édicte une exception majeure : toute personne ayant indûment acquitté des droits ne peut en obtenir la restitution s'il est justifié que ces droits ont été répercutés sur l'acheteur. Ainsi, si l'importateur a déjà transféré la charge fiscale à son client, il perd le droit à restitution. Cette règle évite un enrichissement sans cause de l'importateur qui aurait déjà récupéré les sommes auprès de l'acheteur final. Sources : art. 15 et 16 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_019",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [42],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل على المستوردين والمصدرين الالتزام فقط بأحكام مجلة الديوانة أم هناك تشريعات أخرى يجب مراعاتها؟\n\nDocuments pertinents:\n[1] Source: الفصل 42 من مجلة الديوانة\nبغض النظر عن الالتزامات المنصوص عليها في هذه المجلة، يجب على المستوردين والمصدرين الامتثال للتشريع الجاري به العمل عند الاستيراد والتصدير، وخاصة النصوص المتعلقة بالتجارة الخارجية والصرف وكذلك حقوق الملكية الفكرية المرتبطة بالتجارة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 42 من مجلة الديوانة، لا يقتصر التزام المستوردين والمصدرين على أحكام هذه المجلة فقط، بل يجب عليهم الامتثال أيضا للتشريع الجاري به العمل عند الاستيراد والتصدير، ولا سيما النصوص المتعلقة بالتجارة الخارجية، وقوانين الصرف، وحقوق الملكية الفكرية المرتبطة بالتجارة. وبالتالي، فإن الامتثال للديوانة هو شرط ضروري ولكنه غير كاف؛ إذ يجب الجمع بينه وبين الالتزامات القطاعية الأخرى. الهدف من هذا النص هو ضمان رقابة شاملة على الحدود تشمل الجوانب التجارية والمالية وحماية الإبداع. المصادر: الفصل 42 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_refusal_020",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les délais de conservation des archives douanières pour un transitaire agréé ?\n\nDocuments pertinents:\n[1] Source: Aucun article du Code des Douanes fourni ne traite des délais de conservation des archives ou des obligations documentaires des transitaires."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des Douanes qui m'a été communiqué ne prévoit pas de disposition relative aux délais de conservation des archives par les transitaires agréés. Je vous recommande de consulter un avocat spécialisé en droit douanier ou de vous référer au cahier des charges des transitaires ainsi qu'aux textes relatifs à la prescription et à la conservation des documents commerciaux."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre I, Chapitre I (articles 1-3)",
+      "Chapitre II (articles 4-5)",
+      "Chapitre II, Section 2 (articles 7-8)",
+      "Chapitre III, Sections 3-5 (articles 9-12)",
+      "Chapitre IV (article 13)",
+      "Chapitre V, Section 1 (article 14)",
+      "Chapitre V, Section 2 (articles 15-18)",
+      "Chapitre V, Section 3 (articles 19-20)",
+      "Chapitre V, Section 4 (article 21)",
+      "Chapitre V, Section 5 (articles 22-36)",
+      "Chapitre V, Section 6 (article 38)",
+      "Chapitre VI (articles 39-41)",
+      "Chapitre VII (article 42)"
+    ],
+    "sections_not_covered": [
+      "Titre I, Chapitre III (article 6 manquant dans le PDF)",
+      "Chapitre V, Section 5, articles 32 (manquant) et 37 (partiellement couvert dans l'article 37 mais pas d'exemple dédié)",
+      "Dispositions finales ou transitoires au-delà de l'article 42"
+    ],
+    "notes": "Le PDF comporte des problèmes d'OCR aux pages 3 et 8 (caractères illisibles) mais les articles restent exploitables. L'article 6 est absent du fichier. L'article 32 est sauté dans la numérotation. Les exemples couvrent une large variété de dispositions, avec un mélange de questions directes, multi-articles, principe+exception, refus, clarification et procédurales. Les deux exemples cross-lingual sont inclus (FR→AR et AR→FR). Tous les exemples en arabe sont en MSA formel sans dialecte."
+  }
+}

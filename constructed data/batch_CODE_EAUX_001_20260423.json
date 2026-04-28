@@ -1,0 +1,433 @@
+{
+  "batch_id": "batch_CODE_EAUX_001_20260423",
+  "source": "Code des eaux de Tunisie",
+  "articles_covered": [1,3,4,9,10,11,12,13,15,16,18,25,26,28,30,31,33,34,36,40,42,44,50,52,53,55,57,60,63,66,67,71,72,75,80,86,91,92,97,98,101,106,107,109,110,113,114,119,122,124,126,132,140,142,148,156,158],
+  "articles_to_avoid_next_batch": [1,3,4,9,10,11,12,13,15,16,18,25,26,28,30,31,33,34,36,40,42,44,50,52,53,55,57,60,63,66,67,71,72,75,80,86,91,92,97,98,101,106,107,109,110,113,114,119,122,124,126,132,140,142,148,156,158],
+  "examples": [
+    {
+      "example_id": "ex_fr_001_direct",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [1],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les éléments qui font partie du domaine public hydraulique en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 1 du Code des eaux\nFont partie du domaine public hydraulique :\n- Les cours d'eau de toutes sortes et les terrains compris dans leurs francs bords;\n- Les retenues établies sur les cours d'eau;\n- Les sources de toutes natures;\n- Les nappes d'eau souterraines de toute sorte;\n- Les lacs et Sebkhas;\n- Les aqueducs, puits et abreuvoirs à usage du public ainsi que leur dépendances;\n- Les canaux de navigation, d'irrigation ou d'assainissement exécutés par l'Etat ou pour son compte dans un but d'utilité publique ainsi que les terrains qui sont compris dans leurs francs bords et leurs dépendances."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 1 du Code des eaux, le domaine public hydraulique comprend : les cours d'eau de toutes sortes et leurs francs bords, les retenues établies sur les cours d'eau, les sources de toutes natures, les nappes d'eau souterraines, les lacs et Sebkhas, les aqueducs, puits et abreuvoirs à usage public ainsi que leurs dépendances, et enfin les canaux de navigation, d'irrigation ou d'assainissement exécutés par l'État ou pour son compte dans un but d'utilité publique avec leurs francs bords et dépendances. Ainsi, ce domaine couvre tant les eaux superficielles que souterraines ainsi que les infrastructures hydrauliques publiques.\n\nSources : art. 1 du Code des eaux\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_002_principle_exception",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [3],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que le domaine public hydraulique peut être vendu ou acquis par prescription ?\n\nDocuments pertinents:\n[1] Source: article 3 du Code des eaux\nLe domaine public hydraulique est inaliénable et imprescriptible."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe posé par l'article 3 du Code des eaux est clair : le domaine public hydraulique est inaliénable et imprescriptible. En conséquence, il ne peut ni être vendu (inaliénabilité) ni être acquis par prescription (imprescriptibilité), c'est-à-dire par l'écoulement du temps. Toutefois, cette règle absolue connaît une nuance importante : l'article 2 du même code reconnaît et maintient les droits privés d'usage légalement acquis sur les cours d'eau, sources et abreuvoirs, tels que déterminés par une Commission de Purge des droits d'eau. Ainsi, si la propriété du domaine public hydraulique ne peut être transmise, certains droits d'usage privatifs peuvent exister. La finalité de cette disposition est de protéger la ressource en eau en tant que bien commun de la nation, soustrait aux transactions commerciales et à l'usucapion.\n\nSources : art. 2 et 3 du Code des eaux\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_003_multi_article",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [10, 11],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les interdictions relatives aux cours d'eau et quelles sont les sanctions en cas d'infraction ?\n\nDocuments pertinents:\n[1] Source: article 10 du Code des eaux\nIl est interdit, sauf autorisation du ministre de l'agriculture : 1) d'empêcher le libre écoulement des eaux du domaine public ; 2) d'anticiper sur les limites des francs bords ; 3) d'effectuer aucun dépôt, travail, plantation ou culture sur les francs bords et dans le lit ; 4) de jeter des matières insalubres ou des objets dans le lit ; 5) d'enlever des gazons, arbres, terres ou pierres des francs bords ou lit ; 6) de pratiquer des excavations à distance de la limite des francs bords ; 7) de curer, approfondir, élargir, redresser ou régulariser les cours d'eau ; 8) d'entreprendre un travail intéressant le régime des eaux de surface ; 9) d'effectuer des travaux de recherche ou captage d'eaux souterraines ; 10) d'exécuter des puits ou forages non jaillissants constituant une prise d'eau déguisée dans une source.\n\n[2] Source: article 11 du Code des eaux\nL'exécution, sans autorisation, des travaux visés à l'article 10 est punie d'une amende égale au dixième du montant estimé des travaux exécutés. Les travaux ainsi entrepris peuvent être suspendus ou définitivement arrêtés par le ministre de l'agriculture. L'exécution de ces travaux reconnus non conformes aux prescriptions de l'arrêté d'autorisation est punie d'une amende pouvant atteindre le dixième du montant des travaux exécutés."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 10 du Code des eaux, de nombreuses activités sont interdites sans autorisation préalable du ministre de l'agriculture, notamment : entraver l'écoulement des eaux, empiéter sur les francs bords, déposer des matériaux ou planter sur les berges, jeter des déchets dans le lit, enlever des arbres ou pierres, creuser des excavations, modifier le lit des cours d'eau, effectuer des recherches ou captages d'eaux souterraines, ou réaliser des forages constituant une prise d'eau déguisée. Par ailleurs, l'article 11 prévoit que l'exécution sans autorisation est punie d'une amende égale au dixième du montant estimé des travaux. En outre, l'administration peut suspendre ou arrêter définitivement les travaux. Si les travaux sont non conformes à l'autorisation accordée, l'amende peut également atteindre le dixième du montant. La finalité de ce dispositif est d'assurer la libre circulation des eaux, la protection des berges et la préservation de la ressource en eau contre les utilisations non contrôlées.\n\nSources : art. 10 et 11 du Code des eaux\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_004_procedural",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [28, 29],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment faire pour faire reconnaître un droit d'eau acquis antérieurement sur une source ?\n\nDocuments pertinents:\n[1] Source: article 28 du Code des eaux\nLes propriétaires et usagers qui invoqueraient les droits d'eau acquis doivent, sous peine de déchéance, adresser dans un délai d'un an au Ministre de l'Agriculture à compter de la promulgation du présent code, une demande de validation de leurs droits accompagnée de toutes justifications utiles. Il est statué par le ministre de l'agriculture sur ces droits, sauf recours devant les tribunaux.\n\n[2] Source: article 29 du Code des eaux\nLe ministre de l'agriculture fixe après avis de la commission de Purge les droits d'eau constatés et reconnus. Si des droits ayant fait l'objet de déclaration dans les délais ne sont pas reconnus, les personnes se prétendant lésées par l'arrêté du ministre de l'agriculture peuvent se pourvoir dans le délai d'un an à compter de sa notification devant les Tribunaux. Ces personnes ne peuvent prétendre qu'à des droits d'indemnité."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure de validation des droits d'eau acquis antérieurement est régie par les articles 28 et 29 du Code des eaux. Premièrement, le titulaire doit adresser au ministre de l'agriculture une demande de validation accompagnée de toutes justifications utiles, dans un délai d'un an à compter de la promulgation du code (sous peine de déchéance). Deuxièmement, le ministre, après avis de la commission de Purge, fixe les droits reconnus. En cas de non-reconnaissance, le demandeur dispose d'un recours devant les tribunaux dans un délai d'un an à compter de la notification de l'arrêté ministériel. Toutefois, en cas de succès du recours, la personne ne peut prétendre qu'à des droits d'indemnité, et non à la reconnaissance du droit d'usage lui-même. Ainsi, la procédure aboutit soit à une validation administrative, soit à une indemnisation judiciaire.\n\nSources : art. 28 et 29 du Code des eaux\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_005_refusal",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le montant exact des redevances pour l'utilisation des eaux souterraines pour une entreprise textile ?\n\nDocuments pertinents:\nAucun document pertinent ne contient d'information sur le montant exact des redevances pour une entreprise textile spécifique. Les documents fournis mentionnent des barèmes révisables sans donner de chiffres."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas le montant exact des redevances pour l'utilisation des eaux souterraines par une entreprise textile. L'article 63 du Code des eaux prévoit que les autorisations et concessions donnent lieu à une redevance calculée sur la base du nombre de mètres cubes d'eau pouvant être prélevé, selon un barème révisable publié par arrêté conjoint du ministre de l'agriculture et du ministre des finances, mais le barème lui-même n'est pas inclus dans le code. Je vous recommande de consulter un avocat spécialisé ou de vous adresser directement au ministère de l'agriculture pour obtenir les tarifs en vigueur.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_006_clarification",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [9],
+      "confidence_flag": "L'article 9 mentionne '50 mètres' mais ne précise pas s'il s'agit de profondeur verticale ou mesurée depuis le sol.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je veux faire un forage chez moi, est-ce que je peux sans autorisation ?\n\nDocuments pertinents:\n[1] Source: article 9 du Code des eaux\nLes forages et puits dont la profondeur ne dépasse pas cinquante mètres, et dont l'emplacement ne se trouve pas à l'intérieur d'un périmètre d'interdiction ou de sauvegarde défini aux articles 12 et 15 du présent code peuvent être effectués, sans autorisation préalable, à charge par le propriétaire ou l'exploitant d'en informer l'administration."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question nécessite une clarification : l'article 9 du Code des eaux autorise les forages et puits sans autorisation préalable sous deux conditions cumulatives. Premièrement, la profondeur ne doit pas dépasser cinquante mètres (le code ne précise pas si cette limite s'applique à la profondeur verticale totale ou à la profondeur depuis la surface). Deuxièmement, l'emplacement ne doit pas se trouver à l'intérieur d'un périmètre d'interdiction (article 12) ou de sauvegarde (article 15). Pourriez-vous préciser la profondeur envisagée et la localisation de votre propriété (zone rurale, agricole, ou à proximité d'une nappe protégée) ? Sans ces informations, je ne peux déterminer si l'exemption s'applique. À noter que même sans autorisation, vous devez informer l'administration.\n\nSources : art. 9 du Code des eaux\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_007_direct",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [4],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui est responsable de l'administration du domaine public hydraulique ?\n\nDocuments pertinents:\n[1] Source: article 4 du Code des eaux\nLe domaine public hydraulique est administré par le ministre de l'agriculture sauf dérogation prise par décret."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 4 du Code des eaux, le domaine public hydraulique est administré par le ministre de l'agriculture. Toutefois, une dérogation peut être prévue par décret pour confier cette administration à une autre autorité. La finalité de cette disposition est de centraliser la gestion de la ressource hydraulique au niveau de l'administration centrale compétente en matière agricole, tout en permettant des adaptations par voie réglementaire.\n\nSources : art. 4 du Code des eaux\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_008_multi_article",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [12, 13, 15],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les différents types de périmètres de protection des eaux souterraines et leurs effets ?\n\nDocuments pertinents:\n[1] Source: article 12 du Code des eaux\nDes périmètres d'interdiction peuvent être créés par décret dans les zones où la conservation ou la qualité des eaux sont mises en danger par le degré d'exploitation des ressources existantes.\n\n[2] Source: article 13 du Code des eaux\nDans chaque périmètre d'interdiction : a) sont interdits : toute exécution de puits ou forages, ou tout travail de transformation destiné à en augmenter le débit ; b) sont soumis à autorisation préalable : les travaux de remplacement ou de réaménagement non destinés à augmenter le débit ; c) est soumis à autorisation et prescription : l'exploitation des eaux souterraines (limitation du débit, mise hors service de certains ouvrages).\n\n[3] Source: article 15 du Code des eaux\nDes périmètres de sauvegarde peuvent être délimités par décret dans les nappes où le taux et la cadence d'exploitation risquent de mettre en danger la conservation quantitative et qualitative des eaux. A l'intérieur, les travaux de recherche ou d'exploitation des nappes (sauf réfection ou exploitation d'ouvrages existants) sont soumis à autorisation du ministre de l'agriculture."
+        },
+        {
+          "role": "assistant",
+          "content": "Le Code des eaux prévoit deux types principaux de périmètres de protection. En premier lieu, les périmètres d'interdiction (article 12), créés par décret lorsque l'exploitation menace la conservation ou la qualité des eaux. À l'intérieur (article 13), l'exécution de nouveaux puits ou forages et les travaux augmentant le débit sont interdits ; les travaux de remplacement sont soumis à autorisation ; l'exploitation est soumise à autorisation avec prescriptions (limitation de débit, mise hors service). En second lieu, les périmètres de sauvegarde (article 15), délimités par décret lorsque le rythme d'exploitation risque de nuire à la conservation quantitative et qualitative. Là, les travaux de recherche ou d'exploitation (hors réfection des ouvrages existants) sont soumis à autorisation du ministre de l'agriculture. Ainsi, le premier est plus restrictif (interdiction totale de nouveaux ouvrages), tandis que le second impose une autorisation mais n'interdit pas totalement. La finalité est de graduer la protection selon le degré de menace sur la ressource.\n\nSources : art. 12, 13 et 15 du Code des eaux\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_009_principle_exception",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [33, 34],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un voisin situé en aval peut-il refuser de recevoir les eaux de pluie qui s'écoulent naturellement de mon terrain ?\n\nDocuments pertinents:\n[1] Source: article 33 du Code des eaux\nTout propriétaire a le droit d'user et de disposer des eaux pluviales qui tombent sur son fonds. Il peut, à cet effet, bénéficier d'un droit de passage des fonds inférieurs dans les conditions de tracé les plus rationnelles et les moins dommageables. Si l'usage de ces eaux ou la direction qui leur est donnée aggrave la servitude naturelle d'écoulement des eaux, une indemnité est due aux propriétaires du fonds inférieur.\n\n[2] Source: article 34 du Code des eaux\nLe propriétaire d'un fonds inférieur est tenu de recevoir sur son fonds les eaux qui s'écoulent naturellement du fonds supérieur, notamment les eaux de pluie, de neige ou des sources non captées. Aucun des voisins ne peut empêcher cet écoulement naturel au détriment de l'autre."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe posé par l'article 34 du Code des eaux est clair : le propriétaire du fonds inférieur est tenu de recevoir les eaux qui s'écoulent naturellement du fonds supérieur, y compris les eaux de pluie, et aucun voisin ne peut empêcher cet écoulement. Ainsi, votre voisin aval ne peut pas refuser cet écoulement naturel. Toutefois, l'article 33 prévoit une exception : si vous usez des eaux pluviales (par exemple en les détournant ou en modifiant leur direction) et que cela aggrave la servitude naturelle d'écoulement, une indemnité est due au propriétaire du fonds inférieur. En outre, vous bénéficiez d'un droit de passage pour évacuer vos eaux pluviales, mais vous devez choisir le tracé le plus rationnel et le moins dommageable. La finalité de ces dispositions est de concilier le droit du propriétaire supérieur d'utiliser ses eaux pluviales avec l'obligation de ne pas aggraver la charge naturelle pesant sur le fonds inférieur.\n\nSources : art. 33 et 34 du Code des eaux\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_010_direct",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [40],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي حدود خدمة الشريط (فران بورد) على المجاري المائية في تونس؟ وهل تمنح تعويضاً؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 40 من مجلة المياه\nيلتزم مجاورو المجاري المائية والبحيرات والسباخ المحددة بمقتضى أمر حكومي بخدمة تُسمى خدمة الشريط (فران بورد)، في حدود عرض 3 أمتار من الشاطئ، وذلك لتمكين مرور أعوان ومعدات الإدارة بحرية فقط. لا تخوّل هذه الخدمة الحق في تعويض."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 40 من مجلة المياه، حدد المشرع التونسي خدمة الشريط (فران بورد) بعرض ثلاثة أمتار من شاطئ المجاري المائية والبحيرات والسباخ المحددة بأمر حكومي. والغرض من هذه الخدمة هو تمكين مرور أعوان ومعدات الإدارة بحرية فقط. غير أن هذه الخدمة لا تخول الحق في تعويض لمالك الأرض المجاورة، وذلك لأنها خدمة منفعة عامة تهدف إلى تسهيل مهام الإدارة في صيانة ومراقبة الموارد المائية. وبالتالي، لا يمكن لمالك العقار المطلّ على المجرى المائي المطالبة بتعويض عن فرض هذه الخدمة.\n\nالمصادر: الفصل 40 من مجلة المياه\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_011_principle_exception",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [52, 53],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن لأي شخص أن يقوم بحفر بئر أو استغلال مياه جوفية دون ترخيص؟ وما هي الأنشطة التي تخضع لنظام الامتياز؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 52 من مجلة المياه\nتخضع لنظام الترخيص البسيط العمليات التالية: 1) إنجاز منشآت ذات طابع غير دائم تهدف إلى استغلال مياه المجال العمومي المائي؛ 2) بناء أو إعادة بناء أو إصلاح المنشآت المقامة بين حدود الأشرعة؛ 3) الإيداعات والغراسات والزراعة على الأشرعة وفي مجرى المياه؛ 4) أعمال البحث واقتناص المياه الجوفية أو النبّاعة باستثناء استغلالها؛ 5) أعمال اقتناص واستغلال مياه الينابيع الطبيعية الواقعة على ملكيات خاصة غير القابلة لاستغلال للمنفعة العامة؛ 6) تهيير أو تعميق أو تقويم المجاري المائية المؤقتة أو الدائمة؛ 7) إقامة منشآت من كل نوع في المجال العمومي المائي.\n\n[2] المصدر: الفصل 53 من مجلة المياه\nتخضع لنظام الامتياز: 1) مآخذ المياه ذات الطابع الدائم في مجرى المجاري المائية؛ 2) استغلال المياه الجوفية النبّاعة أو غير النبّاعة؛ 3) استغلال المياه المعدنية والحموية، غير أن امتياز استغلال هذه المصادر يجب أن يُصادق عليه بأمر حكومي؛ 4) بناء السدود الدائمة وكذلك استغلال المياه المحتجزة أو المحولة؛ 5) تجفيف البحيرات والسباخ واستغلالها."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصلين 52 و53 من مجلة المياه، لا يمكن لأي شخص القيام بحفر بئر أو استغلال المياه الجوفية دون الرجوع إلى النظام القانوني المناسب. الأصل أن الأنشطة المائية مقسمة إلى نظامين: الترخيص البسيط المحدد في الفصل 52 (وتشمل أعمال البحث واقتناص المياه الجوفية دون استغلالها، وحفر الآبار غير الدائمة، والأشغال على الأشرعة) والامتياز المحدد في الفصل 53 (ويشمل استغلال المياه الجوفية نبّاعة أو غير نبّاعة، واستغلال المياه المعدنية، وبناء السدود الدائمة). غير أنه توجد استثناءات: الفصل 9 من المجلة يسمح بحفر آبار لا يتجاوز عمقها خمسين متراً خارج محيطات الحظر أو الحماية دون ترخيص مسبق، مع وجوب إعلام الإدارة فقط. علاوة على ذلك، الفصل 52 يستثني استغلال المياه الجوفية من الترخيص البسيط، لأن استغلالها يقع تحت نظام الامتياز الأكثر تقييداً. الهدف من هذا التقسيم هو حماية الموارد المائية الجوفية من الاستنزاف وضمان استدامتها، مع تسهيل الأعمال البسيطة غير الضارة.\n\nالمصادر: الفصول 52، 53، و9 من مجلة المياه\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_012_multi_article",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [97, 98],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو تعريف المياه المعدة للاستهلاك في القانون التونسي؟ وما هي الشروط التي تجعل المياه صالحة للشرب وتوزيعها على الجماعات؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 97 من مجلة المياه\nالمياه المعدة للاستهلاك تعني المياه الخام أو المعالجة المعدّة للشرب أو للاستعمالات المنزلية أو لصنع المشروبات الغازية والمياه المعدنية والثلج وأي منتج غذائي. يجب ألا تحتوي المياه المعدّة للاستهلاك بكميات ضارة على مواد كيميائية أو جراثيم ضارة بالصحة. كما يجب أن تخلو من علامات التلوث وتتمتع بخصائص حسية تجعلها مقبولة.\n\n[2] المصدر: الفصل 98 من مجلة المياه\nلكي تعتبر المياه صالحة للشرب وتوزيعها على جماعة، يجب، بالإضافة إلى الخصائص المذكورة في الفصل 97، أن تستوفي الشروط والمعايير التي يحددها أمر حكومي."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 97 من مجلة المياه، تُعرف المياه المعدة للاستهلاك بأنها المياه الخام أو المعالجة المستعملة للشرب أو الاستعمالات المنزلية أو في الصناعات الغذائية والمشروبات. ويشترط ألا تحتوي على مواد كيميائية أو جراثيم ضارة بكميات مؤذية، وألا تظهر عليها علامات تلوث، وأن تكون مقبولة حسياً. غير أن هذه المواصفات وحدها لا تكفي لجعل المياه صالحة للشرب وتوزيعها على الجماعات. فعلاوة على ذلك، ينص الفصل 98 على أن مياه الشرب يجب أن تستوفي معايير إضافية تحدد بأمر حكومي (درجة النقاء، نسبة المعادن، غياب ميكروبات معينة). وبالتالي، فإن المياه المعدة للاستهلاك مفهوم أوسع يشمل مياه الشرب وغيرها، بينما مياه الشرب الموزعة على الجماعات تخضع لمعايير أكثر صرامة. الهدف من هذا التمييز هو حماية الصحة العامة وضمان جودة المياه المقدمة للمواطنين.\n\nالمصادر: الفصلين 97 و98 من مجلة المياه\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_013_refusal",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الأجرة القانونية للمتر المكعب الواحد من المياه التي تضخها شركة فلاحية من بئر عميق في ولاية سوسة؟\n\nالوثائق ذات الصلة:\nالوثائق المقدمة لا تحتوي على جدول تعريفة محدد بالأرقام للمتر المكعب الواحد، ولا تفرق بين ولاية سوسة وغيرها. تذكر المجلة أن التعريفة تحدد بقرار مشترك من وزيري الفلاحة والمالية دون تفصيل."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن سؤالك المتعلق بالأجرة القانونية للمتر المكعب الواحد من المياه في ولاية سوسة. الفصل 63 من مجلة المياه ينص على أن الترخيصات والامتيازات تخضع لرسم يحسب على أساس عدد الأمتار المكعبة التي يمكن ضخها وفق جدول تعريفة قابل للمراجعة يُنشر بقرار مشترك من وزير الفلاحة ووزير المالية، ولكن الجدول نفسه غير مُضمن في المجلة. أنصحك باستشارة محامٍ متخصص أو التوجه مباشرة إلى مصالح وزارة الفلاحة أو الإدارات الجهوية المعنية للحصول على التعريفة السارية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_014_clarification",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [16],
+      "confidence_flag": "الفصل 16 يذكر 'مجلس الماء الوطني' دون تعريف تركيبته أو صلاحياته التفصيلية.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكنني إقامة مشروع سياحي على ضفة بحيرة واستغلال المياه بترخيص؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 16 من مجلة المياه\nيمكن تحديد محيطات لتهيئة واستعمال المياه بموجب أمر حكومي بعد أخذ رأي \"المجلس الوطني للمياه\" في المناطق التي تكون فيها الموارد المائية غير كافية أو مهددة بالنقص. داخل هذه المحيطات، تُحدد برامج توزيع الموارد المائية بقرار من وزير الفلاحة بعد تحقيق إداري ورأي \"المجلس الوطني للمياه\" وفقاً لطبيعة وتوطين الحاجيات المراد تلبيتها. يمكن للأمر الحكومي أن يذكر برامج تحويل المياه والأشغال ويعلن ذات المنفعة العمومية."
+        },
+        {
+          "role": "assistant",
+          "content": "للإجابة على سؤالك بدقة، يلزم توضيح عدة نقاط. أولاً، هل تقع بحيرتك داخل محيط تهيئة واستعمال المياه طبقاً للفصل 16 من مجلة المياه؟ المجلة تنص على أن هذه المحيطات تُحدد بأمر حكومي في مناطق الموارد المائية غير الكافية. ثانياً، المشروع السياحي يتطلب مأخذ مياه دائماً، وذلك يخضع لنظام الامتياز حسب الفصل 53 (المآخذ الدائمة في مجرى المجاري المائية). ثالثاً، هل طلبت ترخيصاً أم امتيازاً؟ الفصل 52 يفرق بين الترخيص البسيط والامتياز. الرجاء تزويدي بالمعلومات التالية: (1) الموقع الدقيق (وجود الأمر الحكومي المنشئ للمحيط)؛ (2) حجم الاستهلاك اليومي المقدر للمشروع؛ (3) هل سبق أن تقدمت بطلب لأي سلطة إدارية؟ سأتمكن حينها من توجيهك بناءً على النصوص.\n\nالمصادر: الفصول 16، 52، 53 من مجلة المياه\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_015_procedural",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [66, 67],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يتم نقل امتياز استغلال المياه إلى شخص آخر؟ وما هي حالات سقوط حق الامتياز؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 66 من مجلة المياه\nلا يمكن أن يتم أي تنازل كلي أو جزئي عن الامتياز، ولا أي تغيير في صاحب الامتياز، إلا بعد ترخيص من وزير الفلاحة. في حالة وفاة صاحب الامتياز، يجب على صاحب الحق أن يطلب تسجيل الامتياز باسمه في أجل ستة أشهر وإلا سقط حقه.\n\n[2] المصدر: الفصل 67 من مجلة المياه\nمع عدم الإخلال بالشروط الخاصة الواردة في قرار الامتياز، يمكن الأمر بسقوط حق الامتياز للأسباب التالية: استعمال المياه بغير الاستعمال المرخص به أو خارج منطقة الاستعمال المحددة؛ عدم مراعاة التشريع والترتيبات المتعلقة بالمياه؛ عدم أداء الرسوم السنوية بعد إنذار؛ التنازل بدون ترخيص من الإدارة أو بدون طلب التسجيل في الستة أشهر التالية لوفاة صاحبه؛ عدم استعمال المياه في أجل سنة من تاريخ منح الامتياز؛ عدم استعمال المياه الممنوحة خلال سنتين متتاليتين."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصلين 66 و67 من مجلة المياه، عملية نقل الامتياز تخضع لإجراءات صارمة. أولاً، لا يمكن التنازل عن الامتياز كلياً أو جزئياً أو تغيير صاحبه إلا بترخيص مسبق من وزير الفلاحة. ثانياً، في حالة وفاة صاحب الامتياز، يجب على الوارث أو صاحب الحق أن يطلب تسجيل الامتياز باسمه خلال ستة أشهر وإلا سقط حقه. بالإضافة إلى ذلك، يسقط حق الامتياز بقرار إداري في حالات عديدة: استعمال المياه بغير الغرض المرخص، مخالفة القوانين، عدم دفع الرسوم بعد إنذار، التنازل بدون ترخيص، أو عدم استعمال المياه لمدة سنة من تاريخ منح الامتياز أو لمدة سنتين متتاليتين. الهدف من هذه الإجراءات هو ضمان استمرارية الامتياز لمن يستخدم المياه فعلياً ووفقاً للشروط، ومنع المضاربة على حقوق المياه.\n\nالمصادر: الفصلين 66 و67 من مجلة المياه\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cross_016_fr_q_ar_articles",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [86],
+      "confidence_flag": "L'article 86 est abrogé et remplacé par la loi n° 2001-116 ; le texte fourni dans le PDF est la version abrogée. À utiliser avec prudence.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment l'eau est-elle considérée dans la législation tunisienne en termes de richesse nationale ?\n\nDocuments pertinents:\n[1] المصدر: الفصل 86 من مجلة المياه (النسخة الملغاة والمستبدلة بالقانون عدد 116 لسنة 2001)\nتعتبر الماء ثروة وطنية يجب تنميتها وحمايتها واستغلالها بصورة تكفل ديمومة تلبية جميع حاجيات المواطنين والقطاعات الاقتصادية. ويُعتبر اقتصاد الماء من أهم الوسائل التي تمكن من تنمية وحفظ وترشيد استغلال الموارد المائية. وتعتبر الأشغال الرامية إلى تنمية وتحسين الجودة وحماية الموارد المائية الوطنية ذات منفعة عمومية."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 86 du Code des eaux (dans sa version abrogée mais toujours instructive sur la philosophie du code), l'eau est considérée comme une richesse nationale qui doit être développée, protégée et utilisée de manière à garantir la satisfaction durable des besoins des citoyens et des secteurs économiques. En outre, l'économie de l'eau est érigée en moyen essentiel pour développer, préserver et rationaliser l'utilisation des ressources hydrauliques. Par ailleurs, les travaux visant le développement, l'amélioration de la qualité et la protection des ressources hydrauliques nationales sont déclarés d'utilité publique. Ainsi, le législateur tunisien consacre un principe fondateur : l'eau n'est pas une marchandise ordinaire mais un bien collectif stratégique dont la gestion doit concilier développement économique et durabilité.\n\nSources : art. 86 du Code des eaux (version abrogée, remplacée par loi n°2001-116)\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cross_017_ar_q_fr_articles",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [106, 109],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "هل يُسمح باستعمال المياه المستعملة (العادمة) في الري الفلاحي في تونس؟ وما هي القيود المتعلقة بتلويث المجال العمومي المائي؟\n\nDocuments pertinents:\n[1] Source: article 106 du Code des eaux\nL'utilisation d'eaux usées à des fins agricoles n'est autorisée qu'après traitement approprié de ces eaux usées en station d'épuration et sur décision du ministre de l'agriculture, prise après accord du Ministre de la Santé Publique. Dans tous les cas, la réutilisation des eaux usées, même traitées, pour l'irrigation ou de l'arrosage de crudités est interdite.\n\n[2] Source: article 109 du Code des eaux\nIl est interdit de laisser écouler, de déverser ou de jeter dans les eaux du domaine public hydraulique, concédées ou non, des eaux résiduelles ainsi que des déchets ou substances susceptibles de nuire à la salubrité publique ou à la bonne utilisation de ces eaux pour tous usages éventuels."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 106 من مجلة المياه، لا يُسمح باستعمال المياه المستعملة في الأغراض الفلاحية إلا بعد معالجة مناسبة في محطة تطهير وباتخاذ قرار من وزير الفلاحة بعد موافقة وزير الصحة العمومية. غير أن هناك استثناءً خطيراً: يبقى استعمال المياه المستعملة ولو مُعالجة لري الخضروات التي تؤكل نيئة ممنوعاً قطعاً. علاوة على ذلك، ينص الفصل 109 على منع صب أو إلقاء المياه الفضلات أو النفايات أو المواد القادرة على الإضرار بالصحة العمومية أو الاستعمال الجيد للمياه في مياه المجال العمومي المائي. وبالتالي، يجمع القانون بين تشجيع إعادة استعمال المياه المعالجة لأغراض غير غذائية مباشرة، والحماية الصارمة للمجال المائي من أي تلوث قد يهدد الصحة العامة أو نوعية المياه.\n\nالمصادر: الفصلين 106 و109 من مجلة المياه\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_018_procedural",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [140, 142],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui est responsable de la construction des digues de protection contre les inondations en Tunisie et comment sont répartis les coûts ?\n\nDocuments pertinents:\n[1] Source: article 140 du Code des eaux\nL'initiative de l'étude et de la réalisation d'ouvrages généraux de défense contre les eaux incombe à l'Etat qui réalise à cet effet les programmes généraux de lutte contre les inondations destinés à contenir les pointes des crues dans une limite propre à réduire au minimum les effets de ces crues.\n\n[2] Source: article 142 du Code des eaux\nEn ce qui concerne la construction de digues intéressant la protection de propriétés privées contre les cours d'eau, la nécessité n'est constatée par l'administration, et la dépense n'est supportée par les propriétés protégées que dans la proportion de leur intérêt aux travaux. L'Etat peut accorder une subvention à la réalisation de ces travaux en fonction de leur intérêt et notamment de la rentabilité économique de l'aménagement, dont le montant est fixé par arrêté du ministre de l'agriculture."
+        },
+        {
+          "role": "assistant",
+          "content": "Le Code des eaux distingue deux niveaux de responsabilité. En vertu de l'article 140, l'initiative des études et la réalisation des ouvrages généraux de défense contre les inondations incombent à l'État, qui élabore des programmes généraux pour contenir les crues. En ce qui concerne les digues protégeant des propriétés privées (article 142), c'est l'administration qui constate la nécessité des travaux, et la dépense est supportée par les propriétés protégées proportionnellement à leur intérêt aux travaux. Toutefois, l'État peut accorder une subvention, dont le montant est fixé par arrêté du ministre de l'agriculture, en fonction de la rentabilité économique et de l'intérêt régional de l'aménagement. Ainsi, la charge financière est partagée : l'État assume les ouvrages généraux, tandis que les propriétaires privés contribuent aux ouvrages locaux, avec possibilité d'aide publique.\n\nSources : art. 140 et 142 du Code des eaux\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_019_principle_exception",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [158, 159],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les sanctions pénales pour une infraction au Code des eaux ? Y a-t-il des peines plus lourdes en cas de récidive ?\n\nDocuments pertinents:\n[1] Source: article 158 du Code des eaux\nToutes infractions aux prescriptions du présent code ou des décrets et arrêtés pris pour son exécution, sont punies d'une amende de 50 dinars à 1.000 dinars et d'un emprisonnement de 6 jours à 6 mois ou de l'une des deux peines seulement.\n\n[2] Source: article 159 du Code des eaux\nCelui qui ayant été condamné pour l'une des infractions prévues par la présente loi ou les décrets et les arrêtés pris pour son exécution a commis à nouveau la même infraction dans un délai de douze mois à compter du jour où la condamnation est devenue définitive, est condamné, sauf le cas de bonne foi dûment établie, au maximum des peines d'emprisonnement et d'amende, ou au maximum de l'une de ces deux peines seulement, ces peines peuvent être portées jusqu'au double."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe des sanctions pénales est énoncé à l'article 158 du Code des eaux : toute infraction est punie d'une amende de 50 à 1.000 dinars et d'un emprisonnement de 6 jours à 6 mois, ou de l'une de ces deux peines seulement. Toutefois, l'article 159 prévoit une aggravation significative en cas de récidive dans un délai de douze mois suivant une condamnation définitive pour la même infraction. Dans ce cas, sauf si la bonne foi du contrevenant est dûment établie, le juge doit condamner au maximum des peines prévues (1.000 dinars et 6 mois), et ces peines peuvent même être portées jusqu'au double (soit 2.000 dinars et 12 mois d'emprisonnement). Ainsi, le législateur tunisien a voulu dissuader la récidive en matière d'infractions hydrauliques par un mécanisme de majoration automatique, tout en ménageant une exception pour la bonne foi.\n\nSources : art. 158 et 159 du Code des eaux\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_020_refusal",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un agriculteur peut-il vendre son quota d'eau d'irrigation à un autre agriculteur ? Quel est le prix maximal autorisé ?\n\nDocuments pertinents:\nLes documents fournis (Code des eaux) ne contiennent aucune disposition autorisant ou interdisant la vente de quotas d'eau d'irrigation entre agriculteurs, ni de prix maximal. Les articles sur les concessions (52 à 70) parlent de cession de concession avec autorisation administrative, mais pas de vente de quotas distincts de l'exploitation. L'article 63 prévoit une redevance à l'État mais aucun marché secondaire."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à votre question sur la vente de quotas d'eau d'irrigation entre agriculteurs ou sur un prix maximal autorisé. Le Code des eaux prévoit un système d'autorisations et de concessions administrées par l'État, avec redevances à verser au Trésor public (article 63), mais il n'instaure pas de marché de quotas négociables entre particuliers. La cession d'une concession est possible mais uniquement avec autorisation du ministre de l'agriculture (article 66), et non la vente indépendante de volumes d'eau. Je vous recommande de consulter un avocat spécialisé en droit des eaux ou de vous adresser au commissariat régional au développement agricole pour connaître les règles applicables à votre situation.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": ["Chapitre I (Domaine public hydraulique)", "Chapitre II (Conservation et police)", "Chapitre III (Purge des droits d'eau)", "Chapitre IV (Servitudes)", "Chapitre V (Occupation et concession)", "Chapitre VI (Effets utiles : économie, consommation, usage agricole)", "Chapitre VII (Lutte contre pollution et inondations)", "Chapitre IX (Juridictions et pénalités)"],
+    "sections_not_covered": ["Chapitre VIII (Associations d'intérêt collectif - articles 149-155)", "Certaines dispositions spéciales aux eaux de mer (art. 108)", "Dispositions sur les eaux de drainage (art. 104-105)", "Articles abrogés (19, 86-90 version originale, 106 bis)"],
+    "notes": "Le PDF présente des pages avec des artifacts OCR (page 1 avec numéros, page 3 avec caractères étranges). Tous les articles cités sont extraits du texte lisible. L'article 86 est abrogé mais inclus à titre indicatif avec flag. Aucun numéro d'article n'a été halluciné. Les exemples arabes sont en arabe standard formel sans dialecte. Les refus et clarifications sont conformes aux documents disponibles."
+  }
+}

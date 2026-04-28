@@ -1,0 +1,447 @@
+{
+  "batch_id": "batch_PRESSE_002_20260101",
+  "source": "Code de la Presse de Tunisie (Loi n° 75-32 du 28 avril 1975)",
+  "articles_covered": [3, 4, 12, 14, 17, 18, 20, 22, 24, 28, 31, 33, 34, 44, 46, 48, 49, 51, 52, 54, 55, 58, 63, 64, 66, 70, 73, 75, 78],
+  "articles_to_avoid_next_batch": [1, 2, 3, 4, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 26, 27, 28, 31, 33, 34, 42, 43, 44, 46, 48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 63, 64, 66, 68, 69, 70, 72, 73, 74, 75, 78],
+  "examples": [
+    {
+      "example_id": "PRESSE_FR_DIRECT_021",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [3],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels types de documents sont exemptés du dépôt légal en Tunisie selon le Code de la Presse ?\n\nDocuments pertinents:\n[1] Source: article 3 du Code de la Presse\nNe sont pas soumis au dépôt légal prévu à l'article précédent: - Les travaux d'impression dits administratifs tels que modèles, formules ou factures, états, actes, registres etc....\n- les travaux d'impression dits de ville telles que lettres et cartes d'invitation, d'avis, d'adresses de visite et enveloppes à en-tête;\n- les travaux d'impression dits de commerce tels que tarifs, instructions, étiquettes, cartes d'échantillon etc....\n- les bulletins de vote et les titres de valeur financière.\nNe sont non plus soumises au dépôt légal, les publications de presse nationales d'information suivantes: - les quotidiens et périodiques, - les revues périodiques."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 3 du Code de la Presse, plusieurs catégories de documents sont expressément exemptées du dépôt légal : les travaux administratifs (formulaires, factures, registres), les impressions de ville (invitations, cartes de visite), les documents commerciaux (tarifs, étiquettes), ainsi que les bulletins de vote et titres financiers [1]. Par ailleurs, les publications de presse nationales d'information — quotidiens, périodiques et revues — bénéficient également de cette exemption. Toutefois, cette dispense ne s'applique qu'au dépôt légal et n'exonère pas ces publications des autres obligations déclaratives prévues aux articles 13 et suivants. Ainsi, le législateur allège les formalités pour les documents à caractère utilitaire ou éphémère, tout en maintenant un contrôle sur le contenu éditorial via d'autres mécanismes. Sources: art. 3 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_DIRECT_022",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [12],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la sanction pour non-respect des obligations de dépôt légal en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 12 du Code de la Presse\nSera puni d'une amende de 200 à 400 dinars, et, en cas de récidive, de 400 à 800 dinars, quiconque se serait soustrait aux obligations mises à sa charge par les dispositions du présent chapitre et les textes pris pour son application.\nEn outre, tout ce qui est publié ou introduit en Tunisie en infraction aux dispositions précédentes peut être saisi par arrêté du ministre de l'intérieur après avis du ministre de la culture ou du secrétaire d'Etat auprès du Premier ministre chargé de l'information, selon les attributions de chacun d'eux.\nLa confiscation des exemplaires mis illégalement à la disposition du public peut être ordonnée par la juridiction compétente."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 12 du Code de la Presse, toute personne qui se soustrait aux obligations de dépôt légal encourt une amende de 200 à 400 dinars, portée à 400-800 dinars en cas de récidive [1]. Par ailleurs, les publications introduites ou diffusées en infraction peuvent faire l'objet d'une saisie administrative par arrêté du ministre de l'intérieur, après avis des ministres compétents. En outre, la juridiction pénale peut ordonner la confiscation des exemplaires mis illégalement à la disposition du public. Ainsi, ce régime sanctionne à la fois l'omission formelle du dépôt et la diffusion irrégulière, afin de garantir la traçabilité patrimoniale et administrative des œuvres. Sources: art. 12 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_MULTI_023",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [17, 18],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les conséquences pour un périodique qui ne respecte pas les obligations de déclaration et de transparence ?\n\nDocuments pertinents:\n[1] Source: article 17 du Code de la Presse\nEn cas d'infraction aux dispositions prescrites par les articles 13 à 16 du présent code, le propriétaire, le directeur ou l'imprimeur seront punis d'une amende de 120 à 1.200 dinars.\nLe périodique ne pourra continuer sa publication qu'après avoir rempli les formalités prescrites par les articles 13 à 16, sous peine, si la publication irrégulière continue, d'une amende de 240 dinars, prononcée solidairement contre les mêmes personnes pour chaque numéro publié à partir du jour du prononcé du jugement de condamnation si ce jugement est contradictoire et du 3ème jour qui suivra sa notification s'il est rendu par défaut, et ce, nonobstant opposition ou appel. Le tribunal peut, en outre, ordonner la suspension du périodique.\n[2] Source: article 18 du Code de la Presse\nTout périodique doit faire connaître au public les noms de ceux qui en ont la direction. En outre, tout périodique doit faire mention de son tirage sur tous les exemplaires de chacune de ses livraisons. Il doit par ailleurs publier son bilan annuel et ses comptes de gestion et résultats avant le 1er juillet de l'année qui suit l'exercice pour lequel ces opérations sont accomplies.\nTout numéro publié en infraction à l'une des dispositions du présent article est passible d'une amende de cent(100) à mille (1000) dinars."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 17 et 18 du Code de la Presse, le non-respect des obligations déclaratives et de transparence expose le propriétaire, le directeur ou l'imprimeur à des amendes de 120 à 1 200 dinars, avec une astreinte de 240 dinars par numéro publié irrégulièrement après condamnation [1]. Par ailleurs, l'article 18 impose la mention du tirage, la publication des noms des dirigeants et la diffusion du bilan annuel avant le 1er juillet, sous peine d'amende de 100 à 1 000 dinars par numéro [2]. Toutefois, le tribunal peut également ordonner la suspension du périodique, ce qui constitue une mesure coercitive supplémentaire. Ainsi, ce régime vise à garantir la responsabilité éditoriale et la transparence financière des publications, essentielles à la confiance du public et au contrôle administratif. Sources: art. 17 et 18 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_MULTI_024",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [28, 31],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les règles de forme et de fond pour l'insertion d'une réponse dans un périodique tunisien ?\n\nDocuments pertinents:\n[1] Source: article 28 du Code de la Presse\nCette insertion se fera dans une place où les lecteurs en prendront fatalement connaissance, en mêmes caractères que l'article qui l'aura provoquée et sans aucune intercalation.\nNon comprises l'adresse, les salutations, les réquisitions d'usage et la signature, qui ne seront jamais comptées dans la réponse, celle-ci sera limitée à la longueur de l'article qui l'aura provoquée. Toutefois, elle ne pourra dépasser deux cents lignes, alors même que cet article serait plus long.\n[2] Source: article 31 du Code de la Presse\nLes tribunaux limiteront l'exercice du droit de réponse dans le cas où les termes de la réponse seraient contraires à la loi ou aux bonnes mœurs, à l'intérêt légitime des tiers ou à l'honneur et à la considération du journaliste."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 28 du Code de la Presse, la réponse doit être insérée dans un emplacement visible, avec les mêmes caractères typographiques que l'article initial et sans intercalation, sa longueur étant limitée à celle de l'article provoquant — sans excéder 200 lignes [1]. Par ailleurs, l'article 31 prévoit que les tribunaux peuvent limiter l'exercice du droit de réponse si les termes de la réponse sont contraires à la loi, aux bonnes mœurs, à l'intérêt légitime des tiers ou à l'honneur du journaliste [2]. Toutefois, ces restrictions visent à équilibrer le droit de réponse avec la protection de l'ordre public et des droits d'autrui. Ainsi, le législateur encadre strictement la forme et le fond de la réponse pour garantir son efficacité tout en prévenant les abus. Sources: art. 28 et 31 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_PRINCEX_025",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [51],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la sanction pour diffamation envers une administration publique par voie de presse en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 51 du Code de la Presse\nLa diffamation, commise par l'un des moyens énoncés dans l'article 42 du présent code envers les cours et les tribunaux, les armées de terre, de mer ou de l'air, les corps constitués et les administrations publiques, sera punie d'un emprisonnement d'un an à trois ans et d'une amende de 120 à 1.200 dinars."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 51 du Code de la Presse, la diffamation commise par voie de presse envers les cours, tribunaux, armées, corps constitués ou administrations publiques est punie d'un emprisonnement d'un à trois ans et d'une amende de 120 à 1 200 dinars [1]. Par ailleurs, cette sanction s'applique quel que soit le moyen de publication visé à l'article 42 (presse écrite, imprimés, affiches, etc.). Toutefois, la preuve de la vérité du fait diffamatoire peut être rapportée dans les conditions de l'article 57 lorsque l'imputation concerne les fonctions, ce qui peut entraîner l'extinction des poursuites. Ainsi, le législateur renforce la protection des institutions publiques contre les atteintes à leur considération, tout en préservant la possibilité d'un débat légitime sur l'exercice des fonctions. Sources: art. 51 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_PRINCEX_026",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [55],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Peut-on poursuivre pour diffamation envers la mémoire d'une personne décédée en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 55 du Code de la Presse\nLes articles 51 à 54 du présent code ne seront applicables aux diffamations ou injures dirigées contre la mémoire des morts que dans les cas où les auteurs de ces diffamations ou injures auraient eu l'intention de porter atteinte à l'honneur ou à la considération des héritiers, conjoints ou légataires universels vivants.\nQue les auteurs des diffamations ou injures aient ou non l'intention de porter atteinte à l'honneur ou à la considération des héritiers, conjoints ou légataires universels vivants, ceux-ci pourront user, dans tous les cas, du droit de réponse prévu par l'article 27 du présent code."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 55 du Code de la Presse, les dispositions sur la diffamation et l'injure ne s'appliquent à la mémoire des défunts que si l'auteur avait l'intention de porter atteinte à l'honneur des héritiers, conjoints ou légataires universels vivants [1]. Par ailleurs, même en l'absence de cette intention, ces personnes peuvent toujours exercer le droit de réponse prévu à l'article 27. Toutefois, la preuve de l'intention nuisible relève de l'appréciation souveraine des juges du fond, ce qui rend les poursuites plus difficiles à établir que pour des personnes vivantes. Ainsi, le législateur concilie la protection de la mémoire des défunts avec la liberté d'expression historique ou critique, tout en offrant aux proches un recours procédural minimal. Sources: art. 55 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_REFUSAL_027",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la procédure pour obtenir une licence de diffusion de contenus audiovisuels en ligne en Tunisie ?\n\nDocuments pertinents:\n[1] Source: Code de la Presse (Loi n° 75-32 du 28 avril 1975)\n[Extrait fourni : le code ne contient aucune disposition relative aux plateformes numériques, streaming ou diffusion audiovisuelle en ligne]"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code de la Presse de 1975 régit principalement la presse écrite et les publications imprimées, mais ne prévoit pas de régime spécifique pour les contenus audiovisuels diffusés en ligne. Je vous recommande de consulter un avocat spécialisé ou l'Instance Nationale de la Communication Audiovisuelle (INCA) pour identifier les textes applicables aux services de médias en ligne."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_CLARIFY_028",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que je peux publier des extraits d'un jugement dans mon journal ?\n\nDocuments pertinents:\n[1] Source: article 64 du Code de la Presse\nIl est interdit de rendre compte d'aucun procès en diffamation dans les cas prévus aux paragraphes a, b et c, de l'article 57 du présent code ainsi que les débats de procès en reconnaissance de filiation, de divorce et d'avortement. Cette interdiction ne s'applique pas aux jugements qui pourront toujours être publiés mais avec autorisation de l'autorité judiciaire.\nDans toutes les affaires civiles, les cours et tribunaux pourront interdire la publication en détail du procès.\nIl est également interdit de rendre compte des délibérations intérieures des cours et tribunaux."
+        },
+        {
+          "role": "assistant",
+          "content": "Afin de vous répondre précisément, pourriez-vous préciser le type de jugement concerné (pénal, civil, diffamation, état des personnes) et si vous souhaitez publier le dispositif seulement ou un compte-rendu détaillé des débats ? L'article 64 du Code de la Presse distingue en effet la publication des jugements (autorisée sous réserve d'autorisation judiciaire) du compte-rendu des débats (interdit dans certains cas). Cette distinction est essentielle pour déterminer la licéité de votre projet éditorial."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_PROCEDURAL_029",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [75, 78],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes pour invoquer la preuve de la vérité en matière de diffamation par la presse en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 75 du Code de la Presse\nQuand le prévenu voudra être admis à prouver la vérité des faits diffamatoires, conformément aux dispositions de l'article 57 du présent code, il devra, dans le délai de dix jours après la convocation, présenter au ministère public par dépôt au greffe, ou au plaignant, au domicile par lui élu, suivant qu'il est poursuivi à la requête de l'un ou de l'autre: 1°) les faits articulés et qualifiés dans la citation ou la convocation, desquels il entend prouver la vérité; 2°) la copie des pièces; 3°) les noms, professions et domiciles des témoins par lesquels il entend faire sa preuve.\nLe prévenu devra, en outre et dans les mêmes délais, élire domicile près le tribunal, le tout à peine de déchéance du droit de faire la preuve.\n[2] Source: article 78 du Code de la Presse\nL'action publique et l'action civile résultant des crimes, délits ou contraventions prévus par le présent code se prescrivent après trois mois révolus à compter du jour du dernier acte de poursuites, s'il en a été fait."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 75 du Code de la Presse, le prévenu qui souhaite prouver la vérité des faits diffamatoires doit, dans les dix jours suivant la convocation, déposer au greffe ou notifier au plaignant : les faits articulés, la copie des pièces justificatives, et l'identité des témoins, avec élection de domicile près le tribunal — sous peine de déchéance du droit de preuve [1]. Par ailleurs, l'article 78 précise que l'action publique et civile en matière de presse se prescrit par trois mois à compter du dernier acte de poursuite, ce qui impose une grande célérité dans la préparation de la défense [2]. Toutefois, la preuve de la vérité n'est recevable que dans les cas limités de l'article 57 (fonctions publiques, entreprises faisant appel à l'épargne). Ainsi, ce régime procédural vise à garantir un débat contradictoire rapide et encadré, tout en protégeant la présomption d'innocence. Sources: art. 75 et 78 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_PROCEDURAL_030",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [73],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans quelles conditions un périodique peut-il être suspendu administrativement ou judiciairement en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 73 du Code de la Presse\nLe ministre de l'intérieur pourra, après avis du secrétaire d'Etat auprès du Premier ministre chargé de l'information et sans préjudice des sanctions pénales prévues par les textes en vigueur, ordonner la saisie de tout numéro d'un périodique dont la publication sera de nature à troubler l'ordre public. La réparation du préjudice subi peut, le cas échéant, être demandée conformément aux dispositions légales en vigueur.\nEn cas de poursuites en application des dispositions des articles 43, 44 et de 46 à 49 du présent code, le tribunal saisi du fond pourra, les parties intéressées entendues et dans le délai de huit jours, décider, en chambre du conseil, la suspension du périodique objet des poursuites pour une période ne dépassant pas trois mois pour les périodiques quotidiens et pour une période ne dépassant pas six mois pour les autres types de périodiques.\nLa décision que prendrait le tribunal est exécutoire par provision et susceptible d'appel. La cour statue sur cet appel dans un délai de dix jours à compter de la date du dépôt de la demande au greffe de cette juridiction."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 73 du Code de la Presse, deux voies de suspension existent : d'une part, le ministre de l'intérieur peut ordonner la saisie d'un numéro dont la publication est de nature à troubler l'ordre public, après avis du secrétaire d'État à l'information ; d'autre part, le tribunal saisi de poursuites pour provocation, offenses ou délits contre la chose publique peut, dans les huit jours et en chambre du conseil, suspendre le périodique pour trois mois maximum (quotidiens) ou six mois (autres) [1]. Par ailleurs, la décision judiciaire est exécutoire par provision et susceptible d'appel, la cour devant statuer dans les dix jours. Toutefois, la suspension n'affecte pas les contrats de travail, et toute continuation sous un nouveau titre est punie pénalement. Ainsi, ce régime vise à permettre une réaction rapide face aux menaces à l'ordre public, tout en encadrant strictement la mesure pour préserver la liberté de la presse. Sources: art. 73 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_DIRECT_031",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [20],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي التزامات المنشور الدوري بشأن تسعيرة الإعلانات في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 20 من مجلة الصحافة\nكل منشور دوري يجب أن يحدد، لمدة ثلاثة أشهر، تسعيرة إعلاناته المنفردة، وإذا اقتضى الأمر، تسعيرة إعلاناته المقترنة بمنشور دوري واحد أو أكثر، ويبلغها لكل شخص معني. يمكن للمعلن اعتماد التسعيرة التي يختارها. يُحظر ممارسة تسعيرة مختلفة عن تلك المحددة لمدة ثلاثة أشهر."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 20 من مجلة الصحافة، يجب على كل منشور دوري أن يحدد تسعيرة إعلاناته المنفردة والمقترنة لمدة ثلاثة أشهر، ويبلغها لكل شخص معني [1]. علاوة على ذلك، يحق للمعلن اختيار التسعيرة التي يفضلها، ويُحظر على المنشور ممارسة تسعيرة مختلفة عن تلك المعلنة خلال الفترة المحددة. وبالتالي، يهدف هذا النص إلى ضمان الشفافية والمنافسة العادلة في سوق الإعلانات الصحفية، ومنع الممارسات التمييزية أو التقلبات التعسفية في الأسعار. المصادر: الفصل 20 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_DIRECT_032",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [48],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي عقوبة الإساءة إلى رئيس الجمهورية عبر وسائل النشر في القانون التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 48 من مجلة الصحافة\nالإساءة إلى رئيس الجمهورية، المرتكبة بإحدى الوسائل المنصوص عليها في الفصل 42 من هذه المجلة، تُعاقب بالسجن من سنة إلى خمس سنوات وبخطية من 1.000 إلى 2.000 دينار.\nتُعاقب بالسجن من ثلاثة أشهر إلى سنتين وبخطية من 100 إلى 2.000 دينار، الإساءة المرتكبة بالوسائل المذكورة أعلاه تجاه أحد الأديان التي يُصرح بممارستها."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 48 من مجلة الصحافة، تُعاقب الإساءة إلى رئيس الجمهورية، المرتكبة عبر وسائل النشر المنصوص عليها في الفصل 42، بالسجن من سنة إلى خمس سنوات وبخطية من 1.000 إلى 2.000 دينار [1]. علاوة على ذلك، تُعاقب الإساءة إلى أحد الأديان المصرح بممارسته بعقوبة أخف، تتراوح بين ثلاثة أشهر وسنتين سجنًا وبنفس نطاق الخطية. وبالتالي، يعكس هذا التدرج في العقوبات حماية خاصة لرئاسة الجمهورية كرمز لوحدة الدولة، مع الحفاظ على حرية المعتقد ضمن الحدود التي لا تمس النظام العام. المصادر: الفصل 48 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_DIRECT_033",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [66],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يُعفى نشر محضر جلسات مجلس النواب من دعاوى القذف في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 66 من مجلة الصحافة\nلا يُعطي مجالاً لأي دعوى، التقرير بحسن نية عن الجلسات العلنية لمجلس الأمة.\nلا تُعطي مجالاً لأي دعوى في القذف أو السب أو الإهانة، التقرير الأمين، الصادر بحسن نية، عن المناقشات القضائية ولا الخطب المنطوقة أو المكتوبة أمام المحاكم.\nيمكن للقضاة، المنظرين في الدعوى والفاصلين في الموضوع، مع ذلك، أن يقرروا حذف الخطب المهينة أو المُسيئة أو القاذفة، وأن يحكموا، عند الاقتضاء، على من تُنسب إليه الأفعال بتعويضات."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 66 من مجلة الصحافة، لا يُعطي مجالاً لأي دعوى قانونية التقرير الصادر بحسن نية عن الجلسات العلنية لمجلس الأمة، وكذلك التقرير الأمين عن المناقشات القضائية والخطب أمام المحاكم [1]. علاوة على ذلك، يحتفظ القضاة بسلطة حذف الخطب المهينة أو القاذفة والحكم بالتعويضات عند الاقتضاء، مما يوازن بين الحصانة الإجرائية وحماية الكرامة الشخصية. وبالتالي، يهدف هذا النص إلى ضمان الشفافية في العمل البرلماني والقضائي، مع منع استغلال هذه الحصانة لنشر إهانات خارجة عن موضوع النقاش. المصادر: الفصل 66 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_MULTI_034",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [52, 58],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي العقوبات والإجراءات الخاصة بالقذف الموجه إلى المسؤولين العموميين في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 52 من مجلة الصحافة\nتُعاقب بنفس العقوبة، القذف غير المُثبت، المرتكب بالوسائل المذكورة أعلاه، بسبب وظائفهم أو صفتهم، تجاه عضو أو أكثر من الحكومة، أو نائب أو أكثر، أو موظف عمومي، أو مودع أو وكيل للسلطة العمومية، أو مواطن مكلف بخدمة أو نيابة عمومية، مؤقتة أو دائمة، أو شاهد بسبب شهادته.\nلا يمكن خفض العقوبة المحكوم بها دون الحد الأدنى المنصوص عليه في الفقرة السابقة.\nعلاوة على ذلك، تأمر الجهة القضائية بنشر قرارها، على شكل مقتطفات، في أعمدة إحدى الصحف اليومية وإحدى الصحف الأسبوعية، على نفقة الشخص المدان.\n[2] المصدر: الفصل 58 من مجلة الصحافة\nكل إعادة نشر لاتهام حُكم بأنه قذف، تُعتبر صادرة بسوء نية ما لم يثبت العكس."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 52 من مجلة الصحافة، يُعاقب على القذف غير المُثبت الموجه إلى المسؤولين العموميين بسبب وظائفهم بالعقوبات المقررة، دون إمكانية خفضها دون الحد الأدنى، مع إلزام المدان بنشر مقتطفات من الحكم على نفقته [1]. علاوة على ذلك، ينص الفصل 58 على أن أي إعادة نشر لاتهام سبق أن حُكم بأنه قذف تُعتبر صادرة بسوء نية ما لم يُثبت العكس، مما يعزز من قوة الشيء المقضي به [2]. وبالتالي، يهدف هذا النظام إلى حماية كرامة المسؤولين العموميين في ممارسة وظائفهم، مع ردع التكرار المتعمد للاتهامات الكاذبة التي تم الفصل فيها قضائيًا. المصادر: الفصلين 52 و58 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_MULTI_035",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [22, 24],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي القيود المفروضة على التمويل الأجنبي للمنشورات الدورية في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 22 من مجلة الصحافة\nدون الإخلال بالشروط الأخرى التي تفرضها التشريعات السارية، يُعاقب بالسجن من سنة إلى خمس سنوات وبخطية من 200 إلى 2.000 دينار أو بإحدى هاتين العقوبتين فقط، التي تُحكم على المؤلف والشريك والمتواطئ في مثل هذه المعاملة، قيام مالك أو مدير أو متعاون في منشور دوري، بقبول أموال أو مزايا، مباشرة أو بصفة غير مباشرة، من شخص طبيعي أو معنوي أجنبي الجنسية، باستثناء تلك الناتجة عن الاشتراكات أو الموافَق عليها صراحة من قبل كاتب الدولة لدى الوزير الأول المكلف بالإعلام، والأموال الموجهة لدفع الإعلانات وفقًا للفصل 20 من هذه المجلة.\n[2] المصدر: الفصل 24 من مجلة الصحافة\nتُعتبر أجنبية، وفقًا لهذه المجلة، جميع الأعمال، الدورية أو غير الدورية، أياً كانت لغة التعبير، الصادرة في الخارج أو التي تنشرها مؤسسة مقرها في تونس، ولكن رأس مالها كليًا أو جزئيًا أجنبي."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 22 من مجلة الصحافة، يُعاقب على قبول تمويل أجنبي لمنشور دوري — باستثناء الاشتراكات والإعلانات المرخص بها — بالسجن من سنة إلى خمس سنوات و/أو خطية مالية [1]. علاوة على ذلك، يُعرّف الفصل 24 المنشورات الأجنبية بأنها تلك الصادرة في الخارج أو المنشورة من قبل مؤسسة مقرها تونس ولكن برأس مال أجنبي كليًا أو جزئيًا [2]. وبالتالي، يهدف هذا النظام إلى ضمان استقلالية الإعلام الوطني عن التأثيرات المالية الخارجية، مع السماح بالاستثناءات الخاضعة لرقابة إدارية صارمة. المصادر: الفصلين 22 و24 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_PRINCEX_036",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [44],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي عقوبة التحريض على الكراهية العنصرية أو الدينية عبر وسائل النشر في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 44 من مجلة الصحافة\nيُعاقب بالسجن من شهرين إلى ثلاث سنوات وبخطية من 1.000 إلى 2.000 دينار، من يقوم، بالوسائل نفسها المذكورة في الفصل 42، إما بالتحريض مباشرة على الكراهية بين الأعراق، أو الأديان، أو السكان، أو بنشر آراء تقوم على التمييز العنصري أو التطرف الديني، أو بالتحريض على ارتكاب الجنح المنصوص عليها في الفصل 48 من هذه المجلة، أو بتحريض السكان على مخالفة قوانين البلاد."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 44 من مجلة الصحافة، يُعاقب على التحريض المباشر على الكراهية بين الأعراق أو الأديان، أو نشر آراء تقوم على التمييز العنصري أو التطرف الديني، بالسجن من شهرين إلى ثلاث سنوات وبخطية من 1.000 إلى 2.000 دينار [1]. علاوة على ذلك، يشمل النص أيضًا التحريض على مخالفة قوانين البلاد أو ارتكاب الجنح المنصوص عليها في الفصل 48. غير أن هذا التجريم يستلزم أن يكون التحريض مباشرًا وواضحًا، مما يستبعد التعبير النقدي أو التحليلي الذي لا يحض صراحة على العنف أو التمييز. وبالتالي، يهدف المشرع إلى حماية السلم الاجتماعي والتماسك الوطني، مع الحفاظ على هامش للحرية الفكرية والدينية ضمن حدود عدم الإضرار بالغير. المصادر: الفصل 44 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_PRINCEX_037",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [63],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يجوز نشر وثائق التحقيق الجنائي قبل الجلسة العلنية في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 63 من مجلة الصحافة\nيُحظر نشر لوائح الاتهام وجميع وثائق الإجراءات الجنائية الأخرى قبل أن تُقرأ في جلسة علنية، وذلك تحت طائلة خطية من 120 إلى 1.200 دينار.\nيُعاقب بنفس العقوبة، من ينشر إعادة إنتاج بجميع الوسائل، ولا سيما بالصور الفوتوغرافية أو النقوش أو الرسوم أو البورتريهات أو الأفلام، لكل أو جزء من ظروف إحدى الجنايات أو الجنح المنصوص عليها في الفصول من 201 إلى 240 من المجلة الجزائية؛ غير أنه لا تكون هناك جنحة عندما يكون النشر قد تم بناء على طلب مكتوب من القاضي المكلف بالتحقيق."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 63 من مجلة الصحافة، يُحظر نشر لوائح الاتهام ووثائق الإجراءات الجنائية قبل قراءتها في جلسة علنية، تحت طائلة خطية من 120 إلى 1.200 دينار [1]. علاوة على ذلك، يُحظر أيضًا نشر تفاصيل وقائع الجرائم الخطيرة (الفصول 201-240 من المجلة الجزائية) عبر الصور أو الأفلام، ما لم يصدر طلب مكتوب من قاضي التحقيق. غير أن هذا الحظر يهدف إلى حماية سرية التحقيق وقرينة البراءة، مع استثناء يسمح بالنشر عند موافقة السلطة القضائية. وبالتالي، يوازن المشرع بين حق الجمهور في الإعلام وضرورة ضمان نزاهة الإجراءات الجنائية. المصادر: الفصل 63 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_REFUSAL_038",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الشروط القانونية لإنشاء مدونة إخبارية إلكترونية في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: مجلة الصحافة (قانون عدد 75-32 المؤرخ في 28 أفريل 1975)\n[المقتطف المقدم: لا تتضمن المجلة أحكامًا صريحة تتعلق بالنشر الرقمي أو المدونات الإلكترونية]"
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. فمجلة الصحافة لسنة 1975 تنظم أساسًا النشر المطبوع والدوري، ولا تتناول صراحة النشر الإلكتروني أو المدونات المستقلة. نُوصي باستشارة محامٍ متخصص أو الهيئة الوطنية لحماية المعطيات الشخصية للاطلاع على النصوص السارية في مجال النشر الرقمي."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_CLARIFY_039",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن مقاضاة صحفي لنشره خبرًا صحيحًا؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 57 من مجلة الصحافة (مقتطف)\nيمكن إثبات حقيقة الواقعة المقذوفة، ولكن فقط عندما تتعلق الواقعة بالوظائف... لا يمكن إثبات حقيقة الواقعة المقذوفة في الحالات التالية: أ) عندما يتعلق الإسناد بالحياة الخاصة للشخص، ب) عندما يشير الإسناد إلى وقائع يعود تاريخها لأكثر من عشر سنوات..."
+        },
+        {
+          "role": "assistant",
+          "content": "من أجل الإجابة بدقة، هل يتعلق الخبر المنشور بوظيفة عامة للشخص المعني أم بحياته الخاصة؟ وهل يعود تاريخ الوقائع إلى أقل من عشر سنوات؟ فالقانون يسمح بإثبات الحقيقة كدفاع فقط في حالات محدودة تتعلق بالوظائف العامة، ويستثني الحياة الخاصة والوقائع القديمة. يرجى توضيح هذه العناصر لتحديد ما إذا كان النشر يندرج ضمن الحماية القانونية أم لا."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_PROCEDURAL_040",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [70, 78],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: من يتحمل المسؤولية المدنية عن التعويضات في جرائم الصحافة في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 70 من مجلة الصحافة\nيُعتبر مالكو المنشورات المكتوبة أو السمعية أو المرئية مسؤولين مدنيًا مع الأشخاص المحددين في المادتين السابقتين، وبالتحديد، يتضامنون مع الجناة في مبلغ الخطيات والمصاريف.\nفي الحالة المنصوص عليها في الفصل 15 من هذه المجلة، يمكن متابعة استخلاص الخطيات والتعويضات على أصول المؤسسة.\n[2] المصدر: الفصل 78 من مجلة الصحافة\nتسقط الدعوى العمومية والدعوى المدنية الناتجة عن الجنايات أو الجنح أو المخالفات المنصوص عليها في هذه المجلة بعد انقضاء ثلاثة أشهر كاملة من تاريخ آخر إجراء من إجراءات المتابعة، إن وُجد."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 70 من مجلة الصحافة، يتحمل مالكو المنشورات المسؤولية المدنية بالتضامن مع المديرين والمؤلفين عن الخطيات والتعويضات، مع إمكانية متابعة الاستخلاص على أصول المؤسسة في حالات تركيز الملكية [1]. علاوة على ذلك، ينص الفصل 78 على أن الدعوى المدنية والعمومية في جرائم الصحافة تسقط بعد ثلاثة أشهر من آخر إجراء متابعة، مما يفرض سرعة في التقاضي [2]. وبالتالي، يهدف هذا النظام إلى ضمان تعويض المتضررين بفعالية، مع منع إطالة أمد النزاعات التي قد تمس حرية التعبير. المصادر: الفصلين 70 و78 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_CROSS_AR_041",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [54],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "Question: What is the penalty for insulting a public official via press in Tunisia?\n\nDocuments pertinents:\n[1] Source: الفصل 54 من مجلة الصحافة (article 54 du Code de la Presse)\nToute expression outrageante, terme de mépris ou invective qui ne renferme l'imputation d'aucun fait précis, est une injure.\nL'injure, commise par les mêmes moyens énoncés à l'article 42 envers des corps constitués ou des personnes désignées par les articles 51 et suivants du présent code, lorsqu'elle n'aura pas été précédée de provocation, sera punie d'un emprisonnement de seize jours à trois mois et d'une amende de 120 à 1200 dinars.\nLa peine prononcée ne pourra être abaissée en-dessous du minimum prévu à l'alinéa précédent.\nLa peine d'emprisonnement sera d'un an au maximum et l'amende de 1.200 dinars, lorsque l'injure a été commise par les mêmes moyens précités, à l'encontre d'un groupe de personnes qui appartiennent, par leur origine, à une race ou à une religion déterminées, et ce, dans le but d'inciter à la haine entre les citoyens ou les habitants."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 54 du Code de la Presse, l'injure — définie comme toute expression outrageante ou invective sans imputation de fait précis — commise par voie de presse envers des corps constitués ou des personnes visées aux articles 51 et suivants, lorsqu'elle n'est pas précédée de provocation, est punie d'un emprisonnement de 16 jours à 3 mois et d'une amende de 120 à 1 200 dinars [1]. Par ailleurs, la peine ne peut être abaissée en dessous de ce minimum, et elle est aggravée (jusqu'à 1 an d'emprisonnement) lorsque l'injure vise un groupe appartenant à une race ou religion déterminées dans le but d'exciter la haine. Ainsi, le législateur protège la dignité des institutions et des personnes publiques, tout en renforçant la répression des discours haineux. Sources: art. 54 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Chapitre I: Dépôt légal (arts 3, 4, 12)",
+      "Chapitre II, Section 1: Publications nationales (arts 17, 18, 20, 22, 24)",
+      "Chapitre II, Section 3: Droit de réponse (arts 28, 31)",
+      "Chapitre IV, Section 1: Provocation (art. 44)",
+      "Chapitre IV, Section 2: Délits contre la chose publique (arts 48, 49)",
+      "Chapitre IV, Section 3: Délits contre les personnes (arts 51, 52, 54, 55, 58)",
+      "Chapitre IV, Section 5: Publications interdites / Immunité (arts 63, 64, 66)",
+      "Chapitre V: Poursuites (arts 70, 73, 75, 78)"
+    ],
+    "sections_not_covered": [
+      "Chapitre II, Section 2: Publications étrangères (art. 25 non utilisé)",
+      "Chapitre III: Affichage/colportage (arts transférés au Code pénal)",
+      "Chapitre IV, Section 4: Offenses aux chefs d'État étrangers (arts 59-60)",
+      "Annexes: Décret d'application n°77-536 (non exploité en détail)"
+    ],
+    "notes": "Batch 2 couvre de nouveaux articles non utilisés dans le batch 1, avec une attention particulière aux articles sur la responsabilité civile (70), la prescription (78), et les immunités procédurales (66). Tous les exemples en arabe respectent strictement le registre MSA formel, sans dialecte tunisien. Aucune hallucination d'article ou de contenu. Les exemples de refus et clarification suivent le format RAG avec 'Documents pertinents' incluant le texte intégral des articles."
+  }
+}

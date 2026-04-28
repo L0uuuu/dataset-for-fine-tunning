@@ -1,0 +1,445 @@
+{
+  "batch_id": "batch_CODES_DOUANES_005_20260419",
+  "source": "Code des Douanes de Tunisie (Titre V – Opérations de dédouanement)",
+  "articles_covered": [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136],
+  "articles_to_avoid_next_batch": [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136],
+  "examples": [
+    {
+      "example_id": "douanes_fr_direct_061",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [99],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Toutes les marchandises importées ou exportées doivent-elles obligatoirement faire l'objet d'une déclaration en détail ?\n\nDocuments pertinents:\n[1] Source: article 99 du Code des Douanes\n1- Toutes les marchandises importées ou exportées doivent faire l'objet d'une déclaration en détail leur assignant un régime douanier. 2- L'exemption des droits et taxes soit à l'entrée, soit à la sortie, ne dispense pas de l'obligation visée au paragraphe premier du présent article."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 99 du Code des Douanes, toutes les marchandises importées ou exportées doivent obligatoirement faire l'objet d'une déclaration en détail leur assignant un régime douanier. En outre, même si les marchandises bénéficient d'une exemption de droits et taxes à l'entrée ou à la sortie, cette exemption ne dispense pas de l'obligation de déclaration. Ainsi, la déclaration en détail est une formalité incontournable quel que soit le traitement fiscal des biens. Cette règle vise à assurer la traçabilité et le contrôle de toutes les opérations commerciales franchissant la frontière. Sources : art. 99 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_direct_062",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [102],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les conditions pour obtenir l'agrément de commissionnaire en douane en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 102 du Code des Douanes (extrait)\n2- L'agrément de commissionnaire en douane est accordé suite à une demande de l'intéressé et selon les conditions suivantes: a) Avoir la nationalité tunisienne; b) jouir de tous ses droits civils; c) être titulaire au moins d'une licence ou d'un diplôme équivalent dans les spécialités fixées par arrêté du ministre des finances; d) justifier d'une expérience de deux ans au minimum en matière douanière; e) réussir un examen d'aptitude professionnelle organisé par la direction générale des douanes. 3- Cet agrément est accordé par décision du ministre des finances sur proposition du directeur général des douanes et après avis d'un comité. 4- L'agrément est accordé pour une durée indéterminée, mais peut être retiré à titre temporaire ou définitif notamment en cas d'inexécution des engagements ou de condamnation pénale définitive."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 102 du Code des Douanes énumère plusieurs conditions cumulatives pour l'obtention de l'agrément de commissionnaire en douane : nationalité tunisienne, jouissance des droits civils, licence ou diplôme équivalent dans des spécialités fixées par arrêté, expérience minimale de deux ans en matière douanière, et réussite à un examen d'aptitude professionnelle. L'agrément est accordé par décision du ministre des finances après avis d'un comité, pour une durée indéterminée. Toutefois, il peut être retiré temporairement ou définitivement, notamment en cas d'inexécution des engagements ou de condamnation pénale définitive. Ces exigences visent à garantir la compétence et l'intégrité des professionnels du dédouanement. Sources : art. 102 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_multi_063",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [111, 115],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les exigences de forme et d'enregistrement des déclarations en détail ?\n\nDocuments pertinents:\n[1] Source: article 111 du Code des Douanes\n1- Les déclarations en détail doivent être faites par écrit ou par moyen informatique ou électronique selon le procédé prévu par la législation. 2- Elles doivent contenir toutes les indications nécessaires pour l'application des mesures douanières et pour l'établissement des statistiques. 3- Elles doivent être signées par le déclarant. 4- La déclaration en détail et les documents qui y sont annexés constituent un titre unique et indissociable. 5- Le ministre des finances détermine la forme, les énonciations et les documents annexés. Il peut autoriser le remplacement de la déclaration écrite par une déclaration verbale dans certains cas.\n\n[2] Source: article 115 du Code des Douanes\n1- Les déclarations en détail reconnues recevables par les services des douanes sont immédiatement enregistrées par eux. 2- Sont considérées comme irrecevables les déclarations irrégulières dans la forme ou qui ne sont pas accompagnées des documents dont la production est obligatoire. 3- Lorsqu'il existe une contradiction entre une mention en lettres ou en chiffres, la mention non conforme à la terminologie douanière est nulle. Lorsque l'espèce est déclarée par référence aux éléments de codification, les mentions en lettres contredisant ces éléments sont nulles. En tout autre cas, sont nulles les mentions en chiffres contredisant les mentions en lettres."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 111 impose que les déclarations en détail soient faites par écrit ou par voie informatique/électronique, signées par le déclarant, et contiennent toutes les indications nécessaires aux mesures douanières et aux statistiques. La déclaration et ses annexes forment un titre unique et indissociable. Par ailleurs, l'article 115 prévoit que les déclarations recevables sont enregistrées immédiatement, tandis que celles irrégulières dans la forme ou sans les documents obligatoires sont irrecevables. En cas de contradiction, la règle est la suivante : les mentions non conformes à la terminologie douanière sont nulles ; si l'espèce est déclarée par codification, les mentions en lettres contradictoires sont nulles ; dans les autres cas, les mentions en chiffres contredisant les lettres sont nulles. Ces règles garantissent l'uniformité et la fiabilité des données déclaratives. Sources : art. 111 et 115 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_principle_exception_064",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [116, 125],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: À quelle date les droits et taxes sont-ils appliqués : celle du dépôt de la déclaration ou celle de l'arrivée des marchandises ?\n\nDocuments pertinents:\n[1] Source: article 116 du Code des Douanes\nPour l'application des dispositions du présent code et notamment en ce qui concerne les droits et taxes, les prohibitions et les autres mesures, les déclarations déposées avant l'arrivée des marchandises ne deviennent effectives, y compris les suites engendrées par leur enregistrement, qu'à partir de la date de constatation de l'arrivée des marchandises, et ce conformément aux conditions et délais prévus au paragraphe 3 de l'article 100 ci-dessus et sous réserve que lesdites déclarations répondent aux conditions requises à cette date conformément aux dispositions de l'article 111 du présent code.\n\n[2] Source: article 125 du Code des Douanes\nSous réserve des dispositions des articles 12 et 116 du présent code, les droits et taxes à percevoir sont ceux qui sont en vigueur à la date d'enregistrement de la déclaration en détail."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe général énoncé à l'article 125 est que les droits et taxes à percevoir sont ceux en vigueur à la date d'enregistrement de la déclaration en détail. Toutefois, l'article 116 prévoit une exception importante : lorsque la déclaration est déposée avant l'arrivée des marchandises, elle ne devient effective qu'à la date de constatation de l'arrivée des marchandises. Ainsi, si les taux des droits changent entre le dépôt anticipé et l'arrivée, ce sont les taux en vigueur à la date d'arrivée (et non de dépôt) qui s'appliquent, sous réserve que la déclaration réponde aux conditions de l'article 111 à cette date. Cette règle évite les abus liés au dépôt anticipé pour figer des taux avantageux. Sources : art. 116 et 125 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_refusal_065",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le délai de prescription pour le recouvrement des droits de douane impayés ?\n\nDocuments pertinents:\n[1] Source: Les articles 99 à 136 du Code des Douanes fournis ne contiennent aucune disposition relative à la prescription en matière de recouvrement des droits."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Titre V du Code des Douanes traite des opérations de dédouanement (déclaration, vérification, liquidation, paiement, enlèvement) mais n'aborde pas le délai de prescription pour le recouvrement des droits impayés. Je vous recommande de consulter un avocat spécialisé en droit douanier et de vous référer aux dispositions du code de procédure fiscale ou aux articles relatifs à la prescription dans les titres ultérieurs du Code des Douanes (notamment le titre XVI sur le contentieux)."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_clarification_066",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [114, 119],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Puis-je examiner les marchandises avant de les déclarer, et que se passe-t-il si je conteste le résultat de la vérification partielle ?\n\nDocuments pertinents:\n[1] Source: article 114 du Code des Douanes\n1- Les personnes habilitées à déposer les déclarations en détail, lorsqu'elles ne sont pas en possession des éléments nécessaires, peuvent être autorisées à examiner les marchandises avant déclaration et à prélever des échantillons. Elles doivent présenter une « demande d'un permis d'échantillonner et / ou d'examiner des marchandises importées » qui ne dispense pas de l'obligation de la déclaration en détail. 2- Toute manipulation susceptible de modifier la présentation des marchandises est interdite.\n\n[2] Source: article 119 du Code des Douanes\n1- Après enregistrement, les services des douanes procèdent à la vérification des énonciations et des documents, ainsi qu'à la vérification intégrale ou partielle des marchandises. 2- En cas de contestation, le déclarant a le droit de récuser les résultats de la vérification partielle et de demander la vérification intégrale des marchandises."
+        },
+        {
+          "role": "assistant",
+          "content": "Oui, vous pouvez demander une autorisation pour examiner les marchandises avant déclaration via un « permis d'échantillonner et/ou d'examiner » (article 114), mais cela ne vous dispense pas de l'obligation de déclaration en détail. Concernant votre seconde question : si vous contestez les résultats d'une vérification partielle après enregistrement, l'article 119 vous donne le droit de récuser ces résultats et de demander une vérification intégrale. Pour vous répondre précisément, êtes-vous déjà au stade de la vérification partielle avec un désaccord sur l'espèce, l'origine ou la valeur des marchandises ? Veuillez préciser le type de contestation."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_procedural_067",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [127, 128, 130],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les différents modes de paiement des droits et taxes de douane prévus par le code ?\n\nDocuments pertinents:\n[1] Source: article 127 du Code des Douanes\n1- Les droits et taxes liquidés par les services des douanes sont payables au comptant. 2- Les agents chargés de la perception sont tenus d'en donner quittance. 3- Les registres de paiement peuvent être constitués par des feuillets établis au moyen de procédés automatiques ou informatiques.\n\n[2] Source: article 128 du Code des Douanes\nLes usagers du système intégré de traitement automatisé de formalités de commerce extérieur peuvent payer les droits et taxes dus à l'importation ou à l'exportation ainsi que les amendes y rattachées, par des moyens électroniques fiables, conformément à la législation sur les échanges électroniques. Le paiement électronique dispense de toute autre formalité de même objet. Les modalités sont fixées par décret.\n\n[3] Source: article 130 du Code des Douanes\n1- Les redevables peuvent être admis à présenter des obligations dûment cautionnées à quatre-vingt-dix jours d'échéance, pour le paiement des droits et taxes. 2- Ces obligations ne sont pas admises lorsque la somme à payer est inférieure à 5000 dinars. 3- Elles donnent lieu à un intérêt de retard de 6% et à une remise spéciale de 0,3%. 5- Les droits dus par les services de l'État peuvent être payés par des obligations administratives."
+        },
+        {
+          "role": "assistant",
+          "content": "Le Code des Douanes prévoit plusieurs modes de paiement des droits et taxes. Premièrement, le paiement au comptant est la règle générale (article 127). Deuxièmement, le paiement électronique est autorisé pour les usagers du système automatisé, avec dispense d'autres formalités (article 128). Troisièmement, le paiement à crédit est possible sous forme d'obligations cautionnées à 90 jours d'échéance, mais uniquement pour les sommes égales ou supérieures à 5000 dinars, avec un intérêt de retard de 6% et une remise spéciale de 0,3% (article 130). En outre, les services de l'État peuvent utiliser des obligations administratives. Ces différents modes visent à concilier la perception rapide des recettes avec les besoins de trésorerie des opérateurs. Sources : art. 127, 128 et 130 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_068",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [100],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أين ومتى يجب إيداع التصريح بالتفصيل؟ وهل يمكن إيداعه قبل وصول البضائع؟\n\nDocuments pertinents:\n[1] Source: الفصل 100 من مجلة الديوانة\n1- يجب إيداع التصريح بالتفصيل في مكتب ديوانة مفتوح للعملية الجمركية المعنية. 2- يجب تقديمه عند وصول البضائع إلى مكتب الديوانة أو بعده. غير أنه يمكن للمدير العام للديوانة أن يأذن، بالشروط التي يحددها، بإيداع التصاريح بالتفصيل قبل وصول البضائع إلى المكتب أو إلى الأماكن المعينة من طرف إدارة الديوانة، خاصة في حالة المنتوجات القابلة للاشتعال أو القابلة للتلف أو الخطيرة أو الثقيلة أو الضخمة أو البضائع المستوردة مباشرة من قبل الإدارات أو المؤسسات المستفيدة من إمكانية دفع حقوق الديوانة بالتزامات إدارية. وفي كل الأحوال، تعتبر التصاريح المودعة قبل وصول البضائع لاغية وملغاة بحكم القانون في حالة تغير أسعار الحقوق والضرائب."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 100 من مجلة الديوانة، يجب إيداع التصريح بالتفصيل في مكتب ديوانة مفتوح للعملية المعنية، ويقدم عند وصول البضائع أو بعده. غير أنه استثناءً، يمكن للمدير العام للديوانة الإذن بإيداع التصريح قبل وصول البضائع، وذلك لبعض الحالات الخاصة (منتوجات خطرة أو قابلة للتلف أو ضخمة، أو بضائع الإدارات العمومية). ولكن إذا تغيرت أسعار الحقوق والضرائب قبل الوصول، يعتبر التصريح المسبق لاغياً بحكم القانون. وتهدف هذه المرونة إلى تسهيل إجراءات بعض البضائع مع الحفاظ على تطبيق التعريفة الجمركية الفعلية وقت الاستيراد. المصادر: الفصل 100 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_069",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [118],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي إجراءات التخليص الجمركي المبسطة وكيف يتم منحها؟\n\nDocuments pertinents:\n[1] Source: الفصل 118 من مجلة الديوانة\n1- يمكن لخدمات الديوانة منح إجراءات تخليص جمركي مبسطة لبعض الأشخاص الذين يمارسون في قطاعات اقتصادية محددة أو لأنواع معينة من عمليات الاستيراد أو التصدير. 2- تأخذ الإجراءات المبسطة شكل تصاريح أولية تقديرية أو مبسطة أو إجمالية. 3- يتم تسوية التصريح الأولي بتصريح تكميلي يقدم لاحقاً. 4- يمكن أن يكون التصريح التكميلي إجمالياً أو دورياً أو تلخيصياً. 5- تشكل بيانات التصاريح الأولية مع بيانات التصاريح التكميلية وثيقة واحدة غير قابلة للتجزئة تسري من تاريخ تسجيل التصاريح الأولية. 6- يمنح الاستفادة من إحدى الإجراءات المبسطة بمقتضى اتفاقية تبرم بين خدمات الديوانة والشخص المعني. 7- لا يمكن رفع البضائع وفق الإجراءات المبسطة إذا لم تتوفر شروط الفصل 132."
+        },
+        {
+          "role": "assistant",
+          "content": "ينص الفصل 118 من مجلة الديوانة على إمكانية منح إجراءات تخليص جمركي مبسطة لقطاعات اقتصادية محددة أو عمليات معينة. وتأخذ هذه الإجراءات شكل تصاريح أولية (تقديرية أو مبسطة أو إجمالية) يتم تسويتها لاحقاً بتصريح تكميلي إجمالي أو دوري أو تلخيصي. وتمنح هذه الإجراءات بمقتضى اتفاقية بين الديوانة والشخص المعني. غير أنه لا يمكن رفع البضائع وفق هذه الإجراءات إلا إذا استوفيت شروط الفصل 132. وتهدف هذه التبسيطات إلى تسريع حركة التجارة مع الحفاظ على الرقابة الجمركية. المصادر: الفصل 118 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_multi_070",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [119, 120, 124],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم المراقبة الوثائقية والمعاينة المادية للبضائع، وهل يمكن إعادة مراجعة التصريح بعد الإفراج؟\n\nDocuments pertinents:\n[1] Source: الفصل 119 من مجلة الديوانة\n1- بعد تسجيل التصريح، تشرع خدمات الديوانة في: أ) التحقق من بيانات التصريح والوثائق المرفقة، ويمكنها طلب وثائق أخرى؛ ب) المعاينة الكلية أو الجزئية للبضائع وأخذ عينات. 2- في حالة نزاع، يحق للمصرح رفض نتائج المعاينة الجزئية وطلب المعاينة الكلية.\n\n[2] Source: الفصل 120 من مجلة الديوانة (مقتطفات)\n1- تتم معاينة البضائع في مكاتب الديوانة أو المستودعات أو المناطق أو الأماكن المخصصة لذلك، خلال الساعات القانونية. غير أنه يمكن للديوانة الترخيص بالمعاينة في أماكن أو أوقات أخرى على نفقة المصرح. 2- النقل، التفريغ، إعادة التعبئة على نفقة ومسؤولية المصرح.\n\n[3] Source: الفصل 124 من مجلة الديوانة\nيمكن لخدمات الديوانة، بعد الإفراج عن البضائع، إعادة مراجعة التصاريح والتحكم في الوثائق التجارية أو فحص البضائع إذا كان لا يزال بالإمكان تقديمها. ويمكن أن يتم هذا المراقبة لدى المصرح أو أي شخص ذي علاقة. وإذا تبين أن بيانات غير صحيحة أو ناقصة، تستطيع الديوانة استخلاص الحقوق والضرائب بناءً على العناصر الجديدة."
+        },
+        {
+          "role": "assistant",
+          "content": "تتم المراقبة الوثائقية والمعاينة المادية وفقاً للفصل 119 بعد تسجيل التصريح، حيث تتحقق الديوانة من البيانات وتجري معاينة كلية أو جزئية مع إمكانية أخذ عينات. ويحق للمصرح في حالة النزاع رفض المعاينة الجزئية وطلب معاينة كلية. ويحدد الفصل 120 مكان وزمان المعاينة (مكاتب الديوانة، المستودعات، الساعات القانونية) مع إمكانية نقلها إلى أماكن أو أوقات أخرى على نفقة المصرح. أما بخصوص المراقبة بعد الإفراج، فيجيز الفصل 124 للديوانة إعادة مراجعة التصاريح والوثائق وحتى فحص البضائع إذا أمكن. وإذا اكتشفت بيانات غير صحيحة أو ناقصة، تستخلص الحقوق والضرائب على أساس العناصر الجديدة. وتهدف هذه الآليات إلى ضمان دقة التصاريح مع إمكانية التصحيح حتى بعد الإفراج. المصادر: الفصول 119 و120 و124 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_principle_exception_071",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [117, 132],
+      "confidence_flag": "L'article 117 n'existe pas dans le PDF (le texte passe de 116 à 118). J'utilise l'article 132 comme exception au principe de paiement avant enlèvement.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يمكن رفع البضائع قبل دفع الحقوق والضرائب؟\n\nDocuments pertinents:\n[1] Source: الفصل 131 من مجلة الديوانة\n1- لا يمكن سحب أي بضاعة من مكاتب الديوانة أو الأماكن المعينة إذا لم تكن الحقوق والضرائب قد دفعت أو ضمنت مسبقاً. 2- لا يمكن رفع البضائع بدون ترخيص من خدمة الديوانة. 3- بمجرد تسليم هذا الترخيص، يجب رفع البضائع.\n\n[2] Source: الفصل 132 من مجلة الديوانة\n1- يمكن لقباضي الديوانة ترك رفع البضائع فوراً عند انتهاء المعاينات وقبل تسييل الحقوق والضرائب، مقابل إخضاع مضمون بكفالة وإلزام الدافع بدفع مبلغ إضافي خلال أجل 15 يوماً. 2- يحدد بقرار من وزير المالية نسبة المبلغ الإضافي وتوزيعه."
+        },
+        {
+          "role": "assistant",
+          "content": "القاعدة الأساسية بمقتضى الفصل 131 هي أنه لا يمكن رفع البضائع (سحبها) قبل دفع أو ضمان الحقوق والضرائب مسبقاً، ولا بد من ترخيص من خدمة الديوانة. غير أن الفصل 132 ينص على استثناء هام: يمكن لقباضي الديوانة الترخيص برفع البضائع فور انتهاء المعاينات وقبل تسييل الحقوق، وذلك مقابل إخضاع مضمون بكفالة والتزام بدفع مبلغ إضافي خلال 15 يوماً. وهذه الآلية تسمى \"ائتمان الرفع\" (crédit d'enlèvement)، وتهدف إلى تسريع الإجراءات للمتعاملين الموثوقين مع ضمان حقوق الخزينة عبر الكفالة. المصادر: الفصلين 131 و132 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_refusal_072",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم الطعن في قرار رفض التخليص الجمركي أمام القضاء؟\n\nDocuments pertinents:\n[1] Source: لا تتضمن الوثائق المقدمة (الفصول 99 إلى 136) أي إجراءات للطعن القضائي أو آليات التقاضي. الفصل 122 يذكر لجنة التوفيق والخبرة الجمركية ولكنه لا يتطرق إلى الطعن أمام القضاء."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن هذا السؤال. الباب الخامس من مجلة الديوانة يتناول عمليات التخليص (التصريح، المراقبة، التسديد، الرفع) ولكنه لا يصف إجراءات الطعن القضائي في قرارات الرفض. أنصحكم باستشارة محامٍ متخصص في القانون الجمركي، والرجوع إلى الباب السادس عشر من مجلة الديوانة (المتعلق بالمنازعات) وإلى قانون المرافعات المدنية والتجارية."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_clarification_073",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [103, 107],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يمكن لشركة غير مختصة في التخليص الجمركي أن تقدم تصاريح لحساب الغير دون ترخيص؟\n\nDocuments pertinents:\n[1] Source: الفصل 103 من مجلة الديوانة\n1- كل شخص لا يمارس مهنة وسيط ديوانة (commissionnaire en douane) ولكنه يرغب، بمناسبة صناعته أو تجارته، في إيداع تصاريح بالتفصيل لحساب الغير، يجب عليه الحصول على ترخيص بتخليص البضائع. 2- يمنح هذا الترخيص بصفة وقتية وقابلة للسحب، وذلك لعمليات تتعلق ببضائع محددة.\n\n[2] Source: الفصل 107 من مجلة الديوانة\n1- كل شخص طبيعي أو معنوي ينجز لحساب الغير عمليات لدى الديوانة، يجب عليه تسجيلها في سجلات سنوية وفق الكيفيات المحددة بقرار من وزير المالية. 2- كما يلتزم بحفظ هذه السجلات وكذلك المراسلات والوثائق المتعلقة بهذه العمليات لمدة ثلاث سنوات من تاريخ تسجيل التصاريح الجمركية."
+        },
+        {
+          "role": "assistant",
+          "content": "لا، لا يمكن القيام بذلك بدون ترخيص. الفصل 103 يفرض على من لا يمارس مهنة وسيط ديوانة والراغب في إيداع تصاريح لحساب الغير (بمناسبة صناعته أو تجارته) أن يحصل على ترخيص بتخليص البضائع، وهو ترخيص وقتية وقابل للسحب ويقتصر على بضائع محددة. لتحديد ما إذا كان نشاطك التجاري يسمح لك بالاستفادة من هذا الترخيص المؤقت، يرجى توضيح طبيعة البضائع التي تريد تخليصها وهل تقوم بذلك بشكل عرضي أم منتظم. كما يلزمك بموجب الفصل 107 تسجيل العمليات في سجلات سنوية وحفظ الوثائق ثلاث سنوات."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_procedural_074",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [133, 134, 135, 136],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الإجراءات الواجب اتباعها لتصدير البضائع عن طريق البحر وعن طريق الجو؟\n\nDocuments pertinents:\n[1] Source: الفصل 133 من مجلة الديوانة\n1- بعد إتمام الإجراءات الجمركية، يجب على البضائع المعدة للتصدير عن طريق البحر أو الجو أن توضع فوراً على متن السفن أو الطائرات. 2- تلك التي تصدر عن طريق البر يجب توجيهها فوراً إلى الخارج عبر الطريق الأقصر. 3- استثناء، يمكن إيداعها في مستودع أو منطقة تصدير.\n\n[2] Source: الفصل 134 من مجلة الديوانة\nيخضع تحميل وإعادة شحن البضائع المعدة للتصدير لنفس أحكام: أ) الفصلين 70 و71 إذا كان التصدير بحرياً؛ ب) الفصل 71 إذا كان التصدير جوياً.\n\n[3] Source: الفصل 135 من مجلة الديوانة (تصدير بحري)\nيجب على قبطان السفينة أو ممثله القانوني قبل مغادرة الميناء: 1) تقديم بيان البضائع المشحونة للمصادقة (ne varietur) مع سندات الشحن؛ 2) تسليم نسخة من هذا البيان.\n\n[4] Source: الفصل 136 من مجلة الديوانة (تصدير جوي)\n1- لا يمكن للطائرات المغادرة إلا من مطارات مجهزة بمكتب ديوانة. 2- يجب على قائد الطائرة أو ممثله: أ) تقديم بيان البضائع المشحونة للمصادقة؛ ب) تسليم نسخة. 3- تسري أحكام الفصول 75 فقرة 1، 76، 77 فقرة 1، 78 على الطائرات وشحناتها."
+        },
+        {
+          "role": "assistant",
+          "content": "تختلف إجراءات التصدير حسب وسيلة النقل. أولاً، بعد الإجراءات الجمركية، يجب وضع البضائع فوراً على متن السفن أو الطائرات (تصدير بحري أو جوي) أو توجيهها فوراً إلى الخارج عبر الطريق الأقصر (تصدير بري)، مع إمكانية استثنائية إيداعها مؤقتاً في مستودع تصدير (الفصل 133). ثانياً، يخضع التحميل والتحميل لنفس أحكام التفريغ: للبحر أحكام الفصلين 70 و71، وللجو أحكام الفصل 71 (الفصل 134). ثالثاً، قبل مغادرة السفينة، يقدم قبطانها بيان البضائع للمصادقة ونسخة منه (الفصل 135). رابعاً، للطائرات: لا تقلع إلا من مطار بمكتب ديوانة، ويقدم قائدها بيان البضائع للمصادقة ونسخة، وتطبق عليها أحكام الفصول المتعلقة بالمسارات الجوية والمانيفست ومنع إلقاء البضائع (الفصل 136). هذه الإجراءات المتسلسلة تضمن مراقبة الصادرات منذ التصريح حتى المغادرة. المصادر: الفصول 133-136 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_cross_fr_ar_075",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [101],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles personnes sont habilitées à déclarer les marchandises en détail, et qui est considéré comme « propriétaire » ?\nQuestion in French, retrieved article in Arabic.\n\nDocuments pertinents:\n[1] Source: الفصل 101 من مجلة الديوانة\nيجب التصريح بالتفصيل عن البضائع المستوردة أو المصدرة من قبل مالكيها أو من قبل الأشخاص أو المصالح الحاصلة على اعتماد وسيط ديوانة أو ترخيص بالتخليص وفق شروط المواد 102 إلى 107. يجب على مالك البضائع إثبات صفته بتقديم الوثائق التجارية التي تثبت أن الشراء أو البيع تم باسمه أو بأمره. بموجب توكيل، يمكن للمالك تفويض وكيل حصري للتصريح باسمه. يعتبر مالكين: الناقلون، الحائزون، المسافرون، وسكان الحدود فيما يتعلق بالبضائع والأشياء والمواد التي ينقلونها أو يحوزونها."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 101 du Code des Douanes, les marchandises doivent être déclarées en détail par leurs propriétaires ou par les personnes ou services ayant obtenu l'agrément de commissionnaire en douane ou l'autorisation de dédouaner. Le propriétaire doit justifier sa qualité par des documents commerciaux prouvant que l'achat ou la vente a été effectué en son nom ou sur son ordre. Il peut déléguer un mandataire exclusif par procuration. Sont considérés comme propriétaires : les transporteurs, les détenteurs, les voyageurs et les frontaliers, pour les marchandises qu'ils transportent ou détiennent. Cette définition large permet de responsabiliser toute personne ayant la garde matérielle des biens. Sources : art. 101 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_cross_ar_fr_076",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [122, 123],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم تسوية الخلافات بين المصرح والإدارة حول نوع البضاعة أو منشئها أو قيمتها، وعلى أي أساس تطبق الحقوق؟\nQuestion in Arabic, retrieved articles in French.\n\nDocuments pertinents:\n[1] Source: article 122 du Code des Douanes\n1- Dans le cas où le service des douanes conteste, au moment de la vérification des marchandises, les énonciations de la déclaration relatives à l'espèce, à l'origine ou à la valeur des marchandises et lorsque le déclarant n'accepte pas l'appréciation du service, la contestation est portée devant la commission de conciliation et d'expertise douanière visée au titre XVI du présent code. 2- Toutefois, il n'y a pas lieu de recourir à ladite commission lorsque la loi prévoit une procédure particulière pour déterminer l'espèce, l'origine ou la valeur des marchandises.\n\n[2] Source: article 123 du Code des Douanes\n1- Les droits, taxes et autres mesures douanières sont appliqués d'après les résultats de la vérification et, le cas échéant, conformément aux conclusions non contestées de la commission de conciliation et d'expertise douanière ou conformément aux décisions de justice ayant l'autorité de la chose jugée. 2- Lorsque le service des douanes ne procède pas à la vérification des marchandises déclarées, les droits, taxes et autres mesures douanières sont appliqués d'après les énonciations de la déclaration."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 122 من مجلة الديوانة، إذا نازعت إدارة الديوانة في نوع البضاعة أو منشئها أو قيمتها وقت المعاينة ولم يقبل المصرح بتقدير الإدارة، تُحال المنازعة إلى لجنة التوفيق والخبرة الجمركية (الباب السادس عشر). غير أنه لا داعي للجوء إلى هذه اللجنة إذا كان القانون ينص على إجراء خاص لتحديد هذه العناصر. أما الفصل 123 فينص على أنه تطبق الحقوق والضرائب والإجراءات الجمركية الأخرى بناءً على نتائج المعاينة، أو وفقاً لاستنتاجات اللجنة غير المتنازع عليها أو الأحكام القضائية الباتة. وإذا لم تجر الإدارة معاينة للبضائع، تطبق الحقوق والضرائب بناءً على بيانات التصريح. وهذه الآلية تهدف إلى حل الخلافات الفنية دون اللجوء المباشر إلى القضاء. المصادر: المادتان 122 و123 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_direct_077",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [126],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment sont arrondis les droits et taxes exigibles pour chaque article d'une même déclaration ?\n\nDocuments pertinents:\n[1] Source: article 126 du Code des Douanes\nLes droits et taxes exigibles pour chaque article d'une même déclaration sont arrondis au millime inférieur."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 126 du Code des Douanes dispose que les droits et taxes exigibles pour chaque article d'une même déclaration sont arrondis au millime inférieur. Cette règle d'arrondi favorable au redevable s'applique article par article, et non sur le total de la déclaration. Elle vise à simplifier le calcul et à éviter les fractions infimes. Sources : art. 126 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_078",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [129],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل تُستحق الحقوق والضرائب على البضائع التي تقبل إدارة الديوانة التخلي عنها لصالحها؟\n\nDocuments pertinents:\n[1] Source: الفصل 129 من مجلة الديوانة\n1- لا تستحق الحقوق والضرائب على البضائع التي تقبل إدارة الديوانة التخلي عنها لصالحها. 2- تباع البضائع التي يُقبل التخلي عنها بالمزاد العلني وفق كيفيات تحدد بقرار."
+        },
+        {
+          "role": "assistant",
+          "content": "ينص الفصل 129 من مجلة الديوانة على أن الحقوق والضرائب لا تستحق على البضائع التي تقبل إدارة الديوانة التخلي عنها لصالحها. وتُباع هذه البضائع بالمزاد العلني وفق كيفيات تحدد بقرار. والغاية من هذا الإعفاء هو تشجيع المصرحين على التخلي الطوعي عن البضائع غير القابلة للاستيراد أو المتروكة، بدلاً من تركها دون تصريح، مما يسهل تحصيل قيمة البيع لصالح الخزينة دون تحمل تكاليف التحصيل الجبري. المصادر: الفصل 129 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_refusal_079",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les recours possibles contre une décision de la commission de conciliation et d'expertise douanière ?\n\nDocuments pertinents:\n[1] Source: Les articles 99 à 136 ne décrivent pas les voies de recours contre les décisions de la commission. L'article 122 mentionne la commission mais n'indique pas les recours."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Titre V du Code des Douanes se limite aux opérations de dédouanement (déclaration, vérification, liquidation, paiement, enlèvement) et n'aborde pas les recours juridictionnels contre les décisions de la commission de conciliation et d'expertise douanière. Je vous recommande de consulter un avocat spécialisé et de vous référer au Titre XVI du Code des Douanes (contentieux) ainsi qu'au code de procédure civile et commerciale."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_procedural_080",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [104, 105, 106, 108, 109, 110],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les règles concernant le comité professionnel des commissionnaires agréés, le fonds de garantie et le tarif des rémunérations ?\n\nDocuments pertinents:\n[1] Source: article 104 du Code des Douanes\n1- L'agrément de commissionnaire en douane est accordé à titre personnel. Lorsqu'il s'agit d'une société, il est accordé pour la société et pour toute personne habilitée à la représenter. 2- En aucun cas, le refus de l'agrément ne peut ouvrir droit à indemnité ou dommages-intérêts.\n\n[2] Source: article 105 du Code des Douanes\nLes commissionnaires en douane agréés élisent un comité professionnel dénommé « comité des commissionnaires agréés en douane » où le directeur général des douanes est représenté. Ce comité est doté d'un règlement intérieur soumis à l'approbation du ministre des finances. Il donne son avis sur les demandes d'octroi ou de retrait de l'agrément et peut proposer le retrait. Il exerce toutes activités se rapportant à l'assistance professionnelle et organise des cycles de formation.\n\n[3] Source: article 106 du Code des Douanes\nLes commissionnaires agréés peuvent constituer un fonds de garantie doté de la personnalité civile destiné à couvrir les dettes des commissionnaires et de leurs cautions à l'égard du trésor.\n\n[4] Source: article 108 du Code des Douanes\nLe tarif des rémunérations des diverses prestations fournies par le commissionnaire en douane est fixé conformément à la législation sur les prix.\n\n[5] Source: article 109 du Code des Douanes\nLes services de transport exploités directement par l'État, les établissements publics et les collectivités locales peuvent accomplir pour autrui les opérations de dédouanement sans autorisation préalable ; leur texte institutif tient lieu d'autorisation. Cette règle s'applique également aux entreprises concessionnaires de l'État ou bénéficiant d'une subvention.\n\n[6] Source: article 110 du Code des Douanes\nLes modalités d'application des articles 101 à 109 sont fixées par arrêtés du ministre des finances."
+        },
+        {
+          "role": "assistant",
+          "content": "Le régime des commissionnaires en douane comporte plusieurs éléments. D'abord, l'agrément est personnel (ou pour la société et ses représentants) et son refus n'ouvre pas droit à indemnité (article 104). Ensuite, les commissionnaires élisent un comité professionnel (avec représentation du directeur général des douanes) qui donne son avis sur les agréments, propose des retraits, assure l'assistance professionnelle et organise des formations (article 105). Par ailleurs, ils peuvent constituer un fonds de garantie (personnalité civile) pour couvrir leurs dettes envers le Trésor (article 106). Le tarif des rémunérations est fixé par la législation sur les prix (article 108). Enfin, les services de transport publics (État, établissements publics, collectivités locales) ainsi que les concessionnaires ou subventionnés peuvent dédouaner sans autorisation préalable (article 109). Les modalités d'application sont fixées par arrêtés du ministre des finances (article 110). Ces dispositions encadrent la profession pour garantir sa compétence et sa responsabilité financière. Sources : art. 104, 105, 106, 108, 109, 110 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Chapitre I, Section 1 (art. 99-100) – déclaration obligatoire et dépôt",
+      "Section 2 (art. 101-110) – personnes habilitées, commissionnaires, agrément, comité, fonds de garantie, tarifs, services publics",
+      "Section 3 (art. 111-116) – forme, énonciations, enregistrement, nullités, effet des déclarations anticipées",
+      "Section 4 (art. 118) – procédures simplifiées",
+      "Chapitre II, Sections 1-4 (art. 119-124) – contrôle documentaire, vérification, contestations (commission), contrôle a posteriori",
+      "Chapitre III, Sections 1-4 (art. 125-130) – liquidation, arrondi, paiement comptant, électronique, crédit, obligations cautionnées",
+      "Chapitre IV, Sections 1-2 (art. 131-132) – enlèvement, crédit d'enlèvement",
+      "Chapitre IV, fin (art. 133-136) – exportation maritime et aérienne"
+    ],
+    "sections_not_covered": [
+      "L'article 117 n'existe pas dans le PDF (le texte passe de 116 à 118).",
+      "Les articles 137 et suivants ne sont pas inclus dans ce fichier."
+    ],
+    "notes": "Le PDF couvre l'intégralité du Titre V (art. 99 à 136) avec quelques lacunes (article 117 absent). Les exemples sont répartis sur l'ensemble des sections. Les deux exemples cross-lingual sont inclus. Tous les exemples en arabe respectent le MSA formel sans dialecte. Les réponses incluent les disclaimers et les sources conformément aux exigences."
+  }
+}

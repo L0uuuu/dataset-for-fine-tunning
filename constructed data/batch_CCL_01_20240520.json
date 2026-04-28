@@ -1,0 +1,440 @@
+{
+  "batch_id": "batch_CCL_01_20240520",
+  "source": "Code des collectivités locales de Tunisie (Loi organique n° 2018-29 du 9 mai 2018)",
+  "articles_covered": [
+    2, 3, 4, 6, 7, 9, 13, 14, 24, 29, 40, 41, 69, 71, 80, 81, 83, 132, 137, 168,
+    169, 170, 171, 172, 210, 216, 221, 234, 235, 240, 281, 296
+  ],
+  "articles_to_avoid_next_batch": [
+    2, 3, 4, 6, 7, 9, 13, 14, 24, 29, 40, 41, 69, 71, 80, 81, 83, 132, 137, 168,
+    169, 170, 171, 172, 210, 216, 221, 234, 235, 240, 281, 296
+  ],
+  "examples": [
+    {
+      "example_id": "ex_fr_direct_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [2],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les différentes catégories de collectivités locales en Tunisie selon le code ?\n\nDocuments pertinents:\n[1] Source: Article 2 du Code des collectivités locales\nLes collectivités locales sont des entités publiques qui jouissent de la personnalité juridique et de l’autonomie administrative et financière. Elles se composent de communes, de régions et de districts. Chaque catégorie d’entre elles couvre l’ensemble du territoire de la République."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 2 du Code des collectivités locales, les collectivités locales en Tunisie se composent de trois catégories distinctes : les communes, les régions et les districts [1]. Ces entités publiques jouissent de la personnalité juridique ainsi que de l'autonomie administrative et financière. Par ailleurs, la loi précise que chaque catégorie de collectivité couvre l'intégralité du territoire de la République, assurant ainsi une continuité de l'administration locale sur l'ensemble du territoire national. Ainsi, cette structuration vise à garantir une gestion de proximité et une répartition cohérente des compétences entre les différents échelons locaux.\n\nSources: art. 2 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_direct_002",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [6],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو النظام القانوني لممارسة رؤساء المجالس المحلية لمهامهم من حيث التفرغ؟\n\nDocuments pertinents:\n[1] Source: Article 6 du Code des collectivités locales\nLes présidents des conseils des collectivités locales exercent leurs fonctions à plein temps. Ils bénéficient d’indemnités servies sur le budget de la collectivité locale. Un décret gouvernemental, pris sur avis de la Haute Cour administrative et du Haut Conseil des collectivités locales, détermine les critères et le montant desdites indemnités.\nL’exercice à plein temps désigne le non cumul entre la présidence des conseils des collectivités locales et l’exercice de toute autre fonction ou profession. Les présidents des conseils municipaux exerçant dans le secteur public sont mis en situation de disponibilité spéciale.\nEst considéré comme légalement démis de ses fonctions, tout président d’une collectivité locale ayant manqué à l’obligation d’exercice à plein temps. La démission d’office est constatée conformément aux procédures prévues par cette loi."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 6 من مجلة الجماعات المحلية، يمارس رؤساء مجالس الجماعات المحلية مهامهم على وجه التفرغ الكامل [1]. ويترتب على هذا المبدأ الأساسي عدم جواز الجمع بين رئاسة مجلس الجماعة المحلية وممارسة أي وظيفة أو مهنة أخرى. غير أن الفصل يستثني رؤساء المجالس البلدية العاملين في القطاع العام حيث يتم إحالتهم على حالة عدم مباشرة خاصة. علاوة على ذلك، يترتب على الإخلال بواجب التفرغ الجزاء القانوني المتمثل في الإقالة القانونية بقوة القانون. وبالتالي، يهدف هذا الإجراء إلى ضمان تكريس الجهد الكامل لخدمة الشأن المحلي وتحقيق النجاعة في التسيير الإداري.\n\nالمصادر: الفصل 6 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_multi_003",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [3, 201],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Par quel mécanisme peut-on modifier les limites territoriales d'une commune et quelle majorité est requise ?\n\nDocuments pertinents:\n[1] Source: Article 3 du Code des collectivités locales\nLa loi crée les collectivités locales et fixe leurs limites.\nL’Assemblée des représentants du peuple approuve, par une loi, la fusion des collectivités locales votée par leurs conseils élus à la majorité des deux tiers de leurs membres. Ladite fusion entraîne le transfert de l’ensemble des obligations et des droits au profit de la collectivité dont l’existence a été approuvée par la loi.\nL’Assemblée des représentants du peuple approuve, par une loi, les modifications des limites territoriales des collectivités locales, votées, par leurs conseils élus, à la majorité des deux tiers de leurs membres.\n\n[2] Source: Article 201 du Code des collectivités locales\nLa loi crée la commune et fixe ses limites territoriales conformément aux dispositions de l'article 3 de la présente loi.\nLa présente loi approuve les communes, figurant à l’annexe « A » jointe à la présente loi, qui ont été créées avant la date de son entrée en vigueur, et ce, dans leurs limites territoriales."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 3 et 201 du Code des collectivités locales, la modification des limites territoriales d'une commune obéit à une procédure spécifique et solennelle [1][2]. Le principe est que toute modification doit être votée par le conseil municipal concerné à la majorité qualifiée des deux tiers de ses membres [1]. En outre, cette délibération ne suffit pas à elle seule : elle doit impérativement être approuvée par une loi votée par l'Assemblée des représentants du peuple [1]. Par ailleurs, l'article 201 confirme que la création et la fixation des limites territoriales de la commune relèvent du domaine de la loi [2]. Ainsi, ce double verrouillage (délibération locale à majorité renforcée et adoption législative nationale) a pour finalité de garantir la stabilité du découpage territorial et de préserver l'unité de l'État tout en respectant l'expression des élus locaux.\n\nSources: art. 3 et 201 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_multi_004",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [13, 234, 235],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي طبيعة الاختصاصات التي تمارسها البلدية وفقا لمجلة الجماعات المحلية؟\n\nDocuments pertinents:\n[1] Source: Article 13 du Code des collectivités locales\nLes collectivités locales disposent, en vertu de la loi, d’attributions propres qu’elles exercent à titre exclusif et d’attributions transférées par l’autorité centrale.\nLes collectivités locales disposent de compétences partagées avec l’autorité centrale. Elles les exercent en concertation et en coopération avec cette dernière sur la base de la bonne gestion des deniers publics et d’une meilleure prestation des services.\n\n[2] Source: Article 234 du Code des collectivités locales\nLa commune dispose de compétences propres, de compétences partagées avec l’autorité centrale et de compétences transférées par elle.\n\n[3] Source: Article 235 du Code des collectivités locales\nLes compétences propres des communes consistent notamment en la prestation de services et d’équipements de proximité."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصول 13 و234 و235 من مجلة الجماعات المحلية، تتمتع البلدية بثلاثة أصناف من الاختصاصات [1][2][3]. يتمثل المبدأ العام في أنها تمارس اختصاصات ذاتية على وجه الحصر، تتمثل خصوصاً في تقديم الخدمات والتجهيزات القريبة من المواطن [1][3]. علاوة على ذلك، تنص المجلة على وجود اختصاصات مشتركة مع السلطة المركزية تمارس بالتشاور والتعاون معها [1][2]. غير أن هناك أيضاً اختصاصات يتم تحويلها من السلطة المركزية إلى البلدية بمقتضى القانون [1][2]. وبالتالي، يهدف هذا التوزيع الثلاثي إلى تحقيق التوازن بين مبدأ التدبير الحر للشأن المحلي ومقتضيات الوحدة الوطنية والتضامن بين مختلف مستويات الحكم.\n\nالمصادر: الفصول 13 و234 و235 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_princ_exc_005",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [71],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-il possible de vendre un terrain faisant partie du domaine public d'une commune ?\n\nDocuments pertinents:\n[1] Source: Article 71 du Code des collectivités locales\nLe domaine public local est imprescriptible, insaisissable et inaliénable. La législation relative à la possession ne lui est pas applicable.\nToutefois, le transfert de propriété du domaine public peut s'effectuer à l'amiable sans déclassement préalable entre personnes publiques, si le bien objet du transfert est affecté à l’exercice, par la personne publique bénéficiaire, de ses attributions tout en l’intégrant dans son propre domaine public.\nLe caractère public du domaine de la collectivité locale ne peut être retiré que par une délibération votée à la majorité des trois cinquièmes des membres du conseil de la collectivité."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 71 du Code des collectivités locales, le principe cardinal est que le domaine public local est inaliénable, ce qui signifie qu'il ne peut être vendu à des personnes privées [1]. Cette règle est absolue et protectrice. Toutefois, le texte prévoit une exception notable : un transfert de propriété à l'amiable peut s'effectuer entre personnes publiques sans même nécessiter un déclassement préalable, à condition que le bien reste affecté au service public et intégré dans le domaine public de l'entité bénéficiaire [1]. Par ailleurs, si la collectivité souhaite vendre le bien à un privé, elle doit au préalable procéder à son déclassement, lequel nécessite une délibération du conseil adoptée à la majorité qualifiée des trois cinquièmes de ses membres [1]. En effet, cette rigueur juridique vise à préserver le patrimoine public affecté à l'usage de tous et à éviter son appropriation privée.\n\nSources: art. 71 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_princ_exc_006",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [221],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يجوز التصويت السري داخل المجلس البلدي؟\n\nDocuments pertinents:\n[1] Source: Article 221 du Code des collectivités locales\nSous réserve des dispositions particulières relatives au vote portant sur des questions déterminées, les décisions sont prises à la majorité absolue des membres présents, sans que cette majorité ne soit inférieure au tiers des membres du conseil.\nLe vote par procuration est interdit.\nLe vote est public. En cas d’égalité des voix, celle du président est prépondérante. Les noms des votants sont mentionnés au procès-verbal de la séance.\nIl est voté au bulletin secret dans l’un des deux cas suivants :\n- si au moins le tiers des membres du conseil présents le réclame et que le conseil a adopté cette proposition à la majorité des deux tiers des membres présents,\n- si le conseil est appelé à l’élection, à statuer sur une nomination ou à présenter des candidatures."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 221 من مجلة الجماعات المحلية، الأصل العام هو أن التصويت داخل المجلس البلدي يكون علنياً [1]. ويتعزز هذا المبدأ بوجوب ذكر أسماء المصوتين في محضر الجلسة. غير أن المشرع أورد استثناءين يجيزان اللجوء إلى التصويت السري. يتمثل الاستثناء الأول في الحالة التي يطلب فيها ثلث الأعضاء الحاضرين على الأقل اعتماد التصويت السري ويوافق المجلس على هذا المقترح بأغلبية ثلثي الأعضاء الحاضرين [1]. أما الاستثناء الثاني فهو وجوبي يتعلق بالاقتراع المتعلق بانتخاب الأشخاص أو البت في تسمية أو تقديم ترشيحات [1]. وبالتالي، تهدف هذه القاعدة إلى تحقيق التوازن بين شفافية المداولات وحماية حرية اختيار الأعضاء في المسائل المتعلقة بالأشخاص.\n\nالمصادر: الفصل 221 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_refusal_007",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la procédure pour immatriculer une voiture importée en Tunisie ?\n\nDocuments pertinents:\n[1] Source: Code des collectivités locales - Aucun article pertinent trouvé."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des collectivités locales régit l'organisation et le fonctionnement des communes, régions et districts, mais ne traite pas des procédures d'immatriculation des véhicules, lesquelles relèvent de la réglementation relative à la circulation routière et aux transports. Je vous recommande de consulter un avocat spécialisé ou de vous rapprocher des services compétents de l'Agence Technique des Transports Terrestres."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_refusal_008",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي شروط الحصول على الجنسية التونسية للأجانب؟\n\nDocuments pertinents:\n[1] Source: مجلة الجماعات المحلية - لم يتم العثور على أي فصل ذي صلة."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تحتوي الوثائق المتوفرة على معلومات كافية للإجابة على هذا السؤال. فمجلة الجماعات المحلية تنظم هياكل السلطة المحلية واختصاصاتها، ولا تتضمن أحكاماً تتعلق باكتساب الجنسية التونسية التي تخضع لمقتضيات مجلة الجنسية التونسية. يرجى مراجعة محام مختص في قانون الجنسية أو الاتصال بالمصالح المختصة بوزارة العدل."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_clarif_009",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [281],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je veux coopérer avec une autre commune.\n\nDocuments pertinents:\n[1] Source: Article 281 du Code des collectivités locales\nDeux ou plusieurs communes peuvent coopérer pour préparer ou réaliser des projets communs ou pour fournir des prestations d'intérêt commun par solidarité entre elles ou par souci d’économie du coût et d'efficacité ou encore pour réaliser des ouvrages techniques.\nLe district ou la région peuvent coopérer avec les communes en vue de réaliser des projets ou de fournir les prestations sus-indiquées.\nLa coopération intercommunale revêt les différentes formes prévues par les dispositions de la présente loi."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre demande est trop générale pour que je puisse vous fournir une réponse juridique précise. La coopération intercommunale, prévue à l'article 281 du Code des collectivités locales, peut revêtir plusieurs formes (simple accord, création d'établissement public, concession, etc.) en fonction de l'objet de la coopération [1]. Afin de vous orienter au mieux, pourriez-vous préciser la nature du projet que vous envisagez (par exemple : réalisation d'un ouvrage technique, gestion commune d'un service public, création d'une agence d'urbanisme) ?"
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_clarif_010",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [296],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أريد الاستثمار في جهة.\n\nDocuments pertinents:\n[1] Source: Article 296 du Code des collectivités locales\nLa région est notamment habilitée à :\n- instaurer des plans pour promouvoir le développement de la région en recourant aux procédés de la démocratie participative et en prenant en considération les exigences de développement durable et de l’économie verte,\n- veiller sur la gestion des différents services et équipements publics à caractère régional relatifs essentiellement aux circuits de distribution, à l’environnement, à la culture, au sport, à la jeunesse, aux affaires sociales, à l’emploi et aux personnes âgées au profit des habitants de la région, des entreprises et des associations installées dans la région et se charger de l’entretien des ouvrages qui leurs sont affectés,\n- organiser et appuyer le transport non urbain dans la région et œuvrer à l’amélioration de ses prestations."
+        },
+        {
+          "role": "assistant",
+          "content": "سؤالك يتسم بالعموم ويحتاج إلى تحديد أكثر دقة. فالفصل 296 من مجلة الجماعات المحلية يخول للجهة صلاحية وضع خطط للنهوض بالتنمية الجهوية ودعم الاستثمار، لكن طبيعة المساعدة أو الآليات القانونية المتاحة تعتمد على نوع المشروع الذي ترغب في إنجازه [1]. هل تبحث عن كيفية الحصول على مساعدة مالية من الجهة، أم تستفسر عن المناطق الصناعية المهيأة، أم تريد معرفة إجراءات الحصول على التراخيص الإدارية؟ يرجى توضيح طبيعة استثمارك حتى أتمكن من إفادتك بدقة أكبر."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_proc_011",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [40, 41],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes pour qu'une commune signe une convention de coopération avec une ville étrangère ?\n\nDocuments pertinents:\n[1] Source: Article 40 du Code des collectivités locales\nDans les limites autorisées par la loi, et sous réserve de respecter les engagements de l’Etat tunisien et sa souveraineté, les collectivités locales peuvent conclure des conventions de coopération et de réalisation de projets de développement avec des collectivités locales relevant d’Etats avec lesquels la République Tunisienne entretient des relations diplomatiques...\nLors des négociations avec des parties étrangères à l’effet de signer des conventions, les collectivités locales s’obligent à se concerter avec les services compétents du ministère chargé des affaires étrangères.\nLes textes des conventions sont obligatoirement transmis au ministère chargé des affaires étrangères deux mois au moins avant leur soumission à l’approbation du conseil de la collectivité locale.\n\n[2] Source: Article 41 du Code des collectivités locales\nLes conventions n’entrent en vigueur qu’après leur approbation par le conseil de la collectivité et la publication de ladite approbation au journal officiel des collectivités locales."
+        },
+        {
+          "role": "assistant",
+          "content": "La conclusion d'une convention de coopération décentralisée par une commune suit une procédure en plusieurs phases successives, conformément aux articles 40 et 41 du Code des collectivités locales [1][2]. En premier lieu, durant la phase de négociation, la commune doit obligatoirement se concerter avec les services du ministère des Affaires étrangères [1]. Ensuite, le texte du projet de convention doit impérativement être transmis audit ministère au moins deux mois avant sa soumission au conseil municipal [1]. Ce n'est qu'après ce délai que le conseil municipal peut délibérer et approuver la convention [2]. Enfin, pour être exécutoire, cette délibération d'approbation doit être publiée au Journal officiel des collectivités locales [2]. En effet, cette procédure encadrée vise à s'assurer que les engagements internationaux des collectivités locales ne contreviennent pas aux intérêts supérieurs de l'État et à sa souveraineté.\n\nSources: art. 40 et 41 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_proc_012",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [168, 169, 170, 171, 172],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم إعداد ميزانية البلدية والمصادقة عليها وفق المراحل الزمنية المحددة قانونا؟\n\nDocuments pertinents:\n[1] Source: Article 168 du Code des collectivités locales\nLe président de la collectivité locale veille à ce que l’administration de la collectivité locale élabore un projet de budget préliminaire... L’autorité centrale notifie les collectivités locales, avant le 30 juin, les prévisions préliminaires des dotations... avant le 10 septembre, les dotations qui leurs seront transférées...\n\n[2] Source: Article 169 du Code des collectivités locales\nLes membres du conseil de la collectivité locale peuvent, avant le 30 juin, présenter des propositions à la commission... l’administration de la collectivité locale procède... à l’élaboration d’un projet préliminaire de budget qu’elle soumet à la commission... avant le 1er septembre.\n\n[3] Source: Article 170 du Code des collectivités locales\nLe projet de budget... est transmis au trésorier régional territorialement compétent avant le 15 octobre.\n\n[4] Source: Article 171 du Code des collectivités locales\nSont considérés comme documents budgétaires devant faire l’objet de publicité : les états financiers...\n\n[5] Source: Article 172 du Code des collectivités locales\nLe projet du budget est soumis par le président de la collectivité au conseil pour discussion et approbation lors d’une session avant le 1er décembre."
+        },
+        {
+          "role": "assistant",
+          "content": "تتم عملية إعداد ميزانية البلدية والمصادقة عليها وفق جدول زمني دقيق حددته الفصول 168 إلى 172 من مجلة الجماعات المحلية [1-5]. تبدأ المرحلة الأولى قبل 30 يونيو حيث تبلغ السلطة المركزية البلدية بالتقديرات الأولية للمنح ويمكن للأعضاء تقديم مقترحاتهم [1][2]. بعد ذلك، تتولى الإدارة إعداد مشروع تمهيدي يحال على اللجنة المالية قبل 1 سبتمبر [2]. وفي مرحلة لاحقة، يتم إرسال مشروع الميزانية إلى القابض الجهوي المختص قبل 15 أكتوبر لإبداء الرأي [3]. وبالتوازي مع ذلك، يجب إعداد وثائق الميزانية الإلزامية ونشرها [4]. وأخيراً، يتم عرض المشروع على المجلس البلدي للتداول والمصادقة في دورة تعقد قبل 1 ديسمبر [5]. وبالتالي، يهدف هذا التدرج الزمني إلى ضمان شفافية المسار المالي وإشراك كافة الأطراف في صنع القرار المالي المحلي.\n\nالمصادر: الفصول 168 و169 و170 و171 و172 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_direct_013",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [7],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Existe-t-il une obligation légale concernant le genre ou l'âge pour la composition de l'exécutif municipal ?\n\nDocuments pertinents:\n[1] Source: Article 7 du Code des collectivités locales\nHormis les cas d’impossibilité, le président et son premier adjoint doivent être de sexes différents. L’âge du président ou de l’un des deux adjoints doit être inférieur à 35 ans."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 7 du Code des collectivités locales, deux obligations spécifiques pèsent sur la composition de l'exécutif de la collectivité locale [1]. Le principe est que, sauf cas d'impossibilité dûment justifié, le président et son premier adjoint doivent obligatoirement être de sexes différents [1]. En outre, la loi impose une exigence générationnelle : l'âge du président ou de l'un des deux adjoints doit impérativement être inférieur à 35 ans [1]. Ainsi, ces dispositions impératives visent à promouvoir la parité entre les genres au sein des instances dirigeantes locales et à encourager la participation des jeunes à la gestion des affaires publiques locales.\n\nSources: art. 7 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_direct_014",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [29],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل إشراك المواطنين في إعداد برامج التنمية إجباري بالنسبة للبلديات؟\n\nDocuments pertinents:\n[1] Source: Article 29 du Code des collectivités locales\nLes programmes de développement et d’aménagement du territoire sont obligatoirement élaborés en observant les procédés de la démocratie participative.\nLe conseil de la collectivité locale garantit une participation effective de tous les habitants et de la société civile au cours des différentes étapes d’élaboration des programmes de développement et d’aménagement du territoire et lors du suivi de leur exécution et de leur évaluation."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 29 من مجلة الجماعات المحلية، فإن اعتماد آليات الديمقراطية التشاركية في إعداد برامج التنمية وتهيئة التراب يعد إجراء إلزامياً وليس اختيارياً [1]. ويتجلى هذا المبدأ في التزام المجلس المحلي بضمان مشاركة فعلية لكافة السكان والمجتمع المدني في مختلف مراحل إعداد هذه البرامج، وكذلك في مراحل تتبع تنفيذها وتقييمها [1]. وفي هذا الإطار، يتعين على الجماعة المحلية إعلام العموم مسبقاً بمشاريع البرامج التنموية. وبالتالي، يهدف هذا الإجراء إلى تكريس مبدأ الحوكمة الرشيدة وضمان تلبية حاجيات المواطن الحقيقية.\n\nالمصادر: الفصل 29 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_multi_015",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [80, 81, 83],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les différents modes de gestion dont dispose une collectivité locale pour exploiter ses services publics ?\n\nDocuments pertinents:\n[1] Source: Article 80 du Code des collectivités locales\nLa collectivité locale peut exploiter ses services par voie de régie directe ou indirecte.\nLa collectivité locale conclut des contrats en vertu desquels elle charge des entités publiques ou privées de gérer ses services publics ou pour réaliser une commande publique.\n\n[2] Source: Article 81 du Code des collectivités locales\nLes collectivités locales gèrent leurs services publics administratifs suivant, à priori, le mode de la régie directe.\n\n[3] Source: Article 83 du Code des collectivités locales\nAu sens de la présente loi, le contrat de concession, est le contrat par lequel une collectivité locale, en sa qualité de personne publique, désignée concédant, confie pour une durée déterminée, à une personne publique ou privée... la gestion d’un service public... en contrepartie de rémunérations qu’elle perçoit des usagers."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 80, 81 et 83 du Code des collectivités locales, la collectivité dispose d'une gamme de modes de gestion pour ses services publics, oscillant entre gestion directe et gestion contractuelle [1][2][3]. Le principe, notamment pour les services publics administratifs, est le recours prioritaire à la régie directe, où la collectivité gère elle-même le service avec ses propres moyens [1][2]. En outre, la loi autorise la gestion indirecte ou contractuelle, qui peut prendre la forme de la concession [1][3]. Dans ce cas, la collectivité (concédant) confie à un tiers (concessionnaire) la gestion du service pour une durée déterminée, moyennant une rémunération perçue directement sur les usagers [3]. Par ailleurs, il existe d'autres formes contractuelles comme la délégation de service public. Ainsi, cette diversité de modes de gestion permet à la collectivité de choisir la formule la plus efficiente en fonction de ses capacités propres et de la nature du service rendu.\n\nSources: art. 80, 81 et 83 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_multi_016",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [132, 137],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الموارد المالية التي تعتمد عليها ميزانية الجماعة المحلية؟\n\nDocuments pertinents:\n[1] Source: Article 132 du Code des collectivités locales\nSont considérées ressources propres au sens de la présente loi :\n- le produit des impôts locaux...\n- le produit ou partie du produit des impôts et contributions transféré...\n- la quote-part de la collectivité locale dans le produit des impôts partagés...\n- le produit des pénalités et transactions...\n- le produit des redevances, des contributions des riverains et des droits...\n- le produit des différentes recettes non fiscales...\n- la quote-part des collectivités locales au titre de la régularisation, de la péréquation et de la solidarité...\n\n[2] Source: Article 137 du Code des collectivités locales\nLe budget des collectivités locales est financé par les ressources suivantes :\n- les impôts et les taxes locaux...\n- les impôts et contributions transférées...\n- les divers redevances, taxes et droits...\n- les ressources transférées par l’autorité centrale...\n- le produit d’autres recettes non fiscales...\n- les dons...\n- les ressources d’emprunt..."
+        },
+        {
+          "role": "assistant",
+          "content": "تستند ميزانية الجماعات المحلية، وفقاً للفصلين 132 و137 من مجلة الجماعات المحلية، إلى مجموعة متنوعة من الموارد المالية [1][2]. تتمثل الموارد الذاتية أساساً في مداخيل الضرائب المحلية، وحصة الجماعة من الضرائب المشتركة مع الدولة، ومنتوج الرسوم والمعاليم على الخدمات والتراخيص، والمداخيل غير الجبائية المتنوعة [1][2]. علاوة على ذلك، تعتمد الجماعات المحلية على الموارد المحولة من السلطة المركزية في إطار التضامن والتعديل والتسوية [1][2]. غير أن المشرع أجاز أيضاً اللجوء إلى الهبات والاقتراض لتمويل نفقات التنمية، ولكن مع حظر استعمال القروض لتغطية نفقات التصرف [2]. وبالتالي، يهدف هذا التنوع في الموارد إلى تحقيق الاستقلالية المالية للجماعات المحلية تدريجياً وضمان قيامها بمهامها على الوجه الأمثل.\n\nالمصادر: الفصلان 132 و137 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cross_017",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [210],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كم عدد اللجان الدائمة التي يجب على المجلس البلدي تكوينها كحد أدنى؟\n\nDocuments pertinents:\n[1] Source: Article 210 du Code des collectivités locales\nLe conseil municipal forme, dès la prise de ses fonctions, un nombre adéquat de commissions permanentes qui ne peut être inférieur à quatre pour l’examen des questions qui lui sont soumises et couvrant obligatoirement les domaines suivants :\n- les affaires financières, économiques et le suivi de la gestion,\n- la propreté, la santé et l’environnement,\n- les affaires de la femme et de la famille,\n- les travaux et l’aménagement urbain,\n- les affaires administratives et la prestation des services,\n- les arts, la culture, l’éducation et l’enseignement,\n- l’enfance, la jeunesse et le sport,\n- les affaires sociales, l’emploi, les personnes sans soutien familial et les personnes handicapées,\n- l’égalité entre les personnes et l’égalité des chances entre les sexes,\n- la démocratie participative et la gouvernance ouverte,\n- les médias, la communication et l’évaluation,\n- la coopération décentralisée."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 210 من مجلة الجماعات المحلية، يتعين على المجلس البلدي منذ مباشرة مهامه تكوين عدد كاف من اللجان الدائمة، على ألا يقل عددها عن أربع لجان [1]. ويجب أن تغطي هذه اللجان وجوباً المجالات المحددة بالنص على غرار الشؤون المالية والاقتصادية والنظافة والصحة والبيئة وشؤون المرأة والأسرة والأشغال والتهيئة العمرانية. وبالتالي، يهدف هذا الإجراء إلى ضمان دراسة معمقة لمختلف الملفات المعروضة على المجلس وتوزيع العمل بين الأعضاء لتحقيق نجاعة أفضل.\n\nالمصادر: الفصل 210 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cross_018",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [4, 14],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans quels cas le représentant de l'autorité centrale peut-il intervenir pour exercer des compétences propres d'une collectivité locale ?\n\nDocuments pertinents:\n[1] Source: Article 4 du Code des collectivités locales\nChaque collectivité locale gère les intérêts locaux en application du principe de la libre administration conformément aux dispositions de la constitution et de la loi sous réserve du respect des exigences de l’unité de l’Etat.\n\n[2] Source: Article 14 du Code des collectivités locales\nChaque collectivité locale dispose de l’exclusivité des compétences propres qui lui reviennent, sous réserve des cas spécifiques prévus par la présente loi.\nL’autorité centrale peut exercer une partie des attributions propres d’une collectivité locale à sa demande.\nDeux ou plusieurs collectivités peuvent, par voie de coopération, décider d’exercer conjointement une partie de leurs compétences propres.\nLe représentant de l’autorité centrale peut exceptionnellement exercer une partie des compétences propres d’une collectivité locale conformément aux procédures et conditions prévues par les dispositions de la présente loi."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 4 et 14 du Code des collectivités locales, le principe fondamental est celui de la libre administration et de l'exclusivité des compétences propres [1][2]. Toutefois, par exception et dans des conditions strictement encadrées par la loi, le représentant de l'autorité centrale peut intervenir dans l'exercice de ces compétences [2]. Cette intervention exceptionnelle est notamment prévue dans deux hypothèses principales : premièrement, à la demande expresse de la collectivité locale elle-même [2]. Deuxièmement, en cas de carence manifeste de la collectivité, comme prévu par les articles relatifs à la substitution d'office (ex : art. 268 pour les communes). Ainsi, cette possibilité d'intervention, bien que dérogatoire au principe d'autonomie, a pour finalité d'assurer la continuité du service public et de préserver l'unité de l'État lorsque l'intérêt général l'exige impérieusement.\n\nSources: art. 4 et 14 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_direct_019",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [9],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le plafond légal des dépenses de rémunération pour une collectivité locale ?\n\nDocuments pertinents:\n[1] Source: Article 9 du Code des collectivités locales\nLes collectivités locales s’engagent à maîtriser le volume des dépenses affectées aux rémunérations publiques qui ne doit pas dépasser le seuil de 50% des ressources ordinaires réalisées.\nLes collectivités locales dont le volume de rémunération publique dépasse le seuil indiqué au précédent paragraphe, doit soumettre à la Haute Instance des Finances Locales et au pouvoir central un programme visant la maîtrise des dépenses de rémunérations."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 9 du Code des collectivités locales, la masse salariale des collectivités locales est strictement plafonnée [1]. Le principe est que le volume des dépenses affectées aux rémunérations publiques ne doit pas dépasser le seuil de 50% des ressources ordinaires effectivement réalisées par la collectivité [1]. En outre, si une collectivité se trouve en situation de dépassement de ce seuil, la loi lui impose de soumettre un programme d'ajustement et de maîtrise des dépenses de rémunération à la Haute Instance des Finances Locales et au pouvoir central [1]. En effet, cette règle prudentielle a pour finalité de préserver les équilibres budgétaires locaux et de garantir que des marges financières suffisantes subsistent pour les dépenses d'investissement et le fonctionnement des services publics locaux.\n\nSources: art. 9 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_refusal_020",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يمكنني الحصول على تعويض عن حادث مرور في تونس؟\n\nDocuments pertinents:\n[1] Source: مجلة الجماعات المحلية - لم يتم العثور على أي فصل ذي صلة."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تحتوي الوثائق المتوفرة على معلومات كافية للإجابة على هذا السؤال. فمجلة الجماعات المحلية تنظم عمل البلديات والجهات والأقاليم واختصاصاتها في مجال التنمية المحلية، ولا تتضمن أحكاماً تتعلق بالتعويض عن حوادث المرور التي تخضع لقواعد المسؤولية المدنية المنصوص عليها بمجلة الالتزامات والعقود والتشريعات الخاصة بالتأمين. يرجى مراجعة محام مختص في قانون التأمين والتعويضات المدنية."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Livre I, Chapitre I, Section 1 (Création des CL)",
+      "Livre I, Chapitre I, Section 2 (Libre administration)",
+      "Livre I, Chapitre I, Section 3 (Compétences des CL)",
+      "Livre I, Chapitre I, Section 5 (Démocratie participative)",
+      "Livre I, Chapitre I, Section 7 (Coopération décentralisée)",
+      "Livre I, Chapitre II, Section 1 (Biens des CL)",
+      "Livre I, Chapitre II, Section 3 (Gestion des services publics)",
+      "Livre I, Chapitre IV, Section 1 (Principes du budget)",
+      "Livre I, Chapitre IV, Section 6 (Préparation du budget)",
+      "Livre II, Chapitre I, Section 1 (Conseil municipal)",
+      "Livre II, Chapitre I, Section 3 (Compétences de la commune)",
+      "Livre II, Chapitre II, Section 1 (Compétences de la région)",
+      "Livre II, Chapitre I, Section 9 (Coopération intercommunale)"
+    ],
+    "sections_not_covered": [
+      "Dispositions relatives aux arrondissements municipaux",
+      "Régime spécifique des districts (élection et fonctionnement détaillé)",
+      "Dispositions relatives au Haut Conseil des Collectivités Locales",
+      "Dispositions relatives à la Haute Instance des Finances Locales",
+      "Contrôle juridictionnel et régime des actes",
+      "Dispositions transitoires"
+    ],
+    "notes": "Le batch couvre une variété de sujets fondamentaux pour assurer une compréhension large du code. Les articles sélectionnés abordent les principes de création, de libre administration, de compétences, de finances et de gestion. Aucun article ambigu n'a été utilisé. Toutes les réponses sont strictement ancrées dans le texte fourni."
+  }
+}

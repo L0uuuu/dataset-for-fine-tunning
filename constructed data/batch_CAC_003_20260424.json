@@ -1,0 +1,433 @@
+{
+  "batch_id": "batch_CAC_003_20260424",
+  "source": "Code de l'aéronautique civile de Tunisie (loi n°99-58 du 29 juin 1999) et textes d'application (décrets n°93-1154, n°2000-1526, n°2009-1062, n°2009-3333, n°2009-3646, n°2018-37)",
+  "articles_covered": [8, 16, 30, 34, 41, 43, 50, 51, 54, 55, 56, 57, 59, 60, 61, 62, 63, 65, 66, 67, 68, 69, 70, 71, 100, 101, 103, 104, 110, 112, 130, 138, 141, 150," 150bis", "150ter", 152, 153, 154, 155, "81 (loi 2015-53)", "décret 93-1154 art.4", "décret 93-1154 art.6", "décret 93-1154 art.9", "décret 93-1154 art.13", "décret 93-1154 art.16", "décret 93-1154 art.18", "décret 2009-3646 art.2", "décret 2009-3646 art.5", "décret 2009-3333 art.1", "décret 2009-3333 art.6", "décret 2009-3333 art.18", "décret 2000-1526 art.2", "décret 2018-37 art.1", "décret 2018-37 art.3"],
+  "articles_to_avoid_next_batch": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, "93bis", "93ter", "93quater", "93quinquies", "93sexies", "93hepties", "93octies", 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, "150bis", "150ter", 151, 152, 153, 154, 155, "81 (loi 2015-53)", "décret 93-1154 art.2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29", "décret 2009-3646 art.1-7", "décret 2009-3333 art.1-20", "décret 2000-1526 art.1-11", "décret 2018-37 art.1-13"],
+  "examples": [
+    {
+      "example_id": "cac_fr_direct_041",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [8],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un propriétaire tunisien qui fait immatriculer son aéronef à l'étranger peut-il continuer à le faire circuler en Tunisie?\n\nDocuments pertinents:\n[1] Source: article 8 du Code de l'aéronautique civile\nL'immatriculation à l'étranger d'un aéronef antérieurement immatriculé au registre tunisien d'immatriculation des aéronefs civils ne produit effet en territoire tunisien que si son immatriculation à ce registre a été préalablement rayée."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 8 du Code de l'aéronautique civile, l'immatriculation à l'étranger d'un aéronef qui était précédemment immatriculé en Tunisie ne produit effet en territoire tunisien que si son immatriculation tunisienne a été préalablement rayée. Ainsi, tant que la radiation n'est pas effectuée, l'immatriculation étrangère est inopposable en Tunisie et l'aéronef ne peut y circuler légalement. Cette disposition vise à empêcher les doubles immatriculations et à garantir que l'État d'immatriculation soit clairement identifiable pour les besoins de la sécurité et de la responsabilité. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 8 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_multi_042",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [41, 43],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un créancier étranger sans domicile en Tunisie peut-il obtenir une saisie conservatoire sur un aéronef? Quels sont les délais pour agir au fond?\n\nDocuments pertinents:\n[1] Source: article 41 du Code de l'aéronautique civile\nL'autorisation de saisie conservatoire et la mainlevée sont données dans les formes et délais prévus par le code de procédure civile et commerciale en matière des ordonnances sur requête. L'autorisation de saisie conservatoire peut être subordonnée à la condition qu'une caution ou qu'un cautionnement valable soit fourni par le demandeur, la caution est obligatoire si le demandeur n'a pas, au jour de la saisie, un domicile en Tunisie. L'ordonnance portant autorisation de saisie fixe le délai, qui ne pourra excéder un mois, dans lequel le demandeur devra intenter son action devant le juge compétent. Si l'action n'est pas intentée dans le délai imparti, la saisie conservatoire pratiquée sera considérée comme nulle et non avenue et la caution, éventuellement fournie, déclarée.\n\n[2] Source: article 43 du Code de l'aéronautique civile\nLes dispositions du présent chapitre ne sont pas applicables aux mesures conservatoires en matière de faillite, de règlement judiciaire et aux mesures conservatoires effectuées en cas d'infraction à la législation douanière pénale ou de police administrative."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 41, un créancier étranger sans domicile en Tunisie peut obtenir une saisie conservatoire, mais à deux conditions impératives : premièrement, la caution est obligatoire (il doit fournir une caution), deuxièmement, l'ordonnance d'autorisation fixe un délai maximum d'un mois pour intenter son action au fond devant le juge compétent. Si l'action n'est pas intentée dans ce délai, la saisie est nulle et non avenue et la caution est déclarée. Par ailleurs, l'article 43 précise une exception : les dispositions sur la saisie conservatoire ne s'appliquent pas aux mesures en matière de faillite, règlement judiciaire, ou infractions douanières/pénales/administratives. Ainsi, le régime général est accessible aux créanciers étrangers sous condition de caution et délai d'un mois, mais exclut certains cas spéciaux. La finalité est d'équilibrer le droit du créancier étranger à obtenir des mesures provisoires avec la protection du débiteur contre les abus, en exigeant une caution et une action rapide au fond. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 41, 43 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_principle_exception_043",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [50, 51, 56],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un créancier saisissant peut-il voir sa vente forcée annulée ou contestée par un tiers se prétendant propriétaire?\n\nDocuments pertinents:\n[1] Source: article 50 du Code de l'aéronautique civile\nAucune vente forcée ne peut être effectuée si les droits, dont il est justifié devant l'autorité compétente et qui sont préférables à ceux du créancier saisissant conformément à la législation en vigueur, ne peuvent être éteints par le prix de la vente ou ne sont pris à charge par l'acquéreur. Les dispositions du présent article ne sont pas applicables aux saisies demandées par les victimes ou leurs ayants droit suite à des dommages causés à la surface par un aéronef et non assurés à un montant correspondant à la valeur à neuf dudit aéronef.\n\n[2] Source: article 51 du Code de l'aéronautique civile\nSous peine de déchéance, les demandes en revendication ou en nullité sont formulées dix jours au moins avant le jour fixé pour l'adjudication, par acte d'avocat comportant indication de la date à laquelle la demande sera appelée à l'audience des criées du tribunal qui aura ordonné la vente, ainsi que les moyens de nullité ou de revendication. L'avocat du saisissant doit, dans les cinq jours, fournir ses conclusions en réponse. Ces demandes ne suspendent pas la vente. Le jugement n'est susceptible que de pourvoi en cassation, lequel doit être formé dans les cinq jours du prononcé. Les demandes en nullité formées après le délai sont réputées non avenues. Les demandes en revendication formées après ledit délai ou après l'adjudication sont converties de plein droit en oppositions à la délivrance des sommes provenant de la vente.\n\n[3] Source: article 56 du Code de l'aéronautique civile\nSi le poursuivant n'a pas été désintéressé avant la date et l'heure fixées pour l'adjudication, la vente a lieu dans les formes prévues aux articles 425 à 431 du code de procédure civile et commerciale. Le jugement d'adjudication n'est susceptible d'aucune voie de recours ni même de pourvoi en cassation."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 51, le principe est qu'un tiers (revendiquant la propriété) ou le débiteur peut demander la nullité ou la revendication, mais à une condition de forme stricte : la demande doit être formulée au moins dix jours avant l'adjudication, par acte d'avocat. Passé ce délai, la demande en nullité est non avenue ; la demande en revendication est convertie en opposition à la distribution du prix. Toutefois, l'article 56 précise une exception importante : le jugement d'adjudication lui-même n'est susceptible d'aucune voie de recours, ni même de pourvoi en cassation. Par ailleurs, l'article 50 prévoit une autre restriction : si des droits préférables (ex: propriété d'un tiers) ne peuvent être éteints par le prix, la vente forcée ne peut avoir lieu, sauf dans le cas particulier des victimes de dommages à la surface non assurés. Ainsi, la protection des droits des tiers s'exerce avant l'adjudication par la procédure de l'article 51, mais une fois l'adjudication prononcée, elle est irrévocable. La finalité est d'assurer la rapidité et la sécurité des ventes judiciaires tout en permettant aux tiers de faire valoir leurs droits en amont. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 50, 51, 56 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_refusal_044",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": ["décret 93-1154 art.13"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis une compagnie aérienne. Quel est le montant exact de la redevance d'embarquement pour un passager national à l'aéroport de Tunis-Carthage en 2025?\n\nDocuments pertinents:\n[1] Source: article 13 (Modifié par décret n°2008-101 du 16 janvier 2008) du décret n°93-1154 du 17 mai 1993, relatif aux redevances d'aéroport et de services de navigation aérienne\nTout passager à l'embarquement sur un aéroport, doit payer une redevance d'embarquement conformément au tableau suivant :\nRedevance 1: Passager international (régulier, non régulier) 7.50 EURO, Passager national 1.00 EURO\nRedevance 2: Passager international 8.25 EURO, Passager national 1.00 EURO\nRedevance 3: Passager international 9.00 EURO, Passager national 1.00 EURO\nLa date d'entrée en vigueur ainsi que la durée d'application des redevances prévues par les tableaux ci-dessus sont fixées conformément aux dispositions de l'article 18 du présent décret.\n\n[2] Source: article 18 du décret n°93-1154\n(Tableau de fixation des entrées en vigueur renvoyant à des périodes passées, dernière redevance 3 à partir du 1er avril 2008)."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à votre question sur le montant exact applicable en 2025. L'article 13 du décret n°93-1154 indique des montants en euros (1,00 EURO pour le passager national) mais ces montants datent d'une modification de 2008, avec des entrées en vigueur prévues à l'article 18 qui se réfèrent à des périodes allant jusqu'en 2009. Aucun texte plus récent modifiant ces montants n'est inclus dans les documents pertinents. Les taux de change EURO/Dinar et d'éventuelles actualisations ultérieures ne sont pas fournis. Je vous recommande de consulter le décret modificatif le plus récent ou de vous renseigner auprès de l'Office de l'aviation civile et des aéroports. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_clarification_045",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["décret 93-1154 art.6", "décret 93-1154 art.8"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un vol d'essai d'une compagnie aérienne est-il exonéré de la redevance des services de navigation aérienne de route?\n\nDocuments pertinents:\n[1] Source: article 6 du décret n°93-1154 du 17 mai 1993\nSont exonérés de la redevance de balisage lumineux : a) les aéronefs qui effectuent un retour forcé sur l'aérodrome de départ en raison d'incidents techniques ou de circonstances atmosphériques défavorables ; b) les aéronefs appartenant à une entreprise de transport ou de travail aériens accomplissant des vols d'essai, à condition que ces vols ne comportent aucun transport ou travail rémunérés et qu'il ne se trouve à bord que les membres de l'équipage et les personnes contrôlant les essais et qu'ils retournent à l'aérodrome de départ ; c) les aéronefs appartenant à l'Etat tunisien ou exploités par celui-ci en service public et sans rémunération ; d) les aéronefs transportant des secours ou des dons ; e) les aéronefs d'Etats étrangers en visite officielle en Tunisie.\n\n[2] Source: article 8 du décret n°93-1154\nSont exonérés de la redevance des services de navigation aérienne de route : a) les vols de recherche et de sauvetage ; b) les vols de contrôle et d'essai des aides à la navigation ; c) les aéronefs appartenant à une entreprise de transport ou de travail aérien accomplissant des vols d'essai ou de contrôle à condition que ces vols ne comportent aucun transport ou travail rémunéré, qu'ils ne transportent que le personnel nécessaire aux essais et aux contrôles et qu'ils décollent et atterrissent sur un même aérodrome situé en Tunisie ; d) les aéronefs qui effectuent un retour forcé ; e) les vols effectués par les aéronefs appartenant à l'Etat tunisien."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour répondre précisément, j'ai besoin d'une clarification. Vous me demandez si un vol d'essai d'une compagnie aérienne est exonéré de la 'redevance des services de navigation aérienne de route'. L'article 8 du décret n°93-1154 prévoit effectivement l'exonération pour 'les aéronefs appartenant à une entreprise de transport ou de travail aérien accomplissant des vols d'essai ou de contrôle', sous conditions (pas de transport rémunéré, personnel nécessaire seulement, décollage et atterrissage sur le même aérodrome tunisien). En revanche, l'article 6 que vous avez fourni traite de la 'redevance de balisage lumineux', qui est différente. Veuillez préciser : votre vol d'essai est-il réalisé avec un aéronef appartenant à la compagnie, et atterrit-il sur le même aérodrome que le départ? Et souhaitez-vous l'exonération de la redevance de route (article 8) ou d'une autre redevance? Cela déterminera l'applicabilité de l'exonération. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_procedural_046",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["décret 93-1154 art.4", "décret 93-1154 art.9", "décret 93-1154 art.16"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis gestionnaire d'un aéroport. Quelles sont les réductions ou exonérations applicables aux giravions et aux vols d'entraînement pour la redevance d'atterrissage et de stationnement?\n\nDocuments pertinents:\n[1] Source: article 4 du décret n°93-1154 du 17 mai 1993\nLes giravions bénéficient d'une réduction de 50%. Les aéronefs appartenant à une entreprise de transport ou de travail aériens accomplissant des vols d'entraînement et qui, à l'occasion de ces vols ne font aucun travail rémunéré bénéficient d'une réduction : - de 40% du 1er octobre au 31 mars aux aéroports internationaux de Tunis-Carthage, Monastir-Habib Bourguiba et Jerba-Zarzis ; - de 80% aux aéroports de Sfax-Thyna, Tozeur-Nefta et 7 novembre de Tabarka durant toute l'année. Les aéronefs effectuant un vol de mise en place entre des aéroports tunisiens bénéficient d'une réduction de 50%.\n\n[2] Source: article 9 du décret n°93-1154\nLes aéronefs en stationnement sont redevables d'une taxe de stationnement calculée de la manière suivante : pour les 6 premières heures : gratuit ; de la 7e à la 24e heure : 0,300 EURO par tranche de 1000 Kg ; au-delà de 24 heures : 0,100 EURO par tranche de 1000 Kg et par heure. Toute fraction d'heure est comptée pour une heure. Pour les aéroports de Tozeur-Nefta et 7 novembre de Tabarka, la redevance de stationnement est réduite de 50%.\n\n[3] Source: article 16 du décret n°93-1154 (Modifié par décret n°95-1326 du 24 juillet 1995)\nLes aéronefs dont la masse est inférieure ou égale à 5,7 tonnes et utilisés dans des activités à but non lucratif de sport aérien, d'entraînement et de travail aérien sont exonérés des redevances aéronautiques ci-dessus précitées."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 4 du décret n°93-1154, les giravions bénéficient d'une réduction de 50 % sur la redevance d'atterrissage (et probablement sur les autres redevances par extension, mais le texte vise spécifiquement l'atterrissage). Pour les vols d'entraînement, la réduction est de 40 % dans les grands aéroports internationaux pendant la période hivernale (1er octobre au 31 mars), et de 80 % à Sfax-Thyna, Tozeur-Nefta et Tabarka toute l'année. Les vols de mise en place bénéficient d'une réduction de 50 %. Par ailleurs, l'article 9 prévoit pour le stationnement : les 6 premières heures sont gratuites, puis les tarifs sont dégressifs, avec une réduction de 50 % pour Tozeur-Nefta et Tabarka. Enfin, l'article 16 exonère totalement les aéronefs de moins de 5,7 tonnes utilisés à but non lucratif (sport aérien, entraînement, travail aérien). Ainsi, la procédure consiste à : 1) déterminer la catégorie de l'aéronef (giravion, poids, activité), 2) appliquer le taux de réduction ou l'exonération selon l'aéroport et la saison, 3) pour le stationnement, compter les heures gratuites puis appliquer les tarifs réduits. La finalité est d'encourager l'aviation légère, l'entraînement et les activités non commerciales. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 4, 9, 16 du décret n°93-1154"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_direct_047",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [16],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: هل يمكن للوزير المكلف بالطيران المدني أن يشطب تسجيل طائرة تم ترخيص تسجيلها استثنائياً بموجب الفصل 4 من المجلة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 16 من مجلة الطيران المدني\nيمكن للوزير المكلف بالطيران المدني أن يشطب من سجل تسجيل الطائرات المدنية، تسجيل الطائرات المرخص به استثنائيًا بمقتضى الفصل 4 من هذه المجلة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 16 من مجلة الطيران المدني، نعم، للوزير المكلف بالطيران المدني صلاحية شطب تسجيل الطائرة التي مُنحت ترخيصاً استثنائياً بموجب الفصل 4 (أي الطائرات التي لا تتوفر فيها شرط الملكية التونسية بنسبة 51% ورخص بتسجيلها استثنائياً). غير أن هذه الصلاحية تقديرية وليست آلية. وبالتالي، فإن التسجيل الاستثنائي ليس مكتسباً نهائياً ويمكن إلغاؤه بقرار وزاري. تهدف هذه الأحكام إلى إعطاء المرونة للإدارة في منح الترخيص الاستثنائي مع الاحتفاظ بحق سحبه متى رأت ذلك مناسباً. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصل 16 من مجلة الطيران المدني"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_multi_048",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [30, 34],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: كيف يتم تسجيل الرهن الرسمي على طائرة، وما هي المدة التي يظل فيها ساري المفعول، وكيف يتم شطبه؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 30 من مجلة الطيران المدني\nتحدد بمقتضى أمر كيفية قيد وشطب الرهن من سجل تسجيل الطائرات المدنية.\n\n[2] المصدر: الفصل 34 من مجلة الطيران المدني\nيشطب قيد الرهن بتقديم براءة موقعة من الدائن أو بمقتضى قرار قضائي اكتسب قوة الشيء المقضي به. لا تختصر القيود إلا باتفاق الأطراف المعنية. يجب أن يكون الشطب أو التعديل محل إشارة في سجل تسجيل الطائرات المدنية."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 30، تحدد التفاصيل الإجرائية لقيد وشطب الرهن بمقتضى أمر (مرسوم أو قرار)، أي أن القانون يحيل إلى نص تنظيمي. أما الفصل 34 فينص على أن شطب القيد يتم بطريقتين: الأولى بتقديم براءة موقعة من الدائن (أي إقراره بانقضاء الدين)، والثانية بقرار قضائي نهائي. لا يمكن اختصار القيود (تخفيض مبلغ الرهن مثلاً) إلا باتفاق الأطراف. ويجب أن يُشار إلى الشطب أو التعديل في السجل. وبالتالي، فالقيد يستمر لمدة عشر سنوات حسب الفصل 31 (غير مدرج هنا)، ويتطلب الشطب إما برضاء الدائن أو حكم قضائي. تهدف هذه الأحكام إلى ضمان الدعاية والشفافية والتأكد من انقضاء الدين قبل رفع الضمان. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصلين 30 و34 من مجلة الطيران المدني"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_principle_exception_049",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [54, 55],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: كيف تتم دعاية بيع الطائرة بالمزاد العلني، وما هي الإعلانات المطلوبة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 54 من مجلة الطيران المدني\nتلصق الإعلانات على الجزء الأكثر ظهوراً من الطائرة المحجوزة وفي المكان المخصص للإعلان عن المزايدات بالمحكمة التي سيتم البيع أمامها وبالمطار الذي توجد به الطائرة. يحرر عدل منفعة محضر بهذه الإعلانات.\n\n[2] المصدر: الفصل 55 من مجلة الطيران المدني\nينادى على البيع في جلسة المناداة التي تحددها المحكمة. لا يمكن تحديد تاريخ البيع قبل ستة أسابيع من تاريخ محضر الحجز. يضم محامي الحاجز إلى الملف: أ) محضر الإعلان المحرر تطبيقاً لأحكام الفصل 54 من هذه المجلة، ب) نسخة من الرائد الرسمي للجمهورية التونسية ومن الجريدة اليومية المحتوية على الإعلان."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 54، الأصل هو لصق الإعلانات على ثلاثة أماكن: على الطائرة نفسها، وفي قاعة المحكمة، وفي المطار الذي توجد فيه الطائرة. ويُحرر عدل منفعة محضر بهذه الإعلانات. وبمقتضى الفصل 55، لا يمكن إجراء البيع قبل ستة أسابيع من تاريخ محضر الحجز، ويجب أن يضم محامي الحاجز إلى الملف محضر الإعلان ونسخة من الرائد الرسمي والجريدة اليومية التي نُشر فيها الإعلان. غير أن هذه الإجراءات تُضاف إلى الإعلانات المنصوص عليها في الفصلين 52 و53 (نشر في الرائد الرسمي وجريدة يومية قبل 30 يوماً على الأقل). وبالتالي، فإن الدعاية تجمع بين الإعلان باللصق والإعلان بالنشر. الاستثناء: إذا كانت المدة بين الحجز والبيع أقل من ستة أسابيع، لا يجوز البيع. تهدف هذه الإجراءات إلى ضمان أقصى دعاية ممكنة لحماية حقوق الدائنين والمدينين. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصلين 54 و55 من مجلة الطيران المدني"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_refusal_050",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": ["décret 2009-3646 art.2"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ما هو الرقم التسلسلي الذي يجب أن يظهر على تذكرة السفر الجوي الصادرة عن شركة الخطوط التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 2 من الأمر عدد 2009-3646 المؤرخ في 2 ديسمبر 2009، المحدد للبيانات التي يجب أن تتضمنها عقود النقل الجوي للمسافرين والأمتعة والبضائع\nلتطبيق هذا الأمر، يعتبر: - وثائق النقل الجوي: أ) تذكرة سفر: وثيقة تثبت عقد النقل، يصدرها الناقل أو وكيله المعتمد، إما في شكل تذكرة سفر فردية أو جماعية، أو بشكل غير مادي، 'التذكرة الإلكترونية'، التي يثبتها إيصال المسار. ب) بطاقة أمتعة: قسيمة تعريف الأمتعة المسجلة المدمجة أو المضمنة في تذكرة السفر. ج) سند الشحن الجوي: وثيقة تثبت عقد نقل البضائع جواً واستلام البضاعة للشحن.\n\n[2] المصدر: الفصل 2 من الأمر 2009-3646 (تكملة) – لا يرد ذكر أي رقم تسلسلي محدد."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن الرقم التسلسلي المحدد الذي يجب أن يظهر على تذكرة السفر. الفصل 2 من الأمر عدد 2009-3646 يعرف تذكرة السفر ويذكر 'التذكرة الإلكترونية' و'إيصال المسار'، لكنه لا يحدد رقم تسلسلي معين. قد يكون الرقم التسلسلي (رقم التذكرة، رقم الحجز، رقم الرحلة) من بين البيانات المنصوص عليها في الفصل 3 من نفس الأمر، لكن الفصل 3 لم يُدرج ضمن الوثائق المقدمة. أنصحك بالرجوع إلى الفصل 3 من الأمر عدد 2009-3646 الذي يحدد البيانات الإلزامية (الفقرة (ط) تذكر 'رقم التذكرة' و (ح) 'رقم ملف الحجز'). لكن هذه الفقرة غير متوفرة حالياً. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_clarification_051",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": ["décret 2009-3333 art.1", "décret 2009-3333 art.18"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: من يتحمل نفقات البحث والإنقاذ لطائرة تونسية سقطت في عرض البحر؟ هل تتحملها الدولة أم شركة التأمين؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 1 من الأمر عدد 2009-3333 المؤرخ في 2 نوفمبر 2009، المحدد لخطط التدخل والوسائل اللازمة لمساعدة الطائرات المعرضة للخطر\nيحدد هذا الأمر خطط التدخل والوسائل الواجب تنفيذها لمساعدة الطائرات المعرضة للخطر في منطقة البحث والإنقاذ الخاضعة لمسؤولية الجمهورية التونسية. تشتمل خطط التدخل للبحث والإنقاذ على خطة وطنية وخطط جهوية. يضبط محتواها وفق الملحق عدد 1 لهذا الأمر. تتم المصادقة على هذه الخطط بقرار من وزير النقل ويتم إعدادها من قبل الأطراف التالية: وزارة النقل بالنسبة للخطة الوطنية، والولاة بالنسبة للخطط الجهوية. يجب إدماج خطط التدخل للبحث والإنقاذ في خطط الطوارئ بالمطارات.\n\n[2] المصدر: الفصل 18 من الأمر عدد 2009-3333\nنفقات البحث والإنقاذ على عاتق الدولة في حدود الاعتمادات المرصودة في ميزانيتها. تشمل هذه النفقات: - اقتناء وصيانة الوسائل الجوية والمعدات الخاصة الضرورية للبحث والإنقاذ، - تكوين وتدريب أفراد البحث والإنقاذ، - تزويد مركز تنسيق الإنقاذ والمراكز الثانوية للإنقاذ بالوسائل الضرورية، - تنفيذ عمليات البحث والإنقاذ."
+        },
+        {
+          "role": "assistant",
+          "content": "للإجابة بدقة، أحتاج إلى توضيح: السؤال يتعلق بتحمل نفقات البحث والإنقاذ. الفصل 18 من الأمر 2009-3333 ينص على أن النفقات 'على عاتق الدولة في حدود الاعتمادات المرصودة في ميزانيتها'. ولا يذكر الفصل 18 شركة التأمين أو أي طرف آخر. غير أن الفصل 18 يتحدث عن النفقات العامة للجهاز (الاقتناء، الصيانة، التكوين، تنفيذ العمليات) وليس بالضرورة عن تعويض تكاليف عملية إنقاذ محددة لطائرة معينة. هل تسأل عن من يتحمل التكلفة المباشرة لعملية البحث والإنقاذ (طائرات البحث، فرق الإنقاذ) أم عن من يتحمل الخسائر المادية للطائرة نفسها بعد الإنقاذ (التأمين)؟ لأن الفصل 18 يجيب عن الأولى (الدولة)، أما التأمين فيحكمه عقد التأمين وقانون المسؤولية المدنية. يرجى توضيح المقصود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_procedural_052",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [57, 59, 60],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ماذا يحدث إذا لم يدفع المحتز (الذي رسا عليه المزاد) المصاريف أو ثمن الطائرة في أجل عشرة أيام؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 57 من مجلة الطيران المدني\nلا يُقبل أي رفع في السعر بعد البيع بالمزاد العلني.\n\n[2] المصدر: الفصل 59 من مجلة الطيران المدني\nفي حالة عدم دفع المصاريف والإيداع، تعاد الطائرة للبيع وتُرسى بعد خمسة عشر يوماً من الإعلانات والنشر الجديدة المماثلة لتلك المنصوص عليها في الفصلين 52 و53 من هذه المجلة، على مشتر يرسم المزاد المنقوص (folle enchère) وفي الجلسة التي يحددها رئيس غرفة المناداة بمجرد طلب عريضة وبدون استدعاء. يحكم على الراسي عليه المزاد المنقوص فوراً، بعد البيع وبدون إجراءات أخرى، بحكم منفصل بدفع العجز والمصاريف.\n\n[3] المصدر: الفصل 60 من مجلة الطيران المدني\nتُفصل طلبات الحلول أو الإحالة وفقاً لأحكام الفصل 440 من مجلة المرافعات المدنية والتجارية. في حالة الإحالة، تجري الدعاية الجديدة في الآجال المقررة في الفقرة الأخيرة من الفصل 440 من مجلة المرافعات المدنية والتجارية."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 59، إذا لم يدفع المحتز المصاريف ولم يقم بإيداع ثمن الطائرة في أجل عشرة أيام (حسب الفصل 58 السابق)، يتم إعادة بيع الطائرة خلال خمسة عشر يوماً بعد إعلانات ونشر جديدين. يُعتبر المحتز الأول 'راسياً عليه المزاد المنقوص' (fol enchérisseur) ويحكم عليه فوراً بدفع الفرق بين ثمنه وثمن البيع الجديد (العجز) إضافة إلى المصاريف. ولا يُقبل أي رفع في السعر بعد البيع الأول (الفصل 57). أما الفصل 60 فيتعلق بطلبات الحلول أو الإحالة التي تُفصل وفق قانون المرافعات. وبالتالي، فإن الإجراءات المتسلسلة هي: 1) عدم الدفع خلال 10 أيام، 2) إعادة الإعلانات والنشر لمدة 15 يوماً، 3) بيع جديد، 4) إدانة المحتز الأول بالعجز. تهدف هذه القواعد إلى ضمان جدية المزايدين وسرعة تنفيذ الأحكام. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصول 57 و59 و60 من مجلة الطيران المدني"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_cross_fr_ar_053",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [150, "150bis"],
+      "confidence_flag": "Ces articles ont été ajoutés par la loi n°2005-84",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la peine encourue pour une personne qui s'empare illicitement d'un aéronef en vol par violence ou menace?\n\nDocuments pertinents (textes originaux français):\n[1] Source: article 150 (Modifié par loi n°2005-84 du 15 août 2005) du Code de l'aéronautique civile\nEst punie de 20 ans d'emprisonnement et d'une amende de cent mille dinars, toute personne qui, à bord d'un aéronef en vol, s'empare de cet aéronef illicitement par violence ou menace de violence ou en exerce le contrôle.\n\n[2] Source: article 150 bis (Ajouté par la loi n°2005-84 du 15 août 2005) du Code de l'aéronautique civile\nEst passible de la même peine prévue à l'article 150 (nouveau), toute personne : a) qui, intentionnellement, accomplit un acte de violence à l'encontre d'une personne se trouvant à bord d'un aéronef en vol, si cet acte est de nature à compromettre la sécurité de cet aéronef. b) détruit un aéronef en service ou cause à un tel aéronef des dommages qui le rendent inapte au vol ou qui sont de nature à compromettre sa sécurité en vol. c) place ou fait placer sur un aéronef en service, par quelque moyen que ce soit, un dispositif ou des substances propres à détruire ledit aéronef ou à lui causer des dommages qui le rendent inapte au vol. d) détruit ou endommage des installations ou services de navigation aérienne y compris les bâtiments, les équipements et les dispositifs ou en perturbe le fonctionnement si l'un de ces actes est de nature à compromettre la sécurité en vol. e) communique une information qu'elle sait être fausse et, de ce fait, compromet la sécurité d'un aéronef en vol."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 150 du Code de l'aéronautique civile, toute personne qui s'empare illicitement d'un aéronef en vol par violence ou menace de violence, ou qui en exerce le contrôle, est punie de 20 ans d'emprisonnement et d'une amende de cent mille dinars. Par ailleurs, l'article 150 bis étend la même peine à d'autres actes de terrorisme aérien : violence contre une personne à bord compromettant la sécurité, destruction d'aéronef en service, placement d'un dispositif destructeur, destruction d'installations de navigation aérienne, ou communication de fausses informations compromettant la sécurité. L'article 150 ter (non inclus ici) aggrave la peine à l'emprisonnement à vie et 200 000 dinars si l'acte entraîne la mort d'un être humain. Ces dispositions visent à réprimer sévèrement les actes de détournement et de sabotage aériens. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 150 et 150 bis du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_cross_ar_fr_054",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [152, 153, 154],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui est habilité à constater les infractions au Code de l'aéronautique civile, et quels objets peuvent être saisis? (Question en français, answer in Arabic)\n\nDocuments pertinents (textes originaux français):\n[1] Source: article 152 du Code de l'aéronautique civile\nSont chargés de la constatation des infractions aux dispositions du présent code et des textes pris pour son application, les agents assermentés et habilités à cet effet par le Ministre chargé de l'Aviation Civile, les agents de police judiciaire, les agents des douanes et les agents de l'autorité militaire.\n\n[2] Source: article 153 du Code de l'aéronautique civile\nLes agents visés à l'article 152 peuvent, chacun dans les limites de sa compétence, saisir les explosifs, les armes, les clichés, les photos, les correspondances postales, les appareils radio-télégraphiques et radio-téléphoniques ainsi que tous les objets trouvés en contravention avec la législation en vigueur. Ils peuvent saisir les appareils de prise de vues et les clichés qui se trouvent à bord d'aéronefs autorisés à transporter ces objets et ce dans le cas où ces aéronefs seraient passés au-dessus des zones interdites prévues à l'article 76 du présent code. Ils peuvent saisir également les pigeons voyageurs ainsi que les messages dont ils seraient porteurs. La confiscation des objets et des appareils saisis est prononcée par jugement.\n\n[3] Source: article 154 du Code de l'aéronautique civile\nLes aéronefs dont les documents de bord prescrits par la réglementation en vigueur ne sont pas produits ou dont les marques d'immatriculation ne sont pas conformes au certificat de navigabilité, peuvent être retenus, aux frais et risques de l'exploitant par les autorités compétentes, jusqu'à ce que l'identité de l'exploitant soit établie. Les aéronefs qui ne satisfont pas aux prescriptions relatives à la navigabilité ou pour lesquels les taxes et redevances exigées n'ont pas été payées, peuvent être également retenus dans les conditions fixées par la réglementation en vigueur."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 152، المكلفون بمعاينة المخالفات هم: الأعضاء المنتدبون والمؤهلون من قبل الوزير المكلف بالطيران المدني، وأعضاء الشرطة القضائية، وأعضاء الديوانة، وأعضاء السلطة العسكرية. وبموجب الفصل 153، يحق لهؤلاء الأعضاء حجز المتفجرات والأسلحة والصور والمراسلات البريدية وأجهزة الراديو والتلفون والحمام الزاجل والرسائل التي تحملها، بالإضافة إلى آلات التصوير والصور إذا عبرت الطائرة مناطق محظورة. ويتم الحجز بناءً على حكم قضائي. أما الفصل 154، فيجوز حجز الطائرة نفسها (بمعنى احتجازها) إذا لم تُنتج وثائق الملاحة أو كانت علامات التسجيل غير مطابقة، وذلك على نفقة المشغل حتى تثبت هويته. كما يمكن احتجاز الطائرة إذا لم تلتزم بقواعد الصلاحية للطيران أو لم تسدد الضرائب والأداءات المستحقة. تهدف هذه الأحكام إلى تمكين السلطات من مراقبة الامتثال للقانون. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصول 152 و153 و154 من مجلة الطيران المدني"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_direct_055",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [110, 112],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les obligations des entreprises de transport aérien en matière de communication d'informations au Ministère chargé de l'aviation civile?\n\nDocuments pertinents:\n[1] Source: article 110 du Code de l'aéronautique civile\nLes entreprises de transport aérien doivent sur la demande des contrôleurs visés à l'article 109 du présent code, communiquer aux eux-ci tous les documents nécessaires à l'exercice de leur mission.\n\n[2] Source: article 112 du Code de l'aéronautique civile\nLes entreprises de transport aérien doivent soumettre les programmes d'exploitation à l'approbation préalable des services compétents du Ministère chargé de l'Aviation Civile."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 110, les entreprises de transport aérien ont l'obligation, à la demande des contrôleurs (visés à l'article 109), de leur communiquer tous les documents nécessaires à l'exercice de leur mission de contrôle. Par ailleurs, l'article 112 impose une autre obligation : soumettre les programmes d'exploitation à l'approbation préalable des services compétents du Ministère chargé de l'Aviation Civile. Ainsi, deux obligations distinctes : une obligation de réponse sur demande (article 110) et une obligation d'approbation préalable (article 112). Toutefois, l'article 109 (non inclus ici) précise que le contrôle peut être exercé au sol et en vol par des contrôleurs assermentés, et que les dépenses de contrôle sont à la charge de l'entreprise. La finalité est d'assurer la sécurité et la régularité des services de transport aérien. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 110, 112 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_multi_056",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [130, 138],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Le conseil technique de discipline peut-il proposer la grâce en faveur d'un agent sanctionné? Et les dispositions des articles 107, 109 et 110 s'appliquent-elles aux activités soumises à agrément?\n\nDocuments pertinents:\n[1] Source: article 130 du Code de l'aéronautique civile\nLe conseil technique de discipline peut proposer au Ministre chargé de l'Aviation Civile : - des avis et des recommandations pour corriger les défaillances dont il a eu connaissance. - la grâce en faveur du personnel aéronautique ayant encouru des sanctions disciplinaires et qui se sont ultérieurement, rachetés par une conduite professionnelle exemplaire.\n\n[2] Source: article 138 du Code de l'aéronautique civile\nLes dispositions des articles 107, 109 et 110 du présent code sont applicables aux activités de l'aéronautique civile visées à l'article 136 du présent code."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 130, oui, le conseil technique de discipline peut proposer la grâce au Ministre chargé de l'Aviation Civile en faveur du personnel aéronautique qui a encouru des sanctions disciplinaires mais qui s'est ultérieurement racheté par une conduite professionnelle exemplaire. Le conseil peut également émettre des avis et recommandations pour corriger les défaillances. Par ailleurs, l'article 138 dispose que les articles 107 (incapacité civile pour exercer une activité de transport aérien), 109 (contrôle) et 110 (communication de documents) sont applicables aux activités de l'aéronautique civile soumises à agrément (visées à l'article 136). Ainsi, les même exigences d'honorabilité, de contrôle et de transparence s'appliquent aux activités agréées. La finalité de l'article 130 est de permettre une seconde chance après réhabilitation professionnelle, tandis que l'article 138 assure l'uniformité des règles de contrôle. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 130, 138 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_principle_exception_057",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [101, 104],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je souhaite effectuer des travaux d'entretien sur un bâtiment situé dans une zone grevée de servitudes aéronautiques. Dois-je obtenir une autorisation préalable? Et que faire si ma construction existante dépasse la hauteur autorisée?\n\nDocuments pertinents:\n[1] Source: article 101 du Code de l'aéronautique civile\nLes travaux d'entretien et de réparation des bâtiments ou de tous autres ouvrages, qui nécessitent l'utilisation d'engins ou de dispositifs susceptibles de présenter un danger pour la circulation aérienne ou de ceux dont la hauteur est supérieure à la limite visée par l'article 99 du présent code, doivent être soumis à l'autorisation préalable des services compétents du Ministère chargé de l'Aviation Civile.\n\n[2] Source: article 104 du Code de l'aéronautique civile\nA l'extérieur des zones grevées des servitudes prévues à l'article 98 du présent code, toute création d'objets qui, en raison de leur hauteur, pourraient constituer des obstacles à la navigation aérienne, est soumise à une autorisation préalable du Ministre chargé de l'Aviation Civile, toutes les fois que la hauteur au-dessus du sol de ces objets dépasse une hauteur fixée par arrêté du Ministre chargé de l'Aviation Civile. Le ministre chargé de l'Aviation civile peut également prescrire la suppression ou la modification de tout dispositif de nature à créer une confusion avec les aides visuelles à la navigation aérienne ou qui constitue une source d'éblouissement aux navigateurs aériens."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 101, le principe est que les travaux d'entretien ou de réparation qui nécessitent des engins ou dispositifs pouvant présenter un danger pour la circulation aérienne, ou dont la hauteur dépasse la limite fixée à l'article 99, sont soumis à autorisation préalable des services compétents du Ministère. Ceci vaut à l'intérieur des zones grevées de servitudes. L'article 104 s'applique à l'extérieur de ces zones : toute création d'objet dépassant une hauteur réglementaire (fixée par arrêté) doit également obtenir une autorisation préalable. En cas de construction existante dépassant la hauteur autorisée, l'article 102 (non inclus ici) prévoit que l'administration peut ordonner la suppression ou modification moyennant indemnité si l'existence est antérieure à l'établissement des servitudes. Si la construction est postérieure, l'indemnité n'est pas due. Ainsi, l'obligation d'autorisation est large, et le non-respect expose à des mesures de suppression. La finalité est de protéger la sécurité aérienne contre les obstacles physiques et les nuisances visuelles. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 101, 104 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_direct_058",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["décret 2009-3333 art.6"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: من يترأس اللجنة الوطنية للبحث والإنقاذ في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 6 من الأمر عدد 2009-3333 المؤرخ في 2 نوفمبر 2009\nتترأس اللجنة الوطنية للبحث والإنقاذ وزير النقل أو من ينوب عنه وتتكون من الأعضاء التالية أسماؤهم: - رئيس مكتب الدراسات والتنسيق للبحث والإنقاذ، - رئيس مركز تنسيق الإنقاذ، - ممثلان عن وزارة النقل، - ثلاثة ممثلين عن وزارة الدفاع الوطني، - ممثلان عن وزارة الداخلية والتنمية المحلية، - ممثل عن وزارة الشؤون الخارجية، - ممثل عن وزارة المالية، - ممثل عن وزارة الصحة العمومية. يعين أعضاء اللجنة بقرار من وزير النقل بناء على اقتراح الوزراء المعنيين."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 6 من الأمر عدد 2009-3333، يرأس اللجنة الوطنية للبحث والإنقاذ وزير النقل أو من ينوب عنه. وتتكون اللجنة من ممثلين عن وزارات الدفاع والداخلية والخارجية والمالية والصحة، بالإضافة إلى مكتب الدراسات والتنسيق ومركز التنسيق. غير أن النص ينص على أن الرئيس هو الوزير شخصياً أو ممثله، وليس رئيساً آخر منتخباً. تهدف هذه اللجنة إلى تنسيق عمليات البحث والإنقاذ للطائرات المعرضة للخطر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصل 6 من الأمر عدد 2009-3333"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_multi_059",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["décret 2000-1526 art.2", "décret 2018-37 art.1"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: من هم أعضاء المجلس التقني للتأديب لأفراد الطيران المدني، ومن يترأس المجلس الوطني للطيران المدني؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 2 من الأمر عدد 2000-1526 المؤرخ في 3 يوليو 2000 (تحديد تركيبة المجلس التقني للتأديب)\nيتكون المجلس التقني للتأديب، حسب صنف رخصة العامل المحال عليه، من الأعضاء التالية أسماؤهم: أ) بالنسبة للأفراد الملاحين المهنيين: - ممثل عن وزارة النقل: رئيس، - ممثلان عن ديوان الطيران المدني والمطارات: عضوان، - ممثل عن مشغل الطائرة المعني: عضو، - ممثل عن هيئة الأفراد الملاحين المهنيين المعنية: عضو. ب) بالنسبة للأفراد الملاحين الخواص: - ممثل عن وزارة النقل: رئيس، - ممثل عن ديوان الطيران المدني والمطارات: عضو، - ممثل عن الجامعة التونسية للرياضات الجوية: عضو. ج) بالنسبة للأفراد الملاحين التكميليين: ممثل عن الوزارة رئيس، وممثل عن الديوان عضو، وممثل عن المشغل عضو. د) لميكانيكيي صيانة الطائرات: ممثل عن الوزارة رئيس، وممثل عن الديوان عضو، وممثل عن المشغل عضو. هـ) للوكلاء التقنيين للاستغلال: ممثل عن الوزارة رئيس، وممثل عن الديوان عضو، وممثل عن المشغل عضو. و) لمراقبي الملاحة الجوية: ممثل عن الوزارة رئيس، وممثلان عن الديوان عضوان، وممثل عن هيئة مراقبي الملاحة الجوية عضو.\n\n[2] المصدر: الفصل 1 من الأمر الحكومي عدد 2018-37 المؤرخ في 10 يناير 2018\nيترأس المجلس الوطني للطيران المدني الوزير المكلف بالنقل أو من ينوب عنه ويتكون من الأعضاء التالية أسماؤهم: - ممثل عن وزارة الداخلية، - ممثل عن وزارة الشؤون الخارجية، - ممثل عن وزارة الدفاع الوطني، - ممثل عن وزارة المالية، - ممثل عن وزارة التجارة، - ممثل عن وزارة الاستثمار والتعاون الدولي، - ممثل عن وزارة أملاك الدولة والشؤون العقارية، - ممثل عن وزارة التجهيز والإسكان والتهيئة الترابية، - ممثل عن وزارة البيئة، - ممثل عن وزارة السياحة، - المدير العام للطيران المدني بوزارة النقل، - رئيس اتحاد النقل التابع للاتحاد التونسي للصناعة والتجارة والصناعات التقليدية."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 2 من الأمر 2000-1526، يختلف أعضاء المجلس التقني للتأديب حسب فئة الرخصة (ملاح مهني، خاص، تكميلي، ميكانيكي، وكيل تقني، مراقب جوي). وفي جميع الحالات، يكون الرئيس ممثلاً عن وزارة النقل. أما المجلس الوطني للطيران المدني، فوفقاً للفصل 1 من الأمر 2018-37، يترأسه الوزير المكلف بالنقل أو من ينوبه، ويضم ممثلين عن عدة وزارات (الداخلية، الخارجية، الدفاع، المالية، التجارة، الاستثمار، أملاك الدولة، التجهيز، البيئة، السياحة) بالإضافة إلى المدير العام للطيران المدني ورئيس اتحاد النقل. وبالتالي، فالمجلس التقني مختص بالمسائل التأديبية للأفراد، والمجلس الوطني مختص بالاستشارات المتعلقة بسياسة الطيران المدني. يهدف كلا المجلسين إلى ضمان التخصص والتمثيل المهني. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصل 2 من الأمر 2000-1526 والفصل 1 من الأمر الحكومي 2018-37"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_refusal_060",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": ["décret 2009-3646 art.5", "81 loi 2015-53"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: كم تبلغ قيمة الضريبة على الرحلات الجوية الدولية التي تطبق على كل مسافر قادم إلى تونس، وهل تسري على المسافرين التونسيين فقط؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 81 من قانون المالية لسنة 2016 (مضمن في الصفحة 113 من ملف PDF)\nتحدث خطية تساوي 20 ديناراً تؤديها شركات الطيران المدني عن كل مسافر يدخل تونس عن طريق رحلات دولية. تسرى هذه الخطية أيضاً على شركات النقل البحري عن كل مسافر يرسو في تونس عن طريق البحر. يعفى من هذه الخطية: - المسافرون العابرون، - الأطفال أقل من سنتين، - المسافرون على متن طائرات مستأجرة من قبل دولة أجنبية في إطار زيارة رسمية، - مسافرو الرحلات البحرية السياحية.\n\n[2] المصدر: الفصل 5 من الأمر عدد 2009-3646 المؤرخ في 2 ديسمبر 2009\nيجب أن تتضمن سند الشحن الجوي بصفة خاصة البيانات التالية: ... ط) ثمن النقل إذا تم تحديده وتاريخ ومكان الأداء والشخص الذي يجب أن يؤدي، ن) إذا كان الإرسال مقابل استرداد ثمن البضاعة، ثمن البضاعة وربما مصاريف، ... خ) عدد نسخ سند الشحن الأصلية، ر) أجل النقل وما إذا تم تحديد طريق مختصرة."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن هذه الأسئلة. الفصل 81 من قانون المالية لسنة 2016 يحدد مبلغ الضريبة بـ 20 ديناراً عن كل مسافر يدخل تونس عبر رحلة دولية، ويذكر الإعفاءات (العبور، الأطفال دون سنتين، الطائرات المستأجرة لزيارة رسمية، رحلات بحرية سياحية). لكنه لا يحدد ما إذا كانت تسري على المسافرين التونسيين فقط أم على جميع الجنسيات. النص يقول 'عن كل مسافر' دون تمييز، لكن قد توجد مذكرة تفسيرية أو تعليمات تطبيقية غير مدرجة. كما أن الفصل 5 من الأمر 2009-3646 لا علاقة له بالضريبة. أنصحك بالرجوع إلى النص الكامل للفصل 81 من قانون المالية 2016 وتفسير الإدارة العامة للضرائب. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": ["Titre II Chapitre I (art.8,16)", "Titre II Chapitre II Section III (art.30,34)", "Titre II Chapitre III Section I (art.41,43)", "Titre II Chapitre III Section II (art.50,51,54,55,56,57,59,60)", "Titre II Chapitre IV (art.101,104)", "Titre IV Chapitre I (art.110,112)", "Titre V Chapitre II (art.130)", "Titre VII Chapitre I (art.138)", "Titre VIII (art.150,150bis,152,153,154)", "Décret 93-1154 art.4,6,9,13,16", "Décret 2009-3646 art.2,5", "Décret 2009-3333 art.1,6,18", "Décret 2000-1526 art.2", "Décret 2018-37 art.1,3", "Loi 2015-53 art.81"],
+    "sections_not_covered": ["Titre II Chapitre II Section III (art.35)", "Titre II Chapitre III Section II (art.61,62,63,65,66)", "Titre III Chapitre III (art.103)", "Titre V Chapitre I (art.126)", "Décret 93-1154 articles 5,7,10,11,14,15,17,19-29 (partiellement)", "Décret 2009-1062 (enquêtes techniques)", "Décret n°2016-625"],
+    "notes": "Troisième batch couvre des articles et décrets non utilisés précédemment, en particulier la procédure de saisie-exécution (art.50-60), les servitudes aéronautiques (101,104), les redevances (décret 93-1154), les instances disciplinaires et nationales (décrets 2000-1526, 2018-37), les pénalités (150,150bis,152-154), et la taxe sur les vols internationaux (loi 2015-53). L'arabe est en MSA formelle. Les 20 exemples respectent la répartition 10 français / 10 arabe avec 2 cross-lingual."
+  }
+}

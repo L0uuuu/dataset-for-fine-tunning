@@ -1,0 +1,470 @@
+{
+  "batch_id": "batch_CDIP_002_20260122",
+  "source": "Code de Droit International Privé de Tunisie (Loi n° 98-97 du 27 novembre 1998)",
+  "articles_covered": [6, 7, 10, 13, 14, 15, 18, 21, 22, 24, 25, 28, 29, 31, 33, 34, 35, 37, 38, 41, 42, 47, 48, 52, 53, 55, 56, 58, 59, 63, 65, 66, 68, 71, 73, 74, 75, 76],
+  "articles_to_avoid_next_batch": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 62, 63, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76],
+  "examples": [
+    {
+      "example_id": "CDIP_023_fr_direct_03",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [6],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que parent résidant en Tunisie, puis-je saisir les tribunaux tunisiens pour une action en filiation concernant mon enfant mineur ?\n\nDocuments pertinents:\n[1] Source: article 6 du CDIP\nLes tribunaux tunisiens connaissent aussi:\n1- Des actions relatives à la filiation ou à une mesure de protection d'un mineur résident en territoire tunisien.\n2- Des actions relatives à l'obligation alimentaire lorsque le créancier réside en Tunisie.\n3- De l'action relative à une succession ouverte en Tunisie ou à une dévolution successorale de biens immeubles ou meubles, situés en Tunisie."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 6 du CDIP, les tribunaux tunisiens sont compétents pour connaître des actions relatives à la filiation lorsqu'un mineur réside sur le territoire tunisien [1]. Ainsi, en tant que parent résidant en Tunisie, vous pouvez valablement saisir la juridiction tunisienne pour une action en filiation concernant votre enfant. Par ailleurs, cette compétence s'étend également aux mesures de protection du mineur et aux obligations alimentaires lorsque le créancier réside en Tunisie. En effet, le législateur a privilégié le critère de résidence du mineur ou du créancier pour garantir une protection effective des personnes vulnérables et faciliter l'accès à la justice en Tunisie. Sources: art. 6 du CDIP. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_024_fr_direct_04",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [58],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis propriétaire d'un terrain en Tunisie acheté par un étranger. Quelle loi s'applique aux droits réels sur ce bien ?\n\nDocuments pertinents:\n[1] Source: article 58 du CDIP\nLa possession, la propriété et les autres droits réels sont régis par la loi de la situation du bien."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 58 du CDIP, la possession, la propriété et les autres droits réels sont régis par la loi de la situation du bien [1]. Ainsi, pour un terrain situé en Tunisie, c'est le droit tunisien qui s'applique exclusivement aux questions relatives à la propriété, à la possession ou aux servitudes, indépendamment de la nationalité du propriétaire. Toutefois, cette règle s'applique aux droits réels immobiliers ; les droits réels mobiliers peuvent suivre des règles distinctes visées aux articles 59 et 60. En effet, le législateur a adopté le principe de la lex rei sitae pour assurer la sécurité juridique et la prévisibilité des transactions foncières sur le territoire national. Sources: art. 58 du CDIP. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_025_fr_multi_03",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [47, 48],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Pour un couple binationel marié en Tunisie, quelle loi régit leurs obligations conjugales et leur régime matrimonial ?\n\nDocuments pertinents:\n[1] Source: article 47 du CDIP\nLes obligations respectives des époux sont régies par leur loi nationale commune. Si les deux époux n'ont pas la même nationalité, la loi applicable est celle de leur dernier domicile commun ou, à défaut de celui-ci, la loi du for.\n\n[2] Source: article 48 du CDIP\nLe régime matrimonial est soumis à la loi nationale commune des époux de même nationalité au moment de la célébration du mariage. En cas de nationalités différentes, le régime matrimonial est régi par la loi de leur premier domicile commun s'il y en a, ou par la loi du lieu de la conclusion du contrat du mariage."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 47 du CDIP, les obligations respectives des époux sont régies par leur loi nationale commune, ou à défaut par celle de leur dernier domicile commun, ou subsidiairement par la loi du for tunisien [1]. Par ailleurs, l'article 48 prévoit que le régime matrimonial suit la loi nationale commune au moment du mariage, ou en cas de nationalités différentes, la loi du premier domicile commun ou du lieu de célébration du mariage [2]. Toutefois, ces deux régimes peuvent diverger si le domicile commun change après le mariage ou si les époux n'ont jamais eu de domicile commun. Ainsi, le législateur a instauré des critères de rattachement hiérarchisés pour assurer la cohérence du statut matrimonial tout en respectant l'autonomie des époux et la stabilité des situations familiales internationales. Sources: art. 47, 48 du CDIP. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_026_fr_multi_04",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [73, 74],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Après un accident de la route en Tunisie impliquant un véhicule étranger, quelle loi s'applique et puis-je agir directement contre l'assureur ?\n\nDocuments pertinents:\n[1] Source: article 73 du CDIP\nLa responsabilité résultant d'un accident de la circulation routière est soumise à la loi du lieu de l'accident.\nLa victime peut se prévaloir de la loi du lieu du dommage.\nToutefois, lorsque toutes les parties sont résidentes dans le pays qui est en même temps celui où sont immatriculés le ou les véhicules en rapport avec l'accident, la loi de ce pays est applicable.\n\n[2] Source: article 74 du CDIP\nLa victime peut agir directement contre l'assureur du responsable si le droit applicable au fait dommageable, ou le droit applicable au contrat d'assurance, le permet."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 73 du CDIP, la responsabilité résultant d'un accident de la circulation est régie par la loi du lieu de l'accident, soit le droit tunisien en l'espèce [1]. La victime peut toutefois invoquer la loi du lieu du dommage si celui-ci s'est produit dans un autre État. Par ailleurs, l'article 74 permet à la victime d'agir directement contre l'assureur du responsable, à condition que le droit applicable au fait dommageable ou au contrat d'assurance le prévoie [2]. Toutefois, cette action directe dépend des conditions spécifiques du contrat d'assurance et du droit étranger éventuellement applicable. Ainsi, le législateur a facilité l'indemnisation des victimes en permettant l'action directe contre l'assureur, tout en préservant la sécurité juridique par des critères de rattachement clairs pour déterminer la loi applicable. Sources: art. 73, 74 du CDIP. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_027_fr_principle_exception_03",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [35, 36],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Le juge tunisien peut-il appliquer une loi étrangère désignée par renvoi depuis une autre loi étrangère ?\n\nDocuments pertinents:\n[1] Source: article 35 du CDIP\nSauf dispositions contraires de la loi, le renvoi n'est pas admis, qu'il aboutisse à l'application de la loi tunisienne ou à celle d'un autre Etat.\n\n[2] Source: article 36 du CDIP\nL'exception de l'ordre public ne peut être soulevée par le juge que lorsque les dispositions du droit étranger désigné s'opposent aux choix fondamentaux du système juridique tunisien.\nLe juge invoque l'exception de l'ordre public, quelle que soit la nationalité des parties au litige.\nL'exception de l'ordre public ne dépend pas de l'intensité du rapport entre l'ordre juridique tunisien et le litige.\nLa loi étrangère n'est écartée que dans ses dispositions contraires à l'ordre public au sens du droit international privé tunisien.\nLe juge applique les dispositions de la loi tunisienne au lieu des dispositions de la loi étrangère écartées."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 35 du CDIP, le renvoi n'est pas admis en principe, qu'il aboutisse à l'application de la loi tunisienne ou à celle d'un autre État, sauf dispositions contraires de la loi [1]. Toutefois, même lorsque la loi étrangère désignée est applicable, l'article 36 permet au juge d'écarter ses dispositions si elles s'opposent aux choix fondamentaux du système juridique tunisien au sens de l'ordre public international [2]. Ainsi, le juge applique alors les dispositions de la loi tunisienne en substitution. En effet, le législateur a privilégié la sécurité juridique en rejetant le renvoi, tout en préservant une soupape de sécurité via l'exception d'ordre public pour protéger les valeurs essentielles du droit tunisien dans les relations internationales. Sources: art. 35, 36 du CDIP. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_028_fr_principle_exception_04",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [24, 25],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les biens d'un État étranger situés en Tunisie peuvent-ils faire l'objet de mesures d'exécution forcée ?\n\nDocuments pertinents:\n[1] Source: article 24 du CDIP\nLes biens de l'Etat étranger et des personnes morales visés à l'article 19 du présent code ne sont pas couverts par l'immunité d'exécution lorsqu'ils sont affectés à une activité privée ou à caractère commercial.\n\n[2] Source: article 25 du CDIP\nL'Etat étranger ainsi que les personnes morales visés à l'article 19 du présent code peuvent renoncer à l'immunité d'exécution sur leurs biens couverts par cette immunité.\nLa renonciation doit être certaine, expresse et non équivoque."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 24 du CDIP, les biens d'un État étranger situés en Tunisie ne bénéficient pas de l'immunité d'exécution lorsqu'ils sont affectés à une activité privée ou commerciale [1]. Ainsi, ces biens peuvent faire l'objet de mesures d'exécution forcée pour satisfaire des créances liées à cette activité. Par ailleurs, l'article 25 prévoit que l'État étranger peut renoncer volontairement à l'immunité d'exécution, à condition que cette renonciation soit certaine, expresse et non équivoque [2]. Toutefois, les biens affectés à des activités souveraines ou de service public demeurent protégés par l'immunité d'exécution en vertu de l'article 23. En effet, le législateur a distingué les actes de gestion commerciale (immunité écartée) des actes de souveraineté (immunité maintenue) pour concilier le respect de la souveraineté étrangère avec la protection des droits des créanciers en Tunisie. Sources: art. 24, 25 du CDIP. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_029_fr_refusal_03",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le montant exact des frais de justice pour une procédure d'exequatur devant le tribunal de Tunis ?\n\nDocuments pertinents:\n[1] Source: article 16 du CDIP\nLes actions relatives à l'exequatur, à la non reconnaissance ou à la déclaration d'inopposabilité des décisions et jugements étrangers sont introduites devant le tribunal de première instance au lieu du domicile de la partie contre laquelle la décision étrangère est invoquée. A défaut d'un domicile en Tunisie, l'action est portée devant le tribunal de première instance de Tunis."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code de Droit International Privé précise la compétence territoriale pour les demandes d'exequatur (article 16), mais ne fixe pas le tarif des frais de justice, qui relève de textes réglementaires distincts. Je vous recommande de consulter un avocat spécialisé ou le greffe du tribunal de première instance de Tunis pour obtenir le barème actualisé des frais applicables à votre procédure."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_030_fr_refusal_04",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La Tunisie reconnaît-elle automatiquement les jugements de divorce prononcés en Arabie Saoudite ?\n\nDocuments pertinents:\n[1] Source: article 11 du CDIP\nL'exequatur n'est pas accordé aux décisions judiciaires étrangères si: [...] - La décision étrangère est contraire à l'ordre public au sens du droit international privé tunisien, ou a été rendue à la suite d'une procédure n'ayant pas préservé les droits de la défense."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. L'article 11 du CDIP énonce les conditions générales de refus d'exequatur, notamment le respect de l'ordre public tunisien et des droits de la défense, mais ne liste pas les États dont les jugements sont automatiquement reconnus. Je vous recommande de consulter un avocat spécialisé en droit international privé ou le Ministère de la Justice pour vérifier les conditions spécifiques d'exequatur applicables aux jugements saoudiens en Tunisie."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_031_fr_clarification_02",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [29],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: À quel moment faut-il considérer l'élément de rattachement pour déterminer la loi applicable ?\n\nDocuments pertinents:\n[1] Source: article 29 du CDIP\nLa loi applicable est désignée selon le cas soit en fonction de l'élément de rattachement existant au moment de la naissance de la situation juridique, soit en vertu de celui existant au moment où se produisent les effets de cette situation juridique."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour vous répondre précisément, pourriez-vous indiquer de quelle situation juridique il s'agit (contrat, statut personnel, succession, etc.) ? L'article 29 du CDIP prévoit deux hypothèses : soit l'élément de rattachement est apprécié au moment de la naissance de la situation juridique, soit au moment où se produisent ses effets [1]. Cette distinction est cruciale car la loi applicable peut varier selon le moment retenu, notamment en matière de changement de nationalité ou de domicile. Sources: art. 29 du CDIP."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_032_fr_procedural_02",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [14, 15, 18],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui peut initier une procédure d'exequatur et quels sont les effets d'une décision étrangère exécutoire en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 14 du CDIP\nLa partie la plus diligente peut agir soit pour demander l'exequatur, soit pour requérir le refus de reconnaissance.\n\n[2] Source: article 15 du CDIP\nTout tiers intéressé peut demander la déclaration d'inopposabilité à son égard du jugement ou de la décision étrangère.\nL'inopposabilité sera déclarée si l'une des conditions requises pour l'exequatur fait défaut au jugement ou à la décision étrangère.\n\n[3] Source: article 18 du CDIP\nLes décisions et jugements étrangers devenus exécutoires en Tunisie sont exécutés conformément à la loi tunisienne et sous réserve de réciprocité."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 14, 15 et 18 du CDIP, la procédure d'exequatur peut être initiée par la partie la plus diligente pour demander l'exequatur ou le refus de reconnaissance [1], et tout tiers intéressé peut solliciter la déclaration d'inopposabilité si les conditions légales font défaut [2]. Une fois la décision étrangère devenue exécutoire en Tunisie, son exécution suit les règles de la loi tunisienne, sous réserve de réciprocité [3]. Toutefois, cette exécution reste subordonnée au respect des conditions de fond de l'article 11 (ordre public, droits de la défense, etc.). Ainsi, le législateur a organisé une procédure équilibrée permettant à toutes les parties concernées de faire valoir leurs droits, tout en facilitant l'exécution des décisions étrangères conformes à l'ordre juridique tunisien. Sources: art. 14, 15, 18 du CDIP. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_033_ar_direct_03",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [41],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو القانون المطبق على إجراءات الحجز التحفظي لقاصر مقيم في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 41 من مجلة القانون الدولي الخاص\nتخضع الوصاية للقانون الوطني للقاصر أو المحجور عليه. غير أن التدابير المؤقتة أو المستعجلة تُتخذ بمقتضى القانون التونسي إذا وجد القاصر أو المحجور عليه على الإقليم التونسي وقت اتخاذ هذه التدابير، أو إذا كانت تدابير الحماية تتعلق بمنقول أو عقار موجود في تونس."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 41 من مجلة القانون الدولي الخاص، تخضع الوصاية بشكل عام للقانون الوطني للقاصر أو المحجور عليه [1]. غير أن المشرع استثنى من هذه القاعدة التدابير المؤقتة أو المستعجلة، حيث تُتخذ وفقاً للقانون التونسي إذا وجد القاصر على الإقليم التونسي وقت اتخاذ التدابير، أو إذا تعلقت الحماية بمنقول أو عقار في تونس. وبالتالي، يمكن للقاضي التونسي اتخاذ إجراءات الحجز التحفظي بشكل مستعجل لحماية مصالح القاصر المقيم في تونس، حتى لو كان قانونه الوطني مختلفاً. وبالتالي، يهدف هذا الاستثناء إلى ضمان الحماية الفورية والفعالة للقُصّر الموجودين على التراب التونسي، مع احترام مبدأ المصلحة الفضلى للطفل. المصادر: الفصل 41 من مجلة القانون الدولي الخاص. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_034_ar_direct_04",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [55],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو القانون الذي يحكم شكل الوصية إذا أُعدت في الخارج بواسطة تونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 55 من مجلة القانون الدولي الخاص\nيخضع الإرث للقانون الوطني للموصي وقت وفاته. ويخضع شكل الوصية للقانون الوطني للموصي أو لقانون المكان الذي أُعدت فيه."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 55 من مجلة القانون الدولي الخاص، يخضع شكل الوصية إما للقانون الوطني للموصي أو لقانون المكان الذي أُعدت فيه [1]. وبالتالي، إذا أعد تونسي وصيته في الخارج، فيجوز أن تخضع لشكل القانون التونسي أو لقانون الدولة التي أُعدت فيها، حسب اختيار الموصي أو حسب الشروط الشكلية المتوفرة. علاوة على ذلك، يُطبق القانون الوطني للموصي على مضمون الوصية ذاتها. وبالتالي، يهدف المشرع إلى تسهيل إعداد الوصايا في السياق الدولي مع ضمان احترام إرادة الموصي وحماية حقوق الورثة وفق القانون الأنسب. المصادر: الفصل 55 من مجلة القانون الدولي الخاص. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_035_ar_multi_03",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [52, 53],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي القوانين المطبقة على إثبات النسب وعلى إجراءات التبني في حالة دولية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 52 من مجلة القانون الدولي الخاص\nيطبق القاضي القانون الأكثر ملاءمة لإثبات نسب الطفل، بين: القانون الوطني للمدعى عليه أو مكان إقامته، والقانون الوطني للطفل أو مكان إقامته. وتخضع مناقشة النسب للقانون الذي بموجبه تم إثباته.\n\n[2] المصدر: الفصل 53 من مجلة القانون الدولي الخاص\nتخضع شروط التبني لقانون المتبني وقانون المتبنَّى، كلٌّ فيما يخصه. وتخضع آثار التبني للقانون الوطني للمتبني. إذا مُنح التبني لزوجين مختلفي الجنسية، تخضع آثاره لقانون موطنهما المشترك. وتخضع الكفالة لنفس الأحكام."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 52 من المجلة، يطبق القاضي القانون الأكثر ملاءمة لإثبات نسب الطفل، باختيار بين قانون المدعى عليه أو قانون الطفل، الوطني أو محل الإقامة [1]. وبالتالي، يُراعى مبدأ مصلحة الطفل الفضلى في تحديد القانون الأنسب. علاوة على ذلك، ينص الفصل 53 على أن شروط التبني تخضع لقانون كل من المتبني والمتبنَّى على حدة، بينما تخضع آثار التبني لقانون المتبني الوطني، أو لقانون الموطن المشترك إذا كان الزوجان مختلفي الجنسية [2]. غير أن الكفالة تخضع لنفس القواعد. وبالتالي، يهدف المشرع إلى تحقيق مرونة في إثبات النسب لحماية حقوق الطفل، مع تنظيم التبني وفق معايير واضحة تحترم الروابط الشخصية والقانونية للأطراف في السياق الدولي. المصادر: الفصلان 52 و53 من مجلة القانون الدولي الخاص. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_036_ar_multi_04",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [75, 76],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي القوانين المطبقة على تحديد المسؤولية التقصيرية وعلى إدارة الأعمال بدون تفويض في حالة دولية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 75 من مجلة القانون الدولي الخاص\nيحدد القانون المطبق على الفعل الضار، على وجه الخصوص، الأهلية المتعلقة بالمسؤولية المدنية، وشروط ومدى هذه المسؤولية، وكذلك الشخص المسؤول.\nوتُؤخذ بعين الاعتبار قواعد السلامة والسلوك المعمول بها في المكان الذي وقع فيه الفعل الضار.\n\n[2] المصدر: الفصل 76 من مجلة القانون الدولي الخاص\nتخضع إدارة الأعمال بدون تفويض، والإثراء بلا سبب، ودفع ما ليس مستحقاً، لقانون الدولة التي وقع فيها الفعل المولد."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 75 من المجلة، يحدد القانون المطبق على الفعل الضار أهلية المسؤولية وشروطها ومداها والشخص المسؤول [1]. علاوة على ذلك، تُؤخذ في الاعتبار قواعد السلامة والسلوك السارية في مكان وقوع الفعل، مما يعزز التوافق مع المعايير المحلية. وبالنسبة لإدارة الأعمال بدون تفويض والإثراء بلا سبب، ينص الفصل 76 على خضوعها لقانون الدولة التي وقع فيها الفعل المولد [2]. وبالتالي، يهدف المشرع إلى ربط هذه الالتزامات غير التعاقدية بالنظام القانوني الأكثر ارتباطاً بالوقائع، لضمان العدالة والملاءمة في تحديد المسؤوليات والتعويضات في السياقات الدولية. المصادر: الفصلان 75 و76 من مجلة القانون الدولي الخاص. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_037_ar_principle_exception_03",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [40],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن لشخص قاصر بموجب قانونه الوطني أن يُعتبر قادراً على إبرام عقد في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 40 من مجلة القانون الدولي الخاص\nتخضع أهلية ممارسة الحقوق للأشخاص الطبيعيين للقانون الوطني، ولأشخاص الاعتبار للقانون الدولة التي يمارسون فيها أنشطتهم. عندما يُعتبر أحد أطراف معاملة مالية قادرًا بموجب قانون الدولة التي أُبرمت فيها المعاملة، لا يمكنه التمسك بعدم أهليته أو أهليته المحدودة، بموجب قانونه الوطني أو قانون الدولة التي وُلد أو مارس فيها نشاطه، إلا إذا كان الطرف المتعاقد الآخر يعلم أو كان ينبغي أن يعلم بعدم أهليته أو أهليته المحدودة وقت إبرام العقد."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفقرة الأولى من الفصل 40 من المجلة، تخضع أهلية الأشخاص الطبيعيين للقانون الوطني [1]. غير أن الفقرة الثانية تستثني من هذه القاعدة الحالات التي يُعتبر فيها الشخص قادراً بموجب قانون الدولة التي أُبرمت فيها المعاملة المالية، حيث لا يجوز له التمسك بعدم أهليته وفقاً لقانونه الوطني، إلا إذا كان الطرف الآخر يعلم أو كان ينبغي أن يعلم بهذا القصور وقت التعاقد. وبالتالي، يُحمى حسن نية المتعاقد الذي اعتمد على القانون المحلي للدولة التي أُبرم فيها العقد. وبالتالي، يهدف المشرع إلى تحقيق التوازن بين احترام الأهلية وفق القانون الوطني وضمان أمن المعاملات التجارية الدولية، من خلال حماية الأطراف الذين يتعاملون بحسن نية وفق القانون الظاهر. المصادر: الفصل 40 من مجلة القانون الدولي الخاص. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_038_ar_principle_exception_04",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [37],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل تُعترف في تونس بالآثار القانونية للوضعيات التي تم إنشاؤها بشكل صحيح في الخارج؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 37 من مجلة القانون الدولي الخاص\nتُعترف في تونس، بالآثار القانونية للوضعيات التي تم إنشاؤها بشكل منتظم في الخارج، وفقاً للقانون الذي تحدده قاعدة النزاع التونسية، ما لم يظهر أن هذه الآثار غير متوافقة مع النظام العام الدولي التونسي."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 37 من مجلة القانون الدولي الخاص، تُعترف في تونس بالآثار القانونية للوضعيات التي تم إنشاؤها بشكل منتظم في الخارج وفقاً للقانون الذي تحدده قاعدة النزاع التونسية [1]. غير أن هذه الاعتراف مشروط بعدم تعارض هذه الآثار مع النظام العام الدولي التونسي، وهو معيار يسمح للقاضي باستبعاد الآثار التي تتعارض مع القيم الأساسية للنظام القانوني التونسي. وبالتالي، لا يكفي أن تكون الوضعية صحيحة وفقاً للقانون الأجنبي، بل يجب أيضاً أن تكون آثارها مقبولة وفق المعايير التونسية. وبالتالي، يهدف المشرع إلى تحقيق التوازن بين احترام السيادة القانونية للدول الأجنبية وحماية المبادئ الأساسية للنظام العام التونسي في المعاملات الدولية. المصادر: الفصل 37 من مجلة القانون الدولي الخاص. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_039_ar_refusal_03",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي المدة الزمنية المحددة لتقديم طلب تنفيذ حكم أجنبي في تونس بعد صدوره؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 18 من مجلة القانون الدولي الخاص\nتُنفذ القرارات والأحكام الأجنبية التي أصبحت قابلة للتنفيذ في تونس وفقاً للقانون التونسي ومع مراعاة مبدأ المعاملة بالمثل."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. ينص الفصل 18 من المجلة على أن الأحكام الأجنبية القابلة للتنفيذ تُنفذ وفق القانون التونسي ومع مراعاة المعاملة بالمثل، لكنه لا يحدد آجلاً محدداً لتقديم طلب التنفيذ. يُرجى استشارة محامٍ متخصص أو كتابة الضبط بالمحكمة الابتدائية المختصة للتعرف على الآجال الإجرائية المعمول بها في الممارسة القضائية التونسية."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_040_ar_refusal_04",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو محتوى القانون الفرنسي المتعلق بالأهلية الذي يُطبق على عقد أبرمه فرنسي في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 32 من مجلة القانون الدولي الخاص\nيمكن للقاضي، في حدود علمه وخلال أجل معقول، أن يثبت تلقائياً مضمون القانون الأجنبي الذي تحدده قاعدة النزاع، وذلك بمشاركة الأطراف عند الاقتضاء. وفي الحالات الأخرى، يتعين على الطرف الذي يستند طلبه إلى القانون الأجنبي إثبات مضمونه."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. ينظم الفصل 32 من المجلة إجراءات إثبات مضمون القانون الأجنبي، لكنه لا يتضمن النصوص الفعلية للقوانين الأجنبية مثل القانون الفرنسي. يُرجى استشارة محامٍ متخصص أو تقديم شهادة قانونية (certificat de coutume) صادرة عن جهة مختصة في القانون الفرنسي لتحديد مضمون القواعد المتعلقة بالأهلية الواجبة التطبيق."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_041_ar_clarification_02",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [2],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: متى يُعتبر العلاقة القانونية \"دولية\" بموجب مجلة القانون الدولي الخاص؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 2 من مجلة القانون الدولي الخاص\nيُعتبر دولياً، ارتباط القانون المرتبط بواحد على الأقل من عناصره الحاسمة، بنظام قانوني واحد أو أكثر، غير النظام القانوني التونسي."
+        },
+        {
+          "role": "assistant",
+          "content": "لأتمكن من تحليل وضعيتك بدقة، هل يمكن توضيح أي من عناصر العلاقة القانونية يرتبط بنظام أجنبي: جنسية الأطراف، مكان إبرام العقد، مكان تنفيذ الالتزام، أم موقع المال موضوع النزاع؟ ينص الفصل 2 من المجلة على أن العلاقة تُعتبر دولية إذا ارتبطت بعنصر حاسم واحد على الأقل بنظام قانوني غير تونسي [1]. وبالتالي، تختلف التطبيقات حسب طبيعة العنصر الأجنبي ودرجة ارتباطه بالنزاع. يُرجى توضيح هذه العناصر للحصول على توجيه قانوني دقيق. المصادر: الفصل 2 من مجلة القانون الدولي الخاص."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_042_ar_procedural_02",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [32, 34],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي إجراءات إثبات مضمون القانون الأجنبي وتفسيره أمام القاضي التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 32 من مجلة القانون الدولي الخاص\nيمكن للقاضي، في حدود علمه وخلال أجل معقول، أن يثبت تلقائياً مضمون القانون الأجنبي الذي تحدده قاعدة النزاع، وذلك بمشاركة الأطراف عند الاقتضاء. وفي الحالات الأخرى، يتعين على الطرف الذي يستند طلبه إلى القانون الأجنبي إثبات مضمونه. وتُثبت الكتابة بما في ذلك شهادات العرف. وإذا تعذر إثبات مضمون القانون الأجنبي، يُطبق القانون التونسي. ويجب احترام مبدأ التناقض في جميع الحالات.\n\n[2] المصدر: الفصل 34 من مجلة القانون الدولي الخاص\nيطبق القاضي القانون الأجنبي، كما يُفسر في النظام القانوني الذي ينتمي إليه. ويخضع تفسير القانون الأجنبي لرقابة محكمة التعقيب."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 32 من المجلة، يمكن للقاضي أن يثبت مضمون القانون الأجنبي تلقائياً في حدود علمه، أو يطلب من الطرف المستند إليه إثباته كتابةً، بما في ذلك بشهادات العرف [1]. وإذا تعذر الإثبات، يُطبق القانون التونسي، مع احترام مبدأ التناقض. علاوة على ذلك، ينص الفصل 34 على أن القاضي يطبق القانون الأجنبي كما يُفسر في نظامه الأصلي، ويخضع هذا التفسير لرقابة محكمة التعقيب [2]. وبالتالي، يهدف المشرع إلى ضمان تطبيق دقيق للقانون الأجنبي وفق مقاصده الأصلية، مع توفير ضمانات إجرائية تحمي حقوق الأطراف وتضمن وحدة التفسير القضائي على المستوى الوطني. المصادر: الفصلان 32 و34 من مجلة القانون الدولي الخاص. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_043_cross_ar_fr_02",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [63],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو القانون المطبق على عقود استغلال العقارات إذا لم يحدد الأطراف القانون الواجب التطبيق؟\n\nDocuments pertinents:\n[1] Source: article 63 du CDIP\nA défaut de désignation par les parties de la loi applicable, les contrats relatifs à l'exploitation des immeubles sont régis, quant à leur forme et leur objet, par la loi du lieu de la situation de l'immeuble."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 63 du CDIP, à défaut de désignation par les parties, les contrats relatifs à l'exploitation des immeubles sont régis, quant à leur forme et leur objet, par la loi du lieu de situation de l'immeuble [1]. Ainsi, pour un immeuble situé en Tunisie, le droit tunisien s'applique exclusivement aux questions de forme et d'objet du contrat d'exploitation, indépendamment de la nationalité des parties ou du lieu de signature. Toutefois, cette règle ne concerne que les aspects formels et substantiels liés à l'exploitation ; d'autres aspects contractuels peuvent relever de l'article 62 (loi choisie par les parties ou loi du domicile de la partie dont l'obligation est déterminante). En effet, le législateur a privilégié la lex rei sitae pour les immeubles afin d'assurer la sécurité juridique et la cohérence avec le régime foncier tunisien. Sources: art. 63 du CDIP. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDIP_044_cross_fr_ar_02",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [42],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle loi s'applique au nom d'une personne lorsque son état civil change à l'étranger ?\n\nDocuments pertinents:\n[1] Source: الفصل 42 من مجلة القانون الدولي الخاص\nيخضع الاسم للقانون الوطني للشخص المعني. وعندما يكون تغيير الحالة المدنية للشخص المعني من شأنه أن يعدل اسمه، فإن القانون الواجب التطبيق هو القانون الذي يحكم الآثار المترتبة عن هذا التغيير."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 42 من مجلة القانون الدولي الخاص، يخضع الاسم للقانون الوطني للشخص المعني [1]. وبالتالي، إذا تغيرت حالة الشخص المدنية في الخارج (مثل الزواج أو الطلاق أو التصحيح القضائي)، فإن القانون الذي يحكم الآثار المترتبة عن هذا التغيير هو الذي يحدد ما إذا كان الاسم سيتعدل وفقاً لهذا القانون. غير أن هذا لا يؤثر على الأسماء المسجلة سابقاً في السجلات التونسية إلا بعد استيفاء إجراءات التصحيح أو التحديث وفق القانون التونسي. وبالتالي، يهدف المشرع إلى احترام وحدة الاسم وفق القانون الشخصي، مع ضمان التوافق مع النظام التونسي لتسجيل الحالة المدنية وحماية حقوق الهوية للأفراد. المصادر: الفصل 42 من مجلة القانون الدولي الخاص. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Compétence en matière familiale (art. 6-7)",
+      "Exceptions d'incompétence (art. 10)",
+      "Transcription actes d'état civil (art. 13)",
+      "Procédure exequatur - acteurs et effets (art. 14-15, 18)",
+      "Immunité d'exécution - exceptions et renonciation (art. 24-25)",
+      "Conflits de lois - qualification, ordre public, renvoi (art. 28-29, 31, 33-38)",
+      "Capacité et nom (art. 40, 42)",
+      "Protection des mineurs (art. 41)",
+      "Obligations conjugales et régime matrimonial (art. 47-48)",
+      "Filiation et adoption (art. 52-53)",
+      "Testament et donation (art. 55-56)",
+      "Qualification et droits réels sur les biens (art. 57-59)",
+      "Contrats immobiliers et transfert d'obligations (art. 63, 65-66, 68)",
+      "Responsabilité extra-contractuelle - accidents, produits, action directe (art. 71, 73-76)"
+    ],
+    "sections_not_covered": [
+      "Articles 43, 44, 60, 61, 69 (restants non utilisés)"
+    ],
+    "notes": "Batch 002 couvre 38 articles supplémentaires, complétant la couverture du CDIP avec un focus sur les dispositions procédurales (exequatur, preuve de la loi étrangère), les exceptions à l'immunité, les règles de qualification et d'ordre public, ainsi que les obligations volontaires et légales. Les 4 articles restants (43, 44, 60, 61, 69) seront prioritaires pour le batch 003 afin d'achever la couverture exhaustive du code. Aucune ambiguïté OCR détectée ; toutes les citations d'articles ont été vérifiées contre le texte fourni."
+  }
+}

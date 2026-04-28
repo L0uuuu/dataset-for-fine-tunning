@@ -1,0 +1,433 @@
+{
+  "batch_id": "batch_CFL_001_20260423",
+  "source": "Code de la fiscalité locale de Tunisie (version 2017)",
+  "articles_covered": [1,2,3,4,5,6,8,10,13,14,15,16,17,"17bis",19,23,24,25,27,30,31,32,35,36,37,38,39,41,42,43,46,47,48,49,52,53,61,68,69,85,89,90],
+  "articles_to_avoid_next_batch": [1,2,3,4,5,6,8,10,13,14,15,16,17,"17bis",19,23,24,25,27,30,31,32,35,36,37,38,39,41,42,43,46,47,48,49,52,53,61,68,69,85,89,90],
+  "examples": [
+    {
+      "example_id": "cfl_fr_direct_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [1,3],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels immeubles bâtis sont exonérés de la taxe sur les immeubles bâtis en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article premier du code de la fiscalité locale\nI- Les immeubles bâtis situés dans les zones relevant des collectivités locales sont soumis à une taxe annuelle dénommée « taxe sur les immeubles bâtis », à l'exception des immeubles destinés à l'exercice des activités soumises aux taxes visées aux articles 35 et 41 du présent code.\n\n[2] Source: article 3 du code de la fiscalité locale\nSont exonérés de la taxe :\n- Les immeubles bâtis appartenant à l'Etat, aux établissements publics à caractère administratif ou aux collectivités locales tant qu'ils ne sont pas loués;\n- Les mosquées, les immeubles bâtis réservés au culte et les zaouias;\n- Sous réserve de réciprocité, les immeubles bâtis appartenant à des Etats étrangers et destinés soit à abriter les services administratifs relevant des ambassades ou consulats, soit réservés au logement des ambassadeurs et consuls accrédités en Tunisie;\n- Les immeubles bâtis appartenant à des organismes internationaux bénéficiant du statut diplomatique;\n- Les immeubles bâtis appartenant ou occupés sans contrepartie par des associations de bienfaisance ou de secourisme, ou des associations reconnues d'utilité publique, à condition qu'ils soient réservés à l'exercice de leurs activités;\n- Les immeubles bâtis appartenant à l’Etat, aux collectivités locales ou aux établissements publics à caractère administratif et dont le transfert de propriété a lieu dans le cadre d’une opération d’émission de sukuk islamiques."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article premier du code de la fiscalité locale, le principe est que tous les immeubles bâtis situés dans les zones des collectivités locales sont soumis à la taxe sur les immeubles bâtis, à l'exception de ceux relevant des articles 35 (établissements industriels, commerciaux, professionnels) et 41 (taxe hôtelière). Toutefois, l'article 3 prévoit des exonérations exhaustives. Sont exonérés : les immeubles appartenant à l'État, aux établissements publics administratifs ou aux collectivités locales (tant qu'ils ne sont pas loués) ; les mosquées, lieux de culte et zaouias ; sous réserve de réciprocité, les immeubles d'États étrangers pour services diplomatiques ou logements d'ambassadeurs ; ceux d'organismes internationaux bénéficiant du statut diplomatique ; ceux d'associations de bienfaisance, secourisme ou d'utilité publique (occupés sans contrepartie pour leurs activités) ; ainsi que les immeubles publics transférés dans le cadre d'émissions de sukuk islamiques. L'objectif de ces exonérations est de préserver les ressources publiques, les activités cultuelles, caritatives et diplomatiques, tout en évitant une double imposition pour les immeubles déjà soumis à d'autres taxes locales (art. 35 et 41). Sources : art. 1 et 3 du code de la fiscalité locale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_direct_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [4,5],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment est calculée la taxe sur les immeubles bâtis ?\n\nDocuments pertinents:\n[1] Source: article 4 du code de la fiscalité locale\nI- La taxe sur les immeubles bâtis est assise sur la base de 2 pour-cent du prix de référence du mètre carré couvert fixé pour chaque catégorie d'immeubles visée au paragraphe II du présent article, multiplié par la superficie couverte de l'immeuble.\nII - Les immeubles sont classés compte tenu de la superficie couverte comme suit : Première catégorie : superficie ≤100 m² ; Deuxième catégorie : 100<sup>2</sup> ; Troisième catégorie : 200<sup>2</sup> ; Quatrième catégorie : >400 m². Est considérée superficie couverte, la superficie construite à usage d'habitation sans tenir compte des vérandas non couvertes, des garages, des caves non aménagées pour l'habitat et des patios.\nIV - Un décret fixe, tous les trois ans, le minimum et le maximum du prix de référence du mètre carré construit pour chaque catégorie. La collectivité locale fixe par arrêté motivé le prix de référence dans ces limites.\n\n[2] Source: article 5 du code de la fiscalité locale\nI- Le taux de la taxe sur les immeubles bâtis est fixé sur la base du niveau des services prévus au paragraphe II, comme suit : 8% pour 1 ou 2 services ; 10% pour 3 ou 4 services ; 12% pour plus de 4 services ; 14% pour plus de 4 services et de services autres que ceux prévus. II. Les services consistent : nettoiement, éclairage public, chaussées goudronnées, dallage des trottoirs, réseaux d'évacuation des eaux usées, réseaux d'évacuation des eaux pluviales."
+        },
+        {
+          "role": "assistant",
+          "content": "La taxe sur les immeubles bâtis est calculée en deux étapes. D'abord, l'assiette est déterminée à l'article 4 : elle correspond à 2% du prix de référence du mètre carré couvert (fixé par décret tous les trois ans par catégorie de superficie : 1ʳᵉ catégorie ≤100 m², 2ᵉ 101-200 m², 3ᵉ 201-400 m², 4ᵉ >400 m²), multiplié par la superficie couverte (hors vérandas non couvertes, garages, caves non aménagées et patios). Ensuite, le taux applicable (art. 5) varie de 8% à 14% selon le nombre de services publics fournis par la collectivité locale : nettoiement, éclairage public, chaussées goudronnées, dallage des trottoirs, réseaux d’eaux usées et pluviales. Ainsi, la taxe = (assiette) × (taux). Par ailleurs, si l'assiette calculée dépasse le loyer réel pour les immeubles loués soumis au droit de maintien, la taxe est due sur la base du loyer (art. 4-V). Le système vise à proportionner la taxe à la fois à la valeur de l'immeuble (par la superficie et le prix de référence) et aux services publics réellement bénéficiés. Sources : art. 4 et 5 du code de la fiscalité locale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_multi_003",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [2,16,17],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui est responsable du paiement de la taxe sur les immeubles bâtis en cas de vente ou de succession ?\n\nDocuments pertinents:\n[1] Source: article 2 du code de la fiscalité locale\nLa taxe sur les immeubles bâtis est due par le propriétaire de l'immeuble ou par l'usufruitier, et à défaut de propriétaire ou d'usufruitier connu, par le possesseur ou l'occupant de l'immeuble.\n\n[2] Source: article 16 du code de la fiscalité locale\nTout acquéreur d'un immeuble soumis à la taxe doit s'assurer que la taxe due sur l'immeuble jusqu'au jour de la vente a été acquittée. En cas de non paiement, l'acquéreur est solidaire avec le cédant pour le paiement de la taxe due avant le transfert de la propriété. Cette obligation s'applique aux adjudicataires d'immeubles bâtis vendus par voie judiciaire.\n\n[3] Source: article 17 du code de la fiscalité locale\nEn cas de transfert d'une propriété, l'ancien propriétaire est tenu d'informer la collectivité locale concernée de ce transfert au moyen d'une déclaration fournie par l'administration contre récépissé ou par lettre recommandée. La déclaration n'est prise en considération que si elle est appuyée par une justification légale en bonne et due forme. L'ancien propriétaire est solidaire avec le nouveau propriétaire pour le paiement de la taxe due et afférente à la période comprise entre la date du transfert de la propriété et celle de la déclaration."
+        },
+        {
+          "role": "assistant",
+          "content": "En principe, l'article 2 désigne le propriétaire ou l'usufruitier comme redevable principal de la taxe sur les immeubles bâtis, et à défaut, le possesseur ou l'occupant. Toutefois, en cas de vente, l'article 16 établit une solidarité : l'acquéreur doit vérifier que la taxe due jusqu'au jour de la vente a été payée ; à défaut, il est solidaire avec le cédant pour cette taxe. L'adjudicataire judiciaire est soumis à la même règle. Par ailleurs, l'article 17 impose à l'ancien propriétaire de déclarer le transfert à la collectivité locale. Si cette déclaration n'est pas faite immédiatement, l'ancien propriétaire reste solidaire avec le nouveau propriétaire pour la taxe due entre la date du transfert et celle de la déclaration. Ainsi, dans une succession, les héritiers (nouveaux propriétaires) peuvent être tenus solidairement avec le défunt pour la période antérieure au partage, et l'obligation déclarative incombe à la succession. L'objectif de ces dispositions est d'éviter que les mutations immobilières n'entraînent une perte de recettes fiscales pour la collectivité, en assurant une traçabilité et une responsabilité partagée entre ancien et nouveau propriétaire. Sources : art. 2, 16 et 17 du code de la fiscalité locale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_principle_exception_004",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [1,3,6],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un contribuable à faible revenu peut-il bénéficier d'une exonération de la taxe sur les immeubles bâtis ?\n\nDocuments pertinents:\n[1] Source: article 1 du code de la fiscalité locale\nI- Les immeubles bâtis situés dans les zones relevant des collectivités locales sont soumis à une taxe annuelle dénommée « taxe sur les immeubles bâtis », à l'exception des immeubles destinés à l'exercice des activités soumises aux taxes visées aux articles 35 et 41 du présent code.\n\n[2] Source: article 3 du code de la fiscalité locale\nSont exonérés de la taxe : (liste des exonérations objectives, notamment biens de l'État, mosquées, ambassades, associations de bienfaisance...).\n\n[3] Source: article 6 du code de la fiscalité locale\nII- Sont dégrevés totalement de la taxe sur les immeubles bâtis par les collectivités locales les contribuables à faible revenu et bénéficiant de l'aide de l'Etat ou des collectivités locales. III- Le dégrèvement prévu par le paragraphe II du présent article est accordé par arrêté du président de la collectivité locale sur la base de la délibération du conseil de la collectivité locale après avis de la commission de révision prévue à l'article 24 du présent code. IV- Les conditions et les modalités d'application du dégrèvement sont fixées par décret."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article premier, le principe est que tous les immeubles bâtis sont imposables à la taxe sur les immeubles bâtis. Les exonérations de l'article 3 sont limitées à des situations objectives (État, cultes, diplomatie, associations d'utilité publique). Cependant, l'article 6-II prévoit une exception majeure en faveur des contribuables à faible revenu : ils bénéficient d'un dégrèvement total de cette taxe, à condition de justifier qu'ils perçoivent une aide permanente de l'État ou des collectivités locales. Ce dégrèvement n'est pas automatique ; il est accordé par arrêté du président de la collectivité locale après délibération du conseil et avis de la commission de révision (art. 6-III). Les modalités précises sont fixées par décret (art. 6-IV). La finalité de cette disposition est de protéger les ménages les plus vulnérables en leur permettant de ne pas supporter la charge fiscale locale, tout en laissant aux collectivités le pouvoir d'appréciation au cas par cas. Ainsi, un faible revenu seul ne suffit pas, il faut également bénéficier d'une aide publique. Sources : art. 1, 3 et 6 du code de la fiscalité locale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_refusal_005",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le taux de la taxe sur les véhicules de tourisme en Tunisie pour l'année 2023 ?\n\nDocuments pertinents:\nAucun document pertinent n'a été trouvé dans le code de la fiscalité locale (version 2017) concernant une taxe spécifique sur les véhicules de tourisme. Le code traite des taxes locales telles que la taxe sur les immeubles bâtis, les terrains non bâtis, les établissements industriels/commerciaux/professionnels, la taxe hôtelière, les spectacles, les droits de licence, les redevances diverses (stationnement, occupation de la voie publique, etc.). Une taxe sur les véhicules existait historiquement (visée dans l'article 3 de la loi de promulgation abrogeant d'anciens textes), mais elle n'est pas codifiée dans le présent code."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à votre question concernant le taux de la taxe sur les véhicules de tourisme pour l'année 2023. Le code de la fiscalité locale (version 2017) ne comporte pas de disposition relative à une telle taxe, bien que l'article 3 de la loi de promulgation mentionne l'abrogation d'anciens textes relatifs à une taxe sur les véhicules. Je vous recommande de consulter un avocat spécialisé en droit fiscal tunisien ou de vous rapprocher de la direction générale des impôts (et non des collectivités locales) pour connaître les taxes nationales applicables aux véhicules. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_clarification_006",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [35, 36],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que je dois payer la taxe sur les établissements ?\n\nDocuments pertinents:\n[1] Source: article 35 du code de la fiscalité locale\nLa taxe sur les établissements à caractère industriel, commercial ou professionnel est due par : - Les personnes physiques soumises à l'impôt sur le revenu au titre des bénéfices industriels et commerciaux et des bénéfices des professions non commerciales, - Les personnes morales soumises à l'impôt sur les sociétés, - Les groupements d'intérêt économique, les sociétés de personnes et les associations en participation exerçant une activité commerciale ou une profession non commerciale. La taxe est due même en cas d'exonération de l'impôt sur le revenu ou de l'impôt sur les sociétés.\n\n[2] Source: article 36 du code de la fiscalité locale\nI- Sont exonérés de la taxe : Les personnes physiques et les personnes morales non établies et non domiciliées en Tunisie. Les établissements touristiques soumis à la taxe hôtelière prévue par l'article 41. II - Les établissements bénéficiant d'un régime spécial en vertu de textes législatifs spéciaux ou de conventions particulières demeurent soumis aux dispositions les régissant."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question est trop générale pour recevoir une réponse précise. La taxe sur les établissements à caractère industriel, commercial ou professionnel (art. 35 et 36) s'applique à différentes catégories de contribuables selon la nature de leur activité et leur forme juridique. Pourriez-vous préciser : 1) exercez-vous une activité industrielle, commerciale ou libérale en Tunisie ? 2) êtes-vous une personne physique ou une personne morale ? 3) êtes-vous assujetti à l'impôt sur le revenu ou à l'impôt sur les sociétés ? 4) relevez-vous éventuellement d'une exonération (par exemple, établissement touristique soumis à la taxe hôtelière) ? Avec ces informations, je pourrai vous indiquer si la taxe est due et à quel titre. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_procedural_007",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [23,24,25,26],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes pour contester le montant de la taxe sur les immeubles bâtis ?\n\nDocuments pertinents:\n[1] Source: article 23 du code de la fiscalité locale\nLes contribuables peuvent présenter leurs oppositions à la commission de révision prévue par l'article 24, dans un délai d'un mois à partir du jour où ils ont pris connaissance du montant de la taxe due sur leurs immeubles conformément aux dispositions des articles 8 et 21.\n\n[2] Source: article 24 du code de la fiscalité locale\nLa commission de révision examine les oppositions. Composition : président de la collectivité locale (ou son représentant), deux conseillers municipaux ou régionaux, receveur des finances (ou représentant), secrétaire général (sans droit de vote). Décisions à la majorité, voix prépondérante du président.\n\n[3] Source: article 25 du code de la fiscalité locale\nLes oppositions doivent être formulées par écrit avec pièces justificatives, déposées contre récépissé ou par LRAR. La commission statue après audition du contribuable convoqué par LRAR. Les décisions sont notifiées par LRAR ou avis avec récépissé signé. Délai de notification : avant clôture du recensement pour les oppositions faites pendant celui-ci ; dans les deux mois pour les oppositions hors recensement.\n\n[4] Source: article 26 du code de la fiscalité locale\nTout contribuable peut introduire un recours pour révision devant le tribunal cantonal territorialement compétent dans un délai de soixante jours à partir de la date de clôture des opérations de recensement ou de l'expiration des délais de notification de la décision de la commission. Le recours n'est recevable que si le contribuable justifie avoir présenté une opposition à la commission. Le pourvoi ne suspend pas le recouvrement de la taxe. Le jugement du tribunal cantonal est définitif."
+        },
+        {
+          "role": "assistant",
+          "content": "La contestation du montant de la taxe sur les immeubles bâtis suit un processus en plusieurs étapes. En premier lieu (étape 1), le contribuable dispose d'un délai d'un mois à compter de la réception de l'avis de taxe (article 8 ou 21) pour présenter une opposition écrite à la commission de révision (art. 23). L'opposition doit être motivée et accompagnée de toutes les pièces justificatives, déposée contre récépissé ou par lettre recommandée avec accusé de réception (art. 25). Étape 2 : la commission de révision (composée du président de la collectivité locale, de deux conseillers, du receveur des finances et du secrétaire général) examine l'opposition. Le contribuable est convoqué et peut se faire représenter ; son absence n'empêche pas la commission de statuer. La commission rend une décision dans les deux mois pour les oppositions hors recensement (art. 24-25). Étape 3 : si le contribuable n'est pas satisfait, il peut former un recours devant le tribunal cantonial territorialement compétent dans un délai de soixante jours suivant la clôture du recensement ou l'expiration du délai de notification de la décision de la commission (art. 26). Ce recours n'est recevable que si une opposition préalable a été présentée à la commission. Important : le recours n'est pas suspensif du recouvrement – la taxe reste exigible pendant la procédure. La décision du tribunal cantonal est définitive (art. 26). L'objectif de cette procédure en deux niveaux (administratif puis judiciaire) est de permettre un règlement rapide à l'échelon local tout en garantissant un contrôle juridictionnel final. Sources : art. 23, 24, 25 et 26 du code de la fiscalité locale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_direct_008",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [30,31,32],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ما هي الأراضي غير المبنية المعفاة من الضريبة عليها في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 30 من مجلة المالية المحلية\nالتربة غير المبنية الواقعة في المناطق التابعة للجماعات المحلية تخضع لضريبة سنوية تسمى \"ضريبة الأراضي غير المبنية\".\n\n[2] المصدر: الفصل 31 من مجلة المالية المحلية\nضريبة الأراضي غير المبنية يؤديها مالك الأرض أو المنتفع، وفي حالة عدم معرفة المالك أو المنتفع، يؤديها الحائز أو الشاغل.\n\n[3] المصدر: الفصل 32 من مجلة المالية المحلية\nتعفى من الضريبة:\n- الأراضي غير المبنية المسيجة الملحقة بعمارات فردية والمستعملة كجنائن لهذه العمارات في حدود 1000 متر مربع؛\n- الأراضي غير المبنية المسيجة الملحقة بعمارات جماعية والمستعملة كجنائن؛\n- الأراضي غير المبنية المسيجة والمشجرة والملحقة بعمارات؛\n- الأراضي الفلاحية كما هي معرفة بالتشريع الجاري به العمل؛\n- الأراضي غير المبنية المسيجة ولو كانت معزولة والمستغلة في نشاط صناعي أو تجاري أو مهني؛\n- الأراضي غير المبنية المملوكة للدولة أو للمؤسسات العمومية ذات الصبغة الإدارية أو للجماعات المحلية؛\n- الأراضي غير المبنية الواقعة في مناطق ممنوع البناء فيها؛\n- الأراضي غير المبنية الواقعة في المناطق الصناعية والسكنية والسياحية والحرفية أو المهنية والمقسمة طبق التشريع الجاري به ما لم يتم التصرف فيها من قبل المقسم؛\n- الأراضي الواقعة داخل محيطات المحافظات العقارية ومحيطات التدخل العقاري؛\n- الأراضي غير المبنية المقتناة من قبل المروجين العقاريين وذلك لمدة سنتين من تاريخ الاقتناء."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 30 من مجلة المالية المحلية، الأصل أن الأراضي غير المبنية تخضع للضريبة. غير أن الفصل 32 ينص على إعفاءات شاملة. يعفى من الضريبة: الأراضي غير المبنية المسيجة المستعملة كجنائن ملحقة بعمارات فردية (في حدود 1000 متر مربع) أو جماعية، والأراضي المسيجة والمشجرة، والأراضي الفلاحية، والأراضي المسيجة المستغلة في نشاط صناعي أو تجاري أو مهني، والأراضي المملوكة للدولة أو المؤسسات العمومية أو الجماعات المحلية، والأراضي الواقعة في مناطق ممنوع البناء، والأراضي في المناطق الصناعية والسكنية والسياحية والحرفية المقسمة (ما لم يتم التصرف فيها من قبل المقسم)، والأراضي داخل محيطات المحافظات العقارية، وكذلك الأراضي التي يقتنيها المروجون العقاريون (لمدة سنتين من تاريخ الاقتناء). وتهدف هذه الإعفاءات إلى تشجيع الاستغلال الفلاحي والصناعي والتجاري، وحماية الملكية العامة، وتحفيز الترويج العقاري، مع عدم تحميل الأراضي غير القابلة للبناء أو المستخدمة كملحقات للعمارات أعباء ضريبية. المصادر: الفصول 30، 31، 32 من مجلة المالية المحلية. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_multi_009",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [35,36,38],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ما هي نسبة الضريبة على المؤسسات ذات الصبغة الصناعية أو التجارية أو المهنية؟ ومن هم الخاضعون لها؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 35 من مجلة المالية المحلية\nضريبة المؤسسات ذات الصبغة الصناعية أو التجارية أو المهنية يؤديها: الأشخاص الطبيعيون الخاضعون لضريبة الدخل عن أرباح صناعية وتجارية ومهن غير تجارية، والأشخاص الاعتباريون الخاضعون لضريبة الشركات، ومجموعات الأقران الاقتصادية وشركات الأشخاص وجمعيات المشاركة المزاولة لنشاط تجاري أو مهنة غير تجارية. تؤدى الضريبة حتى في حالة الإعفاء من ضريبة الدخل أو ضريبة الشركات.\n\n[2] المصدر: الفصل 36 من مجلة المالية المحلية\nيعفى من الضريبة: الأشخاص الطبيعيون والاعتباريون غير المتمركزين وغير المقيمين في تونس. المؤسسات السياحية الخاضعة للضريبة الفندقية. المؤسسات المنتفعة بنظام خاص بمقتضى نصوص تشريعية خاصة أو اتفاقيات خاصة تبقى خاضعة للأحكام المنظمة لها.\n\n[3] المصدر: الفصل 38 من مجلة المالية المحلية\nتحدد نسبة الضريبة بـ 0.2% (ألفا اثنان في المائة). غير أن هذه النسبة تُحدد بـ 25% بالنسبة للأشخاص المشار إليهم بالفقرة الثانية من الفصل 37 (الأشخاص الذين تحسب الضريبة على أساس ضريبة الدخل أو ضريبة الشركات). تخفض نسبة الضريبة إلى 0.1% للمؤسسات التي تسوق حصراً منتجات خاضعة لنظام المصادقة الإدارية على الأسعار بهامش ربح خام لا يتجاوز 6%، وللمؤسسات التي تسوق خليطاً من هذه المنتجات بشرط أن يثبت أنها حققت 80% من رقم معاملاتها من تلك المنتجات. يمكن لهذه المؤسسات الاختيار لدفع الضريبة على أساس 25% من ضريبة الدخل أو ضريبة الشركات."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 35، يخضع للضريبة على المؤسسات ذات الصبغة الصناعية أو التجارية أو المهنية الأشخاص الطبيعيون الخاضعون لضريبة الدخل عن أرباح صناعية وتجارية ومهن غير تجارية، والأشخاص الاعتباريون الخاضعون لضريبة الشركات، بالإضافة إلى مجموعات الأقران الاقتصادية وشركات الأشخاص وجمعيات المشاركة التي تمارس نشاطاً تجارياً أو مهنة غير تجارية، وتؤدى الضريبة حتى لو كانوا معفيين من ضريبة الدخل أو الشركات. غير أن الفصل 36 يعفي الأشخاص غير المتمركزين وغير المقيمين في تونس، وكذلك المؤسسات السياحية الخاضعة للضريبة الفندقية، والمؤسسات ذات النظام الخاص. أما النسبة فالأصل في الفصل 38 أنها 0.2%، غير أن هناك استثناءات: 25% بالنسبة للأشخاص الذين يحسبون الضريبة على أساس ضريبة الدخل أو الشركات، و0.1% للمؤسسات التي تبيع منتجات خاضعة لمصادقة الأسعار بهامش ربح خام لا يتجاوز 6% (بشرط أن تشكل هذه المبيعات 80% من رقم المعاملات)، وهذه المؤسسات يمكنها أن تختار دفع 25% من ضريبة الدخل أو الشركات كبديل. الهدف من هذه النسب المتعددة هو تكييف العبء الضريبي مع طبيعة النشاط وهامش الربح، وتشجيع التجارة في المنتجات الأساسية المسعرة إدارياً مع الحفاظ على الموارد المالية للجماعات المحلية. المصادر: الفصول 35 و36 و38 من مجلة المالية المحلية. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_principle_exception_010",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [52,53],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: هل يمكن إعفاء مالك عقار مجاور من المساهمة في تكاليف تهيئة الطرقات والأرصفة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 52 من مجلة المالية المحلية\nتُستخلص مساهمة من مالكي العقارات المجاورة لتغطية نفقات أشغال التهيئة الأولى والإصلاحات الكبرى التي تقوم بها الجماعات المحلية والمتعلقة بالطرقات والأرصفة وقنوات صرف المواد السائلة وكذا أشغال تهيئة الأحياء السكنية والمناطق الصناعية والسياحية. لا يمكن بدء الأشغال ولا استخلاص المساهمة إلا بعد صدور مرسوم يصرح بهذه الأشغال ذات منفعة عمومية.\n\n[2] المصدر: الفصل 53 من مجلة المالية المحلية\nتحدد مساهمة المالكين المجاورين بناءً على المبلغ الجملي للأشغال كما ينتج عن مناقصة الأشغال، وتؤدى من قبل المالكين المجاورين أو ورثتهم عند الاقتضاء. تُحدد مساهمة المجاورين للإصلاحات الكبرى في حدود فترة الإطفاء. يعفون إعفاءً كلياً من مساهمة المالكين المجاورين من قبل الجماعات المحلية، المكلفون ذوو الدخل الضعيف والمنتفعون بمساعدة الدولة أو الجماعات المحلية. يمنح الإعفاء بمقتضى مقرر من رئيس الجماعة المحلية بناءً على مداولة مجلس الجماعة المحلية بعد أخذ رأي لجنة المراجعة. يتم الإعفاء وفق شروط وكيفيات تطبيق الإعفاء الكلي من ضريبة العمارات المبنية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 52 من مجلة المالية المحلية، الأصل أن مالكي العقارات المجاورة يساهمون في تكاليف الأشغال العمومية (الطرقات، الأرصفة، قنوات الصرف) التي تقوم بها الجماعات المحلية، شريطة صدور مرسوم بمنفعة عمومية. غير أن الفصل 53 ينص على استثناءين جوهريين: أولاً، إعفاء كلي للمالكين المجاورين الذين يثبتون أنهم من ذوي الدخل الضعيف والمنتفعين بمساعدة من الدولة أو الجماعات المحلية، وهذا الإعفاء يمنح بمقرر من رئيس الجماعة المحلية بعد مداولة مجلس الجماعة وأخذ رأي لجنة المراجعة، وتطبق عليه نفس شروط الإعفاء الكلي من ضريبة العمارات المبنية. ثانياً، ليس استثناءً صريحاً لكن يمكن استفادة ضمنية: المساهمة تحسب إما حسب طول الواجهات (للطرقات والأرصفة) أو بالتساوي بين المالكين (لباقي الأشغال)، مما يوفر مرونة. وتهدف أحكام الإعفاء إلى حماية الفئات الهشة اجتماعياً وتحقيق التوازن بين مبدأ التضامن في تمويل البنية التحتية والعدالة الضريبية. المصادر: الفصلين 52 و53 من مجلة المالية المحلية. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_refusal_011",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: كيف يتم احتساب الضريبة على الدخل الإجمالي لشركة أجنبية تعمل في تونس في قطاع التكنولوجيا؟\n\nالوثائق ذات الصلة:\nالوثائق المقدمة هي مجلة المالية المحلية التونسية (قانون الضرائب المحلية)، التي تتناول ضرائب الجماعات المحلية مثل ضريبة العمارات المبنية، الأراضي غير المبنية، المؤسسات الصناعية والتجارية والمهنية (على أساس رقم المعاملات أو ضريبة الدخل/الشركات في حالات خاصة)، الضريبة الفندقية، مساهمة الملاك المجاورين، حقوق الرخص، وغيرها من الرسوم البلدية. لا تحتوي هذه المجلة على قواعد احتساب ضريبة الدخل الإجمالي للشركات الأجنبية؛ فهذه المسألة تدخل ضمن قانون الضريبة على دخل الأشخاص الطبيعيين وقانون الضريبة على الشركات (القانون الأساسي للضريبة)."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن سؤالك بخصوص احتساب الضريبة على الدخل الإجمالي لشركة أجنبية. مجلة المالية المحلية تختص بالضرائب المحلية التي تجبيها الجماعات المحلية (البلديات والمجالس الجهوية) ولا تتضمن قواعد احتساب ضريبة الدخل أو ضريبة الشركات الوطنية. أنصحك باستشارة محامٍ متخصص في القانون الجبائي التونسي أو مراجعة قانون الضريبة على دخل الأشخاص الطبيعيين وقانون الضريبة على الشركات. هذا لا يشكل استشارة قانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_clarification_012",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [68],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: أرغب في فتح مقهى وأحتاج إلى تراخيص، ما هي الضرائب المستحقة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 61 من مجلة المالية المحلية (حقوق الرخص)\nحق الرخصة يؤدي من قبل مستغلي المقاهي والبارات وصالونات الشاي وبصفة عامة كل المؤسسات التي تبيع مشروبات للاستهلاك في المكان. يحدد الحق وفق تعريفة تراعي أصناف المؤسسات وفاقاً للتشريع الجاري به العمل.\n\n[2] المصدر: الفصل 68 من مجلة المالية المحلية (الضريبة على التراخيص الإدارية)\nمن بين التراخيص الخاضعة للضريبة: الترخيص بفتح المقاهي والمؤسسات المماثلة بعد الساعات القانونية. تؤدى الضريبة مقدماً قبل تسليم الترخيص.\n\n[3] المصدر: الفصل 85 (رسوم الاشغال المؤقت للطريق العمومي) – رسوم على شاغلي المقاهي والناصيين."
+        },
+        {
+          "role": "assistant",
+          "content": "سؤالك غير دقيق بما يكفي لإعطاء إجابة مباشرة. فضلاً وضح الأمور التالية: 1) هل ستقدم مشروبات للاستهلاك في المكان فقط أم أيضاً وجبات (فالمطاعم تختلف عن المقاهي)؟ 2) هل تخطط لاستغلال الرصيف (كراسي خارجية) – فهذا يخضع لرسم الاشغال المؤقت للطريق العمومي (الفصل 85)؟ 3) هل سيكون المقهى داخل سوق أو في منطقة سياحية – لأن بعض الإعفاءات أو الرسوم الإضافية قد تنطبق؟ بناءً على الفصل 61، حق الرخصة واجب على المقاهي، والفصل 68 يفرض ضريبة على ترخيص فتح المقهى بعد الساعات القانونية. كما قد تخضع لضريبة المؤسسات ذات الصبغة التجارية (الفصل 35) على رقم المعاملات. بتحديد هذه التفاصيل، يمكنني تحديد الرسوم الدقيقة. هذا لا يشكل استشارة قانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_procedural_013",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [14,15,"17bis"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ما هي الإجراءات التصريحية التي يجب على مالك العقار المبنى القيام بها بعد البناء أو بعد تأجيره؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 14 من مجلة المالية المحلية\nالملزم بإيداع تصريح حسب نموذج لدى مصالح الجماعات المحلية خلال الثلاثين يوماً التالية لبدء عمليات الحصر. يتضمن التصريح: الاسم واللقب والعنوان ورقم بطاقة التعريف الوطنية وتاريخ تسليمها أو عناصر التعريف للأشخاص الاعتباريين، صفة المصرح، وضعية العقار، المساحة الجملية، المساحة المغطاة، تركيب العقار وملحقاته، تخصيص العقار.\n\n[2] المصدر: الفصل 15 من مجلة المالية المحلية\nالملزمون بإعلام الجماعة المحلية المختصة بالبناءات الجديدة، التوسعات، الارتفاعات، أو العقارات التي انتهت فترة فراغها أو أصبحت خاضعة للضريبة، وبصفة عامة كل التغييرات الحاصلة على مستوى تركيب أو تخصيص العقار بواسطة تصريح خلال الثلاثين يوماً التالية لحصولها.\n\n[3] المصدر: الفصل 17 مكرر من مجلة المالية المحلية (أضيف بقانون 2007)\nالمالك والمكتري والشاغل بأي عنوان لعقار مبني، ولو كان بناءه غير مكتمل، ملزمون بإيداع تصريح لدى الجماعة المحلية خلال 8 أيام من تاريخ الكراء أو الشغول. يتضمن التصريح: عنوان العقار، اسم المالك ورقم بطاقته أو رقم التعريف الجبائي للشخص الاعتباري، اسم المكتري أو الشاغل وبياناته، تخصيص العقار، تاريخ بداية الكراء أو الشغول ومدته. يُستثنى من التصريح حالات شغول العقار من قبل أحد الأصول أو الفروع للمالك."
+        },
+        {
+          "role": "assistant",
+          "content": "تتضمن الإجراءات التصريحية التي تفرضها مجلة المالية المحلية على مالك العقار المبني ثلاث مراحل رئيسية: أولاً، عند بداية عمليات الحصر (الفصل 14)، يلتزم المالك بإيداع تصريح أولي خلال 30 يوماً من بدء الحصر، يتضمن البيانات الأساسية عن العقار (مساحاته، تركيبته، تخصيصه). ثانياً، بعد حدوث أي تغيير في العقار (البناء الجديد، التوسعة، الارتفاع، تغيير التخصيص، أو انتهاء الفراغ) – الفصل 15 – يجب إعلام الجماعة المحلية بتصريح خلال 30 يوماً من تاريخ التغيير. ثالثاً، في حالة الكراء أو الشغول بأي عنوان (الفصل 17 مكرر)، يلتزم المالك والمكتري والشاغل بتصريح خاص خلال 8 أيام فقط من تاريخ الكراء أو الشغول، مع استثناء حالات شغول الأصول/الفروع. الهدف من هذه الإجراءات هو تمكين الجماعات المحلية من تحديث قواعد معطيات العقارات وتعديل الضريبة بشكل مستمر، وضمان استيفاء الضريبة من المستغلين الفعليين. المصادر: الفصول 14 و15 و17 مكرر من مجلة المالية المحلية. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_cross_fr_ar_014",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [13,18],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: متى يطلب دليل أداء الضريبة على العمارات المبنية قبل إتمام بعض الإجراءات الإدارية؟ وما هي هذه الإجراءات؟\n\nDocuments pertinents:\n[1] Source: article 13 du code de la fiscalité locale\nLes redevables de la taxe sur les immeubles bâtis doivent présenter une attestation délivrée par le receveur des finances justifiant le paiement de la taxe exigible par l’intéressé et ce, pour l’obtention des services, des permis et attestations suivants : - Permis de bâtir ou de clôture ; - autorisation du changement de la vocation d’un local à usage d’habitation en local à usage commercial ou professionnel ; - Arrêté d’approbation d’un lotissement ; - Attestation d'inscription d'un bien immobilier au rôle ; - Attestation d'habitation principale ; - Procès-verbal de récolement ; - Permis d'occupation de la construction ; - Légalisation de signature des actes portant transmission de propriété, de nue propriété ou d’usufruit de biens immeubles ; - Légalisation de signature portant sur des hypothèques ; - Légalisation de signature des actes de location ou de jouissance de biens immeubles ; - Permis de démolition d’un immeuble.\n\n[2] Source: article 18 du code de la fiscalité locale\nIl est interdit à toute personne habilitée à exercer les fonctions de rédacteurs d'actes, d'établir des actes concernant les immeubles soumis à la taxe sur les immeubles bâtis tant qu'on ne lui présente une attestation délivrée par la collectivité locale concernée justifiant le paiement de la taxe exigible à la date de la rédaction de l'acte. Ladite attestation est mentionnée dans l'acte. La personne habilitée à rédiger les actes est tenue solidairement avec les contribuables pour le paiement de la taxe en cas de manquement à cette obligation."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 13 من مجلة المالية المحلية، يجب على المكلفين بالضريبة على العمارات المبنية تقديم شهادة من مقبض المالية تثبت أداء الضريبة المستحقة للحصول على عدة تصاريح ووثائق: رخصة البناء أو السياج، ترخيص تغيير تخصيص محل سكني إلى تجاري/مهني، قرار الموافقة على تجزئة عقارية، شهادة التسجيل بالرول، شهادة السكن الرئيسي، محضر الاستلام، رخصة شغول البناء، توثيق التوقيع على عقود نقل الملكية أو الرهن أو الكراء، ورخصة هدم عقار. علاوة على ذلك، يمنع الفصل 18 كتابة العقود المتعلقة بالعقارات الخاضعة للضريبة ما لم يقدم المكلف تلك الشهادة، وإلا كان الكاتب مسؤولاً تضامنياً مع المكلفين عن دفع الضريبة. الهدف من هذه الآلية هو ربط الإجراءات الإدارية العقارية بتسوية الوضعية الضريبية، مما يحمي حقوق الجماعات المحلية ويضمن عدم تراكم المتأخرات. المصادر: الفصلين 13 و18 من مجلة المالية المحلية. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_cross_ar_fr_015",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [38,40],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le régime de contrôle et de contentieux applicable à la taxe sur les établissements industriels, commerciaux et professionnels ? Existe-t-il des règles spéciales pour les établissements calculés sur la base de la superficie ?\n\nDocuments pertinents:\n[1] المصدر: الفصل 38 من مجلة المالية المحلية (الفقرة II)\nبالنسبة للمؤسسات الصناعية والتجارية والمهنية التي تحسب الضريبة على أساس مساحة العمارة وفق الفقرة II من هذا الفصل، تطبق أحكام الفصول 10 إلى 26 والفصول 28 و29 من هذه المجلة والمتعلقة بالالتزامات والمخالفات والمراقبة والجزاءات والمنازعات.\n\n[2] المصدر: الفصل 40 من مجلة المالية المحلية\nI (جديد) – مع مراعاة أحكام الفقرة II من هذا الفصل، تطبق على ضريبة المؤسسات ذات الصبغة الصناعية أو التجارية أو المهنية الأحكام المتعلقة بالالتزامات والمراقبة والتقادم والمنازعات والجزاءات المطبقة في مادة ضريبة الدخل على الأشخاص الطبيعيين وضريبة الشركات عندما لا تتعارض مع أحكام هذه المجلة. II – تطبق على ضريبة المؤسسات المحسوبة وفق الفقرة II من الفصل 38 الأحكام المنصوص عليها بالفصول 10 إلى 26 و28 و29 من هذه المجلة."
+        },
+        {
+          "role": "assistant",
+          "content": "Le régime de contrôle et de contentieux de la taxe sur les établissements à caractère industriel, commercial ou professionnel dépend du mode de calcul. En principe, l'article 40-I dispose que s'appliquent les règles de l'impôt sur le revenu et de l'impôt sur les sociétés (obligations, contrôle, prescription, contentieux, sanctions) pour autant qu'elles ne dérogent pas au code de la fiscalité locale. Cependant, l'article 40-II prévoit une exception importante : pour les établissements dont la taxe est calculée sur la base de la superficie couverte (selon l'article 38-II, c'est-à-dire ceux qui ne peuvent pas être assis sur le chiffre d'affaires, notamment les entreprises en perte justifiée ou relevant de l'article 44 bis du code d'impôt), ce sont les dispositions spécifiques des articles 10 à 26 et 28 à 29 du code de la fiscalité locale qui s'appliquent – ces articles concernent la taxe sur les immeubles bâtis (recouvrement, obligations, sanctions, contrôle, contentieux). Ainsi, le législateur a voulu adapter le régime procédural à la nature de l'assiette : les règles fiscales générales pour les taxes assises sur le chiffre d'affaires, et les règles locales (plus proches de celles des immeubles bâtis) pour les taxes assises sur la superficie. Finalité : assurer une efficacité de contrôle adaptée aux différents types de redevables. Sources : art. 38-II et 40 du code de la fiscalité locale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_direct_016",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [61,62],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui doit payer le droit de licence sur les débits de boissons et comment est-il perçu ?\n\nDocuments pertinents:\n[1] Source: article 61 du code de la fiscalité locale\nLe droit de licence est dû par les exploitants de café, bar, salon de thé et d'une façon générale de tous les établissements vendant des boissons à consommer sur place. Le droit est fixé selon un tarif qui tient compte des catégories des établissements conformément à la législation en vigueur. Le tarif des droits est fixé par décret.\n\n[2] Source: article 62 du code de la fiscalité locale\nLe droit de licence sur les débits de boissons à consommer sur place est perçu au vu d'une déclaration fournie par l'administration à déposer à la recette des finances moyennant une retenue de 10 pour-cent au profit du budget de l'Etat, pendant le mois de janvier de chaque année pour les établissements soumis à la taxe sur les établissements à caractère industriel, commercial ou professionnel ou à la taxe hôtelière ou à l'occasion de la déclaration de l'impôt sur le revenu pour les redevables bénéficiant du régime forfaitaire d'imposition, ce droit est dû pour l'année entière quelle que soit la date de commencement ou de cessation de l'activité.\n\n[3] Source: article 63\nSont applicables au droit de licence sur les débits de boissons les dispositions prévues par le paragraphe premier de l'article 40 du présent code et relatives au recouvrement, au contrôle, au contentieux, aux sanctions, et à la prescription."
+        },
+        {
+          "role": "assistant",
+          "content": "Le droit de licence est dû par les exploitants de tous établissements vendant des boissons à consommer sur place (cafés, bars, salons de thé), selon un tarif par catégorie fixé par décret (art. 61). La perception s'effectue sur déclaration déposée à la recette des finances, avec une retenue de 10% au profit du budget de l'État. Le paiement a lieu : pour les établissements soumis à la taxe sur les établissements industriels/commerciaux/professionnels ou à la taxe hôtelière, pendant le mois de janvier de chaque année ; pour les redevables au régime forfaitaire d'imposition, à l'occasion de la déclaration de l'impôt sur le revenu (art. 62). Le droit est dû pour l'année entière, indépendamment de la date de début ou de cessation d'activité. En outre, l'article 63 applique les règles de recouvrement, contrôle, contentieux, sanctions et prescription de l'article 40-1 (celles du droit commun fiscal). Cette structure vise à simplifier la perception annuelle tout en garantissant une ressource stable aux collectivités locales, avec un prélèvement pour l'État. Sources : art. 61, 62 et 63 du code de la fiscalité locale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_multi_017",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [85,89,90],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les taxes liées à l'occupation de l'espace public par des commerces ou pour le stationnement ?\n\nDocuments pertinents:\n[1] Source: article 85 du code de la fiscalité locale\nI- La « redevance pour occupation temporaire de la voie publique relevant des collectivités locales » est due sur : 1) L'occupation temporaire de la voie publique par les cafetiers, restaurateurs, étalagistes et toute personne exerçant une activité dans le cadre d'une installation mobile et déplaçable. 2) Le stationnement des véhicules de transport de personnes ou de marchandises sur la voie publique. 3) L'occupation de la voie publique à l'occasion de l'installation de chantiers de construction et sur les panneaux publicitaires à caractère commercial ainsi que sur les enseignes, stores, vitrines, devantures et pancartes fixés, faisant saillie, incrustés ou suspendus sur la voie publique. 4) Les travaux au-dessous de la voie publique.\n\n[2] Source: article 89 du code de la fiscalité locale\nLa contribution à la réalisation de parkings collectifs pour les moyens de transport est due par les propriétaires des nouvelles constructions ou de celles ayant fait l'objet d'extension ou de transformation partielle ou totale de leur usage lorsque, pour des raisons techniques ou économiques, il s'avère impossible pour leur propriétaire de satisfaire aux normes de stationnement pour les moyens de transport telles que prévues par la réglementation en vigueur.\n\n[3] Source: article 90 du code de la fiscalité locale\nLa contribution est égale à un montant par place de stationnement manquante, variant selon le nombre d'habitants de la commune et le pourcentage de manque ( ≤25%, entre 25% et 75%, >75% ). Par exemple, pour un manque ≤25% dans une commune >100 000 hab. : 1000 dinars par place ; si le manque >75% : 2250 dinars par place. En cas de non réalisation de toutes les places autorisées ou changement d'affectation sans autorisation, le montant est doublé."
+        },
+        {
+          "role": "assistant",
+          "content": "Deux principales taxes régissent l'occupation de l'espace public et le stationnement. Premièrement, l'article 85 institue une redevance pour occupation temporaire de la voie publique, due notamment par les cafetiers, restaurateurs, étalagistes (installations mobiles), pour le stationnement des véhicules (personnes ou marchandises), pour les chantiers de construction et la publicité commerciale (panneaux, enseignes, stores), ainsi que pour les travaux sous la voie publique. Deuxièmement, les articles 89 et 90 prévoient une contribution pour la réalisation de parkings collectifs, due par les propriétaires de nouvelles constructions ou extensions lorsqu'ils ne peuvent pas respecter les normes de stationnement en raison de contraintes techniques ou économiques. Le montant de cette contribution dépend de la population de la commune et du pourcentage de places manquantes (de 250 dinars à 2250 dinars par place, voire doublé en cas d'infraction). L'objectif est d'encourager la création de parkings publics tout en compensant les lacunes des constructions privées, et de réguler l'usage de la voirie pour préserver l'ordre public et l'esthétique urbaine. Sources : art. 85, 89 et 90 du code de la fiscalité locale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_refusal_018",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le délai pour déposer une réclamation auprès de la commission de révision concernant la taxe sur les terrains non bâtis ?\n\nDocuments pertinents:\nLes documents fournis contiennent les articles 30 à 34 du code de la fiscalité locale relatifs à la taxe sur les terrains non bâtis (champ d'application, redevables, exonérations, assiette, taux, recouvrement, contrôle, contentieux et sanctions – article 34 renvoie aux dispositions de la taxe sur les immeubles bâtis pour le recouvrement, contrôle, contentieux et sanctions). Cependant, la section spécifique sur le contentieux (articles 23 à 26) concerne explicitement la taxe sur les immeubles bâtis. L'article 34 dispose : « Sont applicables à la taxe sur les terrains non bâtis les dispositions relatives au recouvrement, au contrôle, au contentieux et aux sanctions prévues aux articles 10 à 13, 16 à 22, 27 et 28 du présent code. » Il ne mentionne pas les articles 23 à 26 (contentieux avec commission de révision). Par conséquent, les délais exacts pour former opposition auprès de la commission de révision pour cette taxe ne sont pas clairement indiqués dans le code. Le texte renvoie plutôt au contentieux de la taxe sur les immeubles bâtis mais sans préciser si la commission s'applique."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre précisément à votre question sur le délai de réclamation auprès de la commission de révision pour la taxe sur les terrains non bâtis. L'article 34 du code de la fiscalité locale renvoie, pour le contentieux, aux articles 10 à 13, 16 à 22, 27 et 28 (qui traitent principalement du recouvrement, des obligations, des sanctions et de la prescription) mais sans inclure les articles 23 à 26 qui instituent la commission de révision pour la taxe sur les immeubles bâtis. Je vous recommande de consulter un avocat spécialisé ou de demander une interprétation auprès de la direction générale des impôts ou de la collectivité locale concernée. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_clarification_019",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [46,47,48,49],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Organisation d'un spectacle – dois-je payer une taxe ?\n\nDocuments pertinents:\n[1] Source: article 46 du code de la fiscalité locale\nLa taxe est due par les organisateurs de spectacles occasionnels.\n\n[2] Source: article 47 du code de la fiscalité locale\nSont exonérés de la taxe sur les spectacles : - Les spectacles exceptionnels organisés au profit des organisations de bienfaisance bénéficiant d'une subvention de l'État, - Les spectacles de théâtre ou de musique organisés par des associations artistiques agréées, ne comportant pas la présence d'artistes professionnels, ayant pour but le développement de l'art, - Les foires et les manifestations non payantes, - Les spectacles dont le prix d'entrée n'excède pas un montant fixé par décret.\n\n[3] Source: article 48 – assiette : 50% des recettes prévisionnelles ; article 49 – taux : 6%."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question est trop large pour une réponse définitive. La taxe sur les spectacles (art. 46) est due par les organisateurs de spectacles occasionnels, mais plusieurs exonérations existent (art. 47). Pour vous orienter, merci de préciser : 1) Le spectacle est-il payant (prix d'entrée) ? Si le prix est ≤5 dinars (décret n°97-530), il est exonéré. 2) S'agit-il d'un spectacle de bienfaisance subventionné par l'État ? 3) Est-il organisé par une association artistique agréée, sans artistes professionnels, à but développement de l'art ? 4) S'agit-il d'une foire ou manifestation gratuite ? Selon vos réponses, je pourrai vous dire si la taxe (calculée sur 50% des recettes prévisionnelles au taux de 6%, art. 48-49) est due. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_procedural_020",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [52,59,60],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment se déroule le paiement de la contribution des propriétaires riverains pour les travaux de voirie ? Peut-on bénéficier d'un échelonnement ?\n\nDocuments pertinents:\n[1] Source: article 52 du code de la fiscalité locale\nEst perçue une contribution des propriétaires riverains aux dépenses des travaux de premier établissement et des grandes réparations réalisées par les collectivités locales, relatives aux voies, trottoirs et conduites d'évacuation des matières liquides ainsi qu'aux travaux d'aménagement des quartiers résidentiels et des zones industrielles et touristiques. Le commencement des travaux et la perception de la contribution ne peuvent avoir lieu qu'après la parution d'un décret déclarant ces travaux d'utilité publique.\n\n[2] Source: article 59 du code de la fiscalité locale\nLa contribution des propriétaires riverains donne lieu au paiement d'une avance variant de 10 pour-cent à 30 pour-cent du montant de la contribution. Les collectivités locales ont la faculté d'en fixer le taux dans ces limites, et ce en vertu d'un arrêté pris par le président de la collectivité locale. Le reliquat est acquitté sans intérêt en cinq fractions annuelles égales à partir du mois suivant celui de l'achèvement des travaux. Le défaut de paiement de la contribution ou d'une fraction donne lieu à l'application d'une pénalité annuelle égale à 10 pour-cent du montant de la contribution ou de la fraction.\n\n[3] Source: article 60 du code de la fiscalité locale\nLa collectivité locale est tenue de restituer les sommes perçues au titre de l'avance, aux propriétaires riverains concernés dans le cas où les travaux n'ont pas été réalisés dans les deux années qui ont suivi la date de publication du décret visé au deuxième paragraphe de l'article 52."
+        },
+        {
+          "role": "assistant",
+          "content": "Le paiement de la contribution des propriétaires riverains (art. 52) suit un processus en plusieurs phases, avec possibilité d'échelonnement. Étape 1 : après publication du décret déclarant les travaux d'utilité publique, la collectivité locale fixe par arrêté le taux de l'avance (entre 10% et 30% du montant total de la contribution). Cette avance est due avant le début des travaux. Étape 2 : le reliquat (le solde après déduction de l'avance) est acquitté sans intérêts en cinq fractions annuelles égales, à partir du mois suivant l'achèvement des travaux (art. 59). Ainsi, un échelonnement sur cinq ans est obligatoire, sans intérêts. Étape 3 : si les travaux ne sont pas réalisés dans les deux ans suivant le décret, la collectivité doit restituer l'avance perçue (art. 60). En cas de défaut de paiement d'une fraction ou de l'avance, une pénalité de 10% par an sur le montant dû est appliquée (art. 59). Ce mécanisme permet de financer les travaux publics tout en allégeant l'impact immédiat sur les riverains par le fractionnement, avec une protection contre les travaux non réalisés. Sources : art. 52, 59 et 60 du code de la fiscalité locale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": ["Chapitre I (Taxe sur les immeubles bâtis) : articles 1,2,3,4,5,6,8,10,13,14,15,16,17,17bis,19,23,24,25,27 ; Chapitre II (Terrains non bâtis) : 30,31,32 ; Chapitre III (Établissements industriels/commerciaux/professionnels) : 35,36,37,38,39,40 ; Chapitre IV (Taxe hôtelière) : 41,42,43 ; Chapitre V (Spectacles) : 46,47,48,49 ; Chapitre VI (Contribution riverains) : 52,53,59,60 ; Chapitre VII (Droits de licence) : 61,62,63 ; Chapitre VIII (Taxes diverses) : 68,69,85,89,90"],
+    "sections_not_covered": ["Chapitre VIII sections 1 (redevances formalités admin), 2 (taxe autorisations admin seulement partielle), 3 (droits marchés sauf stationnement général), 4 (sous-sections 1 taxe abattage, 2 contrôle sanitaire, 4 domaine maritime, 5 cimetières), 5 (redevances prestations payantes) ; Troisième partie (textes d'application décrets/arrêtés) ; Quatrième partie (dispositions non incorporées)"],
+    "notes": "Le PDF contient également des décrets d'application et des lois connexes (amnistie fiscale, publicité, hygiène). Ils n'ont pas été utilisés dans cet échantillon pour rester concentré sur le code principal. Un prochain batch pourrait couvrir les décrets (prix de référence du mètre carré, tarifs des taxes diverses) et les lois annexes (notamment loi n°2006-59 sur les infractions à l'hygiène). Aucune hallucination d'article : tous les articles cités existent dans le document. Attention : l'article 38-III a été abrogé (mais non utilisé). L'article 34 renvoie au contentieux mais le délai exact pour commission n'est pas explicite – cela a été traité dans un exemple de refus par prudence."
+  }
+}

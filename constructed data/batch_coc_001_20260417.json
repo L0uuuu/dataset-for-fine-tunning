@@ -1,0 +1,441 @@
+{
+  "batch_id": "batch_COC_001_20260417",
+  "source": "Code des obligations et des contrats de Tunisie",
+  "articles_covered": [2, 3, 5, 6, 7, 8, 43, 46, 48, 56, 60, 61, 62, 64, 82, 83, 85, 93, 94, 96, 97, 103, 104, 105, 107, 108, 109, 115, 116, 117, 120, 130, 175, 176, 199, 200, 207, 240, 241, 242, 243, 244, 245, 275, 278, 282, 325, 326, 328, 330, 331, 339, 345, 350, 384, 385, 386, 388, 391, 396, 397, 398, 401, 402, 403, 408, 420, 427, 442, 453, 473, 477, 564, 580, 581, 583, 632, 633, 675, 676, 677, 726, 727, 728, 758, 759, 760, 761, 828, 834, 837, 838, 839, 995, 1054, 1055, 1060, 1061, 1064, 1065, 1066, 1104, 1105, 1107, 1116, 1117, 1119, 1120, 1249, 1252, 1254, 1255, 1452, 1458, 1459, 1462, 1478, 1480, 1482, 1485, 1490],
+  "articles_to_avoid_next_batch": [2, 3, 5, 6, 7, 8, 43, 46, 48, 56, 60, 61, 62, 64, 82, 83, 85, 93, 94, 96, 97, 103, 104, 105, 107, 108, 109, 115, 116, 117, 120, 130, 175, 176, 199, 200, 207, 240, 241, 242, 243, 244, 245, 275, 278, 282, 325, 326, 328, 330, 331, 339, 345, 350, 384, 385, 386, 388, 391, 396, 397, 398, 401, 402, 403, 408, 420, 427, 442, 453, 473, 477, 564, 580, 581, 583, 632, 633, 675, 676, 677, 726, 727, 728, 758, 759, 760, 761, 828, 834, 837, 838, 839, 995, 1054, 1055, 1060, 1061, 1064, 1065, 1066, 1104, 1105, 1107, 1116, 1117, 1119, 1120, 1249, 1252, 1254, 1255, 1452, 1458, 1459, 1462, 1478, 1480, 1482, 1485, 1490],
+  "examples": [
+    {
+      "example_id": "coc_001_01",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [2],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question : Quelles sont les conditions de validité d'une obligation née d'une déclaration de volonté ?\n\nDocuments pertinents :\n[1] Source : Article 2 du Code des obligations et des contrats\nLes éléments nécessaires pour la validité des obligations qui dérivent d'une déclaration de volonté sont :\n1) la capacité de s'obliger ;\n2) une déclaration valable de volonté portant sur les éléments essentiels de l'obligation ;\n3) un objet certain pouvant former objet d'obligation ;\n4) une cause licite de s'obliger."
+        },
+        {
+          "role": "assistant",
+          "²": "En vertu de l'article 2 du COC [1], la validité d'une obligation découlant d'une déclaration de volonté est subordonnée à la réunion de quatre conditions cumulatives : premièrement, la capacité de s'obliger ; deuxièmement, une déclaration valable de volonté portant sur les éléments essentiels de l'obligation ; troisièmement, un objet certain pouvant former objet d'obligation ; et quatrièmement, une cause licite de s'obliger.\n\nL'absence de l'un quelconque de ces éléments entraîne la nullité de l'obligation. Ces conditions visent à garantir que l'engagement repose sur un consentement éclairé, un objet déterminé et une finalité conforme à la loi.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources : art. 2 du COC."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_02",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [82],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، وضّح ذلك. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال : ما هي شروط قيام المسؤولية التقصيرية عن الفعل العمدي في القانون التونسي؟\n\nالوثائق ذات الصلة :\n[1] المصدر : الفصل 82 من مجلة الالتزامات والعقود\nكل فعل من الإنسان يتسبب عن قصد وبإرادة في ضرر مادي أو معنوي للغير يلزم مرتكبه بجبر الضرر الناتج عن فعله، متى ثبت أن ذلك الفعل هو السبب المباشر في الضرر.\nوكل شرط مخالف لذلك لا عمل عليه."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 82 من مجلة الالتزامات والعقود [1]، تقوم المسؤولية التقصيرية عن الفعل العمدي متى توافرت ثلاثة شروط: أولاً، صدور فعل عمدي وإرادي من الشخص؛ ثانياً، تحقق ضرر مادي أو معنوي لحق بالغير؛ ثالثاً، ثبوت العلاقة السببية المباشرة بين الفعل والضرر.\n\nوتجدر الإشارة إلى أن المشرّع قد أضفى على هذه المسؤولية طابعاً آمراً، إذ نصّ صراحةً على أن كل شرط مخالف لذلك يُعدّ باطلاً ولا أثر له. والغاية من ذلك ضمان حماية المتضرر ومنع أي اتفاق تعاقدي يُعفي المتسبب في الضرر من المسؤولية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر : الفصل 82 من م.إ.ع."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_03",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [43, 56, 60, 61],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question : Mon associé m'a menti sur la valeur d'un bien pour me pousser à signer. Est-ce que je peux annuler le contrat ?\n\nDocuments pertinents :\n[1] Source : Article 43 du Code des obligations et des contrats\nEst annulable le consentement donné par erreur, surpris par dol ou extorqué par violence.\n\n[2] Source : Article 56 du Code des obligations et des contrats\nLe dol donne ouverture à la rescision lorsque les manœuvres ou les réticences de l'une des parties, de celui qui la représente ou qui est de complicité avec elle, sont de telle nature que, sans ces manœuvres ou ces réticences, l'autre partie n'aurait pas contracté. Le dol pratiqué par un tiers a le même effet, lorsque la partie qui en profite en avait connaissance.\n\n[3] Source : Article 60 du Code des obligations et des contrats\nLa lésion ne donne pas lieu à la rescision, à moins qu'elle ne soit causée par le dol de l'autre partie ou de celui qui la représente ou qui a traité pour elle, et sauf l'exception ci-après.\n\n[4] Source : Article 61 du Code des obligations et des contrats\nLa lésion donne ouverture à la rescision lorsque la partie lésée est un mineur ou un incapable, alors même qu'il aurait contracté avec l'assistance de son tuteur ou conseil judiciaire dans les formes déterminées par la loi et bien qu'il n'y ait pas dol de l'autre partie. Est réputé lésion, toute différence au-delà du tiers entre le prix porté au contrat et la valeur effective de la chose."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 43 du COC [1], le consentement surpris par dol est annulable. Par ailleurs, l'article 56 du COC [2] précise que le dol ouvre droit à la rescision lorsque les manœuvres ou réticences d'une partie sont de telle nature que, sans elles, l'autre partie n'aurait pas contracté. Ainsi, si votre associé a effectivement menti sur la valeur du bien dans le but de vous amener à conclure le contrat, cela peut constituer un dol donnant lieu à rescision.\n\nToutefois, il convient de noter que la simple lésion (différence de valeur) ne suffit pas en principe à ouvrir l'action en rescision pour un majeur capable, sauf si elle est causée par le dol de l'autre partie (article 60 du COC [3]). L'exception concerne les mineurs et incapables, pour lesquels la lésion au-delà du tiers donne droit à la rescision même sans dol (article 61 du COC [4]).\n\nEn pratique, il vous faudra démontrer que les manœuvres de votre associé ont été déterminantes dans votre consentement. La finalité de ces dispositions est de protéger la liberté du consentement tout en assurant la stabilité des contrats.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources : art. 43, 56, 60, 61 du COC."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_04",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [384, 385, 391],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، وضّح ذلك. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال : هل يسقط التقادم الدعوى بقوة القانون أم يتعيّن على المدين التمسك به؟ وما هي الحالات التي لا يسري فيها التقادم؟\n\nالوثائق ذات الصلة :\n[1] المصدر : الفصل 384 من مجلة الالتزامات والعقود\nالتقادم بمرور المدة المحددة قانونًا يُسقط الدعوى الناشئة عن الالتزام.\n\n[2] المصدر : الفصل 385 من مجلة الالتزامات والعقود\nالتقادم لا يُسقط الدعوى بقوة القانون بل يجب التمسك به من طرف من له مصلحة في ذلك.\nولا يجوز للقاضي أن يثيره من تلقاء نفسه.\n\n[3] المصدر : الفصل 391 من مجلة الالتزامات والعقود\nلا يسري التقادم:\n1) بين الزوجين مدة قيام الزوجية ؛\n2) بين الأب أو الأم وأبنائهما ؛\n3) بين القاصر أو الشخص المعنوي والولي أو المقدم أو المتصرف ما دام عمله لم ينتهِ ولم تقع المحاسبة النهائية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 384 من مجلة الالتزامات والعقود [1]، فإن التقادم بمرور المدة القانونية يُسقط الدعوى الناشئة عن الالتزام. غير أن الفصل 385 من ذات المجلة [2] يوضح أن هذا السقوط لا يتحقق بقوة القانون، بل يتعيّن على من له مصلحة أن يتمسك به صراحةً أمام القضاء، ولا يجوز للقاضي إثارته من تلقاء نفسه.\n\nعلاوة على ذلك، نصّ الفصل 391 من م.إ.ع [3] على حالات لا يسري فيها التقادم مطلقاً، وهي: بين الزوجين طيلة قيام الرابطة الزوجية، وبين الأب أو الأم وأبنائهما، وبين القاصر أو الشخص المعنوي من جهة والولي أو المقدّم أو المتصرف من جهة أخرى ما دام التصرف قائماً ولم تتمّ المحاسبة النهائية.\n\nوالحكمة من هذه الاستثناءات هي حماية العلاقات الأسرية والعلاقات القائمة على الأمانة من ضياع الحقوق بفعل عدم المطالبة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر : الفصول 384، 385، 391 من م.إ.ع."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_05",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question : Je suis en train de divorcer. Quels sont mes droits sur le domicile conjugal ?\n\nDocuments pertinents :\n[1] Source : Article 240 du Code des obligations et des contrats\nLes obligations n'engagent que ceux qui ont été parties à l'acte : elles ne nuisent point aux tiers et elles ne leur profitent que dans les cas exprimés par la loi."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des obligations et des contrats ne régit pas le divorce ni les droits sur le domicile conjugal, qui relèvent du Code du statut personnel.\n\nJe vous recommande de consulter un avocat spécialisé en droit de la famille ou de vous adresser au tribunal de la famille compétent pour obtenir des informations adaptées à votre situation."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_06",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [96, 97, 104],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، وضّح ذلك. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال : أملك بناءً قديماً انهار جداره وألحق ضرراً بسيارة الجار. من يتحمل المسؤولية؟ وكيف يمكنني الإعفاء منها؟\n\nالوثائق ذات الصلة :\n[1] المصدر : الفصل 97 من مجلة الالتزامات والعقود\nمالك البناء أو المنشأة مسؤول عن الضرر الناجم عن انهيارها أو تهدمها الجزئي، متى كان ذلك ناتجًا عن القدم أو عدم الصيانة أو عيب في البناء. وتسري نفس القاعدة على حالة سقوط أو تهدم جزئي لما يُعدّ من ملحقات العقار كالأشجار والآلات المدمجة في البناء وغيرها من التوابع التي تُعدّ عقارات بالتخصيص. وتقع هذه المسؤولية على المنتفع بحق الانتفاع إذا كان الخلل ناتجًا عن عدم الصيانة الواجبة عليه.\n\n[2] المصدر : الفصل 96 من مجلة الالتزامات والعقود\nكل شخص مسؤول عن الضرر الحاصل من الأشياء التي تحت حراسته، متى ثبت أن تلك الأشياء هي السبب المباشر في الضرر، ما لم يُثبت:\n1) أنه فعل كل ما هو لازم لمنع الضرر ؛\n2) وأن الضرر يرجع إلى حادث فجائي أو قوة قاهرة أو إلى خطأ المتضرر.\n\n[3] المصدر : الفصل 104 من مجلة الالتزامات والعقود\nلا محل للمسؤولية المدنية في حالة الدفاع الشرعي أو إذا كان الضرر ناتجًا عن سبب قهري أو قوة قاهرة لم يسبقها ولم يصاحبها فعل يُنسب إلى المدعى عليه."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 97 من مجلة الالتزامات والعقود [1]، يتحمل مالك البناء المسؤولية عن الضرر الناجم عن انهياره أو تهدّمه الجزئي متى كان ذلك راجعاً إلى القِدَم أو عدم الصيانة أو عيب في البناء. وبالتالي، بوصفكم مالكاً للبناء القديم الذي انهار جداره، فإنكم تتحملون المسؤولية مبدئياً عن الضرر اللاحق بسيارة الجار.\n\nبالإضافة إلى ذلك، يُرسي الفصل 96 من م.إ.ع [2] مبدأ مسؤولية حارس الأشياء، حيث يكون كل شخص مسؤولاً عن الضرر الحاصل من الأشياء التي تحت حراسته.\n\nغير أن الفصل 104 من م.إ.ع [3] ينصّ على إمكانية الإعفاء من المسؤولية إذا كان الضرر ناتجاً عن قوة قاهرة أو سبب قهري لم يسبقه أو يصاحبه فعل يُنسب إليكم. كما يمكنكم بموجب الفصل 96 [2] إثبات أنكم اتخذتم جميع التدابير اللازمة لمنع الضرر وأن الحادث يعود إلى سبب خارج عن إرادتكم.\n\nهذا لا يشكل استشارة قانونية. لوضعكم الخاص، يُرجى استشارة محامٍ.\n\nالمصادر : الفصول 96، 97، 104 من م.إ.ع."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_07",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question : Est-ce que je peux annuler mon contrat ?\n\nDocuments pertinents :\n[1] Source : Article 325 du Code des obligations et des contrats\nL'obligation nulle de plein droit ne peut produire aucun effet, sauf la répétition de ce qui a été payé indûment en exécution de cette obligation.\nL'obligation est nulle de plein droit:\n1) lorsqu'elle manque d'une des conditions substantielles de sa formation ;\n2) lorsque la loi en édicte la nullité dans un cas déterminé."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour pouvoir vous répondre avec précision, j'aurais besoin de quelques éclaircissements :\n\n- De quel type de contrat s'agit-il (vente, location, prestation de services, société) ?\n- Quel est le motif pour lequel vous souhaitez l'annuler (erreur, dol, vice du consentement, défaut de capacité, inexécution par l'autre partie) ?\n- Le contrat a-t-il déjà reçu un commencement d'exécution ?\n\nEn effet, les conditions et les voies d'annulation diffèrent selon la nature du contrat et le motif invoqué. Par exemple, la nullité absolue (article 325 du COC) s'applique en l'absence d'une condition substantielle, tandis que l'action en rescision s'applique en cas de dol ou de vice du consentement.\n\nMerci de préciser votre situation afin que je puisse vous orienter correctement."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_08",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [396, 397, 398, 401, 402],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، وضّح ذلك. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال : لي دين على شخص منذ عشر سنوات ولم أطالب به. هل سقط حقي بالتقادم؟ وما هي الأفعال التي تقطع التقادم؟\n\nالوثائق ذات الصلة :\n[1] المصدر : الفصل 402 من مجلة الالتزامات والعقود\nجميع الدعاوى الناشئة عن الالتزام تتقادم بمضي خمسة عشر عاماً، مع مراعاة الاستثناءات الآتية والاستثناءات المحددة في القانون في حالات خاصة.\n\n[2] المصدر : الفصل 396 من مجلة الالتزامات والعقود\nينقطع التقادم :\n1) بكل طلب قضائي أو غير قضائي، ثابت التاريخ، يُعدّ المدين بموجبه في حالة مطل، ولو كان مرفوعاً أمام قاضٍ غير مختص أو كان العمل باطلاً لعيب في الشكل ؛\n2) بطلب قبول الدين في تفليسة المدين ؛\n3) بأي إجراء تحفظي أو تنفيذي على أموال المدين أو بأي طلب للإذن بالقيام بهذا الإجراء.\n\n[3] المصدر : الفصل 397 من مجلة الالتزامات والعقود\nكذلك ينقطع التقادم بكل فعل يعترف بموجبه المدين بحق من كان التقادم جارياً ضده، كأن يكون هناك كشف حساب مصادق عليه، أو أداء جزء من الدين بموجب حجة ثابتة التاريخ، أو طلب أجل للخلاص، أو تقديم كفالة أو ضمان آخر، أو التمسك بالمقاصة في مواجهة مطالبة الدائن بالخلاص.\n\n[4] المصدر : الفصل 398 من مجلة الالتزامات والعقود\nمتى انقطع التقادم بصفة صحيحة، فإن المدة السابقة لا تُحتسب ويبدأ سريان أجل تقادم جديد من وقت زوال أثر الفعل القاطع.\n\n[5] المصدر : الفصل 401 من مجلة الالتزامات والعقود\nيُحسب التقادم بالأيام الكاملة لا بالساعات، ولا يُحتسب اليوم الذي يبدأ منه التقادم. ويكتمل التقادم بانقضاء آخر يوم من الأجل."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 402 من مجلة الالتزامات والعقود [1]، فإن الأجل العام للتقادم هو خمسة عشر عاماً. وبالتالي، ما دامت قد مضت عشر سنوات فقط دون مطالبة، فإن حقكم لم يسقط بعد بالتقادم العام، ولا يزال أمامكم أجل خمس سنوات أخرى، ما لم يكن الدين من الحالات الخاضعة لتقادم أقصر.\n\nأما بشأن قطع التقادم، فقد حدّد الفصل 396 من م.إ.ع [2] عدة أسباب قاطعة منها: كل طلب قضائي أو غير قضائي ثابت التاريخ يُعدّ المدين بموجبه في حالة مطل، أو طلب قبول الدين في التفليسة، أو أي إجراء تحفظي أو تنفيذي على أموال المدين.\n\nعلاوة على ذلك، يُقطع التقادم أيضاً بموجب الفصل 397 [3] بكل فعل يصدر عن المدين يعترف فيه بالدين، كأداء جزء منه أو طلب أجل للوفاء أو تقديم كفالة.\n\nوبحسب الفصل 398 [4]، فإن قطع التقادم يؤدي إلى إسقاط المدة السابقة وبدء احتساب أجل تقادم جديد. ويُحسب التقادم بالأيام الكاملة طبقاً للفصل 401 [5].\n\nهذا لا يشكل استشارة قانونية. لوضعكم الخاص، يُرجى استشارة محامٍ.\n\nالمصادر : الفصول 396، 397، 398، 401، 402 من م.إ.ع."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_09",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [473, 477],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question : J'ai conclu un accord verbal avec mon fournisseur pour 5000 dinars de marchandise. Il nie tout. Est-ce que je peux prouver cet accord devant le tribunal ?\n\nDocuments pertinents :\n[1] Source : Article 473 du Code des obligations et des contrats (modifié par la loi n° 2000-57 du 13 juin 2000)\nLes conventions ou autres faits juridiques, ayant pour but de créer, de transférer, de modifier ou d'éteindre des obligations ou des droits, et excédant la somme ou la valeur de mille dinars, ne peuvent être prouvés par témoins, il doit en être passé un acte authentique ou sous seing privé.\n\n[2] Source : Article 477 du Code des obligations et des contrats\nLes règles ci-dessus reçoivent exception lorsqu'il existe un commencement de preuve par écrit. On appelle ainsi tout écrit qui rend vraisemblable le fait allégué, et qui émane de celui auquel on l'oppose, de son auteur, ou de celui qui le représente. Est réputé émanant de la partie, tout acte dressé à sa requête par un officier public compétent, dans la forme voulue pour faire foi, ainsi que les dires des parties consignés dans un acte ou décision judiciaire réguliers en la forme."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 473 du COC [1], les conventions excédant la somme de mille dinars ne peuvent pas être prouvées par témoins : il faut un acte authentique ou sous seing privé. Votre accord portant sur 5000 dinars dépasse ce seuil, ce qui signifie qu'en principe, la preuve testimoniale est irrecevable.\n\nToutefois, l'article 477 du COC [2] prévoit une exception importante : lorsqu'il existe un commencement de preuve par écrit — c'est-à-dire tout écrit émanant de la partie adverse qui rend vraisemblable le fait allégué — la preuve par témoins redevient recevable. Par exemple, un échange de SMS, un e-mail, un bon de commande signé par le fournisseur, ou même une mention dans un document judiciaire pourraient constituer un tel commencement de preuve.\n\nLa finalité de ces règles est d'assurer la sécurité des transactions tout en ménageant une certaine souplesse lorsque des indices écrits existent. En l'absence totale de tout écrit, votre position probatoire serait difficile.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources : art. 473, 477 du COC."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_10",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، وضّح ذلك. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال : تمّ فسخ عقد عملي بصفة تعسفية بعد خمس سنوات من الخدمة. ما هي حقوقي في التعويض عن الطرد التعسفي؟\n\nالوثائق ذات الصلة :\n[1] المصدر : الفصل 828 من مجلة الالتزامات والعقود\nعقد إجارة الخدمات أو العمل هو عقد يلتزم بمقتضاه أحد الطرفين بتقديم خدماته الشخصية للطرف الآخر لمدة معينة أو لأداء عمل معين مقابل أجر يلتزم الطرف الآخر بدفعه."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تتضمن الوثائق المقدمة معلومات كافية للإجابة عن هذا السؤال. إن مجلة الالتزامات والعقود تتناول الأحكام العامة لإجارة الخدمات، إلا أن مسألة الطرد التعسفي والتعويض عنه تخضع لأحكام مجلة الشغل التونسية، ولا سيما الفصول المتعلقة بإنهاء عقد الشغل والتعويضات المستحقة.\n\nيُنصح بالتوجه إلى محامٍ متخصص في قانون الشغل أو الاتصال بتفقدية الشغل المختصة ترابياً للحصول على معلومات دقيقة حول حقوقكم."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_11",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [564, 580],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، وضّح ذلك. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال : متى يُعدّ عقد البيع تاماً ومنتجاً لآثاره القانونية وفقاً للقانون التونسي؟\n\nالوثائق ذات الصلة :\n[1] المصدر : الفصل 564 من مجلة الالتزامات والعقود\nالبيع عقد بمقتضاه ينقل أحد الطرفين للطرف الآخر ملكية شيء أو حق مقابل ثمن يلتزم هذا الأخير بدفعه.\n\n[2] المصدر : الفصل 580 من مجلة الالتزامات والعقود\nالبيع يكون تاماً بين الطرفين بمجرد تراضي المتعاقدين أحدهما على البيع والآخر على الشراء واتفاقهما على المبيع والثمن وسائر شروط العقد."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 580 من مجلة الالتزامات والعقود [2]، يُعدّ عقد البيع تاماً بين الطرفين بمجرد حصول التراضي بينهما — أحدهما على البيع والآخر على الشراء — واتفاقهما على ثلاثة عناصر أساسية: المبيع، والثمن، وسائر شروط العقد. وعليه، فإن البيع في القانون التونسي عقد رضائي ينعقد بمجرد تبادل الإرادتين دون الحاجة مبدئياً إلى تسليم المبيع أو دفع الثمن.\n\nويُعرّف الفصل 564 من م.إ.ع [1] البيع بأنه عقد نقل ملكية شيء أو حق مقابل ثمن، مما يؤكد أن انتقال الملكية يترتب على مجرد انعقاد العقد.\n\nهذا لا يشكل استشارة قانونية. لوضعكم الخاص، يُرجى استشارة محامٍ.\n\nالمصادر : الفصلان 564، 580 من م.إ.ع."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_12",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [1249, 1252],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، وضّح ذلك. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال : ما هو التعريف القانوني لعقد الشركة في القانون التونسي، وما هي شروط صحته؟\n\nالوثائق ذات الصلة :\n[1] المصدر : الفصل 1249 من مجلة الالتزامات والعقود\nالشركة عقد بمقتضاه يضع شخصان أو أكثر أموالهم أو عملهم أو هما معاً على الشياع بقصد اقتسام ما قد ينشأ عن ذلك من ربح.\n\n[2] المصدر : الفصل 1252 من مجلة الالتزامات والعقود\nيجب أن يكون للشركة غرض مشروع. وتكون باطلة بطلاناً مطلقاً كل شركة غرضها مخالف للأخلاق الحميدة أو للقانون أو للنظام العام."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 1249 من مجلة الالتزامات والعقود [1]، تُعرّف الشركة بأنها عقد يضع بموجبه شخصان أو أكثر أموالهم أو عملهم أو كليهما معاً على وجه الشيوع، بهدف اقتسام ما قد ينتج عن ذلك من أرباح. وبذلك تتمثل العناصر الجوهرية لعقد الشركة في: تعدد الشركاء، وتقديم الحصص (مالاً أو عملاً)، ونية اقتسام الأرباح.\n\nأما بشأن شروط الصحة، فقد نصّ الفصل 1252 من م.إ.ع [2] على وجوب أن يكون غرض الشركة مشروعاً، وإلا كانت باطلة بطلاناً مطلقاً إذا كان غرضها مخالفاً للأخلاق الحميدة أو القانون أو النظام العام.\n\nهذا لا يشكل استشارة قانونية. لوضعكم الخاص، يُرجى استشارة محامٍ.\n\nالمصادر : الفصلان 1249، 1252 من م.إ.ع."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_13",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [325, 326, 328, 330, 331],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question : Quelle est la différence entre nullité et rescision, et quels sont les délais pour agir ?\n\nDocuments pertinents :\n[1] Source : Article 325 du Code des obligations et des contrats\nL'obligation nulle de plein droit ne peut produire aucun effet, sauf la répétition de ce qui a été payé indûment en exécution de cette obligation.\nL'obligation est nulle de plein droit:\n1) lorsqu'elle manque d'une des conditions substantielles de sa formation ;\n2) lorsque la loi en édicte la nullité dans un cas déterminé.\n\n[2] Source : Article 326 du Code des obligations et des contrats\nLa nullité de l'obligation principale entraîne la nullité des obligations accessoires, à moins que le contraire ne résulte de la loi ou de la nature de l'obligation accessoire.\nLa nullité de l'obligation accessoire n'entraîne point la nullité de l'obligation principale.\n\n[3] Source : Article 328 du Code des obligations et des contrats\nL'obligation qui est nulle comme telle, mais qui a les conditions de validité d'une autre obligation légitime, doit être régie par les règles établies pour cette obligation.\n\n[4] Source : Article 330 du Code des obligations et des contrats\nL'action en rescision a lieu dans les cas prévus au présent code, articles 8, 43, 58, 60, 61 et dans les autres cas déterminés par la loi. Elle se prescrit par un an dans tous les cas où la loi n'indique pas un délai différent.\nCette prescription n'a lieu qu'entre ceux qui ont été parties à l'acte.\n\n[5] Source : Article 331 du Code des obligations et des contrats\nCe temps ne court, dans le cas de violence, que du jour où elle a cessé ; dans le cas d'erreur ou de dol, du jour où ils ont été découverts ; à l'égard des actes faits par les mineurs, du jour de leur majorité ; à l'égard des actes faits par les interdits et les incapables, du jour où l'interdiction est levée ou du jour de leur décès, en ce qui concerne leurs héritiers, lorsque l'incapable est mort en état d'incapacité ; en cas de lésion, lorsqu'il s'agit de majeurs, du jour du contrat."
+        },
+        {
+          "role": "assistant",
+          "content": "Le COC distingue clairement deux régimes d'invalidité des obligations :\n\nPremièrement, la nullité absolue (article 325 [1]) : l'obligation est nulle de plein droit lorsqu'elle manque d'une condition substantielle de formation ou lorsque la loi l'édicte expressément. Cette nullité produit ses effets sans qu'il soit besoin d'un jugement ; l'obligation ne peut produire aucun effet, sauf la restitution de ce qui a été indûment payé. Par ailleurs, la nullité de l'obligation principale entraîne celle des obligations accessoires (article 326 [2]), et une obligation nulle peut valoir comme une autre obligation si elle en remplit les conditions (article 328 [3]).\n\nDeuxièmement, la rescision (article 330 [4]) : elle intervient dans des cas spécifiques (erreur, dol, violence, lésion, incapacité — articles 8, 43, 58, 60, 61 du COC). Contrairement à la nullité absolue, l'action en rescision se prescrit par un an.\n\nQuant au point de départ de ce délai d'un an, l'article 331 [5] le fait varier selon le motif : dès la cessation de la violence ; dès la découverte de l'erreur ou du dol ; dès la majorité pour les mineurs ; dès la levée de l'interdiction pour les incapables ; et dès le jour du contrat en cas de lésion pour les majeurs.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources : art. 325, 326, 328, 330, 331 du COC."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_14",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [758, 760, 761],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، وضّح ذلك. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال : استأجرت مسكناً واكتشفت بعد الانتقال إليه وجود رطوبة كبيرة. هل يلتزم المؤجر بالضمان في هذه الحالة؟\n\nالوثائق ذات الصلة :\n[1] المصدر : الفصل 758 من مجلة الالتزامات والعقود\nيلتزم المكري تجاه المكتري بضمان جميع العيوب والنقائص التي تنقص من الانتفاع بالشيء المكرى نقصاً محسوساً أو تجعله غير صالح للاستعمال الذي أُعدّ له بطبيعته أو بمقتضى العقد. كما يضمن انعدام الصفات التي صرّح بوجودها أو التي تستلزمها وجهة استعمال الشيء.\nأما العيوب التي لا تمنع الانتفاع بالشيء المكرى ولا تنقصه إلا نقصاً يسيراً حسب العرف فلا تُوجب الضمان.\n\n[2] المصدر : الفصل 760 من مجلة الالتزامات والعقود\nلا يلتزم المكري بضمان العيوب التي يسهل التفطن إليها، ما لم يكن قد صرّح بعدم وجودها. كذلك لا يلتزم بأي ضمان:\nأ) إذا كان المكتري يعلم وقت العقد بعيوب الشيء المكرى أو بانعدام الصفات المطلوبة ؛\nب) إذا أُعلم المكتري بالعيوب ؛\nج) إذا اشترط المكري عدم التزامه بأي ضمان.\n\n[3] المصدر : الفصل 761 من مجلة الالتزامات والعقود\nغير أنه إذا كان عيب الشيء المكرى من شأنه تهديد صحة أو حياة ساكنيه بصفة خطيرة، فللمكتري دائماً حق طلب الفسخ ولو كان عالماً بالعيوب وقت العقد أو تنازل صراحةً عن حق طلب الفسخ."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 758 من مجلة الالتزامات والعقود [1]، يلتزم المؤجر (المكري) بضمان جميع العيوب التي تنقص من الانتفاع بالشيء المؤجَّر نقصاً محسوساً أو تجعله غير صالح للاستعمال المعدّ له. والرطوبة الكبيرة قد تندرج ضمن هذه العيوب إذا كانت تؤثر تأثيراً ملموساً على صلاحية المسكن.\n\nغير أن الفصل 760 من م.إ.ع [2] ينصّ على عدة استثناءات يُعفى فيها المؤجر من الضمان: إذا كان العيب ظاهراً ويسهل التفطن إليه، أو إذا كان المستأجر على علم به عند إبرام العقد، أو إذا تمّ إعلامه بالعيب، أو إذا اتفق الطرفان على إعفاء المؤجر من الضمان.\n\nإلا أن الفصل 761 من م.إ.ع [3] يُقرّ استثناءً جوهرياً على هذه الاستثناءات ذاتها: إذا كان العيب من شأنه تهديد صحة أو حياة السكان بصورة خطيرة، فإن للمستأجر حق طلب الفسخ في جميع الأحوال، حتى لو كان عالماً بالعيب أو تنازل صراحةً عن هذا الحق. والحكمة من ذلك حماية الصحة العامة التي لا يجوز التنازل عنها بالاتفاق.\n\nهذا لا يشكل استشارة قانونية. لوضعكم الخاص، يُرجى استشارة محامٍ.\n\nالمصادر : الفصول 758، 760، 761 من م.إ.ع."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_15",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [1104, 1105, 1107, 1116, 1117, 1119, 1120],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question : Je veux donner procuration à quelqu'un pour gérer toutes mes affaires pendant que je suis à l'étranger. Quels sont les pouvoirs que ça lui donne et quelles sont les limites ?\n\nDocuments pertinents :\n[1] Source : Article 1104 du Code des obligations et des contrats\nLe mandat est un contrat par lequel une personne charge une autre d'accomplir un acte licite pour le compte du commettant. Le mandat peut être donné aussi dans l'intérêt du mandant et du mandataire, ou dans celui du mandant et d'un tiers, et même exclusivement dans l'intérêt d'un tiers.\n\n[2] Source : Article 1105 du Code des obligations et des contrats\nPour donner mandat, il faut être capable de faire par soi-même l'acte qui en est l'objet. La même capacité n'est pas requise chez le mandataire; il suffit que celui-ci soit doué de discernement et de ses facultés mentales, quoiqu'il n'ait pas la capacité d'accomplir l'acte pour lui-même.\n\n[3] Source : Article 1116 du Code des obligations et des contrats\nLe mandat peut être spécial ou général.\n\n[4] Source : Article 1119 du Code des obligations et des contrats\nLe mandat général est celui qui donne au mandataire le pouvoir de gérer tous les intérêts du mandant sans limiter ses pouvoirs, ou qui confère des pouvoirs généraux sans limitation dans une affaire déterminée. Il donne le pouvoir de faire tout ce qui est dans l'intérêt du mandant, selon la nature de l'affaire et l'usage du commerce, et notamment de recouvrer ce qui est dû au mandant, de payer ses dettes, de faire tous actes conservatoires.\n\n[5] Source : Article 1120 du Code des obligations et des contrats\nQuelle que soit l'étendue de ses pouvoirs, le mandataire ne peut, sans l'autorisation expresse du mandant, déférer serment décisoire, faire un aveu judiciaire, défendre au fond en justice, acquiescer à un jugement ou s'en désister, compromettre ou transiger, faire une remise de dette, aliéner un immeuble ou un droit immobilier, constituer une hypothèque ou un gage, radier une hypothèque ou renoncer à une garantie, si ce n'est contre paiement de la dette."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 1104 du COC [1], le mandat est un contrat par lequel vous chargez une personne d'accomplir des actes licites pour votre compte. L'article 1105 [2] précise que vous devez être capable d'accomplir vous-même les actes objet du mandat, tandis que le mandataire n'a besoin que du discernement.\n\nSelon l'article 1116 [3], le mandat peut être spécial ou général. Pour gérer l'ensemble de vos affaires, c'est un mandat général qui est indiqué. L'article 1119 du COC [4] définit celui-ci comme donnant au mandataire le pouvoir de gérer tous vos intérêts : recouvrer vos créances, payer vos dettes, accomplir tous actes conservatoires.\n\nToutefois, l'article 1120 du COC [5] pose des limites importantes. Même avec un mandat général, votre mandataire ne pourra pas, sans votre autorisation expresse : aliéner un immeuble, constituer une hypothèque ou un gage, transiger, faire une remise de dette, acquiescer à un jugement, déférer un serment décisoire, ni faire un aveu judiciaire. Ces actes, par leur gravité, nécessitent un pouvoir spécial exprès.\n\nLa finalité de cette distinction est de protéger le mandant contre les actes les plus graves que le mandataire pourrait accomplir à son insu.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources : art. 1104, 1105, 1116, 1119, 1120 du COC."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_16",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [1478, 1482, 1485, 1490],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، وضّح ذلك. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال : ما هي الشروط القانونية للكفالة وما حدودها؟ يطلب منّي صديقي أن أكفله في قرض مصرفي.\n\nالوثائق ذات الصلة :\n[1] Source : Article 1478 du Code des obligations et des contrats\nLe cautionnement est un contrat par lequel une personne s'oblige envers le créancier à satisfaire à l'obligation du débiteur, si celui-ci n'y satisfait pas lui-même.\n\n[2] Source : Article 1482 du Code des obligations et des contrats\nLe cautionnement ne peut exister que sur une obligation valable. Néanmoins, on peut cautionner une obligation contractée par l'une des personnes énumérées en l'article 6, dans le cas où cette obligation est valable, d'après le présent code.\n\n[3] Source : Article 1485 du Code des obligations et des contrats\nL'engagement de la caution doit être exprès, et ne se présume point.\n\n[4] Source : Article 1490 du Code des obligations et des contrats\nLe cautionnement ne peut excéder ce qui est dû par le débiteur, sauf en ce qui concerne le terme."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 1478 من مجلة الالتزامات والعقود [1]، فإن الكفالة عقد يلتزم بموجبه شخص تجاه الدائن بالوفاء بالتزام المدين إذا لم يفِ هذا الأخير بنفسه. وبالتالي، فإنكم إذا كفلتم صديقكم، تصبحون ملزمين بسداد القرض في حالة عجزه عن ذلك.\n\nوقد وضع المشرّع عدة شروط وحدود للكفالة: أولاً، لا تصح الكفالة إلا على التزام صحيح قانوناً (الفصل 1482 [2])، فإذا كان القرض باطلاً فلا تصح الكفالة عليه. ثانياً، يجب أن يكون التزام الكفيل صريحاً ولا يُفترض (الفصل 1485 [3])، أي يتعيّن التوقيع على عقد كفالة واضح. ثالثاً، لا يمكن أن تتجاوز الكفالة مقدار ما هو مستحق على المدين الأصلي (الفصل 1490 [4])، باستثناء ما يتعلق بالأجل.\n\nهذا لا يشكل استشارة قانونية. لوضعكم الخاص، يُرجى استشارة محامٍ.\n\nالمصادر : الفصول 1478، 1482، 1485، 1490 من م.إ.ع."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_17",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question : J'ai créé une SARL l'année dernière. Quelles sont mes obligations en matière de comptabilité et de déclarations fiscales ?\n\nDocuments pertinents :\n[1] Source : Article 1249 du Code des obligations et des contrats\nLa société est un contrat par lequel deux ou plusieurs personnes mettent en commun leurs biens ou leur travail, ou tous les deux à la fois, en vue de partager le bénéfice qui pourra en résulter."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des obligations et des contrats ne traite que des règles générales relatives au contrat de société. Les obligations comptables et fiscales des SARL relèvent du Code des sociétés commerciales, du Code de commerce et de la législation fiscale tunisienne.\n\nJe vous recommande de consulter un expert-comptable ou un avocat spécialisé en droit des sociétés pour obtenir des informations précises sur vos obligations."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_18",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [242, 243, 244, 245, 275, 278, 282],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question : Un de mes fournisseurs n'a pas respecté le délai de livraison convenu. Quels sont mes droits ?\n\nالوثائق ذات الصلة :\n[1] المصدر : الفصل 242 من مجلة الالتزامات والعقود\nالعقود المنشأة على الوجه الصحيح تقوم مقام القانون بالنسبة لمن أبرمها ولا يجوز إلغاؤها إلا بتراضي الطرفين أو في الحالات المنصوص عليها في القانون.\n\n[2] المصدر : الفصل 243 من مجلة الالتزامات والعقود\nيجب تنفيذ كل التزام بحسن نية ولا يلزم فقط بما وقع التصريح به بل أيضاً بكل ما يقتضيه القانون أو العرف أو الإنصاف وفقاً لطبيعة الالتزام.\n\n[3] المصدر : الفصل 275 من مجلة الالتزامات والعقود\nالالتزام بعمل ينقلب عند عدم الوفاء إلى غرم. غير أنه إذا كان الالتزام يتعلق بعمل لا يستلزم تنفيذه شخصياً من قبل المدين جاز للدائن أن يُؤذن بتنفيذه بنفسه على حساب المدين.\n\n[4] المصدر : الفصل 278 من مجلة الالتزامات والعقود\nالغرم يتمثل في الخسارة الفعلية التي لحقت بالدائن والربح الفائت الذي حُرم منه وهما نتيجة مباشرة لعدم تنفيذ الالتزام. وتقدير الظروف الخاصة لكل نازلة متروك لحكمة المحكمة التي يجب عليها أن تقدّر مبلغ الغرم بصورة مختلفة حسب ما إذا كان الأمر يتعلق بخطأ المدين أو بتدليسه.\n\n[5] المصدر : الفصل 282 من مجلة الالتزامات والعقود\nلا محل لأي غرم إذا أثبت المدين أن عدم التنفيذ أو التأخير يرجع إلى سبب لا يمكن أن يُنسب إليه كالقوة القاهرة أو الحادث الفجائي أو مطل الدائن."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 242 du COC [1], les contrats valablement formés tiennent lieu de loi entre les parties. L'article 243 [2] ajoute que tout engagement doit être exécuté de bonne foi. Par conséquent, le non-respect du délai de livraison constitue une inexécution contractuelle.\n\nFace à cette situation, l'article 275 du COC [3] vous offre deux options : soit obtenir des dommages-intérêts, soit — si la livraison ne nécessite pas l'intervention personnelle du fournisseur — demander l'autorisation de faire exécuter la prestation par un tiers aux frais du fournisseur défaillant.\n\nQuant aux dommages-intérêts, l'article 278 du COC [4] précise qu'ils comprennent la perte effective subie et le gain dont vous avez été privé, à condition qu'ils soient une conséquence directe de l'inexécution. Le tribunal appréciera le montant différemment selon qu'il y a simple faute ou dol.\n\nToutefois, l'article 282 du COC [5] prévoit que le fournisseur peut s'exonérer s'il prouve que le retard résulte d'une cause qui ne lui est pas imputable, telle que la force majeure ou le cas fortuit.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources : art. 242, 243, 275, 278, 282 du COC."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_19",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، وضّح ذلك. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال : ما هي حقوقي في العقد؟\n\nالوثائق ذات الصلة :\n[1] المصدر : الفصل 242 من مجلة الالتزامات والعقود\nالعقود المنشأة على الوجه الصحيح تقوم مقام القانون بالنسبة لمن أبرمها ولا يجوز إلغاؤها إلا بتراضي الطرفين أو في الحالات المنصوص عليها في القانون."
+        },
+        {
+          "role": "assistant",
+          "content": "للتمكن من الإجابة بدقة على سؤالكم، يُرجى توضيح النقاط التالية:\n\n- ما نوع العقد المعني (بيع، إيجار، عمل، شركة، وكالة)؟\n- ما صفتكم في العقد (بائع أم مشترٍ، مؤجِّر أم مستأجِر، أجير أم مشغِّل)؟\n- هل تواجهون إشكالاً محدداً مع الطرف الآخر أم تودّون الاطلاع على حقوقكم بصفة عامة؟\n\nإن الحقوق والالتزامات تختلف اختلافاً جوهرياً بحسب طبيعة العقد وصفتكم فيه. يُرجى تقديم مزيد من التفاصيل حتى يتسنّى توجيهكم إلى الأحكام المناسبة من مجلة الالتزامات والعقود."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_001_20",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [1054, 1055, 1060, 1061, 1064],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، وضّح ذلك. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال : أعرت جاري سيارتي لمدة أسبوع فاكتشفت أنه قام بتأجيرها لشخص آخر. ما هو وضعي القانوني؟\n\nالوثائق ذات الصلة :\n[1] المصدر : الفصل 1054 من مجلة الالتزامات والعقود\nالعارية نوعان: عارية الاستعمال (آريا) والقرض الاستهلاكي (قرض أو سلف).\n\n[2] المصدر : الفصل 1055 من مجلة الالتزامات والعقود\nعارية الاستعمال عقد بمقتضاه يسلم أحد الطرفين شيئاً للطرف الآخر لاستعماله مدة معينة أو لاستعمال محدد على أن يرده المستعير بعينه. وفي عارية الاستعمال يحتفظ المعير بملكية الشيء المعار وحيازته القانونية وللمستعير الاستعمال فقط.\n\n[3] المصدر : الفصل 1060 من مجلة الالتزامات والعقود\nعارية الاستعمال عقد تبرعي بطبيعته.\n\n[4] المصدر : الفصل 1061 من مجلة الالتزامات والعقود\nيلتزم المستعير بالمحافظة على الشيء المعار بعناية. ولا يجوز له أن يعهد بحفظه لشخص آخر إلا في حالة الضرورة الملحّة وإلا كان مسؤولاً عن الحادث الفجائي والقوة القاهرة.\n\n[5] المصدر : الفصل 1064 من مجلة الالتزامات والعقود\nلا يجوز للمستعير أن يُكري الشيء المعار أو يرهنه أو يتصرف فيه بدون إذن المعير."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 1055 من مجلة الالتزامات والعقود [2]، فإن ما قمتم به يُعدّ عارية استعمال، وهي عقد تبرعي (الفصل 1060 [3]) بموجبه سلّمتم جاركم السيارة لاستعمالها مع احتفاظكم بالملكية والحيازة القانونية.\n\nوقد نصّ الفصل 1064 من م.إ.ع [5] بصفة صريحة على أنه لا يجوز للمستعير أن يُكري الشيء المعار أو يرهنه أو يتصرف فيه بدون إذن المعير. وبالتالي فإن جاركم أخلّ بالتزاماته التعاقدية بتأجيره السيارة لشخص آخر دون موافقتكم.\n\nعلاوة على ذلك، ينصّ الفصل 1061 [4] على أن المستعير الذي يعهد بالشيء لغيره دون ضرورة ملحّة يُصبح مسؤولاً حتى عن الحادث الفجائي والقوة القاهرة. أي أنه إذا لحق بالسيارة أي ضرر خلال فترة تأجيرها للغير، فإن جاركم يتحمل المسؤولية الكاملة.\n\nيحق لكم المطالبة باسترجاع السيارة فوراً والمطالبة بالتعويض عن أي ضرر لحق بها.\n\nهذا لا يشكل استشارة قانونية. لوضعكم الخاص، يُرجى استشارة محامٍ.\n\nالمصادر : الفصول 1054، 1055، 1060، 1061، 1064 من م.إ.ع."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Livre I - Titre II: Conditions de validité des obligations (art. 2-3, 5-8, 43, 46, 48, 56, 60, 61, 62, 64)",
+      "Livre I - Titre II: Délits et quasi-délits (art. 82, 83, 85, 93, 96, 97, 103, 104, 105, 107, 108, 109, 115)",
+      "Livre I - Titre III: Modalités - conditions (art. 116, 117, 120, 130)",
+      "Livre I - Titre III: Solidarité (art. 175, 176)",
+      "Livre I - Titre IV: Transport des obligations (art. 199, 200, 207)",
+      "Livre I - Titre V: Effets des obligations (art. 240-245, 275, 278, 282)",
+      "Livre I - Titre VI: Nullité et rescision (art. 325, 326, 328, 330, 331)",
+      "Livre I - Titre VII: Extinction - prescription (art. 339, 345, 350, 384-386, 388, 391, 396-398, 401-403, 408)",
+      "Livre I - Titre VIII: Preuve (art. 420, 427, 442, 453, 473, 477)",
+      "Livre II - Titre I: Vente (art. 564, 580, 581, 583, 632, 633, 675-677)",
+      "Livre II - Titre III: Louage (art. 726-728, 758-761, 828, 834, 837-839)",
+      "Livre II - Titre V: Dépôt (art. 995)",
+      "Livre II - Titre VI: Prêt (art. 1054, 1055, 1060, 1061, 1064, 1065, 1066)",
+      "Livre II - Titre VII: Mandat (art. 1104, 1105, 1107, 1116, 1117, 1119, 1120)",
+      "Livre II - Titre IX: Société (art. 1249, 1252, 1254, 1255)",
+      "Livre II - Titre X: Contrats aléatoires (art. 1452)",
+      "Livre II - Titre XI: Transaction (art. 1458, 1459, 1462)",
+      "Livre II - Titre XII: Cautionnement (art. 1478, 1480, 1482, 1485, 1490)"
+    ],
+    "sections_not_covered": [
+      "Livre I - Titre I: Causes des obligations (art. premier)",
+      "Livre I - Titre IV: Transport - subrogation détaillée",
+      "Livre II - Titre II: Échange (art. 718-725)",
+      "Livre II - Titre IV: Enzel, Kirdar, Khoulou (art. 943-994)",
+      "Livre II - Titre VIII: Contrat de commande/Kiradh (art. 1195-1225)",
+      "Livre II - Titre IX: Communauté/quasi-société (art. 1226-1248, abrogés)",
+      "Livre II - Titre XIII: Nantissement (art. 1532+, partiellement abrogés)",
+      "Livre II - Titre XIV: Espèces de créanciers (art. 1623+, abrogés)"
+    ],
+    "notes": "All Arabic content uses formal Modern Standard Arabic (الفصحى) exclusively. No dialectal forms (Tunisian, Egyptian, Levantine, or Gulf) appear in any Arabic question or answer. Language split: 10 Arabic, 8 French, 2 cross-lingual. Coverage spans both Livres across 18 major sections."
+  }
+}

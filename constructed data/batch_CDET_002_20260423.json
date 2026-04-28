@@ -1,0 +1,425 @@
+{
+  "batch_id": "batch_CDET_002_20260423",
+  "source": "Code des droits d'enregistrement et de timbre de Tunisie (Version 2020)",
+  "articles_covered": [3, 4, 15, 18, 21, 25, 45, 84, 92, 119, 121, 134],
+  "articles_to_avoid_next_batch": [1, 2, 3, 4, 7, 10, 15, 18, 20, 21, 23, 25, 31, 45, 51, 80, 84, 92, 117, 118, 119, 121, 134],
+  "examples": [
+    {
+      "example_id": "cdet_021_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [15],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, je vends mon appartement avec les meubles. Comment doit-on évaluer la valeur des meubles pour l'enregistrement du contrat ?\n\nDocuments pertinents:\n[1] Source: article 15 du CDET\nLa valeur des meubles meublants est déterminée, pour la liquidation des droits, par le prix exprimé dans l'acte ou par une déclaration estimative des parties, sans que cette valeur puisse être inférieure à 5% de la valeur des immeubles."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 15 du CDET, l'évaluation des meubles pour l'enregistrement se base soit sur le prix indiqué dans votre contrat, soit sur une estimation déclarée par les deux parties [1]. \n\nToutefois, il est important de noter une règle de plancher : la valeur estimée des meubles ne peut en aucun cas être inférieure à 5% de la valeur de l'appartement lui-même [1]. Cette disposition vise à prévenir les sous-évaluations fiscales excessives lors des ventes globales. Ainsi, même si vous vendez vos meubles pour un prix symbolique, l'administration fiscale retiendra au minimum ce forfait de 5%.\n\nSources: art. 15 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_022_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [121],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي قيمة الطابع الجبائي المستحق عند طلب استخراج بطاقة التعريف الوطنية لأول مرة؟\n\nDocuments pertinents:\n[1] Source: الفصل 121 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع بطاقة التعريف الوطنية لطابع جبائي قدره 3 دنانير عند الإصدار لأول مرة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 121 من مجلة حقوق التسجيل والطابع الجبائي، حددت قيمة الطابع الجبائي المتعلق بإصدار بطاقة التعريف الوطنية لأول مرة بمبلغ 3 دنانير [1].\n\nعلاوة على ذلك، يهدف هذا المعلوم الرمزي إلى تغطية التكاليف المادية لإصدار الوثيقة الرسمية للهوية. وبالتالي، يتعين على المواطن تقديم ما يفيد دفع هذا المعلوم ضمن ملف الاستخراج لدى المصالح الأمنية المختصة.\n\nالمصادر: الفصل 121 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_023_princ_ex_fr",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [45],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je souhaite acheter un terrain d'une valeur de 15 000 DT. Puis-je payer le vendeur en espèces (cash) et enregistrer mon contrat normalement ?\n\nDocuments pertinents:\n[1] Source: article 45 du CDET\nL'enregistrement des actes portant transfert de propriété d'immeubles est subordonné à la mention des références de paiement bancaire ou postal si le prix dépasse 5.000 dinars. Sont exceptés : les cas de force majeure ou les paiements effectués avant le 1er juin 2019."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 45 du CDET, le principe est que pour toute transaction immobilière dont le prix excède 5 000 dinars, vous avez l'obligation d'effectuer le paiement par voie bancaire ou postale et d'en mentionner les références dans le contrat pour pouvoir l'enregistrer [1].\n\nToutefois, la loi prévoit des exceptions limitées, notamment en cas de force majeure dûment justifiée empêchant l'usage des circuits bancaires, ou pour des paiements ayant acquis date certaine avant juin 2019 [1]. Cette règle a pour finalité de lutter contre le blanchiment d'argent et de renforcer la transparence des transactions foncières. Ainsi, pour votre achat de 15 000 DT, un paiement en espèces rendra l'enregistrement de votre acte impossible auprès de la Recette des Finances.\n\nSources: art. 45 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_024_multi_ar",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [21, 117],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أقوم بتأسيس شركة برأس مال قدره 10 آلاف دينار. ما هي المعاليم الجبائية المستحقة لتسجيل عقد التأسيس؟\n\nDocuments pertinents:\n[1] Source: الفصل 21 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع عقود تأسيس الشركات إلى معلوم نسبي قدره 0,5% من قيمة رأس المال.\n[2] Source: الفصل 117 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع العقود الخاضعة للتسجيل لطابع جبائي قدره 5 دنانير عن كل ورقة."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 21 من مجلة حقوق التسجيل والطابع الجبائي، يخضع عقد تأسيس شركتكم لمعلوم تسجيل نسبي قدره 0,5% من قيمة رأس المال، وهو ما يعادل 50 ديناراً في حالتكم [1].\n\nعلاوة على ذلك، وطبقاً للفصل 117، يجب إضافة معلوم الطابع الجبائي المقدر بـ 5 دنانير عن كل ورقة من العقد [2]. تهدف هذه الرسوم إلى توثيق وجود الشخص المعنوي الجديد في السجلات الجبائية للدولة. وبالتالي، فإن التكلفة الجملية ستعتمد على عدد أوراق العقد مضافاً إليها المعلوم النسبي لرأس المال.\n\nالمصادر: الفصل 21 و117 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_025_refusal_fr",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je voudrais savoir quelles sont les taxes municipales (Zlabia) que je dois payer pour installer une enseigne lumineuse devant ma boutique à Sousse ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des droits d'enregistrement et de timbre régit les taxes nationales liées aux actes juridiques, tandis que les taxes sur les enseignes relèvent de la fiscalité locale et des arrêtés municipaux. Je vous recommande de vous adresser directement aux services de la municipalité de Sousse."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_026_cross_3_fr_ar",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [119],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le montant du timbre fiscal requis pour le renouvellement d'un passeport tunisien en cas de perte ?\n\nDocuments pertinents:\n[1] Source: الفصل 119 من مجلة حقوق التسجيل والطابع الجبائي\nيخضع استخراج جواز السفر لطابع جبائي قدره 80 ديناراً. وفي حالة ضياع جواز السفر، يرفع معلوم الطابع الجبائي إلى 150 ديناراً."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 119 من مجلة حقوق التسجيل والطابع الجبائي، فإن معلوم الطابع الجبائي المستحق لتجديد جواز السفر في حالة الضياع هو 150 ديناراً [1].\n\nغير أنه في الحالات العادية، يكون المعلوم 80 ديناراً فقط، ولكن المشرع أقر ترفيعاً في المعلوم عند الضياع كنوع من الإجراء الردعي لحث المواطنين على الحفاظ على وثائق سفرهم الرسمية. وبالتالي، يتعين عليك توفير طابع بقيمة 150 ديناراً لإتمام ملفك.\n\nالمصادر: الفصل 119 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_027_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [92],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يحق لموظف قباضة المالية إفشاء معلومات حول عقود البيع التي قمت بتسجيلها لأطراف ثالثة؟\n\nDocuments pertinents:\n[1] Source: الفصل 92 من مجلة حقوق التسجيل والطابع الجبائي\nيمنع على أعوان إدارة الجباية إفشاء السر المهني تحت طائلة العقوبات المقررة بالمجلة الجنائية. ولا يجوز لهم إعطاء نسخ من العقود إلا للمتعاقدين أو ورثتهم أو بطلب من القضاء."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 92 من مجلة حقوق التسجيل والطابع الجبائي، يُمنع منعاً باتاً على أعوان قباضة المالية إفشاء أسرار العقود المودعة لديهم لأي طرف ثالث، حيث يخضعون لواجب السر المهني [1].\n\nعلاوة على ذلك، لا يمكن تسليم نسخ من هذه العقود إلا لأطراف العقد أنفسهم، أو ورثتهم الشرعيين، أو بناءً على إذن قضائي صريح [1]. تهدف هذه القاعدة إلى حماية المعطيات الشخصية والسرية المالية للمواطنين. وبالتالي، فإن أي تسريب للمعلومات يعتبر مخالفة جسيمة تستوجب تتبعات جنائية.\n\nالمصادر: الفصل 92 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_028_clarification_fr",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [21, 25],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je dois enregistrer un document et on m'a dit que c'est 0,5%. C'est correct ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Pourriez-vous préciser l'objet de votre document ? Le taux de 0,5% s'applique spécifiquement aux actes de constitution ou d'augmentation de capital des sociétés (selon l'article 21 [1]). S'il s'agit d'un achat immobilier, le taux est généralement plus élevé, sauf cas particuliers. Sans la nature exacte de l'acte, je ne peux confirmer ce taux."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_029_multi_fr",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [45, 84],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Que risque-t-on si on déclare dans le contrat de vente d'une maison un faux numéro de chèque pour contourner l'obligation de paiement bancaire ?\n\nDocuments pertinents:\n[1] Source: article 45 du CDET\nL'enregistrement des actes portant transfert de propriété d'immeubles est subordonné à la mention des références de paiement bancaire ou postal si le prix dépasse 5.000 dinars.\n[2] Source: article 84 duodecies du CDET\nToute personne ayant sciemment mentionné dans les contrats des références de paiement bancaires ou postales erronées ou usé de manœuvres est punie d’une amende égale à..."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 45 du CDET impose la mention de références bancaires réelles pour toute transaction immobilière supérieure à 5 000 DT [1]. \n\nEn cas de fausse déclaration, l'article 84 duodecies prévoit des sanctions sévères contre toute personne ayant sciemment mentionné des références erronées ou usé de manœuvres frauduleuses [2]. Outre l'amende fiscale, cette pratique peut entraîner la nullité de l'acte ou des poursuites pour fraude. La finalité de ces dispositions est d'assurer l'intégrité du système de paiement et la traçabilité des fonds. Ainsi, il est fortement déconseillé de falsifier ces informations.\n\nSources: art. 45 et 84 duodecies du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_030_princ_ex_ar",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [20, 25],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة, قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أرغب في شراء منزلي الأول من باعث عقاري. هل النسبة هي دائماً 5%؟\n\nDocuments pertinents:\n[1] Source: الفصل 20 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع عقود البيع المتعلقة بالعقارات إلى معلوم نسبي قدره 5%.\n[2] Source: الفصل 25 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع اقتناءات المساكن لدى الباعثين العقاريين الممولة بقرض سكني أو بمدخرات سكن لمعلوم ثابت قدره 20 ديناراً عن كل ورقة، وذلك بالنسبة للمسكن الأول."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 20 من مجلة حقوق التسجيل والطابع الجبائي، فإن المبدأ العام لنقل ملكية العقارات هو خضوعها لمعلوم نسبي قدره 5% [1].\n\nغير أن المشرع أقر استثناءً هاماً بموجب الفصل 25 لفائدة مقتني المساكن لأول مرة من الباعثين العقاريين، حيث يتم تعويض المعلوم النسبي بمعلوم ثابت قدره 20 ديناراً عن كل ورقة فقط، شريطة أن يتم التمويل عن طريق قرض سكني أو ادخار سكني [2]. تهدف هذه السياسة الجبائية إلى تشجيع المواطنين على امتلاك مسكنهم الأول وتخفيف الأعباء المالية عند الشراء. وبالتالي، يمكنك التمتع بهذا الامتياز الجبائي الهام إذا توفرت فيك الشروط المذكورة.\n\nالمصادر: الفصل 20 و25 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_031_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [3],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon avocat m'a dit que nous avons gagné le procès. Sous quel délai le jugement doit-il être enregistré ?\n\nDocuments pertinents:\n[1] Source: article 3 du CDET\nDoivent être enregistrés dans un délai de trente jours à compter de leur date : les actes et décisions judiciaires, les arrêts des cours et les jugements des tribunaux."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 3 du CDET, toutes les décisions judiciaires, y compris les jugements de tribunaux et les arrêts de cours, doivent être présentées à la formalité de l'enregistrement dans un délai de trente (30) jours à compter de leur date de prononcé [1]. \n\nPar ailleurs, ce délai est essentiel pour que le jugement puisse être exécuté de manière régulière. En effet, l'enregistrement atteste de l'existence officielle de la décision auprès de l'administration fiscale. Ainsi, il convient de s'assurer auprès de votre conseil que cette formalité soit accomplie dans le mois suivant le verdict.\n\nSources: art. 3 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_032_procedural_ar",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [4, 134],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أريد تقديم عقد بيع مسجل لدى المحكمة كدليل. هل هناك إجراءات خاصة يجب أن يقوم بها كاتب المحكمة بخصوص التسجيل؟\n\nDocuments pertinents:\n[1] Source: الفصل 4 من مجلة حقوق التسجيل والطابع الجبائي\nيمنع على السلطات العمومية والعدول والموثقين تضمين أو ذكر أي عقد لم يسبق تسجيله في دفاترهم أو أحكامهم.\n[2] Source: الفصل 134 من مجلة حقوق التسجيل والطابع الجبائي\nيجب على كتاب المحاكم تقديم سجلاتهم بصفة دورية لمصالح الجباية للتأشير عليها والتأكد من خلاص المعاليم."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 4 من مجلة حقوق التسجيل والطابع الجبائي، يُمنع على كافة السلطات العمومية، بما في ذلك المحاكم، الإشارة إلى أي عقد أو اعتماده ما لم يكن قد تم تسجيله مسبقاً ودفع المعاليم المستحقة عنه [1].\n\nوفيما يخص الإجراءات التنظيمية، يفرض الفصل 134 على كتاب المحاكم ضرورة تقديم سجلاتهم دورياً لمصالح الجباية للرقابة والتأشير [2]. تهدف هذه الإجراءات إلى ضمان عدم ضياع حقوق الدولة الجبائية ومنع تداول العقود غير القانونية في المسارات القضائية. وبالتالي، يجب عليك التأكد من وجود ختم التسجيل على العقد قبل تقديمه للمحكمة.\n\nالمصادر: الفصل 4 و134 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_033_refusal_ar",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي العقوبة السجنية المقررة في القانون التونسي لشخص قام بسرقة هاتف جوال؟"
+        },
+        {
+          "role": "assistant",
+          "content": "لا تحتوي الوثائق المقدمة على معلومات كافية للإجابة عن هذا السؤال. إن مجلة حقوق التسجيل والطابع الجبائي تتعلق فقط بالمعاليم الجبائية والطوابع، ولا تتضمن مقتضيات القانون الجنائي المتعلقة بالسرقة. أنصحكم بالاطلاع على المجلة الجنائية التونسية أو استشارة محامٍ مختص في القضايا الجزائية."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_034_cross_4_ar_fr",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [18],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "Question: Si je déclare un prix de vente inférieur au prix réel du marché dans mon contrat, est-ce que l'administration fiscale peut recalculer les taxes ?\n\nDocuments pertinents:\n[1] Source: الفصل 18 من مجلة حقوق التسجيل والطابع الجبائي\nتستخلص المعاليم على أساس الثمن المصرح به. غير أنه يجوز للإدارة تعديل هذه القيمة إذا تبين لها أنها لا تتناسب مع القيمة الحقيقية للعقار في تاريخ التفويت."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 18 من مجلة حقوق التسجيل والطابع الجبائي، فإن القاعدة هي احتساب المعاليم بناءً على الثمن الذي صرحت به في العقد [1].\n\nغير أن الإدارة الجبائية تمتلك حق المراجعة، حيث يمكنها تعديل هذه القيمة والترفيع فيها إذا رأت أنها لا تعكس القيمة الحقيقية للعقار في السوق وقت البيع [1]. تهدف هذه السلطة التقديرية إلى منع التهرب الجبائي وحماية موارد الدولة. وبالتالي، فإن التصريح بثمن غير واقعي قد يعرضك لمراجعة جبائية ودفع معاليم تكميلية وخطايا.\n\nالمصادر: الفصل 18 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_035_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [21],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis comptable et je prépare une augmentation de capital pour une SARL par incorporation de réserves. Quel est le taux applicable ?\n\nDocuments pertinents:\n[1] Source: article 21 du CDET\nLes augmentations de capital des sociétés par incorporation de réserves ou de bénéfices sont soumises à un droit proportionnel de 0,5%."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 21 du CDET, l'augmentation de capital social d'une entreprise par le biais de l'incorporation de réserves ou de bénéfices est soumise à un droit d'enregistrement proportionnel de 0,5% [1]. \n\nPar ailleurs, ce taux réduit est identique à celui appliqué lors de la constitution initiale, ce qui facilite la capitalisation des entreprises. En effet, l'enregistrement de cette opération est une étape obligatoire pour la mise à jour des statuts au Registre National des Entreprises. Ainsi, vous devrez calculer 0,5% du montant brut de l'augmentation.\n\nSources: art. 21 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_036_procedural_fr",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [3, 134],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Une fois le jugement prononcé par le juge, qui doit s'occuper de l'enregistrement et où faut-il aller ?\n\nDocuments pertinents:\n[1] Source: article 3 du CDET\nLe délai d'enregistrement est de 30 jours à compter de la date de la décision.\n[2] Source: article 134 du CDET\nLes greffiers des tribunaux sont tenus de soumettre leurs répertoires au visa de l'administration fiscale."
+        },
+        {
+          "role": "assistant",
+          "content": "Conformément à l'article 3 du CDET, l'enregistrement doit être effectué dans les 30 jours suivant le prononcé du jugement [1]. \n\nEn pratique, bien que le greffier ait des obligations de répertoire selon l'article 134 [2], c'est généralement la partie qui souhaite faire exécuter le jugement qui se rend à la Recette des Finances compétente (souvent celle proche du tribunal) pour s'acquitter des droits. Cette formalité permet de lever la « grosse » du jugement nécessaire à l'exécution par huissier. Ainsi, le processus implique le paiement immédiat des droits contre quittance.\n\nSources: art. 3 et 134 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_037_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [119],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كم تبلغ قيمة الطابع الجبائي لجواز سفر تلميذ أو طالب؟\n\nDocuments pertinents:\n[1] Source: الفصل 119 من مجلة حقوق التسجيل والطابع الجبائي\nيخضع استخراج جواز السفر لطابع جبائي قدره 80 ديناراً. ويخفض هذا المعلوم إلى 25 ديناراً بالنسبة للتلاميذ والطلبة الذين يثبتون صفتهم تلك."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 119 من مجلة حقوق التسجيل والطابع الجبائي، يتمتع التلاميذ والطلبة بتعريفة مخفضة لاستخراج جواز السفر قدرها 25 ديناراً فقط [1].\n\nعلاوة على ذلك، يشترط للحصول على هذا التخفيض تقديم وثيقة رسمية تثبت الصفة المدرسية أو الجامعية الحالية. تهدف هذه الخطوة إلى تشجيع الشباب والطلبة على التنقل لغايات تعليمية. وبالتالي، فإن المعلوم العادي البالغ 80 ديناراً لا ينطبق في حالتكم.\n\nالمصادر: الفصل 119 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_038_clarification_ar",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [45],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكنني تسجيل عقد شراء أرض قمت بدفع ثمنها نقداً؟"
+        },
+        {
+          "role": "assistant",
+          "content": "للإجابة على سؤالكم، يجب معرفة ثمن الأرض المصرح به في العقد. فإذا كان الثمن يفوق 5.000 دينار، فإن الفصل 45 يمنع التسجيل في حالة الدفع نقداً ويشترط الدفع البنكي [1]. أما إذا كان المبلغ 5.000 دينار أو أقل، فإن المنع لا ينطبق. هل يمكنكم تزويدي بقيمة الثمن؟"
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_039_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [121],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai perdu ma carte d'identité (CIN). Quel est le prix du timbre fiscal pour en refaire une ?\n\nDocuments pertinents:\n[1] Source: article 121 du CDET\nLe droit de timbre pour la carte d'identité nationale est fixé à 3 dinars pour l'émission initiale et porté à 25 dinars en cas de renouvellement suite à une perte ou détérioration."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 121 du CDET, le droit de timbre dû pour le renouvellement de votre carte d'identité nationale suite à une perte est de 25 dinars [1]. \n\nPar ailleurs, ce montant est nettement supérieur au droit initial de 3 dinars, car le législateur applique une majoration à titre de sanction pour défaut de garde de ce document officiel. Ainsi, vous devrez vous procurer un timbre de ce montant auprès d'une recette des finances ou d'un débit de tabac agréé.\n\nSources: art. 121 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_040_refusal_fr",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les conditions pour obtenir la nationalité tunisienne par le mariage avec une citoyenne tunisienne ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des droits d'enregistrement et de timbre traite exclusivement des aspects fiscaux. Les conditions d'acquisition de la nationalité sont régies par le Code de la Nationalité Tunisienne. Je vous recommande de consulter ce code ou de contacter le Ministère de la Justice."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Évaluation des biens (Meubles)",
+      "Droits de timbre (Identité, Passeport)",
+      "Constitution de sociétés",
+      "Obligations de paiement bancaire (>5000 DT)",
+      "Enregistrement des décisions de justice",
+      "Secret professionnel fiscal",
+      "Exonérations pour le premier logement"
+    ],
+    "sections_not_covered": [
+      "Régime des assurances",
+      "Droits sur les contrats de transport",
+      "Procédures de contrôle et de redressement approfondies"
+    ],
+    "notes": "Ce lot introduit des articles liés à la vie quotidienne (CIN, Passeport) et aux obligations de transparence financière (Article 45) qui sont critiques pour le RAG."
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "batch_id": "batch_CIRPP_IS_003_20260421",
+  "source": "Code de l'impôt sur le revenu des personnes physiques et de l'impôt sur les sociétés de Tunisie (mis à jour au 1er janvier 2020)",
+  "articles_covered": [25, 34, 36, 37, 40, 42, 43, 45, 46, 47, 48, "48bis", "48ter", "48quater", "48quinquies", "48septies", "48decies", 50, 53, 54],
+  "articles_to_avoid_next_batch": [25, 34, 36, 37, 40, 42, 43, 45, 46, 47, 48, "48bis", "48ter", "48quater", "48quinquies", "48septies", "48decies", 50, 53, 54],
+  "examples": [
+    {
+      "example_id": "CIRPPIS3_EX01_FR_DIRECT_ART25",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [25],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis gérant d’une SARL et je touche une rémunération mensuelle. Est-ce que ça rentre dans la catégorie « traitements et salaires » pour l’impôt sur le revenu ?\n\nDocuments pertinents:\n[1] Source: article 25 du CIRPP/IS\nLes traitements, salaires, émoluments, indemnités et autres avantages s'y rattachant ainsi que les pensions et rentes viagères constituent un élément du revenu global servant d'assiette à l'impôt sur le revenu.\n\nSont classés parmi les traitements et salaires, les rémunérations, les primes et les autres avantages accordés aux gérants des sociétés à responsabilité limitée."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 25 du CIRPP/IS, les traitements et salaires (ainsi que divers avantages) constituent un élément du revenu global imposable [1]. Le même article précise expressément que les rémunérations, primes et autres avantages accordés aux gérants des sociétés à responsabilité limitée (SARL) sont classés parmi les traitements et salaires [1].\n\nAinsi, votre rémunération de gérant de SARL est, d’après le texte fourni, rattachée à cette catégorie.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 25 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX02_AR_DIRECT_FASL34",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [34],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الأمثلة التي يعتبرها القانون «مداخيل من رؤوس الأموال المنقولة»؟\n\nDocuments pertinents:\n[1] Source: article 34 du CIRPP/IS\nSont considérés comme revenus de capitaux mobiliers:\n1- les intérêts... des obligations... titres d'emprunt...\n2- les intérêts des créances ;\n3- les intérêts et les revenus des dépôts de sommes d’argent ;\n4- les intérêts et les rémunérations des cautionnements ;\n5- les produits des comptes-courants ;\n6- les revenus des parts et le boni de liquidation du fonds commun de créances...\n7- le bénéfice net des sukuk et leurs revenus ainsi que les produits de liquidation du fonds commun des sukuk..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 34 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، تُعدّ «مداخيل من رؤوس الأموال المنقولة» جملةً من الأمثلة، من بينها: فوائد السندات وتذاكر الدين القابلة للتداول، وفوائد الديون، وفوائد ومداخيل الودائع، وفوائد/مكافآت الكفالات، ومنتجات الحسابات الجارية [1].\n\nويضيف النص كذلك مداخيل حصص صندوق مشترك للديون وبونص التصفية الخاص به، وأيضاً الربح الصافي للصكوك ومداخيلها ومنتجات تصفية صندوق الصكوك [1].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 34 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX03_FR_DIRECT_ART36",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [36],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Si je reçois des revenus de l’étranger qui n’ont pas été imposés dans le pays d’origine, ils sont classés où ?\n\nDocuments pertinents:\n[1] Source: article 36 du CIRPP/IS\nLes autres revenus sont constitués des revenus de source étrangère n'ayant pas été soumis au paiement de l'impôt dans le pays d'origine.\n\nFont également partie de la catégorie autre revenue :\n- les revenus réalisés des jeux de pari, de hasard et de loterie,\n- les revenus déterminés selon les dépenses personnelles ostensibles et notoires et selon l’accroissement du patrimoine... en cas de non réalisation de revenus..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 36 du CIRPP/IS, les revenus de source étrangère qui n’ont pas été soumis à l’impôt dans le pays d’origine sont classés dans la catégorie des « autres revenus » [1].\n\nPar ailleurs, le même article indique que font aussi partie de cette catégorie les revenus issus des jeux de pari/hasard/loterie, ainsi que certains revenus déterminés selon les dépenses personnelles ostensibles et l’accroissement du patrimoine dans les cas mentionnés [1].\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 36 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX04_AR_DIRECT_FASL37",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [37],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يُحدَّد «الدخل الصافي» في فئة «المداخيل الأخرى»؟\n\nDocuments pertinents:\n[1] Source: article 37 du CIRPP/IS\nLe revenu net est constitué par les sommes effectivement perçues de l'étranger et par le montant brut provenant des jeux de pari, de hasard et de loterie et par le revenu déterminé selon les dépenses personnelles ostensibles et notoires et selon l’accroissement du patrimoine.\n\n... le revenu net des traitements, salaires, pensions et rentes viagères est déterminé conformément... article 26.\n\n... le revenu net des pensions et rentes viagères est déterminé après une déduction de 80%... en cas de transfert... à un compte bancaire ou postal en Tunisie... et à condition de joindre... justificatifs..."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 37 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، يتحدد الدخل الصافي في فئة «المداخيل الأخرى» على أساس: المبالغ التي تم قبضها فعلياً من الخارج، والمبلغ الخام المتأتي من ألعاب الرهان والحظ واليانصيب، وكذلك الدخل الذي يقع تحديده وفق المصاريف الشخصية الظاهرة والمعلومة ووفق الزيادة في الثروة [1].\n\nويشير النص أيضاً إلى أنّ دخل الأجور والجرايات يُحدد وفق قواعد أخرى (مع الإحالة على الفصل 26)، وأنّ الجرايات قد تستفيد—في وضعيات محددة—من خصم بنسبة 80% عند تحويلها إلى حساب في تونس مع تقديم المؤيدات [1].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 37 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX05_FR_PRINCIPLE_EXCEPTION_ART40",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [40],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles déductions familiales puis-je appliquer si j’ai deux enfants, dont un étudiant à l’université, et un parent à charge ?\n\nDocuments pertinents:\n[1] Source: article 40 du CIRPP/IS\nI. ... déduction de 300 dinars pour le chef de famille.\nII. ... déduction supplémentaire... 100 dinars par enfant (quatre premiers enfants)...\n... enfants à charge ... moins de 20 ans...\nIII. La déduction ... portée à :\n- 1000 dinars par enfant poursuivant des études supérieures sans bourse et âgé de moins de 25 ans...\n- 2000 dinars par enfant infirme...\nIV. ... déduction au titre de chaque parent à charge... 5% du revenu net... max 450 dinars... conditions (déclaration du bénéficiaire de la pension, revenu des parents...) et répartition si plusieurs enfants..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 40 du CIRPP/IS, le principe est que le chef de famille bénéficie d’une déduction de 300 dinars, et d’une déduction supplémentaire pour les enfants à charge (100 dinars par enfant, dans la limite des quatre premiers) [1].\n\nToutefois, l’article prévoit des exceptions/majorations importantes : la déduction est portée à 1.000 dinars par enfant poursuivant des études supérieures sans bourse, à condition qu’il ait moins de 25 ans au 1er janvier de l’année d’imposition [1]. En outre, une déduction pour chaque parent à charge est possible, plafonnée (5% du revenu net imposable, max 450 dinars par parent) et soumise à des conditions de déclaration et de plafond de revenu du parent [1].\n\nAinsi, la finalité est d’ajuster l’assiette selon les charges familiales réellement supportées.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 40 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX06_AR_PRINCIPLE_EXCEPTION_FASL42",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [42],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: متى يمكن للإدارة اعتماد تقييم جزافي للدخل بسبب «عدم التناسب» بين نمط العيش والدخل المصرح به؟\n\nDocuments pertinents:\n[1] Source: article 42 du CIRPP/IS\nI. ... en cas de disproportion marquée entre le train de vie... et les revenus qu'il déclare, le revenu global imposable ne peut être inférieur à une somme forfaitaire...\nLa disproportion marquée... lorsque la somme forfaitaire... excède d'au moins 40%, pour l'année de l'imposition et l'année précédente, le montant du revenu net global déclaré.\nII. ... comprennent ceux des personnes considérées comme étant à sa charge...\nIII. ... majoré de 25% si au moins trois éléments...; majoré de 40% si 4 ou plus.\nIV. Les revenus expressément exonérés ainsi que ceux du conjoint sont... déduits..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 42 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، يتمثل المبدأ في أنه إذا وُجد «عدم تناسب واضح» بين نمط عيش المكلّف ودخله المصرّح به، فإن الدخل الإجمالي الخاضع للضريبة لا يمكن أن يكون أقل من مبلغ جزافي يُحتسب وفق عناصر نمط العيش [1].\n\nغير أنّ النص يضع معياراً محدداً لاعتبار عدم التناسب «واضحاً»: عندما يفوق المبلغ الجزافي المتحصل من تطبيق القاعدة الدخل الصافي الإجمالي المصرّح به بنسبة لا تقل عن 40%، وذلك بالنسبة لسنة التوظيف والسنة السابقة أيضاً [1]. كما يمكن أن تُؤخذ عناصر نمط عيش الأشخاص في كفالة المكلّف بعين الاعتبار، مع زيادات بنسبة 25% أو 40% حسب عدد العناصر، ومع طرح المداخيل المعفاة ومداخيل الزوج عند الاقتضاء [1].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 42 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX07_FR_MULTI_ART42_43",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [42, 43],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En contrôle fiscal, l’administration peut-elle reconstituer mon revenu à partir de mon train de vie et de mes dépenses si je n’arrive pas à justifier l’origine de l’argent ?\n\nDocuments pertinents:\n[1] Source: article 42 du CIRPP/IS\n... en cas de disproportion marquée... revenu global imposable ... somme forfaitaire... annexe I...\n... disproportion ... excède d'au moins 40%...\n\n[2] Source: article 43 du CIRPP/IS\nL’évaluation forfaitaire selon les dépenses personnelles ostensibles et notoires ou selon l’accroissement du patrimoine est applicable à tout contribuable tant qu’il n’a pas justifié des origines de financement de ses dépenses ou de l’accroissement de sa fortune.\n\nSont acceptées... les revenus imposables réalisés durant la période prescrite et ayant été déclarés et dont l’impôt a été payé avant le premier janvier... tant qu’il n’a pas été justifié de l’utilisation... dans d’autres acquisitions.\n\nCette procédure est utilisée lorsque le montant de cette évaluation, augmenté des frais de subsistance... dépasse son revenu déclaré..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 42 du CIRPP/IS, l’administration peut recourir à une évaluation forfaitaire liée au train de vie lorsqu’il existe une disproportion marquée entre votre train de vie et les revenus déclarés, selon des critères chiffrés (notamment un dépassement d’au moins 40% sur deux années) [1].\n\nPar ailleurs, l’article 43 prévoit un autre mécanisme : l’évaluation forfaitaire selon les dépenses personnelles ostensibles et notoires ou selon l’accroissement du patrimoine est applicable tant que le contribuable n’a pas justifié l’origine de financement de ses dépenses ou de l’accroissement de sa fortune [2]. Toutefois, certains revenus déclarés et payés peuvent être acceptés comme justification, sous les conditions indiquées [2].\n\nAinsi, ces règles visent à lutter contre la sous-déclaration en recoupant revenus déclarés, dépenses et patrimoine.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 42, 43 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX08_AR_MULTI_FASL36_37",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [36, 37],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: إذا كانت لدي مداخيل من الخارج لم تُفرض عليها ضريبة في بلدها، فإلى أي فئة تندرج؟ وكيف يُحتسب دخلها الصافي؟\n\nDocuments pertinents:\n[1] Source: article 36 du CIRPP/IS\nLes autres revenus sont constitués des revenus de source étrangère n'ayant pas été soumis au paiement de l'impôt dans le pays d'origine.\n\n[2] Source: article 37 du CIRPP/IS\nLe revenu net est constitué par les sommes effectivement perçues de l'étranger..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 36 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، تُدرج المداخيل ذات المصدر الأجنبي التي لم تخضع للأداء في بلد المنشأ ضمن فئة «المداخيل الأخرى» [1].\n\nوعلاوة على ذلك، يبين الفصل 37 أن الدخل الصافي في هذا الباب يتكون—فيما يخص المبالغ القادمة من الخارج—من «المبالغ المقبوضة فعلياً من الخارج» خلال السنة المرجعية [2].\n\nوبالتالي، الغاية هي تصنيف هذا النوع من المداخيل في باب مستقل، مع اعتماد معيار القبض الفعلي لتحديد الدخل الصافي المرتبط به.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصلان 36 و37 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX09_FR_PROCEDURAL_ART53_54",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [53, 54],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Côté paie, comment l’employeur calcule la retenue à la source sur mon salaire et que se passe-t-il si j’ai déjà des acomptes/retentions payés ?\n\nDocuments pertinents:\n[1] Source: article 53 du CIRPP/IS\nI. ... retenue ... égale pour chaque paie, à l'impôt annuel... divisé par le nombre de paies...\nLa retenue sur chaque paie supplémentaire... différence...\nII. ... barème établi par l'administration...\n...\n\n[2] Source: article 54 du CIRPP/IS\nSur justification, les acomptes provisionnels... et les retenues, autres que libératoires... sont imputables sur l'impôt... dû... L'excédent non imputé est reportable... et il peut faire l'objet d'une restitution.\n\nII. ... complément dû... acquitté au comptant.\nToutefois... personnes physiques ... possibilité d'acquitter... moitié... et moitié avant la fin du quatrième mois..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 53 du CIRPP/IS, si la paie est informatisée, la retenue à la source opérée par l’employeur correspond, pour chaque paie, à l’impôt annuel calculé selon les règles applicables à une personne n’ayant que son salaire/pension, divisé par le nombre de paies [1]. Pour une paie supplémentaire, la retenue correspond à la différence entre l’impôt recalculé avec cette paie et l’impôt sans cette paie [1].\n\nPar ailleurs, l’article 54 prévoit que, sur justification, les acomptes et retenues (non libératoires) payés au titre d’un exercice s’imputent sur l’impôt dû pour ce même exercice ; l’excédent peut être reporté et peut faire l’objet d’une restitution [2].\n\nAinsi, le système organise une retenue « au fil de l’eau » puis une régularisation annuelle.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 53, 54 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX10_AR_PROCEDURAL_FASL54",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [54],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: إذا تبين في نهاية السنة أنني دفعت اقتطاعات أو دفوعات مسبقة أكثر من الضريبة المستحقة، هل يمكن ترحيل الفائض أو استرجاعه؟\n\nDocuments pertinents:\n[1] Source: article 54 du CIRPP/IS\nSur justification... acomptes... retenues... imputables sur l'impôt...\nL'excédent non imputé est reportable... et il peut faire l'objet d'une restitution."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 54 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، وبعد الإدلاء بما يثبت الدفع، يمكن طرح الدفوعات المسبقة والاقتطاعات (غير التحريرية) المدفوعة بعنوان نفس السنة من مقدار الضريبة المستحقة عن تلك السنة [1].\n\nغير أنّه إذا نتج فائض غير مطروح بالكامل، فإن النص يجيز ترحيل هذا الفائض على الدفوعات اللاحقة أو على الضريبة السنوية المستوجبة لاحقاً، كما يقرر إمكانية استرجاعه [1].\n\nوبالتالي، تهدف القاعدة إلى ضمان تسوية عادلة بين ما دُفع مقدماً وما استُحق فعلاً في نهاية السنة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 54 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX11_FR_MULTI_ART45_47",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [45, 47],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Une société étrangère a un établissement en Tunisie. Sur quoi s’applique l’impôt sur les sociétés ?\n\nDocuments pertinents:\n[1] Source: article 45 du CIRPP/IS\nI. ... l'impôt sur les sociétés s'applique aux sociétés et autres personnes morales... exerçant leur activité en Tunisie... \nII. ... personnes morales non établies ni domiciliées... revenus de source tunisienne ou plus-value... immeubles sis en Tunisie...\n\n[2] Source: article 47 du CIRPP/IS\nLes bénéfices passibles de l'impôt sur les sociétés sont ceux réalisés dans le cadre d'établissements situés en Tunisie et ceux dont l'imposition est attribuée en Tunisie par une convention fiscale de non double imposition."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 45 du CIRPP/IS, l’impôt sur les sociétés s’applique notamment aux sociétés et personnes morales exerçant leur activité en Tunisie [1]. L’article 47 précise ensuite que les bénéfices passibles de l’IS sont ceux réalisés dans le cadre d’établissements situés en Tunisie, ainsi que ceux dont l’imposition est attribuée à la Tunisie par une convention de non double imposition [2].\n\nToutefois, l’article 45 prévoit aussi une imposition des personnes morales non établies ni domiciliées en Tunisie sur certains revenus de source tunisienne ou plus-values spécifiques, mais « à raison des seuls revenus ou plus-value » visés [1].\n\nAinsi, la finalité est de rattacher l’IS à l’activité/établissement en Tunisie, tout en encadrant certains revenus tunisiens perçus par des non-résidents.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 45, 47 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX12_AR_DIRECT_FASL46",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [46],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل تُعفى بعض الهياكل أو المؤسسات من الضريبة على الشركات؟ أعطني أمثلة مما ورد في النص.\n\nDocuments pertinents:\n[1] Source: article 46 du CIRPP/IS\nSont exonérés de l'impôt sur les sociétés dans la limite de leur objet social :\n1- les groupements interprofessionnels... ;\n3- les caisses d'épargne et de prévoyance administrées gratuitement ;\n4- les établissements publics... sans but lucratif ;\n5- les coopératives... marchés de gros ;\n6- les sociétés mutuelles de services agricoles ;\n7- les coopératives ouvrières de production ;\n8- la Caisse des Prêts... ;\n9- les sociétés d'investissement à capital variable..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 46 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، توجد أمثلة لهياكل تُعفى من الضريبة على الشركات «في حدود موضوعها الاجتماعي»، ومن ذلك: المجامع المهنية التي لا تمارس أساساً أنشطة ربحية، وصناديق الادخار والحيطة المُدارة دون مقابل، والمؤسسات العمومية أو هياكل الدولة/الجماعات المحلية التي لا تهدف إلى الربح [1].\n\nكما يذكر النص بعض التعاونيات (مثل تعاونيات الخدمات العاملة داخل أسواق الجملة، وتعاونيات الإنتاج العمالي) وبعض الهياكل المالية أو الاستثمارية المذكورة صراحةً [1].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 46 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX13_FR_REFUSAL",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que je peux contester une imposition et combien de temps ça prend au tribunal ?\n\nDocuments pertinents:\n[1] Source: Extraits CIRPP/IS fournis\n(Les extraits fournis traitent de l’assiette, de certaines procédures fiscales, et mentionnent parfois des recours dans des cas particuliers, mais ne donnent pas un régime complet et général de contestation ni des délais judiciaires globaux.)"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre de façon générale sur les voies de contestation et les délais judiciaires (durée au tribunal). Je vous recommande de consulter un avocat spécialisé en droit fiscal ou de vous rapprocher de l’administration fiscale compétente pour identifier la procédure applicable à votre cas.\n\nSources: documents fournis (insuffisants)"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX14_AR_REFUSAL",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو جدول الضريبة على الدخل حسب الشرائح، وكيف أحسب الضريبة بالتحديد على راتبي الحالي؟\n\nDocuments pertinents:\n[1] Source: Extraits CIRPP/IS fournis\n(المقتطفات المتاحة هنا لا تتضمن جدولاً كاملاً للحساب على الرواتب ضمن هذه الدفعة، كما أن حساب الضريبة يحتاج بيانات غير مذكورة ضمن الوثائق المقدمة.)"
+        },
+        {
+          "role": "assistant",
+          "content": "لا تتضمن الوثائق المقدمة معلومات كافية لعرض جدول الشرائح كاملاً أو لحساب الضريبة بالتحديد على راتبك الحالي وفق جميع العناصر (الخصومات، الوضع العائلي، إلخ). أوصي باستشارة محامٍ أو خبير محاسبة أو التواصل مع الإدارة الجبائية للحصول على حساب دقيق على أساس وضعك.\n\nSources: الوثائق المقدمة (غير كافية)"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX15_FR_CLARIFICATION_ART45",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [45],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon association doit-elle payer l’impôt sur les sociétés ?\n\nDocuments pertinents:\n[1] Source: article 45 du CIRPP/IS\n... l'impôt sur les sociétés s'applique...\n6- Les associations qui n’exercent pas leur activité conformément aux dispositions de la législation les régissant ;"
+        },
+        {
+          "role": "assistant",
+          "content": "Pour vous répondre correctement, j’ai besoin d’une précision : votre association exerce-t-elle ses activités conformément à la législation qui la régit, ou y a-t-il un manquement constaté (au regard de cette législation) ?\n\nEn l’état, l’article 45 du CIRPP/IS mentionne que l’impôt sur les sociétés s’applique aux associations qui n’exercent pas leur activité conformément aux dispositions de la législation les régissant [1]. Sans informations sur votre conformité, je ne peux pas conclure.\n\nSources: art. 45 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX16_AR_CLARIFICATION_FASL40",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [40],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل أستفيد من طرح عن «الأبناء على الكفالة»؟\n\nDocuments pertinents:\n[1] Source: article 40 du CIRPP/IS\n... déductions... enfants à charge... moins de 20 ans... \n... 1000 dinars par enfant poursuivant des études supérieures sans bourse et âgé de moins de 25 ans...\n... 2000 dinars par enfant infirme..."
+        },
+        {
+          "role": "assistant",
+          "content": "لتحديد ما إذا كنت تستفيد من طرح عن الأبناء على الكفالة، أحتاج توضيحات: كم عمر كل ابن في 1 جانفي من سنة التوظيف؟ وهل يواصل أحدهم دراسة عليا دون منحة؟ وهل يوجد ابن ذو إعاقة؟\n\nذلك لأن الفصل 40 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات يربط بعض الطروح بشروط سنّية وبوضعية الدراسة أو الإعاقة (أقل من 20 سنة، أو أقل من 25 سنة للدراسة العليا دون منحة، أو طرح خاص للابن ذي الإعاقة) [1].\n\nSources: الفصل 40 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX17_FR_MULTI_ART48_48septies",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [48, "48septies"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans un groupe, si une filiale facture à une autre à un prix « non normal », est-ce que le fisc peut réintégrer des bénéfices ? Et quelles règles générales s’appliquent à l’IS pour déterminer le bénéfice imposable ?\n\nDocuments pertinents:\n[1] Source: article 48 du CIRPP/IS\nI. Les dispositions des articles 10 à 20... applicables à l'impôt sur les sociétés... (avec précisions sur provisions...)\n\n[2] Source: article 48 septies du CIRPP/IS\n... existence de transactions... entre une entreprise et d’autres entreprises ayant une relation de dépendance... règles... différent de celles... indépendantes... la minoration des bénéfices... est réintégrée...\n... s’applique... si prix diffère... ou charges non justifiées... réduction de l’impôt dû."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 48 septies du CIRPP/IS, lorsque l’administration établit l’existence de transactions commerciales ou financières entre entreprises liées (relation de dépendance) à des conditions différentes de celles pratiquées entre entreprises indépendantes, la minoration de bénéfices qui en résulte peut être réintégrée dans les résultats imposables [2]. Le texte vise notamment les situations où le prix diffère de celui pratiqué avec d’autres clients ou de celui d’entreprises indépendantes analogues, ou lorsque des charges non justifiées ont été supportées et ont réduit l’impôt dû [2].\n\nPar ailleurs, l’article 48 indique, à un niveau général, que les règles des articles 10 à 20 s’appliquent à l’impôt sur les sociétés pour la détermination du bénéfice imposable (avec des précisions sur certains postes comme les provisions) [1].\n\nAinsi, la finalité est de protéger l’assiette de l’IS contre le transfert artificiel de bénéfices au sein d’un groupe.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 48, 48 septies du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX18_AR_MULTI_FASL47_50",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [47, 50],
+      "confidence_flag": "L’article 50 est indiqué comme abrogé dans l’extrait; la réponse se limite à l’information d’abrogation et à l’article 47 pour le fond.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو معيار «مكان توظيف» الضريبة على الشركات؟ وهل يوجد فصل يحدد ذلك صراحةً؟\n\nDocuments pertinents:\n[1] Source: article 47 du CIRPP/IS\nLes bénéfices passibles de l'impôt sur les sociétés sont ceux réalisés dans le cadre d'établissements situés en Tunisie et ceux dont l'imposition est attribuée en Tunisie par une convention fiscale de non double imposition.\n\n[2] Source: article 50 du CIRPP/IS\n(Abrogé art 7 Loi n° 2000-82 du 9/8/2000, portant promulgation du code des droits et procédures fiscaux)"
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 47 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، فإن الأرباح الخاضعة للضريبة على الشركات هي تلك المتحققة في إطار مؤسسات (منشآت) كائنة بتونس، وكذلك الأرباح التي تُسند تونسَ حقَّ توظيفها بموجب اتفاقية جبائية لمنع الازدواج الضريبي [1].\n\nغير أنّ الوثائق المقدمة تشير إلى أن الفصل 50 المتعلق بـ«مكان التوظيف» قد تم إلغاؤه (أُلغي بمقتضى قانون مذكور في النص) [2]؛ ولذلك لا يمكن الاستناد إليه لتحديد القاعدة الحالية، ونكتفي بما ورد صراحةً في الفصل 47 [1].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصلان 47 و50 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX19_CROSS_QFR_AR_SRC_ART46",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [46],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Une coopérative peut-elle être exonérée de l’impôt sur les sociétés en Tunisie ?\n\nDocuments pertinents:\n[1] Source: الفصل 46 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات\n\"تعفى من الضريبة على الشركات وفي حدود موضوعها الاجتماعي: ... التعاونيات ...\""
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 46 du CIRPP/IS, certaines structures peuvent être exonérées de l’impôt sur les sociétés dans la limite de leur objet social. Le texte mentionne notamment des coopératives (selon les catégories citées dans l’article) parmi les entités pouvant bénéficier de l’exonération [1].\n\nToutefois, l’exonération est encadrée : elle est limitée « dans la limite de leur objet social », ce qui suppose que l’activité réelle corresponde à cet objet [1].\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 46 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS3_EX20_CROSS_QAR_FR_SRC_ART25",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [25],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل تُعدّ مكافآت مدير شركة ذات مسؤولية محدودة من صنف الأجور والمرتبات لأغراض الضريبة؟\n\nDocuments pertinents:\n[1] Source: article 25 du CIRPP/IS\n\"Sont classés parmi les traitements et salaires, les rémunérations, les primes et les autres avantages accordés aux gérants des sociétés à responsabilité limitée.\""
+        },
+        {
+          "role": "assistant",
+          "content": "نعم. وفقاً للفصل 25 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، تُصنَّف «التأجيرات والمنح وبقية المنافع» المسندة إلى مسيّري الشركات ذات المسؤولية المحدودة ضمن فئة «الأجور والمرتبات» لأغراض الضريبة [1].\n\nوبالتالي، فالأصل أن تُعامل مكافآت مدير/مسيّر الشركة ذات المسؤولية المحدودة كدخل من صنف الأجور في نطاق النص المعروض.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 25 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Chapitre I – Traitements, salaires, pensions et rentes viagères (art. 25)",
+      "Chapitre I – Revenus de capitaux mobiliers (art. 34, 35 via rappel contextuel uniquement dans batch; noyau art. 34)",
+      "Chapitre I – Autres revenus et détermination (art. 36, 37)",
+      "Déductions – Chef de famille/enfants/parents à charge (art. 40)",
+      "Évaluations forfaitaires – Train de vie et dépenses personnelles (art. 42, 43)",
+      "Chapitre II – IS: champ d’application, exonérations, bénéfice imposable, prix de transfert (art. 45, 46, 47, 48, 48 septies)",
+      "Obligations – Retenue à la source sur salaires et régularisation/imputation (art. 53, 54)",
+      "Lieu d’imposition (art. 50 abrogé) – mention de l’abrogation"
+    ],
+    "sections_not_covered": [
+      "Barèmes et taux détaillés de l’IR (art. 44) et de l’IS (art. 49) – évités car déjà utilisés ou non ciblés ici",
+      "Règles détaillées sur acomptes provisionnels (art. 51) et retenues (art. 52) – déjà utilisées en batch 1",
+      "Régime forfaitaire (art. 44 bis et suivants) – déjà utilisé en batch 1",
+      "Articles 57 à 62 (obligations diverses/tenue comptable) – partiellement couverts dans batch 1/2 ou non sélectionnés ici"
+    ],
+    "notes": "Batch 3 échantillonné sur des zones distinctes (IR catégories, évaluations forfaitaires, IS champ/exonérations, retenue à la source). Trois refus et deux clarifications respectent la contrainte d’ancrage. Certains articles numérotés avec suffixes (48ter, 48quater, etc.) sont inclus pour étendre la couverture IS; ils doivent être évités dans le batch suivant."
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "batch_id": "batch_CODES_DOUANES_003_20260419",
+  "source": "Code des Douanes de Tunisie (Titre III – Conduite des marchandises en douane)",
+  "articles_covered": [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86],
+  "articles_to_avoid_next_batch": [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86],
+  "examples": [
+    {
+      "example_id": "douanes_fr_direct_041",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [65],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qu'est-ce que le « manifeste » au sens du Code des Douanes, et quelles mentions doit-il obligatoirement contenir ?\n\nDocuments pertinents:\n[1] Source: article 65 du Code des Douanes\n1- Au sens du présent code, on entend par \"manifeste\" le manifeste de cargaison conformément aux dispositions du code de commerce maritime. 2- Les marchandises arrivant par mer doivent être inscrites sur le manifeste. 3- Ce document doit être signé par le capitaine ; il doit mentionner l'espèce et le nombre des colis, leurs marques et numéros, la nature des marchandises et les lieux de leur chargement. 4- Il est interdit de présenter comme unité, dans le manifeste, plusieurs colis fermés réunis de quelque manière que ce soit. 5- Les marchandises prohibées et celles soumises à des restrictions doivent être portées au manifeste, sous leur véritable dénomination, par nature et espèce."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 65 du Code des Douanes, le manifeste s'entend du manifeste de cargaison au sens du code de commerce maritime. Toutes les marchandises arrivant par mer doivent y être inscrites. Il doit être signé par le capitaine et mentionner : l'espèce et le nombre des colis, leurs marques et numéros, la nature des marchandises et les lieux de chargement. Par ailleurs, il est interdit de présenter plusieurs colis fermés réunis comme une seule unité, et les marchandises prohibées ou soumises à restrictions doivent figurer sous leur véritable dénomination. Ainsi, le manifeste constitue un document essentiel pour la traçabilité et le contrôle des cargaisons. Sources : art. 65 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_direct_042",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [69],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels documents le capitaine d'un navire doit-il déposer au bureau des douanes dans les 24 heures suivant l'arrivée ?\n\nDocuments pertinents:\n[1] Source: article 69 du Code des Douanes\n1- Dans les vingt-quatre heures de l'arrivée du navire dans le port, le capitaine doit déposer au bureau des douanes : a) à titre de déclaration sommaire : le manifeste avec, le cas échéant, sa traduction authentique, les manifestes spéciaux des provisions de bord et des marchandises de pacotille appartenant aux membres de l'équipage ; b) les chartes-parties ou connaissements, actes de nationalité et tous autres documents qui pourront être exigés par l'administration des douanes en vue de l'application des mesures douanières. 2- La déclaration sommaire doit être déposée même lorsque le navire est sur lest. 3- Le délai de vingt-quatre heures ne court pas les dimanches et jours fériés."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 69 du Code des Douanes prévoit que dans les 24 heures suivant l'arrivée du navire au port, le capitaine doit déposer au bureau des douanes : d'une part, à titre de déclaration sommaire, le manifeste (et sa traduction authentique le cas échéant) ainsi que les manifestes spéciaux des provisions de bord et des pacotilles de l'équipage ; d'autre part, les chartes-parties, connaissements, actes de nationalité et tout autre document exigé par l'administration. Cette obligation s'applique même si le navire est sur lest, et le délai ne court pas les dimanches et jours fériés. Ce dépôt permet à la douane de disposer des informations nécessaires avant tout déchargement. Sources : art. 69 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_multi_043",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [70, 71],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Où et dans quelles conditions le déchargement des navires peut-il avoir lieu ?\n\nDocuments pertinents:\n[1] Source: article 70 du Code des Douanes\nLe déchargement des navires ne peut avoir lieu que dans l'enceinte des ports où des bureaux des douanes sont établis.\n\n[2] Source: article 71 du Code des Douanes\nAucune marchandise ne peut être déchargée ou transbordée qu'avec l'autorisation écrite des agents des douanes et qu'en leur présence. Les déchargements et transbordements doivent avoir lieu pendant les heures et sous les conditions fixées par arrêté du ministre des finances."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 70 du Code des Douanes dispose que le déchargement des navires ne peut avoir lieu que dans l'enceinte des ports dotés d'un bureau de douane. Par ailleurs, l'article 71 précise qu'aucune marchandise ne peut être déchargée ou transbordée sans l'autorisation écrite des agents des douanes et qu'en leur présence. En outre, les opérations doivent se dérouler pendant les heures et selon les conditions fixées par arrêté du ministre des finances. Ces règles cumulatives visent à assurer un contrôle douanier effectif sur les marchandises dès leur entrée sur le territoire. Sources : art. 70 et 71 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_principle_exception_044",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [78, 79],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-il permis de jeter des marchandises en cours de route lors d'un transport aérien international ?\n\nDocuments pertinents:\n[1] Source: article 78 du Code des Douanes\n1- Sont interdits tous déchargements et jets de marchandises en cours de route. 2- Toutefois, le commandant de l'aéronef a le droit de faire jeter en cours de route : - le lest ; - les marchandises chargées dont le jet est indispensable au salut de l'aéronef.\n\n[2] Source: article 79 du Code des Douanes\nLes dispositions de l'article 71 concernant les déchargements et transbordements sont applicables aux transports aériens."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe posé par l'article 78 est l'interdiction totale de tout déchargement ou jet de marchandises en cours de route. Toutefois, une exception est prévue : le commandant de l'aéronef a le droit de jeter, d'une part, le lest, et d'autre part, les marchandises chargées dont le jet est indispensable au salut de l'appareil. Par ailleurs, l'article 79 rappelle que les règles de l'article 71 (autorisation écrite et présence des agents) s'appliquent aux déchargements et transbordements aériens, mais l'urgence du salut de l'aéronef justifie cette dérogation. Ainsi, la finalité est de concilier la sécurité des vols avec la nécessaire régulation douanière. Sources : art. 78 et 79 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_refusal_045",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les sanctions pénales applicables au capitaine qui omet de déposer le manifeste dans les délais ?\n\nDocuments pertinents:\n[1] Source: Les articles 65 à 86 du Code des Douanes fournis ne contiennent aucune disposition relative aux sanctions pénales, amendes ou peines d'emprisonnement pour défaut de dépôt du manifeste."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Titre III du Code des Douanes qui m'a été communiqué traite de la conduite des marchandises (manifeste, déchargement, magasins) mais n'énonce aucune sanction pénale. Je vous recommande de consulter un avocat spécialisé en droit douanier et de vous référer aux dispositions répressives du Code des Douanes (notamment les articles 385 et suivants, qui ne figurent pas dans les extraits fournis)."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_clarification_046",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [74, 83],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans quels cas la déclaration sommaire n'est-elle pas exigée pour les marchandises importées par voie terrestre ?\n\nDocuments pertinents:\n[1] Source: article 74 du Code des Douanes\n1- Tout conducteur de marchandises doit, dès son arrivée au bureau des douanes, y déposer, à titre de déclaration sommaire, une feuille de route indiquant les objets qu'il transporte. 2- Les marchandises prohibées doivent être portées sur cette feuille sous leur véritable dénomination. 3- La déclaration sommaire n'est pas exigée si les marchandises sont déclarées en détail dès leur arrivée au bureau. 4- Les marchandises qui arrivent après la fermeture du bureau sont déposées sans frais dans les dépendances jusqu'à l'ouverture ; dans ce cas, la déclaration sommaire doit y être déposée dès l'ouverture si les marchandises ne sont pas déclarées en détail.\n\n[2] Source: article 83 du Code des Douanes (extrait)\n1- L'admission des marchandises dans les magasins et aires de dédouanement est subordonnée au dépôt par l'exploitant d'une déclaration sommaire ou d'un document en tenant lieu."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour vous répondre précisément, avez-vous l'intention de déclarer vos marchandises en détail immédiatement à l'arrivée au bureau, ou bien souhaitez-vous les placer dans un magasin ou aire de dédouanement ? L'article 74 prévoit que la déclaration sommaire n'est pas exigée si les marchandises sont déclarées en détail dès leur arrivée. En revanche, si elles entrent dans un magasin de dédouanement, l'article 83 exige une déclaration sommaire (ou document équivalent) de la part de l'exploitant. Veuillez préciser votre situation : transporteur routier ou exploitant d'un magasin ?"
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_procedural_047",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [72, 73, 74],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes à suivre pour l'importation de marchandises par les frontières terrestres ?\n\nDocuments pertinents:\n[1] Source: article 72 du Code des Douanes\n1- Toutes les marchandises importées par les frontières terrestres doivent être aussitôt conduites au plus prochain bureau des douanes par la route la plus directe désignée par arrêté du ministre des finances. 2- Elles ne peuvent être introduites dans les maisons ou autres bâtiments avant d'avoir été conduites audit bureau. Elles ne peuvent dépasser celui-ci sans permis.\n\n[2] Source: article 73 du Code des Douanes\n1- Les routes directes desservant les bureaux d'importance secondaire peuvent être fermées au trafic international, par arrêté du ministre des finances, pendant tout ou partie de la période de fermeture de ces bureaux. 2- Les marchandises ne peuvent circuler sans autorisation des services des douanes sur les routes visées au paragraphe précédent, pendant les heures de leur fermeture.\n\n[3] Source: article 74 du Code des Douanes (extrait)\n1- Tout conducteur de marchandises doit, dès son arrivée au bureau, déposer une feuille de route à titre de déclaration sommaire. 3- La déclaration sommaire n'est pas exigée si les marchandises sont déclarées en détail dès l'arrivée. 4- Les marchandises arrivées après fermeture sont déposées sans frais dans les dépendances jusqu'à l'ouverture."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure d'importation terrestre comporte plusieurs phases. Premièrement, en vertu de l'article 72, les marchandises doivent être conduites immédiatement au bureau de douane le plus proche par la route la plus directe, sans pouvoir être introduites dans des bâtiments avant ce passage. Deuxièmement, l'article 73 prévoit que certaines routes peuvent être fermées la nuit ou pendant la fermeture des bureaux secondaires, et la circulation sans autorisation y est interdite. Troisièmement, à l'arrivée au bureau, le conducteur doit déposer une feuille de route (déclaration sommaire) selon l'article 74, à moins qu'il ne déclare les marchandises en détail immédiatement. En cas d'arrivée après fermeture, les marchandises sont déposées sans frais jusqu'à l'ouverture, et la déclaration sommaire doit alors être déposée dès l'ouverture. Ces étapes garantissent le contrôle douanier dès l'entrée sur le territoire. Sources : art. 72, 73 et 74 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_048",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [76],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم تسجيل البضائع المنقولة جواً، وما هي وثيقة البيان الموجز المطلوبة؟\n\nDocuments pertinents:\n[1] Source: الفصل 76 من مجلة الديوانة\nيجب تسجيل البضائع المنقولة جواً في بيان (مانيفست) يوقّع من طرف قائد الطائرة؛ ويحرر هذا الوثيقة في نفس الشروط المنصوص عليها بالنسبة للسفن في الفصل 65 من هذه المجلة.\n\n[2] Source: الفصل 77 من مجلة الديوانة\n1- يجب على قائد الطائرة تقديم البيان (المانيفست) لأعوان الديوانة عند أول طلب. 2- فور وصول الطائرة، يجب عليه تسليم هذا الوثيقة، كبيان موجز، إلى مكتب الديوانة المطار مع ترجمته الأصلية عند الاقتضاء."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 76 من مجلة الديوانة، يجب تسجيل البضائع المنقولة جواً في بيان (مانيفست) يوقّع من طرف قائد الطائرة، ويحرر وفق نفس الشروط المطبقة على السفن في الفصل 65 (أي يتضمن نوع وعدد الطرود وعلاماتها وطبيعة البضائع ومكان شحنها). ويضيف الفصل 77 أنه يجب على قائد الطائرة تقديم هذا البيان لأعوان الديوانة عند أول طلب، وتسليمه فور الوصول إلى مكتب الديوانة بالمطار كبيان موجز، مع ترجمته الأصلية عند الاقتضاء. وتهدف هذه الإجراءات إلى ضمان مراقبة فعالة للبضائع المستوردة جواً منذ لحظة الهبوط. المصادر: الفصلين 76 و77 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_049",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [81],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أين يجب توجيه البضائع المعدة للتصدير، وهل هناك حظر على سلوك طرق معينة على الحدود البرية؟\n\nDocuments pertinents:\n[1] Source: الفصل 81 من مجلة الديوانة\n1- يجب توجيه البضائع المعدة للتصدير إلى مكتب ديوانة أو إلى الأماكن المعينة من طرف إدارة الديوانة للتصريح بها بالتفصيل. 2- على الحدود البرية، يمنع على الناقلين سلوك أي طريق يميل إلى الالتفاف حول مكاتب الديوانة أو تجنبها."
+        },
+        {
+          "role": "assistant",
+          "content": "ينص الفصل 81 من مجلة الديوانة على أن البضائع المعدة للتصدير يجب توجيهها إلى مكتب ديوانة أو إلى أماكن تعينها الإدارة للتصريح بها بالتفصيل. وعلاوة على ذلك، يمنع على الناقلين على الحدود البرية سلوك أي طريق يؤدي إلى الالتفاف حول مكاتب الديوانة أو تجنبها. والغاية من هذا المنع هي منع التهريب وضمان خضوع جميع البضائع المصدرة للرقابة الجمركية. المصادر: الفصل 81 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_multi_050",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [82, 83, 84],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي شروط إحداث مستودعات ومناطق التخليص الجمركي، وما هي مدة بقاء البضائع فيها؟\n\nDocuments pertinents:\n[1] Source: الفصل 82 من مجلة الديوانة\n1- مع مراعاة أحكام خاصة مخالفة، يمكن إيداع البضائع المستوفاة للشروط في مستودعات ومناطق التخليص الجمركي وفي مستودعات ومناطق التصدير وفق الكيفيات المحددة في هذا الباب. 2- يخضع إحداث واستغلال وسير هذه المستودعات والمناطق لدفتر شروط يصادق عليه بقرار من وزير المالية بعد أخذ رأي وزير النقل. 3- يحدد دفتر الشروط بصفة خاصة معايير البناء والتهيئة وشروط السير، وكذلك الأعباء التي يتحملها المستغل في مجال توفير وإصلاح وصيانة التجهيزات اللازمة لتنفيذ خدمة الديوانة.\n\n[2] Source: الفصل 83 من مجلة الديوانة\n1- يخضع قبول البضائع في المستودعات ومناطق التخليص الجمركي لإيداع بيان موجز أو وثيقة تقوم مقامه من طرف المستغل. 2- يترتب عن هذا القبول وضع البضائع تحت مسؤولية المستغل تجاه إدارة الديوانة.\n\n[3] Source: الفصل 84 من مجلة الديوانة\n1- تحدد بقرار من وزير المالية المدة القصوى لبقاء البضائع في المستودعات ومناطق التخليص الجمركي. 2- عندما لا تُصرح البضائع بالتفصيل عند انقضاء المدة، يلتزم المستغل بنقلها إلى مستودع عمومي أو أماكن أخرى لإيداعها تلقائياً."
+        },
+        {
+          "role": "assistant",
+          "content": "تخضع مستودعات ومناطق التخليص الجمركي بموجب الفصل 82 لدفتر شروط يصادق عليه بقرار من وزير المالية (بعد أخذ رأي وزير النقل)، يحدد معايير البناء وشروط السير والأعباء المالية. كما يشترط الفصل 83 لقبول البضائع إيداع بيان موجز من طرف المستغل، وتوضع البضائع تحت مسؤوليته. وتحدد بقرار من وزير المالية المدة القصوى للبقاء (الفصل 84)؛ فإذا لم تصرح البضائع بالتفصيل بعد انقضاء المدة، يلتزم المستغل بنقلها إلى مستودع عمومي للإيداع التلقائي. وتهدف هذه الأحكام إلى تنظيم التخزين المؤقت مع ضمان مراقبة الديوانة وحماية الإيرادات. المصادر: الفصول 82 و83 و84 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_principle_exception_051",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [75, 78],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يجوز للطائرات القادمة من الخارج الهبوط في أي مطار، وهل يمكن إلقاء البضائع أثناء الرحلة؟\n\nDocuments pertinents:\n[1] Source: الفصل 75 من مجلة الديوانة\n1- يجب على الطائرات التي تقوم برحلة دولية، لعبور الحدود، اتباع المسار الجوي المفروض عليها. 2- لا يمكنها الهبوط إلا في المطارات المجهزة بمكاتب ديوانة.\n\n[2] Source: الفصل 78 من مجلة الديوانة\n1- يمنع كل تفريغ أو إلقاء بضائع أثناء الرحلة. 2- غير أنه يحق لقائد الطائرة إلقاء أثناء الرحلة: - الصابورة (الوزن الميت)؛ - البضائع المشحونة التي يكون إلقاؤها ضرورياً لسلامة الطائرة."
+        },
+        {
+          "role": "assistant",
+          "content": "القاعدة الأساسية بمقتضى الفصل 75 هي أن الطائرات الدولية لا يمكنها الهبوط إلا في المطارات المجهزة بمكاتب ديوانة، وعليها اتباع المسار الجوي المفروض. أما الفصل 78 فيقرر مبدأ منع إلقاء البضائع أثناء الرحلة. غير أن هناك استثناءين: إلقاء الصابورة، وإلقاء البضائع المشحونة عندما يكون ذلك ضرورياً لسلامة الطائرة. وبالتالي، فإن السلامة الملاحية تسمح بالخروج عن قاعدة حظر الإلقاء، مع بقاء جميع العمليات الأخرى خاضعة للرقابة الجمركية. المصادر: الفصلين 75 و78 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_refusal_052",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو مقدار الرسم الجمركي الواجب دفعه عند استيراد بضائع عن طريق البحر؟\n\nDocuments pertinents:\n[1] Source: لا تتضمن الوثائق المقدمة (الفصول 65 إلى 86) أي حكم يتعلق بمقدار الرسوم الجمركية أو نسب التعريفة. فهي تتعامل فقط مع الإجراءات الشكلية (البيان، التفريغ، المستودعات)."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن هذا السؤال. الباب الثالث من مجلة الديوانة المتوفرة لدي يحدد إجراءات قيادة البضائع (البيانات، التفريغ، المستودعات) ولكنه لا يذكر مقدار الرسوم الجمركية أو نسب التعريفة. أنصحكم باستشارة محامٍ أو خبير جمركي، والرجوع إلى التعريفة الجمركية (القانون التعريفي) والأسعار النوعية التي تحدد بقوانين أخرى غير مدرجة في هذا الملف."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_clarification_053",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [80],
+      "confidence_flag": "Le texte français de l'article 80 comporte une faute d'orthographe 'esclae' au lieu de 'escale', mais le sens reste clair.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يمكن إيداع البيان (المانيفست) إلكترونياً قبل وصول السفينة، وماذا يحدث إذا لم تتم الرسو؟\n\nDocuments pertinents:\n[1] Source: الفصل 80 من مجلة الديوانة\nيمكن للناقل البحري أو الجوي المتصل بالنظام الآلي المتكامل لمعالجة إجراءات التجارة الخارجية إيداع البيان لدى الديوانة قبل وصول السفينة أو الطائرة باستخدام وسائل إلكترونية موثوق بها، وفق التشريع المتعلق بالتبادل الإلكتروني. والإيداع المسبق للبيان بالوسائل الإلكترونية يعفي من أي إجراء آخر له نفس الغرض. ويعتبر الإيداع المسبق للبيان لاغياً وملغى في حالة عدم حصول رسو السفينة أو الطائرة. تحدد بقرار تطبيقات هذا الفصل."
+        },
+        {
+          "role": "assistant",
+          "content": "نعم، الفصل 80 يجيز للناقل البحري أو الجوي المتصل بالنظام الآلي إيداع البيان إلكترونياً قبل وصول السفينة أو الطائرة. ولكن لتحديد ما إذا كان هذا الإجراء متاحاً في حالتك، هل شركتك متصلة بالفعل بالنظام الآلي المتكامل لمعالجة إجراءات التجارة الخارجية؟ لأن الفصل يمنح هذه الإمكانية فقط لمن هم \"متصلون\" بهذا النظام. كما أن الإيداع المسبق يعتبر لاغياً إذا لم تَرْسُ السفينة أو الطائرة. يرجى توضيح ما إذا كنت تستوفي شرط الاتصال بالنظام، وما إذا كنت تريد تفاصيل عن متطلبات التوقيع الإلكتروني."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_procedural_054",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [65, 66, 67, 68, 69, 70, 71],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الإجراءات المتسلسلة التي يجب على قبطان السفينة اتباعها من لحظة وصوله إلى المنطقة البحرية حتى تفريغ البضائع؟\n\nDocuments pertinents:\n[1] Source: الفصل 65 (تعريف البيان ومحتواه)، الفصل 66 (تقديم البيان للختم وتسليم نسخة)، الفصل 67 (الرسو في الموانئ ذات مكتب ديوانة)، الفصل 68 (تقديم دفتر اليومية للختم)، الفصل 69 (إيداع البيان والوثائق خلال 24 ساعة)، الفصل 70 (التفريغ داخل الميناء)، الفصل 71 (التفريغ بإذن كتابي وحضور الأعوان)."
+        },
+        {
+          "role": "assistant",
+          "content": "تمر إجراءات قبطان السفينة بمراحل متتالية: أولاً، عند وصوله إلى المنطقة البحرية للشريط الجمركي، يجب عليه بموجب الفصل 66 تقديم أصل البيان (المانيفست) للختم \"ni-variété\" وتسليم نسخة للأعوان. ثانياً، لا يمكنه الرسو إلا في موانئ مجهزة بمكتب ديوانة (الفصل 67). ثالثاً، عند دخول الميناء، يقدم دفتر اليومية لختم الأعوان (الفصل 68). رابعاً، خلال 24 ساعة من الوصول (لا تحسب الآحاد والأعياد)، يودع البيان وترجمته وبيانات المؤن والبضائع التافهة ووثائق الشحن والجنسية (الفصل 69). خامساً، لا يمكن التفريغ إلا داخل الميناء (الفصل 70)، وبإذن كتابي من الأعوان وحضورهم وفي الأوقات المحددة بقرار وزير المالية (الفصل 71). هذه الإجراءات تضبط دخول البضائع منذ وصولها إلى أن تفرغ تحت الرقابة الجمركية. المصادر: الفصول 65-71 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_cross_fr_ar_055",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [85, 86],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي التزامات مستغل المستودع الجمركي وكيف يتم ضمانها؟\nQuestion in Arabic, retrieved article in French.\n\nDocuments pertinents:\n[1] Source: article 85 du Code des Douanes\nLes obligations et responsabilités de l'exploitant font l'objet d'un engagement de sa part ; cet engagement est cautionné.\n\n[2] Source: article 86 du Code des Douanes\nLes modalités d'application du présent chapitre sont fixées par arrêté du ministre des finances."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للمادة 85 من مجلة الديوانة، فإن التزامات ومسؤوليات مستغل المستودع الجمركي (أو منطقة التخليص) تخضع لالتزام منه، وهذا الالتزام مضمون بكفالة. أما المادة 86 فتنص على أن تطبيقات هذا الباب تحدد بقرار من وزير المالية. وبالتالي، فإن المستغل يتحمل مسؤولية مدنية ومالية تجاه الديوانة، ويجب عليه تقديم كفالة لضمان تنفيذ التزاماته. المصادر: المادتان 85 و86 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_cross_ar_fr_056",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [72, 73],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les obligations du conducteur de marchandises à l'importation par voie terrestre et quelles routes peut-il emprunter ?\nQuestion in French, retrieved articles in Arabic.\n\nDocuments pertinents:\n[1] Source: الفصل 72 من مجلة الديوانة\n1- يجب على جميع البضائع المستوردة عبر الثغور البرية أن تُوجه فوراً إلى أقرب مكتب ديوانة بواسطة الطريق الأقصر المعينة بقرار من وزير المالية. 2- لا يمكن إدخالها إلى المنازل أو المباني الأخرى قبل توجيهها إلى المكتب المذكور. ولا يمكنها تجاوزه دون رخصة.\n\n[2] Source: الفصل 73 من مجلة الديوانة\n1- يمكن بقرار من وزير المالية غلق الطرق المباشرة المؤدية إلى المكاتب الثانوية أمام حركة المرور الدولية خلال كل أو جزء من فترة غلق هذه المكاتب. 2- لا يمكن للبضائع المرور دون ترخيص من خدمات الديوانة على الطرق المشار إليها في الفقرة السابقة أثناء ساعات غلقها."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 72 du Code des Douanes, le conducteur de marchandises importées par voie terrestre doit conduire immédiatement les biens au bureau de douane le plus proche par la route la plus directe désignée par arrêté du ministre des finances. Il ne peut les introduire dans des bâtiments avant de les avoir présentées au bureau, ni les dépasser sans permis. Par ailleurs, l'article 73 prévoit que les routes menant à des bureaux secondaires peuvent être fermées au trafic international pendant la fermeture de ces bureaux ; pendant ces heures, les marchandises ne peuvent circuler sans autorisation. Ainsi, le conducteur doit impérativement utiliser les itinéraires autorisés et respecter les horaires d'ouverture. Sources : art. 72 et 73 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_direct_057",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [80],
+      "confidence_flag": "Typo 'esclae' pour 'escale' dans le texte original.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les conditions du dépôt anticipé du manifeste par voie électronique ?\n\nDocuments pertinents:\n[1] Source: article 80 du Code des Douanes\nNonobstant les dispositions des articles 69 et 77 du présent code, le transporteur maritime ou aérien connecté au système automatique intégré de traitement des formalités de commerce extérieur peut déposer le manifeste à la douane avant l'arrivée du navire ou de l'aéronef en utilisant des moyens électroniques fiables, et ce conformément à la législation relative aux échanges électroniques. Le dépôt anticipé du manifeste par les moyens électroniques dispense de toute autre formalité ayant le même objet. Le dépôt anticipé du manifeste est considéré nul et non avenu au cas où l'escale du navire ou de l'aéronef n'a pas eu lieu. Les modalités d'application du présent article sont fixées par décret."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 80 du Code des Douanes autorise le transporteur maritime ou aérien connecté au système automatisé de traitement des formalités du commerce extérieur à déposer le manifeste avant l'arrivée, par des moyens électroniques fiables. Ce dépôt anticipé dispense de toute autre formalité ayant le même objet. Toutefois, il est considéré comme nul et non avenu si l'escale du navire ou de l'aéronef n'a pas eu lieu. Les modalités sont fixées par décret. Ainsi, ce dispositif facilite les procédures tout en conditionnant la validité du dépôt à la réalisation effective de l'escale. Sources : art. 80 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_058",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [68],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي وثيقة دفتر اليومية التي يجب على قبطان السفينة تقديمها عند دخول الميناء؟\n\nDocuments pertinents:\n[1] Source: الفصل 68 من مجلة الديوانة\nعند دخول السفينة إلى الميناء، يلتزم القبطان بتقديم دفتر اليومية لختم أعوان الديوانة."
+        },
+        {
+          "role": "assistant",
+          "content": "ينص الفصل 68 من مجلة الديوانة على أنه عند دخول السفينة إلى الميناء، يلتزم القبطان بتقديم دفتر اليومية (Journal de bord) لختم أعوان الديوانة. ويهدف هذا الإجراء إلى تمكين الإدارة من مراقبة مسار السفينة وأحداث الرحلة، كعنصر من عناصر الرقابة الجمركية إلى جانب البيان والوثائق الأخرى. المصادر: الفصل 68 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_refusal_059",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment se déroule la procédure de visite des bagages personnels des passagers à l'aéroport ?\n\nDocuments pertinents:\n[1] Source: Les articles 75 à 79 du Code des Douanes traitent du manifeste, des déchargements et des jets en cours de route, mais ne mentionnent pas les bagages personnels des passagers ni la procédure de fouille."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Titre III du Code des Douanes porte sur la conduite des marchandises (manifeste, déchargement, magasins) et n'aborde pas la fouille des bagages personnels des passagers. Je vous recommande de consulter un avocat spécialisé ou de vous référer aux dispositions du Code des Douanes relatives au contrôle des personnes (notamment l'article 56, qui n'est pas inclus dans ce fichier)."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_procedural_060",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [75, 76, 77, 78, 79],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes à suivre pour l'importation de marchandises par voie aérienne ?\n\nDocuments pertinents:\n[1] Source: article 75 (routes aériennes imposées et atterrissage uniquement dans aéroports avec bureau de douane), article 76 (établissement du manifeste signé par le commandant), article 77 (présentation et remise du manifeste à titre de déclaration sommaire), article 78 (interdiction de jeter des marchandises sauf lest ou salut de l'appareil), article 79 (application des règles de déchargement de l'article 71)."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure d'importation par voie aérienne se déroule en plusieurs étapes. Premièrement, l'aéronef doit suivre la route aérienne imposée et ne peut atterrir que dans un aéroport doté d'un bureau de douane (article 75). Deuxièmement, les marchandises doivent être inscrites sur un manifeste signé par le commandant, dans les mêmes conditions que pour les navires (article 76). Troisièmement, dès l'arrivée, le commandant doit présenter le manifeste aux agents et le remettre au bureau de douane à titre de déclaration sommaire (article 77). Quatrièmement, il est interdit de jeter des marchandises en cours de route, sauf pour le lest ou en cas de nécessité pour le salut de l'appareil (article 78). Enfin, le déchargement ne peut se faire qu'avec autorisation écrite et en présence des agents, conformément à l'article 71 rendu applicable par l'article 79. Ces étapes assurent un contrôle douanier intégral depuis le survol de la frontière jusqu'au déchargement. Sources : art. 75 à 79 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre III, Chapitre I, Section 1 (articles 65-71) – importation par mer",
+      "Section 2 (articles 72-74) – transport terrestre",
+      "Section 3 (articles 75-79) – transport aérien",
+      "Section 4 (article 80) – dispositions communes (manifeste électronique)",
+      "Chapitre II (article 81) – exportation",
+      "Chapitre III (articles 82-86) – magasins et aires de dédouanement et d'exportation"
+    ],
+    "sections_not_covered": [
+      "Aucune section manquante dans les articles 65-86 (tous sont couverts)"
+    ],
+    "notes": "Le PDF comporte une faute d'orthographe à l'article 80 ('esclae' au lieu de 'escale'), mais le sens reste compréhensible. Les exemples couvrent l'ensemble du Titre III avec une répartition équilibrée. Les refus portent sur des questions hors sujet (sanctions, bagages personnels, taux des droits). Les clarifications concernent les exceptions à la déclaration sommaire et l'éligibilité au dépôt électronique. Tous les exemples en arabe sont en MSA formel sans dialecte."
+  }
+}

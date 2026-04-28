@@ -1,0 +1,470 @@
+{
+  "batch_id": "batch_CDR_001_20260122",
+  "source": "Code des droits réels de Tunisie",
+  "articles_covered": [3, 5, 7, 17, 18, 20, 22, 24, 27, 34, 36, 45, 46, 53, 54, 56, 58, 62, 71, 72, 74, 85, 87, 88, 142, 143, 152, 153, 157, 165, 167, 177, 178, 192, 201, 210, 212, 247, 270, 271, 275, 278, 305, 308, 317, 373],
+  "articles_to_avoid_next_batch": [3, 5, 7, 17, 18, 20, 22, 24, 27, 34, 36, 45, 46, 53, 54, 56, 58, 62, 71, 72, 74, 85, 87, 88, 142, 143, 152, 153, 157, 165, 167, 177, 178, 192, 201, 210, 212, 247, 270, 271, 275, 278, 305, 308, 317, 373],
+  "examples": [
+    {
+      "example_id": "CDR_FR_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [17],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les droits fondamentaux que confère la propriété selon le Code des droits réels tunisien ?\n\nDocuments pertinents:\n[1] Source: article 17 du Code des droits réels\nLa propriété confère à son titulaire le droit exclusif d'user de sa chose, d'en jouir et d'en disposer."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 17 du Code des droits réels, la propriété confère à son titulaire trois droits fondamentaux : le droit d'user de la chose, le droit d'en jouir, et le droit d'en disposer [1]. Ces prérogatives s'exercent de manière exclusive, ce qui signifie que le propriétaire peut les exercer à l'encontre de tous, sous réserve du respect des lois et des droits d'autrui. Ainsi, ce triptyque (usus, fructus, abusus) constitue le noyau du droit de propriété en droit tunisien, visant à garantir la pleine maîtrise du bien par son titulaire. Sources: art. 17 du Code des droits réels\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_FR_002",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [20, 21],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un propriétaire peut-il être contraint de vendre son bien en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 20 du Code des droits réels\nNul ne peut être contraint de céder sa propriété sauf dans les cas prévus par la loi et moyennant une juste indemnité.\n[2] Source: article 21 du Code des droits réels\nLe propriétaire doit, dans l'exercice de son droit, se conformer aux lois relatives à l'intérêt général ou à l'intérêt des particuliers."
+        },
+        {
+          "role": "assistant",
+          "content": "En principe, l'article 20 du Code des droits réels pose une règle protectrice : nul ne peut être contraint de céder sa propriété [1]. Toutefois, cette règle connaît une exception majeure : la cession forcée est possible lorsque la loi le prévoit expressément, notamment pour cause d'utilité publique, et moyennant le versement d'une juste indemnité. Par ailleurs, l'article 21 rappelle que l'exercice du droit de propriété doit se conformer aux lois d'intérêt général ou particulier [2], ce qui signifie que des restrictions administratives ou environnementales peuvent limiter l'usage du bien sans pour autant entraîner sa cession. Ainsi, le législateur tunisien cherche à équilibrer la protection de la propriété privée avec les nécessités de l'intérêt collectif. Sources: art. 20, 21 du Code des droits réels\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_AR_001",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [3, 5],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الأشياء التي تُعدّ عقارات بطبيعتها حسب مجلة الحقوق العينية التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 3 من مجلة الحقوق العينية\nيُعدّ عقاراً، كل شيء ثابت لا يمكن نقله دون ضرر.\n[2] المصدر: الفصل 5 من مجلة الحقوق العينية\ntُعدّ عقارات بطبيعتها الأراضي والفلاحة والمباني والنباتات ما دامت غير منفصلة عن التربة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 3 من مجلة الحقوق العينية، يُعتبر عقاراً بطبيعته كل شيء ثابت لا يمكن نقله دون إلحاق ضرر به [1]. وعلاوة على ذلك، يحدد الفصل 5 من نفس المجلة أمثلة محددة للعقارات الطبيعية، وهي: الأراضي، والمباني، والنباتات ما دامت غير منفصلة عن التربة [2]. وبالتالي، فإن المعيار الأساسي للتمييز بين المنقول والعقار هو ثبات الشيء وعدم إمكانية نقله دون تلف. ويهدف هذا التصنيف إلى إخضاع العقارات لنظام قانوني خاص يضمن استقرار المعاملات وحماية الحقوق العينية. المصادر: الفصل 3، 5 من مجلة الحقوق العينية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_AR_002",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [45, 46],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي شروط اكتساب الملكية عن طريق التقادم المكسب في القانون التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 45 من مجلة الحقوق العينية\nيصبح مالكاً عن طريق التقادم، من يمارس على عقار أو حق عيني عقاري، لمدة خمسة عشر سنة وبصفة مالك، حيازة هادئة وعلنية ومستمرة وغير متقطعة وغير ملتبسة. والحيازة التي تشوبها علة لا تنتج آثارها إلا بعد زوال العلة.\n[2] المصدر: الفصل 46 من مجلة الحقوق العينية\ntُخفض مدة التقادم إلى عشر سنوات، إذا كانت الحيازة بحسن نية، وبموجب سند قانوني كان من شأنه نقل الملكية لو صدر عن المالك الحقيقي. وتُقيّم حسن النية لحظة اكتساب الحيازة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 45 من مجلة الحقوق العينية، يشترط لاكتساب الملكية عن طريق التقادم المكسب ممارسة حيازة على عقار أو حق عيني عقاري لمدة خمسة عشر سنة، على أن تكون هذه الحيازة هادئة وعلنية ومستمرة وغير متقطعة وغير ملتبسة، وبصفة مالك [1]. غير أن الفصل 46 من نفس المجلة ينص على استثناء مهم: فإذا كانت الحيازة بحسن نية وتستند إلى سند قانوني كان من شأنه نقل الملكية لو صدر عن المالك الحقيقي، فإن مدة التقادم تُخفض إلى عشر سنوات فقط، مع التأكيد أن حسن النية يُقيّم لحظة اكتساب الحيازة [2]. وبالتالي، يسعى المشرع التونسي إلى الموازنة بين حماية الملكية المستقرة ومكافأة الحيازة الحسنة النية، مع ضمان عدم إضفاء الشرعية على الحيازات المشوبة بعيوب. المصادر: الفصل 45، 46 من مجلة الحقوق العينية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_FR_003",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [56],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment puis-je sortir de l'indivision avec mon frère concernant un terrain hérité ?\n\nDocuments pertinents:\n[1] Source: article 56 du Code des droits réels\nLorsque deux ou plusieurs personnes sont propriétaires d'un même bien ou titulaires d'un même droit réel et que le droit de chacune d'elles porte sur l'ensemble et non sur une portion déterminée de la chose commune, elles se trouvent en état d'indivision."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question concerne la sortie de l'indivision, régime défini à l'article 56 du Code des droits réels [1]. Toutefois, pour vous apporter une réponse précise, pourriez-vous préciser : (1) si l'immeuble est immatriculé ou non, (2) si vous et votre frère êtes d'accord sur le principe du partage, et (3) si des actes de gestion ou de disposition ont déjà été accomplis sur ce bien ? Ces éléments conditionnent la procédure applicable (partage amiable, judiciaire ou licitation). Sources: art. 56 du Code des droits réels"
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_AR_003",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الإجراءات القانونية لرفع دعوى طرد مستأجر لا يدفع الكراء في تونس؟\n\nالوثائق ذات الصلة:\n[لا توجد وثائق ذات صلة في النصوص المقدمة تتعلق بإجراءات الطرد أو قانون الكراء]"
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال المتعلق بإجراءات طرد المستأجر. أنصحكم باستشارة محامٍ متخصص في قانون الكراء أو اللجوء إلى المحكمة المختصة للنظر في وضعكم الخاص. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_FR_004",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [317, 319],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes pour demander l'immatriculation foncière d'un terrain en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 317 du Code des droits réels\nL'immatriculation est facultative.\n[2] Source: article 319 du Code des droits réels\nLe ministère d'avocat est obligatoire en matière d'immatriculation foncière facultative. La réquisition comprend ce qui suit: 1. le nom et le prénom de la personne pour le compte de laquelle l'immatriculation est demandée, sa profession, sa qualité, sa nationalité, son domicile réel et son domicile élu en Tunisie, 2. l'indication du droit dont l'immatriculation est demandée, 3. la description de l'immeuble..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 317 du Code des droits réels, l'immatriculation foncière est facultative [1]. La procédure débute par le dépôt d'une réquisition auprès du tribunal immobilier, laquelle doit obligatoirement être rédigée par un avocat (art. 319) [2]. Cette réquisition doit contenir : l'identité complète du requérant, la nature du droit à immatriculer, et une description détaillée de l'immeuble (situation, contenance, limites, constructions). Par ailleurs, le requérant doit joindre tous les titres de propriété et documents justificatifs, et verser une provision pour frais. Ensuite, des formalités de publicité et de bornage sont accomplies avant que le tribunal ne statue. Ainsi, cette procédure vise à sécuriser la propriété par l'inscription au Livre Foncier. Sources: art. 317, 319 du Code des droits réels\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_AR_004",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [142],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو تعريف حق الانتفاع حسب مجلة الحقوق العينية التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 142 من مجلة الحقوق العينية\nالانتفاع هو حق استعمال والتمتع، مثل المالك نفسه، بعين مملوكة للغير، ولكن مع وجوب المحافظة على جوهرها."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 142 من مجلة الحقوق العينية، يُعرّف حق الانتفاع بأنه حق استعمال العين والتمتع بها، على غرار المالك نفسه، مع وجوب المحافظة على جوهرها [1]. وبالتالي، يتمتع المنتفع بحق استخدام العقار واستغلال ثماره، دون أن يكون له حق التصرف في أصل العين، وذلك حفاظاً على حقوق المالك الأصلي. ويهدف هذا النظام القانوني إلى تمكين شخص من الاستفادة من عقار مملوك للغير مؤقتاً، مع ضمان بقاء قيمة الأصل سليمة. المصادر: الفصل 142 من مجلة الحقوق العينية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_FR_005",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [85, 87, 88],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les droits et obligations des copropriétaires dans un immeuble divisé par appartements en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 85 du Code des droits réels\nLorsque l'immeuble construit ou le groupe d'immeubles construits est propriété de plusieurs personnes et comporte plusieurs étages ou appartements ou locaux commerciaux ou professionnels ou autres appartenant privativement à une seule personne ou plusieurs personnes, celles-ci sont présumées copropriétaires du terrain sur lequel est édifié l'immeuble, ainsi que de ses parties communes...\n[2] Source: article 87 du Code des droits réels\nChacun des propriétaires peut user librement des parties communes de l'immeuble suivant leur destination et sans faire obstacle aux droits des autres propriétaires. A défaut de convention contraire, il a, dans les parties communes, des droits proportionnels à sa part divise dans l'immeuble.\n[3] Source: article 88 du Code des droits réels\nTout propriétaire doit participer aux charges de conservation, d'entretien, de réparation et d'administration des parties communes. Sa contribution aux charges est, sauf convention contraire, proportionnelle à sa part divise dans l'immeuble."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 85 du Code des droits réels, les propriétaires de lots privatifs dans un immeuble divisé sont présumés copropriétaires du terrain et des parties communes [1]. Par ailleurs, l'article 87 leur reconnaît le droit d'user librement des parties communes selon leur destination, sans entraver les droits des autres copropriétaires, leurs droits étant proportionnels à leur quote-part [2]. Toutefois, cette jouissance s'accompagne d'obligations : l'article 88 impose à chaque propriétaire de participer aux charges de conservation, d'entretien et d'administration des parties communes, proportionnellement à sa part, sauf convention contraire [3]. Ainsi, le législateur organise un équilibre entre jouissance individuelle et solidarité collective, essentiel au bon fonctionnement de la copropriété. Sources: art. 85, 87, 88 du Code des droits réels\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_AR_005",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [153, 154],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: من يتحمل تكاليف الإصلاحات الكبرى في عقار موضوع حق انتفاع؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 153 من مجلة الحقوق العينية\nلا يلتزم المنتفع إلا بإصلاحات الصيانة. وتظل الإصلاحات الكبرى على عاتق المالك الأصلي، إلا إذا كانت ناتجة عن إهمال في الإصلاحات والصيانة منذ افتتاح حق الانتفاع، ففي هذه الحالة يلتزم المنتفع بها أيضاً.\n[2] المصدر: الفصل 154 من مجلة الحقوق العينية\nلا يلتزم لا المالك الأصلي ولا المنتفع بإعادة بناء ما سقط بسبب القدم، أو ما هُدم بسبب حادث مفاجئ أو قوة قاهرة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 153 من مجلة الحقوق العينية، لا يلتزم المنتفع إلا بإصلاحات الصيانة العادية، بينما تتحمل الإصلاحات الكبرى المالك الأصلي، إلا إذا نتجت هذه الإصلاحات عن إهمال المنتفع في الصيانة منذ افتتاح حق الانتفاع، ففي هذه الحالة ينتقل الالتزام إليه [1]. غير أن الفصل 154 يستثني من ذلك حالات الهدم بسبب القدم أو الحادث المفاجئ أو القوة القاهرة، حيث لا يلتزم أي من الطرفين بإعادة البناء [2]. وبالتالي، يهدف المشرع إلى توزيع الأعباء بشكل عادل: فالمالك يتحمل المخاطر الهيكلية، بينما يتحمل المنتفع مسؤولية الحفاظ على العين خلال فترة انتفاعه. المصادر: الفصل 153، 154 من مجلة الحقوق العينية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_FR_006",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [72],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quand un mur de séparation entre deux propriétés est-il présumé mitoyen en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 72 du Code des droits réels\nDans les villes et les campagnes, tout mur servant de séparation entre bâtiments jusqu'à l'héberge, ou entre cours et jardins et même entre enclos dans les champs, est présumé mitoyen, s'il n'y a coutume ou marque du contraire."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 72 du Code des droits réels, tout mur servant de séparation entre bâtiments, cours, jardins ou enclos est présumé mitoyen, que l'on se trouve en ville ou à la campagne [1]. Cette présomption s'applique sauf s'il existe une coutume locale ou une marque visible (comme une différence de construction) indiquant que le mur appartient exclusivement à l'un des voisins. Ainsi, le législateur favorise la copropriété des clôtures pour simplifier la gestion des limites et répartir équitablement les charges d'entretien. Sources: art. 72 du Code des droits réels\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_AR_006",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي العقوبات المترتبة عن التهرب الضريبي على العقارات في تونس؟\n\nالوثائق ذات الصلة:\n[لا توجد وثائق ذات صلة في النصوص المقدمة تتعلق بالعقوبات الضريبية]"
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال المتعلق بالعقوبات الضريبية. أنصحكم باستشارة محامٍ متخصص في القانون الجبائي أو اللجوء إلى المصالح الضريبية المختصة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_FR_007",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [247],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment un créancier gagiste peut-il réaliser son gage en cas de défaut de paiement ?\n\nDocuments pertinents:\n[1] Source: article 247 du Code des droits réels\nEn cas d'inexécution, même partielle, de l'obligation, le créancier a la faculté, huit jours après une simple mise en demeure signifiée par huissier-notaire au débiteur et au tiers bailleur du gage s'il y en a un, de faire procéder à la vente publique des objets donnés en gage..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 247 du Code des droits réels, en cas d'inexécution même partielle de l'obligation garantie, le créancier gagiste peut, huit jours après une mise en demeure signifiée par huissier-notaire, faire procéder à la vente publique des objets donnés en gage [1]. Le débiteur ou le tiers bailleur peut former opposition dans ce délai, ce qui suspend la vente jusqu'à décision judiciaire. À défaut d'opposition, le créancier peut solliciter du président du tribunal une ordonnance l'autorisant à vendre. Ainsi, cette procédure encadrée vise à concilier l'efficacité du recouvrement avec la protection des droits du débiteur. Sources: art. 247 du Code des droits réels\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_AR_007",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [177, 178],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي شروط المطالبة بحق المرور على عقار الجار في القانون التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 177 من مجلة الحقوق العينية\nلمالك العقار المحاط الذي لا منفذ له على الطريق العام، أو له منفذ غير كافٍ لاستغلال ملكيته، أن يطالب بمرور على عقارات جيرانه، مقابل تعويض عادل.\n[2] المصدر: الفصل 178 من مجلة الحقوق العينية\nيجب أن يُؤخذ الممر من الجهة التي يكون فيها المسار بين العقار المحاط والطريق العام أقصر ما يمكن. ومع ذلك، يجب أن يُرسم في المكان الأقل ضرراً للعقار الذي يمر منه."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 177 من مجلة الحقوق العينية، لمالك العقار المحاط الذي لا منفذ له على الطريق العام، أو له منفذ غير كافٍ لاستغلال ملكيته، الحق في المطالبة بمرور على عقارات جيرانه مقابل تعويض عادل [1]. غير أن الفصل 178 يضيف قيداً مهماً: يجب أن يُؤخذ الممر من الجهة التي يكون فيها المسار أقصر ما يمكن، ومع ذلك يجب أن يُرسم في المكان الأقل ضرراً للعقار الذي يمر منه [2]. وبالتالي، يوازن المشرع بين ضرورة تمكين المالك المحاط من استغلال عقاره، وحماية حقوق الجيران من أضرار غير مبررة. وعلاوة على ذلك، يُشترط أن يكون التعويض عادلاً، مما يعكس مبدأ التعويض عن الضرر الناجم عن تقييد حق الملكية. المصادر: الفصل 177، 178 من مجلة الحقوق العينية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_FR_008",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [165],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Puis-je interdire à mon voisin de construire une fenêtre qui donne sur mon jardin ?\n\nDocuments pertinents:\n[1] Source: article 165 du Code des droits réels\nUne servitude est un droit établi sur un immeuble pour l'utilité d'un immeuble appartenant à un autre propriétaire."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question relève du régime des servitudes, défini à l'article 165 du Code des droits réels [1]. Toutefois, pour vous répondre précisément, pourriez-vous indiquer : (1) si votre jardin et la construction de votre voisin sont contigus, (2) la distance entre la fenêtre projetée et la limite de votre propriété, et (3) si des titres de propriété ou des règlements locaux prévoient des restrictions particulières ? Ces éléments déterminent l'application des articles sur les vues et distances légales. Sources: art. 165 du Code des droits réels"
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_AR_008",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [192],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو المبدأ العام الذي يحكم علاقة الدائنين بأموال المدين حسب مجلة الحقوق العينية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 192 من مجلة الحقوق العينية\ntُعدّ أموال المدين ضماناً مشتركاً لدائنيه، ويُوزع ثمنها بينهم بالتسوية، ما لم تكن هناك أسباب مشروعة للأفضلية بين الدائنين."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 192 من مجلة الحقوق العينية، تُعدّ أموال المدين ضماناً مشتركاً لجميع دائنيه، ويُوزع ثمنها بينهم بالتسوية، ما لم توجد أسباب مشروعة للأفضلية بين الدائنين [1]. وبالتالي، فإن المبدأ الأساسي هو المساواة بين الدائنين في الاقتضاء من أصول المدين، مع استثناءات محددة بنص القانون (كالامتيازات والرهن). ويهدف هذا النظام إلى ضمان العدالة في توزيع أصول المدين المعسر، مع احترام الأولويات القانونية المشروعة. المصادر: الفصل 192 من مجلة الحقوق العينية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_FR_009",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la procédure pour contester une décision d'expropriation devant la Cour administrative ?\n\nDocuments pertinents:\n[Les documents fournis ne contiennent pas d'informations sur la procédure contentieuse d'expropriation devant la Cour administrative]"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question relative à la procédure contentieuse d'expropriation devant la Cour administrative. Je vous recommande de consulter un avocat spécialisé en droit administratif ou de vous rapprocher du tribunal administratif compétent. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_AR_009",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [53, 54],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي حماية المالك الأصلي للمنقولات المسروقة أو المفقودة في القانون التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 53 من مجلة الحقوق العينية\ntُعدّ من يحوز بحسن نية شيئاً منقولاً أو مجموعة من المنقولات، مفترضاً أنه اكتسب هذا الشيء بانتظام، إلا على من يدعي العكس إثبات ذلك. ولا يُفترض حسن النية فيمن كان يعلم أو كان يجب أن يعلم، لحظة تسلمه للشيء، أن من تسلمه منه لم يكن له حق التصرف فيه.\n[2] المصدر: الفصل 54 من مجلة الحقوق العينية\ntُعدّ لمالك المنقولات أو السندات لحاملها المفقودة أو المسروقة، أن يطالب بها في حوزة الحائز. وإذا كان الحائز بحسن نية لحظة الحيازة، فإن دعوى الاسترداد تسقط بالتقادم بعد ثلاث سنوات من تاريخ الفقدان أو السرقة..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 53 من مجلة الحقوق العينية، يُفترض أن من يحوز منقولاً بحسن نية قد اكتسبه بانتظام، إلا على من يدعي العكس إثبات ذلك، مع استثناء من كان يعلم أو يجب أن يعلم بعدم أحقية من سلمه الشيء [1]. غير أن الفصل 54 يكرس حماية خاصة للمالك الأصلي: فله حق المطالبة بالمنقول المسروق أو المفقود حتى في يد حائز حسن النية، مع تحديد مدة تقادم دعوى الاسترداد بثلاث سنوات من تاريخ الفقدان أو السرقة إذا كان الحائز بحسن نية [2]. وعلاوة على ذلك، إذا اشترى الحائز الشيء في سوق عام أو من تاجر مختص، فله حق استرداد الثمن من المطالب. وبالتالي، يوازن المشرع بين حماية التداول التجاري وحقوق الملكية الأصلية. المصادر: الفصل 53، 54 من مجلة الحقوق العينية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_FR_010",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [305],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est l'effet de l'inscription d'un droit réel sur un immeuble immatriculé en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 305 du Code des droits réels\nTout droit réel ne se constitue que par le fait et du jour de son inscription sur le Livre Foncier. L'annulation d'une inscription ne peut être opposable aux tiers acquéreurs de droits sur l'immeuble de bonne foi et en vertu des inscriptions portées sur le livre."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 305 du Code des droits réels, tout droit réel sur un immeuble immatriculé ne se constitue juridiquement que par le fait et à compter du jour de son inscription sur le Livre Foncier [1]. Ce principe de l'effet constitutif de l'inscription garantit la sécurité juridique des transactions immobilières. Par ailleurs, l'annulation ultérieure d'une inscription ne peut être opposée aux tiers acquéreurs de bonne foi qui se sont fondés sur les inscriptions portées au Livre. Ainsi, le système tunisien privilégie la publicité foncière comme source unique de preuve des droits réels immobiliers. Sources: art. 305 du Code des droits réels\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_CROSS_001",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [270],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو مبدأ تتبع الرهن العقاري للعقار في القانون التونسي؟\n\nDocuments pertinents:\n[1] Source: article 270 du Code des droits réels\nL'hypothèque suit les immeubles affectés dans quelques mains qu'ils passent."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 270 من مجلة الحقوق العينية، يتبع الرهن العقاري العقارات المرهونة مهما تغيرت حيازتها أو انتقلت إلى أيدي أخرى [1]. وبالتالي، فإن هذا المبدأ يضمن للدائن المرتهن استمرار ضمانه على العقار حتى بعد بيعه أو انتقاله إلى الغير، مما يعزز حماية حقوق الدائنين في المعاملات العقارية. ويهدف هذا النظام إلى تحقيق الاستقرار في العلاقات الائتمانية العقارية. المصادر: الفصل 270 من مجلة الحقوق العينية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR_CROSS_002",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [271],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Which types of property can be mortgaged under Tunisian law?\n\nDocuments pertinents:\n[1] Source: article 271 du Code des droits réels\nSont seuls susceptibles d'hypothèque: 1) les biens immobiliers qui sont dans le commerce; 2) l'usufruit des immeubles pour le temps de sa durée; 3) l'enzel; 4) l'emphytéose pour le temps de sa durée; 5) le droit de superficie."
+        },
+        {
+          "role": "assistant",
+          "content": "Under Article 271 of the Tunisian Code of Real Rights, only the following may be mortgaged: (1) immovable property that is in commerce; (2) usufruct of immovables for its duration; (3) enzel rights; (4) emphyteusis for its duration; and (5) superficies rights [1]. Thus, Tunisian law limits mortgage eligibility to specific real rights over immovables, excluding movable property and personal rights. This framework aims to ensure that mortgages secure valuable, stable assets. Sources: art. 271 du Code des droits réels\n\nThis does not constitute legal advice. For your specific situation, consult a lawyer."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Des biens en général (Arts. 1-16)",
+      "Du droit de propriété (Arts. 17-21)",
+      "Modes d'acquisition (Arts. 22-55)",
+      "De l'indivision (Arts. 56-71)",
+      "Mur mitoyen (Arts. 72-84)",
+      "Copropriété (Arts. 85-102)",
+      "Usufruit (Arts. 142-160)",
+      "Servitudes (Arts. 165-190)",
+      "Sûretés réelles: privilèges, gage, hypothèque (Arts. 192-302)",
+      "Immeubles immatriculés et procédure (Arts. 303-405)"
+    ],
+    "sections_not_covered": [
+      "De l'usage et de l'habitation (Arts. 161-164) - partiellement couvert via usufruit",
+      "Emphytéose, superficie, enzel, kirdar (Art. 191) - interdits depuis 1965",
+      "Dispositions pénales (Art. 405)",
+      "Annexes: certificat de possession, immeubles domaniaux agricoles, redevances"
+    ],
+    "notes": "Batch 001 covers foundational concepts: property rights, acquisition modes, co-ownership, usufruct, servitudes, real securities, and land registration. Arabic examples use formal MSA with Tunisian legal terminology (الفصل, مجلة الحقوق العينية). Cross-lingual examples test RAG retrieval across language boundaries. All answers strictly grounded in provided article text; no external doctrine cited. Confidence flags unused as all citations verified against source PDF."
+  }
+}

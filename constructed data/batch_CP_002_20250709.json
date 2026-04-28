@@ -1,0 +1,426 @@
+{
+  "batch_id": "batch_CP_002_20250709",
+  "source": "Code pénal tunisien",
+  "articles_covered": [6, 9, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 35, 36, 41, 54, 55, 56, "60 bis", "60 quater", 67, 68, 69, 70, 71, 74, 75, 77],
+  "articles_to_avoid_next_batch": [1, 5, 6, 9, 14, 15, "15 bis", "15 ter", "15 quater", 16, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 32, 33, 34, 35, 36, 38, 39, 40, 41, 43, 46, 47, 50, 53, 54, 55, 56, "60 ter", "60 bis", "60 quater", 62, 63, 64, 67, 68, 69, 70, 71, 74, 75, 77, 80, 82, 83],
+      "examples": [
+        {
+          "example_id": "cp_021",
+          "language": "fr",
+      "category": "direct",
+      "articles_referenced": [6],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment le Code pénal détermine-t-il l'échelle des peines pour chaque infraction ?\n\nDocuments pertinents:\n[1] Source: article 6 du Code pénal tunisien\nLe présent code détermine pour chaque infraction le maximum de la peine encourue. Le minimum de chaque peine est déterminé par ses articles 14 et 16."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 6 du Code pénal tunisien [1], le code fixe le maximum de la peine encourue pour chaque infraction. Quant au minimum de chaque peine, il est déterminé par les articles 14 et 16 du même code.\nSources: art. 6 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_022",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [41],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon employeur m'a menacé de me licencier si je ne commettais pas une irrégularité comptable. Puis-je invoquer la contrainte pour échapper aux poursuites ?\n\nDocuments pertinents:\n[1] Source: article 41 du Code pénal tunisien\nLa crainte révérencielle n'a pas le caractère de contrainte."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 41 du Code pénal tunisien [1] dispose que la crainte révérencielle n'a pas le caractère de contrainte. La crainte inspirée par un supérieur hiérarchique, telle que la menace de licenciement, entre généralement dans cette catégorie et ne constitue donc pas une cause d'irresponsabilité pénale.\nSources: art. 41 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_023",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [19, 20, 21],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un tribunal m'a condamné à payer une amende, des dommages-intérêts et des restitutions à la victime, mais mes biens sont insuffisants. Qui sera payé en premier ?\n\nDocuments pertinents:\n[1] Source: article 19 du Code pénal tunisien\nL'acquittement, ou la condamnation aux peines édictées par la loi, est prononcé sans préjudice des restitutions et dommages-intérêts dus aux parties lésées.\n\n[2] Source: article 20 du Code pénal tunisien\nSi les biens du condamné sont insuffisants pour assurer le recouvrement de l'amende, des restitutions et des dommages-intérêts, on en affecte le produit comme suit :\n1° - aux restitutions,\n2°- aux dommages-intérêts,\n3°- à l'amende.\n\n[3] Source: article 21 du Code pénal tunisien\nTous les individus condamnés par le jugement pour des faits compris dans la même poursuite sont tenus solidairement des amendes, des restitutions, des dommages-intérêts et des frais."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 19 du Code pénal tunisien [1] précise que les restitutions et dommages-intérêts sont dus indépendamment des peines prononcées. Lorsque les biens du condamné sont insuffisants, l'article 20 [2] établit un ordre de priorité strict : le produit est affecté en premier lieu aux restitutions, en deuxième lieu aux dommages-intérêts, et en dernier lieu à l'amende. Par ailleurs, l'article 21 [3] prévoit que si plusieurs personnes sont condamnées dans la même poursuite, elles sont tenues solidairement de toutes ces sommes. Ainsi, le législateur a clairement privilégié l'indemnisation de la victime sur les intérêts financiers de l'État.\nSources: arts. 19, 20 et 21 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_024",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [74, 75, 77],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les peines pour ceux qui forment ou rejoignent des bandes armées dans le but de commettre des pillages ou d'attaquer la force publique ?\n\nDocuments pertinents:\n[1] Source: article 74 du Code pénal tunisien\nEst puni de mort, quiconque rassemble et arme des bandes ou se met à la tête de bandes dans le but, soit de piller les deniers de l'État ou des particuliers, soit de s'emparer de propriétés mobilières ou immobilières ou de les détruire, soit d'attaquer la force publique agissant contre les auteurs de ces attentats ou de lui faire résistance.\n\n[2] Source: article 75 du Code pénal tunisien (modifié par la loi n° 89-23 du 27 février 1989)\nSont punis de vingt ans d'emprisonnement et d'une amende de deux cent mille dinars, ceux qui, connaissant le but et le caractère desdites bandes, ont consenti à en faire partie ou leur ont, sans contrainte, fourni des armes, logements, lieux de retrait ou de réunion.\n\n[3] Source: article 77 du Code pénal tunisien\nSi une bande, armée ou non, commet des violences contre les personnes ou contre les propriétés, chacun de ses membres est puni de dix ans d'emprisonnement."
+        },
+        {
+          "role": "assistant",
+          "content": "Le Code pénal tunisien distingue plusieurs niveaux de responsabilité selon le rôle joué au sein de la bande. L'article 74 [1] punit de mort quiconque rassemble et arme des bandes ou s'en met à la tête dans le but de piller, s'emparer de propriétés ou attaquer la force publique. L'article 75 [2] punit de vingt ans d'emprisonnement et de deux cent mille dinars d'amende ceux qui, connaissant le but de ces bandes, y adhèrent librement ou leur fournissent des armes ou des logements sans y être contraints. Enfin, l'article 77 [3] prévoit une peine de dix ans d'emprisonnement pour tout membre d'une bande, armée ou non, qui commet des violences contre les personnes ou les biens. Ainsi, la répression est graduée en fonction de l'initiative prise et de la gravité des actes accomplis.\nSources: arts. 74, 75 et 77 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_025",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [54, 55, 56],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment le juge détermine-t-il la peine lorsqu'une personne commet plusieurs infractions en même temps ?\n\nDocuments pertinents:\n[1] Source: article 54 du Code pénal tunisien\nLorsque le même fait constitue plusieurs infractions, la peine encourue pour l'infraction entraînant la peine la plus forte est seule prononcée.\n\n[2] Source: article 55 du Code pénal tunisien\nPlusieurs infractions accomplies dans un même but et se rattachant les unes aux autres, de façon à constituer un ensemble indivisible, sont considérées comme constituant une infraction unique qui entraîne la peine prévue pour la plus grave de ces infractions.\n\n[3] Source: article 56 du Code pénal tunisien\nTout individu coupable de plusieurs infractions distinctes est puni pour chacune d'elles, les peines ne se confondent pas, sauf décision contraire du juge."
+        },
+        {
+          "role": "assistant",
+          "content": "En principe, lorsqu'un individu commet plusieurs infractions distinctes, l'article 56 du Code pénal tunisien [3] pose la règle du cumul matériel : il est puni pour chacune d'elles et les peines ne se confondent pas, sauf si le juge décide autrement. Toutefois, il existe deux exceptions importantes à ce principe. D'une part, en vertu de l'article 54 [1], si un même fait constitue plusieurs infractions (par exemple, un délit qualifié de circonstance aggravante), seule la peine la plus forte est prononcée (règle de l'absorption). D'autre part, selon l'article 55 [2], si plusieurs infractions sont accomplies dans un même but et forment un ensemble indivisible, elles sont considérées comme une infraction unique entraînant la peine de la plus grave (règle de l'indivisibilité). La finalité de ces exceptions est d'éviter une accumulation excessive des peines quand les actes sont intimement liés.\nSources: arts. 54, 55 et 56 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_026",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les peines prévues par le Code pénal pour les actes terroristes et le financement du terrorisme ?\n\nDocuments pertinents:\n[1] Source: article 52 bis du Code pénal tunisien\nArticle 52 bis. (Abrogé par la loi n° 2003-75 du 10 décembre 2003, relative au soutien des efforts internationaux de lutte contre le terrorisme et à la répression du blanchiment d'argent)."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. L'ancien article 52 bis du Code pénal, qui aurait pu traiter de ce sujet, a été expressément abrogé par la loi n° 2003-75 du 10 décembre 2003. Je vous recommande de consulter un avocat spécialisé ou de vous référer à la loi n° 2003-75 susvisée et à la loi n° 2015-26 relative à la lutte contre le terrorisme et la répression du blanchiment d'argent."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_027",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Le Code pénal tunisien prévoit-il des infractions spécifiques aux atteintes à la dignité humaine, comme la torture ou les traitements dégradants ?\n\nDocuments pertinents:\n[1] Source: article 35 du Code pénal tunisien\nLa complicité n'est pas punissable dans les cas visés au livre III du présent code."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. L'extrait du Code pénal tunisien fourni mentionne uniquement l'article 35 [1], qui renvoie au livre III sans en reproduire le contenu, et les livres précédents. Les dispositions relatives aux atteintes à la dignité humaine ne figurent pas dans les extraits communiqués. Je vous recommande de consulter un avocat spécialisé ou le texte intégral du Code pénal."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_028",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [28, 29],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment évalue-t-on la valeur des objets confisqués par le tribunal ?\n\nDocuments pertinents:\n[1] Source: article 28 du Code pénal tunisien (modifié par la loi n° 66-63 du 5 juillet 1966)\nLa confiscation spéciale est l'attribution à l'Etat du produit de l'infraction ou des instruments qui ont servi ou peuvent servir à la commettre.\nEn cas de condamnation, le juge peut ordonner la confiscation des objets qui ont servi ou qui étaient destinés à servir à l'infraction et de ceux qui en sont le produit, quel qu'en soit le propriétaire.\nLa confiscation des choses, dont la fabrication, l'usage, le port, la détention et la vente constituent une infraction, est ordonnée dans tous les cas.\n\n[2] Source: article 29 du Code pénal tunisien\nSi les objets dont il ordonne la confiscation n'ont pas été saisis et ne sont pas remis, le jugement en détermine la valeur pour l'application de la contrainte par corps."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour répondre précisément, il faut savoir si les objets confisqués ont été effectivement saisis et remis au moment du jugement. Sont-ils en la possession des autorités, ou n'ont-ils pas été retrouvés ? Cette distinction est essentielle car elle détermine la procédure applicable.\nSources: à préciser selon votre réponse."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_029",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [22, 23, 24, 25, 26],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment fonctionne le régime de la surveillance administrative après une condamnement pénale ? À qui s'applique-t-il et quelles en sont les modalités ?\n\nDocuments pertinents:\n[1] Source: article 22 du Code pénal tunisien\nL'interdiction de séjour consiste dans la défense faite au condamné de résider et de paraître dans les lieux ou régions déterminés par le jugement. Elle est prononcée dans les cas prévus par la loi et ne peut excéder vingt ans.\n\n[2] Source: article 23 du Code pénal tunisien\nLe renvoi sous la surveillance administrative reconnaît à l'autorité administrative le droit de déterminer le lieu de résidence du condamné à l'expiration de sa peine et celui de le modifier, si elle le juge utile.\n\n[3] Source: article 24 du Code pénal tunisien\nLe condamné ne peut, sans autorisation, quitter la résidence qui lui a été assignée.\n\n[4] Source: article 25 du Code pénal tunisien (modifié par le décret du 22 octobre 1940)\nLorsque l'infraction comporte une peine supérieure à deux ans de prison ou constitue une deuxième récidive, le tribunal peut ordonner que le condamné soit placé sous la surveillance administrative pour une période dont le maximum ne dépasse pas cinq ans.\n\n[5] Source: article 26 du Code pénal tunisien (modifié par la loi n° 66-63 du 5 juillet 1966)\nA moins que le tribunal n'en ait autrement ordonnée, la surveillance administratif est encourue de plein droit pendant dix années en cas de condamnation prononcée en application des articles 60 à 79 ou 231 à 235 du présent code ou pour infraction à la législation sur les stupéfiants."
+        },
+        {
+          "role": "assistant",
+          "content": "Le régime de la surveillance administrative suit une procédure stricte. D'abord, le prononcé : il existe deux voies. La première est facultative, prévue par l'article 25 [4], lorsque l'infraction comporte une peine de plus de deux ans de prison ou constitue une deuxième récidive ; le tribunal peut alors ordonner une surveillance de cinq ans maximum. La seconde est automatique, selon l'article 26 [5] : la surveillance administrative est encourue de plein droit pour dix ans en cas de condamnation pour atteintes à la sûreté de l'État (articles 60 à 79), certains crimes contre les mœurs (231 à 235) ou infractions à la législation sur les stupéfiants, sauf décision contraire du tribunal. Ensuite, l'exécution : l'article 23 [2] précise qu'à l'expiration de sa peine, l'autorité administrative détermine le lieu de résidence du condamné et peut le modifier. L'article 24 [3] interdit au condamné de quitter cette résidence sans autorisation. Il convient de distinguer ce régime de l'interdiction de séjour (article 22 [1]), qui est une défense de paraître dans certains lieux, prononcée par le jugement pour un maximum de vingt ans. Ainsi, la surveillance administrative relève davantage de l'exécutif et intervient après l'incarcération.\nSources: arts. 22, 23, 24, 25 et 26 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_030",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [22],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الحدّة القصوى لعقوبة المنع من الإقامة في المجلّة الجزائيّة التونسيّة؟\n\nDocuments pertinents:\n[1] Source: article 22 du Code pénal tunisien\nL'interdiction de séjour consiste dans la défense faite au condamné de résider et de paraître dans les lieux ou régions déterminés par le jugement. Elle est prononcée dans les cas prévus par la loi et ne peut excéder vingt ans."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 22 من المجلّة الجزائيّة التونسيّة [1]، تتمثّل عقوبة المنع من الإقامة في منع المحكوم عليه من الإقامة والحضور في الأماكن أو الجهات التي يُحدّدها الحكم، ولا يمكن أن تتجاوز مدّتها عشرين سنة.\nSources: الفصل 22 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_031",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["60 quater"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو التعريف القانونيّ للسرّ الدفاعيّ الوطنيّ وفقًا للمجلّة الجزائيّة التونسيّة؟\n\nDocuments pertinents:\n[1] Source: article 60 quater du Code pénal tunisien (ajouté par le décret du 10 janvier 1957)\nEst considéré secret défense nationale :\n1°- Les renseignements d'ordre militaire, diplomatique, économique ou industriel qui, par leur nature, ne doivent être connus que des personnes qualifiées pour les détenir, et doivent, dans l'intérêt de la défense nationale, être tenus secrets à l'égard de toute autre personne,\n2°- Les objets, matériels, écrits, dessins, plans, cartes, levés, photographies et autres reproductions ainsi que tous autres documents qui, par leur nature, ne doivent être connus que des personnes qualifiées pour les utiliser ou les détenir, et doivent être tenus secrets à l'égard de toute autre personne comme pouvant conduire à la découverte de renseignements appartenant à l'une des catégories visées à l'alinéa précédent,\n3°- Les informations militaires de toute nature non rendues publiques par le gouvernement, et non comprises dans les énumérations ci-dessus, dont la loi interdit la publication, la diffusion, la divulgation ou la reproduction,\n4°- Les renseignements relatifs, soit aux mesures prises pour rechercher les auteurs d'infractions commises contre la sûreté extérieure de l'État et leurs complices et leur arrestation, soit au déroulement des actes de poursuite, d'instruction ou des plaidoiries devant les juridictions de jugement."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 60 رابع من المجلّة الجزائيّة التونسيّة [1]، يُعدّ سرًّا دفاعيًّا وطنيًّا أربع فئات من المعلومات والأشياء: أولًا، المعلومات ذات الطابع العسكريّ أو الدبلوماسيّ أو الاقتصاديّ أو الصناعيّ التي يجب ألّا يطّلع عليها إلّا الأشخاص المؤهّلون. ثانيًا، الأشياء والمعدّات والوثائق والخطط والخرائط التي يُمنع الاطّلاع عليها لكونها قد تُفضي إلى كشف معلومات من الفئة الأولى. ثالثًا، المعلومات العسكريّة غير المُعلنة من قِبل الحكومة التي يحظر القانون نشرها أو تداولها. رابعًا، المعلومات المتعلّقة بإجراءات البحث عن مرتكبي الاعتداءات على أمن الدولة الخارجيّ وملاحقتهم القضائيّة.\nSources: الفصل 60 رابع من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_032",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [9],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يُنفّذ حكم الإعدام بحقّ امرأة محكوم عليها إذا كانت حاملًا؟\n\nDocuments pertinents:\n[1] Source: article 9 du Code pénal tunisien\nLa femme condamnée à mort reconnue enceinte ne subit sa peine qu'après sa délivrance."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 9 من المجلّة الجزائيّة التونسيّة [1]، لا تُنفّذ عقوبة الإعدام على المرأة المحكوم بها إذا تبيّن أنّها حامل، إذ تُؤجّل تنفيذ العقوبة إلى ما بعد وضعها.\nSources: الفصل 9 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_033",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [67, 68],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما الفرق بين جريمتي الإهانة الموجّهة لرئيس الدولة والمؤامرة ضدّ أمن الدولة الداخليّ من حيث العقوبات المُقرّرة؟\n\nDocuments pertinents:\n[1] Source: article 67 du Code pénal tunisien (modifié par la loi n° 2005-45 du 6 juin 2005)\nEst puni de trois ans d'emprisonnement et de deux cent quarante dinars d'amende ou de l'une de ces deux peines seulement, quiconque, hors les cas prévus aux articles 42 et 48 du code de la presse, se rend coupable d'offense contre le chef de l'Etat.\n\n[2] Source: article 68 du Code pénal tunisien (modifié par la loi n° 2005-45 du 6 juin 2005)\nEst puni de cinq ans d'emprisonnement, l'auteur du complot formé dans le but de commettre l'un des attentats contre la sûreté intérieure de l'État prévus aux articles 63, 64 et 72 du présent code.\nLa peine est de deux ans d'emprisonnement, si le complot n'a pas été suivi d'un acte préparatoire tendant à l'exécution de l'attentat."
+        },
+        {
+          "role": "assistant",
+          "content": "تختلف العقوبات باختلاف طبيعة الفعل المرتكب. فالإهانة الموجّهة لرئيس الدولة، في غير الحالات المنصوص عليها في مجلّة الصحافة، يُعاقب عليها وفقًا للفصل 67 [1] بثلاث سنوات سجن وخطيّة قدرها مئتان وأربعون دينارًا أو بإحدى هاتين العقوبتين فقط. أمّا المؤامرة (الاتّفاق) المتّخذة بهدف ارتكاب أحد الاعتداءات على أمن الدولة الداخليّ المنصوص عليها في الفصول 63 و64 و72، فيُعاقب عليها وفقًا للفصل 68 [2] بخمس سنوات سجن. غير أنّ هذه العقوبة تُخفّض إلى سنتين إذا لم تُتبع المؤامرة بعمل تحضيريّ يهدف إلى تنفيذ الاعتداء. وبالتالي، يعاقب المشرّع على المؤامرة بعقوبة أشدّ من الإهانة، مع مراعاة مرحلة التقدّم في تنفيذ الجريمة.\nSources: الفصلان 67 و68 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_034",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["60 quater", 9],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الأفعال التي تُعدّ خيانة بموجب الفصل 60 مكرر، وما هي العقوبات العامّة للاعتداءات على الأمن الخارجيّ التي لا ترتقي إلى مستوى الخيانة؟\n\nDocuments pertinents:\n[1] Source: article 60 bis du Code pénal tunisien (ajouté par le décret du 10 janvier 1957)\nEst coupable de trahison et puni de mort :\n1°- tout Tunisien qui aura livré à une puissance étrangère ou à ses agents, de quelque manière et quel qu'en soit le moyen, un secret défense nationale ou qui se serait accaparé, par quelque moyen que ce soit, d'un secret de cette nature, en vue de le livrer à une puissance étrangère ou à ses agents,\n2°- tout Tunisien qui aura détruit ou détérioré volontairement des navires, avions, matériel, munitions, bâtiments, ouvrages, susceptibles d'être utilisés dans l'intérêt de la défense nationale ou y aura sciemment porté, avant ou après leur achèvement, des malfaçons de nature à les rendre impropres à l'usage ou à provoquer un accident,\n3°- tout Tunisien qui aura participé sciemment à une action tendant à détruire le moral de l'armée ou de la nation dans le but de porter préjudice à la défense nationale.\n\n[2] Source: article 62 du Code pénal tunisien (modifié par la loi n° 89-23 du 27 février 1989)\nSeront punies d'un emprisonnement de douze ans, les atteintes à la sûreté extérieure de l'Etat, si elles sont commises en temps de guerre, et de cinq ans si elles sont commises en temps de paix, la tentative est punissable et l'article 53 ne pourra être appliqué, et dans tous les cas, il peut être fait application des peines accessoires édictées par l'article 5 du présent code pour cinq ans au moins et vingt ans au plus."
+        },
+        {
+          "role": "assistant",
+          "content": "يُعدّ خيانة ويعاقب عليها بالإعدام وفقًا للفصل 60 مكرر [1] ثلاثة أفعال رئيسيّة: أوّلًا، تسليم سرّ دفاعيّ وطنيّ إلى دولة أجنبيّة أو الاستيلاء عليه قصد تسليمه. ثانيًا، تدمير أو إتلاف عمدًا للسفن أو الطائرات أو المعدّات أو المنشآت ذات الصلة بالدفاع الوطنيّ، أو إدخال عيوب بها عمدًا. ثالثًا، المشاركة العمدية في أعمال تهدف إلى تدمير معنويّات الجيش أو الأمّة بقصد الإضرار بالدفاع الوطنيّ. أمّا بخصوص الاعتداءات الأخرى على الأمن الخارجيّ التي لا تُصنّف كخيانة، فيُنظّمها الفصل 62 [2] بعقوبة سجن مدّتها اثنتا عشرة سنة في وقت الحرب، وخمس سنوات في وقت السلم. وتجدر الإشارة إلى أنّ المحاولة في هذه الحالات تكون مُعاقبًا عليها، ولا يمكن تطبيق الفصل 53 (الظروف المخفّفة)، مع إمكانيّة تطبيق عقوبات تكميليّة تتراوح بين خمس وعشرين سنة.\nSources: الفصلان 60 مكرر و62 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_035",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [35, 36],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يُعاقب الشريك دائمًا على الجريمة التي ارتكبها الفاعل الأصليّ؟\n\nDocuments pertinents:\n[1] Source: article 35 du Code pénal tunisien\nLa complicité n'est pas punissable dans les cas visés au livre III du présent code.\n\n[2] Source: article 36 du Code pénal tunisien\nQuiconque, dans l'accomplissement d'un acte délictueux dirigé contre une personne déterminée, en lèse involontairement une autre, encourt les peines prévues pour l'infraction qu'il avait l'intention de commettre."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى المبدأ العامّ، يُعاقب الشريك كالفاعل الأصليّ، غير أنّ المجلّة الجزائيّة التونسيّة تُقرّر استثناءين مهمّين. أولًا، وفقًا للفصل 35 [1]، لا تكون الشركة مُعاقبًا عليها في الحالات المنصوص عليها في الكتاب الثالث من المجلّة الجزائيّة. ثانيًا، وفقًا للفصل 36 [2]، إذا ارتكب شخص فعلًا إجراميًّا موجّهًا ضدّ شخص معيّن، ولكنّه ألحق ضررًا غير مقصود بشخص آخر، فإنّه يتحمّل العقوبة المُقرّرة للجريمة التي كان ينوي ارتكابها. وبالتالي، يُقيّد المشرّع مبدأ مسؤوليّة الشريك بنصوص خاصّة تستثني بعض المخالفات، كما يُرسّخ قاعدة خاصة بالخطأ البيّن في اختيار الشخص المُعتدى عليه.\nSources: الفصلان 35 و36 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_036",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [54, 55, 56],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتعامل القانون التونسيّ مع تعدّد الجرائم عند تحديد العقوبة؟\n\nDocuments pertinents:\n[1] Source: article 54 du Code pénal tunisien\nLorsque le même fait constitue plusieurs infractions, la peine encourue pour l'infraction entraînant la peine la plus forte est seule prononcée.\n\n[2] Source: article 55 du Code pénal tunisien\nPlusieurs infractions accomplies dans un même but et se rattachant les unes aux autres, de façon à constituer un ensemble indivisible, sont considérées comme constituant une infraction unique qui entraîne la peine prévue pour la plus grave de ces infractions.\n\n[3] Source: article 56 du Code pénal tunisien\nTout individu coupable de plusieurs infractions distinctes est puni pour chacune d'elles, les peines ne se confondent pas, sauf décision contraire du juge."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى المبدأ العامّ المنصوص عليه في الفصل 56 [3]، يُعاقب المرتكب على كلّ جريمة على حدة، ولا تندمج العقوبات بعضها في بعض إلّا إذا قرّر القاضي خلاف ذلك. غير أنّ هذا المبدأ يتخلّله استثناءان أساسيّان. أولًا، إذا كان الفعل ذاته يُكوّن عدة جرائم، فإنّ العقوبة الأشدّ هي وحدها التي تُنطق بها وفقًا للفصل 54 [1] (قاعدة الامتصاص). ثانيًا، إذا وقعت عدة جرائم في إطار هدف واحد ومترابطة لدرجة تشكّل كتلة لا تتجزّأ، فإنّها تُعتبر جريمة واحدة وتستوجب عقوبة أشدّ الجرائم وفقًا للفصل 55 [2]. وبالتالي، يهدف المشرّع إلى تفادي التضخّم العقابيّ حين تكون الأفعال مترابطة أو متداخلة.\nSources: الفصول 54 و55 و56 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_037",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي العقوبات المُقرّرة في المجلّة الجزائيّة لجرائم الاعتداءات الجنسيّة؟\n\nDocuments pertinents:\n[1] Source: article 26 du Code pénal tunisien (modifié par la loi n° 66-63 du 5 juillet 1966)\nA moins que le tribunal n'en ait autrement ordonnée, la surveillance administratif est encourue de plein droit pendant dix années en cas de condamnation prononcée en application des articles 60 à 79 ou 231 à 235 du présent code ou pour infraction à la législation sur les stupéfiants."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تتضمّن الوثائق المُقدّمة معلومات كافية للإجابة عن هذا السؤال. فالنصّ المُرفق يُشير فقط إلى الفصول من 231 إلى 235 في سياق تحديد حالات المراقبة الإداريّة، دون أن يتضمّن محتوى هذه الفصول أو العقوبات الخاصّة بالاعتداءات الجنسيّة. يُرجى استشارة محامٍ متخصّص أو الرجوع إلى النصّ الكامل للمجلّة الجزائيّة التونسيّة."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_038",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [28, 29],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: متى يحدّد القاضي قيمة الأشياء المصادرة؟\n\nDocuments pertinents:\n[1] Source: article 28 du Code pénal tunisien (modifié par la loi n° 66-63 du 5 juillet 1966)\nLa confiscation spéciale est l'attribution à l'Etat du produit de l'infraction ou des instruments qui ont servi ou peuvent servir à la commettre.\nEn cas de condamnation, le juge peut ordonner la confiscation des objets qui ont servi ou qui étaient destinés à servir à l'infraction et de ceux qui en sont le produit, quel qu'en soit le propriétaire.\nLa confiscation des choses, dont la fabrication, l'usage, le port, la détention et la vente constituent une infraction, est ordonnée dans tous les cas.\n\n[2] Source: article 29 du Code pénal tunisien\nSi les objets dont il ordonne la confiscation n'ont pas été saisis et ne sont pas remis, le jugement en détermine la valeur pour l'application de la contrainte par corps."
+        },
+        {
+          "role": "assistant",
+          "content": "للتأكّد من تقديم إجابة دقيقة، يُرجى التوضيح: هل الأشياء المراد مصادرتها قد تمّ حجزها وتقديمها فعليًّا، أم أنّها لم تُضبط ولم تُسلّم؟ هذا التمييز أساسيّ لمعرفة ما إذا كان القاضي سيلجأ إلى تقدير قيمتها الماليّة أم لا.\nSources: يُحدّد حسب التوضيح المطلوب."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_039",
+      "language": "cross_lingual",
+      "category": "procedural",
+      "articles_referenced": [69, 70, 71],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي المراحل الإجرائيّة لتجريم المؤامرة ضدّ أمن الدولة الداخليّ، وما الفرق بين اتّخاذ القرار الفرديّ وبين الاتّفاق بين عدّة أشخاص؟\n\nDocuments pertinents:\n[1] Source: article 69 du Code pénal tunisien\nIl y a complot, dès que la résolution d'agir est concertée et arrêtée entre deux ou plusieurs personnes.\n\n[2] Source: article 70 du Code pénal tunisien (modifié par la loi n° 2005-45 du 6 juin 2005)\nEst puni de deux ans d'emprisonnement, l'auteur de la proposition faite de former un complot, dans le but de commettre l'un des attentats contre la sûreté intérieure de l'Etat prévus aux articles 63, 64 et 72 du présent code.\nL'auteur de l'infraction peut, en outre, être interdit de tout ou partie des droits mentionnés à l'article 5 du présent code.\n\n[3] Source: article 71 du Code pénal tunisien (modifié par la loi n° 2005-45 du 6 juin 2005)\nEst puni d'un an d'emprisonnement, quiconque se sera résolu seul à commettre un attentat contre la sûreté intérieure de l'État et réalisé ou entamé seul la réalisation d'un acte préparatoire destiné à son exécution effective."
+        },
+        {
+          "role": "assistant",
+          "content": "يُميّز المشرّع بين مرحلتين إجرائيّتين للمؤامرة حسب عدد الأشخاص المشتركين فيها. أولًا، في حالة الاتّفاق بين شخصين أو أكثر، يتحقّق تجريم المؤامرة بمجرّد تصفية العزم على الفعل والتوافق عليه بينهم وفقًا للفصل 69 [1]، ويُعاقب على مجرّد اقتراح تكوين المؤامرة بهذا الشكل بسنتين سجن وفقًا للفصل 70 [2]. ثانيًا، في حالة العزم الفرديّ، يُعاقب الفصل 71 [3] بالسجن مدّة عام واحد إذا عقد شخص العزم وحده على ارتكاب اعتداء على أمن الدولة الداخليّ وبدأ وحده في تنفيذ عمل تحضيريّ. وبالتالي، يتطلّب القانون وُجود اتّفاق بين شخصين على الأقلّ لاعتبار الفعل مؤامرة بالمعنى القانونيّ الدقيق، مع توقيع عقوبة أخفّ في حالة التفكير الفرديّ.\nSources: الفصول 69 و70 و71 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_040",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [30],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الآثار المدنيّة والماليّة للمنع القانونيّ الذي يطال المحكوم عليه بالسجن لأكثر من عشر سنوات بسبب جريمة واحدة؟\n\nDocuments pertinents:\n[1] Source: article 30 du Code pénal tunisien (modifié par la loi n° 89-23 du 27 février 1989)\nEst de plein droit en état d'interdiction légale, à partir du jugement et pour la durée de sa peine, tout condamné, pour un seul crime, à une peine d'emprisonnement de plus de dix ans.\nIl est nommé un tuteur pour administrer ses biens, il ne peut en disposer que par voie de testament et ne peut percevoir aucun montant, même partiel, de ses revenus.\nSes biens lui sont restitués à l'expiration de sa peine et le tuteur lui rend compte de son administration."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 30 من المجلّة الجزائيّة التونسيّة [1]، يُوضع المحكوم عليه تلقائيًّا في حالة منع قانونيّ ابتداءً من تاريخ الحكم وطول مدّة عقوبته، إذا صدر الحكم بسجن يتجاوز عشر سنوات بسبب جريمة واحدة. ويترتّب على ذلك آثار ماليّة خطيرة: يُعيَّن وصيّ لإدارة أمواله، ولا يحقّ له التصرف فيها إلّا بالوصيّة، ولا يمكنه تقبّض أيّ مبلغ من مداخيله حتّى ولو جزئيًّا. ولا تُردّ إليه أمواله إلّا بعد انقضاء مدّة العقوبة، على أن يُقدّم الوصيّ حسابًا عن إدارته.\nSources: الفصل 30 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Livre Premier - Chapitre II : Des peines et de leur exécution (arts. 6, 9, 22, 23, 24, 25, 26, 28, 29, 30)",
+      "Livre Premier - Chapitre III : Des personnes punissables (arts. 35, 36, 41)",
+      "Livre Premier - Chapitre IV - Section I : Absence de criminalité (art. 41)",
+      "Livre Premier - Chapitre V : Du concours d'infractions et de peines (arts. 54, 55, 56)",
+      "Livre II - Titre Premier - Chapitre I : Attentats contre la sûreté extérieure (arts. 60 bis, 60 quater)",
+      "Livre II - Titre Premier - Chapitre II : Attentats contre la sûreté intérieure (arts. 67, 68, 69, 70, 71, 74, 75, 77)"
+    ],
+    "sections_not_covered": [
+      "Livre Premier - Chapitre II : arts. 7, 8, 10-13, 15, 17, 18, 18 bis, 31 (exécution peine de mort, TIG, confiscation biens, publication jugements)",
+      "Livre Premier - Chapitre IV : art. 37 (intentionnalité), art. 42 (ordre de l'autorité), art. 48, 52 (exclusions récidive, ivresse)",
+      "Livre II - Titre Premier - Chapitre I : arts. 61, 61 bis, 61 ter, 61 quater, 62 bis",
+      "Livre II - Titre Premier - Chapitre III : Corruption (arts. 84, 85, 87, 87 bis)",
+      "Livre II : Tous les autres titres (non fournis dans l'extrait PDF tronqué)"
+    ],
+    "notes": "Ce batch a permis de couvrir les règles relatives au concours d'infractions, à la surveillance administrative et à l'interdiction de séjour, ainsi qu'une partie importante des infractions contre la sûreté intérieure de l'État (bandes armées, complot, offense). L'article 52 bis (abrogé) a été utilisé pour générer un exemple de refusal instructif. Les deux exemples cross-linguels (question en arabe, documents en français, réponse en arabe) reflètent un cas d'usage très réaliste pour le RAG tunisien."
+  }
+}

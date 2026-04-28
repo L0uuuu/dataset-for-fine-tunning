@@ -1,0 +1,427 @@
+{
+  "batch_id": "batch_CP_003_20250709",
+  "source": "Code pénal tunisien",
+  "articles_covered": [7, 8, 13, 15, 17, 18, "18 bis", "31", "37", "42", "48", "52", "57", "58", "61", "61 ter", "61 quater", "72", "73", "76", "78", "79", "84", "85"],
+  "articles_to_avoid_next_batch": [7, 8, 13, 15, 17, 18, "18 bis", "31", "37", "42", "48", "52", "57", "58", "61", "61 ter", "61 quater", "72", "73", "76", "78", "79", "84", "85"],
+  "examples": [
+    {
+      "example_id": "cp_041",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [57],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En cas de condamnation pour plusieurs délits distincts entraînant chacun une amende, le juge peut-il fusionner ces amendes en une seule ?\n\nDocuments pertinents:\n[1] Source: article 57 du Code pénal tunisien\nLes peines d'amende ne se confondent pas."
+        },
+        {
+          "role": "assistant",
+          "content": "Non, en vertu de l'article 57 du Code pénal tunisien [1], les peines d'amende ne se confondent pas. Ainsi, en cas de condamnation pour plusieurs infractions distinctes, le condamné est tenu de payer le montant intégral de chacune des amendes prononcées.\nSources: art. 57 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_042",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [61],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est l'infraction prévue pour une personne qui recrute des soldats en Tunisie, en temps de paix, pour le compte d'une puissance étrangère ?\n\nDocuments pertinents:\n[1] Source: article 61 du Code pénal tunisien (modifié par le décret du 10 janvier 1957)\nEst coupable d'atteinte à la sûreté extérieure de l'État et puni des peines prévues à l'article 62 du présent code, tout Tunisien ou étranger :\n1°- Qui aura, par des actes hostiles, non approuvés par le gouvernement, exposé la Tunisie à une déclaration de guerre,\n2°- Qui aura, par des actes non approuvés par le gouvernement, exposé les Tunisiens à des représailles,\n3°- Qui, en temps de paix aura enrôlé, en territoire tunisien, des soldats pour le compte d'une puissance étrangère,\n4°- Qui, en temps de guerre, aura entretenu, sans l'autorisation du gouvernement, des correspondances ou contacts avec des sujets ou agents d'une puissance ennemie,\n5°- Qui, en temps de guerre, aura procédé, au mépris des prohibitions édictées, directement ou par un intermédiaire, à des actes de commerce avec des sujets ou agents d'une puissance ennemie."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu du 3° de l'article 61 du Code pénal tunisien [1], le fait d'enrôler des soldats en territoire tunisien, en temps de paix, pour le compte d'une puissance étrangère constitue une atteinte à la sûreté extérieure de l'État, punie des peines prévues à l'article 62 (cinq ans en temps de paix, douze ans en temps de guerre).\nSources: art. 61 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_043",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [13],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Où la peine d'emprisonnement est-elle exécutée selon le Code pénal ?\n\nDocuments pertinents:\n[1] Source: article 13 du Code pénal tunisien (modifié par la loi n° 99-89 du 2 août 1999)\nLa peine d'emprisonnement est subie dans l'une des prisons."
+        },
+        {
+          "role": "assistant",
+          "content": "Aux termes de l'article 13 du Code pénal tunisien [1], la peine d'emprisonnement est subie dans l'une des prisons.\nSources: art. 13 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_044",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [72, 73],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'étudie les infractions contre l'État. Quelle est la différence de répression entre l'auteur d'un attentat visant à changer le gouvernement et la personne qui profite des troubles pour se substituer aux autorités ?\n\nDocuments pertinents:\n[1] Source: article 72 du Code pénal tunisien\nEst puni de mort, l'auteur de l'attentat ayant pour but de changer la forme du gouvernement, d'inciter les gens à s'armer les uns contre les autres ou à provoquer le désordre, le meurtre ou le pillage sur le territoire tunisien.\n\n[2] Source: article 73 du Code pénal tunisien (modifié par la loi n° 89-23 du 27 février 1989)\nEst puni de l'emprisonnement à vie et d'une amende de deux cent mille dinars celui qui, à la suite des troubles, a accepté de se substituer aux autorités régulièrement constituées."
+        },
+        {
+          "role": "assistant",
+          "content": "Le Code pénal tunisien établit une distinction claire entre l'initiateur des troubles et le profiteur. En vertu de l'article 72 [1], l'auteur de l'attentat ayant pour but de changer la forme du gouvernement, ou d'inciter à la guerre civile et au pillage, est puni de mort. Il s'agit de réprimer l'acte fondateur de la subversion. En revanche, l'article 73 [2] prévoit une peine d'emprisonnement à vie et d'une amende de deux cent mille dinars pour celui qui, à la suite des troubles, accepte de se substituer aux autorités régulièrement constituées. Ainsi, le législateur réprime plus sévèrement la volonté de renverser l'ordre établi que l'opportunisme consistant à prendre le pouvoir dans la foulée du désordre.\nSources: arts. 72 et 73 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_045",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [84, 85],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que gestionnaire, je souhaite comprendre la différence de peine entre un agent qui sollicite une commission avant d'agir, et un agent qui reçoit un cadeau après avoir accompli son travail légal. Sont-ils punis de la même manière ?\n\nDocuments pertinents:\n[1] Source: article 84 du Code pénal tunisien (modifié par la loi n° 98-33 du 23 mai 1998)\nSi le fonctionnaire public ou assimilé a provoqué la corruption, la peine prévue à l'article 83 de ce code sera portée au double.\n\n[2] Source: article 85 du Code pénal tunisien (modifié par la loi n° 98-33 du 23 mai 1998)\nSi le fonctionnaire public ou assimilé a accepté des dons, promesses, présents ou avantages de quelque nature que ce soit en récompense d'actes qu'il a accomplis et qui sont liés à sa fonction, mais non sujet à contre partie, ou d'un acte qu'il s'est abstenu de faire alors qu'il est tenu de ne pas faire, est puni de cinq ans d'emprisonnement et de cinq mille dinars d'amende."
+        },
+        {
+          "role": "assistant",
+          "content": "Non, ils ne sont pas punis de la même manière. Le principe général de la corruption se trouve à l'article 83 (qui prévoit dix ans d'emprisonnement). L'exception de la provocation est prévue par l'article 84 [1] : si le fonctionnaire a pris l'initiative de provoquer la corruption, la peine est portée au double, soit vingt ans d'emprisonnement. À l'inverse, l'article 85 [2] constitue une autre exception plus clémente pour la corruption « récompense » : si le fonctionnaire accepte un don après avoir accompli un acte juste et non soumis à contrepartie, la peine est réduite à cinq ans d'emprisonnement et cinq mille dinars d'amende. La finalité de cette distinction est de frapper plus lourdement la corruption active et anticipée, qui dénature l'action publique dès sa genèse, par rapport à la simple acceptation d'une gratification postérieure pour un service normal.\nSources: arts. 84 et 85 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_046",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les peines encourues pour le vol avec effraction qualifié, commis la nuit par plusieurs personnes ?\n\nDocuments pertinents:\n[1] Source: article 61 quater du Code pénal tunisien (ajouté par le décret du 10 janvier 1957)\nEst coupable d'atteinte à la sûreté extérieure de l'État et puni des peines prévues à l'article 62 du présent code, sans préjudice, le cas échéant, des peines encourues pour la tentative des crimes prévus aux articles 60 et 60 bis du présent code, tout Tunisien ou Etranger :\n1°- Qui se sera introduit, sous un déguisement ou un faux nom ou en dissimulant sa qualité ou sa nationalité, dans une forteresse, ouvrage, poste, arsenal, camp militaire, navire de guerre ou commercial employé pour la défense nationale, avion, véhicule militaire armé, établissement militaire ou maritime, de quelque nature que ce soit, établissement ou chantier travaillant pour la défense nationale..."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Les extraits du Code pénal tunisien fournis traitent des atteintes à la sûreté de l'État et des dispositions générales, mais pas des infractions de droit commun comme le vol qualifié. Je vous recommande de consulter un avocat spécialisé ou le texte intégral du Code pénal."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_047",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [48],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai été condamné par le passé. Quelles condamnations ne sont pas prises en compte pour établir la récidive ?\n\nDocuments pertinents:\n[1] Source: article 48 du Code pénal tunisien\nIl n'est pas tenu compte pour la détermination de la récidive :\n1°- des condamnations prévues au livre III du présent code,\n2°- des condamnations prononcées par les tribunaux militaires, à moins qu'elles n'aient été motivées par des infractions de droit commun,\n3°- des condamnations pour les infractions prévues aux articles 217 et 225 du présent code et, de manière générale, pour les infractions qui existent, indépendamment de tout élément intentionnel, à moins que les poursuites en cours ne soient elles-mêmes motivées par des infractions de même espèce."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 48 du Code pénal tunisien [1] exclut plusieurs catégories de condamnations pour la détermination de la récidive, mais la réponse dépend de la nature exacte de votre condamnation antérieure. S'agit-il d'une contravention du livre III, d'un jugement rendu par un tribunal militaire, ou d'une infraction non intentionnelle (comme les articles 217 ou 225) ? Pourriez-vous préciser le type d'infraction pour lequel vous avez été condamné ?"
+        }
+      ]
+    },
+    {
+      "example_id": "cp_048",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [17, 18, "18 bis"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon fils a été condamné à un travail d'intérêt général. Où va-t-il l'effectuer, et quelles sont les garanties médicales et sécuritaires avant qu'il ne commence ?\n\nDocuments pertinents:\n[1] Source: article 17 du Code pénal tunisien (ajouté par la loi n° 99-89 du 2 août 1999)\nLe travail d'intérêt général est accompli dans les établissements publics ou dans les collectivités locales ou dans les associations de bienfaisance ou de secours ou dans les associations d'intérêt national et dans les associations dont l'objet est la protection de l'environnement.\n\n[2] Source: article 18 du Code pénal tunisien (ajouté par la loi n° 99-89 du 2 août 1999)\nLe condamné à une peine de travail d'intérêt général profite des prescriptions législatives et réglementaires relatives à l'hygiène et à la sécurité professionnelle.\nLe condamné à une peine de travail d'intérêt général bénéficie du même régime juridique de réparation des dommages résultant des accidents de travail et des maladies professionnelles applicables aux détenus, pour les accidents survenus par le fait ou à l'occasion de travaux dont on leur demande l'exécution.\n\n[3] Source: article 18 bis du Code pénal tunisien (ajouté par la loi n° 99-89 du 2 août 1999)\nAvant l'exécution de la peine du travail d'intérêt général, le condamné est soumis à l'examen médical par le médecin de prison le plus proche de son domicile afin de s'assurer qu'il n'est pas atteint des affections dangereuses et qu'ils est apte au travail."
+        },
+        {
+          "role": "assistant",
+          "content": "L'exécution du travail d'intérêt général (TIG) suit un processus protecteur en trois étapes. D'abord, l'affectation : selon l'article 17 [1], le TIG s'effectue obligatoirement dans des structures d'intérêt général (établissements publics, collectivités locales, associations de bienfaisance ou de protection de l'environnement). Ensuite, la garantie médicale : avant le début de l'exécution, l'article 18 bis [3] impose un examen médical par le médecin de prison le plus proche du domicile du condamné pour vérifier son aptitude physique et s'assurer qu'il n'est pas atteint d'affections dangereuses. Enfin, la couverture sociale : pendant l'exécution, l'article 18 [2] garantit au condamné le bénéfice des règles d'hygiène et de sécurité professionnelle, ainsi que le même régime de réparation des accidents du travail que celui applicable aux détenus. Ainsi, le législateur a encadré cette peine alternative pour préserver la santé et la sécurité du condamné.\nSources: arts. 17, 18 et 18 bis du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_049",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [78, 79],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Lors d'une manifestation, quelle est la différence au niveau des peines entre une simple irruption en bande dans un local et un attroupement avec des armes cachées ?\n\nDocuments pertinents:\n[1] Source: article 78 du Code pénal tunisien\nEst puni de trois ans d'emprisonnement quiconque aura fait irruption, en bande, armée ou non, dans un local à usage artisanal ou d'habitation ou dans une propriété clôturée, dans le dessein d'exercer des voies de fait.\n\n[2] Source: article 79 du Code pénal tunisien\nEst puni de deux ans d'emprisonnement, quiconque, aura pris part à un attroupement de nature à troubler la paix publique et dont l'objet est de commettre une infraction ou de s'opposer à l'exécution d'une loi, d'une contrainte ou d'un jugement.\nLa peine est de trois ans d'emprisonnement si deux, au moins, parmi les membres de cet attroupement étaient porteurs d'armes apparentes ou cachées, et ce, sans préjudice de l'application des dispositions de la loi n°69- 4 du 24 janvier 1969 réglementant les réunions publiques, cortèges, défilés, manifestations et attroupements."
+        },
+        {
+          "role": "assistant",
+          "content": "La différence réside dans l'action matérielle et la présence d'armes. L'article 78 [1] réprime à trois ans d'emprisonnement le fait de faire irruption en bande dans un local ou une propriété clôturée dans le dessein d'exercer des voies de fait, indépendamment de la présence d'armes. L'article 79 [2] réprime de base la participation à un attroupement visant à troubler la paix publique à deux ans d'emprisonnement. Toutefois, la peine de l'attroupement est portée à trois ans d'emprisonnement si au moins deux membres de l'attroupement étaient porteurs d'armes apparentes ou cachées. Ainsi, la peine de l'attroupement armé rejoint celle de l'irruption en bande, mais les conditions constitutives des deux infractions diffèrent quant à la nature du lieu et à l'intention poursuivie.\nSources: arts. 78 et 79 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_050",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [37, 42],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Peut-on être tenu pénalement responsable d'un dommage qui n'était pas voulu, ou d'un acte accompli sur l'ordre d'un supérieur ?\n\nDocuments pertinents:\n[1] Source: article 37 du Code pénal tunisien\nNul ne peut être puni que pour un fait accompli intentionnellement, sauf dans les cas spécialement prévus par la loi.\n\n[2] Source: article 42 du Code pénal tunisien\nN'est pas punissable, celui qui a commis un fait en vertu d'une disposition de la loi ou d'un ordre de l'autorité compétente."
+        },
+        {
+          "role": "assistant",
+          "content": "Le Code pénal tunisien consacre le principe de l'intentionnalité. En vertu de l'article 37 [1], nul ne peut être puni que pour un fait accompli intentionnellement. La responsabilité pénale pour fautes non intentionnelles constitue donc l'exception, n'étant possible que dans les cas spécialement prévus par la loi. Par ailleurs, l'article 42 [2] pose une autre cause d'irresponsabilité : celui qui commet un fait en vertu d'une disposition légale ou d'un ordre de l'autorité compétente n'est pas punissable. La finalité de ces articles est de garantir la sécurité juridique en exigeant un lien intellectuel clair entre l'auteur et son acte, tout en protégeant l'exécution légitime des ordres hiérarchiques valides.\nSources: arts. 37 et 42 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_051",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [8],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يُسمح قانونًا بتنفيذ حكم الإعدام خلال الأيام المذكورة في الفصل 292 من مجلّة المرافعات المدنيّة والتجاريّة؟\n\nDocuments pertinents:\n[1] Source: article 8 du Code pénal tunisien\nLa condamnation à mort n'a pas lieu, à moins que le jugement n' n ait autrement ordonné, l'un des jours fériés déterminés par l'article 292 du code de procédure civile et commerciale."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 8 من المجلّة الجزائيّة التونسيّة [1]، لا يُنفَّذ حكم الإعدام في الأيّام العطل المُحدّدة بالفصل 292 من مجلّة المرافعات المدنيّة والتجاريّة، إلّا إذا أمر الحكم بخلاف ذلك.\nSources: الفصل 8 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_052",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [58],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: إذا حُكم عليّ بعقوبتين في آن واحد، إحداهما المنع من الإقامة والأخرى المراقبة الإداريّة، هل يمكن أن تندمج هاتان العقوبتان؟\n\nDocuments pertinents:\n[1] Source: article 58 du Code pénal tunisien\nLes peines de l'interdiction de séjour et de la surveillance administrative ne se confondent pas."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 58 من المجلّة الجزائيّة التونسيّة [1]، لا تندمج عقوبتا المنع من الإقامة والمراقبة الإداريّة، بل تُنفَّذ كلّ منهما بشكل مستقلّ.\nSources: الفصل 58 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_053",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": ["61 ter", "61 quater"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الأفعال غير المتعمّدة أو غير المرخّصة التي تُشكّل اعتداءً على الأمن الخارجيّ للدولة، مثل الإهمال أو الطيران بدون إذن؟\n\nDocuments pertinents:\n[1] Source: article 61 ter du Code pénal tunisien (ajouté par le décret du 10 janvier 1957)\nEst coupable d'atteinte à la sûreté extérieure de l'État et puni des peines prévues à l'article 62 du présent code, tout Tunisien ou Etranger :\n1°- Qui, sans intention d'en livrer le contenu à une puissance étrangère ou à ses agents, se serait accaparé, par quelque moyen que ce soit, d'un secret défense nationale ou l'aurait porté, de quelque manière ou moyen que ce soit, à la connaissance du public ou d'une personne non habilitée à le connaître,\n2°- Qui, par imprudence, négligence ou inobservation des règlements, aura provoqué la destruction, soustraction ou enlèvement, en tout ou en partie, même de façon provisoire, des objets, matériels, documents ou renseignements qui lui étaient confiés et dont la divulgation pourrait conduire à la découverte d'un secret défense nationale, ou aura permis d'en prendre, même en partie, connaissance, copie ou reproduction,\n3°- Qui, sans autorisation préalable de l'autorité compétente, aura livré ou communiqué à une personne agissant pour le compte d'une puissance ou une entreprise étrangère, soit une invention intéressant la défense nationale, soit des renseignements, études ou procédés de fabrication en rapport avec une invention de ce genre ou une application industrielle intéressant la défense nationale.\n\n[2] Source: article 61 quater du Code pénal tunisien (ajouté par le décret du 10 janvier 1957)\nEst coupable d'atteinte à la sûreté extérieure de l'État et puni des peines prévues à l'article 62 du présent code [...] :\n3°- Qui aura survolé le territoire tunisien au moyen d'un avion étranger sans y être pour cela autorisé par les autorités tunisiennes ou en vertu d'une convention diplomatique..."
+        },
+        {
+          "role": "assistant",
+          "content": "تُشكّل عدة أفعال غير متعمّدة أو مرتبطة بإجراءات مخالفة اعتداءً على الأمن الخارجيّ للدولة وتستوجب العقوبات المنصوص عليها في الفصل 62. أوّلًا، وفقًا للفصل 61 ثالث [1]، يُعدّ اعتداءً الإهمال أو الإخلال بالأنظمة الذي يُؤدّي إلى تدمير أو اختفاء وثائق أو معلومات يمكن أن تُفضي إلى كشف سرّ دفاعيّ وطنيّ، وذلك حتّى ولو كان الفعل غير مقصود. كما يُعدّ اعتداءً تسليم اختراع أو معلومات صناعيّة تتّصل بالدفاع الوطنيّ إلى جهة أجنبيّة دون ترخيص مسبق. ثانيًا، وفقًا للفقرة 3 من الفصل 61 رابع [2]، يُعدّ اعتداءً تحليق طائرة أجنبيّة فوق الأراضي التونسيّة دون الحصول على إذن من السلطات التونسيّة أو بموجب اتّفاقيّة دبلوماسيّة. وبالتالي، يُوسّع المشرّع نطاق التجريم ليشمل الأفعال غير العمديّة التي تُعرّض الأمن الوطنيّ للخطر بسبب الإهمال أو عدم الامتثال للإجراءات.\nSources: الفصلان 61 ثالث و61 رابع من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_054",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [48, 52],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو المبدأ العامّ لاحتساب العود في القانون الجزائيّ، وما هي الاستثناءات الخاصّة ببعض الجنح مثل السكر العلنيّ؟\n\nDocuments pertinents:\n[1] Source: article 48 du Code pénal tunisien\nIl n'est pas tenu compte pour la détermination de la récidive :\n1°- des condamnations prévues au livre III du présent code,\n2°- des condamnations prononcées par les tribunaux militaires, à moins qu'elles n'aient été motivées par des infractions de droit commun,\n3°- des condamnations pour les infractions prévues aux articles 217 et 225 du présent code et, de manière générale, pour les infractions qui existent, indépendamment de tout élément intentionnel, à moins que les poursuites en cours ne soient elles-mêmes motivées par des infractions de même espèce.\n\n[2] Source: article 52 du Code pénal tunisien\nEn matière d'ivresse publique, la première récidive entraîne la condamnation au maximum des peines prévues par l'article 317 du présent code.\nLes récidives ultérieures sont punies de six mois d'emprisonnement."
+        },
+        {
+          "role": "assistant",
+          "content": "يستند القانون الجزائيّ التونسيّ إلى مبدأ عامّ يتمثّل في احتساب العود لكلّ الإدانات السابقة، غير أنّ الفصل 48 [1] يُقرّر استثناءات مهمّة لا تُدخل في حساب العود، منها: الإدانات الصادرة بموجب الكتاب الثالث من المجلّة الجزائيّة، والإدانات العسكريّة ما لم تكن ذات صلة بالقانون المشترك، والإدانات الناتجة عن جرائم غير عمديّة كالإيذاء غير العمديّ المنصوص عليه بالفصلين 217 و225. من جهة أخرى، يُعدّ السكر العلنيّ استثناءً آخر له نظام خاصّ، إذ ينصّ الفصل 52 [2] على أنّ العود الأوّل في مادّة السكر العلنيّ يستوجب الحكم بالحدّ الأقصى للعقوبة المُقرّرة، بينما تُصبح العقوبات اللاحقة ستّة أشهر سجنًا. وبالتالي، يُراعي المشرّع طبيعة بعض الجرائم فيستثنيها من قواعد العود الصارمة، بينما يُشدّد العقاب في حالات أخرى كالسكر العلنيّ لضرورة مكافحة هذه الظاهرة.\nSources: الفصلان 48 و52 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_055",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي العقوبات المُقرّرة في المجلّة الجزائيّة التونسيّة لجريمة الإجهاض المتعمّد؟\n\nDocuments pertinents:\n[1] Source: article 7 du Code pénal tunisien\nLa condamnation à mort est exécutée par pendaison."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تتضمّن الوثائق المُقدّمة معلومات كافية للإجابة عن هذا السؤال. فالنصّ المُرفق يختصّ بكيفيّة تنفيذ حكم الإعدام ولا يتعرّض لجرائم الإجهاض. يُرجى استشارة محامٍ متخصّص أو الرجوع إلى النصّ الكامل للمجلّة الجزائيّة التونسيّة."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_056",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [61],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي عقوبة الاعتداء على الأمن الخارجيّ للدولة وفقًا للفصل 61؟\n\nDocuments pertinents:\n[1] Source: article 61 du Code pénal tunisien (modifié par le décret du 10 janvier 1957)\nEst coupable d'atteinte à la sûreté extérieure de l'État et puni des peines prévues à l'article 62 du présent code, tout Tunisien ou étranger :\n1°- Qui aura, par des actes hostiles, non approuvés par le gouvernement, exposé la Tunisie à une déclaration de guerre,\n2°- Qui aura, par des actes non approuvés par le gouvernement, exposé les Tunisiens à des représailles,\n3°- Qui, en temps de paix aura enrôlé, en territoire tunisien, des soldats pour le compte d'une puissance étrangère,\n4°- Qui, en temps de guerre, aura entretenu, sans l'autorisation du gouvernement, des correspondances ou contacts avec des sujets ou agents d'une puissance ennemie,\n5°- Qui, en temps de guerre, aura procédé, au mépris des prohibitions édictées, directement ou par un intermédiaire, à des actes de commerce avec des sujets ou agents d'une puissance ennemie."
+        },
+        {
+          "role": "assistant",
+          "content": "السؤال يحتاج إلى توضيح لتقديم إجابة دقيقة، وذلك لأنّ الفصل 61 [1] يضمّ خمس صور مختلفة للاعتداء على الأمن الخارجيّ. هل المقصود هو تعريض تونس لإعلان حرب، أو تعريض التونسيّين لانتقامات، أو تجنيد جنود لصالح دولة أجنبيّة، أو الاتّصال بالعدوّ في وقت الحرب، أو التعامل التجاريّ معه؟ يُرجى تحديد الصفة المطروقة."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_057",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [13, 15],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف تُحسب مدّة العقوبة بالسجن، وهل تُحتسب فترة التوقيف الاحتياطيّ من العقوبة المحكوم بها؟\n\nDocuments pertinents:\n[1] Source: article 13 du Code pénal tunisien (modifié par la loi n° 99-89 du 2 août 1999)\nLa peine d'emprisonnement est subie dans l'une des prisons.\n\n[2] Source: article 15 du Code pénal tunisien\nLa durée de toute peine privative de liberté compte du jour où le condamné est détenu en vertu d'une condamnation devenue définitive. Cependant, quand le condamné a été gardé à vue ou a fait l'objet de détention préventive, cette période est intégralement déduite de la durée de la peine prononcée par le jugement, à moins qu'il n'y soit stipulé que l'imputation n'aura pas lieu en tout ou en partie."
+        },
+        {
+          "role": "assistant",
+          "content": "يتمّ احتساب مدّة العقوبة السالبة للحرّيّة ابتداءً من يوم توقيف المحكوم عليه تنفيذًا لحكم باتّ وفقًا للفصل 15 [2]. غير أنّ المجلّة الجزائيّة تُقرّر مبدأ استبعاد مدّة التوقيف الاحتياطيّ من العقوبة المحكوم بها، إذ تُخصم هذه المدّة بكاملها من العقوبة، إلّا إذا نصّ الحكم صراحة على عدم احتسابها كلّيًّا أو جزئيًّا. أمّا من حيث مكان التنفيذ، فيُنفَّذ السجن في إحدى السجون عملاً بالفصل 13 [1]. وبالتالي، يُراعي المشرّع مبدأ عدالة العقوبة بضمان عدم إطالة مدّة احتجاز المحكوم عليه فوق المدّة المحدّدة قضائيًّا.\nSources: الفصلان 13 و15 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_058",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [72, 76],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: قارن بين العقوبات المُقرّرة لجريمتي الدعوة لتغيير شكل الحكم وبين إحراق الممتلكات العامّة باستعمال موادّ متفجّرة.\n\nDocuments pertinents:\n[1] Source: article 72 du Code pénal tunisien\nEst puni de mort, l'auteur de l'attentat ayant pour but de changer la forme du gouvernement, d'inciter les gens à s'armer les uns contre les autres ou à provoquer le désordre, le meurtre ou le pillage sur le territoire tunisien.\n\n[2] Source: article 76 du Code pénal tunisien\nEst puni de mort, quiconque aura incendié ou détruit, à l'aide de matière explosive, des édifices, magasins de munitions à caractère militaire ou autres propriétés appartenant à l'État."
+        },
+        {
+          "role": "assistant",
+          "content": "تتوافق العقوبة المُقرّرة لكلا الجريمين وفقًا للمجلّة الجزائيّة التونسيّة، إذ تُشير الفصول 72 و76 [1][2] إلى أنّ كليهما يُعاقب عليه بالإعدام. فالفصل 72 يُعاقب بالإعدام كلّ من يقوم بعمل إرهابيّ يهدف إلى تغيير شكل الحكومة أو التحريض على الفتنة أو السلب. بينما يُعاقب الفصل 76 بالإعدام كلّ من يقوم بإحراق أو تدمير مبانٍ أو مستودعات ذخيرة أو ممتلكات أخرى للدولة باستعمال موادّ متفجّرة. وبالتالي، يتساوى في الخطورة العقابيّة المساس بالمؤسّسات السياديّة للدولة والتدمير المادّي لممتلكاتها الحسّاسة.\nSources: الفصلان 72 و76 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_059",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [31],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: من يتحمّل مصاريف نشر الحكم القضائيّ بالطرق العلنيّة؟\n\nDocuments pertinents:\n[1] Source: article 31 du Code pénal tunisien\nLe tribunal qui ordonne la publication, par extraits, des jugements de condamnation, doit fixer les frais à payer par le condamné pour l'exécution de cette mesure."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 31 من المجلّة الجزائيّة التونسيّة [1]، إذا أمرت المحكمة بنشر الحكم القضائيّ بمقتطفات، فإنّها تُحدّد المصاريف اللازمة لتنفيذ هذا الإجراء، ويكون المحكوم عليه هو الملزم بدفعها.\nSources: الفصل 31 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_060",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [78, 79],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: متى يُعاقب القانون على مجرّد الاشتراك في تجمّهر، ومتى يتطلّب وجود عنف أو تسلّل لتوافر الجريمة؟\n\nDocuments pertinents:\n[1] Source: article 78 du Code pénal tunisien\nEst puni de trois ans d'emprisonnement quiconque aura fait irruption, en bande, armée ou non, dans un local à usage artisanal ou d'habitation ou dans une propriété clôturée, dans le dessein d'exercer des voies de fait.\n\n[2] Source: article 79 du Code pénal tunisien\nEst puni de deux ans d'emprisonnement, quiconque, aura pris part à un attroupement de nature à troubler la paix publique et dont l'objet est de commettre une infraction ou de s'opposer à l'exécution d'une loi, d'une contrainte ou d'un jugement.\nLa peine est de trois ans d'emprisonnement si deux, au moins, parmi les membres de cet attroupement étaient porteurs d'armes apparentes ou cachées..."
+        },
+        {
+          "role": "assistant",
+          "content": "يُفرّق المشرّع بين صورتين مختلفتين. فمبدأ التجريم في الفصل 78 [1] يتطلّب فعلًا ماديًّا أشدّ، وهو التسلّل أو الاقتحام (القيام بعمل اقتحاميّ) في محلّ سكنيّ أو حرفيّ من طرف عصابة بنية ارتكاب أعمال عنف، وتكون العقوبة ثلاث سنوات سجنًا. أمّا الاستثناء المُخفّف نوعًا ما فيتمثّل في الفصل 79 [2]، حيث يُعاقب بمجرّد الاشتراك في تجمهر من شأنه الإخلال بالأمن العامّ متى كان هدفه ارتكاب جنحة أو مقاومة تنفيذ القانون، بعقوبة سنتين. غير أنّ هذا الاستثناء يتحوّل إلى تشديد يُساوي عقوبة الاقتحام (ثلاث سنوات) إذا كان ثلّاثا أعضاء من التجمهر على الأقلّ يحملون أسلحة ظاهرة أو مخفيّة. وبالتالي، تُشترط نيّة العنف وتحقّق الاقتحام في الصورة الأولى، بينما يكفي الاشتراك في تجمّهر محفوف بالخطر في الصورة الثانية.\nSources: الفصلان 78 و79 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Livre Premier - Chapitre II : Des peines (arts. 7, 8, 13, 15, 17, 18, 18 bis, 31, 57, 58)",
+      "Livre Premier - Chapitre IV : Responsabilité pénale (arts. 37, 42, 48, 52)",
+      "Livre II - Titre Premier - Chapitre I : Sûreté extérieure (arts. 61, 61 ter, 61 quater)",
+      "Livre II - Titre Premier - Chapitre II : Sûreté intérieure (arts. 72, 73, 76, 78, 79)",
+      "Livre II - Titre Premier - Chapitre III : Corruption (arts. 84, 85)"
+    ],
+    "sections_not_covered": [
+      "Livre Premier - Chapitre II : art. 14 (minimum peines), art. 30 (interdiction légale)",
+      "Livre Premier - Chapitre III : Complicité (32-36) - partiellement couverts dans batchs précédents",
+      "Livre Premier - Chapitre IV : Absence de criminalité (39, 40, 41) - couverts dans batchs précédents",
+      "Livre Premier - Chapitre V : Concours d'infractions (54-56) - couverts dans batch précédent",
+      "Livre II - Titre Premier - Chapitre I : art. 60 bis (trahison approfondissement)",
+      "Livre II - Titre Premier - Chapitre II : arts. 63, 64, 67, 68, 69, 70, 71, 74, 75, 77, 80 - couverts dans batchs précédents",
+      "Livre II et au-delà : Texte manquant (tronqué après le début de l'art. 87 bis)"
+    ],
+    "notes": "Ce batch achève l'exploration systématique du texte du Code pénal fourni (qui s'arrête au milieu de l'article 87 bis). Les deux exemples cross-linguals ont été construits avec des questions en arabe standard (Fusha) et des documents pertinents extraits du texte français d'origine, simulant ainsi fidèlement le comportement d'un système RAG bilingue. Tous les articles non abrogés du texte fourni ont désormais été couverts à travers les trois batches."
+  }
+}

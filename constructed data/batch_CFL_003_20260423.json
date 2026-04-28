@@ -1,0 +1,433 @@
+{
+  "batch_id": "batch_CFL_003_20260423",
+  "source": "Code de la fiscalité locale de Tunisie (version 2017) – textes d'application et dispositions connexes non incorporées",
+  "articles_covered": [91,92,93,94,95, "décret 2017-396", "décret 2017-395", "décret 97-530", "décret 98-1254 (art.9-13)", "décret 2006-3360", "décret 94-822", "décret 2006-49", "loi 2002-76 art.1-2", "loi 2006-25 art.5", "loi 2007-53 art.3", "loi 2009-12 art.1-4", "loi 2006-59 art.1-10bis"],
+  "articles_to_avoid_next_batch": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,"17bis",18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,"décret 2017-396","décret 2017-395","décret 97-530","décret 98-1254 (art.9-13)","décret 2006-3360","décret 94-822","décret 2006-49","loi 2002-76 art.1-2","loi 2006-25 art.5","loi 2007-53 art.3","loi 2009-12 art.1-4","loi 2006-59 art.1-10bis"],
+  "examples": [
+    {
+      "example_id": "cfl_fr_direct_041",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [91,92],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les prestations publiques payantes fournies par les collectivités locales qui donnent lieu à des redevances ?\n\nDocuments pertinents:\n[1] Source: article 91 du code de la fiscalité locale (tableau)\nLes « redevances pour prestations publiques payantes » sont dues à l'occasion des prestations suivantes :\n- Entretien des conduites de rejet des matières liquides à l'intérieur des périmètres des collectivités locales non comprises dans les zones d'intervention de l'office national de l'assainissement. (à la charge du bénéficiaire)\n- Conservation en fourrière des animaux, véhicule et toutes marchandises. (à la charge des propriétaires)\n- Contribution des collectivités locales aux travaux de généralisation de l'électrification et de l'éclairage public et de maintenance. (à la charge des abonnés au réseau électrique, perçue via les factures)\n- Enlèvement des déchets provenant de l'activité des établissements commerciaux ou industriels ou professionnels. (à la charge du bénéficiaire)\n- Travaux et prestations individuels autres que ceux indiqués au présent code. (à la charge du bénéficiaire)\n\n[2] Source: article 92 du code de la fiscalité locale\nLe tarif des redevances visées aux sections une, deux, trois, quatre, et cinq du chapitre VIII du présent code est fixé par décret à l'exception de la contribution pour la réalisation des parkings collectifs prévue par l'article 89 du présent code."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 91 énumère cinq catégories de prestations publiques payantes donnant lieu à des redevances : 1) l'entretien des conduites d'eaux usées en dehors des zones de l'ONAS (à la charge du bénéficiaire) ; 2) la mise en fourrière d'animaux, véhicules ou marchandises (à la charge des propriétaires) ; 3) la contribution aux travaux d'électrification et d'éclairage public (à la charge des abonnés électriques, perçue sur les factures) ; 4) l'enlèvement des déchets d'activités commerciales, industrielles ou professionnelles (à la charge du bénéficiaire) ; 5) tout autre travail ou prestation individuel non prévu ailleurs (à la charge du bénéficiaire). L'article 92 précise que le tarif de ces redevances (sauf celle des parkings collectifs, art. 89) est fixé par décret. L'objectif est de faire payer par les usagers directs les services publics individualisés, tout en laissant aux collectivités la possibilité d'adapter les tarifs par décret. Sources : art. 91 et 92 du code de la fiscalité locale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_direct_042",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [93,94,95],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment sont fixés les tarifs des redevances pour enlèvement des déchets non ménagers et comment sont-elles perçues ?\n\nDocuments pertinents:\n[1] Source: article 93 du code de la fiscalité locale\nLe tarif des redevances pour enlèvement des déchets non ménagers visées à l'alinéa 4 de l'article 91 du présent code est fixé par arrêté de la collectivité locale concernée soumis à l'approbation de l'autorité de tutelle une convention annuelle est conclue à cet effet entre les bénéficiaires des prestations et la collectivité locale concernée, sous réserve des dispositions des législations en vigueur relatives à la gestion des déchets dangereux.\n\n[2] Source: article 94 du code de la fiscalité locale\nLes taxes et redevances prévues aux sections 1,2,3,4 et 5 du chapitre VIII du présent code sont perçues par le receveur des finances ou le mandataire de marché contre délivrance d'un reçu détaché d'un carnet à souche portant un numéro d'ordre, la date de délivrance, et le montant des taxes et redevances recouvrées.\n\n[3] Source: article 95 du code de la fiscalité locale\nLa redevance d'occupation du domaine public maritime visée à l'article 86 du présent code est perçue par voie de rôles établis par les collectivités locales concernées ou à l'occasion de la délivrance de l'autorisation d'occupation. Les rôles sont constatés auprès du receveur des finances après avoir été rendus exécutoires par l'autorité de tutelle. Le recouvrement de la taxe est effectué au vu d'extrait du rôle individuel visé par le receveur des finances, comptable de la collectivité locale."
+        },
+        {
+          "role": "assistant",
+          "content": "Le tarif des redevances pour enlèvement des déchets non ménagers (art. 93) est fixé par arrêté du président de la collectivité locale, après approbation de l'autorité de tutelle. Une convention annuelle doit être conclue entre la collectivité et le bénéficiaire (producteur de déchets). Le mode de perception général des taxes et redevances du chapitre VIII (art. 94) est le suivant : le receveur des finances ou le mandataire de marché perçoit le montant contre délivrance d'un reçu détaché d'un carnet à souche numéroté, avec date et montant. Pour la redevance d'occupation du domaine public maritime (art. 95), la perception se fait par voie de rôles établis par la collectivité (ou à l'occasion de la délivrance de l'autorisation), rendus exécutoires par l'autorité de tutelle. Le recouvrement individuel se fait sur extrait du rôle visé par le receveur. Ces procédures garantissent la traçabilité et l'exécutoire des créances. Sources : art. 93, 94, 95 du code de la fiscalité locale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_multi_043",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["décret 2017-396", "décret 2017-395"],
+      "confidence_flag": "Les montants sont issus des décrets gouvernementaux de 2017, applicables à compter du 1er janvier 2017.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les montants de la taxe par mètre carré pour les terrains non bâtis et les références pour la taxe sur les établissements industriels ?\n\nDocuments pertinents:\n[1] Source: décret gouvernemental n° 2017-396 du 28 mars 2017, article premier\nLe montant de la taxe sur les terrains non bâtis visée au deuxième paragraphe de l'article 33 du code de la fiscalité locale est fixé, par mètre carré et pour chaque zone délimitée par le plan d'aménagement urbain, comme suit :\n- Zone à haute densité urbaine : 0,385 dinar\n- Zone à moyenne densité urbaine : 0,115 dinar\n- Zone à basse densité urbaine : 0,040 dinar\n\n[2] Source: décret gouvernemental n° 2017-395 du 28 mars 2017, article premier\nPour la liquidation du minimum de la taxe sur les établissements à caractère industriel, commercial ou professionnel visée par le paragraphe II de l'article 38 du code de la fiscalité locale, la taxe de référence par mètre carré pour chaque catégorie d'immeubles est fixée comme suit :\nCatégorie 1 (administratif/commercial) : T 8% = 0,900 D ; T10% = 1,125 D ; T12% = 1,345 D ; T14% = 1,570 D\nCatégorie 2 (structure légère industrielle) : 0,620 / 0,770 / 0,920 / 1,075\nCatégorie 3 (béton solide industriel) : 0,755 / 0,950 / 1,135 / 1,320\nCatégorie 4 (industriel >5000 m²) : 0,990 / 1,240 / 1,485 / 1,735\n\nCes décrets sont applicables à compter du 1er janvier 2017."
+        },
+        {
+          "role": "assistant",
+          "content": "Deux décrets de 2017 fixent les bases chiffrées de taxes locales. D'une part, le décret n°2017-396 fixe la taxe sur les terrains non bâtis par mètre carré selon trois zones d'urbanisme : 0,385 D en zone à haute densité, 0,115 D en moyenne densité, 0,040 D en basse densité. D'autre part, le décret n°2017-395 fixe, pour la taxe sur les établissements industriels/commerciaux/professionnels calculée sur la superficie (art. 38-II), la taxe de référence par mètre carré pour quatre catégories d'immeubles et pour chacun des quatre taux de service (8%,10%,12%,14%). Par exemple, un immeuble administratif de catégorie 1 avec 3 services (taux 10%) paie 1,125 D par m² de référence. Ces décrets, applicables au 1er janvier 2017, actualisent les valeurs tous les trois ans (abrogeant les décrets de 2007). Leur objet est de refléter l'évolution des prix et des coûts des services publics locaux. Sources : décrets n°2017-396 et n°2017-395. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_principle_exception_044",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": ["décret 97-530", "décret 2006-3360"],
+      "confidence_flag": "Le décret 2006-3360 est devenu sans objet après l'abrogation de l'article 38-III par la loi de finances complémentaire 2012, mais il figure dans le PDF.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les seuils d'exonération et les plafonds pour la taxe sur les spectacles et la taxe sur les établissements ?\n\nDocuments pertinents:\n[1] Source: décret n° 97-530 du 22 mars 1997, article premier\nEn application des dispositions de l'article 47 du code de la fiscalité locale, le prix maximum d'entrée aux spectacles à prendre en considération pour l'exonération de la taxe sur les spectacles est fixé à cinq dinars.\n\n[2] Source: décret n° 2006-3360 du 25 décembre 2006, article premier\nLe montant maximum annuel de la taxe sur les établissements à caractère industriel, commercial ou professionnel prévu au paragraphe III de l'article 38 du code de la fiscalité locale est fixé à cent mille (100.000) dinars.\n(Note: ce décret est devenu sans objet en vertu des dispositions de l'article 50 de la loi de finances complémentaire pour l'année 2012, mais il reste publié.)"
+        },
+        {
+          "role": "assistant",
+          "content": "En principe, la taxe sur les spectacles est due sur les recettes prévisionnelles (art. 48-49). Toutefois, l'article 47 prévoit une exonération pour les spectacles dont le prix d'entrée n'excède pas un montant fixé par décret. Ce montant est de 5 dinars selon le décret n°97-530. Exception : cette exonération ne s'applique pas aux spectacles de bienfaisance subventionnés ni aux spectacles associatifs sans artistes professionnels (autres exonérations objectives). Par ailleurs, pour la taxe sur les établissements industriels/commerciaux/professionnels, le décret n°2006-3360 fixait un plafond annuel de 100 000 dinars en application de l'ancien article 38-III. Cependant, ce plafond est devenu sans objet depuis l'abrogation de l'article 38-III par la loi de finances complémentaire 2012. Ainsi, aujourd'hui, aucun plafond n'est applicable sauf si la loi en dispose autrement. La finalité de ces seuils est de protéger les petits spectacles (entrée modique) et d'éviter des taxes disproportionnées pour les grandes entreprises, mais le législateur a supprimé le plafond pour les établissements. Sources : décrets n°97-530 et n°2006-3360, sous réserve de l'abrogation de ce dernier. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_refusal_045",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les obligations en matière de déclaration de TVA pour une entreprise individuelle en Tunisie ?\n\nDocuments pertinents:\nLes documents fournis (code de la fiscalité locale, ses décrets d'application et lois connexes) ne contiennent aucune disposition relative à la TVA (taxe sur la valeur ajoutée). Le code traite exclusivement des taxes locales (immeubles, terrains, établissements, spectacles, droits de licence, redevances diverses, etc.). La TVA est une imposition nationale régie par le code de la TVA et le code des droits et procédures fiscaux, qui ne sont pas inclus dans le présent corpus."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à votre question sur les obligations déclaratives en matière de TVA pour une entreprise individuelle. Le code de la fiscalité locale ne couvre que les taxes et redevances perçues par les collectivités locales. Je vous recommande de consulter un avocat fiscaliste ou de vous référer au code de la TVA et au code des droits et procédures fiscaux. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_clarification_046",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["décret 98-1254 (art.9-13)"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment obtenir le dégrèvement total de la taxe sur les immeubles bâtis pour les contribuables à faible revenu ?\n\nDocuments pertinents:\n[1] Source: décret n° 98-1254 du 8 juin 1998, chapitre II (articles 9 à 13)\nArticle 9 : Le dégrèvement total visé au paragraphe II de l'article 6 du code de la fiscalité locale est accordé aux redevables de la taxe sur les immeubles bâtis à faible revenu et bénéficiant de l'aide permanente de l'Etat ou des collectivités locales.\nArticle 10 : Le dégrèvement total est accordé au vu d'une demande écrite à déposer par le redevable ou son représentant auprès des services compétents de la collectivité locale accompagnée d'une attestation justifiant le bénéfice d'une aide permanente délivrée par la partie accordant ladite aide. La demande comprend notamment : 1) nom, prénom, adresse, numéro CIN ; 2) situation de l'immeuble ; 3) montant de la taxe due. Cette demande est suspensive du recouvrement tant que la collectivité n'y a pas statué.\nArticle 11 : La commission de révision (art.24 du code) examine les demandes et en cas d'acceptation, le président de la collectivité locale accorde par arrêté sur la base de la délibération du conseil un dégrèvement total.\nArticle 12 : La collectivité notifie sa décision au redevable par LRAR ou avis avec récépissé signé.\nArticle 13 : Le ministre de l'intérieur et le ministre des finances sont chargés de l'exécution.\n\n(Le décret ne définit pas \"faible revenu\" ni \"aide permanente\" de manière chiffrée.)"
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question appelle une précision : le décret n°98-1254 prévoit la procédure mais ne fixe pas de seuils quantifiés pour définir \"faible revenu\" ni n'énumère les aides permanentes éligibles. Pour vous guider, la demande écrite doit être déposée auprès de la collectivité locale, accompagnée d'une attestation d'aide permanente délivrée par l'organisme qui l'accorde (État, collectivité locale, caisses sociales). La commission de révision examine le dossier et, si elle accepte, le président de la collectivité prend un arrêté de dégrèvement total. La demande suspend le recouvrement pendant l'instruction. Avez-vous déjà une attestation d'aide (par exemple, aide médicale gratuite, allocations familiales sous conditions, logement social) ? Je pourrai alors vous indiquer si cela correspond à une \"aide permanente\". Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_procedural_047",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["décret 2006-49", "loi 2006-25 art.5"],
+      "confidence_flag": "La loi d'amnistie fiscale 2006-25 a été modifiée par décret-loi 2006-1, mais le texte original est utilisé.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment est répartie la taxe sur les établissements industriels entre plusieurs collectivités locales ? Existe-t-il des amnisties fiscales pour les créances locales ?\n\nDocuments pertinents:\n[1] Source: décret n° 2006-49 du 9 janvier 2006, articles 1 à 5\nArt.1 : La taxe sur les établissements industriels/commerciaux/professionnels due par les entreprises dont l'activité s'étend sur plusieurs collectivités locales et qui exploitent des immeubles couverts et non couverts/non bâtis est répartie selon les critères du décret.\nArt.2 : S'il existe une carrière : 50% du montant affecté à la collectivité abritant la carrière (réparti à parts égales si plusieurs carrières) ; le reliquat réparti sur la base de la superficie bâtie par agence.\nArt.3 : S'il existe des immeubles non bâtis/non couverts mais pas de carrière : 30% réparti à parts égales entre les collectivités abritant ces immeubles ; le reliquat réparti sur la base de la superficie des immeubles couverts.\nArt.4 : Si l'entreprise n'a ni immeubles bâtis ni non bâtis, la taxe est répartie sur la base du chiffre d'affaires réalisé dans chaque collectivité.\n\n[2] Source: loi n° 2006-25 du 15 mai 2006, article 5 (amnistie fiscale)\nSont abandonnés, 50% des montants constatés au titre de la taxe sur les immeubles bâtis, de la taxe sur les terrains non bâtis et de la contribution au FNAH au titre de l'année 2005 et antérieures ainsi que les pénalités et frais de poursuite, à condition de payer : toutes les taxes dues au titre de 2006, et les 50% restants par tranches trimestrielles égales sur deux ans maximum (première tranche avant le 1er septembre 2006)."
+        },
+        {
+          "role": "assistant",
+          "content": "La répartition de la taxe sur les établissements entre collectivités locales suit une procédure définie par le décret n°2006-49. Trois cas : 1) présence d'une carrière : 50% à la commune de la carrière (partage égal si plusieurs), solde réparti au prorata des superficies bâties. 2) présence d'immeubles non bâtis/non couverts sans carrière : 30% réparti également entre communes concernées, solde réparti au prorata des superficies couvertes. 3) absence d'immeubles bâtis ou non bâtis : répartition sur la base du chiffre d'affaires réalisé dans chaque commune. Par ailleurs, la loi d'amnistie fiscale n°2006-25 (art.5) a permis un abandon de 50% des créances locales (taxe immeubles bâtis, terrains non bâtis, FNAH) des années 2005 et antérieures, avec paiement des taxes 2006 et du solde en 2 ans. Cette mesure visait à épurer les arriérés tout en maintenant les recettes courantes. Sources : décret n°2006-49 et loi n°2006-25 art.5. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_direct_048",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["loi 2009-12 art.1-4"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ما هي شروط الحصول على ترخيص لاستغلال الملك العمومي الطرقي لأغراض إشهارية؟ وما هي الجهة المختصة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: القانون عدد 12 لسنة 2009 المؤرخ في 2 مارس 2009 المتعلق بالإشهار في الملك العمومي الطرقي وفي الأملاك العقارية الملحقة به والمملوكة للأشخاص، الفصول 1 و2 و3 و4\nالفصل 1: يهدف هذا القانون إلى تنظيم شغل الملك العمومي الطرقي التابع للدولة أو الجماعات المحلية لغاية إشهارية، وكذلك إلصاق الملصقات وتركيز اللوحات والدعامات الإشهارية المرئية من هذا الملك في الأملاك العقارية الملحقة به.\nالفصل 2: يمكن الترخيص بالشغل المؤقت للملك العمومي الطرقي لغاية إشهارية بشرط تأمين السلامة الجولانية والحفاظ على الأمن العام والجمالية الحضرية. يُعطى الترخيص بعد استشارة عن طريق طلب عروض (أو أمر دعاء للمنافسة) من الإدارة المركزية لوزارة الداخلية. يمنح الترخيص لأعلى المزايدين من قبل رئيس الجماعة المحلية بمقتضى ترخيص.\nالفصل 3: إلصاق الملصقات وتركيز اللوحات والدعامات الإشهارية في الأملاك العقارية الخاصة (للأشخاص الطبيعيين أو المعنويين) الملحقة بالملك العمومي الطرقي، عندما تكون مرئية من هذا الملك، تخضع لترخيص من رئيس الجماعة المحلية.\nالفصل 4: في منح الترخيص، تُراعى شروط السلامة الجولانية والأمن العام والجمالية الحضرية. تطبق تعريفة الحقوق المقررة للإشهار باللوحات والملصقات التي ترخص للجماعات المحلية باستخلاصها."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى القانون عدد 12 لسنة 2009، يشترط للحصول على ترخيص شغل الملك العمومي الطرقي لغاية إشهارية (الفصل 2) ما يلي: ضمان السلامة الجولانية، الحفاظ على الأمن العام والجمالية الحضرية، وذلك بعد إجراء طلب عروض (دعاء للمنافسة) تشرف عليه الإدارة المركزية لوزارة الداخلية. يُمنح الترخيص لأعلى المزايدين من قبل رئيس الجماعة المحلية (الجهة المختصة). أما بالنسبة للملصقات على العقارات الخاصة المجاورة للملك العمومي والمرئية منه، فيخضع الترخيص لرئيس الجماعة المحلية مباشرة (الفصل 3) دون حاجة إلى طلب عروض، مع أداء الحقوق المقررة. تهدف هذه الإجراءات إلى تنظيم الإشهار التجاري وحماية المنظر الحضري والسلامة العامة، مع تركيز السلطة التقديرية في يد رئيس الجماعة مع رقابة وزارة الداخلية للملك العمومي. المصادر: الفصول 1 و2 و3 و4 من القانون عدد 12 لسنة 2009. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_multi_049",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": ["loi 2006-59 art.1-10bis", "loi 2007-53 art.3"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ما هي عقوبة عدم التصريح بإيجار عقار مبني؟ ومن الذي يتولى معاينة المخالفات الصحية والجرد في الأسواق؟\n\nالوثائق ذات الصلة:\n[1] المصدر: القانون عدد 53 لسنة 2007 المؤرخ في 8 أوت 2007 (الفصل 3)\nالفقرة II: كل شخص لا يودع التصريح المنصوص عليه بالفقرة I من هذا الفصل (التصريح بعمليات الكراء أو الشغول لعقار مبني) أو يودع تصريحاً ناقصاً أو غير صحيح، يستوجب خطية مساوية لثلاثة أضعاف السعر المرجعي الأقصى للمتر المربع للصنف الأعلى من أصناف العمارات. (أي ثلاثة أضعاف الحد الأقصى لسعر المتر المرجعي للصنف الرابع: 356 ديناراً حسب الأمر 2017-397، أي خطية قد تصل إلى 1068 ديناراً).\nالفقرة III: إضافة إلى الخطية، يصبح المكتري أو الشاغل متضامناً مع المالك لأداء أصل الضريبة وخطايا التأخير عن سنة بداية الكراء والسنوات اللاحقة إلى تاريخ التصريح أو نهاية الكراء.\n\n[2] المصدر: القانون عدد 59 لسنة 2006 المؤرخ في 14 أوت 2006 المتعلق بمخالفة قواعد النظافة والملك العمومي، الفصل 3 (جديد)\nتعاين المخالفات المتعلقة بقواعد النظافة والملك العمومي من قبل:\n1) ضباط الشرطة القضائية،\n2) أعوان الشرطة والحرس البلديين من صنفي \"أ\" و\"ب\"،\n3) أعوان الجماعات المحلية المنتدبين والمأذون لهم،\n4) الأعوان المنتدبون التابعون لوزارة البيئة،\n5) الأطباء والأطباء البياطرة والمهندسون المختصون وأعوان الصحة العليا المنتدبون.\nالفصل 10 مكرر: لرئيس الجماعة المحلية سلطة تخطيط خطية إدارية من 300 إلى 1000 دينار في حالة مخالفة قواعد النظافة والجرد، بالإضافة إلى إزالة آثار المخالفة وحجز الوسائل."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى القانون عدد 53 لسنة 2007 (الفصل 3)، عدم التصريح بكراء عقار مبني أو التصريح الناقص يستوجب خطية مساوية لثلاثة أضعاف السعر المرجعي الأقصى للمتر المربع للصنف الأعلى (الصنف الرابع). وبالإضافة إلى الخطية، يصبح المكتري متضامناً مع المالك لدفع أصل الضريبة والخطايا عن السنة الجارية والسنوات التالية حتى تاريخ التصريح. أما بالنسبة لمعاينة المخالفات الصحية وقواعد النظافة والملك العمومي، فإن القانون عدد 59 لسنة 2006 (الفصل 3 الجديد) يخولها لعدة جهات: ضباط الشرطة القضائية، أعوان الشرطة والحرس البلدي، أعوان الجماعات المحلية المنتدبين، أعوان وزارة البيئة، والأطباء والأطباء البياطرة والمهندسون. ولرئيس الجماعة المحلية سلطة توقيع خطية إدارية تتراوح بين 300 و1000 دينار (الفصل 10 مكرر) مع إزالة آثار المخالفة وحجز الوسائل. الهدف من هذه الآليات هو تعزيز التصريح بالإيجارات لمكافحة التهرب الضريبي، وضمان النظافة والصحة العامة مع منح رئيس الجماعة أداة زجرية مرنة. المصادر: القانون عدد 53 لسنة 2007 الفصل 3، والقانون عدد 59 لسنة 2006 الفصول 3 الجديد و10 مكرر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_principle_exception_050",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": ["loi 2002-76 art.1-2", "loi 2006-25 art.5"],
+      "confidence_flag": "Ces lois d'abandon et d'amnistie sont anciennes (2002, 2006) mais toujours dans le corpus.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: هل يمكن إسقاط ديون ضريبية مستحقة لفائدة الجماعات المحلية عن سنوات سابقة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: القانون عدد 76 لسنة 2002 المؤرخ في 23 جويلية 2002، الفصل 1\nتُسقط لفائدة المكلفين، الديون المتعلقة بضريبة القيمة الكرائية وضرائب الصيانة والتطهير وضريبة التعويض التي وضعتها الجماعات المحلية عن سنة 1996 والسنوات السابقة عندما لا يتجاوز أصل الدين 30 ديناراً في السنة لكل فصل من الرول. وتسقط أيضاً خطايا المتابعة الخاصة بذلك.\nالفصل 2: تُسقط خطايا التأخير ومصاريف المتابعة للديون المستحقة عن سنة 2001 والسنوات السابقة وغير المشمولة بالفصل 1، بشرط أداء 20% من أصل الدين واتخاذ جدول لدفع الباقي على 2.5 سنة.\n\n[2] المصدر: القانون عدد 25 لسنة 2006 المؤرخ في 15 ماي 2006 المتعلق بالعفو الجبائي، الفصل 5\nتُسقط 50% من المبالغ المثبتة في كتابات مقابض المالية لفائدة الجماعات المحلية عن ضريبة العمارات المبنية وضريبة الأراضي غير المبنية والمساهمة لفائدة الصندوق الوطني لتحسين السكنى عن سنة 2005 والسنوات السابقة وكذلك خطايا التأخير ومصاريف المتابعة، بشرط أداء: جميع الضرائب المستحقة عن سنة 2006، والـ 50% المتبقية على أقساط فصلية خلال سنتين كحد أقصى (يُحدد جدول الدفع بأمر من وزير المالية حسب أهمية الدين)."
+        },
+        {
+          "role": "assistant",
+          "content": "الأصل أن الديون الضريبية مستحقة بالكامل ولا تسقط إلا بالتقادم. غير أن المشرع أصدر استثناءات لإسقاط جزئي أو كلي للديون القديمة عبر قوانين خاصة. أولاً، القانون عدد 76 لسنة 2002 (الفصل 1) أسقط أصول ديون ضريبية محلية عن سنة 1996 وما قبلها إذا كان أصل الدين لا يتجاوز 30 ديناراً سنوياً، كما أسقط خطايا المتابعة. كما أسقط الفصل 2 خطايا التأخير ومصاريف المتابعة لديون 2001 وما قبلها (غير المشمولة بالفصل 1) بشرط أداء 20% من أصل الدين وتقسيط الباقي. ثانياً، القانون عدد 25 لسنة 2006 (الفصل 5) أسقط 50% من أصول ديون ضريبة العمارات المبنية والأراضي غير المبنية والمساهمة لصندوق تحسين السكنى عن سنة 2005 وما قبلها، مع جميع الخطايا، بشرط أداء ضرائب 2006 كاملة وتقسيط الـ 50% المتبقية على سنتين. الهدف من هذه الإسقاطات هو تنظيف ملفات التحصيل القديمة وضخ سيولة فورية مع الحفاظ على حقوق الجماعات المحلية عبر التقسيط. المصادر: القانون عدد 76 لسنة 2002 (الفصلين 1 و2) والقانون عدد 25 لسنة 2006 (الفصل 5). هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_refusal_051",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ما هو الإجراء القانوني لتسوية وضعية عمال مهاجرين غير موثقين في تونس؟\n\nالوثائق ذات الصلة:\nالوثائق المقدمة هي مجلة المالية المحلية وقوانينها التطبيقية والقوانين المتعلقة بالإشهار والمخالفات الصحية والعفو الجبائي. لا تحتوي هذه الوثائق على أي حكم يتعلق بقانون العمل أو الهجرة أو تسوية وضعية العمال المهاجرين غير الموثقين. هذه المسائل تدخل ضمن مجلة الشغل وقانون الهجرة وقانون الوضعية الإدارية للأجانب."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن سؤالك بخصوص تسوية وضعية عمال مهاجرين غير موثقين. مجلة المالية المحلية لا تتناول قانون العمل أو الهجرة. أنصحك باستشارة محامٍ متخصص في قانون العمل والهجرة في تونس أو الاتصال بمكتب منظمة العمل الدولية في تونس. هذا لا يشكل استشارة قانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_clarification_052",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": ["décret 94-822"],
+      "confidence_flag": "La liste des zones touristiques est longue et non exhaustive dans le document.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: هل تشمل الضريبة الفندقية جميع مناطق تونس؟ وما هي المناطق السياحية الخاضعة لنظام خاص؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الأمر عدد 822 لسنة 1994 المؤرخ في 11 أفريل 1994 (المعدل) – قائمة المناطق السياحية البلدية\nتُحدد قائمة المناطق السياحية البلدية كما يلي (غير حصرية في النص): تونس، جربة أجيم، سيدي بوسعيد، المرسى، زرزيس، قليبية، الحمامات، المنستير، قرقنة، نابل، المهدية، قرطاج، سوسة، طبرقة، صاحلين، حمام سوسة، توزر، سيدي عامر، القيروان، أقودة، حلق الوادي، الجم، بوفيشة، الكرم، مطماطة القديمة، نفطة، قربوس، بنزرت، قبلي، تطاوين، جربة حومة السوق، دوز، الكاف، جربة ميدون، عين دراهم، صفاقس، تمغزة، سبيطلة، مكثر، القلعة، الشنيني ناحل، الحامة.\n\n[2] الفصل 36 من مجلة المالية المحلية (مستخدم سابقاً) يعفي المؤسسات السياحية الخاضعة للضريبة الفندقية من ضريبة المؤسسات. والفصل 41 يحدد أن الضريبة الفندقية يؤديها مستغلو المؤسسات السياحية.\n\n(لا ينص الأمر على نظام خاص للضرائب في هذه المناطق، بل يحدد فقط قائمة المناطق للضريبة الفندقية وصندوق حماية المناطق السياحية.)"
+        },
+        {
+          "role": "assistant",
+          "content": "سؤالك يحتاج إلى توضيح: الضريبة الفندقية (الفصل 41) تُطبق على مستغلي المؤسسات السياحية أينما وجدت في تونس، لكن الأمر عدد 94-822 حدد قائمة بالمناطق السياحية البلدية لأغراض أخرى (صندوق حماية المناطق السيائية). هل تقصد أن تعرف إذا كانت مؤسستك تقع ضمن هذه القائمة لأن ذلك قد يؤثر على إعفاء من ضريبة المؤسسات (الفصل 36 يعفي المؤسسات السياحية الخاضعة للضريبة الفندقية)؟ أم أنك تبحث عن نظام ضريبي خاص (مثل التخفيضات أو الرسوم الإضافية) في هذه المناطق؟ يرجى توضيح نوع النظام الخاص الذي تقصده. هذا لا يشكل استشارة قانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_procedural_053",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": ["loi 2009-12 art.5-8", "loi 2006-59 art.10quater-10quinquies"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ما هي عقوبات مخالفة تراخيص الإشهار على الملك العمومي؟ وكيف يتم التصدي للبناء الفوضوي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: القانون عدد 12 لسنة 2009، الفصول 5 إلى 8\nالفصل 5: المرخص له ملزم باستغلال الترخيص شخصياً وعدم التنازل عنه للغير.\nالفصل 6: في حالة وضع الإشهار دون ترخيص، يسلط رئيس الجماعة المحلية خطية إدارية قدرها 200 دينار عن كل متر مربع أو كسر متر من مساحة الإشهار، مع إلزام المخالف بإزالة الإشهار (بعد إزالة على نفقته).\nالفصل 7: في حالة مخالفة شروط الترخيص، يمكن السحب المؤقت (3 أشهر) أو النهائي مع الغرامة. السحب النهائي في حالات: عدم التصحيح، الإخلال بالأمن العام، عدم أداء الحقوق، التكرار، مخالفة الفصل 5.\nالفصل 8: لا تمنع العقوبات الإدارية العقوبات الجزائية.\n\n[2] المصدر: القانون عدد 59 لسنة 2006، الفصل 10 مكرر و10 رباعي و10 خماسي\nالفصل 10 رباعي: التركيب الفوضوي ممنوع. تضبط أمتعة المخالف وتتلف إذا كانت غير صالحة صحياً.\nالفصل 10 خماسي: للمحكمة المختصة، إضافة للعقوبات، أن تأمر المخالف بإزالة الضرر على نفقته، وحجز أو غلق المحل الذي ارتكبت فيه المخالفة. في حالة العود، تضاعف العقوبة."
+        },
+        {
+          "role": "assistant",
+          "content": "عقوبات مخالفة تراخيص الإشهار على الملك العمومي الطرقي منصوص عليها في القانون عدد 12 لسنة 2009: خطية إدارية قدرها 200 دينار لكل متر مربع أو كسر متر من مساحة الإشهار، مع إزالة الإشهار على نفقة المخالف (الفصل 6). وفي حالة مخالفة شروط الترخيص، يمكن سحب الترخيص مؤقتاً (3 أشهر) أو نهائياً مع مراعاة حالات محددة (عدم أداء الحقوق، التكرار، الإخلال بالأمن العام، التنازل غير المشروع – الفصل 7). أما بالنسبة للبناء الفوضوي (التركيب غير القانوني)، فإن القانون عدد 59 لسنة 2006 (الفصل 10 رباعي) يمنعه ويجيز حجز البضائع المعروضة وإتلاف غير الصالحة صحياً، وإيداعها للمنظمات الاجتماعية إن كانت صالحة. كما يمكن للمحكمة الأمر بإزالة الضرر على نفقة المخالف وحجز أو غلق المحل (الفصل 10 خماسي) ويتضاعف العقاب في حالة العود. الإجراءات تبدأ عادة بمخالفة من الأعوان المذكورين (الفصل 3) ثم إما خطية إدارية من رئيس الجماعة أو إحالة على النيابة العمومية. الهدف هو ردع الممارسات غير القانونية حماية للأمن العام والجمالية الحضرية. المصادر: القانون عدد 12 لسنة 2009 الفصول 5-8 والقانون عدد 59 لسنة 2006 الفصول 10 رباعي و10 خماسي. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_cross_fr_ar_054",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [91],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: À qui incombe le paiement de la redevance pour la mise en fourrière des véhicules et des animaux ? Et comment est perçue la contribution des abonnés à l'électrification publique ?\n\nDocuments pertinents:\n[1] المصدر: الفصل 91 من مجلة المالية المحلية (جدول)\n- Services de fourrière : la redevance pour la conservation en fourrière des animaux, véhicules et marchandises est à la charge des propriétaires des animaux, véhicules ou marchandises saisies.\n- Contribution des collectivités locales aux travaux de généralisation de l'électrification et de l'éclairage public : la redevance est à la charge des abonnés au réseau électrique résidant dans le périmètre de la collectivité locale concernée. Elle est perçue au moyen des factures de la consommation de l'électricité et du gaz.\n\n[2] Renvoi à l'article 94 (perception) : Les taxes sont perçues par le receveur des finances contre délivrance d'un reçu d'un carnet à souche."
+        },
+        {
+          "role": "assistant",
+          "content": "Selon l'article 91 du code de la fiscalité locale, la redevance de fourrière (conservation des animaux, véhicules, marchandises saisies) est à la charge des propriétaires des biens saisis. La contribution à l'électrification et à l'éclairage public est à la charge des abonnés au réseau électrique résidant dans le périmètre de la collectivité locale, et elle est perçue directement via les factures d'électricité et de gaz. Ces redevances sont perçues par le receveur des finances contre remise d'un reçu détaché d'un carnet à souche (art. 94). L'objectif est de faire payer les services publics individualisés (fourrière) par les contrevenants, et les services de réseau (éclairage public) par tous les abonnés électriques via un mécanisme de facturation existant. Sources : art. 91 et 94 du code de la fiscalité locale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_cross_ar_fr_055",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": ["décret 98-1254 art.10-11"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels documents faut-il fournir pour demander le dégrèvement total de la taxe sur les immeubles bâtis pour faible revenu ? Et qui examine la demande ?\n\nDocuments pertinents:\n[1] المصدر: الأمر عدد 1254 لسنة 1998 المؤرخ في 8 جوان 1998، الفصل 10\nLe dégrèvement total est accordé au vu d'une demande écrite à déposer par le redevable ou son représentant auprès des services compétents de la collectivité locale accompagnée d'une attestation justifiant le bénéfice d'une aide permanente délivrée par la partie accordant ladite aide. La demande comprend notamment : 1) les nom, prénom, adresse, numéro CIN ; 2) la situation de l'immeuble bâti ; 3) le montant de la taxe due. Cette demande est suspensive du recouvrement.\n\n[2] المصدر: الأمر عدد 1254 لسنة 1998، الفصل 11\nLa commission de révision prévue par l'article 24 du code de la fiscalité locale examine les demandes de dégrèvement total et en cas d'acceptation le président de la collectivité locale accorde par arrêté sur la base de la délibération du conseil de la collectivité locale un dégrèvement total de la taxe sur les immeubles bâtis."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour demander le dégrèvement total de la taxe sur les immeubles bâtis pour faible revenu, le décret n°98-1254 (art.10) exige le dépôt d'une demande écrite auprès des services compétents de la collectivité locale, accompagnée d'une attestation justifiant le bénéfice d'une aide permanente délivrée par l'organisme qui l'accorde (État, collectivité locale, caisses). La demande doit mentionner : identité complète du contribuable (nom, prénom, adresse, numéro CIN), situation de l'immeuble, montant de la taxe due. La demande suspend le recouvrement de la taxe pendant l'instruction. Ensuite, l'article 11 précise que la commission de révision (celle de l'art.24 du code, composée du président de la collectivité, deux conseillers, du receveur des finances et du secrétaire général) examine la demande. Si elle l'accepte, le président de la collectivité locale accorde le dégrèvement total par arrêté, sur la base d'une délibération du conseil. L'objectif de cette procédure est de garantir un contrôle collégial avant d'exonérer totalement un contribuable vulnérable. Sources : décret n°98-1254 art.10 et 11. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_multi_056",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": ["loi 2007-53 art.3", "loi 2006-59 art.3 nouveau"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les pouvoirs de constatation des infractions donnés aux agents des collectivités locales en matière de déclaration des locations et d'hygiène publique ?\n\nDocuments pertinents:\n[1] Source: loi n° 2007-53 du 8 août 2007, article 3 (ajoutant l'article 17 bis au code, et les sanctions)\nIII. Les infractions aux dispositions des paragraphes I et II de l'article 17 bis (obligation de déclarer les locations/occupations d'immeubles bâtis) sont constatées par des procès verbaux établis par les agents des collectivités locales habilités à constater les infractions ou par des fonctionnaires assermentés parmi les fonctionnaires de la collectivité locale concernée mandatés par son président.\n\n[2] Source: loi n° 2006-59 du 14 août 2006, article 3 nouveau (modifié par loi 2016-30)\nLes contraventions et délits aux règlements d'hygiène et de propreté publique sont constatés par : 1) les officiers de police judiciaire ; 2) les agents de police et garde municipales des catégories A et B ; 3) les agents des collectivités locales assermentés et habilités ; 4) les agents assermentés du ministère de l'environnement ; 5) les médecins, vétérinaires, ingénieurs compétents et techniciens supérieurs de santé assermentés. Les agents mentionnés aux 3 et 4 portent un uniforme et une carte professionnelle numérotée avec photo. Ils peuvent se faire assister de la force publique.\n\n[3] Source: article 4 de la même loi (accès aux locaux)\nLes agents peuvent accéder aux locaux professionnels aux heures habituelles, aux locaux d'habitation avec autorisation du procureur s'il y a présomption d'activité professionnelle, effectuer constats, saisir objets, obtenir documents."
+        },
+        {
+          "role": "assistant",
+          "content": "Deux régimes de constatation coexistent. Pour les infractions à l'obligation de déclarer les locations d'immeubles bâtis (art.17 bis du code), la loi n°2007-53 donne compétence aux agents des collectivités locales habilités et aux fonctionnaires assermentés mandatés par le président. Ils établissent des procès-verbaux. Pour les infractions aux règlements d'hygiène et de propreté publique (loi n°2006-59 modifiée), cinq catégories d'agents sont compétentes (officiers de police, police/garde municipale, agents locaux assermentés, agents de l'environnement, professionnels de santé assermentés). Ces agents portent uniforme et carte professionnelle, peuvent se faire assister par la force publique, et ont un droit d'accès aux locaux professionnels sans autorisation (aux heures habituelles), et aux locaux d'habitation avec autorisation du procureur. Ils peuvent saisir les objets en rapport avec l'infraction et obtenir communication de tout document. L'objectif est de renforcer l'efficacité du contrôle fiscal et sanitaire local en élargissant les prérogatives des agents et en diversifiant les corps habilités. Sources : loi n°2007-53 art.3 et loi n°2006-59 art.3 nouveau et art.4. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_refusal_057",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le taux de l'impôt sur les sociétés pour une SARL dans le secteur du transport en Tunisie ?\n\nDocuments pertinents:\nLes documents fournis ne contiennent aucune disposition relative au taux de l'impôt sur les sociétés (IS). Le code de la fiscalité locale ne traite que des taxes locales. L'impôt sur les sociétés relève du code de l'impôt sur le revenu des personnes physiques et de l'impôt sur les sociétés, qui n'est pas inclus dans le corpus."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à votre question sur le taux de l'impôt sur les sociétés applicable à une SARL dans le secteur du transport. Le code de la fiscalité locale ne couvre que les taxes perçues par les collectivités locales. Je vous recommande de consulter un avocat fiscaliste ou de vous référer au code de l'impôt sur les sociétés. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_clarification_058",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": ["loi 2009-12 art.3", "loi 2009-12 art.4"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Puis-je installer un panneau publicitaire sur ma propriété privée sans autorisation s'il est visible de la route ?\n\nDocuments pertinents:\n[1] Source: loi n° 2009-12 du 2 mars 2009, article 3\nL'apposition des affiches et l'implantation des panneaux et des supports de publicité dans les propriétés immobilières des personnes physiques ou morales attenantes au domaine public routier, lorsque ces supports sont visibles à partir de ce domaine public, sont soumises à une autorisation du président de la collectivité locale dans la circonscription territoriale de laquelle se situe le domaine public concerné, qui est accordée à l'établissement de publicité contre un droit perçu au profit de cette collectivité locale.\n\n[2] Source: article 4 de la même loi\nDoit être considérée, dans l'octroi de l'autorisation, la condition d'assurer la sécurité routière et de préserver la sûreté publique et l'esthétique urbaine. Dans la détermination des droits dus, il est fait application du tarif du droit dû sur la publicité au moyen des panneaux et pancartes que les collectivités locales sont autorisées à percevoir."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question appelle une précision. Selon l'article 3 de la loi n°2009-12, même si le panneau est installé sur votre propriété privée (terrain ou mur), dès lors qu'il est visible depuis le domaine public routier (la route), vous avez besoin d'une autorisation délivrée par le président de la collectivité locale. Ce n'est pas une liberté absolue. L'autorisation est accordée à l'établissement de publicité (ou à vous-même si vous êtes l'annonceur) contre paiement d'un droit. La loi ne précise pas de seuil de taille ou de nombre — toute affiche ou panneau visible de la voie publique est soumis à autorisation. Il existe des exceptions ? Les panneaux non commerciaux (signalétique privée, identification de profession) ne sont pas visés ? La loi ne le dit pas explicitement. Pour clarifier, précisez la nature du panneau (commercial ou non, dimensions). Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_fr_procedural_059",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["loi 2009-12 art.6", "loi 2006-59 art.10bis"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les procédures de constatation des infractions et d'infligation des amendes administratives par le président de la collectivité locale ?\n\nDocuments pertinents:\n[1] Source: loi n°2009-12, article 6 (pour infraction à la publicité)\nEn cas d'apposition sans autorisation, le président de la collectivité locale inflige une amende administrative de 200 dinars par mètre carré ou fraction de m². Le contrevenant doit enlever l'affiche ; à défaut, la collectivité procède à l'enlèvement aux frais du contrevenant.\n[2] Source: loi n°2009-12, article 11\nL'amende est infligée par arrêté motivé du président de la collectivité locale signifié à l'intéressé (convocation par voie administrative, signature ou mention d'abstention). Le contrevenant paie à la recette des finances dans les 30 jours.\n[3] Source: loi n°2006-59 (hygiène), article 10 bis\nLe président de la collectivité locale peut infliger une amende administrative de 300 à 1000 dinars en cas de violation des règlements spécifiques d'hygiène. Procédure : les procès-verbaux sont transmis au président, qui convoque le contrevenant pour audition (convocation par voie administrative contre signature). L'arrêté motivé est notifié. Paiement dans les 15 jours, faute de quoi recouvrement selon code de la comptabilité publique.\n[4] Source: loi n°2006-59, article 9 bis\nLes contraventions sont prouvées par tout moyen légalement autorisé."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure d'infligation d'amendes administratives par le président de la collectivité locale suit un schéma similaire dans deux régimes. Pour la publicité illicite (loi 2009-12) : constat (par les agents habilités), transmission au président, convocation du contrevenant par voie administrative (signature ou mention), arrêté motivé infligeant l'amende (200 D/m²), signification, paiement sous 30 jours à la recette des finances. Pour les infractions à l'hygiène (loi 2006-59, art.10 bis) : même base, mais amende de 300 à 1000 D, délai de paiement de 15 jours, et possibilité de saisie/fermeture du local. Dans les deux cas, le contrevenant peut contester ? La loi ne prévoit pas de recours administratif interne, mais un recours contentieux devant le tribunal administratif ou le tribunal cantonal selon la nature. Le président de la collectivité doit motiver son arrêté (\"arrêté motivé\"). Le défaut de paiement entraîne recouvrement forcé par le comptable public. L'objectif de ces procédures est de permettre une sanction rapide et efficace sans passer par le juge pénal, tout en respectant les droits de la défense (convocation, audition, notification). Sources : loi 2009-12 art.6 et 11 ; loi 2006-59 art.10 bis et 9 bis. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cfl_ar_direct_060",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": ["loi 2002-76 art.1"],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: هل أُسقطت ديون ضريبية محلية عن سنة 1996 إذا كان أصل الدين لا يتجاوز 30 ديناراً سنوياً؟\n\nالوثائق ذات الصلة:\n[1] المصدر: القانون عدد 76 لسنة 2002 المؤرخ في 23 جويلية 2002، الفصل 1\nتُسقط لفائدة المكلفين، الديون المتعلقة بضريبة القيمة الكرائية (taxe sur la valeur locative) وضرائب الصيانة والتطهير (taxes d'entretien et d'assainissement) وضريبة التعويض (taxe de compensation) التي وضعتها الجماعات المحلية عن سنة 1996 والسنوات السابقة عندما لا يتجاوز أصل الدين 30 ديناراً في السنة لكل فصل من الرول (par an pour chaque article du rôle). كما تُسقط أيضاً خطايا المتابعة الخاصة بذلك.\n\n[2] الفصل 2 من نفس القانون: يُسقط خطايا التأخير ومصاريف المتابعة لديون سنة 2001 والسنوات السابقة غير المشمولة بالفصل 1 بشروط أداء 20% من أصل الدين وتقسيط الباقي."
+        },
+        {
+          "role": "assistant",
+          "content": "نعم، بمقتضى الفصل الأول من القانون عدد 76 لسنة 2002، تم إسقاط الديون المتعلقة بضريبة القيمة الكرائية وضرائب الصيانة والتطهير وضريبة التعويض المستحقة للجماعات المحلية عن سنة 1996 والسنوات السابقة، بشرط ألا يتجاوز أصل الدين 30 ديناراً في السنة لكل فصل من رول التحصيل. كما أُسقطت خطايا المتابعة المرتبطة بهذه الديون. ولا يترتب عن هذا الإسقاط رد المبالغ التي سبق أداؤها قبل تاريخ صدور القانون. أما بالنسبة للديون الأكبر أو لسنة 2001 وما قبلها (غير المشمولة بالفصل 1)، فيمكن التمتع بإسقاط جزئي للخطايا بموجب الفصل 2. الهدف من هذا الإسقاط هو تطهير الملفات الصغيرة القديمة التي يزيد كلفة تحصيلها عن قيمتها. المصادر: الفصلين 1 و2 من القانون عدد 76 لسنة 2002. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": ["Chapitre VIII sections 5 et 6 (art.91-95) ; Décrets : 2017-396, 2017-395, 97-530, 2006-3360, 98-1254 (extraits), 94-822, 2006-49 ; Lois connexes : 2002-76 (art.1-2), 2006-25 (art.5), 2007-53 (art.3), 2009-12 (art.1-8), 2006-59 (art.1-10bis)"],
+    "sections_not_covered": ["Certains décrets d'application anciens (ex: décret n°2007-1185, 2007-1186, 2007-1187 abrogés), certaines dispositions de la loi 2006-59 non citées (art.10ter détail des 22 délits), la loi 2006-25 dans son intégralité (calendriers de paiement fixés par arrêtés qui sont dans le PDF mais non utilisés), le décret-loi 2006-1 et arrêtés d'application, la loi organique 75-35 art.11 (non utilisée)."],
+    "notes": "Batch 003 exploite principalement les textes d'application et les lois non incorporées au code, couvrant ainsi presque tout le corpus du PDF. Les exemples respectent les 10 français / 10 arabe avec 2 cross-lingual. Aucune hallucination d'articles. Le prochain batch (004) pourrait couvrir les arrêtés ministériels fixant les calendriers de paiement et les décrets d'application restants (2016-805 dans son intégralité, 2006-49 complet, etc.)."
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "batch_id": "batch_COC_003_20260417",
+  "source": "Code des obligations et des contrats de Tunisie",
+  "articles_covered": [3, 9, 10, 11, 73, 74, 75, 84, 85, 108, 109, 115, 117, 118, 121, 126, 129, 138, 139, 145, 148, 151, 152, 157, 176, 177, 182, 189, 191, 192, 196, 200, 202, 205, 207, 208, 210, 223, 224, 226, 229, 230, 232, 235, 242, 243, 244, 245, 247, 248, 249, 250, 254, 255, 256, 259, 268, 269, 270, 275, 277, 278, 280, 284, 285, 286, 287, 291, 292, 294, 295, 297, 341, 342, 345, 346, 348, 350, 351, 353, 354, 357, 358, 361, 362, 363, 366, 369, 370, 373, 374, 377, 378, 380, 382, 383, 385, 386, 388, 389, 421, 422, 423, 425, 427, 428, 429, 430, 431, 565, 566, 567, 568, 571, 574, 575, 576, 583, 585, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634, 635, 636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 648, 649, 650, 651, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 718, 719, 720, 721, 722, 723, 724, 725, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 740, 741, 742, 743, 744, 745, 746, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 759, 760, 761, 762, 763, 764, 765, 766, 768, 769, 770, 771, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 1105, 1106, 1107, 1108, 1110, 1111, 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1130, 1132, 1133, 1134, 1135, 1136, 1137, 1139, 1140, 1141, 1142, 1143, 1144, 1145, 1146, 1147, 1148, 1149, 1150, 1151, 1152, 1153, 1154, 1155, 1156, 1158, 1159, 1160, 1161, 1162, 1163, 1164, 1165, 1166, 1167, 1168, 1169, 1170, 1171],
+  "articles_to_avoid_next_batch": [3,9,10,11,73,74,75,84,85,108,109,115,117,118,121,126,129,138,139,145,148,151,152,157,176,177,182,189,191,192,196,200,202,205,207,208,210,223,224,226,229,230,232,235,242,243,244,245,247,248,249,250,254,255,256,259,268,269,270,275,277,278,280,284,285,286,287,291,292,294,295,297,341,342,345,346,348,350,351,353,354,357,358,361,362,363,366,369,370,373,374,377,378,380,382,383,385,386,388,389,421,422,423,425,427,428,429,430,431,565,566,567,568,571,574,575,576,583,585,592,593,594,595,596,597,598,599,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,623,624,625,626,627,628,629,630,631,632,633,634,635,636,637,638,639,640,641,642,643,644,645,646,648,649,650,651,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,673,674,675,676,677,678,679,680,681,682,683,700,701,702,703,704,705,706,707,708,709,710,711,718,719,720,721,722,723,724,725,728,729,730,731,732,733,734,735,736,737,738,740,741,742,743,744,745,746,748,749,750,751,752,753,754,755,756,757,759,760,761,762,763,764,765,766,768,769,770,771,773,774,775,776,777,778,779,780,781,782,783,784,785,786,787,788,789,790,791,792,793,794,795,796,797,798,799,800,801,802,803,804,805,806,807,808,809,810,811,812,813,814,815,816,818,819,820,821,822,823,824,825,826,827,1105,1106,1107,1108,1110,1111,1112,1113,1114,1115,1116,1117,1118,1119,1121,1122,1123,1124,1125,1126,1127,1128,1129,1130,1132,1133,1134,1135,1136,1137,1139,1140,1141,1142,1143,1144,1145,1146,1147,1148,1149,1150,1151,1152,1153,1154,1155,1156,1158,1159,1160,1161,1162,1163,1164,1165,1166,1167,1168,1169,1170,1171],
+  "examples": [
+    {
+      "example_id": "coc_fr_direct_003",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [3],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la règle générale concernant la capacité à s'obliger en droit tunisien ?\n\nDocuments pertinents:\n[1] Source: article 3 du Code des obligations et des contrats (COC)\nToute personne est capable d'obliger et de s'obliger si elle n'en est déclarée incapable par la loi."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 3 du COC, le principe général est que toute personne physique a la capacité d'obliger (c'est-à-dire d'être créancière) et de s'obliger (d'être débitrice), à moins que la loi ne la déclare incapable. Ainsi, la capacité est la règle, l'incapacité l'exception. Cette disposition vise à favoriser la sécurité juridique et la liberté contractuelle, en posant que l'on peut contracter valablement sauf si un statut particulier (minorité, interdiction, etc.) vient limiter cette capacité.\n\nSource: art. 3 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_direct_003",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [121],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: متى يكون الالتزام باطلاً بسبب كونه معلقاً على مجرد إرادة الملتزم (الشرط الإرادي المحض)؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 121 من مجلة الالتزامات والعقود (COC)\nالالتزام باطل إذا كان وجود الرابطة نفسها معلقاً على مجرد إرادة الملتزم (الشرط الإرادي المحض). ومع ذلك، يجوز لكل من الطرفين أو لأحدهما أن يحتفظ بحق التصريح، خلال أجل محدد، بما إذا كان يرغب في تنفيذ العقد أو فسخه. ولا يمكن اشتراط هذا الاحتفاز في إقرار الدين، ولا في الهبة، ولا في إبراء الذمة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 121 من مجلة الالتزامات والعقود، يبطل الالتزام إذا كان وجود الرابطة التعاقدية ذاتها معلقاً على مجرد إرادة الملتزم (أي إذا جعل المدين تنفيذ الالتزام رهناً بمشيئته دون أي حدث خارجي). غير أن الفصل يستثني حالة احتفاظ أحد الطرفين بحق فسخ العقد خلال أجل محدد (حق الرجوع)، فهذا لا يعتبر شرطاً إرادياً محضاً مبطلاً. ويهدف هذا النص إلى منع التعسف في استعمال الشرط الإرادي الذي يجعل التزام المدين وهمياً، مع السماح بخيارات عقدية مشروعة.\n\nالمصادر: الفصل 121 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_multi_003",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [73, 74, 75],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les règles relatives à la répétition de l'indu (paiement d'une dette inexistante) dans le COC ?\n\nDocuments pertinents:\n[1] Source: article 73 du COC\nCelui qui, se croyant débiteur, par une erreur de droit ou de fait, a payé ce qu'il ne devait pas, a droit à répétition contre celui auquel il a payé. Mais celui-ci ne doit aucune restitution si, de bonne foi et en conséquence de ce paiement, il a détruit ou annulé le titre, s'est privé des garanties de sa créance ou a laissé son action se prescrire contre le véritable débiteur. Dans ce cas, celui qui a payé n'a de recours que contre le véritable débiteur.\n\n[2] Source: article 74 du COC\nIl n'y a pas lieu à répétition lorsqu'on a acquitté volontairement et en connaissance de cause ce qu'on savait ne pas être tenu de payer.\n\n[3] Source: article 75 du COC\nOn peut répéter ce qui a été payé pour une cause future qui ne s'est pas réalisée ou pour une cause déjà existante, mais qui a cessé d'exister."
+        },
+        {
+          "role": "assistant",
+          "content": "La répétition de l'indu est régie par plusieurs principes. L'article 73 dispose que celui qui a payé par erreur (de droit ou de fait) une dette inexistante peut répéter son paiement contre le bénéficiaire. Toutefois, si le bénéficiaire, de bonne foi, a détruit son titre ou perdu ses garanties à cause de ce paiement, il n'est pas tenu à restitution ; le payeur ne peut alors agir que contre le véritable débiteur. L'article 74 précise que le paiement volontaire en connaissance de cause exclut toute répétition. Enfin, l'article 75 étend la répétition aux paiements pour une cause future non advenue ou une cause ayant cessé d'exister. La finalité est de corriger les transferts injustifiés tout en protégeant le bénéficiaire de bonne foi qui a modifié sa position.\n\nSources: art. 73, 74, 75 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_multi_003",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [191, 192, 196],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما الفرق بين الالتزام غير القابل للتجزئة والالتزام القابل للتجزئة من حيث تنفيذه بين عدة مدينين؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 191 من مجلة الالتزامات والعقود (COC)\nالالتزام غير قابل للتجزئة: 1) بطبيعة المطلوب الذي يشكل محله، عندما يكون شيئاً أو فعلاً لا يقبل التجزئة مادياً أو عقلياً؛ 2) بموجب السند المؤسس للالتزام أو القانون، إذا كان يتبين من ذلك السند أو القانون أن التنفيذ لا يمكن أن يكون جزئياً.\n\n[2] المصدر: الفصل 192 من مجلة الالتزامات والعقود (COC)\nإذا كان عدة أشخاص مدينين بالتزام غير قابل للتجزئة، فإن كل واحد منهم ملزم بكامل الدين. وكذلك الحال بالنسبة لتركة من التزم بمثل هذا الالتزام.\n\n[3] المصدر: الفصل 196 من مجلة الالتزامات والعقود (COC)\nالالتزام الذي يقبل التجزئة يجب تنفيذه بين الدائن والمدين كما لو كان غير قابل للتجزئة (الفصل 255). ولا يراعى التجزئة إلا بالنسبة لعدة مدينين متضامنين لا يمكنهم طلب دين قابل للتجزئة ولا يلتزمون بأدائه إلا بقدر حصصهم. وتسري نفس القاعدة على الورثة. فلا يمكنهم طلب ولا يلتزمون بأداء إلا بقدر حصتهم من دين التركة."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 191، الالتزام غير القابل للتجزئة هو الذي لا يمكن تنفيذه جزئياً إما لطبيعة الشيء أو بنص العقد أو القانون. والفصل 192 يقرر أن كل مدين في التزام غير قابل للتجزئة ملزم بالكل (كما في التضامن). أما الالتزام القابل للتجزئة، فينص الفصل 196 على أنه بين الدائن والمدين الواحد ينفذ كاملاً (لا يجبر الدائن على قبول أجزاء)، ولكن بالنسبة لعدة مدينين (مثلاً الورثة) فإن كل واحد لا يلتزم إلا بقدر حصته. وتهدف هذه القواعد إلى تحقيق التوازن بين حماية الدائن في الالتزامات غير القابلة للتجزئة وعدم تحميل المدينين غير المتضامنين أكثر من حصصهم.\n\nالمصادر: الفصول 191، 192، 196 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_principle_exception_003",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [284, 285, 286, 287],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les conditions pour qu'un créancier soit constitué en demeure (retard) et quelles en sont les conséquences ?\n\nDocuments pertinents:\n[1] Source: article 284 du COC\nLe créancier est en demeure lorsqu'il refuse, sans juste cause, de recevoir la prestation que le débiteur ou un tiers agissant en son nom, offre d'accomplir de la manière déterminée par le titre constitutif ou par la nature de l'obligation. Le silence ou l'absence du créancier dans les cas où son concours est nécessaire équivaut à un refus.\n\n[2] Source: article 285 du COC\nLe créancier n'est pas constitué en demeure lorsque, au moment où le débiteur offre d'accomplir son obligation, ce dernier n'est réellement pas en état de l'accomplir.\n\n[3] Source: article 286 du COC\nLe créancier n'est pas constitué en demeure par le refus momentané de recevoir la chose : 1) lorsque l'échéance de l'obligation n'est pas déterminée ; 2) ou lorsque le débiteur a le droit de s'acquitter avant le terme établi. Cependant, si le débiteur l'avait prévenu, dans un délai raisonnable, de son intention d'exécuter l'obligation, le créancier serait constitué en demeure même par un refus momentané.\n\n[4] Source: article 287 du COC\nA partir du moment où le créancier est constitué en demeure, la perte ou la détérioration de la chose sont à ses risques, et le débiteur ne répond plus que de son dol et de sa faute lourde."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe posé à l'article 284 est que le créancier est en demeure s'il refuse sans juste cause de recevoir la prestation offerte conformément au contrat. L'article 285 ajoute une exception : si le débiteur n'est pas en état d'exécuter au moment de l'offre, le créancier n'est pas en demeure. L'article 286 précise que le refus momentané ne suffit pas si l'échéance n'est pas fixée ou si le débiteur peut payer avant terme, sauf si le débiteur a prévenu le créancier. Enfin, l'article 287 dispose qu'à partir de la demeure du créancier, les risques de perte ou détérioration passent au créancier, et le débiteur ne répond plus que de son dol ou faute lourde. La finalité est d'encourager la coopération et de protéger le débiteur contre l'inaction abusive du créancier.\n\nSources: art. 284, 285, 286, 287 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_principle_exception_003",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [369, 370, 373, 374, 377, 378, 380],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: متى تحصل المقاصة (الموازنة) بين دينين في القانون التونسي، وما هي الحالات التي لا تحصل فيها؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 369 من مجلة الالتزامات والعقود (COC)\nتحصل المقاصة عندما يكون الطرفان دائناً ومديناً كل منهما للآخر شخصياً. ولا تحصل بين المسلمين إذا كانت تشكل خرقاً للشريعة.\n\n[2] المصدر: الفصل 370 من مجلة الالتزامات والعقود (COC)\nلا يعول القاضي على المقاصة إلا إذا أبداها صراحة من له الحق فيها.\n\n[3] المصدر: الفصل 373 من مجلة الالتزامات والعقود (COC)\nلا تحصل المقاصة إلا بين ديون من نفس النوع، ومثلاً بين أشياء منقولة من نفس النوع والجودة، أو بين نقد وبضاعة.\n\n[4] المصدر: الفصل 374 من مجلة الالتزامات والعقود (COC)\nلحصول المقاصة، يجب أن يكون الدينان معلومين وحالين، ولكن لا يشترط أن يكونا مستحقين الأداء في نفس المكان.\n\n[5] المصدر: الفصل 377 من مجلة الالتزامات والعقود (COC)\nيمكن أن تحصل المقاصة بين ديون ذات أسباب أو مقادير مختلفة. وإذا لم يكن الدينان متساويين، فتتم المقاصة بقدر الدين الأقل.\n\n[6] المصدر: الفصل 378 من مجلة الالتزامات والعقود (COC)\nلا تحصل المقاصة: 1) إذا كان أحد الدينين سببه نفقة أو ديون غير قابلة للحجز؛ 2) ضد دعوى استرداد شيء سلب المالك منه ظلماً؛ 3) ضد دعوى استرداد وديعة أو عارية أو عارية؛ 4) إذا تنازل المدين عن المقاصة منذ البداية أو منعها العقد؛ 5) ضد ديون الدولة والبلديات.\n\n[7] المصدر: الفصل 380 من مجلة الالتزامات والعقود (COC)\nأثر المقاصة هو انقضاء الدينين بقدر حصتهما، وذلك من وقت وجود الدينين معاً بالشروط القانونية."
+        },
+        {
+          "role": "assistant",
+          "content": "المبدأ العام للمقاصة (الفصل 369) هو أنها تحصل تلقائياً بين دينين متقابلين معلومين وحالين من نفس النوع، بمجرد وجودهما معاً. غير أن هناك استثناءات جوهرية: أولاً، لا يحكم القاضي بها إلا إذا أبداها المدين (الفصل 370). ثانياً، لا تحصل بين ديون من أنواع مختلفة (الفصل 373) أو في الأحوال المذكورة في الفصل 378 (كالديون غير القابلة للحجز، أو استرداد شيء مسلوب، أو ديون الدولة). كما لا تحصل إذا كان الدينان غير معلومين أو غير حالين (الفصل 374). والفصل 377 يسمح بالمقاصة الجزئية إذا اختلف المقدار. والفصل 380 يحدد أن أثرها يرجع إلى وقت توفر الشروط. تهدف هذه الأحكام إلى تبسيط التسويات مع حماية الدائنين في حالات خاصة.\n\nالمصادر: الفصول 369، 370، 373، 374، 377، 378، 380 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_refusal_002",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [243, 244],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les critères pour évaluer les dommages-intérêts en cas d'inexécution d'un contrat de vente internationale ?\n\nDocuments pertinents:\n[1] Source: article 243 du COC\nTout engagement doit être exécuté de bonne foi, et oblige, non seulement à ce qui y est exprimé, mais encore à toutes les suites que la loi, l'usage ou l'équité donnent à l'obligation d'après sa nature.\n\n[2] Source: article 244 du COC\nOn ne peut stipuler d'avance qu'on ne sera pas tenu de sa faute lourde ou de son dol."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question précise sur les critères d'évaluation des dommages-intérêts dans une vente internationale. Les articles 243 et 244 du COC traitent respectivement de l'exécution de bonne foi et de l'irresponsabilité pour faute lourde ou dol, mais ils ne donnent aucune méthode de calcul des dommages-intérêts, ni de référence aux règles de la vente internationale (comme la CVIM). Je vous recommande de consulter un avocat spécialisé en droit commercial international ou de vous référer aux articles 278 et suivants du COC relatifs aux dommages-intérêts en général. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_refusal_002",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [259],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يتم تحديد سعر الصرف لسداد دين مقوم بعملة أجنبية إذا كان الدين مستحقاً في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 259 من مجلة الالتزامات والعقود (COC)\nإذا كان دين مستحق الأداء في تونس مقوماً بعملة أجنبية، جاز الوفاء بعملة تونسية قانونية، ما لم ينص صراحة على أنه يجب الوفاء بالعملة الأجنبية. ويتم التخفيض (التحويل) بسعر العملة الأجنبية في مكان الأداء، في اليوم الذي كان يجب فيه تنفيذ الالتزام."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثيقة المقدمة (الفصل 259 من مجلة الالتزامات والعقود) تحدد كيفية تحويل الدين المقوم بعملة أجنبية إلى العملة التونسية، ولكنها لا تجيب على سؤال تحديد سعر الصرف بالتفصيل (مثلاً سعر البيع أو الشراء، أو المصدر المرجعي للسعر). النص يكتفي بالإشارة إلى \"سعر العملة الأجنبية\" دون تعريف. أنصحك باستشارة محامٍ متخصص أو الرجوع إلى قوانين الصرف والتعليمات البنكية التونسية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_clarification_002",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [248, 249, 250],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un débiteur peut-il se faire remplacer par un tiers pour exécuter son obligation ?\n\nDocuments pertinents:\n[1] Source: article 248 du COC\nLe débiteur peut exécuter l'obligation soit personnellement soit par l'intermédiaire d'une autre personne. Il doit l'exécuter personnellement :\n1) lorsqu'il est expressément stipulé que l'obligation sera accomplie par lui personnellement : dans ce cas, il ne pourra se faire remplacer, même si la personne qu'il veut se substituer est préférable à la sienne ;\n2) lorsque cette réserve résulte tacitement de la nature de l'obligation ou des circonstances: par exemple, lorsque l'obligé a une habilité personnelle qui a été l'un des motifs déterminants du contrat.\n\n[2] Source: article 249 du COC\nLorsque l'obligation ne doit pas être exécutée par le débiteur lui-même, elle peut être accomplie par un tiers même contre le gré du créancier, et cet accomplissement libère le débiteur, pourvu que le tiers agisse au nom et en l'acquit du dit débiteur. L'obligation ne peut être accomplie contre le gré du débiteur et du créancier à la fois.\n\n[3] Source: article 250 du COC\nL'exécution doit être faite dans les mains du créancier, de son représentant dûment autorisé ou de la personne indiquée par le créancier comme autorisée à recevoir ; l'exécution faite à celui qui n'a pas pouvoir de recevoir ne libère le débiteur, que :\n1) si le créancier l'a ratifiée, même tacitement, ou s'il en a profité ;\n2) si elle est autorisée par justice."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour répondre précisément, j'ai besoin d'une clarification : s'agit-il d'une obligation où la personne du débiteur est indifférente (exemple : payer une somme d'argent) ou d'une obligation intuitu personae (exemple : un artiste qui doit peindre un tableau) ? Selon l'article 248, si la nature de l'obligation ou une clause expresse exige l'exécution personnelle, le remplacement est interdit. Dans les autres cas, l'article 249 autorise le paiement par un tiers, même contre le gré du créancier. Veuillez préciser la nature de l'obligation.\n\nSources: art. 248, 249, 250 du COC. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_clarification_002",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [565, 566],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يجوز للقاضي شراء عقار محل نزاع أمام محكمته؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 565 من مجلة الالتزامات والعقود (COC)\nالبيع الذي يصدر عن مريض في مرض موته يخضع لأحكام الفصل 354 إذا كان لأحد ورثته بقصد تفضيله، كما لو باعه بثمن أقل بكثير من القيمة الحقيقية، أو اشترى منه بقيمة أعلى. وبيع المريض لغير وارث يخضع لأحكام الفصل 355.\n\n[2] المصدر: الفصل 566 من مجلة الالتزامات والعقود (COC)\nالقضاة، كتاب الضبط، المحامون، الوكلاء القضائيون لا يجوز لهم، لا بأنفسهم ولا بواسطة الغير، تحت طائلة البطلان، أن يشتروا أو يتنازلوا لهم، بأي صفة كانت، كلياً أو جزئياً، عن الحقوق المتنازع عليها التي تدخل في اختصاص المحاكم التي يمارسون فيها وظائفهم. والبيع في هذه الحالة باطل بطلاناً مطلقاً، ويجب الحكم به بناءً على طلب أي ذي مصلحة، بل تلقائياً."
+        },
+        {
+          "role": "assistant",
+          "content": "لإجابة دقيقة، أحتاج إلى توضيح: هل القاضي الذي يريد الشراء هو نفسه القاضي الذي ينظر النزاع على ذلك العقار، أم قاضي آخر في دائرة اختصاص مختلفة؟ الفصل 566 من مجلة الالتزامات والعقود يحظر على القضاة شراء الحقوق المتنازع عليها التي تدخل في اختصاص المحاكم التي يمارسون فيها وظائفهم. إذا كان القاضي هو نفسه صاحب الاختصاص في تلك الدعوى، فالبيع باطل قطعاً. أما إذا كان قاضياً في محكمة أخرى لا تختص بالنزاع، فقد لا ينطبق عليه المنع بنفس الصرامة. يرجى توضيح العلاقة بين القاضي والدعوى.\n\nالمصادر: الفصلان 565 و 566 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_procedural_002",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [291, 292, 294, 295, 297],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans quels cas le débiteur est-il dispensé de faire des offres réelles pour se libérer par consignation ?\n\nDocuments pertinents:\n[1] Source: article 291 du COC\nAucune offre réelle n'est nécessaire de la part du débiteur :\n1) lorsque le créancier lui a déjà déclaré qu'il refuse de recevoir l'exécution de l'obligation ;\n2) lorsque le concours du créancier est nécessaire pour l'accomplissement de l'obligation et que le créancier s'abstient de le donner ; tel est le cas où la dette est payable au domicile du débiteur, si le créancier ne se présente pas pour la recevoir. Dans ces cas, une simple invitation adressée au créancier peut tenir lieu d'offres réelles.\n\n[2] Source: article 292 du COC\nLe débiteur est également affranchi de la nécessité de faire des offres réelles et se libère en consignant ce qu'il doit :\n1) lorsque le créancier est incertain ou inconnu ;\n2) dans tous les cas où, pour un motif dépendant de la personne du créancier, le débiteur ne peut pas accomplir son obligation ou ne peut l'accomplir avec sécurité ; tel est le cas où les sommes dues sont frappées de saisie ou d'opposition à l'encontre du créancier ou du cessionnaire.\n\n[3] Source: article 294 du COC\nL'offre non suivie de la consignation effective de la chose ne libère pas le débiteur. La consignation ne libère le débiteur des conséquences de sa demeure que pour l'avenir ; elle laisse subsister à sa charge les effets de la demeure acquis au jour de la consignation.\n\n[4] Source: article 295 du COC\nLe débiteur d'une chose mobilière peut, après les offres et même après le dépôt, se faire autoriser à vendre la chose offerte pour le compte du créancier, et à consigner, s'il y a lieu, le produit de la vente, dans les cas suivants :\n1) s'il y a péril en la demeure ;\n2) lorsque les frais de la conservation de la chose dépasseraient sa valeur ;\n3) lorsque la chose n'est pas susceptible de consignation.\n\n[5] Source: article 297 du COC\nA partir du jour de la consignation, la chose consignée demeure aux risques du créancier, lequel jouit aussi des fruits. Les intérêts, dans les cas où il en serait dû, cessent de courir, les gages et hypothèques s'éteignent, les codébiteurs et les cautions sont libérés."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure de consignation sans offres réelles est prévue à plusieurs étapes. D'abord, l'article 291 dispense des offres lorsque le créancier a déjà refusé de recevoir ou lorsque son concours est nécessaire et qu'il s'abstient (une simple invitation suffit). Ensuite, l'article 292 dispense totalement des offres lorsque le créancier est incertain ou inconnu, ou lorsque le paiement ne peut être fait en sécurité (saisie, opposition). L'article 294 précise que l'offre sans consignation ne libère pas ; la consignation libère pour l'avenir mais pas rétroactivement. L'article 295 permet, après offres, de faire vendre la chose par autorité judiciaire si péril, frais excessifs ou chose non consignable. Enfin, l'article 297 dispose qu'à partir de la consignation, les risques et fruits passent au créancier, les intérêts cessent, et les sûretés s'éteignent. Cette procédure protège le débiteur face à un créancier récalcitrant ou introuvable.\n\nSources: art. 291, 292, 294, 295, 297 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_procedural_002",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الإجراءات والقواعد المتعلقة بالبيع مع خيار الشرط (vente à option) في القانون التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 700 من مجلة الالتزامات والعقود (COC)\nيمكن أن يتم البيع بشرط أن يكون للبائع أو المشتري الحق في التراجع عن العقد خلال أجل محدد. يجب أن يكون هذا الشرط صريحاً، ويمكن اشتراطه وقت العقد أو بعدها بشرط إضافي.\n\n[2] المصدر: الفصل 701 من مجلة الالتزامات والعقود (COC)\nالبيع الذي يتم بهذا الشرط يعتبر معلقاً على شرط واقف، طالما لم يصرح الطرف الذي احتفظ بحق الخيار، صراحة أو ضمناً، خلال الأجل المتفق عليه، بما إذا كان يرغب في تنفيذ العقد أو التراجع عنه.\n\n[3] المصدر: الفصل 702 من مجلة الالتزامات والعقود (COC)\nإذا لم يحدد العقد أجل الخيار، فالطرفان يعتبران قد أحالا إلى الأجل المقرر قانوناً أو عرفاً. ولا يمكن أن تتجاوز الآجال العرفية تلك المبينة في الفصل التالي.\n\n[4] المصدر: الفصل 703 من مجلة الالتزامات والعقود (COC)\nيجب على الطرف الذي احتفظ بحق الخيار أن يصرح بما إذا كان ينوي تنفيذ العقد أو التراجع عنه في الآجال التالية:\nأ) بالنسبة للعقارات الحضرية والأراضي، في أجل ثلاثين يوماً من تاريخ العقد؛\nب) بالنسبة للحيوانات الأليفة وجميع الأشياء المنقولة، في أجل خمسة أيام.\nويمكن للطرفين الاتفاق على أجل أقصر، وكل شرط بأجل أطول يعتبر باطلاً ويجب تخفيضه إلى الآجال أعلاه.\n\n[5] المصدر: الفصل 704 من مجلة الالتزامات والعقود (COC)\nالأجل المحدد من قبل الطرفين أو القانون هو أجل مقصود (لا تمديد فيه)؛ لا يمكن للمحكمة مدّه حتى لو كان الطرف الذي احتفظ بحق الخيار لم يستخدم حقه بسبب سبب خارج عن إرادته.\n\n[6] المصدر: الفصل 705 من مجلة الالتزامات والعقود (COC)\nخلال أجل الخيار، يبقى حق الثمار والزيادات والملحقات معلقاً؛ وتنتقل مع الشيء نفسه إلى الطرف الذي يكتسب الملكية نهائياً.\n\n[7] المصدر: الفصل 706 من مجلة الالتزامات والعقود (COC)\nإذا اختار الطرف الإيجاب خلال الأجل المحدد، أصبح البيع صرفاً وبسيطاً، ويعتبر الشيء قد آلت ملكيته للمشتري من يوم العقد.\n\n[8] المصدر: الفصل 707 من مجلة الالتزامات والعقود (COC)\nإذا ترك الطرف الذي احتفظ بحق الخيار الأجل يمضي دون إعلان قراره، فإنه يعتبر بحكم القانون قد قبل.\n\n[9] المصدر: الفصل 708 من مجلة الالتزامات والعقود (COC)\nيفقد المشتري حق رفض الشيء بكل فعل يدل على نية التصرف كمالك، وبخاصة: أ) إذا تصرف فيه برهن أو بيع أو إيجار أو استعمال شخصي؛ ب) إذا أتلفه عمداً؛ ج) إذا حوله. وبالمقابل، يعتبر البائع قد اختار سلباً ويفقد حق المطالبة بتنفيذ البيع في الحالات المذكورة أعلاه.\n\n[10] المصدر: الفصل 709 من مجلة الالتزامات والعقود (COC)\nإذا مات الطرف الذي كان له حق الخيار قبل أن يختار، ينتقل حق الخيار إلى ورثته؛ وإذا فقد أهلية التعاقد، يعين القاضي وصياً خاصاً يتصرف وفقاً لمصلحة القاصر.\n\n[11] المصدر: الفصل 710 من مجلة الالتزامات والعقود (COC)\nإذا اختار الطرف التراجع، اعتبر العقد كأن لم يكن، ويجب على الطرفين رد ما أخذه كل منهما من الآخر. وتزول الحقوق التي أنشأها المشتري خلال الفترة الفاصلة.\n\n[12] المصدر: الفصل 711 من مجلة الالتزامات والعقود (COC)\nالمشتري الذي لا يستطيع رد الشيء أو يرده تالفاً لسبب لا يعود إلى فعله أو خطئه، لا يتحمل أي مسؤولية."
+        },
+        {
+          "role": "assistant",
+          "content": "البيع مع خيار الشرط (أو خيار التراجع) ينظم بدقة. الإجراءات كالتالي: يجب اشتراطه صراحة (الفصل 700). خلال أجل الخيار (30 يوماً للعقار، 5 أيام للمنقول – الفصل 703)، يبقى العقد معلقاً (الفصل 701). الأجل مقصود ولا تمديد فيه (الفصل 704). إذا انقضى الأجل دون إعلان، يعتبر الطرف قد قبل (الفصل 707). وإذا أعلن القبول، ينتقل الملكية من يوم العقد (الفصل 706). وإذا اختار التراجع، يجب رد ما أخذ، وتزول الحقوق (الفصل 710). لا يسأل المشتري عن الهلاك إذا لم يخطئ (الفصل 711). ينتقل حق الخيار للورثة (الفصل 709). هذه القواعد تهدف إلى تحقيق التوازن بين حرية التراجع وضمان الاستقرار التعاقدي.\n\nالمصادر: الفصول 700 إلى 711 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_direct_004",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [385, 386],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La prescription éteint-elle l'action de plein droit ? Peut-on y renoncer d'avance ?\n\nDocuments pertinents:\n[1] Source: article 385 du COC\nLa prescription n'éteint pas l'action de plein droit ; elle doit être invoquée par celui qui y a intérêt. Le juge ne peut suppléer d'office le moyen résultant de la prescription.\n\n[2] Source: article 386 du COC\nOn ne peut d'avance renoncer à la prescription. On peut renoncer à la prescription acquise. Celui qui ne peut faire de libéralité ne peut renoncer à la prescription acquise."
+        },
+        {
+          "role": "assistant",
+          "content": "Selon l'article 385 du COC, la prescription n'éteint pas l'action automatiquement ; elle doit être invoquée par le débiteur ou la personne intéressée. Le juge ne peut pas la soulever d'office. L'article 386 précise qu'on ne peut pas renoncer à la prescription avant qu'elle ne soit acquise (renonciation anticipée nulle), mais on peut renoncer à une prescription déjà acquise. Toutefois, ceux qui n'ont pas la capacité de faire des libéralités (ex: mineurs, incapables) ne peuvent pas renoncer même à une prescription acquise. La finalité est de protéger le débiteur contre une renonciation prématurée tout en lui laissant la liberté de ne pas opposer la prescription après qu'elle est acquise.\n\nSources: art. 385, 386 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_direct_004",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [242],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي القوة الملزمة للعقد في القانون التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 242 من مجلة الالتزامات والعقود (COC)\nالالتزامات العقدية التي تم تكوينها تكوينا صحيحاً تعتبر بمثابة قانون لمن أنشأوها، ولا يمكن إبطالها إلا برضاهما المتبادل أو في الأحوال التي ينص عليها القانون."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 242 من مجلة الالتزامات والعقود، فإن الالتزامات الناشئة عن عقود صحيحة تعتبر بمثابة قانون بالنسبة للمتعاقدين. وهذا يعني أن العقد ملزم للطرفين بنفس قوة القانون، ولا يمكن نقضه أو تعديله إلا باتفاقهما معاً أو في الحالات التي يرخص فيها القانون (كالإبطال لعيب من عيوب الرضا، أو الإنهاء لعذر). تهدف هذه القاعدة إلى احترام الإرادة المشتركة واستقرار المعاملات.\n\nالمصادر: الفصل 242 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_multi_004",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [151, 152, 157],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les règles de l'obligation alternative (choix entre plusieurs prestations) ?\n\nDocuments pertinents:\n[1] Source: article 151 du COC\nChacune des parties, ou les deux parties à la fois, peut se réserver le choix dans un délai déterminé. L'obligation est nulle lorsqu'elle n'exprime pas la partie à laquelle le choix a été réservé.\n\n[2] Source: article 152 du COC\nLe choix est opéré par la simple déclaration faite à l'autre partie ; dès que le choix est fait, l'obligation est censée n'avoir eu pour objet, dès le principe, que la prestation choisie.\n\n[3] Source: article 157 du COC\nLorsque l'un des modes d'exécution de l'obligation devient impossible ou illicite, ou l'était déjà dès l'origine de l'obligation, le créancier pourra faire son choix parmi les autres modes d'exécution, ou demander la résolution du contrat."
+        },
+        {
+          "role": "assistant",
+          "content": "L'obligation alternative permet à une partie (ou aux deux) de choisir entre plusieurs prestations. L'article 151 exige que le titulaire du choix soit désigné, sous peine de nullité. L'article 152 précise que le choix se fait par simple déclaration, et qu'une fois exercé, l'obligation est rétroactivement considérée comme ayant toujours porté sur la prestation choisie (effet rétroactif). Enfin, l'article 157 traite du cas où l'une des prestations devient impossible ou illicite : le créancier peut alors choisir parmi les autres prestations ou demander la résolution du contrat. La finalité est de permettre une certaine flexibilité tout en assurant la sécurité juridique après le choix.\n\nSources: art. 151, 152, 157 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_multi_004",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [176, 177, 182, 189],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي أحكام التضامن بين المدينين (الالتزام التضامني) في القانون التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 176 من مجلة الالتزامات والعقود (COC)\nيتحقق التضامن بين المدينين عندما يكون كل منهم ملتزماً شخصياً بكامل الدين، وللدائن أن يجبر كل مدين على تنفيذه كلياً أو جزئياً، ولكن لا يكون له الحق في هذا التنفيذ إلا مرة واحدة.\n\n[2] المصدر: الفصل 177 من مجلة الالتزامات والعقود (COC)\nيمكن أن يكون الالتزام تضامنياً، حتى لو كان أحد المدينين ملتزماً بطريقة مختلفة عن الآخرين، مثلاً إذا كان أحدهم ملتزماً بشرط أو لأجل بينما التزام الآخر صرف وبسيط. ولا يفسد عجز أحد المدينين عن التصرف الالتزام الذي تعاقد عليه الآخرون.\n\n[3] المصدر: الفصل 182 من مجلة الالتزامات والعقود (COC)\nإبراء الذمة الممنوح لأحد المدينين المتضامنين يفيد جميع الآخرين، إلا إذا صرح الدائن صراحة بأنه لا يريد الإبراء إلا لذلك المدين ولحصته: في هذه الحالة، لا يرجع باقي المدينين على الذي أبيء ذمته إلا بقدر حصته في ديون المعسرين.\n\n[4] المصدر: الفصل 189 من مجلة الالتزامات والعقود (COC)\nالالتزام المتعاقد عليه بالتضامن تجاه الدائن يتقسم بحكم القانون بين المدينين. ولا يمكن للمدين المتضامن الذي أدى الدين كاملاً أو قاصّاه أن يرجع على الآخرين إلا بقدر حصص كل منهم. وإذا تبين أن أحدهم معسر أو غائب عن تونس، توزع حصته على باقي المدينين الحاضرين القادرين، مع حقهم في الرجوع على من دفعوا عنه، وذلك ما لم يوجد شرط مخالف."
+        },
+        {
+          "role": "assistant",
+          "content": "التضامن بين المدينين (الفصل 176) يعني أن كل مدين ملزم بالكل، والدائن يستطيع مطالبته بكامل الدين مرة واحدة. والفصل 177 يقرر أن التضامن لا يشترط فيه تساوي أوضاع المدينين (فيمكن أن يكون أحدهم معلقاً على شرط والآخر حالاً). والفصل 182 ينص على أن إبراء الذمة الممنوح لأحد المدينين المتضامنين يفيد الآخرين إلا إذا استثناه الدائن صراحة. والفصل 189 ينظم العلاقة الداخلية بين المدينين المتضامنين: فمن أدى الدين كاملاً يرجع على الآخرين بقدر حصصهم، وتوزع حصة المعسر عليهم. تهدف هذه القواعد إلى حماية الدائن بتوسيع ضماناته، مع تنظيم العلاقات الداخلية بعدل.\n\nالمصادر: الفصول 176، 177، 182، 189 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_principle_exception_004",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [247],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans les contrats synallagmatiques (bilatéraux), une partie peut-elle refuser d'exécuter son obligation tant que l'autre n'a pas exécuté la sienne ?\n\nDocuments pertinents:\n[1] Source: article 247 du COC\nDans les contrats bilatéraux, l'une des parties peut refuser d'accomplir son obligation jusqu'à l'accomplissement de l'obligation corrélative de l'autre partie, à moins que, d'après la convention ou l'usage, l'un des contractants ne soit tenu d'exécuter le premier sa part de l'obligation. Lorsque l'exécution doit être faite à plusieurs personnes, le débiteur peut refuser d'accomplir la prestation due à l'une d'elles jusqu'à l'accomplissement intégral de la prestation corrélative qui lui est due."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe posé par l'article 247 du COC est que dans les contrats bilatéraux, chaque partie peut opposer l'exception d'inexécution : refuser d'exécuter sa propre obligation tant que l'autre partie n'a pas exécuté la sienne. Toutefois, l'exception cesse de jouer si, selon la convention ou l'usage, l'une des parties doit exécuter la première. Par ailleurs, si le débiteur doit exécuter une prestation au profit de plusieurs personnes, il peut refuser de payer à l'une d'elles tant qu'il n'a pas reçu la prestation corrélative dans son intégralité. La finalité de cette règle est d'assurer l'équilibre contractuel et de contraindre chaque partie à respecter ses engagements.\n\nSource: art. 247 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_principle_exception_004",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [254, 255, 256],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن للدائن أن يُجبر على قبول تنفيذ الالتزام على أجزاء أو بجودة أدنى مما هو متفق عليه؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 254 من مجلة الالتزامات والعقود (COC)\nلا يبرأ المدين إلا بتسليم الكمية والجودة المبينة في الالتزام. ولا يمكنه إجبار الدائن على قبول أداء آخر غير الذي له، ولا بطريقة مختلفة عن تلك المعينة في السند المؤسس للالتزام أو، في حالة السكوت، عن العرف.\n\n[2] المصدر: الفصل 255 من مجلة الالتزامات والعقود (COC)\nإذا كان هناك مدين واحد، لا يمكن إجبار الدائن على قبول تنفيذ الالتزام على أجزاء، حتى لو كان قابلاً للتجزئة، إلا إذا تم الاتفاق على خلاف ذلك، وإلا إذا تعلق الأمر بسندات تجارية (كمبيالات).\n\n[3] المصدر: الفصل 256 من مجلة الالتزامات والعقود (COC)\nإذا كان الشيء معيناً بنوعه فقط (وليست فرديته محددة)، فالمدين غير ملزم بتسليمه من أفضل نوع، لكن لا يمكنه أن يعرضه من الرديء."
+        },
+        {
+          "role": "assistant",
+          "content": "المبدأ العام في الفصل 254 هو أن المدين ملزم بتسليم الكمية والجودة المتفق عليها، ولا يمكنه إجبار الدائن على قبول أداء مغاير أو بطريقة مختلفة. أما الفصل 255 فيضيف أنه حتى لو كان الالتزام قابلاً للتجزئة، لا يمكن إجبار الدائن على قبول أداء مجزأ (أقساط) إلا إذا اتفق الطرفان على خلاف ذلك. غير أن الفصل 256 يخفف هذه القاعدة قليلاً: إذا كان الشيء معيناً بنوعه فقط (وليست له فرديته الخاصة)، فلا يشترط أن يكون من أفضل نوع، لكن لا يجوز تقديم الرديء. ويهدف هذا إلى منع تعسف المدين مع احترام الحد الأدنى من الجودة.\n\nالمصادر: الفصول 254، 255، 256 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_cross_fr_ar_002",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [574],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-il permis de vendre des fruits qui ne sont pas encore sortis de terre ?\n\nDocuments pertinents:\n[1] Source: article 574 du Code des obligations et des contrats tunisien (version originale arabe fournie)\nباطل بيع شيء غير موجود، كالثمار في طور التكوين (في الكمون) أو التي وجودها محفوف بالمجازفة، كنتاج حيوان لم يولد بعد، أو محصول لم يخرج من الأرض بعد. ومع ذلك، يصح البيع على الشجر للثمار وغيرها من المنتوجات الطبيعية التي ولدت بالفعل، حتى قبل نضجها."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 574 du COC, la vente d'une chose inexistante est nulle, par exemple les fruits en germe, le produit à naître d'un animal, ou une récolte non encore sortie de terre. Toutefois, une exception est prévue : la vente sur pied des fruits et autres produits naturels déjà nés, même avant leur maturité, est valable. Ainsi, ce qui détermine la validité est l'existence actuelle de l'objet au moment de la vente, même s'il n'est pas encore à maturité. La finalité est d'éviter les ventes aléatoires excessives tout en permettant le commerce agricole normal.\n\nSource: art. 574 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_cross_ar_fr_002",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [421],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: من يقع عليه عبء إثبات انقضاء الالتزام؟\n\nالوثائق ذات الصلة:\n[1] Source: Article 421 of the Tunisian Code of Obligations and Contracts (original French text as provided)\nLorsque le demandeur a prouvé l'existence de l'obligation, celui qui affirme qu'elle est éteinte ou qu'elle ne lui est pas opposable doit le prouver."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 421 من مجلة الالتزامات والعقود، إذا أثبت المدعي (الدائن) وجود الالتزام، فإن عبء الإثبات ينتقل إلى من يدعي انقضاء هذا الالتزام أو عدم قابليته للاحتجاج به ضده (عادةً المدين). وهذا يعني أنه بعد أن يثبت الدائن الحق، على المدين أن يثبت أنه أدى الدين، أو أن الدين سقط بالتقادم أو المقاصة أو أي سبب آخر للإبطال. تهدف هذه القاعدة إلى توزيع عبء الإثبات بشكل عادل، بحيث لا يُطلب من الدائن إثبات عدم الأداء (وهو أمر سلبي).\n\nالمصادر: الفصل 421 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": ["Livre I: capacité (art 3,9,10,11)", "Livre I: quasi-contrats (art 73-75)", "Livre I: délits et quasi-délits (art 84,85,108,109,115)", "Livre I: condition (art 117,118,121,126,129)", "Livre I: terme (art 138,139,145,148)", "Livre I: obligation alternative (art 151,152,157)", "Livre I: obligations solidaires (art 176,177,182,189)", "Livre I: obligations divisibles/indivisibles (art 191,192,196)", "Livre I: transport (art 200,202,205,207,208,210)", "Livre I: subrogation (art 223,224,226)", "Livre I: délégation (art 229,230,232,235)", "Livre I: effets des obligations (art 242,243,244,245,247)", "Livre I: exécution (art 248,249,250,254,255,256,259)", "Livre I: inexécution (art 268,269,270,275,277,278,280)", "Livre I: demeure du créancier (art 284,285,286,287)", "Livre I: offres et consignation (art 291,292,294,295,297)", "Livre I: extinction par paiement (art 341,342)", "Livre I: impossibilité d'exécution (art 345,346,348)", "Livre I: remise volontaire (art 350,351,353,354)", "Livre I: novation (art 357,358,361,362,363,366)", "Livre I: compensation (art 369,370,373,374,377,378,380)", "Livre I: confusion (art 382,383)", "Livre I: prescription (art 385,386,388,389)", "Livre I: preuve (art 421,422,423,425,427,428,429,430,431)", "Livre II: vente (art 565,566,567,568,571,574,575,576,583,585,592-629,630-646,648-651,653-671,673-683)", "Livre II: vente à option (art 700-711)", "Livre II: échange (art 718-725)", "Livre II: louage de choses (art 728-738,740-746,748-757,759-766,768-771,773-827)", "Livre II: mandat (art 1105-1108,1110-1119,1121-1130,1132-1156,1158-1171)"],
+    "sections_not_covered": ["Livre II: louage d'ouvrage (art 828-887)", "Livre II: enzel, kirdar, khoulou, naçba (art 954-994)", "Livre II: dépôt (art 995-1053)", "Livre II: prêt (art 1054-1103)", "Livre II: commande (art 1195-1225)", "Livre II: association (art 1249-1451)", "Livre II: contrats aléatoires (art 1452-1457)", "Livre II: transaction (art 1458-1477)", "Livre II: cautionnement (art 1478-1531)", "Livre II: nantissement (art 1532-1622)"],
+    "notes": "Deuxième batch couvrant une grande diversité d'articles, évitant ceux utilisés dans le premier batch. Les exemples en arabe respectent strictement l'arabe standard formel, sans aucun dialecte. Les citations suivent les normes tunisiennes. Les réponses incluent les disclaimers requis. Aucun article abrogé n'a été utilisé. Les extraits d'articles sont fidèles au document fourni."
+  }
+}

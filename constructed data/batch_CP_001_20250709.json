@@ -1,0 +1,436 @@
+{
+  "batch_id": "batch_CP_001_20250709",
+  "source": "Code pénal tunisien",
+  "articles_covered": [1, 5, 14, 15, "15 bis", "15 ter", "15 quater", 16, 32, 33, 34, 38, 39, 40, 43, 46, 47, 50, 53, 59, 60, "60 ter", 62, 63, 64, 80, 82, 83],
+  "articles_to_avoid_next_batch": [1, 5, 14, 15, "15 bis", "15 ter", "15 quater", 16, 32, 33, 34, 38, 39, 40, 43, 46, 47, 50, 53, 59, 60, "60 ter", 62, 63, 64, 80, 82, 83],
+  "examples": [
+    {
+      "example_id": "cp_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [1],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Une nouvelle loi a été adoptée qui aggrave les peines pour l'infraction dont j'ai été accusé il y a six mois. Mon procès n'a pas encore eu lieu. Est-ce qu'on peut m'appliquer cette nouvelle loi ?\n\nDocuments pertinents:\n[1] Source: article premier du Code pénal tunisien\nNul ne peut être puni qu'en vertu d'une disposition d'une loi antérieure.\nSi, après le fait, mais avant le jugement définitif, il intervient une loi plus favorable à l'inculpé, cette loi est seule appliquée."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article premier du Code pénal tunisien [1], nul ne peut être puni qu'en vertu d'une loi antérieure. De plus, lorsqu'une loi intervient après les faits mais avant le jugement définitif, elle n'est appliquée que si elle est plus favorable à l'inculpé. Une loi qui aggrave les peines ne saurait donc vous être appliquée rétroactivement. Seule une loi plus douce pourrait l'être.\nSources: art. 1er du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [14],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je prépare un cours sur les peines en droit pénal tunisien. Quelle est la durée minimale de l'emprisonnement selon qu'il s'agit d'un crime, d'un délit ou d'une contravention ?\n\nDocuments pertinents:\n[1] Source: article 14 du Code pénal tunisien (modifié par le décret du 15 septembre 1923)\nLa condamnation à l'emprisonnement est prononcée pour cinq années au moins quand l'infraction est considérée comme crime, aux termes de l'article 122 du Code de Procédure Pénale. Elle est prononcée pour seize jours au moins quand l'infraction constitue un délit et pour un jour au moins quand elle constitue une contravention. La peine d'un jour d'emprisonnement est de vingt quatre heures, celle d'un mois est de trente jours."
+        },
+        {
+          "role": "assistant",
+          "content": "Aux termes de l'article 14 du Code pénal tunisien [1], la durée minimale de l'emprisonnement varie selon la qualification de l'infraction : cinq ans pour un crime, seize jours pour un délit, et un jour (soit vingt-quatre heures) pour une contravention.\nSources: art. 14 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_003",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [15, "15 bis", "15 ter"],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un de mes employés a été condamné à six mois de prison ferme pour vol simple. Le tribunal a évoqué la possibilité de remplacer cette peine par du travail d'intérêt général. Dans quels cas est-ce possible et quelles sont les conditions ?\n\nDocuments pertinents:\n[1] Source: article 15 bis du Code pénal tunisien (ajouté par la loi n° 99-89 du 2 août 1999, modifié par la loi n° 2009-68 du 12 août 2009)\nDans le cas où le tribunal prononce une peine de prison ferme d'une durée ne dépassant pas un an, il peut la remplacer dans le même jugement par une peine de travail d'intérêt général non rémunéré et pour une durée ne dépassant pas les six cents heures sur la base de deux heures pour chaque jour de prison.\nCette peine est prononcée pour toutes les infractions et les délits sanctionnés par une peine d'emprisonnement ne dépassant pas la période susvisée et qui sont les délits suivants :\nConcernant les infractions d'atteinte contre les biens et les propriétés :\n- le vol,\n- l'appropriation d'une chose mobilière trouvée fortuitement,\n- dommage à la propriété d'autrui,\n- incendie involontaire.\n[...]\n\n[2] Source: article 15 ter du Code pénal tunisien (ajouté par la loi n° 99-89 du 2 août 1999, modifié par la loi n° 2009-68 du 12 août 2009)\nPour remplacer la peine d'emprisonnement par la peine de travail d'intérêt général, il est exigé que l'inculpé soit présent à l'audience, qu'il ne soit pas récidiviste et qu'il soit établi au tribunal, d'après les circonstances du fait poursuivi, l'efficacité de cette sanction pour préserver l'intégration de l'inculpé dans la vie sociale.\nLe tribunal doit informer l'inculpé de son droit de refuser le travail d'intérêt général et enregistre sa réponse.\nDans le cas d'un refus, le tribunal prononcera les autres peines prévues.\nLe tribunal fixe le délai pendant lequel le travail doit être accompli à condition qu'il ne dépasse pas les dix huit mois à partir de la date du prononcé du jugement.\nLa peine du travail d'intérêt général ne peut se cumuler avec la peine d'emprisonnement."
+        },
+        {
+          "role": "assistant",
+          "content": "Le tribunal peut effectivement remplacer une peine de prison ferme d'au plus un an par du travail d'intérêt général (TIG), non rémunéré, d'une durée maximale de six cents heures sur la base de deux heures par jour de prison (article 15 bis [1]). Le vol simple figure parmi les infractions éligibles à ce remplacement. Toutefois, l'article 15 ter [2] pose des conditions cumulatives strictes : l'inculpé doit être présent à l'audience, ne pas être récidiviste, et le tribunal doit estimer que le TIG est efficace pour préserver son intégration sociale. En outre, le tribunal est tenu d'informer l'inculpé de son droit de refuser le TIG ; en cas de refus, les peines ordinaires sont prononcées. Le travail doit être accompli dans un délai maximal de dix-huit mois à compter du jugement, et le TIG ne peut se cumuler avec l'emprisonnement. Ainsi, le législateur a voulu favoriser l'insertion sociale du condamné tout en préservant son droit au consentement.\nSources: arts. 15 bis et 15 ter du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_004",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [38, 46],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un mineur de 12 ans a commis un vol. Est-il pénalement responsable ?\n\nDocuments pertinents:\n[1] Source: article 38 du Code pénal tunisien (modifié par la loi n° 82-55 du 4 juin 1982)\nL'infraction n'est pas punissable lorsque le prévenu n'a pas dépassé l'âge de 13 ans révolus au temps de l'action, ou était en état de démence.\nLe juge peut ordonner, dans l'intérêt de la sécurité publique, la remise de l'inculpé dément à l'autorité administrative.\n\n[2] Source: article 46 du Code pénal tunisien\nSi l'âge du délinquant est incertain, le juge chargé de connaître de l'infraction est habilité à le déterminer."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 38 du Code pénal tunisien [1], l'infraction n'est pas punissable lorsque le prévenu n'a pas dépassé l'âge de 13 ans révolus au moment des faits. Un mineur de 12 ans bénéficie donc de l'irresponsabilité pénale absolue. Toutefois, il convient de noter que l'âge peut faire l'objet d'une contestation : si l'âge du délinquant est incertain, l'article 46 [2] habilite le juge à le déterminer. Par ailleurs, l'article 38 précise que le juge peut, dans l'intérêt de la sécurité publique, ordonner la remise de l'inculpé dément à l'autorité administrative — disposition qui ne s'applique pas au cas d'âge mais illustre que l'irresponsabilité n'entraîne pas nécessairement l'absence de toute mesure. Ainsi, le législateur a fixé un seuil clair de 13 ans en dessous duquel la responsabilité pénale est exclue, tout en laissant au juge le pouvoir de trancher les incertitudes sur l'âge.\nSources: arts. 38 et 46 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_005",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les peines prévues par le Code pénal pour le piratage informatique et l'accès frauduleux aux systèmes d'information ?\n\nDocuments pertinents:\n[1] Source: article 60 du Code pénal tunisien (modifié par le décret du 10 janvier 1957)\nEst coupable de trahison et puni de mort :\n1° - tout Tunisien qui aura porté les armes contre la Tunisie dans les rangs de l'ennemi,\n2° - tout Tunisien qui aura entretenu des intelligences avec une puissance étrangère, en vue de l'engager à entreprendre des hostilités contre la Tunisie ou pour lui en fournir, de quelque manière que se soit, les moyens,\n3° - tout Tunisien qui aura livré à une puissance étrangère ou à ses agents des militaires tunisiens ou des territoires, villes, forteresses, ouvrages, postes, magasins, arsenaux, matériels, munitions, navires ou avions appartenant à la Tunisie,\n4°- tout Tunisien qui, en temps de guerre, aura appelé des militaires ou des marins à passer au service d'une puissance étrangère ou leur en a facilité les moyens ou aura enrôlé des militaires pour le compte d'une puissance étrangère en guerre contre la Tunisie,\n5°- tout Tunisien, qui en temps de guerre, aura entretenu des intelligences avec une puissance étrangère ou avec ses agents, en vue de favoriser les entreprises belliqueuses de cette puissance contre la Tunisie."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code pénal tunisien, dans les extraits fournis, ne comporte pas de dispositions relatives au piratage informatique ou à l'accès frauduleux aux systèmes d'information. Je vous recommande de consulter un avocat spécialisé ou de vous référer à la loi organique n° 2004-5 du 3 août 2004 relative à la sécurité informatique."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_006",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [47, 50],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les conséquences de la récidive en droit pénal tunisien ?\n\nDocuments pertinents:\n[1] Source: article 47 du Code pénal tunisien (modifié par la loi n° 89-23 du 27 février 1989)\nEst récidiviste quiconque, après avoir été condamné pour une première infraction, en commet une deuxième avant qu'un délai de cinq ans ne soit écoulé depuis que la première peine a été subie, remise ou prescrite.\nLe délai est de dix ans, si les deux infractions emportent une peine d'emprisonnement égale ou supérieure à dix ans.\n\n[2] Source: article 50 du Code pénal tunisien (modifié par le décret du 15 septembre 1923)\nEn cas de récidive, la peine ne peut être inférieure au maximum prévu au texte de la nouvelle infraction ni supérieure à ce chiffre porté au double, sous réserve, toutefois, de l'article 53, s'il y a lieu."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question peut porter sur plusieurs aspects distincts de la récidive. S'agit-il de la définition et des délais pour être considéré comme récidiviste (article 47 [1]), de l'incidence de la récidive sur le calcul de la peine (article 50 [2]), ou des condamnations qui ne sont pas prises en compte pour la détermination de la récidive ? Pourriez-vous préciser votre interrogation ?"
+        }
+      ]
+    },
+    {
+      "example_id": "cp_007",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [53],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment fonctionne le sursis à l'exécution de la peine en droit pénal tunisien ? Quelles sont les étapes et les conséquences si le condamné commet une nouvelle infraction pendant le délai ?\n\nDocuments pertinents:\n[1] Source: article 53 du Code pénal tunisien\n13- En cas de condamnation pour délit ou en cas de condamnation à l'emprisonnement pour crime, les tribunaux peuvent, dans tous les cas où la loi ne s'y oppose pas, ordonner par le même jugement, en motivant leur décision, qu'il soit sursis à l'exécution de la peine si l'inculpé n'a pas fait l'objet de condamnation antérieure à l'emprisonnement pour crime ou délit.\nToutefois, le sursis à l'exécution ne peut être accordé en matière criminelle que si le minimum de la peine prononcée, avec application des circonstances atténuantes, ne dépasse pas deux années d'emprisonnement.\n14- Si, pendant le délai de cinq ans à dater du jugement, le condamné ne commet aucun crime ou délit suivi d'emprisonnement ou d'une peine plus grave, la condamnation est réputée non avenue.\nDans le cas contraire, la première peine est d'abord exécutée, sans qu'elle puisse se confondre avec la seconde.\n16- Le sursis à l'exécution de la peine ne comprend pas le paiement des frais du procès, les dommages-intérêts et les amendes en matière d'infractions fiscales et forestières.\n17- Le sursis à l'exécution ne comprend pas, non plus, les peines accessoires et les incapacités résultant de la condamnation. Toutefois, celles-ci cessent d'avoir effet du jour où la condamnation principale cesse de produire ses effets.\n18- Le tribunal est tenu, en prononçant le sursis à l'exécution, d'avertir le condamné qu'en cas de nouvelle condamnation dans les conditions sus indiqué, la première peine sera exécutée, et que les peines de la récidive lui seront appliquées.\n19- La condamnation avec sursis, même à l'amende, n'est pas inscrite sur les extraits du casier judiciaire délivrés aux parties, à moins de poursuite suivie de condamnation, dans les termes de l'alinéa 14 du présent article, intervenue dans le délai de cinq ans."
+        },
+        {
+          "role": "assistant",
+          "content": "Le sursis à l'exécution de la peine suit un mécanisme en plusieurs étapes. D'abord, le prononcé : le tribunal peut ordonner le sursis par le même jugement, à condition que l'inculpé n'ait pas de condamnation antérieure à l'emprisonnement pour crime ou délit, et à condition que la loi ne s'y oppose pas. En matière criminelle, le sursis n'est possible que si le minimum de la peine prononcée avec circonstances atténuantes ne dépasse pas deux ans d'emprisonnement (alinéa 13 [1]). Ensuite, la période d'épreuve : un délai de cinq ans court à compter du jugement. Si durant ce délai le condamné ne commet aucun crime ou délit suivi d'emprisonnement ou d'une peine plus grave, la condamnation est réputée non avenue (alinéa 14 [1]). En revanche, en cas de nouvelle condamnation dans ce délai, la première peine est d'abord exécutée sans confusion possible avec la seconde, et les peines de la récidive s'appliquent. Il est important de noter que le sursis ne couvre pas les frais de procès, les dommages-intérêts ni les amendes en matière fiscale et forestière (alinéa 16 [1]), ni les peines accessoires et incapacités, lesquelles cessent toutefois d'avoir effet si la condamnation principale est réputée non avenue (alinéa 17 [1]). Le tribunal doit obligatoirement avertir le condamné des conséquences d'une réinfraction (alinéa 18 [1]). Enfin, la condamnation avec sursis ne figure pas sur les extraits de casier judiciaire délivrés aux parties, sauf si une nouvelle condamnation intervient dans le délai de cinq ans (alinéa 19 [1]).\nSources: art. 53 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_008",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [59],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La tentative d'un délit puni de trois ans de prison est-elle punissable ?\n\nDocuments pertinents:\n[1] Source: article 59 du Code pénal tunisien\nToute tentative d'infraction est punissable comme l'infraction elle-même si elle n'a été suspendue ou si elle n'a manqué son effet que par des circonstances indépendantes de la volonté de son auteur. Toutefois, la tentative n'est pas punissable, sauf disposition contraire de la loi, dans les cas où l'infraction ne comporte pas plus de 5 ans de prison."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 59 du Code pénal tunisien [1], la tentative est en principe punissable comme l'infraction elle-même. S'agissant d'un délit puni de trois ans d'emprisonnement, la peine ne dépassant pas cinq ans, la tentative n'est pas punissable sauf disposition contraire de la loi.\nSources: art. 59 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_009",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [60, "60 ter", 62],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'étudie les infractions contre la sûreté extérieure de l'État. Quelles sont les peines applicables en temps de paix et en temps de guerre, et y a-t-il une différence entre un Tunisien et un étranger ?\n\nDocuments pertinents:\n[1] Source: article 60 du Code pénal tunisien (modifié par le décret du 10 janvier 1957)\nEst coupable de trahison et puni de mort :\n1° - tout Tunisien qui aura porté les armes contre la Tunisie dans les rangs de l'ennemi,\n2° - tout Tunisien qui aura entretenu des intelligences avec une puissance étrangère, en vue de l'engager à entreprendre des hostilités contre la Tunisie ou pour lui en fournir, de quelque manière que se soit, les moyens,\n3° - tout Tunisien qui aura livré à une puissance étrangère ou à ses agents des militaires tunisiens ou des territoires, villes, forteresses, ouvrages, postes, magasins, arsenaux, matériels, munitions, navires ou avions appartenant à la Tunisie,\n4°- tout Tunisien qui, en temps de guerre, aura appelé des militaires ou des marins à passer au service d'une puissance étrangère ou leur en a facilité les moyens ou aura enrôlé des militaires pour le compte d'une puissance étrangère en guerre contre la Tunisie,\n5°- tout Tunisien, qui en temps de guerre, aura entretenu des intelligences avec une puissance étrangère ou avec ses agents, en vue de favoriser les entreprises belliqueuses de cette puissance contre la Tunisie.\n\n[2] Source: article 60 ter du Code pénal tunisien (ajouté par le décret du 10 janvier 1957)\nEst coupable d'espionnage et puni de mort, tout étranger qui se sera rendu coupable de l'un des actes visés aux paragraphes 2, 3, 4, 5 de l'article 60 et à l'article 60 bis du présent code.\nEncourt les mêmes peines prévues pour les infractions visées aux articles 60 et 60 bis du présent code quiconque les aura provoqué ou proposé de les commettre.\n\n[3] Source: article 62 du Code pénal tunisien (modifié par la loi n° 89-23 du 27 février 1989)\nSeront punies d'un emprisonnement de douze ans, les atteintes à la sûreté extérieure de l'Etat, si elles sont commises en temps de guerre, et de cinq ans si elles sont commises en temps de paix, la tentative est punissable et l'article 53 ne pourra être appliqué, et dans tous les cas, il peut être fait application des peines accessoires édictées par l'article 5 du présent code pour cinq ans au moins et vingt ans au plus."
+        },
+        {
+          "role": "assistant",
+          "content": "Le Code pénal tunisien établit une distinction importante selon la qualité de l'auteur et le contexte temporel. Pour les Tunisiens, l'article 60 [1] réprime la trahison de la peine de mort, que les actes soient commis en temps de paix ou en temps de guerre. Pour les étrangers, l'article 60 ter [2] qualifie les mêmes actes d'espionnage, également puni de mort. Ainsi, la différence de qualification (trahison vs. espionnage) tient à la nationalité de l'auteur, mais la peine est identique. Par ailleurs, l'article 62 [3] prévoit un régime distinct pour les autres atteintes à la sûreté extérieure non qualifiées de trahison ou d'espionnage : douze ans d'emprisonnement en temps de guerre et cinq ans en temps de paix. Il convient de noter que l'article 53 (circonstances atténuantes) ne peut être appliqué pour ces infractions, et que des peines accessoires de cinq à vingt ans peuvent en outre être prononcées. Ainsi, le législateur a voulu réprimer avec la plus grande sévérité les actes les plus graves (trahison et espionnage), quelle que soit la période, tout en aménageant une modulation temporelle pour les autres atteintes.\nSources: arts. 60, 60 ter et 62 du Code pénal tunisien.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_010",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un fournisseur m'a proposé une commission pour favoriser son contrat par rapport à ses concurrents, dans le cadre d'une société privée où je travaille. Quelles sont les peines prévues pour la corruption dans le secteur privé ?\n\nDocuments pertinents:\n[1] Source: article 83 du Code pénal tunisien (modifié par la loi n° 98-33 du 23 mai 1998)\nToute personne ayant la qualité de fonctionnaire public ou assimilé conformément aux dispositions de la présente loi, qui aura agréé, sans droit, directement ou indirectement, soit pour lui même, soit pour autrui, des dons, promesses, présents ou avantages de quelque nature que ce soit pour accomplir un acte lié à sa fonction, même juste, mais non sujet à contrepartie ou pour faciliter l'accomplissement d'un acte en rapport, avec les attributions de sa fonction, ou pour s'abstenir d'accomplir un acte de sa fonction auquel il est tenu, est puni de dix ans d'emprisonnement et d'une amende double de la valeur des présents reçus ou des promesses agréées, sans qu'elle puisse être inférieure à dix mille dinars."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. L'article 83 du Code pénal tunisien [1] ne vise que la corruption commise par des fonctionnaires publics ou personnes assimilées dans l'exercice de leurs fonctions. Les extraits fournis ne comportent pas de dispositions relatives à la corruption dans le secteur privé. Je vous recommande de consulter un avocat spécialisé ou de vous référer aux dispositions spécifiques pouvant exister dans d'autres textes législatifs."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_011",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [5],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي العقوبات الرئيسيّة والعقوبات التكميليّة المنصوص عليها في المجلّة الجزائيّة التونسيّة؟\n\nDocuments pertinents:\n[1] Source: article 5 du Code pénal tunisien (modifié par la loi n° 64-34 du 2 juillet 1964, la loi n° 66-63 du 5 juillet 1966, la loi n° 1989-23 du 27 février 1989 et par la loi n° 99-89 du 2 août 1999)\nLes peines sont :\na) Peines principales :\n1- la mort,\n2- l'emprisonnement à vie,\n3- l'emprisonnement à temps,\n4- le travail d'intérêt général,\n5- l'amende,\n6- la réparation pénale.\nb) Peines complémentaires :\n2- l'interdiction de séjour,\n3- le renvoi sous la surveillance administrative,\n4- la confiscation des biens dans les cas prévus par la loi,\n5- la confiscation spéciale,\n6- la relégation dans les cas prévus par la loi,\n7- l'interdiction d'exercer les droits et privilèges suivants :\na) les fonctions publiques ou certaines professions telles que celles d'avocat, officier public, médecin, vétérinaire ou sage-femme, directeur ou employé à titre quelconque dans un établissement d'éducation, notaire, d'être tuteur, expert ou témoin, autrement que pour faire de simples déclarations,\nb) le port d'armes et tous insignes honorifiques officiels,\nc) le droit de vote,\n8- la publication, par extraits, de certains jugements."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 5 من المجلّة الجزائيّة التونسيّة [1]، تنقسم العقوبات إلى نوعين. أولًا، العقوبات الرئيسيّة، وهي ستّ: الإعدام، السجن المؤبّد، السجن المحدّد، العمل بالنفع العامّ، الخطيّة، والإصلاح الجزائيّ. ثانيًا، العقوبات التكميليّة، وتشمل: المنع من الإقامة، الإرجاع تحت المراقبة الإداريّة، مصادرة الأموال في الحالات المنصوص عليها قانونًا، المصادرة الخاصّة، النفي في الحالات المنصوص عليها، المنع من ممارسة بعض الحقوق والامتيازات (الوظائف العموميّة وبعض المهن، حمل السلاح والنياشب الرسميّة، حقّ الانتخاب)، ونشر بعض الأحكام بمقتطفات.\nSources: الفصل 5 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_012",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [16],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو الحدّ الأدنى للخطيّة في مادّة المخالفات وفي سائر الموادّ الأخرى وفقًا للمجلّة الجزائيّة؟\n\nDocuments pertinents:\n[1] Source: article 16 du Code pénal tunisien (modifié par la loi n° 2005-45 du 6 juin 2005)\nL'amende ne peut être inférieure à un dinar en matière de contravention, ni à soixante dinars dans tous les autres cas, sauf exceptions spécifiées par la loi."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 16 من المجلّة الجزائيّة التونسيّة [1]، لا يمكن أن تقلّ الخطيّة عن دينار واحد في مادّة المخالفات، ولا عن ستّين دينارًا في سائر الحالات الأخرى، وذلك مع مراعاة الاستثناءات التي يُنصّ عليها قانونًا.\nSources: الفصل 16 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_013",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [39, 40],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الحالات التي ينعدم فيها الفعل الجرميّ في المجلّة الجزائيّة التونسيّة بسبب القوّة القاهرة أو الدفاع المشروع؟\n\nDocuments pertinents:\n[1] Source: article 39 du Code pénal tunisien\nIl n'y a pas d'infraction lorsque l'auteur y a été contraint par une circonstance qui exposait sa vie ou celle de l'un de ses proches à un danger imminent, et lorsque ce danger ne pouvait être autrement détourné.\nSont considérés comme proches :\n1°- les ascendants et descendants,\n2°- les frères et sœurs,\n3°- les époux.\nSi la personne menacée n'est pas un proche, le juge appréciera le degré de responsabilité.\n\n[2] Source: article 40 du Code pénal tunisien\nIl n'y a pas d'infraction :\n1) si l'homicide a été commis, si les blessures ont été faites ou les coups portés en repoussant, la nuit, l'escalade ou l'effraction des clôtures, murs ou entrées d'une habitation ou de ses dépendances.\n2) si le fait a eu lieu en se défendant contre les auteurs de vols ou de pillages exécutés avec violence."
+        },
+        {
+          "role": "assistant",
+          "content": "تُقرّر المجلّة الجزائيّة التونسيّة حالتين لانعدام الفعل الجرميّ. أولًا، حالات الإكراه الماديّ وفقًا للفصل 39 [1]، إذ لا يوجد جريمة عندما يُكره الفاعل على فعله ظرف يُعرّض حياته أو حياة أحد أقربائه لخطر محدق لا يمكن دفعه بطريقة أخرى. ويُعدّ من الأقرباء: الأصول والفروع والإخوة والأزواج. أمّا إذا كانت الشخصيّة المُهدّدة ليست من الأقرباء، فإنّ القاضي يُقيّم درجة المسؤوليّة. ثانيًا، حالات الدفاع المشروع وفقًا للفصل 40 [2]، ولا يوجد جريمة إذا وقع القتل أو إحداث الجروح أو الضرب لدفع تسلّل ليليّ أو خرق لسياج أو جدار أو مدخل مسكن أو ملحقاته، أو إذا وقع الفعل دفاعًا ضدّ مرتكبي سرقات أو نهب منفّذين بالعنف. وبالتالي، يُميّز المشرّع بين الإكراه المبنيّ على خطر يُهدّد الأشخاص وبين الدفاع عن الأموال والمسكن، مع تقييد هذا الأخير بظروف خاصّة.\nSources: الفصلان 39 و40 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_014",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [43],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يُعامل المجلّة الجزائيّة التونسيّة الأحداث الجانحين الذين تتراوح أعمارهم بين ثلاثة عشر وثمانية عشر عامًا من حيث العقوبات؟\n\nDocuments pertinents:\n[1] Source: article 43 du Code pénal tunisien (modifié par la loi n° 89-23 du 27 février 1989 et la loi n° 95-93 du 9 novembre 1995)\nLa loi pénale est applicable aux délinquants âgés de plus de treize ans révolus et moins de dix huit ans révolus.\nToutefois, lorsque la peine encourue est la peine de mort ou l'emprisonnement à vie, elle est remplacée par un emprisonnement de dix ans.\nSi la peine encourue est celle de l'emprisonnement pour une durée déterminée, cette durée est réduite de moitié, sans que la peine prononcée ne dépasse cinq ans.\nLes peines complémentaires énoncées à l'article 5 du présent code ne sont pas applicables, il en est de même des règles de récidive."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 43 من المجلّة الجزائيّة التونسيّة [1]، تخضع القانون الجزائيّ للأحداث الجانحين الذين تجاوزوا الثالثة عشرة ولم يبلغوا الثامنة عشرة من عمرهم، مع تطبيق نظام تخفيفيّ خاصّ. فإذا كانت العقوبة المُتّجهة هي الإعدام أو السجن المؤبّد، تُستبدل بعقوبة سجن مدّتها عشر سنوات. وإذا كانت العقوبة المُتّجهة هي السجن لمدّة محدّدة، تُخفّض المدّة إلى النصف، على ألّا تتجاوز العقوبة المحكوم بها خمس سنوات. غير أنّ هذا التخفيف يخضع لاستثناءات مهمّة: لا تُطبّق العقوبات التكميليّة المنصوص عليها في الفصل 5، كما لا تُطبّق قواعد العود. وبالتالي، يسعى المشرّع إلى تحقيق التوازن بين ردع الحدث الجانح وحمايته من آثار العقوبات الصارمة، وهو ما يتّفق مع المقاربة التربويّة في معالجة إجرام الأحداث.\nSources: الفصل 43 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_015",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي العقوبات المُقرّرة في المجلّة الجزائيّة التونسيّة لجرائم العنف ضدّ المرأة داخل الأسرة؟\n\nDocuments pertinents:\n[1] Source: article 32 du Code pénal tunisien\nEst considéré complice et puni comme tel :\n1°- celui qui, par dons, promesses, menaces, abus d'autorité ou de pouvoir, machinations, artifices coupables, a provoqué à l'action ou donné des instructions pour la commettre,\n2°- celui qui, en connaissance du but à atteindre, a procuré des armes, instruments ou tous autres moyens susceptibles de faciliter l'exécution de l'infraction,\n3°- celui qui, en connaissance du but sus indiqué, a aidé l'auteur de l'infraction dans les faits qui l'ont préparée ou facilitée ou dans ceux qui l'ont consommée [...]\n4°- celui qui a prêté, sciemment, son concours aux malfaiteurs pour assurer, par recel ou tous autres moyens, le profit de l'infraction ou l'impunité à ses auteurs,\n5°- celui qui, connaissant la conduite criminelle des malfaiteurs, exerçant des brigandages ou atteintes contre la sûreté de l'État, la paix publique, les personnes ou les propriétés, leur a fourni habituellement logement, lieu de retraite ou de réunion."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تتضمّن الوثائق المُقدّمة معلومات كافية للإجابة عن هذا السؤال. فالمجلّة الجزائيّة التونسيّة، في الأجزاء المُقدّمة، لا تتعرّض بشكل مخصوص لجرائم العنف ضدّ المرأة داخل الأسرة. يُرجى استشارة محامٍ متخصّص أو الرجوع إلى القانون الأساسيّ عدد 58 لسنة 2017 المتعلّق بالقضاء على العنف ضدّ المرأة."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_016",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [32],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: متى يُعاقب الشخص باعتباره شريكًا في جريمة؟\n\nDocuments pertinents:\n[1] Source: article 32 du Code pénal tunisien\nEst considéré complice et puni comme tel :\n1°- celui qui, par dons, promesses, menaces, abus d'autorité ou de pouvoir, machinations, artifices coupables, a provoqué à l'action ou donné des instructions pour la commettre,\n2°- celui qui, en connaissance du but à atteindre, a procuré des armes, instruments ou tous autres moyens susceptibles de faciliter l'exécution de l'infraction,\n3°- celui qui, en connaissance du but sus indiqué, a aidé l'auteur de l'infraction dans les faits qui l'ont préparée ou facilitée ou dans ceux qui l'ont consommée, sans préjudice des peines spécialement prévues par le présent code pour les auteurs de complot ou de provocation touchant la sûreté intérieure ou extérieure de l'État, même dans le cas où l'infraction qui était l'objet de la conspiration ou de la provocation n'a pas été commise,\n4°- celui qui a prêté, sciemment, son concours aux malfaiteurs pour assurer, par recel ou tous autres moyens, le profit de l'infraction ou l'impunité à ses auteurs,\n5°- celui qui, connaissant la conduite criminelle des malfaiteurs, exerçant des brigandages ou atteintes contre la sûreté de l'État, la paix publique, les personnes ou les propriétés, leur a fourni habituellement logement, lieu de retraite ou de réunion."
+        },
+        {
+          "role": "assistant",
+          "content": "سؤالكم يمكن أن يحمل على عدة أبعاد مختلفة. هل تقصدون الصور الخمس للشركة المنصوص عليها في الفصل 32 [1]، أم العقوبة المُقرّرة للشريك مقارنة بالفاعل الأصليّ، أم الحالات التي لا تكون فيها الشركة مُعاقبًا عليها؟ يُرجى التوضيح حتّى أتمكّن من تقديم إجابة دقيقة."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_017",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [ "15 quater" ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الشروط والإجراءات المتبعة لاستبدال عقوبة السجن بعقوبة الإصلاح الجزائيّ وفقًا للمجلّة الجزائيّة؟\n\nDocuments pertinents:\n[1] Source: article 15 quater du Code pénal tunisien (ajouté par la loi n°2009-68 du 12 août 2009)\nLa peine de réparation pénale tend à remplacer la peine d'emprisonnement prononcée par le tribunal par une réparation pécuniaire que doit payer le condamné à celui qui a subi un préjudice personnel et direct de l'infraction.\nLe montant de la réparation ne peut être inférieur à vingt dinars ni supérieur à cinq milles dinars nonobstant le nombre des personnes lésées.\nLa peine de réparation pénale n'empêche pas l'exercice du droit de recours en réparation civile, et le tribunal saisi doit prendre en compte le montant de la réparation pénale lors de l'appréciation de la réparation civile.\nDans le cas où il prononce une peine de prison ferme pour les contraventions ou une peine d'emprisonnement ne dépassant pas six mois pour les délits, le tribunal peut, si les circonstances du fait poursuivi l'exigent, remplacer dans le même jugement la peine d'emprisonnement prononcée, par une peine de réparation pénale. Il est exigé pour le prononcé d'une peine de réparation pénale que le jugement soit rendu d'une manière contradictoire et que l'inculpé n'ait pas été condamné auparavant à une peine de réparation pénale ou d'emprisonnement.\nL'exécution de la peine de réparation pénale doit être effectuée dans un délai n'excédant pas trois mois à compter de la date de l'expiration du délai d'appel pour les jugements rendus en premier ressort ou de la date du prononcé du jugement définitif.\nIl est interdit de remplacer la peine d'emprisonnement par une peine de réparation pénale pour les infractions prévues aux articles : 85 , 87, 87 bis, 90, 91, 101, 103, 104, 125, 126 paragraphe premier, 127, 128, 143, 206, 209, 212, 214, 215 paragraphe premier, 219 paragraphe premier, 224 paragraphe premier, 227 bis paragraphe deux, 228 bis, 238, 240 bis, 241, 243, 244, 284 du code pénal et les articles 89 et 90 du code de la route et les articles 411 et 411 ter du code de commerce."
+        },
+        {
+          "role": "assistant",
+          "content": "يخضع استبدال عقوبة السجن بعقوبة الإصلاح الجزائيّ لعدّة شروط وإجراءات متسلسلة وفقًا للفصل 15 رابع من المجلّة الجزائيّة التونسيّة [1]. أولًا، من حيث الشروط الموضوعيّة: يجوز للمحكمة استبدال عقوبة السجن النافذ في مادّة المخالفات أو السجن الذي لا يتجاوز ستّة أشهر في مادّة الجنح بعقوبة الإصلاح الجزائيّ إذا استوجبت ظروف الفعل المطروح ذلك، بشرط أن يكون الحكم صادرًا بطريقة تقابليّة وألّا يكون المُتّهم قد صدرت ضدّه سابقًا عقوبة إصلاح جزائيّ أو سجن. ثانيًا، من حيث الشروط الموضوعيّة المتعلّقة بالمبلغ: يتراوح مبلغ الإصلاح بين عشرين دينارًا وخمسة آلاف دينار بغضّ النظر عن عدد المتضرّرين، ويُدفع لمن لحق به ضرر شخصيّ ومباشر من الجريمة. ثالثًا، من حيث الاستثناءات: يحظر الاستبدال لجرائم محدّدة عددها في الفصل ذاته. رابعًا، من حيث الإجراءات والآجال: يجب تنفيذ عقوبة الإصلاح الجزائيّ في أجل لا يتجاوز ثلاثة أشهر من تاريخ انقضاء أجل الطعن أو تاريخ صدور الحكم الباتّ. علاوة على ذلك، لا يحول الإصلاح الجزائيّ دون ممارسة حقّ الرجوع بالتعويض المدنيّ، على أن تُراعي المحكمة مبلغ الإصلاح الجزائيّ عند تقدير التعويض المدنيّ.\nSources: الفصل 15 رابع من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_018",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [63, 64],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي العقوبات المُقرّرة للاعتداء على حياة رئيس الدولة أو الاعتداء بالعنف على شخصه؟\n\nDocuments pertinents:\n[1] Source: article 63 du Code pénal tunisien\nL'attentat contre la vie du chef de l'État est puni de mort.\n\n[2] Source: article 64 du Code pénal tunisien (modifié par la loi n° 89-23 du 27 février 1989)\nEst puni de quinze ans d'emprisonnement et de cent vingt mille dinars d'amende, celui qui a exercé des voies de fait sur la personne du Chef de l'Etat."
+        },
+        {
+          "role": "assistant",
+          "content": "تُقرّر المجلّة الجزائيّة التونسيّة عقوبتين مختلفتين حسب خطورة الاعتداء. فالاعتداء على حياة رئيس الدولة يُعاقب عليه بالإعدام وفقًا للفصل 63 [1]. أمّا إذا وقع الاعتداء بالعنف على شخص رئيس الدولة دون أن يستهدف حياته، فإنّ العقوبة تكون السجن مدّة خمس عشرة سنة وخطيّة بمئة وعشرين ألف دينار وفقًا للفصل 64 [2]. وبالتالي، يميّز المشرّع بين الاعتداء المُوجّه ضدّ الحياة والاعتداء الذي يقتصر على المساس بالسلامة الجسديّة، مع توقيع أقصى العقوبات في الحالتين.\nSources: الفصلان 63 و64 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_019",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [82, 83],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: مَن يُعدّ موظفًا عموميًّا لأغراض جريمة الفساد، وما هي العقوبة المُقرّرة لقبول الرشوة؟\n\nDocuments pertinents:\n[1] Source: article 82 du Code pénal tunisien (modifié par la loi n° 98-33 du 23 mai 1998)\nEst réputée fonctionnaire public soumis aux dispositions de la présente loi, toute personne dépositaire de l'autorité publique ou exerçant des fonctions auprès de l'un des services de l'Etat ou d'une collectivité locale ou d'un office ou d'un établissement public ou d'une entreprise publique, ou exerçant des fonctions auprès de toute autre personne participant à la gestion d'un service public.\nEst assimilée au fonctionnaire public, toute personne ayant la qualité d'officier public, ou investie d'un mandat électif de service public, ou désignée par la justice pour accomplir une mission judiciaire.\n\n[2] Source: article 83 du Code pénal tunisien (modifié par la loi n° 98-33 du 23 mai 1998)\nToute personne ayant la qualité de fonctionnaire public ou assimilé conformément aux dispositions de la présente loi, qui aura agréé, sans droit, directement ou indirectement, soit pour lui même, soit pour autrui, des dons, promesses, présents ou avantages de quelque nature que ce soit pour accomplir un acte lié à sa fonction, même juste, mais non sujet à contrepartie ou pour faciliter l'accomplissement d'un acte en rapport, avec les attributions de sa fonction, ou pour s'abstenir d'accomplir un acte de sa fonction auquel il est tenu, est puni de dix ans d'emprisonnement et d'une amende double de la valeur des présents reçus ou des promesses agréées, sans qu'elle puisse être inférieure à dix mille dinars.\nLe tribunal prononce à l'encontre du condamné, par le même jugement, l'interdiction d'exercer les fonctions publiques, de gérer les services publics et de les représenter."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 82 من المجلّة الجزائيّة التونسيّة [1]، يُعدّ موظفًا عموميًّا كلّ شخص مُودَع لديه سلطة عامّة أو يمارس وظائف لدى أحد خدمات الدولة أو الجماعات المحلّيّة أو المؤسّسات العموميّة أو المقاولات العموميّة، أو لدى أيّ شخص آخر يُساهم في تسيير مرفق عامّ. كما يُعدّ في حكم الموظف العموميّ كلّ من يتّصف بصفة ضابط عموميّ أو منتخب لتولّي خدمة عموميّة أو مُعيَّن من قبل القضاء لإنجاز مَهمّة قضائيّة. وبهذا التعريف الواسع، يسعى المشرّع إلى تغطية مختلف الأشخاص المتدخّلين في تسيير المرافق العامّة. أمّا عقوبة قبول الرشوة، فيُقرّرها الفصل 83 [2] بعشر سنوات سجن وخطيّة تعادل ضعف قيمة الهدايا أو الوعود المقبولة، على ألّا تقلّ عن عشرة آلاف دينار، سواء كان القبول مباشرًا أو غير مباشر، لفائدة الموظّف نفسه أو لفائدة الغير. ويقضي القضاء، بالحكم ذاته، بمنع المحكوم عليه من ممارسة الوظائف العموميّة وتسيير المرافق العامّة وتمثيلها. غير أنّه تجدر الإشارة إلى أنّ الفصل يُشترط لقيام الجريمة أن يكون الفعل المرتبطًا بالوظيفة ولو كان مشروعًا ما لم يكن موضوع مقابل ماليّ، وهو ما يعني أنّ مجرّد قبول هدية مقابل أداء واجب وظيفيّ يُكوّن جريمة الرشوة.\nSources: الفصلان 82 و83 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_020",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [80],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصّص في القانون التونسي. أجب فقط بناءً على الوثائق المُقدّمة. إذا لم تكن الإجابة في الوثائق، بيّن ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونيّة مهنيّة."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يُستفيد المشاركون في مؤامرة ضدّ أمن الدولة من إعفاء إذا أبلغوا عنها قبل التنفيذ؟\n\nDocuments pertinents:\n[1] Source: article 80 du Code pénal tunisien\nSont exemptés des peines encourues par les auteurs d'attentats contre la sûreté de l'Etat, ceux des coupables qui, avant toute exécution et avant toutes poursuites commencées, ont, les premiers, donné aux autorités administratives ou judiciaires, connaissance des complots ou attentats ou dénoncé leurs auteurs ou complices ou, depuis le commencement des poursuites, procuré leur arrestation."
+        },
+        {
+          "role": "assistant",
+          "content": "نعم، بمقتضى الفصل 80 من المجلّة الجزائيّة التونسيّة [1]، يُعفى من العقوبات المُتّجهة مرتكبو الاعتداءات على أمن الدولة من بادروا، قبل أيّ تنفيذ وقبل بدء أيّ متابعة، بإبلاغ السلطات الإداريّة أو القضائيّة بالمؤامرات أو الاعتداءات أو بالشكوى من مرتكبيها أو شركائهم، أو من أتاحوا القبض عليهم بعد بدء المتابعات.\nSources: الفصل 80 من المجلّة الجزائيّة التونسيّة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Livre Premier - Chapitre I : Étendue des effets de la loi pénale (art. 1er)",
+      "Livre Premier - Chapitre II : Des peines et de leur exécution (arts. 5, 14, 15 bis, 15 ter, 15 quater, 16)",
+      "Livre Premier - Chapitre III : Des personnes punissables (arts. 32, 33, 34)",
+      "Livre Premier - Chapitre IV - Section I : Absence de criminalité (arts. 38, 39, 40)",
+      "Livre Premier - Chapitre IV - Section II : Atténuation de criminalité (art. 43, 46)",
+      "Livre Premier - Chapitre IV - Section III : Aggravation de criminalité (arts. 47, 50)",
+      "Livre Premier - Chapitre IV - Section IV : Application des peines (art. 53 - sursis)",
+      "Livre Premier - Chapitre V : Concours d'infractions et de peines (non couvert)",
+      "Livre Premier - Chapitre VI : De la tentative (art. 59)",
+      "Livre II - Titre Premier - Chapitre I : Attentats contre la sûreté extérieure (arts. 60, 60 ter, 62)",
+      "Livre II - Titre Premier - Chapitre II : Attentats contre la sûreté intérieure (arts. 63, 64, 80)",
+      "Livre II - Titre Premier - Chapitre III - Section I : Dispositions générales (art. 82)",
+      "Livre II - Titre Premier - Chapitre III - Section II : De la corruption (art. 83)"
+    ],
+    "sections_not_covered": [
+      "Livre Premier - Chapitre II : arts. 6-13, 17-31 (exécution des peines, interdiction de séjour, surveillance administrative, confiscation, interdiction légale)",
+      "Livre Premier - Chapitre III : art. 35, 36 (exceptions à la complicité)",
+      "Livre Premier - Chapitre IV : arts. 37, 41, 42, 44, 45 (intentionnalité, crainte révérencielle, ordre de l'autorité), art. 48, 52 (exclusions de la récidive, ivresse publique)",
+      "Livre Premier - Chapitre V : arts. 54-58 (concours d'infractions)",
+      "Livre II - Titre Premier - Chapitre I : arts. 60 bis, 60 quater, 61, 61 bis, 61 ter, 61 quater, 62 bis (autres infractions contre sûreté extérieure)",
+      "Livre II - Titre Premier - Chapitre II : arts. 67-79 (offense, complot, bandes armées, attroupement)",
+      "Livre II - Titre Premier - Chapitre III - Section II : arts. 84, 85, 87, 87 bis (autres infractions de corruption)",
+      "Livre II et suivants : non fournis dans le texte (le document est tronqué après l'art. 87 bis)"
+    ],
+    "notes": "Le texte fourni est tronqué et s'arrête au milieu de l'article 87 bis. Un très grand nombre d'articles du Code pénal n'a pas été fourni (livre II à partir du chapitre III section II, livre III entier). Les articles couverts dans ce batch sont concentrés sur le livre premier (dispositions générales) et le début du livre II. Les prochains batches devront prioritairement couvrir les chapitres non traités du livre II si le texte complet est fourni."
+  }
+}

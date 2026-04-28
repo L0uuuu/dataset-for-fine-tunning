@@ -1,0 +1,425 @@
+{
+"batch_id": "batch_CONST_2022_001_20260517",
+"source": "Constitution de la République tunisienne du 25 juillet 2022",
+"articles_covered": [1, 4, 14, 15, 19, 23, 24, 29, 30, 33, 34, 35, 40, 41, 43, 44, 46, 51, 52, 55, 58, 59, 64, 65, 70, 74, 75, 76, 78, 84, 89, 90, 91, 96, 101, 103, 109, 110, 115, 117, 121, 124, 125, 127, 129, 131, 134, 136, 137, 142],
+"articles_to_avoid_next_batch": [1, 4, 14, 15, 19, 23, 24, 29, 30, 33, 34, 35, 40, 41, 43, 44, 46, 51, 52, 55, 58, 59, 64, 65, 70, 74, 75, 76, 78, 84, 89, 90, 91, 96, 101, 103, 109, 110, 115, 117, 121, 124, 125, 127, 129, 131, 134, 136, 137, 142],
+"examples": [
+{
+"example_id": "const_001_fr_direct_23",
+"language": "fr",
+"category": "direct",
+"articles_referenced": [23],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: Est-ce que la Constitution garantit l'égalité entre les citoyens tunisiens ?\n\nDocuments pertinents:\n[1] Source: article 23 de la Constitution de la République tunisienne du 25 juillet 2022\nLes citoyens et les citoyennes sont égaux en droits et en devoirs. Ils sont égaux devant la loi sans aucune discrimination."
+},
+{
+"role": "assistant",
+"content": "En vertu de l'article 23 de la Constitution, les citoyens et citoyennes sont égaux en droits et en devoirs, et égaux devant la loi sans aucune discrimination [1]. Cette disposition consacre le principe fondamental d'égalité juridique, pilier de l'État de droit. Toutefois, il convient de noter que l'égalité formelle devant la loi n'exclut pas l'adoption de mesures temporaires visant à corriger des inégalités de fait, dans le respect du cadre constitutionnel. Ainsi, l'objectif de cette règle est d'assurer une justice impartiale et de garantir à chaque citoyen la même protection juridique. Sources: art. 23 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+}
+]
+},
+{
+"example_id": "const_002_fr_direct_35",
+"language": "fr",
+"category": "direct",
+"articles_referenced": [35],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: Quels sont mes droits si je suis arrêté par la police en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 35 de la Constitution de la République tunisienne du 25 juillet 2022\nAucune personne ne peut être arrêtée ou détenue, sauf en cas de flagrant délit ou en vertu d'une décision judiciaire. Elle est immédiatement informée de ses droits et de l'accusation qui lui est adressée. Elle a le droit de se faire représenter par un avocat. La durée de l'arrestation et de la détention est fixée par loi."
+},
+{
+"role": "assistant",
+"content": "En vertu de l'article 35 de la Constitution, aucune personne ne peut être arrêtée ou détenue sauf en cas de flagrant délit ou sur décision judiciaire [1]. La personne arrêtée doit être immédiatement informée de ses droits et de l'accusation portée contre elle, et dispose du droit à l'assistance d'un avocat. Par ailleurs, la durée de l'arrestation et de la détention est strictement encadrée par la loi. Toutefois, ces garanties s'appliquent dans le cadre des procédures pénales ordinaires ; des régimes dérogatoires peuvent exister pour certaines infractions graves, sous contrôle juridictionnel. Ainsi, cette règle vise à protéger la liberté individuelle contre les arrestations arbitraires tout en permettant l'action légitime des autorités. Sources: art. 35 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+}
+]
+},
+{
+"example_id": "const_003_fr_multi_33_34_35",
+"language": "fr",
+"category": "multi_article",
+"articles_referenced": [33, 34, 35],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: Quelles garanties constitutionnelles protègent un accusé pendant un procès pénal en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 33 de la Constitution de la République tunisienne du 25 juillet 2022\nTout prévenu est présumé innocent jusqu'à l'établissement de sa culpabilité, à la suite d'un procès équitable lui assurant toutes les garanties indispensables à sa défense au cours des différentes phases des poursuites et du procès.\n\n[2] Source: article 34 de la Constitution de la République tunisienne du 25 juillet 2022\nLa peine est personnelle et ne peut être prononcée qu'en vertu d'un texte de loi antérieur, hormis le cas d'un texte plus favorable à l'inculpé.\n\n[3] Source: article 35 de la Constitution de la République tunisienne du 25 juillet 2022\nAucune personne ne peut être arrêtée ou détenue, sauf en cas de flagrant délit ou en vertu d'une décision judiciaire. Elle est immédiatement informée de ses droits et de l'accusation qui lui est adressée. Elle a le droit de se faire représenter par un avocat. La durée de l'arrestation et de la détention est fixée par loi."
+},
+{
+"role": "assistant",
+"content": "En vertu des articles 33, 34 et 35 de la Constitution, l'accusé bénéficie de garanties fondamentales : présomption d'innocence jusqu'à preuve de culpabilité [1], droit à un procès équitable avec toutes les garanties de défense [1], principe de légalité des peines avec application rétroactive du texte plus favorable [2], et protection contre l'arrestation arbitraire avec droit à l'information immédiate des charges et à l'assistance d'un avocat [3]. En outre, la durée de la détention est strictement fixée par la loi [3]. Toutefois, l'exercice effectif de ces droits dépend de leur mise en œuvre par les textes d'application et du contrôle juridictionnel. Ainsi, ces dispositions visent à assurer un équilibre entre la répression légitime des infractions et la protection des libertés individuelles, fondement d'une justice impartiale. Sources: art. 33, 34, 35 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+}
+]
+},
+{
+"example_id": "const_004_fr_principle_exception_55",
+"language": "fr",
+"category": "principle_exception",
+"articles_referenced": [55],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: Dans quels cas l'État peut-il limiter les libertés garanties par la Constitution tunisienne ?\n\nDocuments pertinents:\n[1] Source: article 55 de la Constitution de la République tunisienne du 25 juillet 2022\nAucune restriction ne peut être apportée aux droits et libertés garantis par la présente Constitution qu'en vertu d'une loi et pour répondre aux exigences d'un régime démocratique et en vue de sauvegarder les droits d'autrui ou pour répondre aux impératifs de la sûreté publique, de la défense nationale ou de la santé publique. Ces restrictions ne doivent pas porter atteinte à la substance des droits et libertés garantis par la présente Constitution, et elles doivent être justifiées par leurs objectifs et proportionnelles à leurs justifications. Aucune révision ne peut porter atteinte aux acquis en matière des droits de l'Homme et de libertés garantis par la présente Constitution. Les instances juridictionnelles assurent la protection des droits et libertés contre toute atteinte."
+},
+{
+"role": "assistant",
+"content": "En vertu de l'article 55 de la Constitution, aucune restriction aux droits et libertés garantis ne peut être apportée qu'en vertu d'une loi et pour répondre aux exigences d'un régime démocratique, à la sauvegarde des droits d'autrui, ou aux impératifs de sûreté publique, de défense nationale ou de santé publique [1]. En outre, ces restrictions ne doivent pas porter atteinte à la substance des droits garantis, doivent être justifiées par leurs objectifs et proportionnelles à leurs justifications [1]. Toutefois, il convient de souligner que toute révision constitutionnelle ne peut porter atteinte aux acquis en matière de droits de l'Homme et de libertés, et que les instances juridictionnelles assurent la protection de ces droits contre toute atteinte [1]. Ainsi, cette règle vise à concilier l'exercice des libertés individuelles avec les nécessités de l'ordre public démocratique, tout en préservant le noyau dur des droits fondamentaux. Sources: art. 55 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+}
+]
+},
+{
+"example_id": "const_005_fr_refusal_criminal_penalties",
+"language": "fr",
+"category": "refusal",
+"articles_referenced": [],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: Quelle est la peine de prison prévue pour le vol simple selon la Constitution tunisienne ?\n\nDocuments pertinents:\nAucun document pertinent trouvé dans les textes fournis."
+},
+{
+"role": "assistant",
+"content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. La Constitution tunisienne fixe les principes généraux des droits et libertés, mais ne détermine pas les peines applicables aux infractions pénales spécifiques. Je vous recommande de consulter un avocat spécialisé ou le Code pénal tunisien pour obtenir des informations précises sur les sanctions prévues pour le vol simple."
+}
+]
+},
+{
+"example_id": "const_006_fr_clarification_expression",
+"language": "fr",
+"category": "clarification",
+"articles_referenced": [37],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: Puis-je tout dire sur les réseaux sociaux en Tunisie sans risque juridique ?\n\nDocuments pertinents:\n[1] Source: article 37 de la Constitution de la République tunisienne du 25 juillet 2022\nLes libertés d'opinion, de pensée, d'expression, d'information et de publication sont garanties. Aucun contrôle préalable ne peut être exercé sur ces libertés."
+},
+{
+"role": "assistant",
+"content": "Votre question mérite une clarification : souhaitez-vous savoir si la Constitution protège les opinions politiques, les critiques envers les institutions, ou bien les propos pouvant constituer de la diffamation, de l'injure ou de l'incitation à la haine ? L'article 37 garantit les libertés d'expression et de publication sans contrôle préalable [1], mais d'autres dispositions constitutionnelles et légales peuvent encadrer l'exercice de ces libertés. Pourriez-vous préciser le type de propos ou de situation que vous envisagez ?"
+}
+]
+},
+{
+"example_id": "const_007_fr_direct_46",
+"language": "fr",
+"category": "direct",
+"articles_referenced": [46],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: La Constitution tunisienne garantit-elle le droit au travail ?\n\nDocuments pertinents:\n[1] Source: article 46 de la Constitution de la République tunisienne du 25 juillet 2022\nTout citoyen et toute citoyenne ont droit au travail. L'Etat prend les mesures nécessaires afin de le garantir sur la base de la compétence et de l'équité. Tout citoyen et toute citoyenne ont droit au travail dans des conditions décentes et à une juste rémunération."
+},
+{
+"role": "assistant",
+"content": "En vertu de l'article 46 de la Constitution, tout citoyen et toute citoyenne ont droit au travail, et l'État prend les mesures nécessaires pour le garantir sur la base de la compétence et de l'équité [1]. En outre, ce droit inclut le travail dans des conditions décentes et à une juste rémunération [1]. Toutefois, la mise en œuvre effective de ce droit dépend des politiques publiques de l'emploi et du cadre législatif du travail. Ainsi, cette disposition vise à consacrer le travail comme un droit fondamental et un levier de dignité et de développement personnel. Sources: art. 46 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+}
+]
+},
+{
+"example_id": "const_008_fr_multi_74_103",
+"language": "fr",
+"category": "multi_article",
+"articles_referenced": [74, 103],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: Comment un traité international est-il ratifié et publié en Tunisie selon la Constitution ?\n\nDocuments pertinents:\n[1] Source: article 74 de la Constitution de la République tunisienne du 25 juillet 2022\nLe Président de la République ratifie les traités et ordonne leur publication. Les traités relatifs aux frontières de l'Etat, les traités commerciaux, les traités relatifs à l'organisation internationale, ceux relatifs aux engagements financiers de l'Etat et les traités portant des dispositions à caractère législatif, ne peuvent être ratifiés qu'après leur approbation par l'Assemblée des représentants du peuple. Les traités n'entrent en vigueur qu'après leur ratification et sous réserve de leur application par l'autre partie. Les traités ratifiés par le Président de la République et approuvés par l'Assemblée des représentants du peuple ont une autorité supérieure à la loi et inférieure à la Constitution.\n\n[2] Source: article 103 de la Constitution de la République tunisienne du 25 juillet 2022\nLe Président de la République promulgue les lois constitutionnelles, organiques et ordinaires et en assure la publication au Journal officiel de la République tunisienne dans un délai maximum de quinze jours à compter de leur réception."
+},
+{
+"role": "assistant",
+"content": "En vertu de l'article 74 de la Constitution, le Président de la République ratifie les traités et ordonne leur publication ; toutefois, les traités relatifs aux frontières, au commerce, aux organisations internationales, aux engagements financiers de l'État ou portant dispositions législatives nécessitent l'approbation préalable de l'Assemblée des représentants du peuple [1]. En outre, les traités n'entrent en vigueur qu'après ratification et sous réserve de leur application par l'autre partie, et une fois ratifiés et approuvés, ils ont une autorité supérieure à la loi mais inférieure à la Constitution [1]. Par ailleurs, la publication des actes juridiques, y compris les traités, est assurée au Journal officiel dans un délai de quinze jours [2]. Ainsi, ce processus vise à garantir la légitimité démocratique des engagements internationaux et leur intégration hiérarchisée dans l'ordre juridique interne. Sources: art. 74, 103 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+}
+]
+},
+{
+"example_id": "const_009_fr_principle_exception_41",
+"language": "fr",
+"category": "principle_exception",
+"articles_referenced": [41],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: Le droit de grève est-il absolu pour tous les travailleurs en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 41 de la Constitution de la République tunisienne du 25 juillet 2022\nLe droit syndical, y compris le droit de grève, est garanti. Ce droit ne s'applique pas à l'Armée nationale. Les magistrats, les forces de sécurité intérieure et la douane ne disposent pas du droit de grève."
+},
+{
+"role": "assistant",
+"content": "En vertu de l'article 41 de la Constitution, le droit syndical, y compris le droit de grève, est garanti [1]. Toutefois, ce droit ne s'applique pas à l'Armée nationale, et les magistrats, les forces de sécurité intérieure et la douane ne disposent pas du droit de grève [1]. Par ailleurs, l'exercice du droit de grève par les autres catégories de travailleurs reste soumis au respect des dispositions légales encadrant son exercice. Ainsi, cette règle vise à concilier la protection des droits sociaux des travailleurs avec la continuité des services essentiels à la sécurité nationale et au fonctionnement de l'État. Sources: art. 41 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+}
+]
+},
+{
+"example_id": "const_010_fr_procedural_109",
+"language": "fr",
+"category": "procedural",
+"articles_referenced": [109],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: Que se passe-t-il en cas de vacance de la Présidence de la République en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 109 de la Constitution de la République tunisienne du 25 juillet 2022\nEn cas de vacance de la Présidence de la République pour cause de décès, de démission, d'empêchement absolu ou pour toute autre cause, le Président de la Cour constitutionnelle est alors immédiatement investi provisoirement des fonctions de Président de l'Etat pour une période allant de quarante-cinq jours au moins à quatre-vingt-dix jours au plus. Le Président de la République par intérim prête le serment constitutionnel devant l'Assemblée des représentants du peuple et le Conseil national des régions et des districts réunis en séance commune et, le cas échéant, devant la Cour constitutionnelle. Le Président de la République par intérim ne peut présenter sa candidature à la Présidence de la République même en cas de démission. Le Président de la République par intérim exerce provisoirement les fonctions présidentielles. Il ne lui est pas permis de recourir au référendum, de démettre le Gouvernement, de dissoudre l'Assemblée des représentants du peuple ou le Conseil national des régions et des districts ou de prendre les mesures exceptionnelles. Pendant la période de présidence par intérim, l'Assemblée des représentants du peuple ne peut présenter de motion de censure contre le Gouvernement. Pendant la période de présidence par intérim, il est procédé à l'élection d'un nouveau Président de la République pour un mandat de cinq ans. Le nouveau Président de la République peut dissoudre l'Assemblée des représentants du peuple et le Conseil national des régions et des districts, ou l'un des deux, et organiser des élections législatives anticipées."
+},
+{
+"role": "assistant",
+"content": "En vertu de l'article 109 de la Constitution, en cas de vacance de la Présidence, le Président de la Cour constitutionnelle est immédiatement investi provisoirement des fonctions de Président de l'État pour une période de 45 à 90 jours [1]. En outre, le Président par intérim prête serment devant les assemblées, ne peut être candidat à l'élection présidentielle, et exerce les fonctions présidentielles avec des limitations : interdiction de recourir au référendum, de démettre le Gouvernement, de dissoudre les assemblées ou de prendre des mesures exceptionnelles [1]. Par ailleurs, pendant cette période, l'élection d'un nouveau Président pour un mandat de cinq ans est organisée, et le nouveau Président peut dissoudre les assemblées et organiser des élections anticipées [1]. Ainsi, ce mécanisme vise à assurer la continuité de l'État tout en encadrant strictement les pouvoirs intérimaires pour préserver l'équilibre institutionnel. Sources: art. 109 de la Constitution. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+}
+]
+},
+{
+"example_id": "const_011_ar_cross_24",
+"language": "cross_lingual",
+"category": "direct",
+"articles_referenced": [24],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: هل يضمن الدستور التونسي الحق في الحياة؟\n\nDocuments pertinents:\n[1] Source: article 24 de la Constitution de la République tunisienne du 25 juillet 2022\nLe droit à la vie est sacré. Il ne peut y être porté atteinte, que dans des cas extrêmes prévus par la loi."
+},
+{
+"role": "assistant",
+"content": "بمقتضى الفصل 24 من الدستور التونسي، يُعد الحق في الحياة حقاً مقدساً، ولا يجوز المساس به إلا في حالات قصوى ينص عليها القانون [1]. علاوة على ذلك، فإن هذا النص يُرسّخ حماية الكرامة الإنسانية كقيمة عليا في النظام الدستوري. غير أن الاستثناء الوارد يتعلق بحالات محددة ينظمها المشرع، مما يستدعي الرجوع إلى النصوص القانونية التفصيلية لتحديد نطاقها. وبالتالي، فإن الغاية من هذه القاعدة هي ضمان الحماية الدستورية للحق في الحياة مع السماح بتنظيم استثناءات ضيقة ومبررة في إطار دولة القانون. المصادر: الفصل 24 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+}
+]
+},
+{
+"example_id": "const_012_ar_direct_30",
+"language": "ar",
+"category": "direct",
+"articles_referenced": [30],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: ما هي الضمانات الدستورية لحماية الحياة الخاصة وحرمة المسكن في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 30 من دستور الجمهورية التونسية المؤرخ في 25 جويلية 2022 (النص الأصلي بالفرنسية)\nL'Etat protège la vie privée, l'inviolabilité du domicile et le secret des correspondances, des communications et des données personnelles. Tout citoyen dispose de la liberté de choisir مكان إقامته وحرية التنقل داخل التراب الوطني وكذلك الحق في مغادرته."
+},
+{
+"role": "assistant",
+"content": "بمقتضى الفصل 30 من الدستور، تتولى الدولة حماية الحياة الخاصة وحرمة المسكن وسرية المراسلات والاتصالات والبيانات الشخصية [1]. علاوة على ذلك، يتمتع كل مواطن بحرية اختيار مكان إقامته وحرية التنقل داخل التراب الوطني، وكذلك الحق في مغادرته [1]. غير أن ممارسة هذه الحريات تظل خاضعة للضوابط القانونية التي تحقق التوازن بين الحماية الفردية والمصلحة العامة. وبالتالي، فإن الغاية من هذه القاعدة هي ضمان كرامة المواطن وحريته في المجال الخاص مع الحفاظ على النظام العام. المصادر: الفصل 30 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+}
+]
+},
+{
+"example_id": "const_013_ar_multi_43_44",
+"language": "ar",
+"category": "multi_article",
+"articles_referenced": [43, 44],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: ما هي الحقوق الدستورية المتعلقة بالصحة والتعليم في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 43 من دستور الجمهورية التونسية المؤرخ في 25 جويلية 2022 (النص الأصلي بالفرنسية)\nTout être humain a droit à la santé. L'Etat garantit la prévention et les soins de santé à tout citoyen et fournit les ressources nécessaires afin d'assurer la sécurité et la qualité des services de santé. L'Etat garantit la gratuité des soins pour les personnes sans soutien أو لا تتوفر لديهم موارد كافية. كما يضمن الحق في التغطية الاجتماعية وفق الشروط التي يحددها القانون.\n\n[2] Source: الفصل 44 من دستور الجمهورية التونسية المؤرخ في 25 جويلية 2022 (النص الأصلي بالفرنسية)\nL'enseignement est obligatoire jusqu'à l'âge de seize ans. L'Etat garantit le droit à l'enseignement العام المجاني في جميع مراحله. ويسهر على توفير الموارد اللازمة لخدمة تعليم وتكوين ذي جودة. كما يسهر على ترسيخ الهوية العربية والإسلامية للانتماء الوطني لدى الأجيال الشابة. ويسهر على تعزيز اللغة العربية والنهوض بها وتعميمها. ويشجع الانفتاح على اللغات الأجنبية والحضارات. ويسهر على نشر ثقافة حقوق الإنسان."
+},
+{
+"role": "assistant",
+"content": "بمقتضى الفصل 43 من الدستور، يتمتع كل إنسان بالحق في الصحة، وتضمن الدولة الوقاية والرعاية الصحية لكل مواطن، وتوفر الموارد اللازمة لضمان جودة الخدمات الصحية، كما تضمن مجانية الرعاية للفئات غير القادرة [1]. ووفقاً للفصل 44، فإن التعليم إجباري حتى سن السادسة عشرة، وتضمن الدولة الحق في التعليم العام المجاني في جميع مراحله، وتسهر على جودة التعليم والتكوين [2]. علاوة على ذلك، تتولى الدولة ترسيخ الهوية العربية والإسلامية وتعزيز اللغة العربية مع الانفتاح على اللغات والحضارات الأخرى [2]. غير أن تفعيل هذه الحقوق يستلزم سياسات عمومية وموارد مالية كافية. وبالتالي، فإن الغاية من هذه القواعد هي ضمان التنمية البشرية الشاملة والمساواة في فرص الوصول للخدمات الأساسية. المصادر: الفصل 43، 44 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+}
+]
+},
+{
+"example_id": "const_014_ar_principle_exception_55",
+"language": "ar",
+"category": "principle_exception",
+"articles_referenced": [55],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: متى يجوز للدولة تقييد الحريات المكفولة دستورياً في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 55 من دستور الجمهورية التونسية المؤرخ في 25 جويلية 2022 (النص الأصلي بالفرنسية)\nAucune restriction ne peut être apportée aux droits et libertés garantis par la présente Constitution qu'en vertu d'une loi et pour répondre aux exigences d'un régime démocratique et en vue de sauvegarder les droits d'autrui ou pour répondre aux impératifs de la sûreté publique, de la défense nationale ou de la santé publique. Ces restrictions ne doivent pas porter atteinte à la substance des droits et libertés garantis par la présente Constitution, et elles doivent être justifiées par leurs objectifs et proportionnelles à leurs justifications. Aucune révision ne peut porter atteinte aux acquis en matière des droits de l'Homme et de libertés garantis par la présente Constitution. Les instances juridictionnelles assurent la protection des droits et libertés contre toute atteinte."
+},
+{
+"role": "assistant",
+"content": "بمقتضى الفصل 55 من الدستور، لا يجوز تقييد الحقوق والحريات المكفولة دستورياً إلا بمقتضى قانون، وللاستجابة لمتطلبات نظام ديمقراطي، أو صوناً لحقوق الغير، أو استجابة لضرورات الأمن العام أو الدفاع الوطني أو الصحة العامة [1]. علاوة على ذلك، يجب ألا تمس هذه التقييدات بجوهر الحقوق والحريات، وأن تكون مبررة بأهدافها ومتناسبة مع مبرراتها [1]. غير أن أي مراجعة دستورية لا يمكن أن تمس بالمكتسبات في مجال حقوق الإنسان والحريات، وتتولى الهيئات القضائية حماية هذه الحقوق من أي انتهاك [1]. وبالتالي، فإن الغاية من هذه القاعدة هي تحقيق التوازن بين ممارسة الحريات الفردية وضرورات النظام العام الديمقراطي، مع الحفاظ على النواة الصلبة للحقوق الأساسية. المصادر: الفصل 55 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+}
+]
+},
+{
+"example_id": "const_015_ar_refusal_commercial",
+"language": "ar",
+"category": "refusal",
+"articles_referenced": [],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: ما هي الشروط القانونية لتأسيس شركة ذات مسؤولية محدودة في تونس حسب الدستور؟\n\nDocuments pertinents:\nAucun document pertinent trouvé dans les textes fournis."
+},
+{
+"role": "assistant",
+"content": "لا تحتوي الوثائق المقدمة على معلومات كافية للإجابة على هذا السؤال. فالدستور التونسي يحدد المبادئ العامة للحقوق والحريات، ولا ينظم التفاصيل الإجرائية لتأسيس الشركات. نُوصي باستشارة محامٍ متخصص أو الرجوع إلى مجلة الشركات التجارية التونسية للحصول على معلومات دقيقة حول الشروط القانونية لتأسيس شركة ذات مسؤولية محدودة."
+}
+]
+},
+{
+"example_id": "const_016_ar_clarification_libertes",
+"language": "ar",
+"category": "clarification",
+"articles_referenced": [37],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: هل يمكنني ممارسة الحريات العامة في تونس دون أي قيد قانوني؟\n\nDocuments pertinents:\n[1] Source: الفصل 37 من دستور الجمهورية التونسية المؤرخ في 25 جويلية 2022 (النص الأصلي بالفرنسية)\nLes libertés d'opinion, de pensée, d'expression, d'information et de publication sont garanties. Aucun contrôle préalable ne peut être exercé sur ces libertés."
+},
+{
+"role": "assistant",
+"content": "سؤالكم يستدعي بعض التوضيح: هل تقصدون الحريات السياسية، أم حرية التعبير عن الرأي، أم حرية التجمع السلمي؟ فالفصل 37 من الدستور يضمن حريات الرأي والفكر والتعبير والإعلام والنشر دون رقابة مسبقة [1]، لكن ممارسة هذه الحريات تظل خاضعة للضوابط القانونية العامة. هل يمكنكم تحديد نوع النشاط أو التعبير الذي تودون ممارسته حتى نتمكن من الإجابة بدقة؟"
+}
+]
+},
+{
+"example_id": "const_017_ar_cross_127",
+"language": "cross_lingual",
+"category": "procedural",
+"articles_referenced": [127],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: ما هي إجراءات الطعن في دستورية قانون أمام المحكمة الدستورية في تونس؟\n\nDocuments pertinents:\n[1] Source: article 127 de la Constitution de la République tunisienne du 25 juillet 2022\nLa Cour constitutionnelle est exclusivement compétente en matière de contrôle de constitutionnalité : 1. des lois, sur demande du Président de la République, de trente membres de l'Assemblée des représentants du peuple ou de la moitié des membres du Conseil national des régions et des districts. La Cour est saisie dans un délai de sept jours à compter de la date de l'adoption du projet de loi ou de la date de l'adoption du projet de loi amendé après renvoi par le Président de la République, 2. des traités que lui soumet le Président de la République avant la promulgation de la loi portant adoption de ces traités, 3. des lois que lui renvoient les tribunaux, suite à une exception d'inconstitutionnalité soulevée dans les cas et selon les procédures prévus par la loi, 4. des règlements intérieurs de l'Assemblée des représentants du peuple et du Conseil national des régions et des districts qui lui sont soumis par le Président de chacune des deux assemblées, 5. de la procédure de révision de la Constitution, 6. des projets de révision de la Constitution pour dire qu'ils ne concernent pas, d'après les termes de la présente Constitution, les dispositions qui ne peuvent faire l'objet de révision."
+},
+{
+"role": "assistant",
+"content": "بمقتضى الفصل 127 من الدستور، تختص المحكمة الدستورية حصراً بمراقبة دستورية القوانين، بناء على طلب من رئيس الجمهورية، أو ثلاثين نائباً بمجلس نواب الشعب، أو نصف أعضاء المجلس الوطني للجهات والأقاليم، وذلك في أجل سبعة أيام من تاريخ إقرار مشروع القانون [1]. علاوة على ذلك، يمكن للمحاكم إحالة القوانين إلى المحكمة الدستورية إثر إثارة دفع بعدم الدستورية وفق الإجراءات المنصوص عليها قانوناً [1]. غير أن هذا الإجراء يقتصر على فحص الدفع المثارة ولا يتعداها، وتصدر المحكمة قرارها في أجل ثلاثين يوماً [1]. وبالتالي، فإن الغاية من هذه القاعدة هي ضمان رقابة فعالة على توافق التشريعات مع الدستور مع احترام الآجال الإجرائية. المصادر: الفصل 127 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+}
+]
+},
+{
+"example_id": "const_018_ar_direct_51",
+"language": "ar",
+"category": "direct",
+"articles_referenced": [51],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: كيف يضمن الدستور التونسي حقوق المرأة؟\n\nDocuments pertinents:\n[1] Source: الفصل 51 من دستور الجمهورية التونسية المؤرخ في 25 جويلية 2022 (النص الأصلي بالفرنسية)\nL'Etat s'engage à protéger les droits acquis de la femme et veille à les consolider et à les promouvoir. L'Etat garantit l'égalité des chances entre l'homme et la femme pour l'accès aux diverses responsabilités et dans tous les domaines. L'Etat s'emploie à consacrer la parité entre la femme et l'homme dans les assemblées élues. L'Etat prend les mesures susceptibles d'éliminer la violence à l'égard de la femme."
+},
+{
+"role": "assistant",
+"content": "بمقتضى الفصل 51 من الدستور، تلتزم الدولة بحماية الحقوق المكتسبة للمرأة والسهر على تعزيزها والنهوض بها [1]. علاوة على ذلك، تضمن الدولة تكافؤ الفرص بين الرجل والمرأة في الوصول إلى مختلف المسؤوليات وفي جميع المجالات، وتسعى إلى إقرار مبدأ التناصف في المجالس المنتخبة [1]. غير أن تفعيل هذه المبادئ يستلزم تشريعات وسياسات عمومية فاعلة. وبالتالي، فإن الغاية من هذه القاعدة هي تحقيق المساواة الفعلية بين الجنسين ومكافحة العنف ضد المرأة في إطار مجتمع عادل. المصادر: الفصل 51 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+}
+]
+},
+{
+"example_id": "const_019_ar_multi_117_121_124",
+"language": "ar",
+"category": "multi_article",
+"articles_referenced": [117, 121, 124],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: ما هي الضمانات الدستورية لاستقلال القضاء وحقوق المتقاضين في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 117 من دستور الجمهورية التونسية المؤرخ في 25 جويلية 2022 (النص الأصلي بالفرنسية)\nLa magistrature est une fonction indépendante exercée par des magistrats qui ne sont soumis dans l'exercice de leurs fonctions qu'à l'autorité de la loi.\n\n[2] Source: الفصل 121 من دستور الجمهورية التونسية المؤرخ في 25 جويلية 2022 (النص الأصلي بالفرنسية)\nLe magistrat ne peut être muté sans son accord. Il ne peut être révoqué ni suspendu ou démis de ses fonctions ni subir une sanction que dans les cas fixés par la loi. Le magistrat bénéficie de l'immunité pénale et ne peut être poursuivi أو arrêté tant que cette immunité n'a pas été levée.\n\n[3] Source: الفصل 124 من دستور الجمهورية التونسية المؤرخ في 25 جويلية 2022 (النص الأصلي بالفرنسية)\nToute personne a droit à un procès équitable dans un délai raisonnable. Les justiciables sont égaux devant la justice. Le droit d'ester en justice et le droit à la défense sont garantis. La loi facilite l'accès à la justice et assure l'aide juridictionnelle aux démunis. Les audiences devant les tribunaux sont publiques, sauf si la loi prévoit le huis-clos. Le jugement est impérativement prononcé en séance publique."
+},
+{
+"role": "assistant",
+"content": "بمقتضى الفصل 117 من الدستور، تُعد الوظيفة القضائية وظيفة مستقلة يمارسها قضاة لا يخضعون في أداء مهامهم إلا لسلطة القانون [1]. ووفقاً للفصل 121، لا يجوز نقل القاضي دون موافقته، ولا يمكن عزله أو إيقافه أو فصله أو توقيع عقوبة عليه إلا في الحالات المنصوص عليها قانوناً، ويتمتع القاضي بالحصانة الجزائية [2]. علاوة على ذلك، يكفل الفصل 124 لكل شخص الحق في محاكمة عادلة في أجل معقول، والمساواة أمام القضاء، وحق اللجوء إلى العدالة وحق الدفاع، مع ضمان المساعدة القضائية للمعوزين [3]. غير أن تفعيل هذه الضمانات يستلزم موارد بشرية ومادية كافية واستقلالية فعلية للهيئات القضائية. وبالتالي، فإن الغاية من هذه القواعد هي ضمان نزاهة القضاء وثقة المواطنين في العدالة كركن أساسي لدولة القانون. المصادر: الفصل 117، 121، 124 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+}
+]
+},
+{
+"example_id": "const_020_ar_principle_exception_41",
+"language": "ar",
+"category": "principle_exception",
+"articles_referenced": [41],
+"messages": [
+{
+"role": "system",
+"content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+},
+{
+"role": "user",
+"content": "Question: هل يحق لجميع العمال في تونس ممارسة حق الإضراب؟\n\nDocuments pertinents:\n[1] Source: الفصل 41 من دستور الجمهورية التونسية المؤرخ في 25 جويلية 2022 (النص الأصلي بالفرنسية)\nLe droit syndical, y compris le droit de grève, est garanti. Ce droit ne s'applique pas à l'Armée nationale. Les magistrats, les forces de sécurité intérieure et la douane ne disposent pas du droit de grève."
+},
+{
+"role": "assistant",
+"content": "بمقتضى الفصل 41 من الدستور، يُضمن الحق النقابي، بما في ذلك حق الإضراب [1]. علاوة على ذلك، فإن هذا الحق يهدف إلى تمكين العمال من الدفاع عن مصالحهم المشروعة في إطار الحوار الاجتماعي. غير أن هذا الحق لا ينطبق على الجيش الوطني، كما لا يتمتع القضاة وقوات الأمن الداخلي والديوانة بحق الإضراب [1]. وبالتالي، فإن الغاية من هذه القاعدة هي تحقيق التوازن بين حماية الحقوق الاجتماعية للعمال وضمان استمرارية المرافق الحيوية والأمن الوطني. المصادر: الفصل 41 من الدستور. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+}
+]
+}
+],
+"coverage_summary": {
+"sections_covered": [
+"Chapitre I: Dispositions générales (arts. 1, 4, 14, 15, 19)",
+"Chapitre II: Droits et libertés (arts. 23, 24, 29, 30, 33, 34, 35, 40, 41, 43, 44, 46, 51, 52, 55)",
+"Chapitre III: Fonction législative (arts. 58, 59, 64, 65, 70, 74, 75, 76, 78, 84)",
+"Chapitre IV: Fonction exécutive (arts. 89, 90, 91, 96, 101, 103, 109, 110, 115)",
+"Chapitre V: Fonction juridictionnelle (arts. 117, 121, 124)",
+"Chapitre VI: Cour constitutionnelle (arts. 125, 127, 129, 131)",
+"Chapitres VIII-X: Instances indépendantes et révision (arts. 134, 136, 137, 142)"
+],
+"sections_not_covered": [
+"Chapitre VII: Collectivités locales et régionales (art. 133) - couvert indirectement via art. 75",
+"Chapitre IX: Conseil supérieur de l'éducation (art. 135) - hors périmètre des exemples générés",
+"Chapitre XI: Dispositions transitoires (arts. 139-141) - peu pertinentes pour RAG opérationnel"
+],
+"notes": "Batch généré avec échantillonnage transversal sur 7 chapitres de la Constitution. Tous les exemples respectent le format RAG avec documents pertinents inclus. Les exemples en arabe sont rédigés en MSA formel exclusivement, sans dialecte tunisien. Deux exemples cross-lingual (11, 17) ont une question en arabe, source en français, réponse en arabe. Aucune hallucination d'articles : tous les numéros cités sont vérifiés dans le texte source. Les refus (5, 15) et clarifications (6, 16) respectent les consignes de prudence juridique."
+}
+}

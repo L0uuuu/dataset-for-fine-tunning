@@ -1,0 +1,521 @@
+{
+  "batch_id": "batch_CCP_001_20260420",
+  "source": "Code de la Comptabilité Publique de Tunisie (loi n°73-81 du 31 décembre 1973 et modifications subséquentes)",
+  "articles_covered": ["3", "4", "5", "10", "11", "12", "13", "15", "17", "21", "22", "23", "25", "26", "26bis", "28quinquies", "31", "33", "36", "36bis", "40", "41", "46", "47", "52", "55", "65", "68", "84", "94", "99", "122", "133", "136", "137", "152", "176", "177", "184", "208", "210", "236", "238", "245", "255", "260", "268", "272", "282"],
+  "articles_to_avoid_next_batch": ["3", "4", "5", "10", "11", "12", "13", "15", "17", "21", "22", "23", "25", "26", "26bis", "28quinquies", "31", "33", "36", "36bis", "40", "41", "46", "47", "52", "55", "65", "68", "84", "94", "99", "122", "133", "136", "137", "152", "176", "177", "184", "208", "210", "236", "238", "245", "255", "260", "268", "272", "282"],
+  "examples": [
+    {
+      "example_id": "CCP_001_fr_direct_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [5],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis gestionnaire d'un service public. Mon directeur m'a proposé de cumuler à la fois les fonctions d'ordonnateur et de comptable public. Est-ce légalement possible ?\n\nDocuments pertinents:\n[1] Source: art. 5 du Code de la Comptabilité Publique (CCP)\nLes fonctions d'ordonnateur et celles de comptable public sont incompatibles.\nLes conjoints des ordonnateurs ne peuvent être comptables des organismes publics auprès desquels lesdits ordonnateurs exercent leurs fonctions."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 5 du CCP [1], les fonctions d'ordonnateur et celles de comptable public sont formellement incompatibles. Il n'est donc pas possible de les cumuler au sein d'une même personne.\n\nPar ailleurs, cette incompatibilité s'étend aux conjoints : le conjoint d'un ordonnateur ne peut pas exercer les fonctions de comptable public au sein de l'organisme auprès duquel cet ordonnateur exerce ses attributions.\n\nCette règle vise à garantir le principe de séparation des fonctions financières, pierre angulaire du contrôle des finances publiques en Tunisie. Elle assure qu'aucune personne ne détienne à la fois le pouvoir de décider des dépenses et celui de les exécuter et de les contrôler.\n\nSources : art. 5 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_fr_direct_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [21],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: À quel taux d'intérêt les débets des comptables publics portent-ils intérêts, et à partir de quelle date ?\n\nDocuments pertinents:\n[1] Source: art. 21 du Code de la Comptabilité Publique (CCP)\nLes comptables publics et les régisseurs dont la responsabilité est engagée peuvent être constitués en débet, soit par arrêt du juge des comptes, soit par arrêté du \"ministre des finances ou celui ayant reçu délégation du ministre des finances à cet effet\", ou du ministre du budget annexe dont ils relèvent.\nLes débets portent intérêts au taux de 5% à compter de la date du fait générateur, ou, si cette date ne peut être fixée avec précision, à compter de la date de la constatation.\nLe recouvrement des débets est poursuivi par le trésorier général ou le comptable compétent.\nLes arrêtés de débets ne peuvent faire l'objet d'aucun litige devant les tribunaux judiciaires. Ils sont, toutefois, susceptibles d'opposition devant le tribunal administratif."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 21 du CCP [1], les débets des comptables publics portent intérêts au taux de 5% l'an. Ce taux court à compter de la date du fait générateur du débet. Toutefois, si cette date ne peut être fixée avec précision, les intérêts courent à compter de la date de constatation du débet.\n\nIl est important de noter que les arrêtés de débet ne sont pas susceptibles de recours devant les tribunaux judiciaires ordinaires, mais ils peuvent faire l'objet d'une opposition devant le tribunal administratif.\n\nSources : art. 21 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_fr_principle_exception_001",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [40, 41],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que responsable des marchés dans un ministère, je souhaite comprendre la règle générale concernant l'ordre des étapes à respecter avant tout paiement d'une dépense publique, et s'il existe des exceptions.\n\nDocuments pertinents:\n[1] Source: art. 40 du Code de la Comptabilité Publique (CCP)\nAvant d'être payées, les dépenses sont engagées, liquidées et ordonnancées.\nToutefois, sont payées sans ordonnancement préalable:\n- Les dépenses payables par régie d'avances.\n- Les pensions et allocations servies par la caisse nationale de retraite, le ministère de la défense nationale, ainsi que les rentes et majorations allouées par le fonds spécial des accidents du travail.\n- Les arrérages d'amortissement et d'intérêts de la dette publique.\n- Toutes autres catégories de dépenses définies par décret.\nCes dépenses font l'objet d'un ordonnancement de régularisation après paiement.\n\n[2] Source: art. 41 du Code de la Comptabilité Publique (CCP)\nAucun paiement ne peut être effectué qu'au véritable créancier justifiant de ses droits et pour l'acquittement d'un service fait, sous réserve, sur ce dernier point, des dispositions des articles 108 à 118 ci-dessous.\nLes frais de transport et de déplacement peuvent être, toutefois, mandatés au nom de l'agent qui en a fait l'avance."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 40 du CCP [1], le principe général est que toute dépense publique doit, avant d'être payée, traverser trois étapes successives obligatoires : l'engagement, la liquidation et l'ordonnancement.\n\nToutefois, ce principe comporte des exceptions importantes. Certaines dépenses peuvent être payées sans ordonnancement préalable, notamment les dépenses par régie d'avances, les pensions et allocations de retraite ou d'accidents du travail, et les charges de la dette publique. Dans ces cas, un ordonnancement de régularisation intervient après le paiement effectif.\n\nEn outre, l'article 41 du CCP [2] impose une condition complémentaire : tout paiement doit être effectué au véritable créancier justifiant de ses droits et pour l'acquittement d'un service effectivement rendu (service fait). Cette règle vise à prévenir tout paiement indu. Une exception pratique permet de mandater les frais de transport et de déplacement au nom de l'agent qui en a fait l'avance.\n\nCes règles constituent le socle de la régularité budgétaire et garantissent un contrôle effectif de la dépense publique.\n\nSources : art. 40, 41 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_fr_multi_article_001",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [15, 17, 22],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Étudiant en droit des finances publiques, je cherche à comprendre les contours de la responsabilité pécuniaire des comptables publics : quelle est son étendue, comment se répartit-elle entre comptables principaux et subordonnés, et existe-t-il des mécanismes d'exonération ?\n\nDocuments pertinents:\n[1] Source: art. 15 du Code de la Comptabilité Publique (CCP)\nLes comptables publics sont personnellement et pécuniairement responsables des opérations dont ils sont chargés et de l'exercice régulier des contrôles qui leur sont dévolus, ainsi que de la garde et de la conservation des deniers, valeurs, produits et matières qui leur sont confiés.\nHormis le cas de mauvaise foi, les comptables publics ne sont pas pécuniairement responsables des erreurs commises dans l'assiette et la liquidation des droits qu'ils recouvrent.\n\n[2] Source: art. 17 du Code de la Comptabilité Publique (CCP)\nLes comptables principaux sont responsables personnellement des faits de leur gestion propre et solidairement avec les comptables secondaires de la validité des pièces justificatives de dépenses fournies par ces derniers et admises par eux.\n\n[3] Source: art. 22 du Code de la Comptabilité Publique (CCP)\nLes comptables publics, les caissiers et les régisseurs constitués en débet peuvent, en cas de force majeure, obtenir décharge partielle ou totale de leur responsabilité.\nIls peuvent, par ailleurs, obtenir la remise gracieuse du débet mis à leur charge.\nDans l'un et l'autre cas, il est statué sur la demande par le Premier ministre sur rapport du \"ministre des finances ou celui ayant reçu délégation du ministre des finances à cet effet\".\nEn cas de décharge de responsabilité ou de remise gracieuse, les débets sont couverts par l'Etat ou par l'organisme intéressé."
+        },
+        {
+          "role": "assistant",
+          "content": "La responsabilité pécuniaire des comptables publics est régie par plusieurs dispositions complémentaires du CCP.\n\nEn vertu de l'article 15 du CCP [1], cette responsabilité est personnelle et pécuniaire. Elle couvre les opérations dont le comptable est chargé, l'exercice des contrôles qui lui incombent, ainsi que la garde et la conservation des fonds et valeurs qui lui sont confiés. Une limite notable : hors cas de mauvaise foi, le comptable n'est pas pécuniairement responsable des erreurs d'assiette ou de liquidation des droits qu'il recouvre.\n\nPar ailleurs, l'article 17 du CCP [2] distingue deux niveaux de responsabilité. Le comptable principal répond personnellement de sa propre gestion, mais il est solidairement responsable avec les comptables secondaires de la validité des pièces justificatives de dépenses transmises par ces derniers et acceptées par lui.\n\nToutefois, l'article 22 du CCP [3] prévoit des mécanismes d'atténuation. En cas de force majeure, le comptable constitué en débet peut obtenir une décharge partielle ou totale de sa responsabilité, voire une remise gracieuse du débet. Ces décisions relèvent du Premier ministre, sur rapport du ministre des finances. Lorsqu'une décharge est accordée, le débet est pris en charge par l'État ou l'organisme concerné.\n\nSources : art. 15, 17, 22 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_fr_procedural_001",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": ["28quinquies", 31],
+      "articles_referenced_raw": ["28quinquies", 31],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Notre entreprise a une créance impayée envers l'État qui a été prise en charge par un comptable public. Quelle est la procédure de recouvrement forcé qui sera appliquée, étape par étape ?\n\nDocuments pertinents:\n[1] Source: art. 28quinquies du Code de la Comptabilité Publique (CCP) (modifié par LF n°2009-71 du 21/12/2009)\nLe comptable public chargé du recouvrement, procède dès la prise en charge de la créance à la notification au débiteur selon les procédures décrites à l'article 28 du présent code ou par lettre recommandée avec accusé de réception, d'un avis l'invitant à s'acquitter de la totalité des sommes qui lui sont réclamées.\nLe débiteur bénéficie d'un délai de 30 jours à partir de la date de notification de l'avis susmentionné pour régulariser sa situation. A l'expiration de ce délai, le comptable public procède à la signification du titre exécutoire au débiteur.\nLes frais de l'avis sont portés à la charge du débiteur selon le tarif des services postaux.\n\n[2] Source: art. 31 du Code de la Comptabilité Publique (CCP) (modifié par LF n°2006-85 du 25/12/2006)\nLes employeurs, fermiers, locataires, gérants, receveurs, commissaires-priseurs, huissiers-notaires, notaires, séquestres et autres dépositaires ou débiteurs de deniers, provenant du chef des débiteurs de l'Etat, des établissements publics ou des collectivités publiques locales, sont tenus de payer en l'acquit de ces débiteurs, et jusqu'à concurrence des fonds qu'ils doivent ou qui sont entre leurs mains, toutes sommes dues par ces derniers en vertu d'un titre exécutoire.\nLe tiers saisi est tenu, dans un délai maximum de quarante-cinq jours à compter de la notification de la saisie ou de l'opposition, de déclarer et de remettre au comptable public poursuivant les sommes détenues par ses soins et revenant au débiteur."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure de recouvrement forcé d'une créance publique suit les étapes suivantes selon le CCP :\n\n**Étape 1 — Notification d'avis préalable (art. 28quinquies [1])** : Dès la prise en charge de la créance, le comptable public notifie au débiteur un avis l'invitant à régler la totalité des sommes dues. Cette notification se fait soit par les agents habilités, soit par lettre recommandée avec accusé de réception. Les frais postaux sont à la charge du débiteur.\n\n**Étape 2 — Délai de régularisation (art. 28quinquies [1])** : Le débiteur dispose de 30 jours à compter de la notification de cet avis pour s'acquitter volontairement de sa dette.\n\n**Étape 3 — Signification du titre exécutoire (art. 28quinquies [1])** : À l'expiration du délai de 30 jours sans paiement, le comptable procède à la signification du titre exécutoire au débiteur.\n\n**Étape 4 — Saisie-arrêt ou opposition administrative (art. 31 [2])** : Le comptable peut alors pratiquer une saisie-arrêt auprès des tiers détenteurs de fonds appartenant au débiteur (employeurs, banques, notaires, etc.). Ces tiers sont tenus de déclarer et remettre les sommes saisies dans un délai maximal de 45 jours.\n\nSources : art. 28quinquies, 31 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_fr_refusal_001",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis entrepreneur et je souhaite contester devant les tribunaux une décision de l'administration qui a refusé de me régler une facture dans le cadre d'un marché public. Quels sont les délais de recours devant le tribunal administratif et comment constituer mon dossier ?\n\nDocuments pertinents:\n[1] Source: art. 41 du Code de la Comptabilité Publique (CCP)\nAucun paiement ne peut être effectué qu'au véritable créancier justifiant de ses droits et pour l'acquittement d'un service fait.\n\n[2] Source: art. 137 du Code de la Comptabilité Publique (CCP)\nEn cas d'irrégularité, le visa pour paiement est suspendu par le comptable qui doit adresser immédiatement à l'ordonnateur une déclaration écrite et motivée de son refus de visa."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le CCP établit les règles internes du refus de visa par le comptable (art. 137), mais ne précise pas les délais de recours contentieux ni les modalités de constitution d'un dossier devant le tribunal administratif pour ce type de litige.\n\nJe vous recommande de consulter un avocat spécialisé en droit administratif ou en droit des marchés publics, ainsi que les dispositions du code de la justice administrative tunisienne, qui régissent les recours devant le Tribunal Administratif."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_fr_multi_article_002",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [36, 46, 47],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis responsable financier dans une collectivité publique locale. Pouvez-vous me comparer le délai de prescription applicable au recouvrement des créances publiques et celui applicable aux dettes de la collectivité envers ses créanciers, ainsi que les actes qui interrompent ces prescriptions ?\n\nDocuments pertinents:\n[1] Source: art. 36 du Code de la Comptabilité Publique (CCP) (modifié par loi n°2003-80 du 29/12/2003)\nSous réserve des dispositions du code de procédure pénale, l'action en recouvrement des créances publiques se prescrit à l'expiration d'un délai de cinq ans à compter du 1er janvier de l'année suivant celle au cours de laquelle la créance devient exigible.\n\n[2] Source: art. 46 du Code de la Comptabilité Publique (CCP)\nSous réserve des dispositions spéciales régissant la dette publique et les pensions servies par la caisse nationale de retraite et autres dispositions édictant des déchéances particulières, sont prescrites et définitivement éteintes au profit de l'Etat, des établissements publics ou des collectivités publiques locales intéressés, toutes les créances, quelles qu'elles soient, qui, n'ayant pas été acquittées avant la clôture de la gestion à laquelle elles appartiennent, n'ont pas été liquidées, ordonnancées et payées dans un délai de quatre années à partir du premier jour de l'année suivant celle au cours de laquelle elles ont pris naissance pour les créanciers domiciliés en Tunisie et de cinq années pour les créanciers résidant hors du territoire tunisien.\n\n[3] Source: art. 47 du Code de la Comptabilité Publique (CCP)\nLa prescription est interrompue par :\n1) Toute demande de paiement ou réclamation écrite relative à la créance, adressée par le créancier à l'autorité administrative.\n2) Tout recours formé devant une juridiction, relatif au fait générateur, à l'existence, au montant ou au paiement de la créance quel que soit l'auteur du recours.\n3) Toute communication écrite, relative à la créance, faite par une administration intéressée.\n4) Le règlement partiel de la créance.\nUn nouveau délai de quatre ou cinq années court à compter du premier jour de la gestion suivant celle au cours de laquelle a eu lieu l'interruption."
+        },
+        {
+          "role": "assistant",
+          "content": "Le CCP organise deux régimes de prescription distincts selon la position de la collectivité publique.\n\nEn vertu de l'article 36 du CCP [1], lorsque la collectivité est créancière (recouvrement de ses recettes), l'action en recouvrement se prescrit par **cinq ans**, à compter du 1er janvier de l'année suivant celle au cours de laquelle la créance est devenue exigible.\n\nInversement, l'article 46 du CCP [2] régit la prescription des dettes de la collectivité envers ses propres créanciers. Le délai est de **quatre ans** pour les créanciers domiciliés en Tunisie, et de **cinq ans** pour ceux résidant à l'étranger, à compter du 1er janvier de l'année suivant celle au cours de laquelle la créance a pris naissance.\n\nS'agissant des causes d'interruption de la prescription des dettes publiques, l'article 47 du CCP [3] en dresse une liste : toute demande écrite du créancier, tout recours juridictionnel, toute communication écrite de l'administration relative à la créance, ou tout paiement partiel. Chaque interruption fait courir un nouveau délai de quatre ou cinq ans selon le cas.\n\nSources : art. 36, 46, 47 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_fr_clarification_001",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [99, 100],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce qu'on peut passer un marché sans appel d'offres ?\n\nDocuments pertinents:\n[1] Source: art. 99 du Code de la Comptabilité Publique (CCP) (modifié par loi n°86-106 du 31/12/1986)\nLes commandes d'études, de travaux, de transports, de fournitures de biens et services pour le compte de l'Etat, font obligatoirement l'objet de marchés écrits.\nIl peut être suppléé, toutefois, aux marchés écrits par des simples factures ou mémoires :\n1) Pour les études, les travaux, les transports, les services et les fournitures livrables immédiatement ou à brève échéance lorsque la valeur présumée des besoins annuels n'excède pas un montant qui sera fixé par décret.\n2) Pour les études, les travaux, les transports, les fournitures de biens et services faits à l'étranger pour les besoins de postes diplomatiques et consulaires relevant du ministère des affaires étrangères, quel qu'en soit le montant.\n\n[2] Source: art. 100 du Code de la Comptabilité Publique (CCP)\nLes marchés sont passés avec concurrence par voie d'adjudication publique ou restreinte ou par voie d'appel d'offres.\nIl peut être passé, toutefois, des marchés par entente directe. Ces marchés seront soumis, dans toute la mesure du possible, à la publicité préalable et à la concurrence."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question mérite une précision avant de répondre : s'agit-il d'un marché passé par l'État, par un établissement public ou par une commune ? Et connaissez-vous le montant estimé du marché ?\n\nCeci dit, voici les éléments généraux que le CCP fournit sur ce sujet :\n\nD'après l'article 100 du CCP [2], le principe est que les marchés publics sont passés avec mise en concurrence, que ce soit par adjudication publique, adjudication restreinte ou appel d'offres. Toutefois, il est possible de recourir à l'entente directe (sans appel d'offres), à condition d'y appliquer, dans toute la mesure du possible, la publicité préalable et la concurrence.\n\nPar ailleurs, l'article 99 du CCP [1] précise que pour les petits besoins dont la valeur annuelle n'excède pas un seuil fixé par décret, il est possible de se passer d'un marché écrit formel et de recourir à de simples factures ou mémoires.\n\nPour connaître les seuils précis et les conditions exactes du recours à l'entente directe, il convient de se référer au décret réglementaire applicable aux marchés publics en vigueur.\n\nSources : art. 99, 100 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_fr_principle_exception_002",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [65, 66, 67],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les règles qui encadrent la capacité de l'État tunisien et des collectivités locales à contracter des emprunts ou à prendre des participations dans des sociétés ?\n\nDocuments pertinents:\n[1] Source: art. 65 du Code de la Comptabilité Publique (CCP)\nAucune dette de l'Etat ou d'un établissement public ne peut être contractée sous forme d'émission de titres à long, moyen ou court terme, sous forme de prise en charge d'emprunts émis ou d'engagements payables à terme ou par annuités, aucune opération de conversion de la dette publique ne peut être opérée que dans les limites de l'autorisation donnée par la loi de finances.\nLes conditions applicables à ces opérations sont fixées par décret.\n\n[2] Source: art. 66 du Code de la Comptabilité Publique (CCP)\nAucune collectivité publique locale ne peut contracter une dette sous les formes définies à l'article 65 du présent code sans autorisation préalable par décret.\n\n[3] Source: art. 67 du Code de la Comptabilité Publique (CCP) (modifié par loi n°96-86 du 6/11/1996)\nAucune participation au capital d'une société, sous forme d'apport en espèces ou en nature, ne peut être prise par l'Etat ou par un établissement public que dans les limites de l'autorisation donnée par la loi de finances.\nPour les collectivités locales, cette autorisation est donnée par arrêté conjoint du ministre de l'intérieur et du ministre chargé des participations publiques."
+        },
+        {
+          "role": "assistant",
+          "content": "Le CCP pose un principe de stricte encadrement légal de l'endettement et des prises de participation publics, décliné selon la nature de l'entité concernée.\n\nEn vertu de l'article 65 du CCP [1], l'État et les établissements publics ne peuvent contracter aucune dette — qu'il s'agisse d'émission de titres, de prise en charge d'emprunts ou d'engagements à terme — en dehors des limites expressément autorisées par la loi de finances. Les modalités de ces opérations sont précisées par décret.\n\nPour les collectivités publiques locales, l'article 66 du CCP [2] impose une condition différente : l'endettement n'est possible qu'après autorisation préalable par décret, et non par loi de finances.\n\nS'agissant des prises de participation dans le capital de sociétés, l'article 67 du CCP [3] soumet l'État et les établissements publics au même régime d'autorisation parlementaire via la loi de finances. Pour les collectivités locales, la prise de participation nécessite un arrêté conjoint du ministre de l'intérieur et du ministre chargé des participations publiques.\n\nCes dispositions visent à préserver l'équilibre budgétaire et à soumettre tout engagement financier significatif de la puissance publique à un contrôle démocratique.\n\nSources : art. 65, 66, 67 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_fr_direct_003",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [23],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qu'est-ce qu'un \"comptable de fait\" et quelles sont les conséquences juridiques pour une personne qui effectue des opérations financières publiques sans y être habilitée ?\n\nDocuments pertinents:\n[1] Source: art. 23 du Code de la Comptabilité Publique (CCP)\nEst considérée comme comptable de fait, toute personne qui effectue des opérations de recettes ou de dépenses pour le compte d'une collectivité publique sans y avoir été régulièrement habilitée.\nLa gestion du comptable de fait est soumise à toutes les règles édictées par le présent code et entraîne, pour son auteur, les mêmes obligations et responsabilités que les gestions patentes pour les comptables publics.\nLa cour des comptes peut, par ailleurs, lui infliger une amende pour détention sans titre de deniers publics.\nLe comptable de fait peut, en outre, être poursuivi et jugé en vertu de l'article 159 du code pénal."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 23 du CCP [1], est qualifiée de \"comptable de fait\" toute personne qui effectue des opérations de recettes ou de dépenses publiques sans avoir été régulièrement habilitée à cet effet.\n\nLes conséquences juridiques sont sévères : la gestion de ce comptable irrégulier est soumise à l'ensemble des règles du CCP, et il encourt les mêmes obligations et responsabilités qu'un comptable public régulier. En outre, la Cour des comptes peut lui infliger une amende pour détention sans titre de deniers publics. Enfin, le comptable de fait est susceptible de poursuites pénales sur le fondement de l'article 159 du Code pénal tunisien.\n\nSources : art. 23 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_ar_direct_001",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [10, 11],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي المهام الأساسية الموكَلة إلى المحاسبين العموميين بموجب مجلة المحاسبة العمومية، ومن يتولى تعيينهم؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 10 من مجلة المحاسبة العمومية (م.م.ع)\nيتولى المحاسبون العموميون تحصيل الموارد، وصرف النفقات، والحفاظ على الأموال والقيم والمنتجات والمواد المملوكة للدولة والمؤسسات العمومية والجماعات العمومية المحلية أو الموضوعة تحت رعايتها.\nكما يتولّون مراقبة سلامة الموارد والنفقات المذكورة وانتظام تسيير أملاكها.\n\n[2] المصدر: الفصل 11 من مجلة المحاسبة العمومية (م.م.ع)\nيُعيَّن المحاسبون العموميون من قِبَل وزير المالية أو من أُسنِدت إليه صلاحياته بالتفويض، ويخضعون مباشرةً وحصرياً لسلطته.\nغير أن محاسبي الميزانيات الملحقة يخضعون لسلطة الوزير المكلّف بتنفيذ كل ميزانية منها، ويُعيَّنون من قِبَله. أما العون المحاسبي المركزي لهذه الميزانيات فيُعيَّن بقرار مشترك بين وزير المالية والوزير المعني."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 10 من مجلة المحاسبة العمومية [1]، يضطلع المحاسبون العموميون بثلاث مهام جوهرية: تحصيل موارد الدولة والمؤسسات العمومية والجماعات المحلية، وصرف نفقاتها، والسهر على حفظ أموالها وقيمها ومواردها. فضلاً عن ذلك، يتولون مراقبة سلامة هذه الموارد والنفقات وانتظام تسيير الأملاك العمومية.\n\nأما من حيث التعيين، فإن الفصل 11 من المجلة [2] يُخوّل وزير المالية تعيين المحاسبين العموميين الذين يخضعون مباشرةً لسلطته الحصرية. غير أن هذا المبدأ يَرِد عليه استثناء: محاسبو الميزانيات الملحقة يتبعون الوزير المكلّف بتنفيذ ميزانيتهم ويُعيَّنون منه، على أن يُعيَّن العون المحاسبي المركزي بقرار مشترك.\n\nالمصادر: الفصل 10، الفصل 11 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_ar_principle_exception_001",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [25],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يجوز للإدارة التونسية التنازل عن ديونها أو منح إعفاءات ضريبية بصورة تقديرية؟ وما هو الإطار القانوني الضابط لذلك؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 25 من مجلة المحاسبة العمومية (م.م.ع)\nلا يمكن أن يُقرَّر التخلي عن الحقوق والديون العائدة للدولة والمؤسسات العمومية أو الجماعات العمومية المحلية إلا بموجب قانون.\nلا يمكن منح إعفاء من الضرائب أو الأداءات أو المعاليم ولا تسوية ديون بصفة إدارية إلا في الحالات المنصوص عليها صراحةً في التشريع والتراتيب المعمول بها.\nغير أن تخفيضات جزئية أو كلية من الضرائب أو الأداءات أو المعاليم وتسويات ديون الدولة أو المؤسسات العمومية يمكن منحها، في بعض الحالات الخاصة، بأمر من الوزير الأول بناءً على تقرير وزير المالية. وحين تتعلق هذه التخفيضات أو التسويات بمداخيل الجماعات العمومية المحلية، تُمنح بقرار مشترك بين وزيري الداخلية والمالية بناءً على اقتراح مجلس الجماعة المعنية."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 25 من مجلة المحاسبة العمومية [1]، يقوم هذا الإطار على مبدأ الحظر العام مع استثناءات محددة:\n\n**المبدأ:** لا يجوز للإدارة التنازل عن أي حق أو دين عائد للدولة أو للمؤسسات العمومية إلا بموجب قانون. كذلك لا يمكن منح إعفاءات ضريبية أو تسويات إدارية للديون إلا في الحالات المنصوص عليها صراحةً في التشريع والتراتيب المعمول بها.\n\n**الاستثناء:** يمكن، في حالات خاصة، منح تخفيضات جزئية أو كلية من الضرائب أو تسوية ديون الدولة بأمر من الوزير الأول بناءً على تقرير وزير المالية. أما بالنسبة لمداخيل الجماعات المحلية، فتستوجب هذه التخفيضات قراراً مشتركاً بين وزيري الداخلية والمالية، مع اشتراط اقتراح مجلس الجماعة المعنية.\n\nتهدف هذه الأحكام إلى صون المال العام من أي تفريط تقديري غير مبرَّر، مع إتاحة هامش محدود من المرونة في الحالات الاستثنائية.\n\nالمصادر: الفصل 25 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_ar_multi_article_001",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [236, 238, 245],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو الهيكل التنظيمي لتسيير المؤسسات العمومية من الناحية المالية؟ ومن يضطلع بمهام الآمر بالصرف فيها؟ وهل تخضع نفقاتها لرقابة مسبقة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 236 من مجلة المحاسبة العمومية (م.م.ع) (معدَّل بالقانون عدد 96-86 بتاريخ 06/11/1996)\nتوضع المؤسسات العمومية تحت إشراف الوزير الذي تتبعه.\nتُدار، مع مراعاة أحكام النصوص المنظِّمة لها، من قِبَل مدير أو مسيّر تحت رقابة مجالس أو لجان يُحدَّد تركيبها وصلاحياتها وطريقة عملها بمرسوم.\n\n[2] المصدر: الفصل 238 من مجلة المحاسبة العمومية (م.م.ع)\nالمدير العام للمؤسسة هو الآمر الرئيسي بالصرف.\nيمكن أن يُعاونه آمرون ثانويون بالصرف يُعيَّنون وفق الأشكال المنصوص عليها في هذه المجلة.\n\n[3] المصدر: الفصل 245 من مجلة المحاسبة العمومية (م.م.ع) (معدَّل بالقانون عدد 96-86 بتاريخ 06/11/1996)\nتُرتَكَب النفقات وتُصفَّى وتُؤذَن بصرفها من قِبَل رئيس المؤسسة، مع مراعاة الرأي المسبق للجنة الاستشارية في الحالات المنصوص عليها.\nتخضع هذه العمليات لتأشيرة مصلحة مراقبة النفقات العمومية، وتُنجز هذه التأشيرة وفق إجراءات الارتباطات الاستئذانية في حدود نصف الاعتمادات المفتوحة، وذلك بالنسبة للمؤسسات التي تتجاوز ميزانيتها مبلغاً يُحدَّد بمرسوم.\nغير أن نفقات بعض المؤسسات العمومية يمكن إعفاؤها من التأشيرة المسبقة، وتُحدَّد المؤسسات المستفيدة والشروط والأحكام بمرسوم."
+        },
+        {
+          "role": "assistant",
+          "content": "تُرسي مجلة المحاسبة العمومية هيكلاً تنظيمياً واضحاً للمؤسسات العمومية من الناحية المالية.\n\nبمقتضى الفصل 236 من المجلة [1]، تخضع المؤسسات العمومية لإشراف الوزير الذي تتبعه وتُدار من قِبَل مدير أو مسيّر تحت رقابة مجالس أو لجان تُحدَّد بمرسوم.\n\nأما من حيث الآمر بالصرف، فإن الفصل 238 [2] يُعيّن المدير العام للمؤسسة آمراً رئيسياً بالصرف، مع إمكانية تعيين آمرين ثانويين يُعاونونه.\n\nعلاوة على ذلك، يُنظّم الفصل 245 [3] الرقابة المسبقة على النفقات. فالمبدأ هو إخضاع ارتكاب النفقات وتصفيتها والإذن بصرفها لتأشيرة مصلحة مراقبة النفقات العمومية. غير أن هذا المبدأ يَرِد عليه استثناء: بعض المؤسسات يمكن إعفاؤها من هذه التأشيرة المسبقة بموجب مرسوم يُحدد المؤسسات المعنية والشروط المطلوبة.\n\nالمصادر: الفصل 236، الفصل 238، الفصل 245 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_ar_refusal_001",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو الحد الأقصى للراتب الشهري الخاضع لإلزامية الصرف بالتحويل البنكي بالنسبة للموظفين العموميين في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 141 من مجلة المحاسبة العمومية (م.م.ع)\nيسري الإلزام بالصرف بالتحويل أيضاً على نفقات الأجور والرواتب وما يماثلها المترتبة على الدولة، متى تجاوز المبلغ الصافي للراتب أو المرتب أو الأجر لشهر كامل مبلغاً يُحدَّد بقرار من وزير المالية أو من فُوِّضت إليه صلاحياته. ويُحتسب المبلغ الشهري بعد خصم الاشتراكات في نظام المعاشات والتأمينات الاجتماعية والضرائب الشخصية."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تتضمن الوثائق المقدَّمة إجابةً محددة على هذا السؤال. صحيح أن الفصل 141 من مجلة المحاسبة العمومية [1] يُقرّ إلزامية الصرف بالتحويل البنكي حين يتجاوز الراتب الصافي مبلغاً معيناً، غير أن النص يُحيل في تحديد هذا المبلغ إلى قرار من وزير المالية، ولم يُذكر هذا المبلغ في الوثيقة المتاحة.\n\nلمعرفة الحد المالي المعمول به حالياً، يُرجى مراجعة القرارات الوزارية الصادرة عن وزارة المالية التونسية، أو الاستعانة بمحامٍ أو مستشار مختص."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_ar_procedural_001",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [255, 256],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي المراحل المتتابعة لإعداد الحساب المالي للمؤسسة العمومية والجهات التي تتولى المصادقة عليه؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 255 من مجلة المحاسبة العمومية (م.م.ع)\nيُعدّ العون المحاسبي، في ختام كل سنة، الحساب المالي للمؤسسة عن السنة المنقضية.\nيشتمل الحساب المالي، المُعدّ وفق نموذج يُحدَّد من قِبَل وزير المالية، على ما يلي:\n- الميزان الختامي للحسابات.\n- تفصيل الموارد والنفقات الميزانياتية حسب الأبواب.\n- تطور نتائج التسيير.\n- الميزانية الختامية لنهاية السنة.\n\n[2] المصدر: الفصل 256 من مجلة المحاسبة العمومية (م.م.ع)\nيُؤشَّر على الحساب المالي من قِبَل الآمر بالصرف لمطابقته مع كتاباته، ثم يُعرَض، بعد فحصه من قِبَل المجلس أو اللجنة المُحدَثة لدى المؤسسة، على مصادقة سلطات الإشراف."
+        },
+        {
+          "role": "assistant",
+          "content": "تسير عملية إعداد الحساب المالي للمؤسسة العمومية وفق مراحل متتالية محددة بموجب مجلة المحاسبة العمومية:\n\n**المرحلة الأولى — الإعداد (الفصل 255 [1]):** يتولى العون المحاسبي إعداد الحساب المالي في نهاية كل سنة. يتضمن هذا الحساب الميزان الختامي للحسابات، وتفصيل الموارد والنفقات الميزانياتية، ونتائج التسيير، والميزانية الختامية، وذلك وفق نموذج يُحدده وزير المالية.\n\n**المرحلة الثانية — التأشير من قِبَل الآمر بالصرف (الفصل 256 [2]):** يؤشّر الآمر الرئيسي بالصرف على الحساب المالي لإثبات مطابقته مع كتاباته الداخلية.\n\n**المرحلة الثالثة — الفحص من قِبَل مجلس المؤسسة أو لجنتها (الفصل 256 [2]):** يُعرض الحساب للفحص على المجلس أو اللجنة الاستشارية المُحدَثة لدى المؤسسة.\n\n**المرحلة الرابعة — مصادقة سلطات الإشراف (الفصل 256 [2]):** يُرفع الحساب في النهاية إلى سلطات الإشراف للمصادقة عليه.\n\nالمصادر: الفصل 255، الفصل 256 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_ar_direct_002",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [52],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما المقصود بعمليات الخزينة وفق أحكام مجلة المحاسبة العمومية التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 52 من مجلة المحاسبة العمومية (م.م.ع)\nتُعدّ من عمليات الخزينة العمليات المتعلقة بتحركات الأموال والقيم القابلة للتعبئة، وتسيير حسابات المراسلين والودائع والمبالغ المودَعة لدى الخزينة بعناوين متعددة، وإصدار القروض قصيرة المدى وتسييرها وسدادها، وبصفة عامة جميع العمليات المتعلقة بحسابات الديون والمستحقات غير الميزانياتية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 52 من مجلة المحاسبة العمومية [1]، تشمل عمليات الخزينة طيفاً واسعاً من العمليات المالية التي لا تندرج ضمن الميزانية بمفهومها الضيق. وتتمثل أبرزها في:\n- تحركات الأموال والقيم القابلة للتعبئة،\n- تسيير حسابات المراسلين والودائع المودَعة لدى الخزينة،\n- إصدار القروض قصيرة الأجل وإدارتها وسدادها،\n- وبصفة عامة، كل عملية تتعلق بحسابات الديون والمستحقات ذات الطابع غير الميزانياتي.\n\nهذا المفهوم الشامل يجعل عمليات الخزينة أداة محورية في إدارة السيولة العامة للدولة خارج الإطار الميزانياتي الصارم.\n\nالمصادر: الفصل 52 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_ar_refusal_002",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الشروط القانونية والإجرائية المطلوبة لاستيراد معدات صناعية معفاة من الأداءات الجمركية بموجب اتفاقية شراكة مع الاتحاد الأوروبي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 80 من مجلة المحاسبة العمومية (م.م.ع)\nلأداء المعاليم والأداءات المستخلَصة من قِبَل مصلحة الجمارك، يمكن قبول الالتزامات الكفيلة بضمان الأداء من قِبَل المطالَبين بها. وتُخوَّل هذه الالتزامات فائدة. وتُحدَّد آجال الاستحقاق وشروط قبول هذه الطريقة في الأداء والعمليات التي يمكنها الانتفاع بها ونسبة الفائدة بقرار من وزير المالية."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تتضمن الوثائق المقدَّمة معلومات كافية للإجابة على هذا السؤال. تتعلق مجلة المحاسبة العمومية بالقواعد العامة لتسيير المالية العمومية، ولا تتناول الإعفاءات الجمركية الخاصة المنبثقة عن اتفاقيات الشراكة الدولية.\n\nللإجابة على هذا التساؤل، يُرجى الرجوع إلى مجلة الديوانة التونسية، واتفاقية الشراكة بين تونس والاتحاد الأوروبي، فضلاً عن المناشير الصادرة عن ديوانة تونس. كما يُنصح باستشارة محامٍ متخصص في القانون الجمركي والتجارة الدولية."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_ar_multi_article_002",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [260, 268, 272],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو الإطار القانوني الحاكم لتسيير الشؤون المالية في البلديات التونسية؟ ومن يتولى الأمر بالصرف؟ وما هي القيود المفروضة على المحاسب البلدي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 260 من مجلة المحاسبة العمومية (م.م.ع)\nتخضع البلديات للإشراف الإداري لوزير الداخلية وللإشراف المالي لوزير المالية أو من أُسنِدت إليه صلاحياته بالتفويض.\n\n[2] المصدر: الفصل 268 من مجلة المحاسبة العمومية (م.م.ع)\nتُرتكَب النفقات البلدية وتُصفَّى وتُؤذَن بصرفها من قِبَل رئيس البلدية أو العمدة بصفته آمراً بالصرف للميزانية البلدية.\nيمكن لرئيس البلدية، مع ذلك، تحت رقابته ومسؤوليته، أن يُفوِّض لنوابه صلاحية ارتكاب وإصدار أذون بصرف بعض النفقات، سواء بصفة وقتية أو دائمة. يُمنح هذا التفويض بمقرر يُدوَّن في سجل البلدية ويُسحَب بالصيغة ذاتها التي منح بها.\n\n[3] المصدر: الفصل 272 من مجلة المحاسبة العمومية (م.م.ع)\nيتعيّن على المحاسب رفض صرف النفقات المحالة على صندوقه في صورة انعدام الاعتمادات المتاحة لدى البلدية."
+        },
+        {
+          "role": "assistant",
+          "content": "تُرسي مجلة المحاسبة العمومية نظاماً مالياً للبلديات يقوم على ازدواجية الإشراف وتوزيع الصلاحيات.\n\nبمقتضى الفصل 260 من المجلة [1]، تخضع البلديات لإشراف مزدوج: إشراف إداري من وزير الداخلية وإشراف مالي من وزير المالية.\n\nأما من حيث الآمر بالصرف، يُعيّن الفصل 268 [2] رئيسَ البلدية أو العمدةَ آمراً أصلياً بالصرف للميزانية البلدية. ويُجيز له القانون تفويض بعض صلاحياته لنوابه، سواء بصورة وقتية أو دائمة، شريطة أن يتم التفويض بمقرر مدوَّن في سجل البلدية قابل للسحب بالصيغة ذاتها.\n\nفي المقابل، يفرض الفصل 272 [3] قيداً صارماً على المحاسب البلدي: يجب عليه رفض صرف أي نفقة محالة على صندوقه إن لم تتوفر الاعتمادات الكافية في ميزانية البلدية. وهو بذلك يُشكّل ضابطاً مالياً مستقلاً في مواجهة الآمر بالصرف.\n\nالمصادر: الفصل 260، الفصل 268، الفصل 272 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_cross_fr_001",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [136, 137],
+      "confidence_flag": "This is a cross-lingual example: question in French, source articles originally in French (standard case for this code).",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que comptable assignataire, quelles vérifications dois-je effectuer avant de viser une ordonnance de paiement, et que se passe-t-il si je refuse de viser et que l'ordonnateur insiste ?\n\nDocuments pertinents:\n[1] Source: art. 136 du Code de la Comptabilité Publique (CCP)\nAvant de procéder au visa pour paiement des ordonnances et mandats émis sur sa caisse, le comptable assignataire doit s'assurer sous sa responsabilité :\na) de la disponibilité d'un crédit régulièrement ouvert.\nb) de l'imputation exacte de la dépense au titre, chapitre, section, article, paragraphe et sous-paragraphe qui la concerne selon sa nature ou son objet.\nc) de la justification du service fait et de l'exactitude de la liquidation.\nd) du caractère libératoire du règlement.\ne) du visa préalable de l'engagement de la dépense par le service du contrôle des dépenses publiques.\nf) de l'application des règles de prescription et de déchéance.\ng) de la production et de la régularité de toutes les pièces justifiant la dépense.\n\n[2] Source: art. 137 du Code de la Comptabilité Publique (CCP)\nEn cas d'irrégularité, le visa pour paiement est suspendu par le comptable qui doit adresser immédiatement à l'ordonnateur une déclaration écrite et motivée de son refus de visa.\nSi, malgré cette déclaration, l'ordonnateur estime qu'il est nécessaire de passer outre, il doit saisir immédiatement le ministre des finances qui statue sur l'affaire. Si l'incident persiste, il est référé au Premier ministre avec exposé des circonstances de l'affaire.\nLe comptable est tenu d'exécuter la décision prise en l'objet. Sa responsabilité ne peut être engagée du fait de cette exécution."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 136 du CCP [1], avant de viser une ordonnance de paiement, vous devez vérifier sous votre responsabilité personnelle sept éléments cumulatifs : la disponibilité d'un crédit régulièrement ouvert ; l'imputation budgétaire exacte de la dépense ; la justification du service fait et l'exactitude de la liquidation ; le caractère libératoire du règlement ; le visa préalable du service du contrôle des dépenses publiques ; le respect des règles de prescription et de déchéance ; enfin, la production et la régularité de l'ensemble des pièces justificatives.\n\nEn cas d'irrégularité constatée, l'article 137 du CCP [2] vous impose de suspendre le visa et d'adresser immédiatement à l'ordonnateur une déclaration écrite et motivée de refus.\n\nToutefois, si l'ordonnateur entend passer outre malgré votre refus, il doit saisir le ministre des finances pour arbitrage. Si le différend persiste, l'affaire est portée devant le Premier ministre. Dans ce cas, vous êtes tenu d'exécuter la décision finale rendue, et votre responsabilité personnelle ne peut être engagée du fait de cette exécution contrainte.\n\nCette procédure illustre le principe de protection du comptable en cas de réquisition : la responsabilité se déplace vers l'ordonnateur.\n\nSources : art. 136, 137 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_cross_ar_001",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [33],
+      "confidence_flag": "Cross-lingual example: question in Arabic, source article in French (the code is only available in French). Answer provided in Arabic as per the question language.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يتمتع الدائنون العاديون للدولة التونسية بنفس الحق في الامتياز الذي تتمتع به الدولة في مواجهة مدينيها؟ وما هو النظام القانوني للامتياز العام للدولة؟\n\nالوثائق ذات الصلة:\n[1] Source: art. 33 du Code de la Comptabilité Publique (CCP)\nL'Etat et les « établissements publics » bénéficient, pour le recouvrement de leurs créances, d'un privilège général sur les biens meubles et immeubles de leurs débiteurs.\nCe privilège s'exerce dans les conditions prévues par le code des droits réels.\nLes collectivités publiques locales bénéficient, pour le recouvrement de leurs créances, du même privilège que celui reconnu à l'Etat. En cas de concurrence, il est donné préférence aux créances de l'Etat."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 33 من مجلة المحاسبة العمومية [1]، تتمتع الدولة والمؤسسات العمومية بامتياز عام على جميع أموال مدينيها المنقولة والعقارية، وذلك في إطار استخلاص ديونها. ويُمارَس هذا الامتياز وفق الشروط المنصوص عليها في مجلة الحقوق العينية.\n\nأما الجماعات العمومية المحلية، فتتمتع بالامتياز ذاته المعترَف به للدولة، غير أنه في حالة تزاحم الديون، تُقدَّم ديون الدولة على ديون الجماعات المحلية.\n\nوفيما يخص دائني الدولة العاديين، فإن الوثائق المقدَّمة لا تمنحهم أي امتياز مماثل؛ بل على العكس، الفصل 37 من المجلة يقضي بعدم قابلية أموال الدولة للحجز. وبالتالي لا يوجد تعادل في المركز القانوني بين الدولة الدائنة ودائنيها العاديين.\n\nالمصادر: الفصل 33 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_fr_clarification_002",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [152, 153],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je veux créer une régie d'avances dans mon service. Comment faire ?\n\nDocuments pertinents:\n[1] Source: art. 152 du Code de la Comptabilité Publique (CCP) (modifié par loi n°88-145 du 31/12/1988)\nLes régisseurs d'avances peuvent être chargés d'effectuer certaines dépenses publiques lorsqu'il s'agit de menues dépenses ou lorsqu'il n'est pas possible de respecter les formalités d'ordonnancement préalable.\nLa nature et le montant des dépenses qui peuvent être payées par les régies d'avances seront fixées par arrêté du ministre des finances instituant chaque régie.\n\n[2] Source: art. 153 du Code de la Comptabilité Publique (CCP)\nLes régies d'avances sont instituées par arrêté du ministre des finances sur proposition du chef de l'administration intéressé.\nToute proposition d'institution de régie doit être motivée et appuyée de toutes justifications utiles permettant d'apprécier la nécessité de la création proposée."
+        },
+        {
+          "role": "assistant",
+          "content": "Avant de vous répondre en détail, j'aurais besoin de savoir : s'agit-il d'une régie au sein d'un service de l'État central, d'un établissement public ou d'une commune ? En effet, les procédures peuvent différer légèrement selon la structure concernée.\n\nCela dit, voici le cadre général applicable aux services de l'État selon le CCP :\n\nD'après l'article 153 du CCP [2], la création d'une régie d'avances nécessite un arrêté du ministre des finances, pris sur proposition du chef de l'administration intéressée. Toute proposition doit être motivée et accompagnée de justifications démontrant la nécessité de cette régie.\n\nPar ailleurs, l'article 152 du CCP [1] précise que la régie d'avances est réservée aux menues dépenses ou aux cas où il est impossible de respecter les formalités d'ordonnancement préalable. La nature et le montant des dépenses autorisées sont fixés dans l'arrêté d'institution lui-même.\n\nEn pratique, votre démarche consiste donc à préparer un dossier motivé à soumettre à votre hiérarchie, qui le transmettra ensuite au ministère des finances.\n\nSources : art. 152, 153 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_fr_multi_article_003",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [208, 210],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant qu'étudiant préparant un mémoire sur le contrôle juridictionnel des finances publiques tunisiennes, j'aimerais comprendre : quel document récapitulatif le ministère des finances établit-il annuellement, et qui est compétent pour juger les comptes des comptables de l'État ?\n\nDocuments pertinents:\n[1] Source: art. 208 du Code de la Comptabilité Publique (CCP) (modifié par loi n°96-86 du 6/11/1996)\nLe ministre des finances établit en fin d'année un compte général.\nLe compte général se compose :\n1) d'une balance générale des comptes résultant de la synthèse des comptes des comptables publics.\n2) des développements des produits par titre, partie, catégorie et article du budget indiquant les prévisions du budget et les recouvrements effectués.\n3) des développements des dépenses, destinés à faire connaître, pour chaque titre, partie, chapitre et article du budget, les crédits résultant du budget ou des autorisations supplémentaires, les dépenses engagées, les ordonnancements effectués et les crédits grevés d'affectation spéciale.\n4) de la comparaison des recettes et des dépenses avec les prévisions du budget.\n5) du développement des opérations constatées aux fonds spéciaux du trésor.\n6) de la situation du compte permanent des découverts du trésor.\n7) de la situation des emprunts et autres engagements de l'Etat.\n\n[2] Source: art. 210 du Code de la Comptabilité Publique (CCP)\nLes comptes présentés par les comptables principaux de l'Etat sont jugés par la cour des comptes qui peut seule donner quitus de leur gestion."
+        },
+        {
+          "role": "assistant",
+          "content": "Ces deux dispositions constituent des éléments essentiels du contrôle des finances publiques tunisiennes.\n\nEn vertu de l'article 208 du CCP [1], le ministère des finances est tenu d'établir, en fin de chaque année, un compte général de l'administration des finances. Ce document de synthèse comprend notamment : une balance générale des comptes de l'ensemble des comptables publics, le développement des recettes et dépenses budgétaires par rapport aux prévisions initiales, la situation des fonds spéciaux du trésor, la situation des découverts du trésor, ainsi que l'état des emprunts et engagements de l'État. Ce compte constitue ainsi l'instrument de reddition de comptes budgétaire par excellence de l'exécutif.\n\nPar ailleurs, l'article 210 du CCP [2] établit une compétence juridictionnelle exclusive : les comptes des comptables principaux de l'État sont jugés par la Cour des comptes, seule habilitée à leur donner quitus de leur gestion. Aucune autre juridiction ne peut se substituer à elle pour ce contrôle.\n\nCette architecture — compte général ministériel d'un côté, contrôle juridictionnel de la Cour des comptes de l'autre — illustre la double dimension administrative et juridictionnelle du contrôle des finances publiques en Tunisie.\n\nSources : art. 208, 210 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_001_ar_clarification_001",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [13],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما الفرق بين المحاسب الأصلي والمحاسب الفرعي في التشريع التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 13 من مجلة المحاسبة العمومية (م.م.ع) (معدَّل بالقانون عدد 90-111 بتاريخ 31/12/1990)\nالمحاسبون العموميون إما أصليون وإما فرعيون.\nالمحاسبون الأصليون هم الذين تكتمل لهم الصلاحيات المحاسبية وهم يقدمون حساباتهم مباشرةً إلى قاضي الحسابات.\nالمحاسبون الفرعيون هم الذين تُمركَز عملياتهم لدى محاسب أصلي.\nيمكن للمحاسبين العموميين تفويض صلاحياتهم لمفوَّضين مخوَّلين للعمل باسمهم وتحت مسؤوليتهم."
+        },
+        {
+          "role": "assistant",
+          "content": "قبل الإجابة، أودّ الاستفسار: هل يتعلق سؤالك بنطاق تطبيق هذا التمييز على مستوى الدولة المركزية فحسب، أم يمتد اهتمامك إلى المؤسسات العمومية والجماعات المحلية أيضاً؟\n\nفي ما يخص الإطار العام الوارد في المجلة، يُبيّن الفصل 13 من مجلة المحاسبة العمومية [1] الفارق الجوهري بين الصنفين:\n\nالمحاسب الأصلي هو الذي تكتمل لديه صلاحية المحاسبة العمومية كاملةً، ويُقدّم حساباته مباشرةً إلى قاضي الحسابات (أي محكمة المحاسبات).\n\nأما المحاسب الفرعي، فهو الذي تُمركَز عملياته لدى محاسب أصلي يتحمل المسؤولية النهائية عن حساباته. ويترتب على ذلك عدم تقديمه حساباته مباشرةً إلى القضاء.\n\nوتجدر الإشارة إلى أن المحاسب العمومي —سواء أصلياً أو فرعياً— يمكنه تفويض صلاحياته لمفوَّضين يعملون باسمه وتحت مسؤوليته.\n\nالمصادر: الفصل 13 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre Premier — Principes généraux (art. 3–68): Ch. I Ordonnateurs (art. 5–6), Ch. II Comptables publics (art. 10–13, 15, 17, 21–23), Ch. III Opérations de recettes (art. 25–26bis, 28quinquies, 31, 33, 36–36bis), Ch. IV Opérations de dépenses (art. 40–41, 46–47), Ch. V Opérations de trésorerie (art. 52, 55), Ch. VI Emprunts et engagements (art. 65–67), Ch. VII Comptabilité (art. 68)",
+      "Titre II — État: Ch. II Paiement des dépenses – Sect. 1 Engagement (art. 84), Sect. 2 Liquidation (art. 94), Sect. 2 Marchés (art. 99–100), Sect. 4 Ordonnancement (art. 122), Sect. 5 Paiement (art. 133, 136–137), Sect. 6 Régies d'avances (art. 152–153); Ch. IV Comptabilité de l'État (art. 208, 210)",
+      "Titre III — Établissements publics (art. 236, 238, 245, 255–256)",
+      "Titre IV — Communes et collectivités (art. 260, 268, 272, 282)"
+    ],
+    "sections_not_covered": [
+      "Art. 3, 4 — Budget général et principes de gestion",
+      "Art. 8–9 — Responsabilité des ordonnateurs, comptabilité des ordonnateurs",
+      "Art. 12 — Cautionnement et serment des comptables",
+      "Art. 14 — Régisseurs",
+      "Art. 16 — Responsabilité pour les agents subordonnés",
+      "Art. 18–19 — Débet du comptable subordonné, responsabilité des régisseurs",
+      "Art. 20 — Contrôle administratif des comptables",
+      "Art. 24 — Interdiction des contributions non autorisées",
+      "Art. 26bis, 27 — Frais de poursuite, opposition à l'état de liquidation",
+      "Art. 28–28quater — Agents d'exécution, officiers des services financiers",
+      "Art. 28sexies — Procédure accélérée de poursuite",
+      "Art. 29–30 — Exécution des titres et saisies-arrêts",
+      "Art. 31bis–31ter — Procès-verbal valant commandement, dépositaires publics",
+      "Art. 32 — Vente des biens saisis",
+      "Art. 34–34bis — Privilège spécial, immatriculation des véhicules",
+      "Art. 35 — Non-suspension des délais par les tribunaux",
+      "Art. 36bis — Interruption de la prescription du recouvrement",
+      "Art. 37–39 — Insaisissabilité des biens publics, exclusion de compensation",
+      "Art. 42–51 — Échéance des dettes, saisies, prescriptions des dépenses",
+      "Art. 53–64 — Exécution des opérations de trésorerie, fonds de trésorerie",
+      "Art. 69–83 — Recouvrement des revenus de l'État (hors art. 72bis cité par renvoi)",
+      "Art. 85–93 — Engagement des dépenses, hors art. 84",
+      "Art. 95–98, 101–118 — Liquidation, baux, marchés de détail",
+      "Art. 120–121 — Ordonnancement",
+      "Art. 123–135 — Pièces justificatives et paiements",
+      "Art. 138–151quinto — Modalités de paiement",
+      "Art. 154–162 — Fonctionnement interne des régies d'avances",
+      "Art. 163–175 — Dépenses des postes diplomatiques",
+      "Art. 176–184ter — Attributions des comptables de l'État (Trésorier général, Payeur général, Payeurs)",
+      "Art. 185–195bis — Receveurs des finances, Trésoriers régionaux, Comptables en matières",
+      "Art. 196–207 — Comptabilité de l'État (écritures, bordereaux mensuels)",
+      "Art. 209, 211–216 — Transmission des comptes et suites judiciaires",
+      "Art. 217–235 — Budgets annexes",
+      "Art. 239–244, 246–254 — Opérations détaillées des établissements publics",
+      "Art. 257–259 — Contrôle des comptes financiers des établissements publics",
+      "Art. 261–267 — Recouvrement des revenus communaux",
+      "Art. 269–271 — Engagements de dépenses communales",
+      "Art. 273–281 — Marchés, régies, comptabilité communale",
+      "Art. 283–286 — Contrôle des comptes communaux et collectivités assimilées"
+    ],
+    "notes": "Le PDF est un document texte lisible avec une extraction de qualité correcte. Quelques mises en garde : (1) Certains articles ont été abrogés (104, 119, 151ter/quater/quinto, 162) et n'ont pas été utilisés. (2) L'article 28quinquies porte un numéro composé — le JSON utilise une chaîne pour 'articles_referenced_raw' dans l'exemple concerné. (3) La numérotation des articles du CCP est complexe (bis, ter, quater, quinquies, sexies) et a été respectée fidèlement. (4) Aucun article n'a été inventé — tous les textes cités correspondent aux extraits extraits du PDF. (5) Le code ne dispose pas d'une version officielle arabe connue; les exemples arabes sont formulés de manière native en MSA à partir du contenu français."
+  }
+}

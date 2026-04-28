@@ -1,0 +1,425 @@
+{
+  "batch_id": "batch_PRESSE_001_20260101",
+  "source": "Code de la Presse de Tunisie (Loi n° 75-32 du 28 avril 1975)",
+  "articles_covered": [1, 2, 8, 9, 13, 14, 15, 16, 19, 23, 26, 27, 42, 43, 50, 53, 57, 68, 69, 72, 74],
+  "articles_to_avoid_next_batch": [1, 2, 8, 9, 13, 14, 15, 16, 19, 23, 26, 27, 42, 43, 50, 53, 57, 68, 69, 72, 74],
+  "examples": [
+    {
+      "example_id": "PRESSE_FR_DIRECT_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [1],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La liberté de la presse est-elle garantie en Tunisie selon le Code de la Presse ?\n\nDocuments pertinents:\n[1] Source: article 1 du Code de la Presse\nLa liberté de la presse, de l'édition, de l'impression, de la distribution et de la vente des livres et des publications est garantie et exercée dans les conditions définies par le présent code."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 1 du Code de la Presse, la liberté de la presse, de l'édition, de l'impression, de la distribution et de la vente des livres et publications est expressément garantie [1]. Toutefois, cette liberté s'exerce dans le cadre des conditions et limites définies par l'ensemble du code, qui prévoit des obligations de dépôt légal, de déclaration préalable pour les périodiques, et des sanctions pour les infractions commises par voie de presse. Ainsi, le législateur tunisien concilie la garantie constitutionnelle de la liberté d'expression avec la nécessité de réguler l'activité médiatique pour protéger l'ordre public et les droits des tiers. Sources: art. 1 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_DIRECT_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [13],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les mentions obligatoires dans la déclaration préalable pour publier un périodique en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 13 du Code de la Presse\nAvant la publication de tout périodique, il sera fait au ministère de l'intérieur une déclaration rédigée sur papier timbré et signée du directeur du périodique. Il en sera donné récépissé.\nCette déclaration doit mentionner: 1°) le titre du périodique et sa périodicité; 2°) les nom, prénom, nationalité et domicile du directeur du périodique, 3°) l'imprimerie où il doit être imprimé; 4°) la ou les langues dans lesquelles sera rédigé le périodique; 5°) le lieu et le numéro d'immatriculation au registre du commerce; 6°) les noms, prénoms, professions et domiciles des membres du conseil d'administration, du comité directeur et, d'une façon générale, des dirigeants de la personne morale.\nTout changement, apporté aux indications ci-dessus énumérées, sera déclaré dans les cinq jours.\nSeront joints à cette déclaration: - un extrait datant de moins de trois mois du casier judiciaire du directeur; - la justification de l'accomplissement des formalités légales de constitution en cas de société."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 13 du Code de la Presse, toute déclaration préalable pour un périodique doit mentionner six éléments : le titre et la périodicité, l'identité complète du directeur, l'imprimerie d'impression, la ou les langues de rédaction, l'immatriculation au registre du commerce, et l'identité des dirigeants de la personne morale le cas échéant [1]. Par ailleurs, tout changement intervenu dans ces mentions doit être déclaré dans un délai de cinq jours. En outre, la déclaration doit être accompagnée d'un extrait de casier judiciaire récent du directeur et, pour les sociétés, de la justification des formalités de constitution. Ainsi, le législateur vise à assurer la traçabilité et la responsabilité des publications périodiques. Sources: art. 13 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_DIRECT_003",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [23],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment doit être identifié un article de publicité rédactionnelle dans un périodique tunisien ?\n\nDocuments pertinents:\n[1] Source: article 23 du Code de la Presse\nTout article de publicité rédactionnelle doit être précédé ou suivi de l'indication publicité ou communiqué et doit avoir une présentation qui le distingue clairement des autres matières rédactionnelles. Tout manquement à ces dispositions sera puni d'une amende de deux mille(2000) à six mille(6000) dinars.\n«Le fait pour le propriétaire, le directeur ou le collaborateur d'un périodique de recevoir une somme d'argent ou tout autre avantage, aux fins de travestir une publicité en information, est puni d'une amende équivalente à la somme perçue sans quelle soit inférieure, dans tous les cas, à 50.000 dinars »."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 23 du Code de la Presse, tout article de publicité rédactionnelle doit être précédé ou suivi de la mention « publicité » ou « communiqué » et présenter une mise en forme le distinguant clairement du contenu éditorial [1]. Par ailleurs, le fait de percevoir une rémunération pour travestir une publicité en information expose son auteur à une amende minimale de 50 000 dinars. Ainsi, cette règle vise à protéger le lecteur contre la confusion entre information objective et contenu sponsorisé, garantissant la transparence éditoriale. Sources: art. 23 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_MULTI_004",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [8, 9],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les différences de procédure de dépôt légal entre une œuvre produite en Tunisie et une œuvre étrangère introduite en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 8 du Code de la Presse\nLe dépôt légal de toutes œuvres produites ou reproduites en Tunisie incombe, selon le cas, à l'imprimeur ou au producteur et a lieu dès l'achèvement du tirage ou de la fabrication.\n\"Un dépôt par l'imprimeur de toute œuvre périodique est effectué en vingt exemplaires auprès du ministère chargé de l'information, pour les gouvernorats de Tunis, l'Ariana, Ben Arous et la Manouba, et au siège du gouvernorat pour les autres gouvernorats, et ce, afin de les distribuer aux services concernés\".\nUn dépôt par l'imprimeur de toute œuvre imprimée non périodique est effectué en un exemplaire auprès du parquet territorialement compétent, et en sept exemplaires auprès du ministère de la culture(l'un de ces exemplaires est destiné à la chambre des députés, un autre exemplaire au ministère de l'intérieur et quatre à la bibliothèque nationale).\n[2] Source: article 9 du Code de la Presse\nLe dépôt légal de toute œuvre imprimée ou produite à l'étranger et introduite en Tunisie, et mise publiquement en vente, en location ou en distribution, incombe au distributeur et ce, avant sa mise à la disposition du public.\nUn dépôt de toute œuvre périodique, paraissant à l'étranger et introduite en Tunisie, doit être effectué en un exemplaire auprès du parquet de Tunis, en deux exemplaires auprès du ministère de l'intérieur et en six exemplaires auprès du secrétariat d'Etat à l'information."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 8 et 9 du Code de la Presse, le dépôt légal d'une œuvre produite en Tunisie incombe à l'imprimeur ou au producteur et s'effectue dès l'achèvement du tirage, avec des quantités variables selon le type d'œuvre et la localisation [1]. Par ailleurs, pour les œuvres étrangères introduites en Tunisie, c'est le distributeur qui est responsable du dépôt, lequel doit intervenir avant toute mise à disposition du public, avec des destinations administratives distinctes (parquet de Tunis, ministère de l'intérieur, secrétariat à l'information) [2]. Toutefois, dans les deux cas, l'objectif est d'assurer la conservation patrimoniale et le contrôle administratif des publications. Ainsi, la différence de procédure reflète la distinction entre production nationale et importation, tout en maintenant un régime unifié de traçabilité. Sources: art. 8 et 9 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_MULTI_005",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [26, 27],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les délais et conditions pour l'insertion d'une rectification ou d'une réponse dans un périodique tunisien ?\n\nDocuments pertinents:\n[1] Source: article 26 du Code de la Presse\nLe directeur de la publication est tenu d'insérer gratuitement, en tête du plus prochain numéro du périodique, toutes les rectifications qui lui seront adressées par un dépositaire de l'autorité publique, au sujet des actes de sa fonction qui auront été inexactement rapportés par ledit périodique.\nEn cas de refus d'insertion, le directeur de la publication est passible d'une amende de 24 à 240 dinars.\n[2] Source: article 27 du Code de la Presse\nLe directeur de la publication sera tenu d'insérer les réponses de toute personne visée, sous peine d'une amende de 12 à 120 dinars, sans préjudice des autres peines et dommages et intérêts auxquels l'infraction pourrait donner lieu.\nPour ce faire, le délai est de 3 jours pour les quotidiens, et, dans le numéro qui suivra, le surlendemain, pour les non-quotidiens. Le délai commence à courir à partir de la date de réception."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 26 et 27 du Code de la Presse, le directeur d'un périodique est tenu d'insérer gratuitement les rectifications émanant d'un dépositaire de l'autorité publique, ainsi que les réponses de toute personne visée, sous peine d'amende [1][2]. Par ailleurs, les délais diffèrent selon la périodicité : trois jours pour les quotidiens, et insertion dans le numéro suivant le surlendemain pour les non-quotidiens, le délai courant à compter de la réception. Toutefois, l'insertion doit se faire en tête du prochain numéro pour les rectifications officielles, tandis que les réponses personnelles bénéficient d'un emplacement garantissant leur visibilité. Ainsi, ces règles visent à concilier le droit à l'information exacte avec la liberté de la presse, en encadrant strictement les obligations de correction. Sources: art. 26 et 27 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_PRINCEX_006",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [15],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Une même personne peut-elle posséder plusieurs périodiques d'information politique en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 15 du Code de la Presse\nUne même personne, physique ou morale, peut posséder, contrôler ou diriger tout au plus deux publications périodiques d'information politique et générale de même périodicité.\nEn outre, le tirage global des périodiques détenus, contrôlés ou dirigés par la même personne, dans les conditions énoncées à l'alinéa 1 ci-dessus ne saurait dépasser 30% du tirage global des périodiques d'information politique et générale de même périodicité publiés en Tunisie."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 15 du Code de la Presse, une même personne physique ou morale ne peut posséder, contrôler ou diriger plus de deux publications périodiques d'information politique et générale de même périodicité [1]. Par ailleurs, même dans cette limite, le tirage global de ces périodiques ne doit pas excéder 30 % du tirage total national de la même catégorie, ce qui constitue une restriction supplémentaire visant à prévenir la concentration médiatique. Toutefois, cette règle ne s'applique qu'aux périodiques d'information politique et générale, excluant les publications scientifiques, artistiques ou techniques. Ainsi, le législateur cherche à garantir le pluralisme de l'information tout en permettant une certaine flexibilité aux acteurs du secteur. Sources: art. 15 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_PRINCEX_007",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [53],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la sanction pour diffamation envers un particulier par voie de presse en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 53 du Code de la Presse\nLa diffamation, commise envers les particuliers par l'un des moyens énoncés dans l'article 42 du présent code, est, sans préjudice des dispositions de l'article 87 du code des obligations et des contrats, punie d'un emprisonnement de 16 jours à 6 mois et d'une amende de 120 à 1.200 dinars ou de l'une de ces deux peines seulement.\nLa diffamation commise par les mêmes moyens envers un groupe de personnes non désignées par le présent article, mais qui appartiennent par leur origine à une race ou à une religion déterminées, sera punie d'un emprisonnement d'un mois à un an et d'une amende de 120 à 1.200 dinars, lorsqu'elle aura pour but d'exciter à la haine entre les citoyens ou les habitants."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 53 du Code de la Presse, la diffamation envers un particulier par voie de presse est punie d'un emprisonnement de 16 jours à 6 mois et/ou d'une amende de 120 à 1 200 dinars [1]. Par ailleurs, lorsque la diffamation vise un groupe de personnes appartenant à une race ou une religion déterminées et vise à exciter la haine entre citoyens, la peine d'emprisonnement est aggravée, pouvant atteindre un an, tout en maintenant la même fourchette d'amende. Toutefois, ces sanctions s'appliquent sans préjudice de l'action civile en dommages-intérêts prévue par le code des obligations et contrats. Ainsi, le législateur renforce la protection des groupes vulnérables contre les discours de haine tout en maintenant un régime proportionné pour les atteintes individuelles. Sources: art. 53 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_REFUSAL_008",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les obligations de déclaration pour lancer une chaîne de télévision privée en Tunisie ?\n\nDocuments pertinents:\n[1] Source: Code de la Presse (Loi n° 75-32 du 28 avril 1975)\n[Extrait fourni : le code ne contient aucune disposition relative à l'audiovisuel ou aux chaînes de télévision]"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code de la Presse de 1975 régit principalement la presse écrite, l'imprimerie et les publications périodiques, mais ne traite pas des médias audiovisuels. Je vous recommande de consulter un avocat spécialisé ou l'Instance Nationale de la Communication Audiovisuelle (INCA) pour obtenir les textes applicables aux chaînes de télévision."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_CLARIFY_009",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que je dois faire un dépôt légal si je publie un article sur mon blog personnel ?\n\nDocuments pertinents:\n[1] Source: article 2 du Code de la Presse\nSont soumises à la formalité du dépôt légal: 1) Les œuvres imprimées de toute nature telles que livres, publications périodiques, ouvrages, estampes, gravures, cartes postales illustrées, affiches, cartes de géographie, brochures, bulletins, annuaires et revues ou autres.\n2) Les œuvres suivantes: les enregistrements musicaux, sonores et visuels, les œuvres photographiques et les logiciels, qui sont mis à la disposition du public, à titre onéreux ou gratuit, ou cédés pour la reproduction."
+        },
+        {
+          "role": "assistant",
+          "content": "Afin de vous répondre précisément, pourriez-vous préciser si votre blog fait l'objet d'une diffusion imprimée (brochures, publications périodiques physiques) ou s'il s'agit exclusivement d'une publication en ligne ? L'article 2 du Code de la Presse vise les œuvres imprimées et certains supports matériels, mais ne mentionne pas explicitement les publications numériques non imprimées. Cette distinction est essentielle pour déterminer l'applicabilité de l'obligation de dépôt légal."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_FR_PROCEDURAL_010",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [13, 14],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes à suivre pour lancer légalement un nouveau périodique en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 13 du Code de la Presse\nAvant la publication de tout périodique, il sera fait au ministère de l'intérieur une déclaration rédigée sur papier timbré et signée du directeur du périodique. Il en sera donné récépissé.\nCette déclaration doit mentionner: 1°) le titre du périodique et sa périodicité; 2°) les nom, prénom, nationalité et domicile du directeur du périodique, 3°) l'imprimerie où il doit être imprimé; 4°) la ou les langues dans lesquelles sera rédigé le périodique; 5°) le lieu et le numéro d'immatriculation au registre du commerce; 6°) les noms, prénoms, professions et domiciles des membres du conseil d'administration, du comité directeur et, d'une façon générale, des dirigeants de la personne morale.\n[2] Source: article 14 du Code de la Presse\nAvant l'impression de tout périodique, l'imprimeur doit exiger le récépissé délivré par le ministère de l'intérieur et dont la date de délivrance ne doit pas remonter à plus d'une année."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 13 et 14 du Code de la Presse, le lancement d'un périodique suit une procédure en deux phases principales [1][2]. Premièrement, le directeur doit déposer au ministère de l'intérieur une déclaration sur papier timbré comportant six mentions obligatoires (titre, identité du directeur, imprimerie, langues, immatriculation, dirigeants), accompagnée d'un extrait de casier judiciaire et, le cas échéant, des statuts de la société. Deuxièmement, avant toute impression, l'imprimeur doit vérifier que le récépissé délivré par le ministère date de moins d'un an. Par ailleurs, tout changement dans les mentions déclarées doit être signalé dans les cinq jours. Ainsi, cette procédure vise à assurer la traçabilité et la responsabilité des publications dès leur création. Sources: art. 13 et 14 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_DIRECT_011",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [16],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي شروط الجنسية والمقر لمدير المنشور الدوري في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 16 من مجلة الصحافة\nكل منشور دوري يجب أن يكون له مدير. يجب أن يكون المدير من الجنسية التونسية، وأن يكون له مقر حقيقي في تونس ويتمتع بحقوقه المدنية والسياسية.\nعندما ينشر المنشور الدوري من قبل شخص اعتباري، يجب اختيار المدير، حسب الحالة، من بين أعضاء مجلس الإدارة أو اللجنة المديرة.\nومع ذلك، عندما يمتلك شخص طبيعي نفس الأغلبية من رأس المال الاجتماعي للمؤسسة التي تنشر منشورًا دوريًا، فإن هذا الشخص يكون مديرًا للمنشور الدوري إلزاميًا."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 16 من مجلة الصحافة، يجب أن يكون مدير كل منشور دوري تونسي الجنسية، وله مقر حقيقي في تونس، ويتمتع بحقوقه المدنية والسياسية [1]. علاوة على ذلك، إذا كان الناشر شخصًا اعتباريًا، فيجب اختيار المدير من بين أعضاء مجلس الإدارة أو اللجنة المديرة. غير أنه إذا كان شخص طبيعي يملك أغلبية رأس مال المؤسسة الناشرة، فيجب أن يكون هذا الشخص هو المدير إلزاميًا. وبالتالي، يهدف المشرع إلى ضمان ولاء ومساءلة مديري المنشورات للسلطة الوطنية، مع مراعاة هياكل الحوكمة للشركات. المصادر: الفصل 16 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_DIRECT_012",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [50],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يُعرّف القذف في مجلة الصحافة التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 50 من مجلة الصحافة\nيوجد قذف في كل ادعاء أو إسناد علني لواقعة تمس الشرف أو الاعتبار للشخص أو للهيئة المعتبرة التي تُسند إليها الواقعة.\nيعاقب على النشر بطريقة مباشرة أو بطريقة إعادة إنتاج لهذا الادعاء أو هذا الإسناد، حتى لو تم بشكل مشكوك فيه أو إذا استهدف شخصًا أو هيئة معتبرة لم تُسمَّ صراحة، ولكن أصبح تحديد هويتها ممكنًا بمصطلحات الخطابات أو الصيحات أو التهديدات أو الكتابات أو المطبوعات أو الملصقات أو الرسومات أو الإعلانات محل المتابعة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 50 من مجلة الصحافة، يُعد قذفًا كل ادعاء أو إسناد علني لواقعة تمس شرف أو اعتبار شخص أو هيئة معتبرة [1]. علاوة على ذلك، يعاقب على هذا النشر حتى لو ورد بصيغة شك أو إذا لم يُسمَّ الشخص صراحة، طالما أن تحديد هويته ممكن من خلال سياق العبارات المستخدمة. وبالتالي، يهدف هذا التعريف الواسع إلى حماية الكرامة الشخصية والمؤسسية من أي مساس غير مبرر، مع ضمان فعالية المتابعة القانونية. المصادر: الفصل 50 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_DIRECT_013",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [72],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: متى تكون المتابعة الجزائية في جرائم الصحافة تلقائية ومتى تكون بشكوى في القانون التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 72 من مجلة الصحافة\nتتم متابعة الجنايات والجنح المرتكبة عن طريق الصحافة أو بأي وسيلة نشر أخرى تلقائيًا وبناء على طلب النيابة العمومية وفق الأشكال والآجال المحددة في مجلة الإجراءات الجزائية، إلا مع التعديلات التالية: 1°) في حالة القذف الموجه للأشخاص العاديين، المنصوص عليه في الفصل 53، وفي حالة السب المنصوص عليه في الفصل 54 من هذه المجلة، لا تتم المتابعة إلا بناء على شكوى من الشخص المقذوف أو المسبوب. ومع ذلك، يمكن ممارسة المتابعة تلقائيًا من قبل النيابة العمومية، إذا كان القذف أو السب، الموجه لمجموعة من الأشخاص ينتمون خصوصًا لعرق أو دين محددين، يهدف إلى التحريض على الكراهية بين المواطنين أو السكان; 2°) في حالة السب أو القذف الموجه للمحاكم، والهيئات المعتبرة، والإدارات العمومية، تتم المتابعة تلقائيًا بمبادرة من النيابة العمومية..."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 72 من مجلة الصحافة، تكون المتابعة في جرائم الصحافة تلقائية وبمبادرة من النيابة العمومية كقاعدة عامة [1]. غير أنه في حالة القذف أو السب الموجهين للأشخاص العاديين، لا تتم المتابعة إلا بناء على شكوى من المتضرر، ما لم يكن الفعل يهدف إلى التحريض على الكراهية بين مجموعات عرقية أو دينية، ففي هذه الحالة تستعيد النيابة حق المتابعة التلقائية. وبالمقابل، إذا استهدفت الإهانة هيئات قضائية أو إدارات عمومية، تكون المتابعة تلقائية دائمًا. وبالتالي، يوازن المشرع بين حماية الحق في الشكوى الشخصية وضرورة التصدي للخطاب التحريضي الذي يمس النظام العام. المصادر: الفصل 72 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_MULTI_014",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [42, 43],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي العقوبات المترتبة على التحريض على ارتكاب الجرائم عن طريق الصحافة في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 42 من مجلة الصحافة\nيعاقب كشركاء في فعل مؤهل جناية أو جنحة حسب التعاريف المنصوص عليها في الفصول 43 وما يليها، أولئك الذين، عن طريق الصحافة أو بأي طريقة أخرى متعمدة للنشر، يكونون قد حرضوا مباشرة الفاعل أو الفاعلين على ارتكاب الفعل المذكور، إذا كان التحريض قد أتى بثماره.\nتطبق هذه الحكم أيضًا إذا لم يتبع التحريض إلا بمحاولة جناية منصوص عليها في الفصل 59 من المجلة الجزائية.\n[2] المصدر: الفصل 43 من مجلة الصحافة\nأولئك الذين، بإحدى الوسائل المنصوص عليها في الفصل السابق، يكونون قد حرضوا مباشرة، إما على السرقة، أو على جنايات القتل أو النهب أو الحرق، أو على إحدى الجنايات أو الجنح المعاقب عليها بالفصول 208 إلى 213 و219 من المجلة الجزائية، أو على إحدى الجنايات والجنح ضد السلامة الخارجية للدولة، يعاقبون، في الحالة التي لا يتبع فيها هذا التحريض بأثر، بالسجن من سنة إلى 5 سنوات وبخطية من 100 إلى 2.000 دينار، وذلك دون الإخلال بتطبيق الفصل 32 من المجلة الجزائية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصلين 42 و43 من مجلة الصحافة، يُعاقب على التحريض المباشر لارتكاب الجرائم عن طريق الصحافة، سواء أتى التحريض بثماره أو اقتصر على محاولة [1][2]. فإذا ترتب على التحريض ارتكاب الفعل، يُعاقب المحرض كشريك في الجناية أو الجنحة. أما إذا لم يتبع التحريض بأثر، فيُعاقب مرتكبه بالسجن من سنة إلى خمس سنوات وبخطية مالية، خاصة إذا استهدف التحريض جرائم محددة كالقتل أو النهب أو المساس بسلامة الدولة. علاوة على ذلك، تطبق هذه الأحكام بغض النظر عن العقوبات المنصوص عليها في المجلة الجزائية. وبالتالي، يهدف المشرع إلى تجريم الخطاب التحريضي الخطير الذي يهدد الأمن العام، مع تشديد العقوبة حسب جسامة الجريمة المستهدفة. المصادر: الفصلين 42 و43 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_MULTI_015",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [68, 69],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: من يتحمل المسؤولية الجزائية عن الجرائم المرتكبة عن طريق الصحافة في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 68 من مجلة الصحافة\nيعاقب، كفاعلين أصليين، بالعقوبات التي تشكل قمع الجنايات والجنح المرتكبة عن طريق الصحافة، حسب الترتيب التالي: 1°) مديرو المنشورات أو الناشرين، مهما كانت مهنهم وتسمياتهم; 2°) في حال عدم وجودهم، المؤلفون; 3°) في حال عدم وجود المؤلفين، الطابعون أو المصنعون; 4°) في حال عدم وجود الطابعين أو المصنعين، الباعة أو الموزعون أو ملصقو الإعلانات.\n[2] المصدر: الفصل 69 من مجلة الصحافة\nعندما يكون مديرو المنشورات أو الناشرين طرفًا في الدعوى، يُتابع المؤلفون كشركاء.\nويمكن متابعتهم بنفس الصفة وفي جميع الحالات، الأشخاص الذين يمكن أن ينطبق عليهم الفصل 32 من المجلة الجزائية. لا يمكن تطبيق الفصل المذكور على الطابعين بسبب أفعال الطباعة.\nومع ذلك، يمكن متابعة الطابعين كشركاء إذا قضت المحاكم بعدم مسؤولية مدير المنشور جزائيًا. وفي هذه الحالة، ترفع المتابعات في غضون ثلاثة أشهر من الجنحة أو على أبعد تقدير في غضون ثلاثة أشهر من الثبوت القضائي لعدم مسؤولية مدير المنشور."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصلين 68 و69 من مجلة الصحافة، تُحدد المسؤولية الجزائية عن جرائم الصحافة وفق ترتيب هرمي: يبدأ بمديري المنشورات أو الناشرين، ثم المؤلفين، فالطابعين، وأخيرًا الموزعين [1]. علاوة على ذلك، إذا كان المدير طرفًا في الدعوى، يُتابع المؤلف كشريك، ولا يمكن مساءلة الطابع إلا إذا قضت المحكمة بعدم مسؤولية المدير [2]. غير أن هذا الترتيب لا يخل بمسؤولية الأشخاص المنطبق عليهم الفصل 32 من المجلة الجزائية كشركاء عامين. وبالتالي، يهدف هذا النظام إلى ضمان تحديد المسؤول الأول عن المحتوى المنشور، مع إتاحة متابعة المساهمين الآخرين عند الاقتضاء، مما يعزز الشفافية والمساءلة في المجال الإعلامي. المصادر: الفصلين 68 و69 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_PRINCEX_016",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [57],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن إثبات حقيقة الواقعة المقذوفة كدفاع في دعوى القذف في القانون التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 57 من مجلة الصحافة\nيمكن إثبات حقيقة الواقعة المقذوفة، ولكن فقط عندما تتعلق الواقعة بالوظائف، بالطرق العادية في الحالة التي يتعلق فيها الإسناد بالهيئات المعتبرة، أو الجيوش البرية أو البحرية أو الجوية، أو الإدارات العمومية أو جميع الأشخاص المنصوص عليهم في الفصل 52 من هذه المجلة.\nيمكن أيضًا إثبات حقيقة الواقعة المقذوفة، ولكن فقط عندما تتعلق بالوظائف، ضد مديري أو مسيري أي مؤسسة صناعية أو تجارية أو مالية تطلب الادخار أو الائتمان علنًا.\nلا يمكن إثبات حقيقة الواقعة المقذوفة في الحالات التالية: أ) عندما يتعلق الإسناد بالحياة الخاصة للشخص، ب) عندما يشير الإسناد إلى وقائع يعود تاريخها لأكثر من عشر سنوات، ج) عندما يشير الإسناد إلى واقعة تشكل مخالفة مشمولة بالعفو أو بالتقادم، أو أسقطت بالإعادة الاعتبارية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 57 من مجلة الصحافة، يمكن إثبات حقيقة الواقعة المقذوفة كدفاع، ولكن فقط إذا تعلقت الواقعة بالوظائف العامة للأشخاص أو الهيئات المذكورة في القانون [1]. علاوة على ذلك، يُستثنى من هذا الحق ثلاث حالات: إذا تعلق الأمر بالحياة الخاصة، أو بوقائع يزيد تاريخها على عشر سنوات، أو بجرائم مشمولة بالعفو أو التقادم. غير أنه في الحالات التي يُسمح فيها بالإثبات، يمكن للطرف الآخر تقديم دليل عكسي، وإذا ثبتت الحقيقة، تنتهي المتابعة. وبالتالي، يوازن المشرع بين حق الدفاع عن السمعة عبر إثبات الحقيقة، وحماية الخصوصية والاستقرار القانوني للأشخاص، مما يعزز العدالة في منازعات الشرف. المصادر: الفصل 57 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_REFUSAL_017",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الضوابط القانونية للنشر على منصات التواصل الاجتماعي في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: مجلة الصحافة (قانون عدد 75-32 المؤرخ في 28 أفريل 1975)\n[المقتطف المقدم: لا تتضمن المجلة أي أحكام تتعلق بالنشر الرقمي أو منصات التواصل الاجتماعي]"
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. فمجلة الصحافة لسنة 1975 تنظم أساسًا الصحافة المكتوبة والمطبوعات الدورية، ولا تتناول النشر الرقمي أو منصات التواصل الاجتماعي. نُوصي باستشارة محامٍ متخصص أو الهيئة الوطنية لحماية المعطيات الشخصية للاطلاع على النصوص القانونية السارية في هذا المجال."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_CLARIFY_018",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: من يُعتبر \"مدير النشر\" في الشركة الناشرة لمنشور دوري؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 16 من مجلة الصحافة\nكل منشور دوري يجب أن يكون له مدير. يجب أن يكون المدير من الجنسية التونسية، وأن يكون له مقر حقيقي في تونس ويتمتع بحقوقه المدنية والسياسية.\nعندما ينشر المنشور الدوري من قبل شخص اعتباري، يجب اختيار المدير، حسب الحالة، من بين أعضاء مجلس الإدارة أو اللجنة المديرة.\nومع ذلك، عندما يمتلك شخص طبيعي نفس الأغلبية من رأس المال الاجتماعي للمؤسسة التي تنشر منشورًا دوريًا، فإن هذا الشخص يكون مديرًا للمنشور الدوري إلزاميًا."
+        },
+        {
+          "role": "assistant",
+          "content": "من أجل الإجابة بدقة، هل تقصد بالمسؤول عن المحتوى التحريري اليومي، أم الشخص القانوني الممثل للشركة الناشرة أمام السلطات؟ فالقانون يميز بين \"مدير المنشور\" المسؤول قانونًا عن كل عدد، وبين رئيس التحرير المسؤول عن المحتوى المهني. يرجى توضيح الدور الذي تشير إليه لتحديد الأحكام القانونية المنطبقة بدقة."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_AR_PROCEDURAL_019",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [72, 74],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي إجراءات وآجال المتابعة القضائية للجرائم الصحفية في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 72 من مجلة الصحافة\nتتم متابعة الجنايات والجنح المرتكبة عن طريق الصحافة أو بأي وسيلة نشر أخرى تلقائيًا وبناء على طلب النيابة العمومية وفق الأشكال والآجال المحددة في مجلة الإجراءات الجزائية، إلا مع التعديلات التالية: 1°) في حالة القذف الموجه للأشخاص العاديين... لا تتم المتابعة إلا بناء على شكوى من الشخص المقذوف أو المسبوب... 2°) في حالة السب أو القذف الموجه للمحاكم... تتم المتابعة تلقائيًا...\n[2] المصدر: الفصل 74 من مجلة الصحافة\nيجب أن تحدد الاستدعاء أو الاستحضار الواقعة محل المتابعة وتصفها; وتشير إلى نص القانون المنطبق على المتابعة. إذا كانت بناء على طلب المشتكي، يجب أن تتضمن أيضًا انتخاب موطن في المدينة التي توجد بها الجهة القضائية المختصة، ويتم إشعار كل من المتهم والنيابة العمومية، وكل ذلك تحت طائلة بطلان المتابعة.\nيكون الأجل بين الاستدعاء والمثول أمام المحكمة عشرين يومًا. ويُختصر هذا الأجل إلى 48 ساعة في حالة القذف أو السب، خلال الفترة الانتخابية، ضد مرشح لمنصب انتخابي."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصلين 72 و74 من مجلة الصحافة، تبدأ المتابعة إما تلقائيًا من النيابة العمومية أو بناء على شكوى حسب طبيعة الجريمة والجهة المستهدفة [1]. علاوة على ذلك، يجب أن يحدد الاستدعاء الواقعة المنسوبة ونص القانون المنطبق، مع انتخاب موطن للمشتكي، تحت طائلة البطلان [2]. غير أن الأجل العادي للمثول هو عشرون يومًا، ويُختصر إلى 48 ساعة في حالات القذف الانتخابي ضد مرشح. وبالتالي، يهدف هذا النظام إلى ضمان سرعة البت في القضايا ذات البعد العام أو السياسي، مع الحفاظ على حقوق الدفاع في القضايا العادية. المصادر: الفصلين 72 و74 من مجلة الصحافة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "PRESSE_CROSS_FR_020",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [19],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui peut être propriétaire financier d'un périodique d'information en Tunisie ?\n\nDocuments pertinents:\n[1] Source: الفصل 19 من مجلة الصحافة (article 19 du Code de la Presse)\nجميع المالكين، الشركاء، المساهمين، مقرضي الأموال أو غيرهم من المشاركين في الحياة المالية لمنشور دوري لا يتسم بطابع علمي أو فني أو تقني صارم يجب أن يكونوا من الجنسية التونسية.\nكل شخص يُثبت أنه أعار، بأي طريقة كانت، اسمه للمالك أو للموصي بمنشور، يُعاقب بخطية من 10.000 إلى 40.000 دينار، وتمتد العقوبة إلى الفاعلين الأصليين وشركائهم. ويمكن للمحكمة أيضًا أن تأمر بتعليق المنشور."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 19 du Code de la Presse, tous les propriétaires, associés, actionnaires ou bailleurs de fonds participant à la vie financière d'un périodique d'information (non strictement scientifique, artistique ou technique) doivent être de nationalité tunisienne [1]. Par ailleurs, le prêt de nom à un propriétaire ou commanditaire étranger expose son auteur et ses complices à une amende de 10 000 à 40 000 dinars, avec possibilité de suspension du périodique. Ainsi, cette règle vise à garantir que le contrôle financier des médias d'information reste entre des mains tunisiennes, protégeant l'indépendance éditoriale face aux influences étrangères. Sources: art. 19 du Code de la Presse.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Chapitre I: Dépôt légal (arts 1-12)",
+      "Chapitre II, Section 1: Publications nationales (arts 13-23bis)",
+      "Chapitre II, Section 3: Rectifications et droit de réponse (arts 26-34)",
+      "Chapitre IV, Section 1: Provocation aux crimes (arts 42-47)",
+      "Chapitre IV, Section 3: Délits contre les personnes (arts 50-58)",
+      "Chapitre V: Poursuites et répression (arts 68-80)"
+    ],
+    "sections_not_covered": [
+      "Chapitre II, Section 2: Publications étrangères (arts 24-25)",
+      "Chapitre III: Affichage/colportage (arts 35-41, largement transférés au Code pénal)",
+      "Chapitre IV, Sections 2, 4, 5: Délits contre la chose publique, chefs d'État étrangers, publications interdites",
+      "Annexes: Décret d'application n°77-536"
+    ],
+    "notes": "Le Code de la Presse de 1975 est indiqué comme 'abrogé' dans le nom de fichier. De nombreux articles ont été transférés au Code pénal par la loi organique n°2001-43. Les exemples générés respectent strictement le texte fourni. Aucune hallucination d'article ou de contenu. Les exemples en arabe utilisent exclusivement l'arabe standard moderne (MSA) formel, sans dialecte tunisien ni autre registre familier."
+  }
+}

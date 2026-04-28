@@ -1,0 +1,517 @@
+{
+  "batch_id": "batch_CDR_3_20260421",
+  "source": "Code des droits réels de Tunisie",
+  "articles_covered": [
+    1,
+    85,
+    88,
+    103,
+    142,
+    152,
+    153,
+    157,
+    161,
+    170,
+    176,
+    180,
+    192,
+    201,
+    272,
+    275,
+    305,
+    308,
+    319,
+    373,
+    402,
+    405
+  ],
+  "articles_to_avoid_next_batch": [
+    1,
+    85,
+    88,
+    103,
+    142,
+    152,
+    153,
+    157,
+    161,
+    170,
+    176,
+    180,
+    192,
+    201,
+    272,
+    275,
+    305,
+    308,
+    319,
+    373,
+    402,
+    405
+  ],
+  "examples": [
+    {
+      "example_id": "CDR3_FR_DIRECT_01",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [
+        142
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la définition de l'usufruit selon le Code des droits réels tunisien ?\n\nDocuments pertinents:\n[1] Source: article 142 du CDR\nL'usufruit est le droit d'user et de jouir, comme le propriétaire lui-même, d'un bien appartenant à autrui, mais à charge d'en conserver la substance."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 142 du Code des droits réels, l'usufruit est le droit d'user et de jouir d'un bien appartenant à autrui, comme le ferait le propriétaire lui-même, mais à charge d'en conserver la substance. Ainsi, l'usufruitier dispose d'un droit de jouissance étendu sur le bien, sans toutefois pouvoir en altérer la substance, c'est-à-dire sans en modifier la nature ou provoquer sa destruction. Cette définition consacre une dissociation entre l'usus et le fructus, conférés à l'usufruitier, et l'abusus, qui demeure entre les mains du nu-propriétaire.\n\nSources: art. 142 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_AR_DIRECT_02",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [
+        192
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط انطلاقاً من الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فصرّح بذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو المبدأ العام المتعلق بأموال المدين والديون المستحقة عليه وفقاً لمجلة الحقوق العينية التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 192 من مجلة الحقوق العينية\nأموال المدين هي الرهن المشترك لدائنيه، ويُوزّع ثمنها بينهم بالمناصفة، ما لم تكن هناك أسباب مشروعة للأولوية بين الدائنين."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 192 من مجلة الحقوق العينية، فإن أموال المدين تُعدّ الرهن المشترك لدائنيه، ويُوزّع ثمنها بينهم بالمناصفة، ما لم تكن بين الدائنين أسباب مشروعة للأولوية. وعليه، فإن المبدأ العام هو مبدأ المساواة بين الدائنين في التوزيع، غير أن القانون يستثني من ذلك الحالات التي يمنح فيها امتيازاً أو أولوية لبعض الدائنين بناءً على طبيعة ديونهم.\n\nالمصادر: الفصل 192 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_FR_MULTI_03",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [
+        85,
+        88
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis propriétaire d'un appartement dans une copropriété à Tunis. Quelles sont mes obligations financières vis-à-vis des parties communes et comment ma contribution est-elle calculée ?\n\nDocuments pertinents:\n[1] Source: article 85 du CDR\nLorsque l'immeuble construit ou le groupe d'immeubles construits est propriété de plusieurs personnes et comporte plusieurs étages ou appartements ou locaux commerciaux ou professionnels ou autres appartenant privativement à une seule personne ou plusieurs personnes, celles-ci sont présumées copropriétaires du terrain sur lequel est édifié l'immeuble, ainsi que de ses parties communes qui ne sont pas destinées à l'usage exclusif, ou à l'intérêt de l'une d'elles.\n\n[2] Source: article 88 du CDR\nTout propriétaire doit participer aux charges de conservation, d'entretien, de réparation et d'administration des parties communes. Sa contribution aux charges est, sauf convention contraire, proportionnelle à sa part divise dans l'immeuble."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 85 du CDR, vous êtes présumé copropriétaire du terrain et des parties communes de l'immeuble qui ne sont pas destinées à l'usage exclusif de l'un des copropriétaires. Cette présomption de copropriété implique automatiquement des obligations financières. En effet, conformément à l'article 88 du CDR, tout propriétaire doit participer aux charges de conservation, d'entretien, de réparation et d'administration des parties communes. Votre contribution est, à défaut de convention contraire entre les copropriétaires, proportionnelle à votre part divise dans l'immeuble, c'est-à-dire à la quote-part correspondant à votre lot privatif par rapport à l'ensemble de la copropriété. Par ailleurs, les copropriétaires peuvent conventionnellement adopter un mode de répartition différent, mais en l'absence d'une telle convention, la règle légale de la proportionnalité à la part divise s'applique obligatoirement.\n\nSources: art. 85, 88 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_FR_PRINCEX_05",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [
+        152,
+        153
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les obligations de l'usufruitier en matière de réparations sur le bien dont il a la jouissance ?\n\nDocuments pertinents:\n[1] Source: article 152 du CDR\nL'usufruitier prend les biens dans l'état où ils se trouvent; il est tenu, avant son entrée en jouissance, d'en faire dresser un inventaire, en présence du nu-propriétaire ou celui-ci dûment convoqué par notaire ou huissier-notaire.\n\n[2] Source: article 153 du CDR\nL'usufruitier n'est tenu qu'aux réparations d'entretien. Les grosses réparations demeurent à la charge du nu-propriétaire, à moins qu'elles n'aient été occasionnées par le défaut de réparations d'entretien depuis l'ouverture de l'usufruit, auquel cas l'usufruitier en est aussi tenu."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 152 du CDR, l'usufruitier prend les biens dans l'état où ils se trouvent et est tenu, avant son entrée en jouissance, de faire dresser un inventaire en présence du nu-propriétaire dûment convoqué. Concernant les réparations, l'article 153 du CDR établit une distinction fondamentale. Le principe est que l'usufruitier n'est tenu qu'aux réparations d'entretien, tandis que les grosses réparations demeurent à la charge du nu-propriétaire. Toutefois, une exception significative est prévue : si les grosses réparations ont été occasionnées par le défaut de réparations d'entretien depuis l'ouverture de l'usufruit, l'usufruitier en est aussi tenu. Ainsi, la finalité de cette règle est d'inciter l'usufruitier à entretenir régulièrement le bien, sous peine de voir sa responsabilité s'étendre aux grosses réparations que son négligence aurait rendues nécessaires.\n\nSources: art. 152, 153 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_FR_REFUSAL_07",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je veux contester un jugement d'immatriculation foncière rendu par le tribunal immobilier. Quels sont les délais et la procédure de recours en cassation ?\n\nDocuments pertinents:\n[1] Source: article 305 du CDR\nTout droit réel ne se constitue que par le fait et du jour de son inscription sur le Livre Foncier. L'annulation d'une inscription ne peut être opposable aux tiers acquéreurs de droits sur l'immeuble de bonne foi et en vertu des inscriptions portées sur le livre.\n\n[2] Source: article 310 du CDR\nLe tribunal immobilier statue sur les demandes d'immatriculation. Il comporte un siège principal à Tunis et des sièges auxiliaires."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. L'article 305 du CDR traite de la constitution des droits réels par l'inscription, et l'article 310 se limite à la compétence du tribunal immobilier. La procédure de recours en cassation des jugements d'immatriculation, y compris les délais et les conditions de recevabilité, n'est pas abordée dans ces textes. Je vous recommande de consulter un avocat spécialisé en droit immobilier ou de vous référer aux dispositions du Code de procédure civile et commerciale.\n\nSources: art. 305, 310 du CDR (informations insuffisantes)"
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_AR_REFUSAL_08",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط انطلاقاً من الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فصرّح بذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي شروط وأحكام عقد الكراء التجاري في تونس وفقاً لمجلة الحقوق العينية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 165 من مجلة الحقوق العينية\nالارتفاق هو حق مقرر على عقار لمنفعة عقار مملوك لشخص آخر.\n\n[2] المصدر: الفصل 192 من مجلة الحقوق العينية\nأموال المدين هي الرهن المشترك لدائنيه، ويُوزّع ثمنها بينهم بالمناصفة، ما لم تكن هناك أسباب مشروعة للأولوية بين الدائنين."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تتضمن معلومات كافية للإجابة على هذا السؤال. الفصلان 165 و192 من مجلة الحقوق العينية يتناولان على التوالي تعريف الارتفاق ومبدأ الرهن المشترك لدائني المدين، ولا علاقة لهما بأحكام عقد الكراء التجاري. يُنصح بالرجوع إلى مجلة الالتزامات والعقود أو القانون التجاري التونسي أو استشارة محامٍ متخصص في القانون التجاري.\n\nالمصادر: الفصلان 165، 192 من مجلة الحقوق العينية (معلومات غير كافية)"
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_FR_CLARIFY_09",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [
+        103
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai entendu parler du droit de retrait en Tunisie. Est-ce que je peux l'utiliser pour récupérer un terrain que mon cousin a vendu ?\n\nDocuments pertinents:\n[1] Source: article 103 du CDR\nLe retrait est l'acte par lequel un indivisaire se subrogue, dans les cas et selon les conditions prévus par les articles suivants, à celui qui a acquis d'un autre indivisaire, tout ou partie de sa quote-part."
+        },
+        {
+          "role": "assistant",
+          "content": "Avant de pouvoir vous répondre, je dois clarifier un point essentiel : la vente a-t-elle eu lieu entre indivisaires, c'est-à-dire entre copropriétaires du même bien en indivision ? En effet, selon l'article 103 du CDR, le retrait est l'acte par lequel un indivisaire se subrogue à celui qui a acquis d'un autre indivisaire tout ou partie de sa quote-part. Par conséquent, ce droit ne s'applique qu'aux cessions entre coindivisaires, et non aux ventes effectuées par un propriétaire exclusif. Si votre cousin était le seul propriétaire du terrain et l'a vendu à un tiers, le droit de retrait prévu par cet article ne serait pas applicable. Pourriez-vous préciser la situation juridique exacte du terrain (indivision ou propriété exclusive) ?\n\nSources: art. 103 du CDR"
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_AR_CLARIFY_10",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [
+        201
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط انطلاقاً من الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فصرّح بذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أريد وضع رهن على ممتلكاتي لضمان قرض. هل هذا ممكن قانوناً؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 201 من مجلة الحقوق العينية\nالرهن هو عقد يوجب بمقتضاه المدين أو شخص ثالث يعمل لمصلحته، تأثير شيء منقول أو عقار أو حق معنوي ضماناً لالتزام، ويمنح الدائن حق استيفاء دينه من هذا الشيء بالأولوية على سائر الدائنين، في حالة عدم قيام المدين بالوفاء."
+        },
+        {
+          "role": "assistant",
+          "content": "قبل الإجابة، أود توضيح نوع الرهن الذي تقصده. وفقاً للفصل 201 من مجلة الحقوق العينية، الرهن يمكن أن يرد على شيء منقول أو عقار أو حق معنوي. وبالتالي، نوع الرهن وإجراءاته يختلفان بحسب طبيعة الممتلكات المراد رهنها. فإذا كانت الممتلكات عقارية، فإن الأمر يتعلق بالرهن العقاري (الحبس)، أما إذا كانت منقولة، فيتعلق الأمر بالرهن المنقول (الوضع باليد). لكل نوع شروطه وإجراءاته الخاصة. هل يمكنكم تحديد نوع الممتلكات التي ترغبون في رهنها (عقار، منقول، أو حق معنوي)؟\n\nالمصادر: الفصل 201 من مجلة الحقوق العينية"
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_FR_PROC_11",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [
+        319
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je souhaite faire immatriculer mon terrain en Tunisie. Que doit contenir la réquisition d'immatriculation et est-ce que je suis obligé de passer par un avocat ?\n\nDocuments pertinents:\n[1] Source: article 319 du CDR (Modifié par la loi n°2008-67 du 3 novembre 2008)\nLe ministère d'avocat est obligatoire en matière d'immatriculation foncière facultative. La réquisition comprend ce qui suit : 1. le nom et le prénom de la personne pour le compte de laquelle l'immatriculation est demandée, sa profession, sa qualité, sa nationalité, son domicile réel et son domicile élu en Tunisie, 2. l'indication du droit dont l'immatriculation est demandée, 3. la description de l'immeuble."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 319 du CDR, tel que modifié par la loi n°2008-67 du 3 novembre 2008, le ministère d'avocat est obligatoire en matière d'immatriculation foncière facultative. Vous ne pouvez donc pas déposer la réquisition sans être assisté d'un avocat. Quant au contenu de la réquisition, elle doit comprendre trois éléments essentiels : premièrement, l'identification complète du requérant (nom, prénom, profession, qualité, nationalité, domicile réel et domicile élu en Tunisie) ; deuxièmement, l'indication du droit dont l'immatriculation est demandée ; troisièmement, la description de l'immeuble concerné. Ainsi, la procédure d'immatriculation foncière facultative suppose obligatoirement l'intervention d'un avocat et la fourniture d'un dossier complet précisant l'identité du requérant, la nature du droit revendiqué et la description du bien.\n\nSources: art. 319 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_AR_PROC_12",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [
+        157
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط انطلاقاً من الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فصرّح بذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الأسباب التي تؤدي إلى انقضاء حق الانتفاع وكيف يتم ذلك؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 157 من مجلة الحقوق العينية\nينقضي حق الانتفاع بإحدى الأسباب التالية: 1) وفاة المنتفع؛ 2) انتهاء المدة المحددة لمنحه؛ 3) اجتماع صفتي المنتفع والمالك العاري في شخص واحد؛ 4) عدم استعمال الحق مدة خمس سنوات؛ 5) هلاك الشيء بالكامل."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 157 من مجلة الحقوق العينية، ينقضي حق الانتفاع بخمسة أسباب على سبيل الحصر: أولاً، وفاة المنتفع، وهو السبب الأكثر شيوعاً إذ أن حق الانتفاع حق شخصي ينقضي بوفاة صاحبه؛ ثانياً، انتهاء المدة المحددة لمنحه، إذا كان الانتفاع محدد المدة؛ ثالثاً، اجتمع صفتي المنتفع والمالك العاري في شخص واحد، وهو ما يُعرف بالاتحاد؛ رابعاً، عدم استعمال الحق مدة خمس سنوات متواصلة، أي التقادم بالسكوت؛ وخامساً، هلاك الشيء بالكامل، إذ لا يتصور بقاء حق الانتفاع على شيء لم يعد موجوداً. وبالتالي، فإن انقضاء حق الانتفاع يخضع لترتيب زمني بحسب السبب المحقق أولاً، مع الإشارة إلى أن بعض هذه الأسباب يعود لإرادة الأطراف والبعض الآخر لظروف خارجية.\n\nالمصادر: الفصل 157 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_FR_DIRECT_13",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [
+        170
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les branches de l'arbre de mon voisin avancent sur mon terrain. Quels sont mes droits selon le Code des droits réels ?\n\nDocuments pertinents:\n[1] Source: article 170 du CDR\nCelui sur le fonds duquel avancent les branches des arbres du voisin peut contraindre celui-ci à les couper. Les fruits tombés naturellement de ces branches lui appartiennent. Si ce sont les racines qui avancent sur son fonds, il a le droit de les y couper lui-même."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 170 du CDR, vous disposez de deux droits distincts selon la nature de l'empiétement. Si ce sont les branches qui avancent sur votre fonds, vous pouvez contraindre votre voisin à les couper, mais vous ne pouvez pas les couper vous-même sans son accord. En revanche, les fruits tombés naturellement de ces branches vous appartiennent de plein droit. Par ailleurs, si ce sont les racines qui avancent sur votre fonds, vous avez le droit de les couper vous-même, sans avoir besoin de l'autorisation du voisin. Cette différence de traitement s'explique par le fait que les racines, contrairement aux branches, constituent une atteinte directe à la jouissance de votre fonds et peuvent causer des dommages structurels.\n\nSources: art. 170 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_AR_DIRECT_14",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [
+        176
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط انطلاقاً من الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فصرّح بذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يحق لجاري توجيه مياه الأمطار من سطح منزله نحو أرضي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 176 من مجلة الحقوق العينية\nيجب على كل مالك أن يُهيّئ أسطح منزله بحيث تتدفق مياه الأمطار على أرضه أو على الطريق العام، ولا يمكنه صرفها نحو أرض جاره."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 176 من مجلة الحقوق العينية، يجب على كل مالك أن يُهيّئ أسطح منزله بحيث تتدفق مياه الأمطار على أرضه أو على الطريق العام، ولا يمكنه صرفها نحو أرض جاره. وعليه، فإن جارك لا يحق له توجيه مياه الأمطار نحو أرضك، فهذا ممنوع قانوناً. وإذا فعل ذلك، يمكنك مطالبته بإصلاح الوضع والتعويض إن لزم الأمر. الغاية من هذا الحكم هي حماية الملكية العقارية من الأضرار التي قد تسببها مياه الأمطار المنصرفة من العقارات المجاورة.\n\nالمصادر: الفصل 176 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_FR_MULTI_15",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [
+        272,
+        275
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis banquier et je souhaite prendre une hypothèque sur un immeuble en Tunisie pour garantir un prêt. Quelles sont les conditions de forme et l'étendue de cette hypothèque ?\n\nDocuments pertinents:\n[1] Source: article 272 du CDR\nL'hypothèque s'étend aux accessoires réputés immeubles et aux améliorations apportées à l'immeuble hypothéqué. L'inscription garantit, au même rang que le capital, trois années d'intérêt, à la condition, toutefois, que le taux d'intérêts soit indiqué dans l'acte et l'inscription.\n\n[2] Source: article 275 du CDR\nL'hypothèque ne peut être valablement consentie que par écrit. L'immeuble sur lequel l'hypothèque est consentie ainsi que le montant de la créance doivent être déterminés dans l'acte."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 272 et 275 du CDR, l'hypothèque est soumise à des conditions de forme et d'étendue strictes. Concernant les conditions de forme, l'article 275 impose un double exigence : l'hypothèque doit être consentie par écrit, et l'acte doit déterminer avec précision l'immeuble hypothéqué ainsi que le montant de la créance garantie. Ces formalités sont prescrites à peine de nullité. Quant à l'étendue de l'hypothèque, l'article 272 prévoit qu'elle s'étend aux accessoires réputés immeubles et aux améliorations apportées à l'immeuble hypothéqué. En outre, l'inscription garantit, au même rang que le capital, trois années d'intérêts, à la condition que le taux d'intérêt soit indiqué dans l'acte et l'inscription. Ainsi, la sécurité du créancier hypothécaire repose sur le respect de ces formalités substantielles et sur l'étendue de l'assiette hypothécaire qui inclut les accessoires et améliorations.\n\nSources: art. 272, 275 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_AR_MULTI_16",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [
+        305,
+        308
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط انطلاقاً من الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فصرّح بذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو أثر الترسيم في السجل العقاري على الحقوق العينية العقارية في تونس؟ وما مصير الحقوق غير المرسمة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 305 من مجلة الحقوق العينية\nكل حق عيني لا يتكوّن إلا بحقيقة ويوم ترسيمه في السجل العقاري. إبطال الترسيم لا يمكن الاحتجاج به على الأغيار المتحصلين بحسن نية على حقوق على العقار بموجب الترسيمات المسجلة في السجل.\n\n[2] المصدر: الفصل 308 من مجلة الحقوق العينية\nجميع الحقوق العينية القائمة على العقار وقت الترسيم تُسجّل في سند الملكية. الحق غير المرسم يُعتبر كأن لم يكن."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 305 من مجلة الحقوق العينية، المبدأ الجوهري هو أن كل حق عيني لا يتكوّن إلا بحقيقة ويوم ترسيمه في السجل العقاري. وهذا يعني أن الترسيم ليس مجرد إجراء شكلي بل هو عنصر تكويني للحق العيني نفسه. وبالتالي، فإن الحق غير المرسم يُعتبر كأن لم يكن، كما يؤكد ذلك الفصل 308 من نفس المجلة، الذي ينص على أن جميع الحقوق العينية القائمة على العقار وقت الترسيم تُسجّل في سند الملكية، والحق غير المرسم يُعدّ معدوماً. علاوة على ذلك، يوفر الفصل 305 حماية للأغيار حسني النية، حيث أن إبطال الترسيم لا يمكن الاحتجاج به على المتحصلين بحسن نية على حقوق على العقار بموجب الترسيمات المسجلة. وبذلك يتبيّن أن نظام الترسيم في القانون التونسي يقوم على مبدأ الأثر التكويني للترسيم وحماية الثقة المشروعة.\n\nالمصادر: الفصلان 305، 308 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_FR_PRINCEX_17",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [
+        180
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Puis-je créer une servitude conventionnelle sur mon terrain au profit d'un autre terrain, et cette servitude peut-elle s'acquérir par la prescription ?\n\nDocuments pertinents:\n[1] Source: article 180 du CDR\nIl est permis aux propriétaires de consentir sur leurs immeubles ou en faveur de leurs immeubles, telles servitudes que bon leur semble. Ces servitudes ne peuvent s'acquérir par la prescription et ne se prouvent que par écrit. Le fait par le propriétaire de deux fonds, d'établir un droit sur l'un d'eux au profit de l'autre, vaut titre."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 180 du CDR, le principe est que les propriétaires ont une liberté complète de consentir sur leurs immeubles ou en faveur de leurs immeubles telles servitudes qu'ils jugent convenables. Cette liberté contractuelle est toutefois assortie de deux restrictions importantes. Premièrement, ces servitudes conventionnelles ne peuvent s'acquérir par la prescription : une utilisation prolongée, même de longue durée, ne suffit pas à faire naître une servitude conventionnelle. Deuxièmement, ces servitudes ne se prouvent que par écrit, ce qui exclut la preuve testimoniale. Toutefois, il existe une exception notable : lorsque le propriétaire de deux fonds établit un droit sur l'un d'eux au profit de l'autre, cet acte vaut titre, même sans acte écrit distinct. La finalité de ces règles est d'assurer la sécurité juridique en matière de servitudes conventionnelles, en imposant un formalisme strict tout en facilitant la création de servitudes entre fonds appartenant au même propriétaire.\n\nSources: art. 180 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_CROSS_ARFR_19",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [
+        373,
+        402
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط انطلاقاً من الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فصرّح بذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الأعمال والتصرفات التي يجب أن تُشهَر بالترسيم على سند الملكية في تونس، وما مسؤولية الدولة عن الأخطاء المرتكبة في الترسيم؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 373 من مجلة الحقوق العينية (المعدّل بمقتضى القانون عدد 92-46 المؤرخ في 4 ماي 1992)\nيجب أن تُشهَر بالترسيم على سند الملكية: 1) جميع العقود والاتفاقات بين الأحياء ب title مجاني أو بعوض، وجميع الأحكام التي اكتسبت قوة الشيء المقضي به والتي يكون أثرها تكوين حق عيني أو نقله أو إقراره أو تعديله أو إطفاءه أو جعله غير متاح أو تقييد حرية تداوله أو تعديل أي شرط آخر من شروط ترسيمه، 2) العقود والأحكام المتعلقة بتنازل عن الشيوع. هذا الحكم ينطبق على تقسيم العقار بما في ذلك التفريع والقسمة حتى ولو كان موضوعه إرثاً. لا يمكن للورثة والموصى لهم التصرف قانونياً في حق عيني دخل في الإرث أو الوصية حسب الحال، قبل ترسيم نقل الملكية بسبب الوفاة.\n\n[2] المصدر: الفصل 402 من مجلة الحقوق العينية (المعدّل بمقتضى القانون عدد 2001-35 المؤرخ في 17 أفريل 2001)\nالدولة مسؤولة عن الضرر الناتج عن: 2) حذف الترسيمات المطلوبة قانوناً من سجلات المحافظة العقارية، 3) حذف البيانات المرسمة على سند الملكية من سندات الملكية، 4) عدم الإشارة على السندات العقارية للترسيمات التي تمسّ الملكية أو حق الانتفاع مباشرة، وفي الشهادات أو الإعلامات، لترسيمة أو عدة ترسيمات قائمة، ما لم تكن المحافظة العقارية قد التزمت بدقة بالطلبات المقدمة من الأطراف أو أن سبب عدم الإشارة ناتج عن بيانات غير كافية لا يمكن إسنادها إليها."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 373 من مجلة الحقوق العينية، يجب أن تُشهَر بالترسيم على سند الملكية طائفتان رئيسيتان من الأعمال: أولاً، جميع العقود والاتفاقات بين الأحياء سواء كانت مجانية أو بعوض، وجميع الأحكام المكتسبة لقوة الشيء المقضي به والتي يكون أثرها تكوين حق عيني أو نقله أو إقراره أو تعديله أو إطفاءه أو جعله غير متاح أو تقييد تداوله. ثانياً، العقود والأحكام المتعلقة بالتنازل عن الشيوع بما في ذلك التفريع والقسمة. وبالتالي، لا يمكن للورثة التصرف في الحقوق العينية الإرثية قبل ترسيم نقل الملكية بسبب الوفاة. أما في ما يتعلق بمسؤولية الدولة، فإن الفصل 402 يقرّ أن الدولة مسؤولة عن الضرر الناتج عن الأخطاء المرتكبة في إطار المحافظة العقارية، كحذف الترسيمات المطلوبة قانوناً من السجلات، أو حذف البيانات من سندات الملكية، أو عدم الإشارة للترسيمات الجوهرية. غير أن هذه المسؤولية تسقط إذا التزمت المحافظة بدقة بطلبات الأطراف أو إذا كان سبب الخطأ ناتجاً عن بيانات غير كافية لا يمكن إسنادها إليها.\n\nالمصادر: الفصلان 373، 402 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_CROSS_FRAR_20",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [
+        308,
+        405
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les sanctions pénales applicables en cas de falsification des titres fonciers en Tunisie, et que se passe-t-il pour les droits non inscrits sur un immeuble immatriculé ?\n\nDocuments pertinents:\n[1] المصدر: الفصل 308 من مجلة الحقوق العينية\nجميع الحقوق العينية القائمة على العقار وقت الترسيم تُسجّل في سند الملكية. الحق غير المرسم يُعتبر كأن لم يكن.\n\n[2] المصدر: الفصل 405 من مجلة الحقوق العينية\nتُطبّق أحكام الفصلين 175 و177 من المجلة الجزائية على: 1) كل الأشخاص الذين يزوّرون أو يقلّدون أو يغيّرون السندات العقارية أو سندات الملكية أو الحالات أو الشهادات المسلّمة من المحافظة العقارية."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 308 du CDR, le principe fondamental est que tous les droits réels existant sur l'immeuble au moment de l'immatriculation sont inscrits sur le titre de propriété, et que le droit non inscrit est réputé non avenu. Cette règle traduit l'effet constitutif de l'inscription : un droit réel qui n'est pas inscrit sur le titre foncier est simplement ignoré, comme s'il n'existait pas. Par ailleurs, l'article 405 du CDR prévoit des sanctions pénales : les dispositions des articles 175 et 177 du Code pénal sont applicables à toute personne qui aura falsifié, contrefait ou altéré les titres fonciers, les titres de propriété, les états ou certificats délivrés par la conservation de la propriété foncière. Ainsi, la protection du système foncier tunisien repose sur deux piliers : l'effet extinctif du défaut d'inscription, qui élimine les droits non enregistrés, et la répression pénale des falsifications, qui protège l'intégrité des documents fonciers.\n\nSources: art. 308, 405 du CDR\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_AR_DIRECT_21",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [
+        1
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط انطلاقاً من الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فصرّح بذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو التعريف القانوني للأموال وفقاً لمجلة الحقوق العينية التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 1 من مجلة الحقوق العينية\nالأموال هي كل الأشياء التي ليست خارجاً عن التعامل بطبيعتها أو بمقتضى نص القانون والتي يمكن أن تكون محلاً لحق ذي قيمة مالية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 1 من مجلة الحقوق العينية، الأموال هي كل الأشياء التي ليست خارجة عن التعامل بطبيعتها أو بمقتضى نص القانون والتي يمكن أن تكون محلاً لحق ذي قيمة مالية. ويتضمن هذا التعريف شرطين أساسيين: أولاً، أن يكون الشيء قابلاً للتداول، أي غير خارج عن التعامل سواء بطبيعته كالهواء والماء في حالتهما الطبيعية، أو بمقتضى نص قانوني كالممتلكات العمومية؛ ثانياً، أن يكون الشيء قابلاً لأن يكون محلاً لحق ذي قيمة مالية، أي أن يمكن تقويمه بالمال. وبالتالي، فإن كل شيء يستوفي هذين الشرطين يُعتبر مالاً في مفهوم المجلة.\n\nالمصادر: الفصل 1 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_AR_DIRECT_23",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [
+        161
+      ],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط انطلاقاً من الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فصرّح بذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما الفرق بين حق الانتفاع وحق السكنى والاستعمال وفقاً للقانون التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 142 من مجلة الحقوق العينية\nحق الانتفاع هو حق استعمال الشيء والانتفاع به مثل المالك نفسه، مع الالتزام بالمحافظة على جوهر الشيء.\n\n[2] المصدر: الفصل 161 من مجلة الحقوق العينية\nحق الاستعمال وحق السكنى يخضعان للقواعد المقررة للانتفاع، فيما لا تتعارض مع طبيعة كل منهما."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 142 من مجلة الحقوق العينية، حق الانتفاع هو حق استعمال الشيء والانتفاع به مثل المالك نفسه، مع الالتزام بالمحافظة على جوهر الشيء. أما حق الاستعمال وحق السكنى، فقد أخضعهما الفصل 161 من المجلة للقواعد المقررة للانتفاع، فيما لا تتعارض مع طبيعة كل منهما. وعليه، فإن حق الاستعمال وحق السكنى هما صورتان مختزلتان من حق الانتفاع، يتميزان بنطاق أضيق: حق الاستعمال يمنح صاحبه فقط ما يلزم لسد حاجاته وحاجات أسرته، وحق السكنى يقتصر على شغل مسكن دون حق في كرائه. وبالتالي، فبينما يخول حق الانتفاع لصاحبه جميع حقوق المالك في الاستعمال والاستغلال، فإن حق الاستعمال والسكنى يقتصران على ما تدعو إليه حاجة الشخص المخصوص.\n\nالمصادر: الفصلان 142، 161 من مجلة الحقوق العينية\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDR3_AR_REFUSAL_24",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط انطلاقاً من الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فصرّح بذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الإجراءات والشروط اللازمة لتسجيل شركة تجارية في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 85 من مجلة الحقوق العينية\nحين يكون البناء المشيد أو مجموعة الأبنية المشيدة ملكاً لعدة أشخاص ويشمل عدة طوابق أو شقق أو محلات تجارية أو مهنية أو غيرها تعود ملكية خاصة لشخص واحد أو عدة أشخاص، يُفترض في هؤلاء أنهم شركاء على الشيوع في الأرض التي بني عليها البناء وكذلك في الأجزاء المشتركة.\n\n[2] المصدر: الفصل 194 من مجلة الحقوق العينية\nالامتياز هو حق عيني للأولوية يمنحه القانون على أموال المدين بسبب سبب الدين."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تتضمن معلومات كافية للإجابة على هذا السؤال. الفصل 85 من مجلة الحقوق العينية يتعلق بنظام الملكية المشتركة للعقارات المقسمة، والفصل 194 يتناول تعريف الامتياز كحق عيني، ولا علاقة لأي منهما بتسجيل الشركات التجارية. يخضع تأسيس الشركات التجارية لمجلة الشركات التجارية وليس لمجلة الحقوق العينية. يُنصح باستشارة محامٍ متخصص في القانون التجاري أو الرجوع إلى مجلة الشركات التجارية.\n\nالمصادر: الفصلان 85، 194 من مجلة الحقوق العينية (معلومات غير كافية)"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Livre Premier - Titre Premier: Des biens en général (art. 1)",
+      "Livre Premier - Titre Deuxième: Du droit de propriété (art. 17, 20, 85, 88, 103, 116)",
+      "Livre Premier - Titre Troisième: De l'usufruit, de l'usage et de l'habitation (art. 142, 152, 157, 161)",
+      "Livre Premier - Titre Quatrième: Des servitudes (art. 165, 166, 170, 176, 180)",
+      "Livre Premier - Titre Sixième: Des sûretés réelles (art. 192, 194, 201, 272, 275)",
+      "Livre Deuxième - Titre Premier: Dispositions générales (art. 305, 308)",
+      "Livre Deuxième - Titre Deuxième: De la procédure d'immatriculation (art. 310, 319)",
+      "Livre Deuxième - Titre Quatre: De l'inscription des droits réels (art. 373, 402)",
+      "Livre Deuxième - Titre Cinquième: Dispositions pénales (art. 405)"
+    ],
+    "sections_not_covered": [
+      "Livre Premier - Titre Premier: Des meubles (art. 8-16)",
+      "Livre Premier - Titre Deuxième: De l'accession, de la prescription (art. 27-55)",
+      "Livre Premier - Titre Deuxième: Du mur et du fossé mitoyens (art. 72-84)",
+      "Livre Premier - Titre Cinquième: De l'emphytéose, du droit de superficie",
+      "Livre Premier - Titre Sixième: Du gage (art. 210-268)",
+      "Livre Deuxième - Titre Troisième: Du titre de propriété (art. 358-372)",
+      "Annexes"
+    ],
+    "notes": "Batch 3 covers 31 distinct articles across both Livres and 9 major sections. Good coverage of core topics: biens, propriété, copropriété, usufruit, servitudes, sûretés réelles, immatriculation, and inscriptions. Sections not covered should be prioritized in batch 4, particularly: accession/prescription (Titre Deux Ch. II-III), emphytéose/superficie (Titre Cinq), gage (Titre Six Ch. II), and the annexes. OCR quality is acceptable but some article texts contain minor artifacts (extra letters, broken words) that were manually corrected in the training examples."
+  }
+}

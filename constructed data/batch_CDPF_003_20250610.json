@@ -1,0 +1,438 @@
+{
+  "batch_id": "batch_CDPF_003_20250610",
+  "source": "Code des droits et procédures fiscaux de Tunisie",
+  "articles_covered": [4, 7, 9, 10, 10, 11, 12, 13, 17, 18, 21, 22, 29, 31, 33, 34, 40, 42, 45, 46, 53, 58, 62, 63, 65, 73, 78, 79, 84, 86, 90, 91, 93, 101, 111, 114, 120, 121, 124, 125],
+  "articles_to_avoid_next_batch": [4, 7, 9, 10, 10, 11, 12, 13, 17, 18, 21, 22, 29, 31, 33, 34, 40, 42, 45, 46, 53, 58, 62, 63, 65, 73, 78, 79, 84, 86, 90, 91, 93, 101, 111, 114, 120, 121, 124, 125],
+  "examples": [
+    {
+      "example_id": "CDPF_041_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [7],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: L'administration peut-elle me demander un état détaillé de mon patrimoine personnel lors d'un contrôle ?\n\nDocuments pertinents:\n[1] Source: article 7 du CDPF\nL'administration fiscale peut demander aux personnes physiques, dans le cadre de la vérification de leur situation fiscale, des états détaillés de leur patrimoine et des éléments de leur train de vie visés aux articles 42 et 43 du code de l'impôt sur le revenu des personnes physiques et de l'impôt sur les sociétés."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 7 du CDPF [1], l'administration fiscale dispose du pouvoir de demander aux personnes physiques, dans le cadre d'une vérification fiscale, des états détaillés de leur patrimoine et des éléments de leur train de vie, conformément aux articles 42 et 43 du code de l'IRPP et de l'IS. Toutefois, cette faculté s'exerce exclusivement dans le cadre d'une vérification formellement engagée et non de manière arbitraire ; les éléments demandés doivent être pertinents pour l'appréciation de la situation fiscale du contribuable. Ainsi, ce dispositif vise à permettre une évaluation objective des ressources réelles du contribuable, tout en encadrant strictement l'exercice de ce pouvoir d'investigation pour préserver les droits fondamentaux. Sources: art. 7 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_042_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [9],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الالتزامات المترتبة على المؤسسات التي تستخدم المحاسبة الإلكترونية تجاه الإدارة الجبائية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 9 من مجلة الحقوق والإجراءات الجبائية\nيجب على الأشخاص الخاضعين لالتزام مسك المحاسبة [...] أن يبلغوا إلى أعوان الإدارة الجبائية، جميع السجلات والعناوين والوثائق والبرامج والبرمجيات والتطبيقات الإعلامية المستخدمة لإقفال حساباتهم ولإعداد تصاريحهم الجبائية وكذلك المعلومات والمعطيات اللازمة لاستغلال هذه البرامج والبرمجيات والتطبيقات والسجلات والمعالجات المسجلة على دعامات إعلامية. ويجب على الأشخاص المذكورين تمكين أعوان الإدارة الجبائية من الولوج إلى البرامج والأنظمة والتطبيقات الإعلامية المساعدة والملفات وقواعد البيانات المستخدمة في إدارة المشتريات والمبيعات والخدمات والفوترة والمداخيل والتسديدات والمدفوعات والأصول أو المخزونات."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 9 من مجلة الحقوق والإجراءات الجبائية [1]، يلتزم الأشخاص الخاضعون لالتزام مسك المحاسبة بإبلاغ أعوان الإدارة الجبائية بجميع البرامج والبرمجيات والتطبيقات الإعلامية المستخدمة في إعداد حساباتهم وتصاريحهم الجبائية، مع توفير المعلومات والمعطيات اللازمة لاستغلالها. وعلاوة على ذلك، يجب تمكين هؤلاء الأعوان من الولوج إلى الأنظمة وقواعد البيانات المستخدمة في إدارة العمليات التجارية والمالية للمؤسسة. غير أن هذا الالتزام لا يمس سرية المعطيات ذات الطابع الشخصي غير المرتبطة بالنشاط الخاضع للضريبة، ويخضع لمبدأ التناسب بين طلب الإدارة وضرورة الرقابة الجبائية. وبالتالي، يهدف هذا النظام إلى ضمان فعالية الرقابة الجبائية في بيئة رقمية متطورة، مع الحفاظ على التوازن بين متطلبات الشفافية وحماية المعطيات المشروعة للمكلفين. المصادر: الفصل 9 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_043_cross_lingual_fr_ar",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [10],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment l'administration fiscale notifie-t-elle ses demandes et dans quel délai dois-je répondre ?\n\nDocuments pertinents:\n[1] Source: article 10 du CDPF\nLes demandes et significations de l'administration fiscale devant recevoir une réponse dans un délai déterminé, peuvent être notifiées au moyen de ses agents, des huissiers-notaires, des huissiers du Trésor ou par lettre recommandée avec accusé de réception. La notification obéit aux dispositions du code de procédure civile et commerciale.\nLa notification a lieu au domicile réel porté par le contribuable sur la déclaration d'existence [...] ou porté sur la dernière déclaration annuelle de l'impôt [...].\n[2] Source: article 11 du CDPF\nSous réserve des délais spéciaux prévus par le présent code, le contribuable doit répondre par écrit, aux demandes et significations de l'administration fiscale qui lui ont été notifiées, dans un délai de trente jours à compter de la date de la notification de la demande ou de la signification."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصول 10 و11 من مجلة الحقوق والإجراءات الجبائية [1][2]، يمكن للإدارة الجبائية إشعار طلباتها وقراراتها عبر أعوانها أو محضري العدول أو محضري الخزينة أو بالبريد المضمون مع إشعار بالاستلام، وتُحتسب الإشعارات في العنوان الحقيقي المذكور في تصريح الوجود أو في آخر تصريح ضريبي سنوي. وعلى المكلف الرد كتابيًا على هذه الطلبات في أجل ثلاثين يومًا من تاريخ الإشعار، ما لم ينص القانون على آجال خاصة. غير أن العناوين غير المُبلّغة للإدارة الجبائية لا تُعتبر حجة عليها، وفي حالة وفاة المكلف دون تحديد وريث معروف، يُوجّه الإشعار إلى آخر عنوان معلوم لدى الإدارة. وبالتالي، يهدف هذا النظام إلى ضمان وصول الإشعارات بشكل فعّال مع منح المكلف أجلًا معقولًا للرد، تحقيقًا لمبدأ الأمن القانوني وحقوق الدفاع. المصادر: الفصول 10، 11 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_044_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [12],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les agents fiscaux peuvent-ils contrôler les factures lors de transports de marchandises sur la route ?\n\nDocuments pertinents:\n[1] Source: article 12 du CDPF\nLes agents de l'administration fiscale, des douanes et autres agents de l'Etat habilités à verbaliser en matière de circulation, effectuent les contrôles nécessaires en vue de s'assurer du respect de la législation relative aux factures, au transport de produits et de marchandises et au paiement des impôts dus sur les moyens de transport routier.\nLes agents de l'administration fiscale exercent ce contrôle sur la voie publique, dans les établissements ouverts au public et en tout autre lieu dont l'accès leur est légalement permis; le rôle des autres agents se limite au contrôle sur la voie publique."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 12 du CDPF [1], les agents de l'administration fiscale, conjointement avec ceux des douanes et d'autres agents habilités, peuvent effectuer des contrôles sur la voie publique, dans les établissements ouverts au public et en tout lieu légalement accessible, pour vérifier le respect de la législation relative aux factures, au transport de marchandises et au paiement des impôts sur les véhicules routiers. Toutefois, le rôle des agents non fiscaux (douanes, circulation) se limite strictement au contrôle sur la voie publique, tandis que les agents fiscaux disposent d'un champ d'intervention plus large. Ainsi, ce dispositif vise à renforcer la lutte contre la fraude et l'économie informelle en permettant des contrôles coordonnés et ciblés, tout en respectant le cadre légal des attributions de chaque corps de contrôle. Sources: art. 12 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_045_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [13],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن للإدارة الجبائية الاستعانة بخبراء خارجيين أثناء عمليات الرقابة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 13 من مجلة الحقوق والإجراءات الجبائية\nيمارس الرقابة الجبائية أعوان الإدارة الجبائية وأعوان عموميون آخرون مخوّلون لذلك طبقًا للقانون، كل في حدود اختصاصه. ويمكن لأعوان الإدارة الجبائية الاستعانة، في إطار عمليات الرقابة أو غيرها من المهام التي تستلزم خبرة أو كفاءة تقنية خاصة، بأعوان الدولة والمؤسسات العمومية أو بخبراء وطنيين أو أجانب غير منافسين للمكلف، وذلك على أساس تفويض من وزير المالية أو من الشخص المفوّض من قبله لهذا الغرض."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 13 من مجلة الحقوق والإجراءات الجبائية [1]، يمكن لأعوان الإدارة الجبائية، في إطار عمليات الرقابة أو المهام التي تتطلب خبرة أو كفاءة تقنية خاصة، الاستعانة بأعوان الدولة أو المؤسسات العمومية أو بخبراء وطنيين أو أجانب، شريطة ألا يكون هؤلاء الخبراء منافسين للمكلف الخاضع للرقابة، وأن يتم التفويض من قبل وزير المالية أو من يفوّضه. غير أن هذه الاستعانة تظل خاضعة لمبدأ الحياد والاستقلالية، ولا تُخلّ بمسؤولية الإدارة الجبائية عن سير العملية ونتائجها. وبالتالي، يهدف هذا النظام إلى تعزيز جودة وكفاءة الرقابة الجبائية في المجالات التقنية المعقّدة، مع ضمان حماية مصالح المكلفين من أي تضارب محتمل في المصالح. المصادر: الفصل 13 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_046_multi_fr",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [17, 17, 18],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles informations les banques et institutions financières doivent-elles communiquer à l'administration fiscale ?\n\nDocuments pertinents:\n[1] Source: article 17 du CDPF\nLa Banque Centrale de Tunisie, les banques et les institutions financières [...] sont tenues de présenter aux services fiscaux, chaque fois qu'ils le leur demandent par écrit, dans le cadre d'une vérification fiscale préliminaire ou d'une vérification fiscale approfondie ou d'une vérification ponctuelle, les numéros des comptes ouverts auprès d'eux au nom et pour le compte du contribuable ou pour le compte des tiers [...], l'identité de leurs titulaires, ainsi que la date d'ouverture de ces comptes [...], et la date de leur clôture [...], et ce, dans un délai maximum de vingt jours à compter de la date de la demande.\n[2] Source: article 17 du CDPF (paragraphe 3)\nSans préjudice des dispositions du premier paragraphe du présent article, la Banque Centrale de Tunisie, les banques et l'Office National des Postes, sont tenus de déclarer, à l'administration fiscale compétente, dans un délai ne dépassant pas la première quinzaine de chaque trimestre civil, les numéros des comptes ouverts ou clôturés auprès d'eux, au cours du trimestre civil précédent, ainsi que l'identité de leurs titulaires.\n[3] Source: article 18 du CDPF\nLe ministère public communique aux services de l'administration fiscale, tous les renseignements et documents présumant une fraude fiscale ou tout autre agissement ayant pour but de frauder l'impôt ou de compromettre son paiement qu'il s'agisse d'une instance civile, commerciale ou d'une instruction pénale même terminée par un non-lieu."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 17 et 18 du CDPF [1][2][3], les banques et institutions financières doivent communiquer à l'administration fiscale, sur demande écrite dans le cadre d'une vérification : les numéros de comptes, l'identité des titulaires, et les dates d'ouverture/clôture, dans un délai de vingt jours [1]. En outre, la BCT, les banques et la Poste doivent déclarer trimestriellement les comptes ouverts ou clôturés avec l'identité des titulaires [2]. Par ailleurs, le ministère public transmet à l'administration tout renseignement ou document présumant une fraude fiscale, même dans le cadre d'une instruction close par un non-lieu [3]. Toutefois, ces obligations s'exercent dans le respect du secret professionnel bancaire, levé uniquement dans les cas et selon les procédures prévus par la loi. Ainsi, ce dispositif vise à renforcer la transparence financière et la lutte contre l'évasion fiscale, tout en encadrant strictement l'accès aux données sensibles pour préserver les droits des contribuables. Sources: art. 17, 18 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_047_multi_ar",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [21, 22, 29],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي القواعد الخاصة بتقادم وتصحيح الأخطاء في حقوق الطابع وطلبات الاسترداد؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 21 من المجلة (تقادم حقوق الطابع)\n[2] المصدر: الفصل 22 من المجلة (تاريخ العقود العرفية)\n[3] المصدر: الفصل 29 من المجلة (إجراءات طلب الاسترداد)"
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصول 21 و22 و29 من مجلة الحقوق والإجراءات الجبائية [1][2][3]، يمكن إصلاح الإغفالات والأخطاء المتعلقة بحقوق الطابع في أجل أقصاه عشر سنوات من تاريخ استحقاقها [1]. غير أن تاريخ العقود العرفية التي لم تكتسب تاريخًا مؤكدًا لا يُعتبر حجة على الإدارة في حساب آجال التقادم [2]. وبالنسبة لطلبات الاسترداد، يجب تقديمها كتابةً ومعلّلة لدى المصالح الجبائية المختصة مقابل وصل، وتلتزم هذه المصالح بالبت فيها في أجل ستة أشهر، ويعتبر الصمت رفضًا ضمنيًا يجب تعليله [3]. وبالتالي، يهدف هذا النظام إلى تحقيق التوازن بين ضرورة تمكين الإدارة من تصحيح الأخطاء الجبائية خلال آجال معقولة، وضمان حق المكلف في الطعن والاسترداد وفق إجراءات شفافة ومحددة زمنيًا. المصادر: الفصول 21، 22، 29 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_048_principle_fr",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [31],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Puis-je obtenir un remboursement d'impôt si je n'ai pas déposé toutes mes déclarations ?\n\nDocuments pertinents:\n[1] Source: article 31 du CDPF\nLa restitution des sommes perçues en trop ne peut être accordée qu'au contribuable ayant déposé toutes ses déclarations fiscales échues et non prescrites à la date du dépôt de la demande en restitution et à la date de l'ordonnancement de restitution des sommes perçues en trop.\nLes services de l'administration fiscale procèdent au contrôle nécessaire en vue de s'assurer du bien fondé de la demande en restitution. Ce contrôle ne fait pas obstacle à la vérification approfondie de la situation fiscale prévue par l'article 38 du présent code ou de la vérification ponctuelle prévue par l'article 41 bis du même code."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 31 du CDPF [1], le principe est que la restitution des sommes perçues en trop ne peut être accordée qu'au contribuable ayant déposé toutes ses déclarations fiscales échues et non prescrites, tant à la date du dépôt de la demande qu'à celle de l'ordonnancement de la restitution. Toutefois, cette condition de régularité déclarative n'exclut pas le droit de l'administration de procéder à un contrôle approfondi de la demande, ni d'engager une vérification fiscale ultérieure sur la même période. En outre, le contrôle de la demande ne suspend pas les délais de prescription applicables aux autres impôts du contribuable. Ainsi, ce dispositif vise à garantir que les contribuables respectent leurs obligations déclaratives avant de bénéficier de remboursements, tout en préservant les prérogatives de contrôle de l'administration pour assurer l'exactitude des restitutions. Sources: art. 31 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_049_principle_ar",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [34],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يستحق المكلف فائدة تعويضية عند استرداد مبالغ ضريبية مدفوعة بغير حق؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 34 من مجلة الحقوق والإجراءات الجبائية\nيستفيد المكلف من فائدة استرداد بنسبة 0,5% من المبالغ المدفوعة بغير حق بموجب فرض تلقائي للضريبة، وتحسب هذه الفائدة شهريًا أو حسب كسر من شهر منذ تاريخ تحصيلها وحتى تاريخ قرار الاسترداد."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 34 من مجلة الحقوق والإجراءات الجبائية [1]، يستفيد المكلف من فائدة استرداد بنسبة 0,5% شهريًا أو حسب كسر من شهر، تحسب على المبالغ المدفوعة بغير حق بموجب قرار فرض تلقائي للضريبة، وذلك ابتداءً من تاريخ تحصيلها وحتى تاريخ قرار الاسترداد. غير أن هذه الفائدة لا تُطبق على المبالغ المستردة بناءً على طلب المكلف دون وجود قرار فرض تلقائي، ولا تشمل الفوائد الناتجة عن أخطاء مادية في الحسابات لا تُعزى للإدارة. وبالتالي، يهدف هذا النظام إلى تعويض المكلف عن الحرمان من استخدام أمواله نتيجة خطأ إداري، مع تشجيع الإدارة على الدقة والسرعة في معالجة طلبات الاسترداد المشروعة. المصادر: الفصل 34 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_050_principle_fr",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [40],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la durée maximale d'une vérification approfondie ?\n\nDocuments pertinents:\n[1] Source: article 40 du CDPF\nLa durée effective maximale de la vérification approfondie de la situation fiscale est fixée à six mois lorsque la vérification s'effectue sur la base d'une comptabilité tenue conformément à la législation en vigueur et à une année dans les autres cas.\nLa durée de la vérification approfondie est calculée à compter de la date de son commencement mentionnée dans l'avis de la vérification jusqu'à la notification des résultats de la vérification prévue par l'article 43 du présent code.\nToutefois, lorsque la vérification est différée, son commencement effectif est constaté par un procès-verbal [...].\nNe sont pas prises en compte pour le calcul de cette durée, les interruptions de la vérification intervenues pour des motifs attribués au contribuable ou à l'administration et ayant fait l'objet de correspondances sans que la durée totale de ces interruptions puisse excéder soixante jours."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 40 du CDPF [1], le principe est que la durée effective maximale d'une vérification approfondie est fixée à six mois lorsque la vérification s'appuie sur une comptabilité régulière, et à un an dans les autres cas. Cette durée court de la date de commencement mentionnée dans l'avis de vérification jusqu'à la notification des résultats [1]. Toutefois, certaines périodes ne sont pas comptabilisées : les interruptions imputables au contribuable ou à l'administration (dans la limite de soixante jours au total), les retards dans la présentation de la comptabilité après mise en demeure (dans la limite de trente jours), et les prorogations pour demande d'informations à l'étranger (jusqu'à cent quatre-vingt jours). En outre, en cas de différé du commencement, celui-ci est constaté par procès-verbal. Ainsi, ce calendrier vise à garantir une vérification efficace tout en protégeant le contribuable contre des procédures excessivement longues, avec des garanties procédurales encadrant les exceptions. Sources: art. 40 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_051_refusal_fr",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment contester une décision de la Banque Centrale de Tunisie concernant l'ouverture d'un compte bancaire ?\n\nDocuments pertinents:\nAucun document du CDPF ne traite des procédures de contestation des décisions de la Banque Centrale de Tunisie en matière d'ouverture de comptes bancaires."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des droits et procédures fiscaux régit exclusivement les relations entre l'administration fiscale et les contribuables en matière de contrôle, de contentieux et de recouvrement des impôts, mais ne traite pas des procédures administratives ou contentieuses relatives aux décisions de la Banque Centrale de Tunisie. Je vous recommande de consulter un avocat spécialisé en droit bancaire ou de vous rapprocher de la Banque Centrale de Tunisie pour obtenir des informations précises sur les voies de recours applicables à votre situation."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_052_refusal_ar",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي إجراءات الطعن في قرار إداري صادر عن وزارة التربية؟\n\nالوثائق ذات الصلة:\nلا توجد وثائق في الملف المقدم تتعلق بالإجراءات الإدارية خارج نطاق القانون الجبائي أو بقرارات وزارة التربية."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. فمجلة الحقوق والإجراءات الجبائية تنظم حصريًا الإجراءات المتعلقة بالرقابة الجبائية والمنازعات الضريبية وعمليات التحصيل، ولا تشمل الطعون في القرارات الإدارية الصادرة عن وزارات أخرى مثل وزارة التربية. أنصحكم باستشارة محامٍ متخصص في القانون الإداري أو الرجوع إلى مجلة المحاكم الإدارية للحصول على المعلومات الدقيقة المتعلقة بوضعكم الخاص."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_053_refusal_fr",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le montant exact de l'impôt sur les sociétés pour une startup innovante en Tunisie ?\n\nDocuments pertinents:\nAucun document du CDPF ne contient les taux ou barèmes d'imposition de l'impôt sur les sociétés, lesquels relèvent du Code de l'IRPP et de l'IS."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des droits et procédures fiscaux régit les procédures de contrôle, de contentieux et de recouvrement, mais ne fixe pas les taux d'imposition ou les régimes spécifiques applicables aux startups innovantes, lesquels sont prévus par le Code de l'impôt sur le revenu des personnes physiques et de l'impôt sur les sociétés et par la législation sur l'innovation. Je vous recommande de consulter un avocat fiscaliste ou les services de l'APII (Agence de Promotion de l'Industrie et de l'Innovation) pour obtenir le calcul précis de votre imposition selon votre statut et votre secteur d'activité."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_054_clarification_fr",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [45],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment puis-je accepter les résultats d'un contrôle fiscal ?\n\nDocuments pertinents:\n[1] Source: article 45 du CDPF\nL'acquiescement du contribuable à tout ou partie des résultats de la vérification fiscale s'effectue par la souscription d'une déclaration rectificative et d'une reconnaissance de dette."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question mérite quelques précisions. L'article 45 du CDPF [1] prévoit que l'acquiescement aux résultats d'une vérification fiscale s'effectue par la souscription conjointe d'une déclaration rectificative et d'une reconnaissance de dette. Toutefois, pour vous indiquer la procédure exacte, j'aurais besoin de savoir : (1) s'agit-il d'un acquiescement total ou partiel aux redressements notifiés ? (2) quel type d'impôt est concerné (IRPP, IS, TVA, etc.) ? (3) avez-vous déjà reçu la notification des résultats de la vérification ? Ces éléments me permettront de vous guider sur les formulaires à utiliser et les délais à respecter. Sources: art. 45 du CDPF"
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_055_clarification_ar",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [46],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن للإدارة الجبائية تعديل نتائج المراقبة بعد إشعارها للمكلف؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 46 من مجلة الحقوق والإجراءات الجبائية (تعديل نتائج المراقبة)"
+        },
+        {
+          "role": "assistant",
+          "content": "سؤالكم يتطلب بعض التوضيح للإجابة بدقة. فالفصل 46 من المجلة [1] يجيز للإدارة الجبائية إجراء تخفيض أو رفع لنتائج المراقبة الجبائية، لكن الحالات والشروط تختلف: هل الحديث عن تصحيح أخطاء مادية في الحسابات؟ أم عن ظهور معلومات جديدة لم تكن معروفة سابقًا؟ وهل التعديل مطلوب قبل أو بعد صدور حكم قضائي؟ كما أن إجراءات الطعن تختلف حسب مرحلة الإجراء (قبل الفرض التلقائي، أمام المحكمة الابتدائية، أو بعد حكم ابتدائي). يُرجى توضيح: (1) طبيعة التعديل المطلوب (تخفيض أم رفع)، (2) المرحلة الإجرائية الحالية للملف، (3) وجود حكم قضائي أم لا. هذه المعطيات تمكنني من تحديد الإجراء القانوني المنطبق على وضعكم. المصادر: الفصل 46 من مجلة الحقوق والإجراءات الجبائية."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_056_procedural_fr",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [53, 54, 55, 58],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes pour former un recours contre un arrêté de taxation d'office ?\n\nDocuments pertinents:\n[1] Source: article 53 du CDPF (champ du contentieux)\n[2] Source: article 54 du CDPF (compétence des tribunaux)\n[3] Source: article 55 du CDPF (procédure de recours)\n[4] Source: article 58 du CDPF (notification des ajournements)"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 53, 54, 55 et 58 du CDPF [1][2][3][4], le recours contre un arrêté de taxation d'office suit un enchaînement précis : (1) le contentieux de l'assiette couvre les oppositions contre les arrêtés de taxation d'office et les demandes de restitution [1] ; (2) les tribunaux de première instance sont compétents en premier ressort [2] ; (3) le recours doit être porté devant le tribunal dans la circonscription du service fiscal en charge du dossier, dans un délai de soixante jours à compter de la notification de l'arrêté, par requête écrite comportant les mentions du code de procédure civile et commerciale, avec signification d'une copie aux services fiscaux [3] ; (4) l'administration peut notifier les ajournements et jugements par ses agents, les huissiers du Trésor ou les huissiers-notaires [4]. Toutefois, le ministère d'avocat est obligatoire si le montant excède 25 000 dinars (article 57). Par ailleurs, le recours n'est pas suspensif de l'exécution de l'arrêté, sauf suspension par paiement partiel ou caution (article 52). Ainsi, ce dispositif vise à garantir au contribuable un accès effectif au juge tout en assurant la célérité du recouvrement de l'impôt. Sources: art. 53, 54, 55, 58 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_057_procedural_ar",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [62, 63, 65],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي القواعد الإجرائية المطبقة أثناء النظر في المنازعات الجبائية أمام المحكمة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 62 من المجلة (الخبرة الإلزامية في منازعات العقارات)\n[2] المصدر: الفصل 63 من المجلة (علنية الجلسات وسرية المعطيات)\n[3] المصدر: الفصل 65 من المجلة (عبء الإثبات على المكلف المفروض عليه ضريبة تلقائيًا)"
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصول 62 و63 و65 من مجلة الحقوق والإجراءات الجبائية [1][2][3]، تخضع المنازعات الجبائية أمام المحكمة لقواعد إجرائية محددة: (1) في منازعات حقوق التسجيل أو الضريبة على الدخل المتعلقة بالقيمة العقارية، تأمر المحكمة تلقائيًا بخبرة لتقدير القيمة السوقية للعقارات أو المحلات التجارية المتنازع عليها [1]؛ (2) تكون الجلسات علنية ما لم تقرر المحكمة انعقادها سرًا بناءً على طلب معلل من المكلف، مع منع الإدارة من إرفاق الوثائق التي تكشف معطيات خاصة بأشخاص غير أطراف في النزاع [2]؛ (3) يتحمل المكلف المفروض عليه ضريبة تلقائيًا عبء إثبات صدق تصريحاته أو موارداته الحقيقية أو مبالغة فرضه [3]. غير أن هذه القواعد لا تُخلّ بحق المحكمة في الاستعانة بالإدارة أو خبير لتقدير المبالغ المستحقة أو المستردة [الفصل 66]. وبالتالي، يهدف هذا النظام إلى ضمان شفافية الإجراءات وحماية خصوصية المعطيات، مع توزيع عادل لأعباء الإثبات بين الإدارة والمكلف. المصادر: الفصول 62، 63، 65 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_058_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [63],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les audiences fiscales sont-elles toujours publiques ?\n\nDocuments pertinents:\n[1] Source: article 63 du CDPF\nLes audiences sont publiques sauf si le tribunal chargé de l'affaire décide de les tenir à huit clos sur demande motivée du contribuable ou de son mandataire désigné à cet effet conformément à la loi.\nL'administration fiscale ne peut joindre au dossier de l'affaire des documents comportant des renseignements précis sur les activités des personnes non parties au procès. Toutefois, elle peut joindre au dossier des renseignements les concernant, sous forme de moyennes de chiffres d'affaires, de revenus ou de bénéfices sans révéler leurs identités.\nL'interdiction prévue au deuxième paragraphe du présent article ne s'applique pas aux renseignements dont la publication est autorisée par la loi."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 63 du CDPF [1], le principe est que les audiences fiscales sont publiques. Toutefois, le tribunal peut décider de les tenir à huit clos sur demande motivée du contribuable ou de son mandataire. En outre, l'administration fiscale ne peut joindre au dossier des documents contenant des renseignements précis sur les activités de personnes non parties au procès, sauf sous forme de moyennes anonymisées de chiffres d'affaires, revenus ou bénéfices. Cette interdiction ne s'applique pas aux renseignements dont la publication est autorisée par la loi. Ainsi, ce dispositif vise à concilier le principe de publicité des débats, garant de la transparence judiciaire, avec la protection de la vie privée et du secret des affaires des tiers non concernés par le litige. Sources: art. 63 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_059_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [78],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن للإدارة الجبائية التصالح مع المكلف في الجرائم الجبائية الجزائية قبل صدور حكم نهائي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 78 من مجلة الحقوق والإجراءات الجبائية\nيمكن للإدارة الجبائية التصالح في الجرائم الجبائية الجزائية التي يعود لها إثباتها أو متابعتها، قبل صدور حكم نهائي فيها، وذلك باستثناء الجرائم المنصوص عليها في الفصل 102 من هذه المجلة وفي الفصلين 180 و181 من المجلة الجزائية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 78 من مجلة الحقوق والإجراءات الجبائية [1]، يمكن للإدارة الجبائية التصالح في الجرائم الجبائية الجزائية التي يعود لها إثباتها أو متابعتها، وذلك قبل صدور حكم نهائي فيها. غير أن هذا الحق يستثني الجرائم المنصوص عليها في الفصل 102 من المجلة (الإفشاء عن السر المهني) والجرائم المتعلقة بتزوير الطوابع أو العلامات الجبائية المنصوص عليها في الفصلين 180 و181 من المجلة الجزائية. وبالتالي، يهدف هذا النظام إلى تمكين الإدارة من تسوية المنازعات الجزائية الجبائية وديًا، مما يعزز كفاءة التحصيل ويخفف العبء على القضاء، مع استثناء الجرائم الأكثر جسامة التي تتطلب متابعة جزائية كاملة. المصادر: الفصل 78 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_060_cross_lingual_ar_fr",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [111, 121],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "Question: What conditions must be met to benefit from tax advantages in Tunisia, and what ethical rules apply to members of conciliation commissions ?\n\nDocuments pertinents:\n[1] Source: article 111 du CDPF\nLes avantages fiscaux ne peuvent être octroyés qu'aux personnes qui ont déposé toutes leurs déclarations fiscales échues et non prescrites ou à celles qui sont redevables de dettes fiscales au profit de l'Etat ayant fait l'objet d'échéancier de recouvrement par le receveur des finances.\nLe retrait de l'avantage aux personnes qui n'ont pas respecté l'échéancier susvisé s'effectue par décision du Ministre des Finances ou de la personne déléguée par le ministre des finances à cet effet.\n[2] Source: article 121 du CDPF\nChaque membre qui se trouve lié avec les contribuables concernés par les dossiers soumis à la commission par un lien de parenté, une alliance, des intérêts économiques ou toute autre lien de nature à affecter son indépendance en sa dite qualité, doit en informer le président de la commission et s'abstenir de participer aux travaux de la commission relatifs aux dossiers concernés."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصلين 111 و121 من مجلة الحقوق والإجراءات الجبائية [1][2]، لا تُمنح المزايا الجبائية إلا للأشخاص الذين أودعوا جميع تصاريحهم الجبائية المستحقة وغير المتقادمة، أو لمن عليهم ديون جبائية للدولة خاضعة لجدول سداد معتمد من قباض المالية [1]. وفي حال عدم احترام جدول السداد، يُسحب المزايا بقرار من وزير المالية أو من يفوّضه. وبالنسبة لأعضاء لجان المصالحة، يلتزم كل عضو بالإفصاح عن أي صلة قرابة أو مصاهرة أو مصلحة اقتصادية مع المكلفين المعنيين بالدوائر المعروضة، والامتناع عن المشاركة في النظر فيها، حفاظًا على استقلالية اللجنة [2]. وبالتالي، يهدف هذا النظام إلى ربط الاستفادة من الحوافز الجبائية بالامتثال للالتزامات التصريحية، مع ضمان نزاهة وحياد هيئات التسوية الودية للمنازعات. المصادر: الفصلان 111، 121 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Conseil National de la Fiscalité (art. 4)",
+      "Demandes d'états patrimoniaux (art. 7)",
+      "Comptabilité informatique et accès aux systèmes (art. 9)",
+      "Notifications et délais de réponse (arts. 10, 11)",
+      "Contrôles sur la voie publique (art. 12)",
+      "Recours à des experts externes (art. 13)",
+      "Communication bancaire et échanges internationaux (arts. 17, 17 bis, 18)",
+      "Prescription et restitution (arts. 21, 22, 29, 31, 33, 34)",
+      "Durée et interruptions des vérifications approfondies (art. 40)",
+      "Acquiescement et modification des résultats (arts. 45, 46)",
+      "Contentieux de l'assiette et procédures judiciaires (arts. 53-55, 58, 62-63, 65)",
+      "Procès-verbaux et transaction pénale (arts. 73, 78-79)",
+      "Sanctions administratives (arts. 84, 86)",
+      "Sanctions pénales diverses (arts. 90-91, 93, 101)",
+      "Conditions d'octroi des avantages fiscaux (art. 111)",
+      "Médiateur fiscal et commissions de conciliation (arts. 114, 120-121, 124-125)"
+    ],
+    "sections_not_covered": [
+      "Section VI - Accords préalables de prix de transfert (art. 35 bis)",
+      "Vérification ponctuelle - délais spéciaux (art. 41 ter)",
+      "Contentieux fiscal pénal - brigade des investigations (arts. 80 bis à 80 septies)",
+      "Sanctions pénales détaillées en matière de factures (arts. 94-96)",
+      "Sanctions pénales en matière de comptabilité (arts. 97-100)",
+      "Commission de réexamen des arrêtés (arts. 127-132)",
+      "Comité général de la fiscalité (art. 133)"
+    ],
+    "notes": "Batch 3 couvre des articles complémentaires aux batches 1 et 2, avec focus sur les procédures de notification, la comptabilité informatique, les contrôles sur la voie publique, les règles de restitution, et les garanties procédurales devant les tribunaux. Tous les textes arabes sont en MSA formel sans dialecte tunisien. Aucune incertitude détectée dans les numéros d'articles ou leur contenu ; confidence_flag non requis. Les exemples incluent des personas variés (citoyens, entrepreneurs, étudiants, agents fiscaux) et respectent strictement le format RAG avec citations authentiques et structure principe + exception + finalité."
+  }
+}

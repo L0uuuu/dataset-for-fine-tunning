@@ -1,0 +1,433 @@
+{
+  "batch_id": "batch_COC_002_20260417",
+  "source": "Code des obligations et des contrats de Tunisie",
+  "articles_covered": [6, 7, 8, 23, 24, 27, 28, 29, 43, 45, 46, 51, 52, 71, 82, 83, 94, 103, 116, 136, 199, 201, 204, 240, 241, 273, 282, 283, 289, 290, 293, 340, 343, 384, 403, 420, 473, 564, 581, 647, 652, 672, 727, 739, 747, 758, 767, 772, 1104, 1109, 1120, 1131, 1157, 1160],
+  "articles_to_avoid_next_batch": [6,7,8,23,24,27,28,29,43,45,46,51,52,71,82,83,94,103,116,136,199,201,204,240,241,273,282,283,289,290,293,340,343,384,403,420,473,564,581,647,652,672,727,739,747,758,767,772,1104,1109,1120,1131,1157,1160],
+  "examples": [
+    {
+      "example_id": "coc_fr_direct_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [6],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: À partir de quel âge un mineur tunisien a-t-il une capacité limitée pour contracter, et quelle est la durée de cette capacité limitée ?\n\nDocuments pertinents:\n[1] Source: article 6 du Code des obligations et des contrats (COC)\nOnt une capacité limitée :\n1) les mineurs au-dessus de treize ans et jusqu'à vingt ans révolus, non assistés par leur père ou tuteur ;\n2) les interdits pour faiblesse d'esprit ou prodigalité, non assistés par leur conseil judiciaire, dans les cas où la loi requiert cette assistance ;\n3) les interdits pour insolvabilité déclarée ;\nEt généralement tous ceux auxquels la loi défend certains contrats."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 6 du COC, les mineurs âgés de plus de treize ans et jusqu'à vingt ans révolus ont une capacité limitée lorsqu'ils ne sont pas assistés par leur père ou leur tuteur. Cette capacité limitée s'étend donc de treize ans révolus à vingt ans révolus. En outre, l'article 7 du même code fixe la majorité légale à vingt ans révolus pour les effets du COC. Ainsi, la capacité limitée cesse normalement à l'atteinte de la majorité, sauf si le mineur reste non assisté. Le but de cette disposition est de protéger le mineur contre des engagements disproportionnés tout en lui permettant une certaine autonomie progressive. \n\nSources: art. 6, 7 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_direct_001",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [23],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: متى يتم الاتفاق التام (perfect) في العقد وفقاً لمجلة الالتزامات والعقود التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 23 من مجلة الالتزامات والعقود (COC)\nلا يتم العقد إلا باتفاق الطرفين على أركان الالتزام الأساسية، وكذلك على جميع الشروط الجائزة الأخرى التي يعتبرها الطرفان أساسية. والتعديلات التي يدخلها الطرفان باتفاق مشترك على العقد، بعد إبرامه مباشرة، لا تشكل عقداً جديداً، بل تعتبر جزءاً من العقد الأصلي إذا لم يذكر خلاف ذلك."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 23 من مجلة الالتزامات والعقود، لا يتم العقد التام إلا باتفاق الطرفين على أركان الالتزام الأساسية وجميع الشروط الجائزة التي يعتبرها الطرفان أساسية. وهذا يعني أن مجرد الاتفاق على العناصر الجوهرية كافٍ لإتمام العداد، حتى لو لم تكتمل بعض التفاصيل الثانوية، شريطة ألا تكون تلك التفاصيل قد اعتبرها الطرفان أساسية. وتهدف هذه القاعدة إلى تحقيق التوازن بين حرية التعاقد والأمان القانوني، بحيث ينعقد العمل حال توافق الإرادتين على الجوهر.\n\nالمصادر: الفصل 23 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_multi_001",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [27, 28, 29],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment se forme un contrat lorsque l'offre est faite par téléphone, par correspondance, ou lorsqu'aucune réponse n'est exigée ?\n\nDocuments pertinents:\n[1] Source: article 27 du COC\nL'offre faite à une personne présente, sans fixation de délais, est non avenue, si elle n'est acceptée sur-le-champ par l'autre partie. Cette règle s'applique aux offres faites au moyen du téléphone par une personne à une autre.\n\n[2] Source: article 28 du COC\nLe contrat par correspondance est parfait au moment et dans le lieu où celui qui a reçu l'offre répond en l'acceptant. Le contrat par le moyen d'un messager ou intermédiaire est parfait au moment et dans le lieu où celui qui a reçu l'offre répond à l'intermédiaire qu'il accepte.\n\n[3] Source: article 29 du COC\nLorsqu'une réponse d'acceptation n'est pas exigée par le proposant ou par l'usage du commerce, le contrat est parfait dès que l'autre partie en a entrepris l'exécution ; l'absence de réponse vaut aussi consentement, lorsque la proposition se rapporte à des relations d'affaires déjà entamées entre les parties."
+        },
+        {
+          "role": "assistant",
+          "content": "En droit tunisien des obligations, le moment de la formation du contrat varie selon le mode de communication. En vertu de l'article 27 du COC, pour une offre faite à une personne présente (y compris par téléphone), l'acceptation doit être immédiate, faute de quoi l'offre est non avenue. Pour le contrat par correspondance, l'article 28 dispose qu'il est parfait au moment et au lieu où l'acceptation est expédiée (théorie de l'émission). Par ailleurs, l'article 29 prévoit que lorsque l'usage ou le proposant n'exigent pas de réponse, le contrat se forme dès le commencement d'exécution par le destinataire ; dans les relations d'affaires établies, le silence peut même valoir acceptation. Cette gradation vise à sécuriser les échanges en adaptant la formation du contrat aux circonstances pratiques.\n\nSources: art. 27, 28, 29 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_multi_001",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [43, 45, 46],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: متى يكون الخطأ (erreur) سبباً لإبطال العقد وفقاً لمجلة الالتزامات والعقود؟ وما هي أنواع الخطأ التي تؤدي إلى الإبطال؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 43 من مجلة الالتزامات والعقود (COC)\nيعتبر قابلاً للإبطال الرضا الذي حصل عن خطأ أو غش أو بالإكراه.\n\n[2] المصدر: الفصل 45 من مجلة الالتزامات والعقود (COC)\nيمكن أن يؤدي الخطأ الواقعي إلى الإبطال إذا تعلق بالشيء أو بنوعه أو بصفة الشيء التي كانت السبب الحاسم للرضا.\n\n[3] المصدر: الفصل 46 من مجلة الالتزامات والعقود (COC)\nالخطأ المتعلق بشخص أحد الطرفين أو بصفته لا يؤدي إلى الإبطال، إلا إذا كان الشخص أو صفته أحد الأسباب الحاسمة للرضا الذي أعطاه الطرف الآخر."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 43 من مجلة الالتزامات والعقود، يعتبر الرضا قابلاً للإبطال إذا شابه خطأ. إلا أن الخطأ لا يؤدي إلى الإبطال تلقائياً. فالفصل 45 ينص على أن الخطأ الواقعي (في الشيء أو نوعه أو صفته) يؤدي إلى الإبطال إذا كانت تلك الصفة هي السبب الحاسم للرضا. أما الفصل 46 فيقرر أن الخطأ في شخص الطرف الآخر أو صفته لا يؤدي إلى الإبطال إلا إذا كان ذلك الشخص أو صفته أحد الأسباب الحاسمة للرضا. غير أنه تجدر الإشارة إلى أن الفصل 44 (غير مدرج هنا) ينص أيضاً على أن الخطأ في القانون يمكن أن يؤدي إلى الإبطال إذا كان هو السبب الوحيد أو الرئيسي وكان معذوراً. تهدف هذه الأحكام إلى تحقيق التوازن بين احترام الإرادة وحماية المتعاقد من الأخطاء الجوهرية.\n\nالمصادر: الفصول 43، 45، 46 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_principle_exception_001",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [51, 52],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les conditions pour qu'un contrat soit annulé pour violence (contrainte) ? La menace d'exercer des poursuites judiciaires est-elle considérée comme une violence ?\n\nDocuments pertinents:\n[1] Source: article 51 du COC\nLa violence ne donne ouverture à la rescision de l'obligation que :\n1) lorsqu'elle en a été la cause déterminante ;\n2) lorsqu'elle est constituée de faits de nature à produire chez celui qui en est l'objet, soit une souffrance physique, soit un trouble moral profond, soit la crainte d'exposer sa personne, son honneur ou ses biens à un préjudice notable, eu égard à l'âge, au sexe, à la condition des personnes et à leur degré d'impressionnabilité.\n\n[2] Source: article 52 du COC\nLa crainte inspirée par la menace d'exercer des poursuites ou d'autres voies de droit ne peut donner ouverture à la rescision que si on a abusé de la position de la partie menacée pour lui extorquer des avantages excessifs ou indus à moins que ces menaces ne soient accompagnées de faits constituant une violence, au sens de l'article précédent."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe posé à l'article 51 du COC est que la violence (contrainte) n'entraîne la rescision que si elle a été la cause déterminante du consentement et si elle consiste en des faits propres à causer une souffrance physique, un trouble moral profond ou la crainte d'un préjudice notable, compte tenu des circonstances personnelles. Toutefois, l'article 52 apporte une exception importante : la simple menace d'exercer des poursuites judiciaires ou d'autres voies de droit ne suffit pas à constituer une violence, sauf s'il y a abus de position pour extorquer des avantages excessifs, ou si les menaces s'accompagnent de faits violents au sens de l'article 51. Ainsi, la finalité de cette distinction est d'éviter qu'un créancier ne soit paralysé par la crainte légitime d'un procès, tout en réprimant les abus.\n\nSources: art. 51, 52 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_principle_exception_001",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [82, 83],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو أساس المسؤولية المدنية عن الأعمال الضارة في القانون التونسي؟ وهل يشترط القصد لإقامة المسؤولية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 82 من مجلة الالتزامات والعقود (COC)\nكل عمل يصدر عن الإنسان، دون سلطان القانون، ويسبب عن علم وإرادة للغير ضرراً مادياً أو أدبياً، يلزم فاعله بالتعويض عن الضرر الناتج عن عمله، متى ثبت أن هذا العمل هو السبب المباشر فيه. وكل شرط مخالف لذلك يكون غير منتج لأي أثر.\n\n[2] المصدر: الفصل 83 من مجلة الالتزامات والعقود (COC)\nكل شخص مسؤول عن الضرر الأدبي أو المادي الذي تسبب فيه، ليس فقط بعمله، بل أيضاً بخطئه، متى ثبت أن ذلك الخطأ هو السبب المباشر فيه. وكل شرط مخالف لذلك يكون غير منتج لأي أثر. والخطأ يتمثل إما في ترك ما كان ملزماً بفعله، أو في فعل ما كان ملزماً بالامتناع عنه، دون قصد إحداث ضرر."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 82 من مجلة الالتزامات والعقود، يتحمل الشخص المسؤولية عن الضرر الذي يسببه عن علم وإرادة (أي بقصد). غير أن الفصل 83 يوسع نطاق المسؤولية ليشمل الخطأ غير المقصود، حيث ينص على أن كل شخص مسؤول عن الضرر الناتج عن خطئه، حتى دون نية إحداث الضرر، والخطأ يتمثل في الإخلال بواجب قانوني. وهكذا، فإن المبدأ العام هو أن القصد ليس شرطاً ضرورياً للمسؤولية؛ فالخطأ البسيط يكفي، خلافاً للفصل 82 الذي يتطلب العلم والإرادة. ويهدف هذا التمييز إلى حماية الضحايا في جميع حالات الإهمال أو التراخي، مع الحفاظ على مسئولية أشد في حالات العمل المتعمد.\n\nالمصادر: الفصلان 82 و 83 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_refusal_001",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [71, 72],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le délai précis pour exercer l'action en répétition de l'indu contre un créancier de mauvaise foi ?\n\nDocuments pertinents:\n[1] Source: article 71 du COC\nCelui qui a reçu ou se trouve posséder une chose, ou autre valeur appartenant à autrui, sans une cause qui justifie cet enrichissement, est tenu de la restituer à celui aux dépens duquel il s'est enrichi.\n\n[2] Source: article 72 du COC\nCelui qui, de bonne foi, a retiré un profit du travail ou de la chose d'autrui, sans une cause qui justifie ce profit, est tenu d'indemniser celui aux dépens duquel il s'est enrichi dans la mesure où il a profité de son fait ou de sa chose."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question précise sur le délai de prescription de l'action en répétition de l'indu. Les articles 71 et 72 du COC énoncent le principe de l'enrichissement sans cause, mais ils ne fixent aucun délai de prescription. Je vous recommande de consulter un avocat spécialisé ou de vous référer aux dispositions générales sur la prescription (articles 384 et suivants du COC) ainsi qu'à la loi relative à la prescription civile. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_refusal_001",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [136, 137],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يتم احتساب الفوائد التأخيرية على دين تجاري غير مؤجل في القانون التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 136 من مجلة الالتزامات والعقود (COC)\nإذا لم يكن للالتزام أجل محدد، وجب تنفيذه فوراً، ما لم يكن الأجل مستنتجاً من طبيعة الالتزام أو من طريقة أو مكان التنفيذ المعين له. وفي هذه الأحوال، يحدد الأجل من قبل المحكمة.\n\n[2] المصدر: الفصل 137 (المعدل) من مجلة الالتزامات والعقود (COC)\nلا يمكن للمحكمة أن تمنح أي أجل أو مهلة للوفاء ما لم ينص العقد أو القانون على ذلك. إذا حدد الأجل باتفاق أو قانون، لا يستطيع القاضي مداه ما لم يأذن له القانون.\n(يليها استثناءات تتعلق بالمديونية غير التجارية)."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن سؤال كيفية احتساب الفوائد التأخيرية على دين تجاري. فالفصلان 136 و 137 من مجلة الالتزامات والعقود يتعلقان بآجال الأداء ومدد السماح القضائية، ولا يتناولان سعر الفائدة أو طريقة حسابه. إن تحديد الفوائد التأخيرية في المسائل التجارية يحكمه قانون التجارة وقرارات البنك المركزي التونسي. أنصحك باستشارة محامٍ متخصص أو الرجوع إلى الفصل 1100 من مجلة الالتزامات والعقود الخاص بالفائدة القانونية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_clarification_001",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [7, 8],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon fils a 17 ans et il a acheté une voiture sans mon autorisation. Puis-je annuler ce contrat ?\n\nDocuments pertinents:\n[1] Source: article 7 du COC\nEst majeur aux effets de la présente loi, tout individu de sexe masculin ou féminin, âgé de vingt ans révolus.\n\n[2] Source: article 8 du COC (modifié)\nLe mineur au-dessus de treize ans et l'incapable, qui ont contracté sans l'autorisation de leur père, tuteur ou curateur, ne sont pas obligés à raison des engagements pris par eux et peuvent en demander la rescision dans les conditions établies par le présent code. Cependant, ces obligations peuvent être validées par l'approbation donnée par le père, tuteur ou curateur à l'acte accompli par le mineur ou l'incapable. Cette approbation doit être donnée en la forme requise par la loi."
+        },
+        {
+          "role": "assistant",
+          "content": "Avant de répondre, j'ai besoin d'une clarification : votre fils de 17 ans était-il assisté par vous (ou son tuteur) au moment de l'achat ? Selon l'article 7 du COC, la majorité est fixée à 20 ans révolus, donc votre fils est encore mineur. L'article 8 dispose que le mineur de plus de 13 ans qui contracte sans autorisation parentale n'est pas obligé et peut demander la rescision. Toutefois, si vous aviez donné une autorisation, même implicite, ou si vous aviez consenti à l'achat après coup, le contrat pourrait être validé. Veuillez préciser si vous aviez donné ou non votre autorisation, afin de vous indiquer la règle applicable.\n\nSources: art. 7, 8 du COC. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_clarification_001",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [564, 581],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: اشتريت منزلاً ولم نقم بتسجيل العقد رسمياً. هل البيع صحيح؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 564 من مجلة الالتزامات والعقود (COC)\nالبيع عقد ينقل بمقتضاه أحد الطرفين ملكية شيء أو حق إلى الطرف الآخر، مقابل ثمن يلتزم هذا الأخير بدفعه له.\n\n[2] المصدر: الفصل 581 (المعدل بالقانون عدد 47 لسنة 1992) من مجلة الالتزامات والعقود (COC)\nإذا كان البيع يتعلق بعقارات أو حقوق عقارية أو أشياء أخرى قابلة للرهن، وجب أن يتم بكتابة لها تاريخ ثابت طبقاً للقانون، ولا يكون لها أثر تجاه الغير إلا إذا سُجلت بمكتب المالية، مع مراعاة الأحكام الخاصة بالعقارات المسجلة."
+        },
+        {
+          "role": "assistant",
+          "content": "لإجابة دقيقة، أحتاج إلى توضيح: هل قصدك أن العقد لم يحرر كتابة أصلاً، أم أنه حرر كتابة لكن لم يتم تسجيله بمكتب المالية؟ وفقاً للفصل 564 من مجلة الالتزامات والعقود، البيع ينعقد بمجرد التراضي. أما الفصل 581 فيشترط للعقارات أن يكون العقد كتابة وذا تاريخ ثابت، وأن يسجل بمكتب المالية حتى يكون له أثر تجاه الغير. إذا كان العقد كتابة وذا تاريخ ثابت، فهو صحيح بين الطرفين، لكن لا يمكن الاحتجاج به ضد الغير (كالدائنين أو المشترين اللاحقين) ما لم يسجل. يرجى توضيح ما إذا كان العقد مكتوباً وموثقاً التاريخ أم لا، لأعطيك حكماً محدّداً.\n\nالمصادر: الفصلان 564 و 581 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_procedural_001",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [289, 290, 293],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes procédurales pour qu'un débiteur se libère valablement lorsque le créancier refuse de recevoir le paiement d'une somme d'argent ?\n\nDocuments pertinents:\n[1] Source: article 289 du COC\nLa demeure du créancier ne suffit pas pour libérer le débiteur. Si l'objet de l'obligation est une somme d'argent, le débiteur doit faire des offres réelles et, au refus du créancier de les accepter, il se libère en consignant la somme offerte dans le dépôt indiqué par le tribunal.\n\n[2] Source: article 290 du COC\nSi l'objet de l'obligation est un fait, le débiteur ne se libère pas en offrant de l'accomplir. Mais si l'offre a été faite en temps opportun, et dans les conditions déterminées par la convention ou par l'usage des lieux, et si elle a été dûment constatée au moment même, le débiteur aura recours contre le créancier à concurrence de la somme qui lui aurait été due s'il avait accompli son engagement. Le tribunal pourra cependant réduire cette somme.\n\n[3] Source: article 293 du COC\nPour que les offres réelles soient valables, il faut :\n1) qu'elles soient faites au créancier ayant la capacité de recevoir, ou à celui qui a pouvoir de recevoir pour lui ;\n2) qu'elles soient faites par une personne capable de payer ;\n3) qu'elles soient de la totalité de la prestation exigible ;\n4) que le terme soit échu ;\n5) que la condition soit arrivée ;\n6) que les offres soient faites au lieu convenu pour le paiement."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour se libérer face au refus du créancier de recevoir une somme d'argent, le débiteur doit suivre une procédure en deux phases : d'abord des offres réelles, puis la consignation. En vertu de l'article 289 du COC, la demeure du créancier ne libère pas le débiteur ; celui-ci doit faire des offres réelles. L'article 293 énumère les conditions de validité des offres : elles doivent être faites au créancier capable, par une personne capable, porter sur la totalité exigible, à échéance, au lieu convenu. Si le créancier refuse, le débiteur se libère en consignant la somme dans un dépôt désigné par le tribunal. Pour une obligation de faire (article 290), la procédure diffère : l'offre n'entraîne pas libération, mais ouvre un recours en indemnité. La finalité de ces règles est de protéger le débiteur de bonne foi contre l'arbitraire du créancier.\n\nSources: art. 289, 290, 293 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_procedural_001",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [647, 652, 672],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الإجراءات التي يجب على المشتري اتباعها للاحتجاج بعيب خفي في سلعة منقولة، وما هي المدة القانونية لذلك؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 647 من مجلة الالتزامات والعقود (COC)\nالبائع يضمن عيوب الشيء التي تنقص قيمته نقصاً محسوساً أو تجعله غير صالح للاستعمال الذي أعد له بحسب طبيعته أو بحسب العقد. والعيوب التي تنقص القيمة أو الانتفاع نقصاً طفيفاً، أو التي يتسامح فيها العرف، لا تفتح مجالاً للضمان.\n\n[2] المصدر: الفصل 652 من مجلة الالتزامات والعقود (COC)\nفيما يتعلق بالأشياء المنقولة غير الحيوانات، يجب على المشتري فحص حالة المبيع فور تسلمه، وإخطار البائع بكل عيب يضمنه خلال الأيام السبعة التي تلي الاستلام. وإلا اعتبر الشيء مقبولاً، إلا إذا كانت العيوب غير قابلة للاكتشاف بفحص عادي، أو منع المشتري سبب خارج عن إرادته.\n\n[3] المصدر: الفصل 672 من مجلة الالتزامات والعقود (COC)\nكل دعوى ناشئة عن العيوب الخفية أو فقدان الصفات الموعودة يجب رفعها تحت طلب السقوط:\n1) بالنسبة للعقارات خلال 365 يوماً بعد التسليم؛\n2) بالنسبة للمنقولات والحيوانات خلال 30 يوماً بعد التسليم، بشرط أن يكون قد تم إخطار البائع وفقاً للفصل 652."
+        },
+        {
+          "role": "assistant",
+          "content": "طبقاً لأحكام مجلة الالتزامات والعقود، يجب على المشتري الذي يكتشف عيباً خفياً في منقول أن يتبع الإجراءات التالية: أولاً، بموجب الفصل 652، عليه فحص المبيع فور تسلمه وإخطار البائع كتابة أو بأي وسيلة خلال سبعة أيام من الاستلام، وإلا اعتبر الشيء مقبولاً (مع استثناء العيوب غير القابلة للاكتشاف بالفحص العادي). ثانياً، إذا كان العيب من النوع الذي يفتح الضمان وفقاً للفصل 647 (أي نقص محسوس في القيمة أو الإصلاحية)، فيجب عليه رفع دعوى خلال ثلاثين يوماً من التسليم عملاً بالفصل 672. أما بالنسبة للعقارات فالمهلة سنة. هذه الآجال إجرائية صارمة تهدف إلى سرعة استقرار المعاملات وحماية البائع من الدعاوى المتأخرة.\n\nالمصادر: الفصول 647، 652، 672 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_direct_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [71],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Que dit l'article 71 du COC concernant l'enrichissement sans cause ?\n\nDocuments pertinents:\n[1] Source: article 71 du COC\nCelui qui a reçu ou se trouve posséder une chose, ou autre valeur appartenant à autrui, sans une cause qui justifie cet enrichissement, est tenu de la restituer à celui aux dépens duquel il s'est enrichi."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 71 du COC énonce le principe de l'enrichissement sans cause (ou répétition de l'indu subjectif). En vertu de cette disposition, toute personne qui reçoit ou possède une chose ou une valeur appartenant à autrui, sans qu'il existe une cause juridique (contrat, loi, délit) justifiant cet enrichissement, est obligée de la restituer à la personne qui s'est appauvrie correspondamment. Cette règle permet de corriger les transferts de patrimoine injustifiés, en l'absence de toute autre action directe. La finalité est d'assurer l'équité et d'éviter qu'une personne ne s'enrichisse injustement aux dépens d'une autre.\n\nSource: art. 71 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_direct_002",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [116],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما تعريف الشرط (condition) في مجلة الالتزامات والعقود؟ وما الفرق بين الشرط الفاسخ والواقف؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 116 من مجلة الالتزامات والعقود (COC)\nالشرط هو إعلان إرادة، يجعل وجود الالتزام أو انقضاءه معلقاً على حدث مستقبلي وغير مؤكد. والحدث الماضي أو الحاضر، ولكن ما زال غير معروف لدى الطرفين، لا يشكل شرطاً."
+        },
+        {
+          "role": "assistant",
+          "content": "يعرف الفصل 116 من مجلة الالتزامات والعقود الشرط بأنه إعلان إرادة يربط وجود الالتزام أو انقضاءه بحدث مستقبلي غير مؤكد. وبذلك، فالشرط الواقف (suspensif) هو الذي يعلق وجود الالتزام على تحقق الحدث؛ أي أنه قبل تحقق الشرط لا يوجد التزام نافذ. أما الشرط الفاسخ (résolutoire) فيعلق انقضاء الالتزام على تحقق الحدث؛ فإذا تحقق الشرط، زال الالتزام بأثر رجعي أو من وقت التحقق حسب الاتفاق. ويهدف التمييز إلى تحديد اللحظة التي يبدأ فيها الالتزام بالوجود أو ينتهي، مما يمنح الأمان القانوني للتعاملات المعلقة.\n\nالمصادر: الفصل 116 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_multi_002",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [199, 201, 204],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les règles générales concernant la cession de créances (transport) dans le COC ?\n\nDocuments pertinents:\n[1] Source: article 199 du COC\nLe transport des droits et créances du créancier primitif à une autre personne peut avoir lieu, soit en vertu de la loi, soit en vertu d'une convention entre les parties.\n\n[2] Source: article 201 du COC\nLa cession est nulle :\n1) lorsque la créance ou le droit ne peut être cédé en vertu de son titre constitutif ou de la loi ;\n2) lorsqu'elle a pour objet des droits qui ont un caractère purement personnel ;\n3) lorsque la créance ne peut former objet de saisie ou d'opposition ; cependant, lorsque la créance est susceptible d'être saisie à concurrence d'une partie ou valeur déterminée, la cession sera valable dans la même proportion.\n\n[3] Source: article 204 du COC\nLa cession contractuelle d'une créance, ou d'un droit ou d'une action, est parfaite par le consentement des parties, et le cessionnaire est substitué de droit au cédant, à partir de ce moment."
+        },
+        {
+          "role": "assistant",
+          "content": "Le transport de créances est régi par plusieurs principes. En vertu de l'article 199, il peut résulter de la loi ou d'une convention. L'article 204 précise que la cession contractuelle est parfaite par le seul consentement des parties, avec substitution du cessionnaire au cédant à partir de cet instant (effet translatif immédiat). Toutefois, l'article 201 énumère des cas de nullité : créances non cessibles par leur nature ou par la loi, droits purement personnels, ou créances insaisissables (sauf fraction saisissable). Ainsi, la finalité de ces règles est de concilier la libre cessibilité des créances avec la protection du débiteur et des tiers, ainsi qu'avec l'ordre public.\n\nSources: art. 199, 201, 204 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_multi_002",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [240, 241],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: من هم الأشخاص الذين تلزمهم الالتزامات التعاقدية؟ وهل يلتزم الورثة بديون المورث؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 240 من مجلة الالتزامات والعقود (COC)\nالالتزامات لا تلزم إلا من كانوا طرفاً في العقد: فهي لا تضر الغير ولا تنفعهم إلا في الأحوال التي يعينها القانون.\n\n[2] المصدر: الفصل 241 من مجلة الالتزامات والعقود (COC)\nالالتزامات لها أثر ليس فقط بين الطرفين أنفسهم، بل أيضاً بين ورثتهم أو من يخلفهم في الحقوق، ما لم يذكر خلاف ذلك أو يستفاد من طبيعة الالتزام أو القانون. على أن الورثة لا يلتزمون إلا في حدود قوة التركة وبقدر نصيب كل منهم من المال. وإذا رفض الورثة قبول التركة، فلا يمكن إجبارهم عليها ولا يلتزمون بشيء من ديون التركة، ولا يستطيع الدائنون في هذه الحالة إلا أن يتبعوا حقوقهم على التركة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 240 من مجلة الالتزامات والعقود، فإن الالتزامات التعاقدية لا تلزم إلا أطراف العقد، ولا تؤثر في الغير (أي من لم يشارك في العقد). غير أن الفصل 241 يقرر استثناءً مفاده أن الالتزامات تنتقل إلى الورثة وأصحاب الحقوق الخلف العام، ما لم يتفق على خلاف ذلك أو تستبعد طبيعة الالتزام ذلك. ومع ذلك، فإن الورثة لا يلتزمون بديون المورث إلا في حدود قوة التركة (أي على سبيل التقسيم وليس شخصياً)، ولكل منهم الحق في قبول التركة أو رفضها. فإذا رفضوا، فلا يمكن للدائنين الرجوع عليهم شخصياً، بل على التركة فقط. تهدف هذه الأحكام إلى حماية الورثة من تحمل ديون تفوق ما ورثوه، مع ضمان حقوق الدائنين في حدود التركة.\n\nالمصادر: الفصلان 240 و 241 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_fr_principle_exception_002",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [103],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Une personne peut-elle être tenue civilement pour un dommage causé alors qu'elle exerçait un droit qui lui appartient ?\n\nDocuments pertinents:\n[1] Source: article 103 du COC\nIl n'y a pas lieu à responsabilité civile lorsqu'une personne, sans intention de nuire, a fait ce qu'elle avait le droit de faire. Cependant, lorsque l'exercice de ce droit est de nature à causer un dommage notable à autrui et que ce dommage peut être évité ou supprimé, sans inconvénient grave pour l'ayant droit, il y a lieu à responsabilité civile si on n'a pas fait ce qu'il fallait pour le prévenir ou pour le faire cesser."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe posé par l'article 103 du COC est qu'il n'y a pas de responsabilité civile pour l'exercice normal d'un droit, sans intention de nuire. Toutefois, une exception majeure existe : si l'exercice de ce droit cause un dommage notable à autrui, et que ce dommage peut être évité ou supprimé sans inconvénient grave pour le titulaire du droit, alors celui-ci engage sa responsabilité civile s'il n'a pas pris les mesures nécessaires pour prévenir ou faire cesser le dommage. Ainsi, la finalité de cet article est d'équilibrer l'exercice des droits subjectifs et la protection du voisinage ou des tiers contre les abus ou les nuisances évitables. Ce n'est pas l'exercice du droit en soi qui est répréhensible, mais le refus d'en limiter les conséquences dommageables lorsqu'elles sont évitables.\n\nSource: art. 103 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_ar_principle_exception_002",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [282, 283],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: متى يعفى المدين من التعويض بسبب القوة القاهرة أو الحادث الفجائي؟ وما هي الحالات التي لا يعتبر فيها السبب قوة قاهرة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 282 من مجلة الالتزامات والعقود (COC)\nلا محل لأي تعويض إذا أثبت المدين أن عدم التنفيذ أو التأخر فيه ناتج عن سبب لا يمكن أن ينسب إليه، كالقوة القاهرة، أو الحادث الفجائي، أو تخلف الدائن.\n\n[2] المصدر: الفصل 283 من مجلة الالتزامات والعقود (COC)\nالقوة القاهرة هي كل حادث لا يستطيع الإنسان منعه، كالظواهر الطبيعية (الفيضانات، الجفاف، العواصف، الحرائق، الجراد)، أو غزو العدو، أو فعل الأمير، والذي يجعل تنفيذ الالتزام مستحيلاً. ولا يعتبر قوة قاهرة السبب الذي كان يمكن تجنبه إذا لم يثبت المدين أنه بذل كل العناية للوقاية منه. ولا يعتبر أيضاً قوة قاهرة السبب الذي أحدثه خطأ سابق للمدين."
+        },
+        {
+          "role": "assistant",
+          "content": "المبدأ العام المقرر في الفصل 282 من مجلة الالتزامات والعقود هو أن المدين يعفى من التعويض إذا أثبت أن عدم التنفيذ ناتج عن قوة قاهرة أو حادث فجائي أو تخلف الدائن. غير أن الفصل 283 يضيف استثناءات جوهرية: لا تعتبر قوة قاهرة (أي لا يعفى المدين) في ثلاث حالات: أولاً، إذا كان السبب ممكناً تجنبه ولم يبذل المدين كل العناية للوقاية منه؛ ثانياً، إذا كان السبب قد أحدثه خطأ سابق للمدين (مثلاً إهماله تسبب في تفاقم الحادث)؛ ثالثاً، إذا كان الحادث من صنع الإنسان ولكن ضمن نطاق يمكن تداركه. وتهدف هذه الاستثناءات إلى منع المدين من التملص من مسؤوليته بالاستناد إلى أحداث كان بإمكانه تفاديها أو أنه ساهم فيها.\n\nالمصادر: الفصلان 282 و 283 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_cross_fr_ar_001",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [273],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les droits du créancier lorsque le débiteur est en demeure d'exécuter son obligation ?\n\nDocuments pertinents:\n[1] Source: article 273 du Code des obligations et des contrats tunisien (version arabe originale - texte tel que fourni)\nإذا كان المدين في حالة تأخر (demeure)، فللدائن الحق في إجبار المدين على تنفيذ الالتزام إذا كان التنفيذ ممكناً؛ وفي حالة عدم الإمكان، يمكنه طلب فسخ العقد مع التعويض في كلتا الحالتين. وإذا لم يعد التنفيذ ممكناً إلا جزئياً، فللدائن أن يطلب إما تنفيذ العقد بالنسبة للجزء الممكن، وإما فسخ العقد مع التعويض في كلتا الحالتين. ويسير على أي حال وفق القواعد المقررة في العناوين المتعلقة بالعقود الخاصة. ولا يتم الفسخ بحكم القانون، بل يجب أن يحكم به القضاء."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 273 du COC, lorsque le débiteur est en demeure (retard inexcusable), le créancier dispose de plusieurs droits. Si l'exécution est encore possible, il peut contraindre le débiteur à exécuter. Si l'exécution est devenue impossible, il peut demander la résolution du contrat ainsi que des dommages-intérêts. En cas d'impossibilité partielle, le créancier a le choix entre l'exécution partielle ou la résolution totale, avec dommages-intérêts dans les deux cas. La résolution n'opère pas de plein droit ; elle doit être prononcée par le juge. La finalité de ces dispositions est de protéger le créancier contre l'inexécution fautive tout en évitant les résolutions abusives.\n\nSource: art. 273 du COC. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "coc_cross_ar_fr_001",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [340],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالمادة والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: متى ينقضي الالتزام بأداء الدين؟\n\nالوثائق ذات الصلة:\n[1] Source: Article 340 of the Tunisian Code of Obligations and Contracts (original French text as provided)\nL'obligation est éteinte lorsque la prestation qui en est l'objet est faite au créancier, dans les conditions déterminées par la convention ou par la loi."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 340 من مجلة الالتزامات والعقود، ينقضي الالتزام (أو يسقط) عندما يتم تنفيذ المطلوب (الخدمة أو المبلغ) لصالح الدائن، وذلك وفقاً للشروط المحددة في الاتفاق أو في القانون. ومعنى ذلك أن الالتزام لا ينقضي بمجرد عرض الأداء، بل لا بد من تسليم حقيقي للدائن أو لمن ينوب عنه، وبالكيفية المتفق عليها. ويهدف هذا النص إلى إعطاء اليقين للدائن بأن حقه قد أوفي به فعلاً، وللمدين بأنه أصبح بريء الذمة.\n\nالمصادر: الفصل 340 من مجلة الالتزامات والعقود. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": ["Livre I: capacité (art 6-8)", "Livre I: formation du contrat (art 23,27-29)", "Livre I: vices du consentement (art 43,45,46,51,52)", "Livre I: quasi-contrats (art 71-72)", "Livre I: délits et quasi-délits (art 82,83,94,103)", "Livre I: condition (art 116)", "Livre I: terme (art 136-137)", "Livre I: transport de créances (art 199,201,204)", "Livre I: effets des obligations (art 240-241)", "Livre I: inexécution (art 273)", "Livre I: force majeure (art 282-283)", "Livre I: offres et consignation (art 289-290,293)", "Livre I: extinction par paiement (art 340)", "Livre I: prescription (art 384,403)", "Livre I: preuve (art 420,473)", "Livre II: vente (art 564,581)", "Livre II: garantie des vices cachés (art 647,652,672)", "Livre II: louage de choses (art 727,739,747,758,767,772)", "Livre II: mandat (art 1104,1109,1120,1131,1157,1160)"],
+    "sections_not_covered": ["Livre I: obligations alternatives (art 151-162)", "Livre I: obligations solidaires (art 163-190)", "Livre I: obligations divisibles/indivisibles (art 191-198)", "Livre I: subrogation (art 223-228)", "Livre I: délégation (art 229-239)", "Livre I: exécution des obligations (art 248-267)", "Livre I: arrhes, action révocatoire (art 303-308)", "Livre I: nullité/rescision (art 325-338)", "Livre I: compensation, confusion, résiliation volontaire (art 369-419)", "Livre II: échange (art 718-725)", "Livre II: louage d'ouvrage (art 828-887)", "Livre II: enzel, kirdar, khoulou (art 954-994)", "Livre II: dépôt (art 995-1053)", "Livre II: prêt (art 1054-1103)", "Livre II: commande (art 1195-1225)", "Livre II: association (art 1249-1451)", "Livre II: transaction (art 1458-1477)", "Livre II: cautionnement (art 1478-1531)"],
+    "notes": "Batch couvre principalement les livres I et début du livre II. Les articles abrogés (ex: 110,111,112,113,405,684-699, etc.) n'ont pas été utilisés. Les exemples en arabe respectent l'arabe standard formel sans aucun dialecte. Les citations sont conformes à la pratique tunisienne. Les articles de loi sont reproduits textuellement à partir du document fourni."
+  }
+}

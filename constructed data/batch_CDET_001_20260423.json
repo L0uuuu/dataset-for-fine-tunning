@@ -1,0 +1,423 @@
+{
+  "batch_id": "batch_CDET_001_20260423",
+  "source": "Code des droits d'enregistrement et de timbre de Tunisie (Version 2020)",
+  "articles_covered": [1, 2, 7, 10, 20, 23, 31, 51, 80, 117, 118],
+  "articles_to_avoid_next_batch": [1, 2, 7, 10, 20, 23, 31, 51, 80, 117, 118],
+  "examples": [
+    {
+      "example_id": "cdet_001_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [2],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Bonjour, j'ai signé un contrat de vente de gré à gré (sous seing privé) pour un terrain hier. Quel est le délai maximal pour le présenter à l'enregistrement à la Recette des Finances ?\n\nDocuments pertinents:\n[1] Source: article 2 du CDET\nDoivent être enregistrés dans un délai de soixante jours à compter de leur date : 1° les actes portant transmission de propriété, de nue-propriété ou d’usufruit d’immeubles, de fonds de commerce ou de clientèle... qu'ils soient notariés ou sous seing privé."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 2 du CDET, vous disposez d'un délai de soixante (60) jours à compter de la date de signature de votre contrat sous seing privé pour procéder à son enregistrement [1]. \n\nToutefois, il est recommandé de ne pas attendre la fin de ce délai pour éviter toute pénalité de retard. En effet, ce délai permet à l'administration fiscale d'assurer la date certaine de l'acte et de percevoir les droits dus à l'État. Ainsi, pour un acte signé hier, vous avez deux mois pour régulariser votre situation.\n\nSources: art. 2 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_002_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [20],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي نسبة معلوم التسجيل المستحقة عند شراء منزل قديم (مبني سابقاً) في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 20 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع عقود البيع والمقايضة والأنواع الأخرى من عقود نقل الملكية بعوض المتعلقة بالعقارات إلى معلوم نسبي قدره 5%."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 20 من مجلة حقوق التسجيل والطابع الجبائي، يخضع عقد بيع العقارات، بما في ذلك المنازل القديمة، لمعلوم تسجيل نسبي قدره 5% من ثمن البيع المصرح به [1].\n\nعلاوة على ذلك، يطبق هذا المعلوم على كافة عقود نقل الملكية بعوض لضمان مساهمة المتصرفين في العقارات في الموارد الجبائية للدولة. وبالتالي، يتعين على المشتري احتساب هذه النسبة كجزء من تكاليف الاقتناء عند إتمام عملية الشراء.\n\nالمصادر: الفصل 20 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_003_multi_fr",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [20, 117],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis propriétaire d'un local commercial et je vais signer un bail. Quels sont les droits fiscaux que je dois payer pour l'enregistrement du contrat ?\n\nDocuments pertinents:\n[1] Source: article 20 du CDET\nSont enregistrés au droit proportionnel de 1%, les baux de biens immeubles autres que ceux destinés à l'habitation.\n[2] Source: article 117 du CDET\nLes actes et écrits soumis à la formalité de l'enregistrement sont passibles d'un droit de timbre de 5 dinars par feuille de papier de format normal."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 20 du CDET, les baux commerciaux (locaux autres que l'habitation) sont soumis à un droit d'enregistrement proportionnel de 1% calculé sur le montant total du loyer pour la durée du bail [1]. \n\nEn outre, conformément à l'article 117 du même code, vous devez vous acquitter d'un droit de timbre de 5 dinars par feuille utilisée pour la rédaction du contrat [2]. Par ailleurs, le paiement de ces droits permet de conférer au bail une date certaine, protégeant ainsi les droits du bailleur et du locataire vis-à-vis des tiers. Ainsi, le coût total comprendra la taxe proportionnelle et le droit fixe du timbre.\n\nSources: art. 20 et 117 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_004_princ_ex_ar",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [20, 51],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أرغب في معرفة الأداءات المستحقة عند انتقال ملكية عقار عن طريق الإرث من الأب إلى ابنه؟ وهل توجد إعفاءات؟\n\nDocuments pertinents:\n[1] Source: الفصل 20 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع الهبات والتركات بين الأسلاف والأعراف وبين الأزواج إلى معلوم نسبي قدره 2,5%.\n[2] Source: الفصل 51 من مجلة حقوق التسجيل والطابع الجبائي\nيتمتع الورثة من الأصول والفروع بطرح قدره 50.000 دينار لكل واحد منهم من نصيبه في التركة قبل تطبيق المعلوم."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 20 من مجلة حقوق التسجيل والطابع الجبائي، فإن المبدأ هو خضوع التركات بين الأصول والفروع (مثل الأب وابنه) لمعلوم تسجيل نسبي قدره 2,5% من قيمة العقار [1].\n\nغير أنه وطبقاً للفصل 51، يتمتع الابن بطرح مالي هام (إعفاء جزئي) قدره 50.000 دينار من قيمة نصيبه قبل احتساب الأداء [2]. تهدف هذه القاعدة إلى تخفيف العبء الجبائي على الأقارب من الدرجة الأولى عند انتقال الإرث. وبالتالي، لا تدفع الضريبة إلا على الجزء الذي يتجاوز مبلغ 50 ألف دينار من نصيب الوارث.\n\nالمصادر: الفصل 20 و51 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_005_refusal_fr",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le montant de l'impôt sur le revenu (IRPP) que je dois payer cette année pour un salaire mensuel de 2000 DT ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des droits d'enregistrement et de timbre ne traite que des taxes liées aux actes et contrats, et non de l'impôt sur le revenu des personnes physiques. Je vous recommande de consulter le Code de l'IRPP et de l'IS ou de solliciter l'avis d'un expert-comptable ou d'un avocat fiscaliste."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_006_cross_1_ar_fr",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [117],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي قيمة الطابع الجبائي الواجب وضعه على كل ورقة من عقد التسجيل حسب القانون التونسي؟\n\nDocuments pertinents:\n[1] Source: Article 117 du CDET\nLes actes et écrits soumis à la formalité de l'enregistrement sont passibles d'un droit de timbre de 5 dinars par feuille de papier de format normal (double feuille de format 29,7 x 42 cm)."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 117 من مجلة حقوق التسجيل والطابع الجبائي، تقدر قيمة الطابع الجبائي بـ 5 دنانير عن كل ورقة من الورق ذي الحجم العادي (الورقة المزدوجة) المستخدمة في تحرير العقود الخاضعة للتسجيل [1].\n\nعلاوة على ذلك، يهدف هذا المعلوم الثابت إلى تغطية تكاليف الخدمات الإدارية المرتبطة بمعاملات التسجيل. وبالتالي، يجب احتساب عدد الأوراق في كل نسخة من العقد لتحديد المبلغ الإجمالي للطوابع المستحقة.\n\nالمصادر: الفصل 117 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_007_procedural_ar",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [7, 10],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: توفي والدي رحمه الله وترك لنا منزلاً. ما هي الإجراءات القانونية المتعلقة بقباضة المالية والآجال التي يجب علينا احترامها لتسجيل التركة؟\n\nDocuments pertinents:\n[1] Source: الفصل 7 من مجلة حقوق التسجيل والطابع الجبائي\nيجب تقديم تصاريح التركات في أجل عامين من تاريخ الوفاة.\n[2] Source: الفصل 10 من مجلة حقوق التسجيل والطابع الجبائي\nيودع التصريح بمكتب قباضة المالية المختص ترابياً بمكان إقامة المتوفى."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 7 من مجلة حقوق التسجيل والطابع الجبائي، يتعين على الورثة تقديم تصريح في التركة في أجل أقصاه سنتان (عامين) من تاريخ الوفاة [1].\n\nوفيما يتعلق بالإجراءات، يجب إيداع هذا التصريح لدى مكتب قباضة المالية الذي يتبعه مقر سكن المتوفى ترابياً، وذلك وفقاً لمقتضيات الفصل 10 من نفس المجلة [2]. تهدف هذه الآجال الطويلة نسبياً إلى تمكين الورثة من حصر الممتلكات وإعداد الوثائق اللازمة. وبالتالي، فإن تجاوز هذا الأجل قد يؤدي إلى تسليط خطايا تأخير.\n\nالمصادر: الفصل 7 و10 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_008_clarification_fr",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [1, 2],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai un contrat à enregistrer d'urgence. Pouvez-vous me dire sous combien de jours je dois le faire ?\n\nDocuments pertinents:\n[1] Source: article 1 du CDET\nDoivent être enregistrés dans un délai de dix jours : les exploits et procès-verbaux dressés par les huissiers-notaires.\n[2] Source: article 2 du CDET\nDoivent être enregistrés dans un délai de soixante jours : les actes portant transmission de propriété... et les baux."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour vous répondre précisément, pourriez-vous préciser la nature de votre contrat ? S'agit-il d'un acte de vente ou de location (délai de 60 jours selon l'article 2 [2]) ou d'un procès-verbal dressé par un huissier de justice (délai de 10 jours selon l'article 1 [1]) ? Le délai légal varie considérablement selon le type d'acte."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_009_multi_ar",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [23, 117],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كم تبلغ تكلفة تسجيل عقد كراء منزل للسكن يتكون من 4 صفحات؟\n\nDocuments pertinents:\n[1] Source: الفصل 23 من مجلة حقوق التسجيل والطابع الجبائي\nتسجل عقود كراء العقارات المخصصة للسكن بالمعلوم الثابت وقدره 15 ديناراً عن كل ورقة.\n[2] Source: الفصل 117 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع العقود الخاضعة للتسجيل لطابع جبائي قدره 5 دنانير عن كل ورقة."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 23 من مجلة حقوق التسجيل والطابع الجبائي، تخضع عقود كراء المحلات السكنية لمعلوم تسجيل ثابت قدره 15 ديناراً عن كل ورقة [1]. \n\nعلاوة على ذلك، وبمقتضى الفصل 117، يجب دفع طابع جبائي قدره 5 دنانير عن كل ورقة [2]. وبالتالي، بالنسبة لعقد يتكون من 4 صفحات، تكون التكلفة الإجمالية للورقة الواحدة 20 ديناراً (15 تسجيل + 5 طابع)، أي ما مجموعه 80 ديناراً لكامل العقد. تهدف هذه المعلومة الثابتة لتسهيل الإجراءات الجبائية لعقود الكراء السكني مقارنة بالعقود التجارية.\n\nالمصادر: الفصل 23 و117 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_010_princ_ex_fr",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [20, 23],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je souhaite donner un appartement à mon épouse. Quel est le taux de taxation pour cette donation ? Y a-t-il un tarif fixe possible ?\n\nDocuments pertinents:\n[1] Source: article 20 du CDET\nLes donations entre époux sont soumises au droit proportionnel de 2,5%.\n[2] Source: article 23 du CDET\nSont enregistrés au droit fixe de 15 dinars par page, les actes de donation de biens meubles entre époux, ascendants et descendants."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 20 du CDET, le principe pour la donation d'un bien immobilier (appartement) entre époux est l'application d'un droit proportionnel de 2,5% sur la valeur de l'immeuble [1]. \n\nToutefois, il existe une nuance importante selon la nature du bien : si la donation portait sur des biens meubles (objets, argent, etc.), l'article 23 prévoit un enregistrement au droit fixe de 15 dinars par page [2]. En effet, le législateur tunisien applique un régime plus lourd aux mutations immobilières afin de contrôler la richesse foncière. Ainsi, pour votre appartement, c'est le taux de 2,5% qui s'appliquera.\n\nSources: art. 20 et 23 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_011_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [1],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un huissier vient de me signifier un acte. Quel est le délai dont il dispose pour enregistrer son procès-verbal ?\n\nDocuments pertinents:\n[1] Source: article 1 du CDET\nDoivent être enregistrés dans un délai de dix jours à compter de leur date : 1° les exploits et procès-verbaux dressés par les huissiers-notaires et autres personnes habilitées à cet effet."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 1 du CDET, les huissiers-notaires sont tenus d'enregistrer leurs exploits et procès-verbaux dans un délai très court de dix (10) jours à compter de la date de l'acte [1]. \n\nPar ailleurs, ce délai restreint s'explique par la nature de ces actes qui sont des instruments de preuve authentiques nécessitant une formalité rapide pour garantir leur opposabilité. Ainsi, l'huissier doit agir avec diligence sous peine de sanctions professionnelles ou fiscales.\n\nSources: art. 1 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_012_cross_2_fr_ar",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [80],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les pénalités encourues si je dépasse le délai légal d'enregistrement de mon contrat de vente ?\n\nDocuments pertinents:\n[1] Source: الفصل 80 من مجلة حقوق التسجيل والطابع الجبائي\nيترتب عن التأخير في تسجيل العقود والاتصرفات دفع خطية قدرها 1% من مبلغ المعاليم المستحقة عن كل شهر تأخير أو جزء من الشهر."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 80 du CDET, tout retard dans l'enregistrement de votre contrat entraîne l'application d'une pénalité de 1% du montant des droits dus pour chaque mois ou fraction de mois de retard [1].\n\nEn outre, cette amende est cumulative et vise à encourager les contribuables à respecter les délais légaux de 60 jours. Ainsi, plus vous tardez à régulariser votre situation auprès de la Recette des Finances, plus le coût final sera élevé. \n\nSources: art. 80 du CDET (الفصل 80 من مجلة حقوق التسجيل والطابع الجبائي).\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_013_refusal_ar",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كم تبلغ نسبة العمولة القانونية التي يتقاضاها الوكيل العقاري عند إتمام عملية بيع منزل في تونس؟"
+        },
+        {
+          "role": "assistant",
+          "content": "لا تحتوي الوثائق المقدمة على معلومات كافية للإجابة عن هذا السؤال. إن مجلة حقوق التسجيل والطابع الجبائي تنظم فقط الأداءات والرسوم المستحقة للدولة، ولا تتطرق إلى العمولات التجارية للوسطاء العقاريين. أنصحكم بالاطلاع على العقود المنظمة للمهنة أو استشارة محامٍ متخصص في العقارات."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_014_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [2],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو الأجل القانوني لتسجيل عقد تكوين شركة في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 2 من مجلة حقوق التسجيل والطابع الجبائي\nيجب تسجيل العقود المحررة تحت خط اليد والمتعلقة بتكوين أو تمديد أو تحوير أو حل الشركات في أجل 60 يوماً من تاريخها."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 2 من مجلة حقوق التسجيل والطابع الجبائي، يتعين تسجيل عقود تكوين الشركات في أجل أقصاه ستون (60) يوماً من تاريخ إمضائها [1].\n\nعلاوة على ذلك، يشمل هذا الأجل أيضاً كافة العمليات اللاحقة مثل التمديد أو التحوير أو حتى حل الشركة. وبالتالي، فإن احترام هذا الموعد ضروري لاستكمال بقية الإجراءات القانونية مثل الإيداع بالسجل الوطني للمؤسسات. \n\nالمصادر: الفصل 2 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_015_multi_fr",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [20, 118],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je vends ma voiture d'occasion. Quelles sont les taxes à payer pour le contrat de vente ?\n\nDocuments pertinents:\n[1] Source: article 20 du CDET\nLes ventes de biens meubles sont soumises au droit proportionnel de 2,5%.\n[2] Source: article 118 du CDET\nUn droit de timbre complémentaire de 10 dinars est dû pour les contrats de mutation de véhicules."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 20 du CDET, la vente d'un véhicule d'occasion (bien meuble) est soumise à un droit d'enregistrement proportionnel de 2,5% calculé sur le prix de vente [1]. \n\nPar ailleurs, l'article 118 prévoit l'application d'un droit de timbre complémentaire spécifique de 10 dinars pour toute mutation de véhicule [2]. Ainsi, le coût total de l'enregistrement de votre contrat de vente automobile inclura ces deux taxes. En effet, ce régime permet de régulariser le transfert de propriété sur le plan fiscal avant la mise à jour de la carte grise.\n\nSources: art. 20 et 118 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_016_procedural_fr",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [10, 80],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment se passe concrètement le paiement des droits d'enregistrement après l'achat d'un fonds de commerce ?\n\nDocuments pertinents:\n[1] Source: article 10 du CDET\nLes droits d'enregistrement sont payés à la Recette des Finances compétente contre remise d'une quittance.\n[2] Source: article 80 du CDET\nLe paiement doit intervenir dans le délai légal sous peine de pénalités."
+        },
+        {
+          "role": "assistant",
+          "content": "Conformément à l'article 10 du CDET, le paiement des droits s'effectue directement auprès du bureau de la Recette des Finances compétent (généralement celui du lieu du fonds de commerce) [1]. \n\nAinsi, la procédure consiste à présenter les exemplaires originaux du contrat, à régler les montants calculés, suite à quoi l'administration vous délivre une quittance officielle attestant de l'enregistrement [1]. Toutefois, vous devez impérativement finaliser cette démarche dans le délai de 60 jours prévu par le code pour éviter les pénalités de retard mentionnées à l'article 80 [2].\n\nSources: art. 10 et 80 du CDET\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_017_clarification_ar",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [20, 23],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أريد تسجيل هبة. هل النسبة هي 2.5% أم 5%؟\n\nDocuments pertinents:\n[1] Source: الفصل 20 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع الهبات بين الأصول والفروع والأزواج لمعلوم قدره 2,5%.\n[2] Source: الفصل 20 (مكرر) من مجلة حقوق التسجيل والطابع الجبائي\nتخضع الهبات بين الإخوة والأخوات لمعلوم قدره 5%."
+        },
+        {
+          "role": "assistant",
+          "content": "لتحديد النسبة بدقة، يجب توضيح درجة القرابة بين الواهب والموهوب له. فإذا كانت الهبة بين الآباء والأبناء أو بين الأزواج، فإن النسبة هي 2,5% طبقاً للفصل 20 [1]. أما إذا كانت الهبة بين الإخوة، فإن النسبة ترتفع إلى 5% وفقاً لمقتضيات الفصل 20 (مكرر) [2]. يختلف المعلوم باختلاف درجة القرابة."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_018_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [31],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يجب تسجيل عقود القروض البنكية لدى قباضة المالية؟ وما هو المعلوم؟\n\nDocuments pertinents:\n[1] Source: الفصل 31 من مجلة حقوق التسجيل والطابع الجبائي\nتسجل عقود القروض والرهون الموثقة لها بالمعلوم الثابت وقدره 15 ديناراً عن كل ورقة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 31 من مجلة حقوق التسجيل والطابع الجبائي، تخضع عقود القروض، وكذلك الرهون التي تضمنها، لمعلوم تسجيل ثابت قدره 15 ديناراً عن كل ورقة [1].\n\nعلاوة على ذلك، يطبق هذا المعلوم الثابت لتشجيع عمليات التمويل والائتمان، عوضاً عن فرض نسبة مئوية من قيمة القرض. وبالتالي، فإن التسجيل ضروري لضمان الحقوق القانونية للطرفين وإعطاء العقد تاريخاً ثابتاً.\n\nالمصادر: الفصل 31 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_019_refusal_fr",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon employeur ne m'a pas payé mon préavis de licenciement. Quels sont mes droits ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des droits d'enregistrement et de timbre traite des formalités fiscales et non du droit du travail. Je vous recommande de consulter le Code du Travail tunisien ou de solliciter l'assistance d'un avocat spécialisé en droit social."
+        }
+      ]
+    },
+    {
+      "example_id": "cdet_020_princ_ex_ar",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [20, 23],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة، قل ذلك بوضوح. اذكر دائماً الفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أريد شراء أرض لبناء مسكن خاص. هل هناك تخفيض في معاليم التسجيل؟\n\nDocuments pertinents:\n[1] Source: الفصل 20 من مجلة حقوق التسجيل والطابع الجبائي\nتخضع عقود شراء الأراضي لمعلوم تسجيل بنسبة 5%.\n[2] Source: الفصل 23 (ثالثاً) من مجلة حقوق التسجيل والطابع الجبائي\nتخضع اقتناءات الأراضي المعدة لبناء عقارات فردية معدة للسكن لمعلوم تصاعدي: 1% للمساحات التي لا تتجاوز 120 م2، و2% للمساحات بين 120 و300 م2."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 20 من مجلة حقوق التسجيل والطابع الجبائي، فإن المبدأ العام هو خضوع شراء الأراضي لمعلوم تسجيل بنسبة 5% [1].\n\nغير أن الفصل 23 (ثالثاً) ينص على استثناء هام يشجع على السكن الفردي، حيث يتم تطبيق معلوم مخفض وتصاعدي إذا صرح المشتري بأن الأرض معدة لبناء مسكن خاص؛ فيكون المعلوم 1% فقط للمساحات التي لا تتجاوز 120 متراً مربعاً، و2% للمساحات التي تتراوح بين 120 و300 متراً مربعاً [2]. تهدف هذه الاستثناءات إلى تسهيل النفاذ إلى الملكية السكنية للمواطنين. وبالتالي، يجب التنصيص على هذه الغاية صلب عقد الشراء للتمتع بالتخفيض.\n\nالمصادر: الفصل 20 و23 من مجلة حقوق التسجيل والطابع الجبائي.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Délais d'enregistrement",
+      "Tarifs proportionnels (Ventes, Successions, Donations)",
+      "Droits fixes (Baux d'habitation, Prêts)",
+      "Droit de timbre (Dimension, Véhicules)",
+      "Sanctions et Pénalités"
+    ],
+    "sections_not_covered": [
+      "Enregistrement des jugements",
+      "Régimes des sociétés pétrolières",
+      "Exonérations spécifiques aux investissements"
+    ],
+    "notes": "Les exemples couvrent les situations les plus courantes pour les citoyens et entrepreneurs (Vente, Location, Succession). Les versions 2020 des tarifs ont été intégrées."
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "batch_id": "batch_CIRPP_IS_002_20260421",
+  "source": "Code de l'impôt sur le revenu des personnes physiques et de l'impôt sur les sociétés de Tunisie (mis à jour au 1er janvier 2020)",
+  "articles_covered": [4, 5, 6, 7, 8, 10, "11bis", 13, 14, 15, 21, 22, 23, 24, 29, 30, 31, 33, 35, 41],
+  "articles_to_avoid_next_batch": [4, 5, 6, 7, 8, 10, "11bis", 13, 14, 15, 21, 22, 23, 24, 29, 30, 31, 33, 35, 41],
+  "examples": [
+    {
+      "example_id": "CIRPPIS2_EX01_FR_DIRECT_ART5",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [5],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que père divorcé ayant la garde de mes enfants, est-ce moi qui suis imposé sur leurs revenus ?\n\nDocuments pertinents:\n[1] Source: article 5 du CIRPP/IS\nToute personne ayant la qualité de chef de famille est soumise à l'impôt sur le revenu à raison de ses propres revenus et de ceux de ses enfants fiscalement à charge.\n\nEst considéré comme chef de famille :\n- l'époux ;\n- le divorcé qui a la garde des enfants ;\n- le veuf ;\n- l'adoptant.\n\nToutefois, l'épouse est considérée comme chef de famille :\n1- lorsqu'elle justifie que le mari ne dispose d'aucune source de revenu durant l'année précédant celle de l'imposition ;\n2- lorsque remariée, elle a la garde d'enfants issus d'un précédent mariage.\n\nPar dérogation aux dispositions précédentes, le chef de famille peut réclamer l'imposition distincte de ses enfants mineurs qui réalisent des revenus de quelle que nature que ce soit."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 5 du CIRPP/IS, le chef de famille est imposé sur ses propres revenus et sur ceux de ses enfants fiscalement à charge. Le texte précise que le divorcé qui a la garde des enfants est considéré comme chef de famille [1].\n\nToutefois, le même article prévoit une nuance importante : vous pouvez demander l’imposition distincte de vos enfants mineurs s’ils réalisent des revenus, quelle qu’en soit la nature [1].\n\nAinsi, la règle vise à regrouper l’imposition au niveau de la personne qui assume la charge familiale, tout en permettant une imposition séparée lorsque les enfants ont des revenus propres.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 5 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX02_AR_DIRECT_FASL6",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [6],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يُعفى الدبلوماسيون الأجانب من ضريبة الدخل في تونس؟\n\nDocuments pertinents:\n[1] Source: article 6 du CIRPP/IS\nSont exonérés de l'impôt sur le revenu, les agents diplomatiques et consulaires de nationalité étrangère sous réserve de réciprocité."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 6 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، يُعفى من ضريبة الدخل الأعوان الدبلوماسيون والقنصليون من جنسية أجنبية، وذلك بشرط المعاملة بالمثل [1].\n\nغير أنّ هذا الإعفاء ليس مطلقاً، إذ يرتبط بكون الدولة التي ينتمي إليها الدبلوماسي تمنح إعفاءً مماثلاً في أوضاع مماثلة [1].\n\nويُفهم من هذا الشرط أنّ الغاية هي تحقيق التوازن بين الدول في الامتيازات الجبائية المرتبطة بالتمثيل الدبلوماسي.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 6 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX03_FR_PROCEDURAL_ART7",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [7],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je quitte définitivement la Tunisie en cours d’année : sur quelle période mon impôt sur le revenu sera-t-il calculé ?\n\nDocuments pertinents:\n[1] Source: article 7 du CIRPP/IS\n1- L'impôt est établi chaque année sur le montant total des bénéfices ou revenus réalisés ou perçus pendant l'année précédente.\n\n3- Lorsqu'un contribuable, auparavant résident en Tunisie, transfère son domicile hors de Tunisie, l'impôt est établi sur ses revenus réalisés ou perçus pendant l'année de son départ jusqu'à la date de ce départ ainsi que sur ceux qui lui sont acquis sans en avoir la disposition avant cette date.\n\nLa législation en vigueur au premier janvier de l'année du départ ou du décès est applicable dans les cas visés aux paragraphes 3 et 4 du présent article."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 7 du CIRPP/IS, si vous étiez résident en Tunisie et transférez votre domicile hors de Tunisie, l’impôt est établi sur les revenus réalisés ou perçus pendant l’année de votre départ jusqu’à la date du départ, ainsi que sur ceux qui vous sont acquis sans en avoir la disposition avant cette date [1].\n\nToutefois, le texte précise aussi une règle de référence : la législation applicable est celle en vigueur au 1er janvier de l’année du départ [1].\n\nAinsi, la logique est de « clôturer » l’assiette imposable au moment du départ pour éviter une imposition sur des revenus postérieurs à votre sortie du territoire.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 7 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX04_AR_DIRECT_FASL8",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [8],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما المقصود بـ«الدخل الصافي الإجمالي» الذي تُحتسب على أساسه ضريبة الدخل؟\n\nDocuments pertinents:\n[1] Source: article 8 du CIRPP/IS\nLe revenu net global servant de base à l'impôt est constitué par l'excédent du produit brut y compris la valeur des profits et avantages en nature sur les charges et dépenses effectuées en vue de l'acquisition et de la conservation du revenu.\n\nCe revenu net global est constitué par le montant total des revenus nets déterminés distinctement suivant les règles propres à chacune des catégories de revenus suivantes :\n- Bénéfices industriels et commerciaux ;\n- Bénéfices des professions non commerciales ;\n- Bénéfices de l'exploitation agricole et de pêche ;\n- Traitements, salaires, indemnités, pensions et rentes viagères ;\n- Revenus fonciers ;\n- Revenus de valeurs mobilières et de capitaux mobiliers ;\n- Autres revenus.\n\nLe revenu ainsi constitué tient compte du déficit constaté dans l’une des catégories du revenu dégagé par une comptabilité conforme... Si le revenu global n’est pas suffisant... le reliquat du déficit est reporté ... jusqu'à la cinquième année inclusivement..."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 8 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، يُقصد بالدخل الصافي الإجمالي (الذي تُحتسب عليه الضريبة) فائض المنتج الخام، بما في ذلك الأرباح والمنافع العينية، على المصاريف والأعباء التي أُنفقت لاكتساب الدخل والمحافظة عليه [1].\n\nوعلاوة على ذلك، يتكون هذا الدخل من مجموع المداخيل الصافية المحسوبة على نحو مستقل بحسب فئات الدخل (مكاسب صناعية وتجارية، مهن غير تجارية، فلاحية وصيد، أجور، مداخيل عقارية، مداخيل منقولة، وغيرها) [1].\n\nكما يأخذ بعين الاعتبار العجز في إحدى الفئات، مع إمكان ترحيل الباقي إلى حدود السنة الخامسة [1].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 8 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX05_FR_MULTI_ART10_13",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [10, 13],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Ma société clôture ses comptes sur une période de 15 mois. Est-ce que l’IR est calculé sur l’exercice tel quel, et puis-je amortir exceptionnellement un immeuble de logement du personnel ?\n\nDocuments pertinents:\n[1] Source: article 10 du CIRPP/IS\nII. Si l'exercice clos au cours de l'année précédente s'étend sur une période de plus ou moins de douze mois, l'impôt sur le revenu est établi d'après les résultats dudit exercice.\n\n[2] Source: article 13 du CIRPP/IS\nI. Par dérogation aux dispositions de l’article 12 bis du présent code, les entreprises qui construisent, font construire ou achètent des immeubles d'habitation destinés au logement de leur personnel à titre gratuit, peuvent... effectuer un amortissement exceptionnel égal à 50% de leur prix de revient... La valeur résiduelle... amortissables sur une durée de dix ans.\nLes immeubles sont considérés... si les trois quarts au moins de leur superficie totale sont réservés au logement du personnel...\nII. ... l'exploitant individuel, les associés en nom..., leur conjoint et enfants mineurs ne sont pas considérés comme faisant partie du personnel..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 10 du CIRPP/IS, si l’exercice clos s’étend sur plus ou moins de douze mois (comme 15 mois), l’impôt est établi d’après les résultats de cet exercice tel quel [1].\n\nPar ailleurs, l’article 13 prévoit, par dérogation, un amortissement exceptionnel de 50% pour les immeubles d’habitation destinés au logement gratuit du personnel, puis l’amortissement du résiduel sur dix ans [2]. Toutefois, l’immeuble doit être affecté au personnel (au moins les trois quarts de la superficie) et certaines personnes (exploitant, associés en nom, conjoint, enfants mineurs) ne sont pas considérées comme « personnel » pour cette règle [2].\n\nAinsi, le dispositif vise à aligner l’assiette fiscale sur la réalité comptable de l’exercice tout en encourageant le logement du personnel.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 10, 13 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX06_AR_MULTI_FASL23_24",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [23, 24],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف تُعرَّف مداخيل الاستغلال الفلاحي أو الصيد، وكيف يُحدَّد الربح الصافي إذا لم أُمسك محاسبة؟\n\nDocuments pertinents:\n[1] Source: article 23 du CIRPP/IS\nSont considérés comme bénéfices d'exploitation agricole ou de pêche, les revenus que l'exploitation de biens ruraux procure... ainsi que les revenus provenant de la pêche... comprennent notamment... et ... réalisés par toute personne qui exploite à titre de propriétaire ou de locataire.\n\n[2] Source: article 24 du CIRPP/IS\nLe bénéfice net... est constitué par l'excédent des recettes totales réalisées au cours de l'année civile sur les dépenses nécessitées... compte tenu du jeu des stocks.\n... Toutefois, et en l'absence de tenue de comptabilité, les agriculteurs et les pêcheurs sont soumis à l'impôt sur la base d'une évaluation forfaitaire déterminée après consultation des experts... tenant compte de la nature des spéculations selon les régions."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 23 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، تُعدّ من أرباح الاستغلال الفلاحي أو الصيد المداخيل التي تنتج عن استغلال الأملاك الريفية (سواء من طرف المالك المستغل أو غيره) وكذلك المداخيل المتأتية من الصيد، وتشمل أصنافاً متعددة من المنتجات الفلاحية والبحرية بحسب طبيعة الاستغلال [1].\n\nوعلاوة على ذلك، يبين الفصل 24 أن الربح الصافي يُحتسب أساساً على أنه فائض المداخيل الجملية على المصاريف الضرورية مع مراعاة المخزون [2]. غير أنّه عند عدم مسك محاسبة، يقع إخضاع الفلاحين والبحارة لتقدير جزافي يُحدَّد بعد استشارة خبراء المجال ويراعي طبيعة الزراعات/الأنشطة حسب الجهات [2].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصول 23 و24 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX07_FR_PRINCIPLE_EXCEPTION_ART14",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [14],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En comptabilité, je passe des cadeaux clients et des frais de restauration. Est-ce que c’est toujours déductible fiscalement ?\n\nDocuments pertinents:\n[1] Source: article 14 du CIRPP/IS\nPar dérogation aux dispositions de l'article 12-1er du présent code, ne sont pas admis en déduction...\n1- les cadeaux... et frais de réception y compris restauration et spectacle qui dépassent un centième du chiffre d'affaires brut... avec un maximum déductible de vingt mille dinars par exercice.\n2- l’impôt sur le revenu ou l’impôt sur les sociétés...\n3- les commissions... supportés par l'entreprise s'ils ne sont pas déclarés...\n...8- les amendes... pénalités...\n11- Les charges... >= 5.000 dinars HT... payée en espèces.\n12- Les charges relatives aux montants payés aux personnes résidentes... régime fiscal privilégié... et définition + liste fixée par arrêté..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 14 du CIRPP/IS, le principe est que certaines charges comptabilisées ne sont pas admises en déduction pour déterminer le bénéfice imposable, notamment les cadeaux et frais de réception (y compris restauration et spectacle) au-delà de seuils précis [1].\n\nToutefois, l’article 14 prévoit une tolérance : ces frais restent déductibles dans la limite de 1% du chiffre d’affaires brut, avec un plafond de 20.000 dinars par exercice [1]. En outre, le même article cite d’autres exclusions importantes (amendes et pénalités, impôt sur le revenu/IS, charges payées en espèces ≥ 5.000 dinars HT, etc.), qui peuvent affecter la déductibilité selon le cas [1].\n\nAinsi, la finalité est d’éviter que des dépenses de représentation ou non justifiées réduisent artificiellement l’assiette fiscale.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 14 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX08_AR_PRINCIPLE_EXCEPTION_FASL15",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [15],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يجوز خصم استهلاك الأراضي أو المحلات التجارية (الأصل التجاري) عند احتساب الربح الخاضع للضريبة؟\n\nDocuments pertinents:\n[1] Source: article 15 du CIRPP/IS\nPar dérogation aux dispositions de l’article 12 bis... n'est pas admis en déduction... l'amortissement :\n1- des terrains;\n2- des fonds de commerce;\n4- des avions et bateaux de plaisance... résidences secondaires ;\n5- des véhicules de tourisme... puissance > 9 CV...;\n6- les actifs ... >= 5.000 dinars HT... payée en espèces;\n7- Les actifs acquis auprès... régime fiscal privilégié..."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 15 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، فإن المبدأ هو عدم قبول خصم الاستهلاك (الإهلاك) لبعض الأصول عند تحديد الربح، ومن ذلك صراحة: الأراضي والأصل التجاري (المحل التجاري/السمعة التجارية) [1].\n\nغير أنّ الفصل نفسه يورد أيضاً أصنافاً أخرى من الاستهلاكات غير المقبولة (مثل الطائرات والقوارب الترفيهية الموضوعة على ذمة المسيرين في غير غرض المؤسسة، والمساكن الثانوية، وبعض سيارات السياحة، وأصول مدفوعة نقداً بقيمة معينة...) [1].\n\nوعليه، تهدف القاعدة إلى منع تنزيل استهلاكات لأصول لا تُستهلك بطبيعتها كالأراضي، أو لأصول قد تُستعمل لأغراض غير مرتبطة مباشرة بالنشاط.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى ��ستشارة محامٍ.\nSources: الفصل 15 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX09_FR_REFUSAL",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le montant exact des pénalités de retard applicables si je paye mon impôt en retard de 6 mois ?\n\nDocuments pertinents:\n[1] Source: Extraits CIRPP/IS fournis\n(Les extraits fournis décrivent certaines majorations ou renvois à la législation en vigueur, sans indiquer un barème complet et chiffré des pénalités de retard pour 6 mois de retard.)"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question de manière chiffrée (barème complet des pénalités de retard pour 6 mois). Je vous recommande de consulter un avocat spécialisé ou l’administration fiscale compétente (centre de contrôle des impôts) pour obtenir le calcul exact applicable à votre situation.\n\nSources: documents fournis (insuffisants)"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX10_AR_REFUSAL",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو عدد الأيام اللازمة لإتمام إجراءات الاسترجاع الجبائي بعد إيداع المطلب؟\n\nDocuments pertinents:\n[1] Source: Extraits CIRPP/IS fournis\n(المقتطفات تتناول مبدأ طرح بعض الدفوعات أو إمكانية الاسترجاع بشكل عام دون تحديد آجال إجرائية دقيقة بعد الإيداع.)"
+        },
+        {
+          "role": "assistant",
+          "content": "لا تتضمن الوثائق المقدمة معلومات كافية لتحديد أجل إجرائي دقيق بعدد الأيام لإتمام الاسترجاع الجبائي بعد إيداع المطلب. أوصي باستشارة محامٍ مختص أو الاتصال بالإدارة الجبائية المختصة للحصول على الآجال والإجراءات العملية المعمول بها.\n\nSources: الوثائق المقدمة (غير كافية)"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX11_FR_CLARIFICATION_ART41",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [41],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que je peux « déduire mes impôts » de mon revenu imposable ?\n\nDocuments pertinents:\n[1] Source: article 41 du CIRPP/IS\nL'impôt sur le revenu ne constitue pas une charge déductible pour la détermination du revenu imposable."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour répondre correctement, j’ai besoin d’une précision : par « déduire mes impôts », parlez-vous de l’impôt sur le revenu lui-même, ou d’autres taxes/charges ?\n\nEn l’état, l’article 41 du CIRPP/IS est clair sur un point : l’impôt sur le revenu ne constitue pas une charge déductible pour déterminer le revenu imposable [1]. Si vous visez un autre impôt ou une taxe différente, il faut vérifier le régime applicable dans les textes pertinents.\n\nSources: art. 41 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX12_AR_CLARIFICATION_FASL4",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [4],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: أنا شريك في شركة أشخاص، هل أدفع الضريبة أنا أم الشركة؟\n\nDocuments pertinents:\n[1] Source: article 4 du CIRPP/IS\nSous réserve des dispositions de l’article 45..., les associés des sociétés en nom collectif..., ... sont personnellement soumis à l’impôt sur le revenu pour la part des bénéfices sociaux correspondant à leurs droits... ayant une exploitation en Tunisie et pour la plus-value... cession de leurs droits...\n\nSont, aussi, personnellement soumis... copropriétaires dans les fonds communs de créances..."
+        },
+        {
+          "role": "assistant",
+          "content": "لأجيب بدقة، أحتاج توضيحاً: هل تقصد شركة أشخاص من نوع «شركة اسم جماعي/شركة توصية بسيطة/شركة محاصة»، أم تقصد شركة خاضعة للضريبة على الشركات؟\n\nاستناداً إلى الفصل 4 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، فإن بعض الشركاء (في شركات مثل شركة الاسم الجماعي وغيرها المذكورة) يُخضعون شخصياً لضريبة الدخل على حصتهم من الأرباح المتحققة في تونس، وكذلك على فائض القيمة عند التفويت في الحقوق [1]. لكن تحديد الحالة يتوقف على الشكل القانوني للشركة.\n\nSources: الفصل 4 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX13_FR_MULTI_ART29_30_33",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [29, 30, 33],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans une SARL, si la société me verse une avance en tant qu’associé, est-ce traité comme un revenu distribué et comment se calcule le revenu net imposable ?\n\nDocuments pertinents:\n[1] Source: article 29 du CIRPP/IS\nSont à ce titre, considérés comme revenus distribués : a) tous les bénéfices ou produits qui ne sont ni mis en réserve ni incorporés au capital ; b) toutes les sommes ou valeurs mises à la disposition des associés... et non prélevées sur les bénéfices ; ...\n\n[2] Source: article 30 du CIRPP/IS\nSont assimilés à des revenus distribués : 1- sauf preuve contraire, les sommes mises à la disposition des associés... à titre d'avances, de prêts ou d'acomptes à l'exception de celles servies entre une société mère et ses filiales... Lorsque ces sommes sont remboursées... imputation...\n\n[3] Source: article 33 du CIRPP/IS\nLe revenu net est constitué par le montant brut des revenus distribués tels que définis aux articles 29, 30, 31 et 32..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 29 et 30 du CIRPP/IS, des sommes mises à la disposition des associés peuvent être qualifiées de revenus distribués. D’une part, l’article 29 vise notamment les sommes ou valeurs mises à disposition des associés et non prélevées sur les bénéfices [1]. D’autre part, l’article 30 assimile, sauf preuve contraire, les avances, prêts ou acomptes consentis aux associés à des revenus distribués (avec une exception pour celles entre société mère et filiales) [2].\n\nToutefois, l’article 30 prévoit qu’en cas de remboursement, la fraction des impositions supportées à l’attribution est imputable sur l’impôt dû au titre de l’année du remboursement ou des années suivantes [2].\n\nEnfin, l’article 33 précise que le revenu net imposable est le montant brut des revenus distribués ainsi définis [3].\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 29, 30, 33 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX14_AR_MULTI_FASL31_33",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [31, 33],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: إذا توقفت شركة خاضعة للضريبة على الشركات عن الخضوع لها، هل تُعتبر الاحتياطات أرباحاً موزعة على الشركاء؟ وكيف يُحدد الدخل الصافي في هذه الحالة؟\n\nDocuments pertinents:\n[1] Source: article 31 du CIRPP/IS\nLorsqu'une personne morale soumise à l'impôt sur les sociétés cesse d'y être assujettie, ses bénéfices et réserves capitalisés, depuis moins de cinq ans, sont réputés distribués aux associés en proportion de leurs droits.\n\n[2] Source: article 33 du CIRPP/IS\nLe revenu net est constitué par le montant brut des revenus distribués tels que définis aux articles 29, 30, 31 et 32 du présent code."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 31 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، إذا توقفت شخص معنوي خاضع للضريبة على الشركات عن الخضوع لها، فإن الأرباح والاحتياطات المُرسملة منذ أقل من خمس سنوات تُعدّ «موزعة حكماً» على الشركاء بنسبة حقوقهم [1].\n\nغير أنّ تحديد الوعاء في هذه الصورة يتصل أيضاً بتكييف المبالغ كـ«مداخيل موزعة». وفي هذا السياق، يقرر الفصل 33 أن الدخل الصافي يتكون من المبلغ الخام للمداخيل الموزعة كما عرّفتها الفصول 29 و30 و31 و32، ومن بينها الحالة الواردة بالفصل 31 [2].\n\nوبالتالي، تهدف القاعدة إلى منع تحويل الأرباح إلى احتياطات قصيرة الأجل للتهرب من اعتبارها توزيعات عند تغير النظام الجبائي.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصلان 31 و33 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX15_FR_DIRECT_ART22",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [22],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis consultant indépendant. Puis-je choisir une imposition forfaitaire à 80% de mes recettes brutes ?\n\nDocuments pertinents:\n[1] Source: article 22 du CIRPP/IS\nII. Cependant, les intéressés peuvent opter, à l'occasion du dépôt de leur déclaration de l'impôt sur le revenu, pour leur imposition sur la base d'un bénéfice forfaitaire égal à 80% de leurs recettes brutes réalisées.\n\nIII. Dans le cas où les intéressés ont été soumis au titre d’une année donnée à l’impôt sur le revenu selon le régime réel, ledit régime demeure définitif et ne peut faire l’objet de renonciation."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 22 du CIRPP/IS, pour les activités non commerciales, vous pouvez opter lors du dépôt de votre déclaration d’impôt sur le revenu pour une imposition sur la base d’un bénéfice forfaitaire égal à 80% de vos recettes brutes réalisées [1].\n\nToutefois, l’article 22 prévoit une exception majeure : si vous avez déjà été soumis une année au régime réel, ce régime devient définitif et vous ne pouvez pas y renoncer [1].\n\nAinsi, le mécanisme vise à offrir une simplicité de calcul à certains contribuables, tout en évitant des changements opportunistes de régime d’une année à l’autre.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 22 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX16_AR_DIRECT_FASL35",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [35],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يُحدَّد الدخل الصافي من فوائد الديون أو الودائع؟ وهل يُراعى تاريخ الاستحقاق أم تاريخ القبض؟\n\nDocuments pertinents:\n[1] Source: article 35 du CIRPP/IS\nLe revenu net est constitué par le montant brut des intérêts et tous autres produits ou avantages que le créancier perçoit au cours de l'année précédant celle de l'imposition... sans distinction entre ceux afférents à ladite année et ceux payés par anticipation ou à titre d'arriérés."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 35 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، يتكون الدخل الصافي من المبلغ الخام للفوائد وسائر المنتجات أو المنافع التي يقبضها الدائن خلال السنة السابقة لسنة التوظيف [1].\n\nغير أنّ النص يؤكد أن العبرة ليست بتعلق الفوائد بتلك السنة من حيث الاستحقاق، بل بما تم قبضه فعلاً خلال السنة السابقة لسنة التوظيف، دون تمييز بين ما دُفع مسبقاً أو ما دُفع على وجه المتأخرات [1].\n\nوبالتالي، تهدف القاعدة إلى توحيد معيار احتساب الدخل في هذا الباب على أساس المقبوضات خلال السنة المرجعية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 35 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX17_CROSS_QFR_AR_SRC_ART6",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [6],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un consul étranger en Tunisie paie-t-il l’impôt sur le revenu tunisien ?\n\nDocuments pertinents:\n[1] Source: الفصل 6 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات\n\"يعفى من الضريبة على الدخل الأعوان الدبلوماسيون والقنصليون من جنسية أجنبية شريطة المعاملة بالمثل.\""
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l’article 6 du CIRPP/IS, les agents diplomatiques et consulaires de nationalité étrangère sont exonérés de l’impôt sur le revenu, sous réserve de réciprocité [1].\n\nToutefois, l’exonération dépend donc de la condition de réciprocité, ce qui implique une vérification au cas par cas selon l’État concerné [1].\n\nCette règle vise à encadrer les privilèges fiscaux liés aux fonctions diplomatiques et consulaires dans un cadre d’égalité entre États.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\nSources: art. 6 du CIRPP/IS"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX18_CROSS_QAR_FR_SRC_ART14",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [14],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل تُقبل الهدايا المهنية ومصاريف الاستقبال ضمن المصاريف القابلة للطرح جبائياً؟ وما هي الحدود؟\n\nDocuments pertinents:\n[1] Source: article 14 du CIRPP/IS\n1- les cadeaux de toutes natures, les frais de réception y compris les frais de restauration et de spectacle qui dépassent un centième du chiffre d'affaires brut réalisé par l'entreprise avec un maximum déductible de vingt mille dinars par exercice."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 14 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، يتمثل المبدأ في أنّ الهدايا ومصاريف الاستقبال (بما في ذلك مصاريف الإطعام والعروض) لا تُقبل للطرح إذا تجاوزت حدوداً معينة [1].\n\nغير أنّ النص يقرّ استثناءً/حدّاً للطرح: يمكن قبول هذه المصاريف في حدود واحد من مائة (1%) من رقم المعاملات الخام الذي تحققه المؤسسة، مع سقف أقصى للطرح قدره عشرون ألف دينار عن كل سنة محاسبية [1].\n\nوبالتالي، الغاية هي الحدّ من استعمال نفقات التمثيل كوسيلة لتقليص الوعاء الجبائي دون أن يمنع ذلك كلياً النفقات المهنية المعقولة.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 14 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX19_FR_REFUSAL",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que j’ai le droit d’optimiser mes impôts en créant une société à l’étranger dans un pays à fiscalité nulle, sans rien déclarer en Tunisie ?\n\nDocuments pertinents:\n[1] Source: Extraits CIRPP/IS fournis\n(Les extraits mentionnent des notions comme les Etats à régime fiscal privilégié et des règles de déductibilité, mais ne traitent pas d’un schéma complet de planification internationale 'sans rien déclarer' ni des obligations correspondantes.)"
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question de manière complète et fiable, notamment sur les obligations de déclaration et les conséquences d’un montage international « sans rien déclarer ». Je vous recommande de consulter un avocat spécialisé ou un conseiller fiscal agréé, ainsi que l’administration fiscale, avant toute décision.\n\nSources: documents fournis (insuffisants)"
+        }
+      ]
+    },
+    {
+      "example_id": "CIRPPIS2_EX20_AR_PROCEDURAL_FASL58",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [58],
+      "confidence_flag": "L’article 58 est cité dans l’extrait mais son texte complet n’est pas présent intégralement dans les documents pertinents ci-dessous; réponse limitée strictement aux passages reproduits.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الخطوات والآجال الأساسية عند التفويت في مؤسسة (بيع محل تجاري) أو التوقف النهائي عن النشاط؟\n\nDocuments pertinents:\n[1] Source: article 58 du CIRPP/IS\nI. Dans le cas de cession ou de cessation totale... les bénéfices réalisés... et provisions... devront l'être au vu d'une déclaration à déposer dans les quinze jours de la cession ou de la fermeture définitive...\nLa carte d’identification fiscale est restituée... dans les mêmes délais...\nCe délai est applicable... retenues d'impôt non reversées.\n\nII. En cas de cession... le cessionnaire est responsable, à concurrence du prix de cession... solidairement avec le cédant pendant vingt jours à compter de la date de souscription... sauf si le cessionnaire informe par écrit l'administration fiscale...\n\nIII. ... les impositions établies... viennent en déduction... de l'impôt sur le revenu..."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 58 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات، عند التفويت أو التوقف الكلي عن نشاط مؤسسة، يجب التصريح بالأرباح غير الموظفة وبالمدخرات (المؤونات) غير المستعملة عبر تصريح يُودَع في أجل خمسة عشر يوماً من تاريخ التفويت أو من تاريخ الغلق النهائي [1].\n\nوعلاوة على ذلك، يلتزم المعني بإرجاع بطاقة التعريف الجبائي في الأجل نفسه، ويُطبق نفس الأجل على الأداءات المقتطعة التي لم يقع تحويلها بعد [1].\n\nغير أنّه في حالة التفويت، قد يتحمل المتفوت له مسؤولية تضامنية في حدود ثمن التفويت لمدة عشرين يوماً من تاريخ إيداع التصريح، إلا إذا قام بإعلام الإدارة الجبائية كتابياً داخل الآجال المقررة [1].\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\nSources: الفصل 58 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Chapitre I – Impôt sur le revenu des personnes physiques – Personnes imposables (art. 4, 5)",
+      "Chapitre I – Personnes exonérées (art. 6)",
+      "Chapitre I – Revenus imposables / Définitions générales (art. 7, 8)",
+      "BIC – Détermination du bénéfice net / Période d’imposition (art. 10)",
+      "BIC – Amortissements et charges non déductibles (art. 13, 14, 15)",
+      "BNC – Détermination du bénéfice net et option forfaitaire (art. 21, 22)",
+      "Agricole et pêche – Définition et détermination (art. 23, 24)",
+      "Valeurs mobilières – Définition des revenus distribués et assimilés, revenu net (art. 29, 30, 31, 33)",
+      "Capitaux mobiliers – Détermination du revenu net (art. 35)",
+      "Obligations – Cession/cessation et déclaration (art. 58)",
+      "Règle de non-déductibilité de l’IR (art. 41)"
+    ],
+    "sections_not_covered": [
+      "Chapitre II – Impôt sur les sociétés (hors renvois ponctuels)",
+      "Règles détaillées de retenue à la source et acomptes (évitées car déjà utilisées en batch 1)",
+      "Avantages fiscaux postérieurs aux articles fournis/évités (ex: art. 72+ ou 73+ non sélectionnés ici)"
+    ],
+    "notes": "Qualité du texte: le contenu fourni est majoritairement en français, avec en-têtes partiellement dégradés (probable OCR) mais les articles et leur numérotation apparaissent lisibles. Les exemples ont été échantillonnés sur des sections différentes et n’utilisent pas les articles à éviter de batch 1. Deux exemples cross-lingual inclus."
+  }
+}

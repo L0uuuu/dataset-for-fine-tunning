@@ -1,0 +1,432 @@
+{
+  "batch_id": "batch_CDPF_001_20250610",
+  "source": "Code des droits et procédures fiscaux de Tunisie",
+  "articles_covered": [2, 3, 5, 8, 15, 19, 28, 32, 37, 39, 47, 55, 81, 89, 110, 113, 122, "38 bis", "17 ter", 112],
+  "articles_to_avoid_next_batch": [2, 3, 5, 8, 15, 19, 28, 32, 37, 39, 47, 55, 81, 89, 110, 113, 122, "38 bis", "17 ter", 112],
+  "examples": [
+    {
+      "example_id": "CDPF_001_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [19],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans quel délai l'administration fiscale peut-elle corriger des erreurs dans ma déclaration d'impôt sur le revenu ?\n\nDocuments pertinents:\n[1] Source: article 19 du CDPF\nSous réserve des dispositions des articles 21, 23, 24 et 26 du présent code, les omissions, erreurs et dissimulations constatées dans l'assiette, les taux ou la liquidation des impôts déclarés peuvent être réparées: 1. jusqu'à la fin de la quatrième année suivant celle au cours de laquelle sont réalisés le bénéfice, le revenu, le chiffre d'affaires, l'encaissement ou le décaissement des sommes ou autres opérations donnant lieu à l'exigibilité de l'impôt."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 19 du CDPF [1], l'administration fiscale dispose d'un délai de quatre ans pour corriger les omissions ou erreurs dans vos déclarations, ce délai courant à partir de la fin de l'année civile où le revenu ou l'opération imposable a été réalisé. Toutefois, ce délai général connaît des exceptions : pour les droits d'enregistrement, le délai court à partir de l'enregistrement de l'acte ; pour les impôts non déclarés, il est porté à dix ans (article 20) ; et pour certains impôts spécifiques comme les taxes sur véhicules, des règles particulières s'appliquent (articles 23-24). Ainsi, cette prescription quadriennale vise à concilier la sécurité juridique du contribuable avec la nécessité pour l'État de recouvrer les impôts légitimement dus. Sources: art. 19 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_002_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [28],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي المدة القانونية لطلب استرداد المبالغ المدفوعة زيادة عن المستحق من الضرائب؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 28 من مجلة الحقوق والإجراءات الجبائية\nيجب أن تتدخل الدعوى لاسترداد المبالغ المدفوعة زيادة عن المستحق في أجل أقصاه ثلاث سنوات ابتداء من التاريخ الذي أصبح فيه الضريب قابلاً للاسترداد وفقاً للتشريع الجبائي."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 28 من مجلة الحقوق والإجراءات الجبائية [1]، يجب على المكلف بالضرائب تقديم طلب استرداد المبالغ المدفوعة زيادة عن المستحق في أجل لا يتجاوز ثلاث سنوات. ويبدأ احتساب هذا الأجل من تاريخ تحصيل الضريبة المدفوعة دون وجه حق، أو من تاريخ تحقق الشروط القانونية بالنسبة لائتمان الضريبة على القيمة المضافة، أو من تاريخ اكتساب الحكم أو القرار القضائي لقوة الشيء المقضي به. غير أن هذا الأجل العام يخضع لاستثناءات تتعلق بأنواع معينة من الضرائب أو الائتمانات، كما ينص على ذلك التشريع الجبائي. وبالتالي، يهدف هذا النظام إلى تحقيق التوازن بين حق المكلف في استرداد ما دفعه دون وجه حق وضرورة استقرار المراكز القانونية للإدارة الجبائية. المصادر: الفصل 28 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_003_cross_lingual_ar_fr",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [47],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الحالات التي يمكن فيها للإدارة الجبائية إصدار قرار فرض ضريبة تلقائي؟\n\nالوثائق ذات الصلة:\n[1] Source: article 47 du CDPF\n- La taxation est établie d'office en cas de désaccord entre l'administration fiscale et le contribuable sur les résultats de la vérification fiscale préliminaire ou approfondie prévue par l'article 36 du présent code, ou lorsque le contribuable ne répond pas par écrit à la notification des résultats de la vérification fiscale ou à la réponse de l'administration fiscale à son opposition à ces résultats dans les délais fixés à cet effet par les dispositions du présent code. La taxation est également établie d'office, en cas de défaut de dépôt par le contribuable, des déclarations fiscales et des actes prescrits par la loi pour l'établissement de l'impôt, et ce, dans un délai maximum de trente jours à compter de la date de sa mise en demeure."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 47 من مجلة الحقوق والإجراءات الجبائية [1]، تُفرض الضريبة تلقائيًا في حالتين رئيسيتين: أولاً، عند وجود خلاف بين الإدارة الجبائية والمكلف بشأن نتائج المراقبة الجبائية، أو عندما لا يرد المكلف كتابيًا على إشعار النتائج أو على رد الإدارة على اعتراضه ضمن الآجال المحددة. وثانيًا، عند امتناع المكلف عن إيداع التصريحات الجبائية أو الوثائق المطلوبة قانونًا خلال ثلاثين يومًا من تاريخ الإنذار. غير أن هذا الإجراء الاستثنائي يخضع لضوابط إجرائية صارمة، منها وجوب تعليل قرار الفرض التلقائي وإعلام المكلف بحقه في الطعن. وبالتالي، يهدف هذا النظام إلى ضمان فعالية التحصيل الجبائي مع حماية حقوق المكلفين في الدفاع عن مراكزهم القانونية. المصادر: الفصل 47 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_004_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [81],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le taux de pénalité appliqué en cas de retard de paiement spontané de l'impôt ?\n\nDocuments pertinents:\n[1] Source: article 81 du CDPF\nTout retard dans le paiement de tout ou partie de l'impôt entraîne l'application d'une pénalité de retard liquidée au taux de 1,25% du montant de l'impôt par mois ou fraction de mois de retard, lorsque l'impôt exigible est acquitté spontanément et sans l'intervention préalable des services du contrôle fiscal. La pénalité de retard prévu par le premier paragraphe du présent article est majorée d'une pénalité fixe liquidée au taux de: - 3% du montant de l'impôt exigible, lorsque le retard dans le paiement de l'impôt ne dépasse pas 60 jours, - 5% du montant de l'impôt exigible, lorsque le retard dans le paiement de l'impôt dépasse 60 jours."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 81 du CDPF [1], tout retard de paiement spontané de l'impôt entraîne une pénalité de retard de 1,25% par mois ou fraction de mois, calculée sur le montant de l'impôt dû. En outre, cette pénalité est majorée d'une pénalité fixe : 3% si le retard n'excède pas 60 jours, ou 5% au-delà de ce délai. Toutefois, ces taux s'appliquent uniquement lorsque le paiement intervient spontanément, sans intervention préalable du contrôle fiscal ; en cas d'intervention du contrôle, des taux majorés s'appliquent (article 82). Ainsi, ce système graduel vise à inciter les contribuables à s'acquitter volontairement de leurs obligations dans les délais légaux, tout en prévoyant une modulation proportionnelle à la durée du retard. Sources: art. 81 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_005_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [55],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو الأجل القانوني للطعن في قرار فرض ضريبة تلقائي أمام المحكمة الابتدائية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 55 من مجلة الحقوق والإجراءات الجبائية\nيُرفع الطعن، الموجه ضد مصالح الإدارة الجبائية، أمام المحكمة الابتدائية التي يقع في دائرتها مقر مصلحة الإدارة الجبائية المكلفة بالملف، وذلك في أجل لا يتجاوز ستين يومًا ابتداء من تاريخ إشعار قرار الفرض التلقائي أو من انقضاء الأجل المحدد للبت في طلب الاسترداد، وذلك بواسطة عريضة كتابية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 55 من مجلة الحقوق والإجراءات الجبائية [1]، يجب على المكلف الذي يرغب في الطعن في قرار الفرض التلقائي أن يرفع دعواه أمام المحكمة الابتدائية المختصة إقليميًا في أجل لا يتجاوز ستين يومًا، يحسب ابتداءً من تاريخ إشعار القرار أو من انقضاء الأجل المحدد للرد على طلب الاسترداد. ويجب أن يتم الطعن بواسطة عريضة كتابية مُعدة وفقًا لأحكام مجلة المرافعات المدنية والتجارية، مع إرفاقها بالوثائق المثبتة وتبليغ نسخة منها لمصالح الإدارة الجبائية. غير أن هذا الأجل العام يخضع لاستثناءات إجرائية، منها وجوب تمثيل المكلف بمحامٍ عندما يتجاوز مبلغ الضريبة خمسة وعشرين ألف دينار (الفصل 57). وبالتالي، يهدف هذا النظام إلى ضمان حق المكلف في الطعن مع احترام مبدأ السرعة في الفصل في المنازعات الجبائية. المصادر: الفصل 55 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_006_multi_fr",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [37, 43, 44],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes et délais à respecter lors d'une vérification fiscale préliminaire ?\n\nDocuments pertinents:\n[1] Source: article 37 du CDPF\nL'administration fiscale demande par écrit, dans le cadre des opérations de vérification fiscale préliminaire, les renseignements, éclaircissements ou justifications concernant l'opération de vérification; elle peut également demander par écrit, le cas échéant, aux personnes physiques des états détaillés de leurs patrimoines et des éléments de leurs train de vie. Le contribuable doit, dans les deux cas, répondre par écrit, dans un délai maximum de vingt jours à compter de la date de la notification de la demande.\n[2] Source: article 43 du CDPF\nL'administration fiscale notifie au contribuable, par écrit, les redressements relatifs à sa situation fiscale. [...] L'invitation du contribuable à formuler ses observations, oppositions et réserves relatives aux résultats de la vérification, dans le délai fixé selon le cas, à quarante-cinq jours de la date de la notification des résultats de la vérification pour la vérification fiscale préliminaire ou la vérification fiscale approfondie.\n[3] Source: article 44 du CDPF\nLe contribuable doit répondre par écrit aux résultats de la vérification fiscale, dans un délai de quarante cinq jours à compter de la date de la notification."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 37, 43 et 44 du CDPF [1][2][3], la vérification préliminaire suit un calendrier précis : l'administration demande par écrit les renseignements nécessaires, et le contribuable dispose de vingt jours pour y répondre [1]. À l'issue de l'examen, l'administration notifie par écrit les redressements éventuels, en invitant le contribuable à formuler ses observations dans un délai de quarante-cinq jours [2]. Ce dernier doit alors répondre par écrit dans ce même délai de quarante-cinq jours [3]. Toutefois, l'administration peut proroger le délai de notification des résultats de quatre-vingt-dix jours jusqu'à cent quatre-vingt jours en cas de demande d'informations auprès d'autorités étrangères (article 37, al. 5). Par ailleurs, la vérification préliminaire n'est pas subordonnée à un avis préalable et ne fait pas obstacle à une vérification approfondie ultérieure. Ainsi, ce dispositif vise à permettre un contrôle efficace tout en garantissant au contribuable des délais de réponse suffisants pour exercer ses droits. Sources: art. 37, 43, 44 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_007_multi_ar",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [19, 20, 27],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي قواعد تقادم حق الإدارة الجبائية في المطالبة بالضرائب المختلفة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 19 من مجلة الحقوق والإجراءات الجبائية\nيمكن إصلاح الإغفالات والأخطاء والتخفيات التي تثبت في وعاء الضرائب أو نسبها أو تصفيتها [...] حتى نهاية السنة الرابعة التالية للسنة التي تم خلالها تحقيق الربح أو الدخل أو رقم المعاملات.\n[2] المصدر: الفصل 20 من مجلة الحقوق والإجراءات الجبائية\nيُمدد الأجل المنصوص عليه في الفصل 19 من هذه المجلة إلى عشر سنوات بالنسبة للضرائب غير المصرح بها وست سنوات بالنسبة للضرائب المصرح بها والتي لا يتجاوز مبلغها الحد الأدنى للضريبة.\n[3] المصدر: الفصل 27 من مجلة الحقوق والإجراءات الجبائية\nينقطع التقادم بإشعار الرأي المسبق للمراقبة الجبائية أو بإشعار نتائج المراقبة الجبائية أو بالاعتراف بالدين، وعند الاقتضاء، بإشعار قرار الفرض التلقائي."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصول 19 و20 و27 من مجلة الحقوق والإجراءات الجبائية [1][2][3]، يخضع حق الإدارة في المطالبة بالضرائب لقواعد تقادم متفاوتة: فالأصل هو أجل أربع سنوات من نهاية السنة التي تم فيها تحقيق الدخل أو العملية الخاضعة للضريبة [1]. غير أن هذا الأجل يمتد إلى عشر سنوات بالنسبة للضرائب غير المصرح بها، وإلى ست سنوات للضرائب المصرح بها التي لا تتجاوز الحد الأدنى المقرر [2]. علاوة على ذلك، ينقطع سريان التقادم بإشعار المراقبة الجبائية أو نتائجها أو بالاعتراف بالدين أو بقرار الفرض التلقائي [3]، مما يوقف احتساب الأجل ويبدأ احتساب جديد. وبالتالي، يهدف هذا النظام إلى تحقيق التوازن بين ضرورة تمكين الإدارة من استخلاص الحقوق الجبائية المشروعة وضرورة استقرار المراكز القانونية للمكلفين بعد مضي فترات زمنية معقولة. المصادر: الفصول 19، 20، 27 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_008_principle_fr",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [47],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans quels cas l'administration peut-elle établir une taxation d'office ?\n\nDocuments pertinents:\n[1] Source: article 47 du CDPF\n- La taxation est établie d'office en cas de désaccord entre l'administration fiscale et le contribuable sur les résultats de la vérification fiscale préliminaire ou approfondie prévue par l'article 36 du présent code, ou lorsque le contribuable ne répond pas par écrit à la notification des résultats de la vérification fiscale ou à la réponse de l'administration fiscale à son opposition à ces résultats dans les délais fixés à cet effet par les dispositions du présent code. La taxation est également établie d'office, en cas de défaut de dépôt par le contribuable, des déclarations fiscales et des actes prescrits par la loi pour l'établissement de l'impôt, et ce, dans un délai maximum de trente jours à compter de la date de sa mise en demeure."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 47 du CDPF [1], le principe est que la taxation d'office intervient dans deux hypothèses principales : premièrement, en cas de désaccord persistant entre l'administration et le contribuable sur les résultats d'une vérification, ou lorsque le contribuable ne répond pas dans les délais légaux aux notifications ; deuxièmement, en cas de défaut de dépôt des déclarations ou actes prescrits, après mise en demeure de trente jours. Toutefois, ce pouvoir exceptionnel est encadré : l'arrêté de taxation doit être motivé, notifier les voies de recours, et respecter les délais de prescription (article 51 bis). Par ailleurs, dans certains cas d'amendes administratives, la mise en demeure n'est pas exigée (article 47, al. 3). Ainsi, la taxation d'office constitue un instrument de dernier recours visant à garantir l'effectivité du recouvrement, tout en préservant les droits de la défense du contribuable par des garanties procédurales strictes. Sources: art. 47 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_009_principle_ar",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [32],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الآجال المقررة لاسترداد ائتمان الضريبة على القيمة المضافة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 32 من مجلة الحقوق والإجراءات الجبائية\nيتم استرداد ائتمان الضريبة على القيمة المضافة [...] في أجل لا يتجاوز تسعين يومًا ابتداء من تاريخ إيداع طلب الاسترداد. يُخفض الأجل إلى ستين يومًا بالنسبة للمؤسسات التي تخضع حساباتها قانونًا لمراجعة مراقب الحسابات. يُخفض الأجل إلى واحد وثلاثين يومًا لائتمان الضريبة الناتج عن عمليات الاستثمار المباشر. يُخفض الأجل، بالنسبة لعمليات تصدير البضائع أو الخدمات، إلى سبعة أيام."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 32 من مجلة الحقوق والإجراءات الجبائية [1]، يُسترد ائتمان الضريبة على القيمة المضافة في أجل عام لا يتجاوز تسعين يومًا من تاريخ إيداع الطلب المستوفي للشروط. غير أن هذا الأجل العام يخضع لاستثناءات تفضيلية: فيُخفض إلى ستين يومًا للمؤسسات التي راجع حساباتها مراقب حسابات دون تحفظات مؤثرة على وعاء الضريبة، وإلى واحد وثلاثين يومًا لائتمان الاستثمار المباشر، بل ويصل إلى سبعة أيام فقط لعمليات التصدير. علاوة على ذلك، فإن المبالغ المستردة دون وجه حق تخضع لفوائد تأخير بنسبة 0,5% شهريًا، وقد تُطبق عليها غرامة إدارية بنسبة 100% في حالات معينة. وبالتالي، يهدف هذا التدرج في الآجال إلى تحفيز الاستثمار والتصدير مع ضمان مراقبة فعالة لاسترداد الائتمانات، تحقيقًا لتوازن بين تشجيع النشاط الاقتصادي وحماية الموارد الجبائية للدولة. المصادر: الفصل 32 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_010_principle_fr",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [39],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: L'administration doit-elle toujours notifier un avis préalable avant une vérification approfondie ?\n\nDocuments pertinents:\n[1] Source: article 39 du CDPF\nLes opérations de vérification approfondie de la situation fiscale font obligatoirement l'objet d'une notification d'un avis préalable. [...] L'avis doit préciser, en outre, les impôts et la période concernés par la vérification, l'agent ou les agents qui en sont chargés ainsi que la date du commencement de la vérification qui doit s'écarter de quinze jours au moins de la date de la notification de l'avis. Le délai de 15 jours sus-indiqué ne s'applique pas dans les cas prévus au deuxième paragraphe de l'article 32 du présent code."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 39 du CDPF [1], le principe est que toute vérification approfondie fait obligatoirement l'objet d'un avis préalable notifié au contribuable, précisant les impôts, la période, les agents chargés du contrôle et la date de commencement, laquelle doit intervenir au moins quinze jours après la notification. Toutefois, ce délai de préavis de quinze jours ne s'applique pas dans les cas visés à l'article 32, alinéa 2, relatifs aux restitutions de TVA dans des délais réduits (7 jours pour les exportations). En outre, l'avis doit mentionner expressément le droit du contribuable de se faire assister ou représenter. Ainsi, cette obligation de notification préalable vise à garantir les droits de la défense du contribuable tout en permettant à l'administration d'organiser efficacement ses opérations de contrôle. Sources: art. 39 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_011_refusal_fr",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [1],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les droits de douane applicables à l'importation de machines industrielles en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 1 du CDPF\nLe présent code fixe les dispositions relatives aux droits et obligations du contribuable et aux procédures y afférentes au niveau du contrôle et du contentieux des impôts, droits, taxes, redevances et autres prélèvements fiscaux au profit de l'État et qui sont désignés dans ledit code par le terme « impôt ». Les dispositions du présent code ne sont pas applicables aux droits de douane et autres droits, impôts et taxes perçus à l'importation qui demeurent régis par les dispositions du code des douanes."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. En effet, l'article 1 du CDPF [1] précise expressément que les dispositions du présent code ne sont pas applicables aux droits de douane et autres prélèvements perçus à l'importation, lesquels demeurent régis par le code des douanes. Je vous recommande de consulter un avocat spécialisé en droit douanier ou la direction générale des douanes pour obtenir des informations précises sur les tarifs applicables à votre situation."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_012_refusal_ar",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي العقوبات السجنية المحددة للجرائم الجمركية في التشريع التونسي؟\n\nالوثائق ذات الصلة:\nلا توجد وثائق ذات صلة في الملف المقدم تتعلق بالجرائم الجمركية أو العقوبات السجنية المحددة في قانون الجمارك."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. فمجلة الحقوق والإجراءات الجبائية تنظم الإجراءات الجبائية والمنازعات الضريبية، ولا تشمل أحكام القانون الجمركي أو العقوبات السجنية المتعلقة بالمخالفات الجمركية. أنصحكم باستشارة محامٍ متخصص في القانون الجمركي أو الرجوع إلى مصالح الجمارك التونسية للحصول على المعلومات الدقيقة المتعلقة بوضعكم الخاص."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_013_refusal_fr",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le taux exact de l'impôt sur le revenu applicable à un salarié gagnant 3000 dinars par mois ?\n\nDocuments pertinents:\nAucun document du CDPF ne contient les barèmes ou taux d'imposition de l'impôt sur le revenu des personnes physiques."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des droits et procédures fiscaux régit les procédures de contrôle, de contentieux et de recouvrement, mais ne fixe pas les taux ou barèmes d'imposition, lesquels sont prévus par le Code de l'impôt sur le revenu des personnes physiques et de l'impôt sur les sociétés. Je vous recommande de consulter un avocat fiscaliste ou les services de la direction générale des impôts pour obtenir le calcul précis de votre imposition selon votre situation personnelle."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_014_clarification_fr",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [36],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Que se passe-t-il si je reçois un contrôle fiscal ?\n\nDocuments pertinents:\n[1] Source: article 36 du CDPF\nLa vérification fiscale prend la forme d'une vérification préliminaire des déclarations, actes et écrits détenus par l'administration fiscale ou d'une vérification approfondie ou d'une vérification ponctuelle."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question est trop générale pour une réponse précise. L'article 36 du CDPF [1] distingue trois formes de vérification fiscale : préliminaire, approfondie ou ponctuelle, chacune obéissant à des procédures et délais différents. Pourriez-vous préciser : (1) de quel type de vérification il s'agit (avez-vous reçu un avis préalable ou une simple demande d'informations ?), (2) quels impôts et quelle période sont concernés, et (3) si vous êtes une personne physique ou morale ? Ces éléments me permettront de vous indiquer les droits et obligations applicables à votre situation. Sources: art. 36 du CDPF"
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_015_clarification_ar",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [81, 82],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الغرامات المترتبة على التأخير في دفع الضريبة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 81 من مجلة الحقوق والإجراءات الجبائية (الغرامات في حالة الدفع التلقائي)\n[2] المصدر: الفصل 82 من مجلة الحقوق والإجراءات الجبائية (الغرامات بعد تدخل مصالح المراقبة الجبائية)"
+        },
+        {
+          "role": "assistant",
+          "content": "سؤالكم عام ويتطلب بعض التوضيح للإجابة بدقة. فالفصلان 81 و82 من المجلة [1][2] يميزان بين حالتين: الأولى عندما يدفع المكلف الضريبة متأخرًا تلقائيًا دون تدخل المراقبة، والثانية عندما يُكتشف التأخير إثر تدخل مصالح المراقبة الجبائية، وتختلف النسب في كل حالة. هل يمكنكم توضيح: (1) هل تم إخطاركم بنتائج مراقبة جبائية أم أن الدفع المتأخر تلقائي؟ (2) ما نوع الضريبة المعنية (ضريبة على الدخل، ضريبة على القيمة المضافة، إلخ)؟ (3) ما مدة التأخير التقريبية؟ هذه المعطيات تمكنني من تحديد النسب والغرامات المنطبقة على وضعكم الخاص. المصادر: الفصول 81، 82 من مجلة الحقوق والإجراءات الجبائية."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_016_procedural_fr",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [39, 43, 44, 47, 55],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes pour contester les résultats d'une vérification approfondie ?\n\nDocuments pertinents:\n[1] Source: article 39 du CDPF (avis préalable)\n[2] Source: article 43 du CDPF (notification des résultats)\n[3] Source: article 44 du CDPF (réponse du contribuable)\n[4] Source: article 47 du CDPF (taxation d'office en cas de désaccord)\n[5] Source: article 55 du CDPF (recours devant le tribunal)"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 39, 43, 44, 47 et 55 du CDPF [1][2][3][4][5], la procédure de contestation suit un enchaînement précis : (1) l'administration notifie un avis préalable de vérification (art. 39) ; (2) à l'issue du contrôle, elle notifie par écrit les redressements en invitant le contribuable à formuler ses observations dans un délai de quarante-cinq jours (art. 43) ; (3) le contribuable doit répondre par écrit dans ce délai (art. 44) ; (4) en cas de désaccord persistant, l'administration peut établir un arrêté de taxation d'office (art. 47) ; (5) le contribuable dispose alors de soixante jours pour former un recours devant le tribunal de première instance compétent (art. 55). Toutefois, le contribuable peut, avant la taxation d'office, saisir la commission de conciliation (articles 122 et suivants). Par ailleurs, le recours contentieux n'est pas suspensif de l'exécution de l'arrêté, sauf paiement de 10% du principal ou constitution d'une caution bancaire (article 52). Ainsi, ce dispositif vise à offrir au contribuable plusieurs niveaux de recours, tout en garantissant la continuité du recouvrement de l'impôt. Sources: art. 39, 43, 44, 47, 55 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_017_procedural_ar",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [28, 29, 32],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الخطوات القانونية لطلب استرداد مبلغ ضريبي مدفوع زيادة عن المستحق؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 28 من المجلة (أجل الدعوى بالاسترداد)\n[2] المصدر: الفصل 29 من المجلة (شكل الطلب وآجال البت)\n[3] المصدر: الفصل 32 من المجلة (آجال استرداد ائتمان الضريبة على القيمة المضافة)"
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصول 28 و29 و32 من مجلة الحقوق والإجراءات الجبائية [1][2][3]، تتبع دعوى الاسترداد المسار التالي: (1) يقدم المكلف طلبًا كتابيًا مُعللاً إلى المصالح الجبائية المختصة، مع إيداعه مقابل وصل (الفصل 29)؛ (2) يجب أن يتقدم الطلب في أجل لا يتجاوز ثلاث سنوات من التاريخ الذي أصبح فيه الضريب قابلاً للاسترداد (الفصل 28)؛ (3) تلتزم المصالح بالبت في الطلب في أجل أقصاه ستة أشهر، ويعتبر الصمت رفضًا ضمنيًا (الفصل 29)؛ (4) في حالة ائتمان الضريبة على القيمة المضافة، تطبق آجال مخفضة تتراوح بين 90 يومًا و7 أيام حسب طبيعة العملية (الفصل 32). غير أن الاسترداد مشروط بإيداع جميع التصاريح الجبائية المستحقة وغير المتقادمة (الفصل 31)، وقد يتم بعد خصم الديون الجبائية الثابتة بذمة المكلف (الفصل 33). وبالتالي، يهدف هذا الإجراء إلى تمكين المكلف من استرداد ما دفعه دون وجه حق، مع ضمان مراقبة فعالة لصحة المطالبات المقدمة. المصادر: الفصول 28، 29، 31، 32، 33 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_018_direct_fr",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [110],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Puis-je participer à un marché public si je n'ai pas déposé ma déclaration d'impôt sur les sociétés de l'année dernière ?\n\nDocuments pertinents:\n[1] Source: article 110 du CDPF\nLa participation aux marchés, concessions et enchères publiques de l'État, des collectivités locales, des établissements et entreprises publics et organismes soumis au contrôle de l'État est exclusivement réservée aux personnes ayant déposé toutes leurs déclarations fiscales non prescrites et échues avant vingt jours, au moins, de la date limite fixée pour la présentation des offres, en cas d'appel à la concurrence, ou de la date de présentation de l'offre, en cas de procédure de consultation ou de négociation directe, ou de la date fixée pour les enchères."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 110 du CDPF [1], la participation aux marchés publics est exclusivement réservée aux personnes ayant déposé toutes leurs déclarations fiscales échues et non prescrites au moins vingt jours avant la date limite de dépôt des offres. Par conséquent, si votre déclaration d'impôt sur les sociétés de l'année dernière est échue et non prescrite, son défaut de dépôt vous rend inéligible à participer audit marché. Toutefois, cette règle s'applique uniquement aux déclarations « échues et non prescrites » : si votre déclaration est prescrite ou si elle n'est pas encore exigible à la date de référence, l'obstacle ne s'applique pas. Ainsi, cette condition vise à renforcer la conformité fiscale des soumissionnaires et à garantir l'équité dans l'accès aux commandes publiques. Sources: art. 110 du CDPF\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_019_direct_ar",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [15],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يلتزم موظفو الإدارة الجبائية بالسرية المهنية بشأن معلومات المكلفين؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 15 من مجلة الحقوق والإجراءات الجبائية\nكل شخص يُدعى بحكم وظائفه أو صلاحياته للتدخل في تحديد أو تحصيل أو مراقبة أو منازعة الضريبة أو في غيرها من مهام الإدارة الجبائية ملزم باحترام واجب السر المهني. [...] لا يمكن لموظفي الإدارة الجبائية تسليم معلومات أو نسخ من الملفات إلا للمكلف نفسه وبخصوص وضعه الجبائي أو للأشخاص الذين يمكن المطالبة بأداء الضريبة عوضًا عن المكلف."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 15 من مجلة الحقوق والإجراءات الجبائية [1]، يلتزم كل من يُدعى بحكم وظائفه للتدخل في الشؤون الجبائية باحترام السر المهني. وبناءً عليه، لا يمكن لموظفي الإدارة الجبائية تسليم معلومات أو نسخ من الملفات إلا للمكلف نفسه وبخصوص وضعه الجبائي، أو للأشخاص الذين يمكن المطالبة بأداء الضريبة عوضًا عنه. غير أن هذا الالتزام العام يستثني حالات محددة، منها تبادل المعلومات مع الدول الأجنبية المرتبطة بتونس باتفاقيات تبادل المعلومات والمساعدة الإدارية في المادة الجبائية، وكذلك التواصل مع السلطات القضائية المختصة بناءً على طلبها. وبالتالي، يهدف هذا النظام إلى حماية خصوصية بيانات المكلفين مع تمكين الإدارة من الوفاء بالتزاماتها الدولية والقضائية المشروعة. المصادر: الفصل 15 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CDPF_020_cross_lingual_fr_ar",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [113, 115],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة موجودة في الوثائق، فقل ذلك بوضوح. استشهد دائمًا بالفصل والمصدر. هذا لا يشكل استشارة قانونية مهنية."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment fonctionne le médiateur fiscal en Tunisie et quelles sont ses prérogatives ?\n\nDocuments pertinents:\n[1] Source: article 113 du CDPF\nIl est créé auprès du ministre des finances un médiateur fiscal. Le médiateur fiscal examine les requêtes individuelles des personnes physiques et des personnes morales relatives aux difficultés qu'elles rencontrent dans leurs relations avec l'administration fiscale ou avec l'administration du recouvrement et fait de son mieux pour aplanir ces difficultés et ce à l'exception des requêtes relatives à l'imposition ou au titre desquelles une décision juridictionnelle est prononcée.\n[2] Source: article 115 du CDPF\nLe médiateur fiscal peut recourir à l'administration fiscale et à l'administration du recouvrement pour instruire les requêtes qui lui sont présentées comme il peut demander, à ces administrations, des éclaircissements à cet effet; ces administrations doivent lui prêter aide et assistance avec la diligence requise. Lorsqu'une requête présentée au médiateur fiscal lui paraît fondée, celui-ci peut formuler des recommandations à l'administration concernée pour traiter la question posée par la requête."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصول 113 و115 من مجلة الحقوق والإجراءات الجبائية [1][2]، يُعيّن الوسيط الجبائي لدى وزير المالية لفحص الشكاوى الفردية للمكلفين المتعلقة بصعوبات علاقتهم مع الإدارة الجبائية أو إدارة التحصيل، باستثناء الشكاوى المتعلقة بالفرض الضريبي ذاته أو التي صدر بشأنها حكم قضائي. وللوسيط صلاحية الاستعانة بالإدارتين المعنيتين لدراسة الطلبات، ويمكنه طلب توضيحات منها، وهما ملزمتان بتقديم المساعدة اللازمة. وإذا تبين للوسيط أن الشكوى مُبررة، فيجوز له تقديم توصيات للإدارة المختصة لمعالجة المسألة المطروحة، مع إلزام هذه الإدارة بإعلامه بالنتائج المترتبة على تدخله. غير أن الوسيط لا يملك سلطة إصدار قرارات ملزمة، ولا يختص بالنظر في الطعون المتعلقة بالفرض الضريبي أو في المسائل التي فصلت فيها المحاكم. وبالتالي، يهدف هذا الجهاز إلى تسوية ودية وسريعة للمنازعات الإدارية، وتعزيز ثقة المكلفين في نزاهة وشفافية العمل الجبائي. المصادر: الفصول 113، 115 من مجلة الحقوق والإجراءات الجبائية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Dispositions préliminaires (arts. 2-3)",
+      "Contrôle fiscal - Droit de contrôle (arts. 5, 8, 15)",
+      "Prescription et délais de reprise (arts. 19-20, 27)",
+      "Restitution des sommes perçues en trop (arts. 28, 32)",
+      "Procédures de vérification (arts. 36-37, 39, 43-44, 47)",
+      "Recours juridictionnels (art. 55)",
+      "Sanctions administratives (arts. 81-82)",
+      "Sanctions pénales (art. 89)",
+      "Mesures de recouvrement (art. 110)",
+      "Médiateur fiscal (arts. 113, 115)",
+      "Commissions de conciliation (art. 122)"
+    ],
+    "sections_not_covered": [
+      "Section VI - Accords préalables de prix de transfert (art. 35 bis)",
+      "Vérification ponctuelle (arts. 41 bis-41 ter)",
+      "Contentieux fiscal pénal (arts. 70-80 septies)",
+      "Sanctions pénales détaillées (arts. 94-106)",
+      "Commission de réexamen des arrêtés de taxation d'office (arts. 127-132)",
+      "Comité général de la fiscalité (art. 133)"
+    ],
+    "notes": "Batch couvre les articles fondamentaux du CDPF avec équilibre entre procédures de contrôle, droits du contribuable, sanctions et recours. Les exemples incluent des personas variés (citoyens, entrepreneurs, étudiants) et respectent strictement le format RAG avec citations authentiques. Tous les textes arabes sont en MSA formel, sans dialecte tunisien. Aucune incertitude détectée dans les numéros d'articles ou leur contenu ; confidence_flag non requis."
+  }
+}

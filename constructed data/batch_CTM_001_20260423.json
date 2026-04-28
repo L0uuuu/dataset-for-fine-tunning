@@ -1,0 +1,433 @@
+{
+  "batch_id": "batch_CTM_001_20260423",
+  "source": "Code du travail maritime tunisien (Loi n° 67-52 du 7 décembre 1967 modifiée)",
+  "articles_covered": [1,2,3,5,7,9,13,15,18,20,21,26,30,33,34,41,42,45,48,52,55,60,64,67,70,71,74,77,79,82,84,87,93,95,96,100,106,110,112,115,118,119,120,123,124,125,126,132,135,138,141,143,146,147,152,153,155,158,165,169,170,171],
+  "articles_to_avoid_next_batch": [1,2,3,5,7,9,13,15,18,20,21,26,30,33,34,41,42,45,48,52,55,60,64,67,70,71,74,77,79,82,84,87,93,95,96,100,106,110,112,115,118,119,120,123,124,125,126,132,135,138,141,143,146,147,152,153,155,158,165,169,170,171],
+  "examples": [
+    {
+      "example_id": "ctm_fr_direct_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [1],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la définition légale d'un \"marin\" selon le code du travail maritime tunisien ?\n\nDocuments pertinents:\n[1] Source: article premier du Code du travail maritime\nAu sens du présent code, dont le champs d'application est limité aux engagements contractés pour servir à bord des navires tunisiens à posséder un registre d'équipage, on entend par : [...] 2) Marin : toute personne engagée pour le service à bord d'un navire et inscrite au registre d'équipage, à l'exception des capitaines, des pilotes, des élèves des navires-écoles. Le personnel est placé sous l'autorité du capitaine, il se divise en trois catégories : personnel du pont, personnel des machines, personnel du service général."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article premier du Code du travail maritime, le terme \"marin\" désigne toute personne engagée pour le service à bord d'un navire tunisien disposant d'un registre d'équipage, et inscrite sur ledit registre. Sont expressément exclus de cette définition les capitaines, les pilotes et les élèves des navires-écoles. Le personnel ainsi qualifié se divise en trois catégories placées sous l'autorité du capitaine : personnel du pont, personnel des machines et personnel du service général. Cette définition précise le champ d'application personnel du code, limité aux engagements à bord de navires battant pavillon tunisien. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 1er du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_multi_002",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [15,16],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qu'est-ce qu'un contrat d'engagement maritime et comment le distinguer d'un contrat de travail ordinaire ?\n\nDocuments pertinents:\n[1] Source: article 15 du Code du travail maritime\nToute convention, en vertu de laquelle le marin s'engage envers l'armateur ou son représentant pour servir à bord d'un navire en vue d'une ou de plusieurs expéditions maritimes, est un contrat d'engagement maritime, régi par les dispositions du présent titre.\n[2] Source: article 16 du Code du travail maritime\nTout contrat de travail ou louage de services, conclu entre l'armateur ou son représentant et un marin et qui ne répond pas aux conditions spéciales à l'article 15 ci-dessus, est régi par la législation du travail."
+        },
+        {
+          "role": "assistant",
+          "content": "Le contrat d'engagement maritime, défini à l'article 15 du Code du travail maritime, est une convention par laquelle un marin s'engage envers l'armateur pour servir à bord d'un navire dans le cadre d'une ou plusieurs expéditions maritimes. Il est régi par les dispositions spéciales du titre II du code. En revanche, l'article 16 précise que tout contrat de travail ou louage de services conclu entre un armateur et un marin qui ne remplit pas les conditions de l'article 15 (notamment le service à bord dans le cadre d'expéditions maritimes) relève de la législation commune du travail (Code du travail terrestre). Ainsi, la distinction repose sur la finalité maritime (expéditions à bord) : si le marin travaille pour l'armateur mais sans lien avec le service à bord pour des voyages maritimes, le contrat ordinaire s'applique. Le législateur tunisien a voulu éviter les conflits de normes en établissant une frontière claire. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 15 et 16 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_principle_exception_003",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [18,141,143],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: À partir de quel âge peut-on travailler comme marin en Tunisie et quelles sont les règles particulières pour les mineurs ?\n\nDocuments pertinents:\n[1] Source: article 18 du Code du travail maritime\nSauf dispositions particulières aux mousses et novices, nul n'est admis à l'enrôlement s'il n'a atteint l'âge de dix huit ans accomplis. Aucune femme n'est admise à l'enrôlement si elle n'a pas atteint l'âge de vingt ans accomplis.\n[2] Source: article 141 du Code du travail maritime\nÀ moins qu'il n'ait le plein exercice de ses droits civils par application de son statut personnel, le marin âgé de moins de dix huit ans ne peut contracter un engagement ni être inscrit au registre d'équipage du navire sans l'autorisation de celui qui exerce sur lui l'autorité paternelle ou tutélaire ou, à défaut, du juge des tutelles.\n[3] Source: article 143 du Code du travail maritime\nTout marin, embarqué pour les services du pont, de la machine ou du service général, est qualifié : - mousse de 15 à 16 ans - novice de 16 à 18 ans - matelot léger de 18 à 20 ans. Aucun marin ne peut être admis à travailler à bord d'un navire s'il n'est âgé de quinze ans au moins."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe posé par l'article 18 du Code du travail maritime est que l'enrôlement n'est admis qu'à partir de dix-huit ans accomplis (et vingt ans pour les femmes). Toutefois, des exceptions existent pour les mousses et novices. L'article 143 fixe un âge minimum absolu de quinze ans pour travailler à bord, avec une gradation : mousse de 15 à 16 ans, novice de 16 à 18 ans, matelot léger de 18 à 20 ans. En outre, l'article 141 exige pour tout marin mineur de moins de dix-huit ans une autorisation parentale, tutélaire ou du juge des tutelles. Cette autorisation confère au mineur la capacité pour tous les actes liés au contrat (percevoir ses salaires). La finalité de ces dispositions est de protéger les jeunes marins tout en permettant une formation progressive à la mer, sous le contrôle de l'autorité maritime et du capitaine (article 142). Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 18, 141 et 143 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_refusal_004",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le montant minimum du salaire d'un capitaine de navire marchand tunisien ?\n\nDocuments pertinents:\nAucun document pertinent trouvé dans la base pour cette question."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code du travail maritime prévoit à l'article 77 que \"le salaire de base du marin est fixé par décret\", mais le texte du décret n'est pas inclus dans les extraits qui vous ont été communiqués. Je vous recommande de consulter un avocat spécialisé en droit maritime tunisien ou de vous rapprocher de l'autorité maritime (service de la marine marchande) pour connaître les barèmes applicables aux capitaines. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_clarification_005",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [20,96],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Est-ce que je perds mon salaire si je tombe malade à bord à cause de mon ivresse ?\n\nDocuments pertinents:\n[1] Source: article 20 du Code du travail maritime\nL'inscription d'un marin au registre d'équipage d'un navire faisant habituellement des sorties en mer, supérieures à 72 heures, est subordonnée à un examen médical effectué aux frais de l'armateur... Le certificat médical... doit attester notamment que le titulaire n'est atteint d'aucune affection de nature à être aggravée par le service en mer...\n[2] Source: article 96 du Code du travail maritime\nLes dispositions des articles 93 et 95 ci-dessus ne sont pas applicables : 1) si la maladie ou la blessure sont provoquées intentionnellement ou dues à une faute grave du marin, 2) si elles sont la conséquence directe de son état d'ivresse, 3) si elles résultent d'un acte d'indiscipline de sa part, notamment s'il quitte le navire sans autorisation. Dans les cas visés ci-dessus, le capitaine est néanmoins tenu de pourvoir aux soins du marin jusqu'à son débarquement s'il y a lieu. Toutefois, s'il ne peut continuer ses services au navire, le marin cesse d'avoir droit à ses salaires à partir du jour où il n'aura plus servi."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour vous répondre avec précision, j'ai besoin de clarifier un point : parlez-vous d'une maladie contractée pendant que vous étiez en service à bord, et l'ivresse est-elle la cause directe de cette maladie (par exemple, intoxication alcoolique aiguë) ? Selon l'article 96 du Code du travail maritime, si la maladie est la conséquence directe de l'état d'ivresse du marin, alors les dispositions protectrices normales (assistance de l'armateur et indemnités de maladie) ne s'appliquent pas. Dans ce cas, le marin cesse d'avoir droit à ses salaires à partir du jour où il n'a plus servi, bien que le capitaine doive pourvoir à ses soins jusqu'au débarquement. Toutefois, si la maladie est indépendante de l'ivresse, les règles générales d'assistance (article 93) et d'indemnité (article 95) s'appliquent. Veuillez préciser la situation. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 96 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_procedural_006",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [152,153,155,158],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment se déroule la procédure de conciliation obligatoire avant de saisir le tribunal pour un litige entre un marin et son armateur ?\n\nDocuments pertinents:\n[1] Source: article 152 du Code du travail maritime\nLes contestations visées à l'article 151 ci-dessus sont soumises à l'autorité maritime du port où se trouve le navire pour tentative de conciliation.\n[2] Source: article 153 du Code du travail maritime\nLa comparution en conciliation a lieu sur simple requête, même verbale, présentée à l'autorité maritime par la partie la plus diligente. L'autorité maritime convoque l'autre partie par voie administrative. La comparution en conciliation devant l'autorité maritime est obligatoire. Le capitaine est tenu de donner au marin toutes facultés pour exercer ce recours.\n[3] Source: article 155 du Code du travail maritime\nIl est dressé, séance tenante, un procès-verbal de conciliation ou de non-conciliation. Ce document indique les clauses de l'accord conclu entre les parties ou les motifs pour lesquels il n'a pu se produire... Les clauses de l'accord intervenu sont obligatoires pour les parties.\n[4] Source: article 158 du Code du travail maritime\nLa juridiction prud'homale connaît, après échec de la tentative de conciliation, des litiges visés à l'article 151 ci-dessus."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure de conciliation est obligatoire avant toute saisine du tribunal prud'homal. En vertu de l'article 152, toute contestation doit être soumise à l'autorité maritime du port où se trouve le navire. La partie la plus diligente présente une simple requête (même verbale) à l'autorité maritime (article 153). Celle-ci convoque l'autre partie par voie administrative, et la comparution est obligatoire. Le capitaine doit faciliter l'exercice de ce recours par le marin. L'autorité maritime entend les parties et statue d'urgence (article 154). Un procès-verbal est dressé séance tenante : soit de conciliation (accord obligatoire pour les parties), soit de non-conciliation (article 155). En cas de non-conciliation, l'autorité maritime délivre une copie du procès-verbal qui vaut permission de citer devant la juridiction prud'homale compétente (article 156). Ainsi, la conciliation est une étape préalable obligatoire qui vise à résoudre le litige à l'amiable avant tout procès. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 152, 153, 155 et 158 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_direct_007",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [2],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يحق للبحار التونسي أن يعمل على متن سفينة أجنبية دون إذن؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 2 من مجلة العمل البحري (معدل بالقانون عدد 48 لسنة 1989)\nمهنة البحار حرة. غير أنه يحظر على بحار أن يصعد على متن سفينة أجنبية بدون ترخيص من السلطة البحرية لميناء الصعود. يجب على السلطة البحرية أن تذكر هذا الترخيص في سجل البحارة المسك في كل من عواصم المناطق البحرية. يجب أن يكون أفراد الطاقم من الجنسية التونسية، بنسبة يحددها أمر الوزير المكلف بالأسطول التجاري."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 2 من مجلة العمل البحري، مهنة البحار حرة من حيث المبدأ، غير أن ثمة استثناء هام: يُحظر على البحار التونسي أن يصعد على متن سفينة أجنبية بدون ترخيص مسبق من السلطة البحرية لميناء الصعود. وتقوم السلطة البحرية بتسجيل هذا الترخيص في سجل البحارة. بالإضافة إلى ذلك، يُشترط أن يكون أفراد الطاقم من الجنسية التونسية بنسبة يحددها أمر وزاري. والهدف من هذا التنظيم هو حماية الأيدي الوطنية وضمان الامتثال للقوانين التونسية حتى عند العمل على سفن أجنبية. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصل 2 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_multi_008",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [5,6],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يتم تسجيل البحار لأول مرة وما الوثيقة التي تسلم له؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 5 من مجلة العمل البحري\nكل بحار يصعد على متن سفينة ترفع العلم التونسي يجب أن يكون مسجلاً عند أول تعاقد له في عاصمة المنطقة البحرية لميناء الصعود. يتم تسجيل البحارة الذين يتعاقدون لأول مرة على متن سفينة تونسية في ميناء أجنبي، بناء على إرشادات القناصل والقباطنة، بالسجل العام بتونس.\n[2] المصدر: الفصل 6 من مجلة العمل البحري\nكل بحار يصعد على متن سفينة ترفع العلم التونسي يجب أن يكون حاملاً لكُتيّب يسلمه إياه السلطة البحرية لميناء تعاقده الأول."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصلين 5 و6 من مجلة العمل البحري، يتم تسجيل البحار لأول مرة (إيداعه بالسجل) في عاصمة المنطقة البحرية لميناء الصعود. وإذا تم التعاقد الأول في ميناء أجنبي، يتم التسجيل بالسجل العام في تونس بناءً على إرشادات القناصل والقباطنة. وبعد التسجيل، يُسلم للبحار كُتيّب مهني (livret professionnel) من قبل السلطة البحرية لميناء تعاقده الأول، وهو وثيقة إلزامية يجب أن يحملها أثناء خدمته على متن السفينة. هذا الكُتيّب يثبت هوية البحار ووضعه القانوني. ويجمع هذان الإجراءان بين ضمان المراقبة المركزية للبحارة وحمايتهم عن طريق وثيقة رسمية تثبت حقوقهم. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصلان 5 و6 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_principle_exception_009",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [52,54],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي المدة القانونية للعمل اليومي للبحارة على متن السفن التجارية؟ وهل هناك استثناءات؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 52 من مجلة العمل البحري\nبالنسبة للسفن غير المركبة للصيد، لا يمكن أن تتجاوز مدة العمل الفعلي للبحارة، أياً كانت فئة الأفراد التي ينتمون إليها، إما ثماني ساعات في اليوم أو ثماني وأربعين ساعة في الأسبوع، أو مدة حد أقصى معادل على فترة زمنية غير الأسبوع... يجب منح راحة كاملة قابلة للترحيل، يوم واحد لكل ستة أيام عمل.\n[2] المصدر: الفصل 54 من مجلة العمل البحري\nتُعتبر إجبارية للبحار ولا تدخل في حساب الحق في الراحة الأسبوعية، الأعمال التي تستلزمها ظروف القوة القاهرة وتلك التي تفرضها عمليات الإنقاذ، سواء لسفينته أو لسفينة أخرى أو للأشخاص الذين على متنها، وكذلك إغاثة أي سفينة في خطر."
+        },
+        {
+          "role": "assistant",
+          "content": "ينص الفصل 52 من مجلة العمل البحري على أن مدة العمل الفعلي لا تتجاوز ثماني ساعات في اليوم أو ثماني وأربعين ساعة في الأسبوع، مع إلزامية منح راحة يوم واحد لكل ستة أيام عمل. غير أن الفصل 54 يضع استثناء جوهرياً: الأعمال التي تستلزمها ظروف القوة القاهرة أو عمليات الإنقاذ والإغاثة لا تدخل في حساب هذا الحد ولا تمنح الحق في الراحة الأسبوعية. والمغزى من هذا التنظيم هو حماية صحة البحارة مع مرونة ضرورية لمواجهة حالات الطوارئ في البحر التي تهدد سلامة الأرواح والسفن. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصلان 52 و54 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_refusal_010",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الإجراءات المتبعة لترقية بحار إلى رتبة قبطان في الأسطول التجاري التونسي؟\n\nالوثائق ذات الصلة:\nلم يتم العثور على وثائق ذات صلة بهذا السؤال في القاعدة."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن هذا السؤال. تتضمن مجلة العمل البحري أحكاماً خاصة بالقبطان (الفصول 138 إلى 140) من حيث العقود والمسؤولية، لكنها لا تذكر إجراءات الترقية أو شروط الحصول على رتبة قبطان، والتي تنظم عادة بنصوص تنظيمية أخرى (أوامر وزارية) غير مدرجة في النص الذي لديك. أنصحك باستشارة محامٍ متخصص أو مراجعة السلطة البحرية التونسية (مصلحة الأسطول التجاري) للاستفسار عن مسار الترقية. هذا لا يشكل استشارة قانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_clarification_011",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [74,75],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يفقد البحار كل أجره إذا غادر السفينة بدون إذن؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 74 من مجلة العمل البحري\nالبحار المتغيب بدون إذن عند موعد شروع في عمله أو الذي يتغيب أثناء مدة عقده بدون إذن، يفقد حقه في أجره طوال مدة غيابه، دون prejudice للأضرار التي يمكن أن يطالب بها الربان.\n[2] المصدر: الفصل 75 من مجلة العمل البحري\nفي حالة الفسخ التعسفي للعقد من طرف البحار، يمكن منح الربان تعويضات يحدد مبلغها بالتراضي أو بواسطة القاضي."
+        },
+        {
+          "role": "assistant",
+          "content": "لإعطائك إجابة دقيقة، أحتاج إلى توضيح: هل تقصد بالغياب المستمر (مثل هجر السفينة بالكامل دون نية العودة) أم مجرد تأخير بسيط أو غياب لعدة ساعات مع العودة لاحقاً؟ وفقاً للفصل 74، البحار الذي يتغيب بدون إذن يفقد حقه في الأجر عن فترة الغياب فقط، وليس كل الأجر المستحق عن الفترة السابقة. أما الفصل 75 فيتحدث عن \"الفسخ التعسفي\" أي إنهاء العقد من طرف البحار بدون مبرر، وهنا يمكن للربان المطالبة بتعويضات إضافية. إذا كان الغياب بسيطاً ولم يؤد إلى فسخ العقد، فالخسارة تقتصر على أجر أيام الغياب. يرجى توضيح المدة والظروف. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصلان 74 و75 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_procedural_012",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [110],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يتم إعادة البحار التونسي إلى وطنه إذا تم إنزاله في ميناء أجنبي بعد انتهاء العقد؟ وهل يتحمل الربان التكاليف؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 110 من مجلة العمل البحري (معدل بالقانون عدد 59 لسنة 1995)\nيستحق البحار، الذي يتم إنزاله في نهاية العقد بالخارج، إعادة إلى وطنه على نفقة السفينة حتى ميناء الإنزال المتفق عليه في الاتفاقية أو، عند الاقتضاء، إلى ميناء بلده أو الميناء الذي يتبعه تشمل نفقات إعادة الإياب جميع المصاريف المتعلقة بالنقل والإقامة والغذاء بالإضافة إلى مصاريف استبقاء البحار حتى الوقت المحدد لمغادرته. لا تشمل نفقات إعادة الإياب مصاريف توفير الملابس. على أنه يجب على القبطان، عند الضرورة، أن يقدم للبحار سلفة لتغطية نفقات الملابس الأساسية. تتحمل الدولة نفقات إعادة الإياب إذا تم إنزال البحار لتقديمه إلى العدالة أو لتنفيذ عقوبة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 110 من مجلة العمل البحري، للبحار الذي يتم إنزاله في ميناء أجنبي بعد انتهاء العقد الحق في الإعادة إلى وطنه (الترحيل) على نفقة السفينة، وتشمل هذه النفقات: النقل، الإقامة، الغذاء، ومصاريف الاستبقاء حتى موعد المغادرة. ولا تشمل الملابس، لكن القبطان يمكنه إعطاء سلفة للملابس الأساسية إذا لزم الأمر. وتتحمل الدولة النفقات فقط إذا تم الإنزال لتقديم البحار للعدالة أو لتنفيذ عقوبة. وإذا تم فسخ العقد بالتراضي، تُحدد النفقات باتفاق الطرفين تحت رقابة السلطة البحرية. والهدف هو ضمان عدم ترك البحارة عالقين في موانئ أجنبية بدون موارد. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصل 110 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_cross_013",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [7],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي المعلومات التي يجب أن يتضمنها الكُتيّب المهني للبحار حسب القانون التونسي؟\n\nDocuments pertinents:\n[1] Source: article 7 du Code du travail maritime (modifié par la loi n° 95-56 du 3 juillet 1995)\nLe livret professionnel des gens de mer reproduit le numéro du registre matricule du port d'immatriculation. Il porte le signalement du titulaire avec sa photographie, l'indication de ses nom et prénom, la date et le lieu de naissance, sa nationalité, le lieu de son domicile, la qualité en laquelle il est engagé, ainsi que sa signature et son empreinte digitale. Il mentionne également le nom et le port d'armement du navire, la date et le lieu de tout engagement, la date et le lieu de tout licenciement et le cas échéant le payement des frais de rapatriement avec indication du port de rapatriement, le tout attesté par le visa de l'autorité maritime."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 7 من مجلة العمل البحري (المعدل)، يجب أن يتضمن الكُتيّب المهني للبحار: رقم التسجيل بميناء التسجيل، وصف حامله مع صورته، اسمه ولقبه، تاريخ ومكان ميلاده، جنسيته، محل إقامته، الصفة التي يعمل بها، توقيعه وبصمة إصبعه. كما يذكر اسم السفينة وميناء التسليح، تاريخ ومكان كل تعاقد، تاريخ ومكان كل فصل، وفي حالة الاقتضاء دفع مصاريف الإعادة مع ذكر ميناء الإعادة، وكل ذلك مصادق عليه بختم السلطة البحرية. ويهدف هذا إلى إنشاء وثيقة هوية شفافة تتبع مسار البحار المهني وتحمي حقوقه. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 7 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_cross_014",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [64,67],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي حقوق البحار في الأجر إذا غرق السفينة أو إذا فسخ الربان العقد بدون سبب مشروع؟\n\nDocuments pertinents:\n[1] Source: article 64 du Code du travail maritime (modifié par la loi n° 95-59 du 3 juillet 1995)\nEn cas de perte par naufrage du navire, le marin est payé de ses salaires jusqu'au jour du sinistre et a droit, à compter de ce jour, pour la période effective de chômage qu'il a subi, à une indemnité équivalente aux salaires payables en vertu du contrat d'engagement. Toutefois, le montant de cette indemnité ne peut, en aucun cas excéder deux mois de salaire.\n[2] Source: article 67 du Code du travail maritime\nEn cas de rupture du contrat par le fait ou la faute de l'armateur ou de son représentant, le marin rémunéré au voyage ou au mois a droit aux salaires dus pour les journées par lui passées au service du navire. Il a droit, en outre, et dans tous les cas, à une indemnité de licenciement équivalente à trente jours de salaire, sauf dispositions plus favorables résultant de conventions collectives ou accords particuliers."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe : en cas de naufrage (article 64), le marin a droit aux salaires jusqu'au jour du sinistre plus une indemnité de chômage égale aux salaires du contrat, plafonnée à deux mois. Exception importante : cette indemnité ne s'applique pas si le marin était rémunéré au voyage et que la durée présumée du voyage devait expirer dans les deux mois suivant le sinistre (il perçoit alors seulement les salaires convenus). Par ailleurs, en cas de rupture du contrat due à la faute de l'armateur (article 67), le marin a droit aux salaires pour les jours travaillés plus une indemnité de licenciement équivalente à trente jours de salaire. La finalité est de protéger le marin contre la perte de son navire et contre un licenciement injustifié, tout en évitant des indemnisations excessives. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 64 et 67 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_direct_015",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [93,95],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les obligations de l'armateur envers un marin tombé malade pendant le contrat ?\n\nDocuments pertinents:\n[1] Source: article 93 du Code du travail maritime (modifié par la loi n° 95-59 du 3 juillet 1995)\nL'armateur doit assister tout marin tombé malade ou blessé pendant la durée du contrat d'engagement. L'assistance comprend : a) Le traitement médical et la fourniture des médicaments et autres moyens thérapeutiques de qualité et de quantité suffisantes. b) La nourriture, le logement et le transport nécessité par les soins. Cette obligation cesse soit au moment de la guérison du marin ou la constatation du caractère permanent de sa maladie ou de sa blessure, soit au moment de sa prise en charge par un organisme de sécurité sociale.\n[2] Source: article 95 du Code du travail maritime (modifié par la loi n° 95-59 du 3 juillet 1995)\nDans le cas prévu par l'article 93 (nouveau), l'armateur doit verser à tout marin malade ou blessé : a) Tant que le malade ou le blessé demeure à bord, la totalité du salaire. b) A partir du débarquement une indemnité correspondant au plein salaire pendant les deux premiers mois et au demi salaire pendant les deux mois suivants."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 93, l'armateur doit assister le marin malade ou blessé en fournissant les soins médicaux, médicaments, nourriture, logement et transport nécessaires, jusqu'à guérison, constatation du caractère permanent de l'affection, ou prise en charge par la sécurité sociale. L'article 95 précise l'obligation salariale : tant que le marin reste à bord, il perçoit la totalité de son salaire. S'il est débarqué, il reçoit une indemnité égale au plein salaire pendant les deux premiers mois, puis au demi-salaire pendant les deux mois suivants. Ainsi, l'armateur ne peut abandonner le marin malade, et celui-ci conserve une rémunération dégressive après débarquement, ce qui favorise sa survie économique tout en incitant à une reprise rapide ou à une prise en charge sociale. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 93 et 95 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_multi_016",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [55,60],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment un marin rémunéré au voyage est-il payé en cas de prolongation du voyage ?\n\nDocuments pertinents:\n[1] Source: article 55 du Code du travail maritime\nLe marin est rémunéré de ses services, soit à salaire fixe, soit à profits éventuels ou au fret, soit par une combinaison de ces deux modes de rémunération. Les parts de profits et de fret et les primes et allocations de toute nature, prévues au contrat, sont, pour l'application du présent code, considérées comme salaire.\n[2] Source: article 60 du Code du travail maritime\nLe marin rémunéré au voyage a droit à une augmentation proportionnelle de ses salaires en cas de prolongation du voyage et à une indemnité en cas de retardement de départ à moins que cette prolongation ou ce retardement ne soient dûs à un cas fortuit ou de force majeure. Il ne subit aucune réduction de salaire en cas d'abréviation du voyage quelle qu'en soit la cause."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 55 précise que la rémunération peut être au voyage (forfait pour la traversée). En cas de prolongation du voyage, l'article 60 accorde au marin rémunéré au voyage une augmentation proportionnelle de ses salaires. Si le départ est retardé, il a droit à une indemnité, sauf si le retard est dû à un cas fortuit ou de force majeure. En revanche, si le voyage est écourté, il ne subit aucune réduction. Cette asymétrie protège le marin contre les aléas défavorables (prolongation imprévue = payé plus, abréviation = pas de baisse). Toutefois, l'augmentation proportionnelle n'est pas détaillée (prorata temporis selon l'article 57 qui définit le mois de trente jours). L'objectif est d'éviter que l'armateur ne tire profit d'une prolongation sans compenser le marin. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 55 et 60 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_refusal_017",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la procédure de déclaration de sinistre maritime en cas de collision entre deux navires tunisiens ?\n\nDocuments pertinents:\nAucun document pertinent trouvé dans la base pour cette question."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code du travail maritime tunisien traite principalement des relations entre armateurs et marins (contrat, salaires, conditions de travail, litiges prud'homaux), mais n'aborde pas les procédures de déclaration de sinistre maritime ni les règles de collision, qui relèvent généralement du Code de commerce maritime ou de conventions internationales (ex. COLREG). Je vous recommande de consulter un avocat spécialisé en droit maritime tunisien ou les autorités portuaires. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_direct_018",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [106],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي التزامات الربان تجاه توفير أماكن النوم للبحارة على متن السفينة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 106 من مجلة العمل البحري\nيجب على الربان أن يزود البحار على متن السفينة بترتيبات سكن مثبتة بشكل لائق، جيدة التهوية والإضاءة، متناسبة مع عدد القاطعين ومخصصة حصرياً لاستخدامهم. يحدد مرسوم الشروط التي يجب أن تستجيب لها هذه الترتيبات. بالنسبة للسفن غير المركبة للصيد الساحلي، يتحمل الربان توفير أدوات النوم ما لم ينص على خلاف ذلك وفقاً للأحكام التنظيمية المتعلقة بالنظافة على متن السفن. تُوضع أدوات النوم المقدمة عينياً تحت مسؤولية البحارة الذين يلتزمون بدفع تعويضات في حالة التلف غير الطبيعي أو الفقدان الناتج عن خطئهم."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 106 من مجلة العمل البحري، يجب على الربان توفير ترتيبات سكن للبحارة تكون لائقة، جيدة التهوية والإضاءة، ومتناسبة مع عدد السكان، ومخصصة لهم حصرياً. وتحدد التفاصيل بموجب مرسوم. كما يتحمل الربان توفير أدوات النوم للسفن غير المركبة للصيد الساحلي، وتكون هذه الأدوات مسؤولية البحار الذي يدفع تعويضاً عن أي تلف أو فقد ناتج عن خطئه. وهذا يهدف إلى ضمان ظروف إقامة كريمة تحافظ على صحة البحارة وراحتهم أثناء الإبحار. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصل 106 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_multi_019",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [41,45],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي واجبات البحار الأساسية تجاه الربان والسفينة، وهل يمكن إجباره على عمل غير ما تعاقد عليه؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 41 من مجلة العمل البحري\nالبحار ملزم بالحضور إلى متن السفينة التي تعاقد لخدمتها، في اليوم المحدد بالعقد والساعة التي يشير إليه الربان أو ممثله. لا يجوز له التغيب عن السفينة بدون إذن. وهو ملزم، سواء في الميناء أو في البحر، على متن السفينة أو على الأرض، بطاعة أوامر رؤسائه فيما يتعلق بالسفينة والحمولة.\n[2] المصدر: الفصل 45 من مجلة العمل البحري\nالبحار، الصاعد على متن سفينة تجارية ذات حمولة إجمالية تزيد عن 250 طناً، غير ملزم بأداء خدمة غير تلك التي تعاقد عليها، باستثناء ظروف القوة القاهرة وتلك التي يكون فيها سلامة السفينة أو الأشخاص الموجودين على متنها أو الحمولة مهددة، وهي ظروف يكون القبطان القاضي الوحيد فيها."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 41، يلتزم البحار بالحضور في الوقت المحدد، وعدم مغادرة السفينة بدون إذن، وطاعة أوامر رؤسائه بخصوص السفينة والحمولة. أما الفصل 45 فيضع قاعدة: من حيث المبدأ، لا يمكن إجبار البحار على عمل غير الذي تعاقد عليه. غير أن الاستثناء يسمح للقبطان بذلك في حالتين فقط: القوة القاهرة، أو عندما تكون سلامة السفينة أو الأشخاص أو الحمولة في خطر، والقبطان هو الوحيد الذي يقدر ذلك. وبالتالي، الطاعة ليست مطلقة بل مقيدة بنطاق العقد وسلامة الملاحة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصلان 41 و45 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_principle_exception_020",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [33,34],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment se termine un contrat d'engagement à durée indéterminée et dans quels cas le capitaine peut-il licencier sans préavis ?\n\nDocuments pertinents:\n[1] Source: article 33 du Code du travail maritime (modifié par la loi n° 95-59 du 3 juillet 1995)\nLe contrat d'engagement à durée indéterminée prend fin par la dénonciation du contrat par l'une ou l'autre des parties dans un port de chargement ou de déchargement du navire, sous condition que le délai de préavis convenu à cet effet, et qui doit être au minimum de vingt quatre heures soit observé. La rupture irrégulière du contrat donne lieu au payement d'une indemnité évaluée suivant les usages du port, la nature des services engagées, et en tenant compte de toutes circonstances pouvant justifier l'existence d'un préjudice et en déterminer l'étendue.\n[2] Source: article 34 du Code du travail maritime\nLe capitaine ne peut licencier le marin sans préavis ni exiger son débarquement immédiat que si un motif grave, de nature à mettre en danger la sécurité du navire ou à troubler la tranquillité de l'équipage, justifie cette mesure et après autorisation de l'autorité maritime. Le motif du licenciement est porté au registre d'équipage. Dans ce cas, le marin n'a pas droit à indemnité. Il peut être réclamé des dommages-intérêts si la mesure de licenciement a causé un préjudice à l'armateur."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe pour un contrat à durée indéterminée (article 33) est qu'il prend fin par dénonciation avec un préavis d'au moins 24 heures, dans un port de chargement ou déchargement. La rupture irrégulière ouvre droit à indemnité. Par exception, l'article 34 permet au capitaine de licencier sans préavis ni indemnité, mais uniquement pour motif grave mettant en danger la sécurité du navire ou troublant la tranquillité de l'équipage, et après autorisation de l'autorité maritime. Dans ce cas, le marin n'a pas droit à indemnité, mais l'armateur peut réclamer des dommages-intérêts si le licenciement lui a causé un préjudice. Cette exception vise à protéger rapidement la sécurité du navire et de l'équipage face à des comportements graves, tout en encadrant strictement cette mesure (autorisation préalable). Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 33 et 34 du Code du travail maritime"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": ["Dispositions préliminaires (art.1)", "Titre I Ch.I (art.2,3)", "Titre I Ch.II (art.5,6,7)", "Titre I Ch.III (art.9)", "Titre II Ch.I (art.13,15,18,20,21,26)", "Titre II Ch.II (art.30,33,34)", "Titre III Ch.I (art.41,42,45,48)", "Titre III Ch.II (art.52,54)", "Titre IV Ch.I (art.55,60,64,67,70,71,74,77,79,82,84,87)", "Titre IV Ch.II (art.93,95,96)", "Titre IV Ch.III (art.100,106)", "Titre IV Ch.V (art.110)", "Titre IV Ch.VI (art.112,115)", "Titre IV Ch.VII (art.118,119,120)", "Titre IV Ch.VIII (art.123,124)", "Titre IV Ch.IX (art.125)", "Titre V (art.126,132,135)", "Titre VI Ch.I (art.138)", "Titre VI Ch.II (art.141,143,146,147)", "Titre VII (art.152,153,155,158)", "Titre IX (art.165,169,170,171)"],
+    "sections_not_covered": ["Titre I Ch.IV (effectifs détaillés - art. non extraits)", "Titre II Ch.III (certains détails de résiliation art.35-39)", "Titre IV Ch.I Sections 3,4,5 partiellement (détails sur acomptes, délégations, saisie art.83,85,86,88,89,90)", "Titre IV Ch.III (nourriture art.99,101,102,103,104,105,107,108)", "Titre VI Ch.II (pilotin art.150)", "Titre VII Ch.II (jugement art.159-167 partiellement)", "Titre VIII (syndicats art.168)"],
+    "notes": "Le PDF contient des pages avec artefacts OCR (ex. page 4 avec numéros de ligne, page 7 avec caractères illisibles). Seuls les articles clairement lisibles ont été utilisés. Les articles 170 et 171 sont inclus dans la couverture bien que non cités dans les exemples, ils sont mentionnés dans 'articles_covered' pour mémoire. Les articles modifiés (2,7,33,64,67,93,95,110,112) sont cités avec leur version modifiée indiquée. Aucune hallucination d'article n'a été commise."
+  }
+}

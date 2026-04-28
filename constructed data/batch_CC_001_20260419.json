@@ -1,0 +1,485 @@
+{
+  "batch_id": "batch_CC_001_20260419",
+  "source": "Code de Commerce de Tunisie",
+  "articles_covered": [2, 5, 7, 189, 190, 191, 193, 205, 217, 229, 276, 283, 289, 290, 306, 335, 340, 411, 416, 434, 475, 541, 569, 598, 601, 609, 625, 705, 728],
+  "articles_to_avoid_next_batch": [2, 5, 7, 189, 190, 191, 193, 205, 217, 229, 276, 283, 289, 290, 306, 335, 340, 411, 416, 434, 475, 541, 569, 598, 601, 609, 625, 705, 728],
+  "examples": [
+    {
+      "example_id": "ex_cc_fr_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [2, 5],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui peut légalement exercer le commerce en Tunisie selon le Code de Commerce ?\n\nDocuments pertinents:\n[1] Source: article 2 du Code de Commerce\nSont commerçants ceux qui exercent des actes de commerce et en font leur profession habituelle. L'article énumère notamment l'achat de meubles ou immeubles pour les revendre, les opérations de banque et de change, les entreprises de fournitures, de spectacles publics, etc. Toutefois, n'est pas commerçant quiconque exerce une profession agricole dans la mesure où l'intéressé ne fait que transformer et vendre les produits de son fonds.\n\n[2] Source: article 5 du Code de Commerce\nToute personne capable de s'obliger peut exercer le commerce."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 2 et 5 du Code de Commerce, la qualité de commerçant repose sur deux conditions cumulatives. En premier lieu, le principe veut que la personne exerce de manière habituelle et professionnelle des actes de commerce, tels que l'achat pour la revente, les opérations de banque ou de change, ou l'exploitation d'entreprises de spectacles publics [1]. En second lieu, cette personne doit disposer de la capacité juridique de s'obliger [2]. Par ailleurs, une exception notable est prévue pour les professions agricoles : l'agriculteur qui se limite à transformer et vendre les produits de son propre fonds n'acquiert pas la qualité de commerçant [1]. Ainsi, cette distinction vise à protéger l'activité civile agricole des contraintes spécifiques au statut de commerçant, notamment les procédures collectives. \n\nSources: art. 2, 5 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_001",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [7],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يُلزَم كل تاجر في تونس بمسك دفاتر تجارية، وما هو الاستثناء الوارد على هذا المبدأ؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 7 من مجلة التجارة\nتخضع كل شخصية طبيعية أو معنوية لها صفة التاجر لمسك محاسبة مطابقة لأعراف المهنة ولأحكام الفصول من 8 إلى 13 بعده. ويعفى الأشخاص الطبيعيون المشار إليهم بالفقرة السابقة من هذا الواجب عندما يكون رقم معاملاتهم السنوي أقل من رقم يحدد دوريا بمقتضى أمر."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 7 من مجلة التجارة، يخضع كل تاجر سواء كان شخصا طبيعيا أو معنويا لالتزام أساسي بمسك محاسبة منتظمة تتوافق مع أعراف المهنة والأحكام القانونية المنصوص عليها في الفصول من 8 إلى 13 [1]. غير أن المشرّع التونسي أورد استثناءً هاماً لفائدة صغار التجار، حيث يُعفى الأشخاص الطبيعيون من هذا الالتزام المحاسبي الكامل متى كان رقم معاملاتهم السنوي أدنى من السقف المحدد دورياً بأمر حكومي [1]. وتهدف هذه القاعدة إلى تحقيق التوازن بين ضرورة الشفافية المالية في الحياة التجارية وحماية التجار الصغار من الأعباء الإدارية والمالية التي قد تفوق قدراتهم. \n\nالمصادر: الفصل 7 من مجلة التجارة. \nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_002",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [283, 285],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un commerçant peut-il refuser de donner son acceptation sur une lettre de change tirée sur lui ? Quelles sont les conséquences de ce refus ?\n\nDocuments pertinents:\n[1] Source: article 283 du Code de Commerce\nLa lettre de change peut être, jusqu'à l'échéance, présentée à l'acceptation du tiré... Le refus d'acceptation entraîne de plein droit la déchéance du terme, aux frais et dépens du tiré.\n\n[2] Source: article 285 du Code de Commerce\nL'acceptation est pure et simple; mais le tiré peut la restreindre à une partie de la somme. Toute autre modification apportée par l'acceptation aux énonciations de la lettre de change équivaut à un refus d'acceptation. Toutefois, l'accepteur est tenu dans les termes de son acceptation."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 283 du Code de Commerce, le principe est que le tiré n'est pas tenu d'accepter une lettre de change présentée par le porteur, même si le tireur a rempli ses obligations [1]. Toutefois, ce refus emporte une conséquence juridique immédiate et sévère : il entraîne de plein droit la déchéance du terme, ce qui signifie que la créance devient immédiatement exigible, et ce, aux frais et dépens du tiré [1]. En outre, l'article 285 précise que si le tiré accepte, l'acceptation doit être pure et simple ; une acceptation modifiée équivaut à un refus d'acceptation, sauf en cas d'acceptation partielle où le tiré est tenu dans la limite de la somme acceptée [2]. Ainsi, le législateur a instauré ce mécanisme de déchéance du terme afin de sanctionner le refus injustifié et de protéger le crédit attaché au titre cambiaire. \n\nSources: art. 283, 285 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_002",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [416, 434, 475],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو الفرق القانوني بين نظام الإنقاذ القضائي والإفلاس بالنسبة للشركات التي تعاني من صعوبات اقتصادية في تونس؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 416 من مجلة التجارة\nتسري أحكام هذا الباب على كل شخص معنوي وكل شخص طبيعي خاضع لنظام الجباية على أساس الأرباح الحقيقية يمارس نشاطا تجاريا... أو حرفيا...\n\n[2] المصدر: الفصل 434 من مجلة التجارة\nيستفيد من الإنقاذ القضائي كل مؤسسة في حالة توقف عن دفع ديونها. وتعتبر في حالة توقف عن الدفع، على معنى هذا الباب، كل مؤسسة تجد نفسها في استحالة مواجهة خصومها المستحقة الأداء بسيولتها وأصولها القابلة للتحقيق على المدى القصير.\n\n[3] المصدر: الفصل 475 من مجلة التجارة\nتقضي المحكمة بإفلاس التاجر أو الأشخاص المشار إليهم بالفصل 416 من هذه المجلة إذا ثبت أنهم في حالة توقف عن الدفع وفي وضعية يائسة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى أحكام مجلة التجارة، يمكن التمييز بين نظام الإنقاذ القضائي والإفلاس بناءً على وضعية المؤسسة وآفاق استمرارها. ينص الفصل 434 على أن الاستفادة من الإنقاذ القضائي متاحة للمؤسسة التي بلغت مرحلة التوقف عن الدفع، أي عجزها عن مواجهة ديونها المستحقة بسيولتها المتاحة [2]. في المقابل، ووفقاً للفصل 475، لا يتم اللجوء إلى الحكم بالإفلاس إلا إذا ثبت، بالإضافة إلى حالة التوقف عن الدفع، أن وضعية المؤسسة \"يائسة\" ولا أمل في إنقاذها [3]. وبالتالي، فالتوقف عن الدفع شرط مشترك بين النظامين، غير أن تقييم إمكانية استمرار النشاط الاقتصادي هو الذي يرجح كفة تطبيق إجراءات الإنقاذ القضائي المنصوص عليها بالفصل 434 وما بعده، أو الانتقال إلى التصفية الجماعية عبر الإفلاس المنصوص عليه بالفصل 475. ويطبق كلا النظامين على نفس الفئة من التجار والأشخاص المعنوية المحددة بالفصل 416 [1].\n\nالمصادر: الفصول 416، 434، 475 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_003",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [190, 191, 193],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je viens d'acheter un fonds de commerce à Tunis. Quelles sont les étapes légales que je dois impérativement respecter après la signature du contrat pour protéger mon acquisition ?\n\nDocuments pertinents:\n[1] Source: article 190 du Code de Commerce\nToute vente amiable... de fonds de commerce... doivent être constatés par écrit, à peine de nullité.\n\n[2] Source: article 191 du Code de Commerce\nToute cession de fonds de commerce... sera dans la quinzaine de sa date, publiée, à la diligence de l'acquéreur, sous forme d'extraits, dans un journal quotidien et au Journal Officiel de la République tunisienne.\n\n[3] Source: article 193 du Code de Commerce\nDans les vingt jours au plus tard suivant l'insertion au Journal Officiel de la République tunisienne, tout créancier du précédent propriétaire... peut former... opposition au paiement du prix."
+        },
+        {
+          "role": "assistant",
+          "content": "La cession d'un fonds de commerce est soumise à une procédure stricte visant à protéger les créanciers du vendeur et à purger le passif. En vertu des articles 190 et suivants du Code de Commerce, les étapes séquentielles à respecter sont les suivantes : Premièrement, la vente doit être constatée par un écrit, sous peine de nullité [1]. Deuxièmement, l'acquéreur doit, dans les quinze jours de la vente, publier un extrait de l'acte dans un journal quotidien et au Journal Officiel de la République Tunisienne [2]. Enfin, un délai de vingt jours suivant cette publication officielle est accordé aux créanciers du vendeur pour former opposition au paiement du prix entre les mains de l'acquéreur [3]. En effet, l'acquéreur ne peut valablement payer le prix au vendeur avant l'expiration de ce délai, sous peine de ne pas être libéré à l'égard des créanciers opposants. \n\nSources: art. 190, 191, 193 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_003",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو الحد الأدنى لرأس مال شركة المساهمة العامة في تونس حالياً؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 10 من مجلة التجارة\nالأحكام المتعلقة بالشركات التجارية واردة بمجلة الشركات التجارية الصادرة بمقتضى القانون عدد 93 لسنة 2000 المؤرخ في 3 نوفمبر 2000."
+        },
+        {
+          "role": "assistant",
+          "content": "إن المستندات القانونية المتوفرة لدي والمتمثلة في مجلة التجارة التونسية لا تتضمن تحديداً للحد الأدنى لرأس مال شركة المساهمة العامة. فالمجلة تحيل في فصلها العاشر صراحة إلى أن الأحكام الخاصة بالشركات التجارية قد تم إفرادها في نص قانوني خاص هو مجلة الشركات التجارية الصادرة بالقانون عدد 93 لسنة 2000. بناءً على ذلك، لا يمكنني تقديم إجابة دقيقة حول هذا الرقم استناداً إلى النص الذي بين يدي. أنصحكم بالرجوع مباشرة إلى أحكام مجلة الشركات التجارية أو استشارة محامٍ مختص في قانون الشركات للحصول على المعلومة الصحيحة والمحدثة.\n\nهذا الرد لا يشكل استشارة قانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_cross_001",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [276],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن تداول الكمبيالة التي تحمل عبارة \"غير قابل للتظهير\" في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 276 من مجلة التجارة\nكل كمبيالة، حتى لو لم تكن مسحوبة صراحة للأمر، قابلة للتداول بطريق التظهير. وإذا أدرج الساحب في الكمبيالة عبارة \"ليس للأمر\" أو أي عبارة أخرى مماثلة، فإن السند لا يكون قابلاً للتداول إلا في الشكل ومع الآثار المترتبة على حوالة عادية."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 276 du Code de Commerce, le principe est que toute lettre de change est transmissible par voie d'endossement, même si la clause \"à ordre\" n'y figure pas expressément [1]. Toutefois, le législateur a prévu une exception importante : si le tireur insère la clause \"non à ordre\" ou une formule équivalente comme celle que vous citez, la lettre de change perd sa nature de titre cambiaire circulant librement. Dans ce cas, sa transmission n'est possible que dans la forme et avec les effets d'une cession de créance de droit commun [1]. Ainsi, le titre demeure transmissible, mais le cessionnaire n'aura pas la protection du droit cambiaire et se verra opposer toutes les exceptions que le débiteur aurait pu opposer au cédant. Cette clause est généralement utilisée pour restreindre la circulation du titre et éviter les surprises liées à l'inopposabilité des exceptions.\n\nSources: art. 276 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_004",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [728, 732, 737],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les principaux effets juridiques de l'ouverture d'un compte courant entre commerçants et comment celui-ci prend-il fin ?\n\nDocuments pertinents:\n[1] Source: article 728 du Code de Commerce\nIl y a contrat de compte courant quand deux personnes... conviennent de faire entrer dans un compte, par voie de remises réciproques et enchevêtrées, les créances résultant des opérations qu'elles feront entre elles et de substituer ainsi à des règlements particuliers... un règlement unique...\n\n[2] Source: article 732 du Code de Commerce\nLe compte courant ouvert sans détermination de durée est clos à tout moment par la volonté de l'un des correspondants... La clôture du compte courant transforme en solde la position du compte existant au jour de cette clôture et ce solde est immédiatement exigible...\n\n[3] Source: article 737 du Code de Commerce\nLes créances entrant en compte cessent d'être soumises aux règles qui leur sont propres en matière de prescription et d'intérêts. Les remises produisent intérêts... ces intérêts produisent eux-mêmes intérêts..."
+        },
+        {
+          "role": "assistant",
+          "content": "Le contrat de compte courant, défini par l'article 728 du Code de Commerce, produit des effets novatoires majeurs sur les créances qui y sont inscrites. En vertu de ce contrat, les créances réciproques perdent leur individualité pour se fondre dans une masse unique, empêchant tout paiement ou poursuite isolée pendant la durée du compte [1]. Par ailleurs, l'article 737 dispose que ces créances cessent d'être soumises à leurs règles propres de prescription et d'intérêts ; à la place, elles produisent des intérêts composés (anatocisme) selon les conditions du compte ou l'usage [3]. Concernant la fin du contrat, l'article 732 prévoit que le compte courant à durée indéterminée peut être clos à tout moment par la volonté de l'une des parties. La clôture a pour effet de figer la position du compte et de rendre le solde débiteur ou créditeur immédiatement exigible [2]. Ainsi, ce mécanisme simplifie les relations d'affaires en différant le règlement au solde final. \n\nSources: art. 728, 732, 737 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_004",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [541, 569],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يتمتع العمال بأولوية في استخلاص أجورهم في حالة إفلاس المؤسسة المشغلة؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 541 من مجلة التجارة\nعلى المصفّي، في غضون الأيام العشرة الموالية لحكم الإفلاس، أن يدفع بأمر من القاضي المقرر، وبقطع النظر عن وجود أي دائن آخر، شريطة توفر الأموال اللازمة لديه، القسم غير القابل للحجز من المبالغ الباقية بذمة العمال والمستخدمين... عن آخر فترة خلاص سابقة لحكم الإفلاس.\n\n[2] المصدر: الفصل 569 من مجلة التجارة\nتتمتع ديون العمال في جزئها غير القابل للحجز طبق الفصل 151 (ثانيا) من مجلة الشغل وديون الأشهر الستة الأخيرة للمستخدمين... بامتياز فائق وتدفع قبل أي دين آخر."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى أحكام مجلة التجارة، يتمتع العمال والمستخدمون بحماية استثنائية في مواجهة إفلاس رب العمل، وتعتبر ديونهم ذات أولوية مطلقة. فوفقاً للفصل 569، تتمتع مستحقات العمال غير القابلة للحجز والمحددة بالفصل 151 من مجلة الشغل، إضافة إلى أجور الأشهر الستة الأخيرة، بما يسمى \"الامتياز الفائق\" (Super privilège) [2]. ويعني هذا عملياً أن هذه الديون تدفع قبل أي دين آخر مهما كانت درجته أو رتبته. وعلاوة على ذلك، يُلزم الفصل 541 المصفّي القضائي بدفع الجزء غير القابل للحجز من هذه الأجور في أجل أقصاه عشرة أيام من تاريخ الحكم بالإفلاس، حتى ولو لم تكن السيولة المالية للمؤسسة كافية لسداد باقي الدائنين [1]. وتهدف هذه الأحكام إلى تحقيق غاية اجتماعية حمائية تتمثل في ضمان مصدر عيش العامل وأسرته في أوقات الأزمات المالية للمؤسسة.\n\nالمصادر: الفصلان 541 و569 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_005",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [189],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je veux vendre le nom de mon restaurant mais pas les murs ni le matériel. Est-ce que c'est possible ?\n\nDocuments pertinents:\n[1] Source: article 189 du Code de Commerce\nFont partie du fonds de commerce, les biens mobiliers affectés à l'exercice d'une activité commerciale. Le fonds de commerce comprend obligatoirement la clientèle et l'achalandage. Il comprend aussi... le nom commercial, le droit au bail, le matériel..."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question soulève un point crucial concernant la composition du fonds de commerce. En vertu de l'article 189 du Code de Commerce, le fonds de commerce est une universalité comprenant des éléments incorporels (clientèle, nom commercial) et corporels (matériel, marchandises) [1]. La question n'est pas claire sur l'étendue de la cession envisagée. Vendez-vous uniquement le \"nom commercial\" (l'enseigne) en tant que bien isolé, ou le \"fonds de commerce\" dans son ensemble en excluant certains éléments ? Pourriez-vous préciser si vous entendez conserver l'exploitation du restaurant sous un autre nom ou si vous cessez complètement l'activité ? La réponse juridique dépend de cette distinction, car la vente d'un fonds de commerce est soumise à des formalités de publicité et de purge (articles 191 et suivants) qui ne s'appliquent pas à la cession isolée d'une enseigne.\n\nSources: art. 189 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_005",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [435, 439],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: بصفتي مدير شركة تواجه صعوبات مالية، ما هي الخطوات الإجرائية الأولى التي يجب عليّ اتخاذها لطلب الإنقاذ القضائي؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 435 من مجلة التجارة\nيقدم مطلب الإنقاذ القضائي إلى رئيس المحكمة الابتدائية... من قبل مالك المؤسسة... أو رئيس مدير عام الشركة... ويجب على المدين أو المسير تقديم... البرنامج المقترح للإنقاذ، وقائمة اسمية في الحرفاء والمزودين الرئيسيين...\n\n[2] المصدر: الفصل 439 من مجلة التجارة\nيتولى رئيس المحكمة في قرار فتح الإنقاذ القضائي فتح فترة مراقبة لمدة لا تتجاوز تسعة أشهر قابلة للتمديد مرة واحدة لمدة لا تتجاوز ثلاثة أشهر. ويعين قاضيا مقررا ومسيرا قضائيا."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 435 من مجلة التجارة، يقع على عاتق مسيّر الشركة التي تواجه صعوبات اقتصادية واجب التوجه إلى رئيس المحكمة الابتدائية المختصة ترابياً لتقديم مطلب رسمي للإنقاذ القضائي [1]. ويجب أن يكون هذا المطلب مرفقاً وجوباً بمجموعة من الوثائق والبيانات المنصوص عليها بالفصل 417، بالإضافة إلى برنامج إنقاذ مقترح يوضح كيفية تجاوز الأزمة، وقائمة بأهم الحرفاء والمزودين [1]. بناءً على هذا المطلب، وإذا ثبتت حالة التوقف عن الدفع، يصدر رئيس المحكمة قراراً بفتح فترة مراقبة لا تتجاوز مدتها تسعة أشهر (قابلة للتمديد بثلاثة أشهر)، ويعين لهذه الغاية قاضياً مقرراً للإشراف على الملف ومسيراً قضائياً لمراقبة التسيير أو إدارته [2]. إن سرعة المبادرة بتقديم هذا المطلب أمر جوهري للحفاظ على فرص إنقاذ المؤسسة.\n\nالمصادر: الفصلان 435 و439 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_006",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [306],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans quels cas un porteur de lettre de change peut-il exercer ses recours avant même la date d'échéance de la traite ?\n\nDocuments pertinents:\n[1] Source: article 306 du Code de Commerce\nLe porteur peut exercer ses recours contre les endosseurs, le tireur et les autres obligés même avant l'échéance : 1) s'il y a eu refus total ou partiel d'acceptation ; 2) dans le cas de faillite du tiré, accepteur ou non, de cessation de ses payements... ou de saisie de ses biens demeurée infructueuse ; 3) dans le cas de faillite du tireur d'une lettre non acceptable."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 306 du Code de Commerce, le principe général est que les recours cambiaires ne sont ouverts qu'à l'échéance, en cas de non-paiement. Toutefois, le législateur a prévu trois situations dérogatoires où le porteur est autorisé à agir par anticipation afin de préserver ses droits face à la défaillance prévisible du débiteur principal. Ces cas sont : premièrement, le refus total ou partiel d'acceptation de la lettre de change par le tiré ; deuxièmement, la survenance de la faillite du tiré, ou même une simple cessation des paiements ou saisie infructueuse le concernant ; et troisièmement, la faillite du tireur d'une lettre de change qui n'a pas été acceptée [1]. Ainsi, ces dispositions visent à protéger le crédit du porteur en lui évitant d'attendre une échéance qui s'annonce déjà compromise.\n\nSources: art. 306 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_006",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [411],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي العقوبات المقررة في القانون التونسي على من يصدر شيكاً بدون رصيد؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 411 من مجلة التجارة\nيعاقب بالسجن مدة خمسة أعوام وبخطية تساوي أربعين بالمائة من مبلغ الشيك أو المبلغ المتبقي من الرصيد... كل من أصدر شيكا دون رصيد سابق ومتوفر... أو سحب بعد إصدار الشيك كل الرصيد أو بعضه... أو اعترض لدى المسحوب عليه على دفعه خارج الحالات المنصوص عليها بالفصل 374 من هذه المجلة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 411 من مجلة التجارة التونسية، يشكل إصدار شيك بدون رصيد جريمة جنائية يعاقب عليها المشرع بعقوبات صارمة. المبدأ العام هو معاقبة مرتكب هذه الجريمة بالسجن لمدة تصل إلى خمس سنوات وبخطية مالية نسبية لا تقل عن أربعين بالمائة من قيمة المبلغ غير المدفوع من الشيك [1]. غير أن هذه العقوبة الأصلية ليست الوحيدة، إذ أن القانون يفرض تبعاً لذلك عقوبة تكميلية وجوبية تتمثل في المنع من استعمال دفاتر الشيكات العادية (باستثناء شيكات السحب المباشر أو شيكات الرصيد المعتمد) لمدة لا تقل عن سنتين ولا تتجاوز خمس سنوات [1]. وتجدر الإشارة إلى أن القانون يفتح الباب أمام \"التسوية\" بدفع المبلغ والخطية والفوائض مما قد يوقف سريان العقوبة السالبة للحرية. وتهدف هذه الأحكام إلى الحفاظ على الثقة في وسيلة الدفع الصكية وحماية الدائنين.\n\nالمصادر: الفصل 411 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_cross_002",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [601, 606, 608],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la différence entre un commissionnaire simple et un commissionnaire ducroire ?\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 601 من مجلة التجارة\nعقد العمولة هو الوكالة التي يتلقى بمقتضاها تاجر سلطة التصرف باسمه الخاص لحساب موكله الذي يسمى الآمر.\n\n[2] المصدر: الفصل 606 من مجلة التجارة\nلا يجوز للعمولة أن يكون طرفا مقابل في غياب الإذن الصريح من الآمر.\n\n[3] المصدر: الفصل 608 من مجلة التجارة\nإذا كان العمولة ضامنا، فإنه يكون ضامنا تجاه الآمر، بالتضامن مع الغير، لتنفيذ الالتزامات التي يتحمل بها هذا الغير. غير أنه يمكن أن تقتصر آثار شرط الضمان على ما هو وارد بالاتفاق."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى أحكام مجلة التجارة، يكمن الفرق الجوهري بين العمولة البسيط والعمولة الضامن (Ducroire) في مدى مسؤوليته عن تنفيذ العقد من قبل الغير. فالأصل أن عقد العمولة هو عقد وكالة خاص، حيث يتعاقد الوسيط باسمه الخاص ولكن لحساب الآمر، وذلك استناداً لأحكام الفصل 601 [1]. وفي هذه الحالة، لا يضمن العمولة البسيط ملاءة الطرف الثالث الذي تعاقد معه، كما أنه لا يجوز له أن يشتري البضاعة لنفسه (أن يكون هو الطرف المقابل) إلا بإذن صريح من الآمر طبقاً للفصل 606 [2]. أما العمولة الضامن (Ducroire) فيختلف وضعه جوهرياً وفقاً للفصل 608، حيث يلتزم بضمان تنفيذ التزامات الغير الذي تعاقد معه، ويكون مسؤولاً بالتضامن مع ذلك الغير تجاه الآمر [3]. وبالتالي، فإن العمولة الضامن يتحمل مخاطر عدم الدفع أو عدم التنفيذ مقابل عمولة أعلى في العادة. هذا التمييز جوهري لتحديد المسؤولية في حال إفلاس المشتري الذي وجده العمولة.\n\nالمصادر: الفصول 601 و606 و608 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_007",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les normes sanitaires exactes à respecter pour l'ouverture d'un dépôt de boissons gazeuses ?\n\nDocuments pertinents:\n[1] Source: article 2 du Code de Commerce\nSont commerçants ceux qui exercent des actes de commerce... Toutefois, n'est pas commerçant quiconque exerce une profession agricole..."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis, qui constituent le Code de Commerce tunisien, ne contiennent pas d'informations suffisantes pour répondre à cette question. En effet, le Code de Commerce régit le statut du commerçant, les actes de commerce et les contrats commerciaux, mais il ne traite pas des normes sanitaires spécifiques à l'activité de dépôt de boissons. Ces normes relèvent généralement de la réglementation relevant du Ministère de la Santé ou du Ministère du Commerce concernant la sécurité alimentaire et l'hygiène publique. Je vous recommande de consulter les textes réglementaires spécifiques à ce secteur d'activité ou de vous rapprocher de l'Agence Nationale de Sécurité Sanitaire des Produits Alimentaires.\n\nCeci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_007",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [335],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي آجال تقادم الدعاوى الناشئة عن الكمبيالة في القانون التجاري التونسي؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 335 من مجلة التجارة\nتتقادم جميع الدعاوى الناشئة عن الكمبيالة على القابل بثلاث سنوات من تاريخ الاستحقاق. وتتقادم دعاوى الحامل على المظهرين والساحب بسنة من تاريخ البروتستو المحرر في الأجل القانوني أو من تاريخ الاستحقاق في حالة شرط الرجوع بلا مصاريف. وتتقادم دعاوى المظهرين فيما بينهم وعلى الساحب بستة أشهر من اليوم الذي دفع فيه المظهر قيمة الكمبيالة أو من يوم مطالبته بها قضائيا."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 335 من مجلة التجارة، تخضع الدعاوى الناشئة عن الكمبيالة لآجال تقادم قصيرة تختلف باختلاف صفة المدعى عليه وذلك ضماناً لاستقرار المعاملات التجارية وسرعة تصفيتها. فبالنسبة للقابل، وهو المدين الرئيسي، تتقادم الدعوى الموجهة ضده بمرور ثلاث سنوات تبدأ من تاريخ استحقاق الكمبيالة [1]. أما دعوى حامل الكمبيالة تجاه المظهرين والساحب فتتقادم بمضي سنة واحدة، ويبدأ سريان هذا الأجل من تاريخ تحرير البروتستو الاحتجاجي في الميعاد القانوني، أو من تاريخ الاستحقاق ذاته إذا تضمن السند شرط الرجوع بلا مصاريف [1]. وأخيراً، فإن دعاوى المظهرين فيما بينهم (دعاوى الرجوع) تتقادم بأجل أقصر هو ستة أشهر فقط تبدأ من تاريخ وفاء المظهر بقيمة الكمبيالة أو من تاريخ مقاضاته بشأنها [1]. إن انقضاء هذه الآجال يؤدي إلى سقوط الحق في المطالبة القضائية.\n\nالمصادر: الفصل 335 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_008",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [705, 706],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Une banque peut-elle révoquer unilatéralement une ouverture de crédit consentie à mon entreprise ?\n\nDocuments pertinents:\n[1] Source: article 705 du Code de Commerce\nL'ouverture de crédit... est consentie pour une durée limitée ou illimitée; dans le second cas, elle est révocable à la volonté du banquier, à charge de préavis de huit jours par lettre recommandée.\n\n[2] Source: article 706 du Code de Commerce\nL'ouverture de crédit peut être révoquée de plein droit avant le terme convenu, en cas de décès du bénéficiaire, de survenance chez lui d'une cause d'incapacité, de cessation notoire de ses paiements... et de faute lourde commise dans l'utilisation du crédit qui lui a été consenti."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 705 et 706 du Code de Commerce, la réponse diffère selon la durée du crédit et le comportement du bénéficiaire. Le principe posé par l'article 705 est que si l'ouverture de crédit est consentie pour une durée illimitée, la banque conserve la faculté de la révoquer unilatéralement, sous réserve impérative de respecter un préavis de huit jours notifié par lettre recommandée [1]. Par ailleurs, même si le crédit est à durée déterminée, l'article 706 prévoit des cas exceptionnels de révocation immédiate et de plein droit, notamment en cas de décès, d'incapacité, de cessation des paiements ou de faute lourde du bénéficiaire dans l'utilisation des fonds [2]. Ainsi, la révocation est toujours possible pour le banquier afin de maîtriser son risque, mais elle est encadrée par un formalisme protecteur du crédit de l'entreprise (le préavis). \n\nSources: art. 705, 706 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_008",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [289],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: أرغب في ضمان كمبيالة لصديقي، هل مجرد توقيعي على ظهر الورقة يكفي؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 289 من مجلة التجارة\nيمكن ضمان وفاء الكمبيالة كلها أو بعضها بضمان احتياطي. يقدم هذا الضمان من الغير أو حتى من أحد الموقعين على الكمبيالة. يكتب الضمان على الكمبيالة أو على ورقة متصلة بها، ويكون بعبارة \"صالح للضمان\" أو أي عبارة مماثلة، ويوقعه المانح. ويعتبر حاصلا من مجرد توقيع مانح الضمان الموجود على وجه الكمبيالة، ما عدا توقيع المسحوب عليه أو الساحب."
+        },
+        {
+          "role": "assistant",
+          "content": "إن مسألة شكل الضمان الاحتياطي للكمبيالة (Aval) مسألة دقيقة تخضع لأحكام الفصل 289 من مجلة التجارة. إن مجرد التوقيع على ظهر الكمبيالة لا يشكل وحده ضماناً احتياطياً واضحاً، بل قد يتم تفسيره على أنه تظهير (نقل للملكية) مما يجعلك مسؤولاً تجاه الحامل اللاحق. لتوضيح موقفكم، يجب التمييز: إذا وقعتم على وجه الكمبيالة (الجهة الأمامية) فإن القانون يفترض أن هذا التوقيع هو ضمان احتياطي ما لم تكونوا أنتم الساحب أو المسحوب عليه [1]. أما إذا كان توقيعكم على ظهر الورقة، فإنه لا يعتبر ضماناً بالمعنى القانوني إلا إذا كان مرفقاً صراحة بعبارة \"صالح للضمان\" (Bon pour aval) أو ما يفيدها [1]. يرجى توضيح مكان توقيعكم وهل أضفتم أية عبارة كتابية؟ لأن آثار الضمان (التضامن مع المدين) تختلف جوهرياً عن آثار التظهير (ضمان القبول والوفاء).\n\nالمصادر: الفصل 289 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_009",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [598],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment doit-on prouver un contrat commercial en Tunisie si aucune facture n'a été établie ?\n\nDocuments pertinents:\n[1] Source: article 598 du Code de Commerce\nLes contrats commerciaux peuvent se prouver par tous moyens à l'égard des commerçants... par la preuve testimoniale et par présomptions dans le cas où le tribunal croira devoir les admettre."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 598 du Code de Commerce, le droit commercial tunisien est régi par un principe de liberté de la preuve. Contrairement au droit civil qui exige souvent un écrit pour les actes dépassant un certain montant, l'article 598 dispose que les contrats commerciaux peuvent se prouver par tous moyens à l'égard des commerçants [1]. Ainsi, en l'absence de facture ou d'écrit, le créancier peut valablement recourir à la preuve testimoniale (témoignages), aux correspondances échangées, ou encore aux présomptions de fait, laissées à l'appréciation souveraine du tribunal [1]. Cette souplesse probatoire vise à faciliter la rapidité des transactions commerciales et à ne pas bloquer le recouvrement de créances pour des raisons purement formelles. \n\nSources: art. 598 du Code de Commerce. \nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_009",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [609, 617, 618],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: قمت بدور الوسيط في صفقة تجارية وتم إبرام العقد، لكن تم فسخه لاحقاً بسبب عيب في البضاعة. هل أستحق العمولة؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 609 من مجلة التجارة\nالسمسرة هي الاتفاق الذي يلتزم بمقتضاه السمسار بالبحث عن شخص ليتصل بآخر بقصد إبرام عقد.\n\n[2] المصدر: الفصل 617 من مجلة التجارة\nتستحق أجرة السمسار بمجرد إبرام العقد الذي تدخل من أجله. وإذا أبرم العقد تحت شرط واقف، فلا حق للسمسار في الأجرة إلا إذا تحقق الشرط.\n\n[3] المصدر: الفصل 618 من مجلة التجارة\nإذا فسخ العقد فيما بعد، سواء باتفاق الطرفين أو لأحد أسباب الإبطال المقررة قانونا، فإن السمسار لا يفقد حقه في المطالبة بأجرته ولا يلزم برد ما قبضه منه، كل ذلك ما لم يكن هناك غش أو خطأ ثابت في جانب السمسار نفسه."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى أحكام الفصول 609 و617 و618 من مجلة التجارة، فإن استحقاق السمسار لأجرته يرتبط بإبرام العقد وليس باستمراره أو تنفيذه. فالمبدأ العام، كما نص عليه الفصل 617، هو أن السمسار يستحق الأجرة بمجرد إتمام مهمته في التوفيق بين الطرفين وإبرام العقد [2]. وعلاوة على ذلك، يعالج الفصل 618 وضعيتكم بدقة؛ فحتى في حالة فسخ العقد لاحقاً لأي سبب كان، بما في ذلك العيب في المبيع، فإن السمسار لا يفقد حقه في الأجرة ولا يلتزم بردها، طالما أنه لم يرتكب غشاً أو خطأ جسيماً في تنفيذ مهمته [3]. غير أن هذا المبدأ لا يطبق إذا كان السمسار على علم بالعيب وأخفاه عن قصد (غش) أو أهمل في واجب الإعلام والنصح المنصوص عليه بالفصل 610 [1]. وبالتالي، طالما قمتم بدوركم بحسن نية، فإن فسخ العقد لسبب لا دخل لكم فيه لا يؤثر على حقكم في العمولة.\n\nالمصادر: الفصول 609 و617 و618 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_fr_010",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le délai de rétractation pour un achat effectué auprès d'un démarcheur à domicile ?\n\nDocuments pertinents:\n[1] Source: article 2 du Code de Commerce\nSont commerçants ceux qui exercent des actes de commerce...\n\n[2] Source: article 598 du Code de Commerce\nLes contrats commerciaux peuvent se prouver par tous moyens..."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations permettant de répondre à votre question concernant le droit de rétractation du consommateur démarché à domicile. Le Code de Commerce régit principalement les relations entre commerçants et les actes de commerce. Les dispositions relatives à la protection du consommateur, et notamment le délai de rétractation en matière de démarchage à domicile, relèvent du Code de la Consommation ou de lois spéciales relatives aux pratiques commerciales. Je vous recommande de consulter les textes législatifs relatifs à la protection du consommateur ou de solliciter l'avis d'une association de défense des consommateurs.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cc_ar_010",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [625],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يعرّف القانون التجاري التونسي الوكيل التجاري؟\n\nالمستندات ذات الصلة:\n[1] المصدر: الفصل 625 من مجلة التجارة\nالوكيل التجاري هو الشخص الذي، دون أن يكون مرتبطا بعقد إيجار خدمات، يلتزم بإعداد أو إبرام، بصفة اعتيادية، عمليات شراء أو بيع وبوجه عام جميع العمليات التجارية الأخرى باسم ولحساب تاجر."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 625 من مجلة التجارة، يُعرف الوكيل التجاري بأنه الشخص المستقل الذي يمارس نشاطه بصفة اعتيادية في إعداد أو إبرام الصفقات التجارية لحساب تاجر موكله وباسمه [1]. وتتمثل السمة الجوهرية لهذا التعريف في استقلالية الوكيل التجاري عن موكله، حيث يمارس عمله دون أن يكون مرتبطاً بعقد شغل (أي أنه ليس أجيراً أو مستخدماً) [1]. وهو ما يميزه عن ممثل الشركة أو المدير التجاري المرتبط بعقد عمل. وبناءً على ذلك، فإن الوكيل التجاري يخضع لنظام قانوني خاص فيما يتعلق بإنهاء العقد وحقه في التعويض عن الخسارة، وذلك على خلاف الوكيل العادي الخاضع لأحكام الوكالة المدنية.\n\nالمصادر: الفصل 625 من مجلة التجارة.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Livre I: Du Commerce en général (Qualité de commerçant, Obligations comptables)",
+      "Livre II: Du Fonds de Commerce (Vente, Formalités)",
+      "Livre III: Des Effets de Commerce (Lettre de Change, Billet à Ordre, Chèque, Sanctions pénales)",
+      "Livre IV: Des Procédures Collectives (Redressement, Faillite, Privilège des salaires)",
+      "Livre V: Des Contrats Commerciaux (Preuve, Commission, Courtage, Agence, Banque, Compte Courant)"
+    ],
+    "sections_not_covered": [
+      "Titre III du Livre I relatif aux sociétés (abrogé et remplacé par le Code des Sociétés Commerciales)",
+      "Détail des procédures collectives au-delà des définitions générales",
+      "Transport de marchandises et de personnes (articles 627-669)"
+    ],
+    "notes": "Le lot couvre les aspects fondamentaux du Code de Commerce : statut du commerçant, vente du fonds de commerce, mécanismes cambiaires, sanctions pénales du chèque sans provision et distinction redressement/faillite. Les articles relatifs aux sociétés commerciales ont été exclus du corpus car abrogés et transférés au CSC. Le prochain lot pourrait approfondir le contrat de transport et les opérations bancaires détaillées."
+  }
+}

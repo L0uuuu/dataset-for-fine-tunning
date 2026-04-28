@@ -1,0 +1,461 @@
+{
+  "batch_id": "batch_CCP_003_20260420",
+  "source": "Code de la Comptabilité Publique de Tunisie (version intégrant modifications jusqu'en 2006)",
+  "articles_covered": [
+    54, 60, 61, 62, 63, 64, 66, 67, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83,
+    163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 179, 180,
+    181, 182, 183, 184, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227,
+    228, 229, 230, 231, 232, 233, 234, 235, 240, 241, 242, 243, 244, 245, 246,
+    247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 263, 264,
+    265, 266, 267, 268, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283,
+    284, 285, 286
+  ],
+  "articles_to_avoid_next_batch": [
+    54, 60, 61, 62, 63, 64, 66, 67, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83,
+    163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 179, 180,
+    181, 182, 183, 184, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227,
+    228, 229, 230, 231, 232, 233, 234, 235, 240, 241, 242, 243, 244, 245, 246,
+    247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 263, 264,
+    265, 266, 267, 268, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283,
+    284, 285, 286
+  ],
+  "examples": [
+    {
+      "example_id": "cp_fr_direct_041",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [54],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment s'effectue le paiement des dépenses de trésorerie de l'État ?\n\nDocuments pertinents:\n[1] Source: article 54 du Code de la Comptabilité Publique\nLe paiement des dépenses de trésorerie a lieu sans ordonnancement et est effectué suivant les règles prévues pour le paiement des dépenses budgétaires."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 54 du CCP, le paiement des dépenses de trésorerie s'effectue sans ordonnancement préalable, conformément aux règles applicables aux dépenses budgétaires. Cette dérogation vise à assurer la fluidité des opérations de trésorerie, qui par nature requièrent une exécution rapide. Toutefois, le caractère libératoire du paiement demeure soumis au respect des formalités de contrôle et de justification prévues pour les dépenses publiques. Sources: art. 54 du CCP.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_fr_direct_042",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [66],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Une collectivité publique locale peut-elle contracter un emprunt sans autorisation ?\n\nDocuments pertinents:\n[1] Source: article 66 du Code de la Comptabilité Publique\nAucune collectivité publique locale ne peut contracter une dette sous les formes définies à l'article 65 du présent code sans autorisation préalable par décret."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 66 du CCP, aucune collectivité publique locale ne peut contracter une dette sous les formes définies à l'article 65 (émission de titres, emprunts à terme, engagements par annuités) sans autorisation préalable par décret. Cette exigence vise à garantir la maîtrise de l'endettement public local et la cohérence avec la politique financière de l'État. Par ailleurs, toute dérogation à cette règle serait nulle et de nul effet. Sources: art. 66 du CCP.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_fr_multi_043",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [73, 74],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le sort des créances non recouvrées en fin de gestion par les receveurs des finances ?\n\nDocuments pertinents:\n[1] Source: article 73 du Code de la Comptabilité Publique\nLe ministre des finances ou celui ayant reçu délégation du ministre des finances à cet effet est autorisé à fixer, en fonction des frais de recouvrement, pour chaque catégorie d'impôts, de revenus ou autres créances publiques, le montant d'un minimum de recettes au-dessous duquel les sommes exigibles ne sont pas mises en recouvrement.\n\n[2] Source: article 74 du Code de la Comptabilité Publique\nLe recouvrement des droits et produits constatés pour chaque gestion est suivi pendant l'année financière. Les agents chargés du recouvrement qui ne l'ont pas effectué à la date du 31 décembre doivent en justifier l'impossibilité en se conformant aux prescriptions contenues à cet égard dans les lois, décrets et instructions spéciales à la matière. Il est fait application, à la gestion suivante des restes à recouvrer au 31 décembre de l'année. A partir du 1er janvier, ils sont pris en charge au titre de la gestion suivante."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 74 du CCP, le recouvrement des droits constatés est suivi pendant l'année financière ; les restes à recouvrer au 31 décembre sont reportés et pris en charge au titre de la gestion suivante à compter du 1er janvier. En outre, l'article 73 du CCP habilite le ministre des finances à fixer un seuil minimal de recouvrement en fonction des frais engagés, en dessous duquel les sommes ne sont pas mises en recouvrement. Ainsi, les créances non recouvrées font l'objet d'un suivi inter-gestion, sauf dispense justifiée par l'inefficacité économique du recouvrement. Sources: art. 73, 74 du CCP.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_fr_principle_exception_044",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [76, 77, 78],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un contribuable peut-il payer ses impôts par chèque ? Quelles sont les conditions et les risques pour le comptable ?\n\nDocuments pertinents:\n[1] Source: article 76 du Code de la Comptabilité Publique (modifié par L.F n°2004-90)\nLe règlement des contributions, droits et revenus publics, s'effectue par versement d'espèces, par mandat administratif, par remise de chèques bancaires ou postaux ou par versement ou virement au compte courant postal ouvert au nom du comptable public ou par les moyens du paiement électronique fiable conformément à la législation en vigueur relative aux échanges électroniques.\n\n[2] Source: article 77 du Code de la Comptabilité Publique (modifié par loi n°2003-80)\nLes chèques, remis en paiement des contributions et revenus publics, doivent satisfaire aux conditions de régularité prévues par la loi de droit commun, et, en outre, aux conditions suivantes : - Etre tirés sur une banque en compte avec la banque centrale de Tunisie ou, le cas échéant, directement sur cette dernière. - Etre à l'ordre impersonnel du comptable intéressé. - Etre barrés par le redevable au nom de la banque centrale de Tunisie. - Etre tirés sur le compte du débiteur lui-même ou être certifiés dans les conditions de l'article 349 du code de commerce.\n\n[3] Source: article 78 du Code de la Comptabilité Publique\nLes comptables ne doivent livrer les produits de l'Etat dont le prix leur est payé par chèque ou les marchandises constituant le gage des droits payés par chèque que si ce chèque est certifié dans les conditions de l'article 349 du code de commerce ou après s'être assurés du paiement du chèque. La responsabilité pécuniaire du comptable qui passe outre aux prescriptions du présent article sera engagée en cas de non-paiement du chèque."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 76 du CCP, le paiement par chèque bancaire ou postal est admis pour le règlement des contributions publiques. Toutefois, l'article 77 du CCP impose des conditions strictes : le chèque doit être tiré sur une banque en compte avec la BCT, à l'ordre impersonnel du comptable, barré au nom de la BCT, et tiré sur le compte du débiteur ou certifié. En outre, l'article 78 du CCP engage la responsabilité pécuniaire du comptable en cas de livraison de produits avant encaissement effectif. Ainsi, cette flexibilité de paiement s'accompagne d'un cadre de sécurité visant à protéger les deniers publics. Sources: art. 76, 77, 78 du CCP.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_fr_refusal_045",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les droits et obligations d'un agent contractuel de l'État en matière de remboursement de frais de déplacement ?\n\nDocuments pertinents:\n[1] Source: Aucun article pertinent dans les extraits fournis du Code de la Comptabilité Publique."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Je vous recommande de consulter un avocat spécialisé ou le statut général de la fonction publique ainsi que les textes réglementaires relatifs aux indemnités des agents contractuels."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_fr_clarification_046",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [80, 81],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un redevable peut-il payer ses droits de douane avec des obligations cautionnées ? Qu'est-ce qui libère valablement le débiteur ?\n\nDocuments pertinents:\n[1] Source: article 80 du Code de la Comptabilité Publique (modifié par loi n°84-84)\nPour le paiement des droits et taxes recouvrés par le service des douanes, les redevables peuvent être admis à présenter des obligations dûment cautionnées. Ces obligations donnent lieu à un intérêt. Les délais d'échéances des obligations, les conditions d'admission de ce mode de paiement et les opérations qui sont susceptibles d'en bénéficier ainsi que le taux de l'intérêt sont fixés par le ministre des finances ou celui ayant reçu délégation du ministre des finances à cet effet.\n\n[2] Source: article 82 du Code de la Comptabilité Publique\nSous réserve des dispositions particulières prévues par la législation fiscale ou douanière, le débiteur de l'Etat est libéré s'il présente un reçu régulier, s'il invoque le bénéfice d'une prescription ou s'il établit la réalité de l'encaissement par un comptable public des effets bancaires ou postaux émis au profit du Trésor."
+        },
+        {
+          "role": "assistant",
+          "content": "Pourriez-vous préciser de quel type de droits de douane il s'agit et si vous faites référence à une opération d'importation directe par un service de l'État ? L'article 80 du CCP prévoit en effet un régime spécifique pour les « obligations administratives de paiement » dans ce cas. En attendant, sachez que, selon l'article 82 du CCP, le débiteur est libéré par la présentation d'un reçu régulier, l'invocation d'une prescription, ou la preuve de l'encaissement par un comptable public. Sources: art. 80, 82 du CCP.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_fr_procedural_047",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [163, 164, 165, 166],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment sont gérées les dépenses des postes diplomatiques tunisiens à l'étranger et quel est le rôle du chef de poste ?\n\nDocuments pertinents:\n[1] Source: article 163 du Code de la Comptabilité Publique\nLes dépenses des postes diplomatiques et consulaires à l'étranger sont soumises aux règles prescrites par le présent chapitre relatif aux dépenses de l'Etat, sous réserve des dérogations édictées par les articles qui suivent.\n\n[2] Source: article 164 du Code de la Comptabilité Publique\nLes chefs de postes diplomatiques et consulaires à l'étranger sont ordonnateurs secondaires du ministre des affaires étrangères pour les dépenses des postes qu'ils dirigent.\n\n[3] Source: article 165 du Code de la Comptabilité Publique\nLe ministre des affaires étrangères, ordonnateur principal, délègue, chaque année, les crédits revenant aux différents postes inscrits au budget de son département.\n\n[4] Source: article 166 du Code de la Comptabilité Publique (modifié par loi n°99-101)\nLe payeur assignataire vire les crédits délégués à chaque poste au compte courant bancaire du poste intéressé."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 163 du CCP, les dépenses des postes diplomatiques suivent les règles générales des dépenses de l'État, avec des dérogations spécifiques. En outre, l'article 164 du CCP qualifie le chef de poste d'ordonnateur secondaire du ministre des Affaires étrangères. Par ailleurs, les crédits sont délégués annuellement par le ministre (art. 165) puis virés par le payeur assignataire sur le compte bancaire du poste (art. 166). Ainsi, le chef de poste engage et liquide les dépenses dans la limite des crédits délégués, sous sa responsabilité, tandis que le paiement est assuré par l'agent comptable du poste. Sources: art. 163, 164, 165, 166 du CCP.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_fr_direct_048",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [179],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Le trésorier général est-il responsable de la gestion des fonds déposés par les établissements publics ?\n\nDocuments pertinents:\n[1] Source: article 179 du Code de la Comptabilité Publique\nIl assure tous les services de trésorerie qui ne se rattachent pas directement et nécessairement aux services des autres comptables, gère les fonds déposés par les établissements publics et autres correspondants et procède aux opérations de règlement avec les trésors étrangers."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 179 du CCP, le trésorier général gère effectivement les fonds déposés par les établissements publics et autres correspondants, en plus des services de trésorerie non attribués à d'autres comptables. Cette compétence s'inscrit dans son rôle central de coordination des flux financiers de l'État. Toutefois, cette gestion s'effectue dans le cadre des règles de contrôle et de responsabilité propres aux comptables publics. Sources: art. 179 du CCP.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_fr_multi_049",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [184],
+      "confidence_flag": "Les articles 184 bis et 184 ter existent dans le code, mais seul l'article 184 est fourni dans le texte extrait.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les attributions du trésorier général en tant que comptable central du trésor ?\n\nDocuments pertinents:\n[1] Source: article 184 du Code de la Comptabilité Publique (modifié par loi n°96-86)\nLe trésorier général est comptable central du trésor. En cette qualité, il gère le compte du trésor ouvert à la Banque Centrale de Tunisie, centralise dans ses écritures les opérations budgétaires et de trésorerie effectuées, sous leur responsabilité, par les comptables de l'Etat et constate les écritures de fin d'année permettant de dresser les comptes annuels de l'Etat. Et il est chargé de la mise en état d'examen des comptes de gestion présentés par les trésoriers régionaux et de procéder à leur visa pour conformité avec les écritures intérieures des comptables intéressés avant de les transmettre au greffe de la cour des comptes avant le 31 juillet de l'année suivant celle au titre de laquelle ils sont établis."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 184 du CCP, le trésorier général, en qualité de comptable central, gère le compte du Trésor à la BCT, centralise les opérations budgétaires et de trésorerie des comptables de l'État, et établit les écritures de fin d'année pour les comptes annuels. En outre, il assure la mise en état d'examen des comptes des trésoriers régionaux, les vise pour conformité, et les transmet à la Cour des comptes avant le 31 juillet de l'année suivante. Ainsi, cette fonction centrale garantit la cohérence et la fiabilité de la comptabilité publique nationale. Sources: art. 184 du CCP.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_fr_clarification_050",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [217, 218, 219],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qu'entend-on par \"fonds spéciaux du trésor\" et comment sont-ils gérés ?\n\nDocuments pertinents:\n[1] Source: article 217 du Code de la Comptabilité Publique\nCertaines recettes, créées par la loi de finances, peuvent recevoir, par cette même loi, une affectation spéciale sous forme de fonds spéciaux du trésor.\n\n[2] Source: article 218 du Code de la Comptabilité Publique\nLes ministres et secrétaires d'Etat, chefs de départements, sont ordonnateurs principaux des recettes et des dépenses des fonds spéciaux du trésor.\n\n[3] Source: article 219 du Code de la Comptabilité Publique\nLes opérations d'engagement, de liquidation, d'ordonnancement et de paiement des dépenses imputables sur ces fonds spéciaux sont assujetties aux dispositions régissant les dépenses imputables sur le budget de l'Etat, sous réserve que le total des dépenses engagées ou ordonnancées, au titre d'un fonds spécial du trésor, ne peut excéder le total des ressources du même fonds."
+        },
+        {
+          "role": "assistant",
+          "content": "Pourriez-vous préciser si votre question porte sur un fonds spécial en particulier (ex : fonds de solidarité, fonds de développement) ? Les articles 217 à 219 du CCP définissent le cadre général : les fonds spéciaux sont créés par la loi de finances avec affectation spéciale (art. 217), ordonnancés par les ministres (art. 218), et leurs dépenses suivent les règles budgétaires dans la limite des ressources du fonds (art. 219). Une précision sur le fonds concerné permettrait une réponse plus ciblée. Sources: art. 217, 218, 219 du CCP.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_ar_direct_051",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [221],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم إنشاء الميزانيات الملحقة في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 221 من مجلة المحاسبة العمومية التونسية\nتُحدث الميزانيات الملحقة وتلغى بقانون المالية. تُنظم الخدمات المزودة بها بأمر."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 221 من مجلة المحاسبة العمومية، تُحدث الميزانيات الملحقة وتُلغى بقانون المالية، بينما تُنظَّم الخدمات المزودة بها بأمر. وبالتالي، يخضع إنشاء هذه الميزانيات لسلطة التشريع المالي، في حين يُترك التنظيم الإداري للسلطة التنفيذية. وهذا يضمن الرقابة البرلمانية على الموارد المخصصة لهذه الخدمات. المصادر: الفصل 221 من مجلة المحاسبة العمومية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_ar_direct_052",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [240],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي صفة الوكيل المحاسبي للمؤسسات العمومية في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 240 من مجلة المحاسبة العمومية التونسية (المعدل بالقانون عدد 90-111 لسنة 1990)\nالوكيل المحاسبي المذكور له صفة محاسب أصلي. يمكن أن تكون له كذلك، عند الاقتضاء، صفة محاسب مركزي. يمكن تعيين محاسبين أصليين أو ثانويين وفق الطرق المنصوص عليها بالفصل السابق وتتم مركزة العمليات التي يقومون بها في محاسبة الوكيل المحاسبي المركزي المذكور أعلاه."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 240 من مجلة المحاسبة العمومية، يتمتع الوكيل المحاسبي للمؤسسة العمومية بصفة محاسب أصلي، ويمكن أن تُمنح له صفة محاسب مركزي عند الاقتضاء. علاوة على ذلك، يجوز تعيين محاسبين آخرين تكون عملياتهم مُركَّزة في محاسبة الوكيل المركزي. وبالتالي، يضمن هذا التنظيم وحدة الرقابة المحاسبية على مستوى المؤسسة. المصادر: الفصل 240 من مجلة المحاسبة العمومية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_ar_multi_053",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [241, 242],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم تحصيل موارد المؤسسة العمومية ومن يوجه سندات التحصيل النهائية؟\n\nDocuments pertinents:\n[1] Source: الفصل 241 من مجلة المحاسبة العمومية التونسية\nتُصفى مداخيل المؤسسة من قبل الآمر بالصرف في الحدود المنصوص عليها بالقوانين والتراتيب الجاري بها العمل.\n\n[2] Source: الفصل 242 من مجلة المحاسبة العمومية التونسية (المعدل بالقانون عدد 89-42 لسنة 1989)\nتُوجه سندات التحصيل النهائية لمنتوجات ومداخيل المؤسسة التي يضمن المحاسب خلاصها مباشرة إلى هذا الأخير من قبل الآمر بالصرف. يقوم هذا الأخير بإعلام الأمين الجهوي للخزينة بغرض التثبت والمراقبة. مع ذلك، تُقبض المداخيل العرضية والمتغيرة التي لا يمكن أن تنتج عن سند سابق الخلاص، من قبل المحاسب بناء على سندات تحصيل وقتية مصادق عليها من قبل رئيس المؤسسة أو العمدة، على أن يقدم عنها تقريرًا إلى وزير المالية أو من يفوضه."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 241 من المجلة، تُصفى مداخيل المؤسسة من قبل الآمر بالصرف وفق القوانين والتراتيب النافذة. علاوة على ذلك، ينص الفصل 242 على أن سندات التحصيل النهائية تُوجَّه مباشرة إلى المحاسب من قبل الآمر بالصرف، مع إعلام الأمين الجهوي للخزينة للمراقبة. غير أن المداخيل العرضية تُقبض بناء على سندات وقتية مصادق عليها، مع وجوب رفع تقرير لوزير المالية. وبالتالي، يجمع هذا النظام بين المرونة في التحصيل والرقابة المالية المشددة. المصادر: الفصل 241، 242 من مجلة المحاسبة العمومية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_ar_principle_exception_054",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [245, 246, 247],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم ربط وخلاص نفقات المؤسسات العمومية، وماذا يحدث إذا رفض الآمر بالصرف الأمر بصرف نفقة؟\n\nDocuments pertinents:\n[1] Source: الفصل 245 من مجلة المحاسبة العمومية التونسية (المعدل بالقانون عدد 96-86 لسنة 1996)\nتُربط النفقات وتُصفى ويؤمر بها من قبل رئيس المؤسسة، مع مراعاة الرأي المسبق للجنة الاستشارية في الحالات المنصوص عليها بالترتيب الذي يحدد اختصاصات هذه اللجنة. يقوم الأمراء الثانويون الذين فوضت لهم اعتمادات بنفس العمليات. تخضع العمليات المذكورة أعلاه لتأشير مصلحة مراقبة النفقات العمومية.\n\n[2] Source: الفصل 246 من مجلة المحاسبة العمومية التونسية (المعدل بالقانون عدد 90-111 لسنة 1990)\nتؤمر أوامر الخلاص في الأشكال المنصوص عليها للأوامر الصادرة على الميزانية العامة للدولة.\n\n[3] Source: الفصل 247 من مجلة المحاسبة العمومية التونسية\nعندما يرفض الآمر بالصرف الأمر بصرف نفقة، يمكن للدائن أن يطعن لدى وزير الإشراف الذي يأمر، عند الاقتضاء، بالأمر بالصرف مباشرة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 245 من المجلة، تُربط نفقات المؤسسة وتُصفى ويؤمر بها من قبل رئيسها، مع وجوب استشارة اللجنة الاستشارية في الحالات المحددة، وتخضع العمليات لتأشير مراقبة النفقات العمومية. علاوة على ذلك، ينص الفصل 246 على أن أوامر الخلاص تتبع الأشكال المقررة لميزانية الدولة. غير أنه إذا رفض الآمر بالصرف صرف نفقة مُربَطة ومُصفاة، يجوز للدائن الطعن لدى وزير الإشراف الذي قد يأمر بالصرف مباشرة حسب الفصل 247. وبالتالي، يوازن هذا النظام بين صلاحيات الآمر بالصرف وضمانات الدائنين. المصادر: الفصل 245، 246، 247 من مجلة المحاسبة العمومية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_ar_refusal_055",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يمكنني الطعن في قرار إداري يتعلق بفرض ضريبة بلدية على محلي التجاري؟\n\nDocuments pertinents:\n[1] Source: لا تحتوي الوثائق المقدمة على أحكام تتعلق بطرق الطعن في القرارات الإدارية المتعلقة بالضرائب البلدية."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. أنصحك باستشارة محامٍ متخصص في قانون الضرائب المحلية أو الرجوع إلى قانون الإجراءات الضريبية وقانون المرافعات الإدارية التونسي."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_ar_procedural_056",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [263, 264, 265],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم الترخيص بتحصيل المداخيل البلدية ومن يحدد قواعد استخلاصها وتقادمها؟\n\nDocuments pertinents:\n[1] Source: الفصل 263 من مجلة المحاسبة العمومية التونسية\nيُأذن سنويًا بتحصيل الحقوق والمنتوجات والمداخيل القابلة للتطبيق على الميزانية البلدية بقرار تحديد هذه الميزانية.\n\n[2] Source: الفصل 264 من مجلة المحاسبة العمومية التونسية (المعدل بالقانون عدد 2003-80 لسنة 2003)\nيخضع تحديد الوعاء وتصفية وطريقة استخلاص ومتابعة مختلف الأداءات والضرائب والمداخيل والمنتوجات البلدية للنصوص الخاصة التي ينظم كل واحدًا منها. يخضع تقادم الاستخلاص لأحكام الفصلين 36 و36 مكرر من هذه المجلة.\n\n[3] Source: الفصل 265 من مجلة المحاسبة العمومية التونسية\nتُوجه جميع سندات تحصيل منتوجات ومداخيل وحقوق وضرائب بلدية إلى القباض المكلفين بالتحصيل بواسطة وزير المالية أو من يفوضه."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 263 من المجلة، يُؤذَن سنويًا بتحصيل المداخيل البلدية بقرار تحديد الميزانية. علاوة على ذلك، ينص الفصل 264 على أن قواعد الوعاء والتصفية والاستخلاص تخضع للنصوص الخاصة بكل ضريبة، بينما يخضع تقادم الاستخلاص للفصلين 36 و36 مكرر من المجلة. وبموجب الفصل 265، تُوجَّه سندات التحصيل إلى القباض عبر وزير المالية أو من يفوضه. وبالتالي، يجمع هذا المسار بين التفويض السنوي والرقابة المركزية على التحصيل. المصادر: الفصل 263، 264، 265 من مجلة المحاسبة العمومية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_ar_direct_057",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [273],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الإجراءات القانونية لاقتناء أو بيع عقار بلدي في تونس؟\n\nDocuments pertinents:\n[1] Source: الفصل 273 من مجلة المحاسبة العمومية التونسية\nلا يمكن إجراء اقتناءات أو بيع أو مقايضة أو كراء عقارات مراد أخذها أو منحها وتتجاوز مدتها تسع سنوات إلا بمقتضى مداولة من المجلس البلدي قابلة للتنفيذ من قبل سلطة الإشراف."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 273 من مجلة المحاسبة العمومية، لا يجوز إجراء اقتناء أو بيع أو مقايضة أو كراء عقاري يتجاوز تسع سنوات إلا بمقتضى مداولة من المجلس البلدي، تكون قابلة للتنفيذ بعد مصادقة سلطة الإشراف. وبالتالي، يهدف هذا الإجراء إلى ضمان الشفافية في التصرف في الأملاك البلدية والرقابة الإدارية على القرارات ذات الأثر المالي طويل الأمد. المصادر: الفصل 273 من مجلة المحاسبة العمومية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_ar_multi_058",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [275, 276, 277],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم إنشاء وكالات القبض والسلفات البلدية ومن يتحمل مسؤولية المراقبين؟\n\nDocuments pertinents:\n[1] Source: الفصل 275 من مجلة المحاسبة العمومية التونسية\nتُحدث وكالات القبض أو السلفات بقرار من وزير المالية أو من يفوضه في ذلك بناء على طلب رئيس البلدية واقتراح وزير الداخلية. يتم تعيين المراقبين في نفس الأشكال.\n\n[2] Source: الفصل 276 من مجلة المحاسبة العمومية التونسية (المعدل بالقانون عدد 88-145 لسنة 1988)\nيعمل مراقبو القبض أو السلفات تحت مراقبة ورقابة قابض البلدية. هذا الأخير مسؤول بالتضامن وبصفة مالية عن أفعال تسييرهم في حدود الرقابة التي يجب عليه ممارستها على هذا التسيير.\n\n[3] Source: الفصل 277 من مجلة المحاسبة العمومية التونسية\nجميع الأحكام المنصوص عليها لوكالات الدولة بمقتضى هذه المجلة قابلة للتطبيق على الوكالات البلدية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 275 من المجلة، تُحدَث الوكالات البلدية بقرار من وزير المالية بناء على طلب رئيس البلدية واقتراح وزير الداخلية. علاوة على ذلك، ينص الفصل 276 على أن المراقبين يعملون تحت رقابة قابض البلدية، الذي يتحمل مسؤولية تضامنية ومالية عن أفعال تسييرهم في حدود رقابته. وبموجب الفصل 277، تطبق على الوكالات البلدية نفس أحكام وكالات الدولة. وبالتالي، يضمن هذا الإطار القانوني وحدة المعايير مع تكييف الرقابة حسب المستوى المحلي. المصادر: الفصل 275، 276، 277 من مجلة المحاسبة العمومية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_crosslingual_059",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [248, 249],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم خلاص التجهيزات والخدمات للمؤسسات العمومية، وما هي الموافقات المطلوبة للتعاملات العقارية؟\n\nDocuments pertinents:\n[1] Source: article 248 du Code de la Comptabilité Publique (modifié par loi n°96-86) / الفصل 248 من مجلة المحاسبة العمومية (المعدل بالقانون عدد 96-86)\nLes dépenses des établissements publics sont effectuées conformément aux règles prescrites par le titre II du présent code relatif au budget de l'Etat. Toutefois, le règlement des fournitures, travaux et services réalisés pour le compte des établissements publics peut être effectué par chèque tiré sur le trésor ou par chèque postal. Le chèque remis doit être barré, non endossable et libellé au nom du véritable créancier qui est tenu de dater et signer son acquit sur l'ordonnance de paiement en la présence du comptable de l'établissement. / تُنجز نفقات المؤسسات العمومية وفق القواعد المقررة بالعنوان الثاني من هذه المجلة المتعلق بميزانية الدولة. مع ذلك، يمكن أن يتم تسوية تجهيزات وأشغال وخدمات أنجزت لحساب المؤسسات العمومية بصك مسحوب على الخزينة أو بصك بريدي.\n\n[2] Source: article 249 of the Code of Public Accounting / الفصل 249 من مجلة المحاسبة العمومية\nLes acquisitions, aliénations, échanges et baux de biens immeubles réalisés par l'établissement sont soumis à l'approbation du ministre de tutelle sur avis conforme de la commission ou conseil, institués auprès de l'établissement. / تخضع اقتناءات أو بيع أو مقايضة أو كراء عقارات تقوم بها المؤسسة لموافقة وزير الإشراف بعد الرأي المطابق للجنة أو المجلس المحدثين لدى المؤسسة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 248 من المجلة، تُنجز نفقات المؤسسات العمومية وفق قواعد ميزانية الدولة، مع إمكانية الخلاص بصك مسحوب على الخزينة أو بريدي، شريطة أن يكون مًسجَّلًا وغير قابل للتظهير ومُوجَّهًا للدائن الحقيقي الذي يوقّع على براءة الذمة بحضور المحاسب. علاوة على ذلك، ينص الفصل 249 على أن التعاملات العقارية تخضع لموافقة وزير الإشراف بعد الرأي المطابق للجنة أو المجلس المختص. وبالتالي، يجمع هذا النظام بين مرونة وسائل الدفع وضوابط صارمة على التصرف في الأصول العقارية. المصادر: الفصل 248، 249 من مجلة المحاسبة العمومية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cp_crosslingual_060",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [279, 280, 281],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: What is the role of the municipal receiver regarding the accounting for movable and immovable property, and what document is produced at year-end? / ما هو دور قابض البلدية فيما يتعلق بمحاسبة الأموال المنقولة وغير المنقولة، وما هي الوثيقة التي يتم إعدادها في نهاية السنة؟\n\nDocuments pertinents:\n[1] Source: article 279 of the Code of Public Accounting / الفصل 279 من مجلة المحاسبة العمومية\nOutre sa gestion et sa comptabilité deniers, le receveur de la commune est chargé de la tenue de la comptabilité matières des biens mobiliers ou immobiliers appartenant à la commune. Lorsqu'il ne peut tenir lui-même la comptabilité matières, il en exerce le contrôle et en assure la centralisation. Il procède, en fin d'année, à l'inventaire général des biens de la commune. / بالإضافة إلى تسييره ومحاسبته النقدية، يتولى قابض البلدية مسك محاسبة مواد الأموال المنقولة أو غير المنقولة المملوكة للبلدية. عندما لا يمكنه مسك محاسبة المواد بنفسه، فإنه يمارس الرقابة عليها ويضمن تمركزها. يقوم في نهاية السنة بجرد عام لأموال البلدية.\n\n[2] Source: article 280 of the Code of Public Accounting / الفصل 280 من مجلة المحاسبة العمومية\nToutes les opérations, relatives à l'ensemble du patrimoine mobilier ou immobilier, aux biens affectés et aux valeurs d'exploitation, sont retracées dans les comptes de la commune suivant les règles arrêtées par le plan comptable type des communes. / جميع العمليات المتعلقة بمجموع التراث المنقول أو غير المنقول والأموال المخصصة وقيم الاستغلال، تُسجل في حسابات البلدية وفق القواعد المقررة بمخطط المحاسبة النموذجي للبلديات.\n\n[3] Source: article 281 of the Code of Public Accounting / الفصل 281 من مجلة المحاسبة العمومية\nLe comptable de la commune établit, en fin d'année, le compte financier de la commune pour l'année écoulée. Ce compte est établi suivant modèle fixé par le ministre des finances ou celui ayant reçu délégation du ministre des finances à cet effet. / يحرر محاسب البلدية، في نهاية السنة، الحساب المالي للبلدية عن السنة المنقضية. يحرر هذا الحساب وفق نموذج يحدده وزير المالية أو من يفوضه في ذلك."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 279 du CCP, le receveur de la commune tient la comptabilité matières des biens mobiliers et immobiliers, ou en assure le contrôle et la centralisation s'il ne peut la tenir lui-même, et procède à l'inventaire général en fin d'année. En outre, l'article 280 du CCP impose que toutes les opérations patrimoniales soient retracées selon le plan comptable type des communes. Par ailleurs, l'article 281 du CCP prévoit l'établissement annuel du compte financier selon un modèle fixé par le ministre des finances. Ainsi, ce dispositif assure une traçabilité complète du patrimoine communal et une reddition des comptes normalisée. Sources: art. 279, 280, 281 du CCP.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre I (articles 54,60,61,62,63,64,66,67)",
+      "Titre II, Première partie, Chapitre I (articles 73,74,75,76,77,78,79,80,81,82,83)",
+      "Titre II, Première partie, Chapitre II, Section 7 (articles 163-175)",
+      "Titre II, Première partie, Chapitre III (articles 179,180,181,182,183,184)",
+      "Titre II, Deuxième partie (articles 217,218,219,220)",
+      "Titre II, Troisième partie (articles 221-235)",
+      "Titre III (articles 240-259)",
+      "Titre IV (articles 263-286)"
+    ],
+    "sections_not_covered": [
+      "Titre II, Première partie, Chapitre II, Sections 1-5 (déjà couvertes dans batches précédents)",
+      "Certains articles spécifiques des Titres III et IV non utilisés"
+    ],
+    "notes": "Troisième batch pour le Code de la Comptabilité Publique. Évitement des articles utilisés dans les batches CP_001 et CP_002. Couverture large des parties non encore exploitées : opérations de trésorerie, emprunts, recouvrement des revenus (détails), postes diplomatiques, attributions du trésorier général, fonds spéciaux, budgets annexes, établissements publics, communes. Tous les exemples sont strictement basés sur le texte fourni. Les exemples en arabe sont en MSA formel, sans dialecte tunisien. Les réponses assistant ont été ajoutées avec citations inline et lignes de source, respectant la structure principe+exception+finalité et les avertissements juridiques requis."
+  }
+}

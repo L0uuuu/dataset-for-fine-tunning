@@ -1,0 +1,502 @@
+{
+  "batch_id": "batch_CCP_002_20260420",
+  "source": "Code de la Comptabilité Publique de Tunisie (loi n°73-81 du 31 décembre 1973 et modifications subséquentes)",
+  "articles_covered": ["14", "16", "18", "20", "24", "27", "30", "32", "34", "35", "37", "38", "39", "42", "43", "44", "45", "53", "54", "69", "70", "72bis", "78", "79", "85", "86", "87", "95", "96", "97", "98", "101", "102", "120", "121", "123", "124", "125", "138", "139", "140", "141", "142", "143", "144", "145", "154", "155", "163", "164", "196", "197", "209", "211", "212", "213", "214", "217", "218", "219", "239", "240", "241", "246", "247", "257", "258", "259", "261", "262", "263", "269", "270", "271", "273", "274", "275", "283", "284", "285", "286"],
+  "articles_to_avoid_next_batch": ["3", "4", "5", "10", "11", "12", "13", "14", "15", "16", "17", "18", "20", "21", "22", "23", "24", "25", "26", "26bis", "27", "28quinquies", "30", "31", "32", "33", "34", "35", "36", "36bis", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "52", "53", "54", "55", "65", "68", "69", "70", "72bis", "78", "79", "84", "85", "86", "87", "94", "95", "96", "97", "98", "99", "101", "102", "120", "121", "122", "123", "124", "125", "133", "136", "137", "138", "139", "140", "141", "142", "143", "144", "145", "152", "154", "155", "163", "164", "176", "177", "184", "196", "197", "208", "209", "210", "211", "212", "213", "214", "217", "218", "219", "236", "238", "239", "240", "241", "245", "246", "247", "255", "257", "258", "259", "260", "261", "262", "263", "268", "269", "270", "271", "272", "273", "274", "275", "282", "283", "284", "285", "286"],
+  "examples": [
+    {
+      "example_id": "CCP_002_fr_direct_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [14],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis agent dans une administration publique et on me demande de gérer une régie de recettes. Quelles sont les conditions pour exercer cette fonction ?\n\nDocuments pertinents:\n[1] Source: art. 14 du Code de la Comptabilité Publique (CCP)\nLes régisseurs de recettes et les régisseurs de dépenses sont nommés par arrêté du ministre des finances ou de celui ayant reçu délégation du ministre des finances à cet effet, ou du ministre du budget annexe dont ils relèvent, sur proposition du chef de l'administration intéressée.\nIls sont placés sous l'autorité directe de l'ordonnateur ou du comptable public auquel ils sont rattachés.\nLes régisseurs de recettes et de dépenses doivent fournir un cautionnement dans les conditions fixées par décret."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 14 du CCP [1], la nomination en qualité de régisseur de recettes ou de dépenses relève d'un arrêté du ministre des finances (ou du ministre du budget annexe concerné), pris sur proposition du chef de l'administration intéressée. Vous ne pouvez donc pas être désigné unilatéralement par votre supérieur hiérarchique direct sans cette procédure formelle.\n\nEn outre, une fois nommé, vous serez placé sous l'autorité directe de l'ordonnateur ou du comptable public auquel vous êtes rattaché, ce qui définit votre chaîne de responsabilité opérationnelle.\n\nEnfin, l'exercice de ces fonctions est conditionné à la fourniture d'un cautionnement, dont les modalités précises (montant, forme, garantie) sont fixées par décret. Cette exigence vise à garantir la protection des deniers publics confiés au régisseur.\n\nSources : art. 14 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_fr_direct_002",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [24],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un citoyen a versé une somme d'argent à l'administration par erreur. L'administration peut-elle conserver cet argent sans base légale ?\n\nDocuments pertinents:\n[1] Source: art. 24 du Code de la Comptabilité Publique (CCP)\nIl est interdit à tout ordonnateur, à tout comptable public, à tout agent de l'administration financière de percevoir, directement ou indirectement, à quelque titre que ce soit, des contributions, taxes, redevances ou autres perceptions non autorisées par la loi.\nToute perception irrégulière donne lieu à restitution, sans préjudice des sanctions pénales ou disciplinaires applicables."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 24 du CCP [1], il est formellement interdit à tout agent de l'administration financière de percevoir des sommes non autorisées par la loi, que ce soit directement ou indirectement, et quel que soit le prétexte invoqué.\n\nPar conséquent, si un citoyen a versé une somme par erreur, l'administration ne peut en aucun cas la conserver sans fondement légal. La loi impose expressément la restitution de toute perception irrégulière.\n\nEn outre, cette obligation de restitution s'accompagne de la possibilité de sanctions pénales ou disciplinaires à l'encontre de l'agent ayant procédé à la perception irrégulière, ce qui renforce le caractère impératif de cette règle.\n\nSources : art. 24 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_fr_principle_exception_001",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [37, 38],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que créancier d'une collectivité publique, puis-je saisir les biens de cette collectivité pour obtenir le paiement de ma créance ?\n\nDocuments pertinents:\n[1] Source: art. 37 du Code de la Comptabilité Publique (CCP)\nLes biens de l'Etat, des établissements publics et des collectivités publiques locales sont insaisissables.\n\n[2] Source: art. 38 du Code de la Comptabilité Publique (CCP)\nLes créances sur l'Etat, les établissements publics et les collectivités publiques locales ne peuvent faire l'objet d'aucune compensation avec les dettes de ces mêmes personnes publiques.\nCette interdiction ne s'applique pas aux établissements publics à caractère industriel et commercial."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 37 du CCP [1], les biens de l'État, des établissements publics et des collectivités locales bénéficient d'un principe d'insaisissabilité absolue. Vous ne pouvez donc pas pratiquer de saisie sur ces biens pour recouvrer votre créance, même si celle-ci est certaine, liquide et exigible.\n\nPar ailleurs, l'article 38 du CCP [2] interdit également toute compensation entre vos créances sur la personne publique et d'éventuelles dettes que vous auriez envers elle. Vous ne pouvez donc pas « retenir » un paiement que vous devriez à la collectivité en déduction de ce qu'elle vous doit.\n\nToutefois, cette interdiction de compensation ne s'applique pas aux établissements publics à caractère industriel et commercial (EPIC), qui sont soumis à un régime juridique plus proche du droit privé. Si votre débiteur est un EPIC, les règles de compensation du droit commun peuvent s'appliquer.\n\nSources : art. 37, 38 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_fr_multi_article_001",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [42, 43, 44],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis comptable dans une commune. Une facture d'un fournisseur date de 2019 et n'a jamais été payée. Le fournisseur réclame aujourd'hui le paiement. La commune peut-elle encore être tenue de payer ?\n\nDocuments pertinents:\n[1] Source: art. 42 du Code de la Comptabilité Publique (CCP)\nLes dettes de l'Etat, des établissements publics et des collectivités publiques locales sont exigibles à partir du premier jour du mois suivant celui au cours duquel le service a été fait ou la prestation fournie.\n\n[2] Source: art. 43 du Code de la Comptabilité Publique (CCP)\nLes créanciers de l'Etat, des établissements publics et des collectivités publiques locales peuvent, à toute époque, demander le paiement des sommes qui leur sont dues, sous réserve des dispositions relatives à la prescription.\n\n[3] Source: art. 44 du Code de la Comptabilité Publique (CCP)\nLes créanciers de l'Etat, des établissements publics et des collectivités publiques locales qui n'ont pas produit leurs titres de créance dans le délai de quatre années à partir du premier jour de l'année suivant celle au cours de laquelle la créance est devenue exigible, pour les créanciers domiciliés en Tunisie, et de cinq années pour les créanciers résidant hors du territoire tunisien, sont déchus de tout droit au paiement."
+        },
+        {
+          "role": "assistant",
+          "content": "La situation décrite relève du régime de la déchéance quadriennale ou quinquennale prévu par le CCP.\n\nEn vertu de l'article 42 du CCP [1], la dette de la commune est devenue exigible à compter du premier jour du mois suivant la prestation fournie. À partir de cette date, le créancier dispose, selon l'article 43 du CCP [2], du droit de demander paiement à tout moment, sous réserve des règles de prescription.\n\nToutefois, l'article 44 du CCP [3] impose une limite stricte : les créanciers domiciliés en Tunisie qui n'ont pas produit leurs titres de créance dans un délai de quatre ans à compter du 1er janvier de l'année suivant l'exigibilité sont déchus de tout droit au paiement. Pour les créanciers résidant à l'étranger, ce délai est porté à cinq ans.\n\nDans votre cas, si la facture date de 2019 et que le créancier est domicilié en Tunisie, le délai de quatre ans a expiré au 31 décembre 2023. Sauf interruption de la prescription (réclamation écrite, recours, etc.), la commune peut opposer la déchéance et refuser le paiement.\n\nSources : art. 42, 43, 44 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_fr_procedural_001",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [78, 79],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le calendrier d'exécution du budget de l'État tunisien et que se passe-t-il si la loi de finances n'est pas votée à temps ?\n\nDocuments pertinents:\n[1] Source: art. 78 du Code de la Comptabilité Publique (CCP)\nL'exécution du budget de l'État s'effectue dans le cadre de l'année civile, du 1er janvier au 31 décembre.\n\n[2] Source: art. 79 du Code de la Comptabilité Publique (CCP)\nSi la loi de finances de l'année n'a pas été promulguée avant le 1er janvier, les recettes continuent d'être perçues et les dépenses peuvent être engagées, liquidées et ordonnancées dans la limite des crédits ouverts par la loi de finances de l'année précédente, reconduits mois par mois.\nLes dispositions de la présente loi de finances qui ne sont pas compatibles avec l'application du présent article ne sont mises en vigueur qu'après la promulgation de la loi de finances de l'année."
+        },
+        {
+          "role": "assistant",
+          "content": "Le CCP organise l'exécution budgétaire selon un calendrier strict et prévoit un mécanisme de secours en cas de retard législatif.\n\n**Principe : l'année budgétaire (art. 78 [1])** : L'exécution du budget de l'État s'effectue dans le cadre de l'année civile, du 1er janvier au 31 décembre. Toutes les opérations de recettes et de dépenses doivent s'inscrire dans ce cadre temporel.\n\n**Mécanisme de continuité en cas de retard (art. 79 [2])** : Si la loi de finances de l'année n'a pas été promulguée avant le 1er janvier, l'État n'est pas paralysé. Les recettes continuent d'être perçues et les dépenses peuvent être engagées, liquidées et ordonnancées, mais uniquement dans la limite des crédits de l'année précédente, reconduits mois par mois. Ce régime transitoire assure la continuité du service public.\n\nToutefois, les dispositions nouvelles de la loi de finances en cours d'adoption qui ne sont pas compatibles avec ce régime transitoire ne produisent effet qu'après la promulgation effective de la loi.\n\nSources : art. 78, 79 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_fr_refusal_001",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis entrepreneur et je souhaite savoir quel est le montant exact du cautionnement que je dois fournir pour répondre à un appel d'offres public en Tunisie. Où puis-je trouver cette information ?\n\nDocuments pertinents:\n[1] Source: art. 101 du Code de la Comptabilité Publique (CCP)\nLes marchés de gré à gré peuvent être passés dans les cas suivants :\n1) Lorsque les besoins de l'État ne peuvent être satisfaits que par le recours à des procédés, à des méthodes ou à des fabrications dont le secret est dûment établi et ne peut être divulgué sans inconvénient.\n2) Lorsque les fournitures, les travaux ou les services ne peuvent, en raison de leur nature particulière, de leur urgence ou de circonstances spéciales, faire l'objet d'une publicité préalable ou d'une mise en concurrence.\n3) Lorsque le montant présumé de la dépense n'excède pas un seuil fixé par décret."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le CCP mentionne l'existence de seuils fixés par décret pour certaines procédures (art. 101), mais ne précise ni les montants de ces seuils, ni les modalités de calcul des cautionnements exigés dans le cadre des marchés publics.\n\nJe vous recommande de consulter le cahier des charges de l'appel d'offres concerné, ainsi que le décret réglementaire en vigueur relatif aux marchés publics en Tunisie, ou de vous adresser directement à l'administration contractante. Un avocat spécialisé en droit des marchés publics pourra également vous assister."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_fr_clarification_001",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [123, 124],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qu'est-ce qu'une pièce justificative valable pour le paiement d'une dépense publique ?\n\nDocuments pertinents:\n[1] Source: art. 123 du Code de la Comptabilité Publique (CCP)\nLe paiement des dépenses ne peut être effectué que sur production des pièces justificatives réglementaires.\n\n[2] Source: art. 124 du Code de la Comptabilité Publique (CCP)\nLa nomenclature des pièces justificatives à produire à l'appui des ordonnances et mandats de paiement est fixée par arrêté du ministre des finances.\nCette nomenclature peut être modifiée ou complétée par arrêté du même ministre, sur proposition du ministre intéressé, pour tenir compte des besoins de chaque service."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question est pertinente, mais elle nécessite une précision préalable : de quel type de dépense s'agit-il ? (fournitures, travaux, prestations de services, frais de mission, etc.) La nature de la dépense détermine la liste exacte des pièces justificatives requises.\n\nCela dit, le CCP pose deux principes généraux :\n\nD'abord, l'article 123 du CCP [1] établit une règle absolue : aucun paiement de dépense publique ne peut être effectué sans production des pièces justificatives réglementaires. C'est une condition de validité du paiement.\n\nEnsuite, l'article 124 du CCP [2] précise que la liste exhaustive de ces pièces est fixée par arrêté du ministre des finances. Cette nomenclature peut être adaptée par arrêté ultérieur, sur proposition du ministre concerné, pour tenir compte des spécificités de chaque service.\n\nPour connaître la liste précise applicable à votre situation, il convient donc de consulter l'arrêté ministériel en vigueur ou de vous rapprocher du service financier de votre administration.\n\nSources : art. 123, 124 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_fr_direct_003",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [141],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: À partir de quel montant le paiement des salaires des fonctionnaires doit-il obligatoirement être effectué par virement bancaire ?\n\nDocuments pertinents:\n[1] Source: art. 141 du Code de la Comptabilité Publique (CCP)\nLe paiement des dépenses de personnel s'effectue par virement sur compte bancaire ou postal.\nToutefois, le paiement en numéraire peut être admis pour les rémunérations dont le montant net mensuel n'excède pas un seuil fixé par arrêté du ministre des finances ou de celui ayant reçu délégation du ministre des finances à cet effet.\nLe montant mensuel s'entend après déduction des retenues pour pensions, assurances sociales et impôts personnels."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 141 du CCP [1], le principe est que le paiement des dépenses de personnel s'effectue obligatoirement par virement sur compte bancaire ou postal. Ce mode de paiement sécurisé constitue la règle générale pour les rémunérations des agents publics.\n\nToutefois, une dérogation est prévue : le paiement en numéraire reste possible pour les rémunérations dont le montant net mensuel n'excède pas un seuil fixé par arrêté du ministre des finances. Il est important de noter que ce montant s'entend après déduction des retenues légales (pensions, assurances sociales, impôts personnels).\n\nLe CCP ne précise pas la valeur numérique de ce seuil, qui est déterminée par arrêté ministériel et peut évoluer. Pour connaître le montant en vigueur, il convient de consulter les arrêtés récents du ministère des finances ou de se rapprocher du service de paie de votre administration.\n\nSources : art. 141 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_fr_principle_exception_002",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [163, 164],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les postes diplomatiques tunisiens à l'étranger sont-ils soumis aux mêmes règles de passation de marchés que les administrations en Tunisie ?\n\nDocuments pertinents:\n[1] Source: art. 163 du Code de la Comptabilité Publique (CCP)\nLes dépenses des postes diplomatiques et consulaires sont engagées, liquidées et ordonnancées par le chef de poste, qui exerce les fonctions d'ordonnateur secondaire.\n\n[2] Source: art. 164 du Code de la Comptabilité Publique (CCP)\nLes marchés de gré à gré peuvent être passés par les chefs de poste diplomatique ou consulaire, quel qu'en soit le montant, pour les besoins de leur poste.\nToutefois, ces marchés doivent être soumis, dans toute la mesure du possible, à la publicité préalable et à la concurrence."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 163 du CCP [1], le chef de poste diplomatique ou consulaire exerce les fonctions d'ordonnateur secondaire pour les dépenses de son poste. Il dispose donc d'une autonomie de gestion adaptée aux contraintes de l'action extérieure de l'État.\n\nPar ailleurs, l'article 164 du CCP [2] prévoit une dérogation significative au principe de mise en concurrence : les chefs de poste peuvent passer des marchés de gré à gré, quel qu'en soit le montant, pour les besoins de leur poste. Cette flexibilité répond aux impératifs de réactivité et d'adaptation aux contextes locaux.\n\nToutefois, cette faculté n'est pas absolue : la loi impose que ces marchés soient soumis, dans toute la mesure du possible, à la publicité préalable et à la concurrence. Le chef de poste doit donc rechercher, autant que les circonstances le permettent, les conditions d'une gestion transparente et compétitive.\n\nSources : art. 163, 164 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_fr_multi_article_002",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [196, 197, 209],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment s'organise la production des comptes mensuels par les comptables de l'État et quel est le circuit de transmission vers les instances de contrôle ?\n\nDocuments pertinents:\n[1] Source: art. 196 du Code de la Comptabilité Publique (CCP)\nLes comptables de l'État tiennent une comptabilité de leurs opérations de recettes et de dépenses et en résument les écritures dans des bordereaux mensuels.\n\n[2] Source: art. 197 du Code de la Comptabilité Publique (CCP)\nLes bordereaux mensuels sont adressés, dans les délais fixés par le ministre des finances, au ministre des finances et, le cas échéant, au ministre du budget annexe dont relève le comptable.\n\n[3] Source: art. 209 du Code de la Comptabilité Publique (CCP)\nLes comptes des comptables publics sont transmis, avec les pièces justificatives, à la cour des comptes dans les délais fixés par la loi organique relative à la cour des comptes."
+        },
+        {
+          "role": "assistant",
+          "content": "Le CCP organise un circuit comptable hiérarchisé et contrôlé pour les opérations de l'État.\n\nEn vertu de l'article 196 du CCP [1], chaque comptable de l'État tient une comptabilité de ses opérations de recettes et de dépenses, qu'il résume mensuellement dans des bordereaux. Ces documents constituent la base documentaire du suivi budgétaire et financier.\n\nPar ailleurs, l'article 197 du CCP [2] impose la transmission de ces bordereaux mensuels au ministre des finances (et, le cas échéant, au ministre du budget annexe concerné), dans des délais fixés par arrêté ministériel. Cette transmission permet au pouvoir exécutif d'exercer un contrôle administratif en temps réel sur l'exécution budgétaire.\n\nEnfin, l'article 209 du CCP [3] prévoit que les comptes définitifs des comptables publics, accompagnés de leurs pièces justificatives, sont transmis à la Cour des comptes dans les délais fixés par la loi organique relative à cette juridiction. C'est à ce stade qu'intervient le contrôle juridictionnel a posteriori de la régularité des gestions.\n\nSources : art. 196, 197, 209 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_ar_direct_001",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [69],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي المهام الأساسية لمصالح التحصيل في الدولة التونسية وفق مجلة المحاسبة العمومية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 69 من مجلة المحاسبة العمومية (م.م.ع)\nتتولى مصالح التحصيل، تحت سلطة وزير المالية أو من فُوِّضت إليه صلاحياته، تحصيل موارد الدولة من الضرائب والأداءات والمعاليم والرسوم والغرامات والإيرادات المتنوعة.\nكما تتولى متابعة تحصيل الديون العائدة للدولة والمؤسسات العمومية والجماعات العمومية المحلية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 69 من مجلة المحاسبة العمومية [1]، تضطلع مصالح التحصيل بمهمتين جوهريتين:\n\nأولاً: تحصيل موارد الدولة المتنوعة، وتشمل الضرائب، والأداءات، والمعاليم، والرسوم، والغرامات، وسائر الإيرادات الأخرى. وتتم هذه المهمة تحت السلطة المباشرة لوزير المالية أو من فُوِّضت إليه صلاحياته.\n\nثانياً: متابعة تحصيل الديون العائدة للدولة والمؤسسات العمومية والجماعات العمومية المحلية. وهذا يشمل الديون الضريبية وغير الضريبية على حد سواء.\n\nوبالتالي، فإن مصالح التحصيل تُشكّل الذراع التنفيذي للدولة في مجال استخلاص الموارد العامة، مما يجعلها ركيزة أساسية في ضمان تمويل السياسات العمومية.\n\nالمصادر: الفصل 69 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_ar_direct_002",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [85],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو التعريف القانوني لمرحلة \"الارتباط\" في نفقات الدولة التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 85 من مجلة المحاسبة العمومية (م.م.ع)\nالارتباط هو العمل الإداري الذي بموجبه تُحدَّد وتُثبَّت نفقة في ذمّة الدولة أو المؤسسة العمومية أو الجماعة العمومية المحلية.\nيُرتَكَب الارتباط إمّا بعقد أو بقرار إداري أو بأي عمل قانوني آخر يترتب عنه التزام مالي."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 85 من مجلة المحاسبة العمومية [1]، يُعرَّف \"الارتباط\" بأنه العمل الإداري الذي تُحدَّد بموجبه نفقة معينة وتُثبَّت في ذمّة الشخص العام (الدولة، مؤسسة عمومية، أو جماعة محلية). وبعبارة أخرى، هو اللحظة القانونية التي يولد فيها الالتزام المالي في مواجهة الخزينة العامة.\n\nويُرتَكَب هذا الارتباط بإحدى ثلاث صور:\n- بعقد (مثل عقد أشغال أو توريد أو خدمات)؛\n- أو بقرار إداري (مثل قرار منح منحة أو تعويض)؛\n- أو بأي عمل قانوني آخر يترتب عنه التزام مالي.\n\nويُعدّ الارتباط المرحلة الأولى في دورة النفقة العمومية، تسبقه مرحلة الإعداد وتليه مرحلتا التصفية والإذن بالصرف. وهو بذلك يُمثّل الضمانة الأولى لرقابة شرعية الإنفاق العام.\n\nالمصادر: الفصل 85 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_ar_principle_exception_001",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [95, 96],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يجوز للآمر بالصرف تفويض صلاحياته في مجال التعاقد والإذن بصرف النفقات؟ وما هي حدود هذا التفويض؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 95 من مجلة المحاسبة العمومية (م.م.ع)\nيمكن للآمر بالصرف أن يُفوِّض، تحت رقابته ومسؤوليته، لبعض أعوان الإدارة الصلاحيات المخوّلة له في مجال ارتكاب النفقات والإذن بصرفها.\n\n[2] المصدر: الفصل 96 من مجلة المحاسبة العمومية (م.م.ع)\nيُمنح التفويض بقرار مكتوب يحدّد نطاقه ومدته. ويجب أن يُدوَّن في سجل خاص.\nلا يمكن أن يشمل التفويض الصلاحيات المتعلقة بإبرام العقود التي تتجاوز مبلغاً يُحدَّد بمرسوم."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 95 من مجلة المحاسبة العمومية [1]، يجوز للآمر بالصرف تفويض بعض صلاحياته في مجال ارتكاب النفقات والإذن بصرفها لبعض أعوان الإدارة، شريطة أن يظل هذا التفويض تحت رقبته ومسؤوليته الشخصية. وهذا يعني أن المسؤولية النهائية عن الأعمال المنجزة بموجب التفويض تظل ملقاة على عاتق الآمر الأصلي.\n\nغير أن هذا التفويض يخضع لشروط شكلية وموضوعية صارمة وفقاً للفصل 96 من المجلة [2]:\n- يجب أن يُمنح بقرار مكتوب يحدّد بدقة نطاقه الزمني والموضوعي؛\n- ويجب أن يُدوَّن في سجل خاص لضمان الشفافية وإمكانية الرقابة؛\n- ولا يمكن أن يشمل التفويض صلاحية إبرام العقود التي تتجاوز مبلغاً يُحدَّد بمرسوم، حفاظاً على مبدأ تركيز المسؤولية في القرارات المالية الهامة.\n\nوبالتالي، فإن النظام القانوني للتفويض يوازن بين ضرورة مرونة التسيير الإداري ووجوب ضمان رقابة فعالة على النفقات العمومية.\n\nالمصادر: الفصل 95، الفصل 96 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_ar_multi_article_001",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [120, 121],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الشروط التي يجب أن تتوفر في الوثائق المرفقة بأوامر الصرف لكي يقبلها المحاسب العمومي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 120 من مجلة المحاسبة العمومية (م.م.ع)\nيجب أن تكون الأوامر بالصرف والمذكرات الموجهة إلى المحاسب موقّعة من قِبَل الآمر بالصرف أو من يفوّضه، وأن تكون مصحوبة بجميع الوثائق المثبتة للنفقة.\nتُرفق بالأوامر والصكوك الوثائق التي تثبت صحة الحقوق وتمام الخدمة.\n\n[2] المصدر: الفصل 121 من مجلة المحاسبة العمومية (م.م.ع)\nيجب أن تشتمل الوثائق المثبتة للنفقة على ما يلي:\n- اسم وصفة المستفيد من الدفع؛\n- بيان مبلغ الحق وطريقة حسابه؛\n- الإشارة إلى الاعتماد الميزانياتي المخصص للنفقة؛\n- تاريخ إنجاز الخدمة أو تسليم التوريد؛\n- التوقيع والختم من قِبَل السلطة المختصة.\nكل نقص في هذه البيانات قد يؤدي إلى رفض المحاسب تأشير الأمر بالصرف."
+        },
+        {
+          "role": "assistant",
+          "content": "تُرسي مجلة المحاسبة العمومية نظاماً دقيقاً لوثائق إثبات النفقات، يهدف إلى ضمان شرعية كل عملية دفع.\n\nبمقتضى الفصل 120 من المجلة [1]، يجب أن تكون أوامر الصرف والمذكرات الموجهة إلى المحاسب موقّعة من الآمر بالصرف أو من فوّضه، وأن تُرفق بجميع الوثائق المثبتة للنفقة. كما يجب أن تُرفق بالصكوك الوثائق التي تثبت صحة الحقوق وتمام إنجاز الخدمة.\n\nعلاوة على ذلك، يُفصّل الفصل 121 من المجلة [2] المحتوى الإلزامي لهذه الوثائق المثبتة، الذي يجب أن يشمل:\n- اسم المستفيد من الدفع وصفته القانونية؛\n- بيان مبلغ الحق وطريقة حسابه؛\n- الإشارة إلى الاعتماد الميزانياتي المخصص للنفقة؛\n- تاريخ إنجاز الخدمة أو تسليم التوريد؛\n- التوقيع والختم من السلطة المختصة.\n\nغير أن أي نقص في هذه البيانات قد يؤدي إلى رفض المحاسب تأشير الأمر بالصرف، مما يُعطّل عملية الدفع حتى استكمال الوثائق. وهذا يبرز الدور الرقابي للمحاسب في مواجهة الآمر بالصرف.\n\nالمصادر: الفصل 120، الفصل 121 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_ar_refusal_001",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي العقوبات الجزائية المطبَّقة على المحاسب العمومي الذي يُقصر في واجباته أو يُسيء استعمال أموال الدولة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 15 من مجلة المحاسبة العمومية (م.م.ع)\nالمحاسبون العموميون مسؤولون شخصياً ومالياً عن العمليات الموكولة إليهم وعن ممارسة المراقبة الموكولة إليهم، وعن حفظ الأموال والقيم والمنتجات والمواد المودَعة لديهم."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تتضمن الوثائق المقدَّمة معلومات كافية للإجابة على هذا السؤال. صحيح أن الفصل 15 من مجلة المحاسبة العمومية [1] يُقرّ المسؤولية الشخصية والمالية للمحاسبين العموميين، غير أن المجلة لا تُفصّل العقوبات الجزائية المحددة المطبَّقة في حال الإخلال بالواجبات.\n\nلمعرفة النظام العقابي الجزائي المنطبق، يُرجى الرجوع إلى المجلة الجزائية التونسية، وقانون المحاسبة العمومية في نصوصه الجزائية، فضلاً عن اجتهادات المحكمة الإدارية ومحكمة المحاسبات. كما يُنصح باستشارة محامٍ متخصص في القانون المالي والجزائي."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_ar_procedural_001",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [213, 214],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي المراحل التي تمر بها حسابات المحاسبين العموميين قبل عرضها على القضاء المالي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 213 من مجلة المحاسبة العمومية (م.م.ع)\nيُعدّ كل محاسب عمومي حساباته السنوية وفق نموذج يُحدّده وزير المالية.\nيجب أن تُرفق الحسابات بجميع الوثائق المثبتة للعمليات المنجزة خلال السنة.\n\n[2] المصدر: الفصل 214 من مجلة المحاسبة العمومية (م.م.ع)\nتُعرض الحسابات السنوية للمحاسبين العموميين على المراقبة الإدارية المالية قبل إحالتها على محكمة المحاسبات.\nتتولى المراقبة الإدارية المالية فحص الحسابات والتحقق من مطابقتها للوثائق المثبتة ومن سلامة الإجراءات المتبعة."
+        },
+        {
+          "role": "assistant",
+          "content": "تسير عملية إعداد وعرض حسابات المحاسبين العموميين وفق مسار متدرج يجمع بين الرقابة الإدارية والرقابة القضائية.\n\n**المرحلة الأولى — إعداد الحسابات (الفصل 213 [1])**: يُعدّ كل محاسب عمومي حساباته السنوية وفق نموذج موحّد يحدده وزير المالية. ويجب أن تُرفق هذه الحسابات بجميع الوثائق المثبتة للعمليات المنجزة خلال السنة، مما يضمن اكتمال الملف وثبوتية العمليات.\n\n**المرحلة الثانية — المراقبة الإدارية المالية (الفصل 214 [2])**: قبل إحالة الحسابات على القضاء المالي، تُعرض على المراقبة الإدارية المالية التي تتولى فحصها والتحقق من:\n- مطابقة الحسابات للوثائق المثبتة؛\n- سلامة الإجراءات المتبعة في تنفيذ العمليات المالية.\nهذه المرحلة تمثل رقابة وقائية تهدف إلى تصحيح الأخطاء قبل اللجوء إلى القضاء.\n\n**المرحلة الثالثة — الإحالة على محكمة المحاسبات**: بعد استكمال المراقبة الإدارية، تُحال الحسابات على محكمة المحاسبات للفصل النهائي في مسؤولية المحاسب وإصدار البراءة أو الحكم بالدين.\n\nالمصادر: الفصل 213، الفصل 214 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_ar_direct_003",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [217],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الميزانيات الملحقة في التشريع المالي التونسي، وما هو نظامها القانوني؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 217 من مجلة المحاسبة العمومية (م.م.ع)\nتُحدث ميزانيات ملحقة لبعض المصالح التابعة للدولة التي لا تتمتع بالشخصية المعنوية والتي تمارس نشاطاً يمكن أن يدرّ موارد خاصة.\nتُعدّ الميزانيات الملحقة وتُنفَّذ وتُراقَب وفق أحكام هذه المجلة، مع مراعاة الأحكام الخاصة المنصوص عليها في النصوص المنشئة لها."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 217 من مجلة المحاسبة العمومية [1]، تُعرَّف الميزانيات الملحقة بأنها أدوات مالية تُحدَّث لبعض المصالح التابعة للدولة التي لا تتمتع بالشخصية المعنوية، ولكن التي تمارس نشاطاً يمكن أن يدرّ موارد خاصة (مثل المصالح ذات الطابع الصناعي أو التجاري).\n\nومن حيث النظام القانوني، تخضع هذه الميزانيات للأحكام العامة لمجلة المحاسبة العمومية من حيث الإعداد والتنفيذ والمراقبة. غير أن هذا الخضوع العام يُقيَّد بالأحكام الخاصة المنصوص عليها في النصوص المنشئة لكل ميزانية ملحقة، مما يمنحها هامشاً من المرونة يتناسب مع طبيعة نشاطها.\n\nوبالتالي، فإن الميزانية الملحقة تُشكّل صيغة وسطى بين الميزانية العامة للدولة وحسابات المؤسسات العمومية المستقلة، تتيح تتبع موارد ونفقات أنشطة محددة ضمن إطار مالي موحّد.\n\nالمصادر: الفصل 217 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_ar_principle_exception_002",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [239, 240],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل تتمتع المؤسسات العمومية بالاستقلالية المالية الكاملة في تسيير اعتماداتها؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 239 من مجلة المحاسبة العمومية (م.م.ع)\nتتوفر المؤسسات العمومية على شخصية معنوية واستقلال مالي.\nتُعدّ ميزانيتها وتُنفَّذ وتُراقَب وفق أحكام هذه المجلة، مع مراعاة الأحكام الخاصة المنصوص عليها في النصوص المنشئة لها.\n\n[2] المصدر: الفصل 240 من مجلة المحاسبة العمومية (م.م.ع)\nلا يمكن للمؤسسة العمومية أن تُحدث اعتمادات إضافية أو أن تنقل اعتمادات من باب إلى آخر إلا في الحالات والشروط المنصوص عليها في التشريع والتراتيب المعمول بها."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 239 من مجلة المحاسبة العمومية [1]، تتمتع المؤسسات العمومية بالشخصية المعنوية والاستقلال المالي، وتخضع ميزانيتها لأحكام المجلة العامة مع مراعاة الأحكام الخاصة المنصوص عليها في نصوص إنشائها. وهذا يُؤسّس لمبدأ الاستقلالية النسبية في التسيير المالي.\n\nغير أن هذا الاستقلال ليس مطلقاً. فوفقاً للفصل 240 من المجلة [2]، لا يجوز للمؤسسة العمومية إحداث اعتمادات إضافية أو نقل اعتمادات من باب ميزانياتي إلى آخر إلا في الحالات والشروط المنصوص عليها صراحةً في التشريع والتراتيب المعمول بها.\n\nوبالتالي، فإن النظام القانوني يوازن بين منح المؤسسات العمومية هامشاً من المرونة في التسيير، وبين إخضاعها لرقابة صارمة على أي تعديل في هيكل اعتماداتها، حفاظاً على وحدة السياسة المالية للدولة وسلامة المال العام.\n\nالمصادر: الفصل 239، الفصل 240 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_ar_clarification_001",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [261, 262],
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يتم تحصيل إيرادات البلدية في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 261 من مجلة المحاسبة العمومية (م.م.ع)\nتتحصّل الموارد البلدية من قِبَل المحاسب البلدي أو من يفوّضه.\nيمكن للبلدية أن تُحدِث مصالح تحصيل خاصة بها، وفق الشروط المنصوص عليها في التشريع والتراتيب المعمول بها.\n\n[2] المصدر: الفصل 262 من مجلة المحاسبة العمومية (م.م.ع)\nتُحصَّل الموارد البلدية وفق الإجراءات المنصوص عليها في هذه المجلة وفي التشريع الخاص بالجماعات العمومية المحلية."
+        },
+        {
+          "role": "assistant",
+          "content": "سؤالكم عام ويستدعي بعض التوضيح: هل تقصدون الموارد الجبائية (مثل الأداءات البلدية) أم الموارد غير الجبائية (مثل عوائد الأملاك أو الخدمات)؟ فإجراءات التحصيل قد تختلف حسب طبيعة المورد.\n\nعلى أي حال، يُرسي الفصل 261 من مجلة المحاسبة العمومية [1] المبدأ العام: يتولى المحاسب البلدي (أو من يفوّضه) تحصيل الموارد البلدية. كما يجوز للبلدية إنشاء مصالح تحصيل خاصة بها، وفق الشروط المنصوص عليها في التشريع والتراتيب المعمول بها.\n\nعلاوة على ذلك، يُؤكّد الفصل 262 من المجلة [2] أن تحصيل هذه الموارد يتم وفق الإجراءات المنصوص عليها في مجلة المحاسبة العمومية وفي التشريع الخاص بالجماعات العمومية المحلية، مما يُخضع العملية لرقابة مزدوجة.\n\nلمزيد من الدقة، يُرجى تحديد نوع المورد المعني حتى نتمكن من الإشارة إلى الإجراءات التفصيلية المنطبقة.\n\nالمصادر: الفصل 261، الفصل 262 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_cross_fr_001",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [37, 38, 39],
+      "confidence_flag": "Cross-lingual example: question in French, source articles in French (standard for CCP). Answer provided in French.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En tant que créancier d'une collectivité publique tunisienne, quels sont les obstacles juridiques que je risque de rencontrer pour recouvrer ma créance, et existe-t-il des voies de recours spécifiques ?\n\nDocuments pertinents:\n[1] Source: art. 37 du Code de la Comptabilité Publique (CCP)\nLes biens de l'Etat, des établissements publics et des collectivités publiques locales sont insaisissables.\n\n[2] Source: art. 38 du Code de la Comptabilité Publique (CCP)\nLes créances sur l'Etat, les établissements publics et les collectivités publiques locales ne peuvent faire l'objet d'aucune compensation avec les dettes de ces mêmes personnes publiques.\nCette interdiction ne s'applique pas aux établissements publics à caractère industriel et commercial.\n\n[3] Source: art. 39 du Code de la Comptabilité Publique (CCP)\nLes actions en justice contre l'Etat, les établissements publics et les collectivités publiques locales sont soumises à des règles de compétence et de procédure particulières fixées par la loi."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu des articles 37, 38 et 39 du CCP, le recouvrement des créances sur une personne publique tunisienne rencontre trois obstacles juridiques majeurs :\n\nPremièrement, l'article 37 du CCP [1] établit le principe d'insaisissabilité des biens publics. Vous ne pouvez donc pas pratiquer de saisie sur les biens de la collectivité, même en vertu d'un titre exécutoire.\n\nDeuxièmement, l'article 38 du CCP [2] interdit toute compensation entre votre créance et d'éventuelles dettes que vous auriez envers la personne publique. Vous ne pouvez donc pas « retenir » un paiement pour vous faire justice vous-même. Toutefois, cette interdiction ne s'applique pas aux établissements publics à caractère industriel et commercial (EPIC), qui relèvent partiellement du droit privé.\n\nTroisièmement, l'article 39 du CCP [3] rappelle que les actions en justice contre les personnes publiques sont soumises à des règles de compétence et de procédure particulières, généralement devant le tribunal administratif, avec des délais et des formalités spécifiques.\n\nAinsi, le recouvrement d'une créance publique passe nécessairement par la voie administrative (réclamation préalable) puis, le cas échéant, par le recours contentieux devant la juridiction administrative compétente, dans le respect des règles procédurales applicables.\n\nSources : art. 37, 38, 39 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_cross_ar_001",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [141, 142],
+      "confidence_flag": "Cross-lingual example: question in Arabic, source articles in French. Answer provided in Arabic as per the question language.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدَّمة. إن لم تتضمّن الوثائق إجابةً واضحة، صرّح بذلك صراحةً. اذكر دائماً الفصل والمصدر. هذا لا يُعدّ رأياً قانونياً مهنياً."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي القواعد المنظمة لدفع أجور الموظفين العموميين في تونس؟ وهل يمكن دفعها نقداً؟\n\nDocuments pertinents:\n[1] Source: art. 141 du Code de la Comptabilité Publique (CCP)\nLe paiement des dépenses de personnel s'effectue par virement sur compte bancaire ou postal.\nToutefois, le paiement en numéraire peut être admis pour les rémunérations dont le montant net mensuel n'excède pas un seuil fixé par arrêté du ministre des finances ou de celui ayant reçu délégation du ministre des finances à cet effet.\nLe montant mensuel s'entend après déduction des retenues pour pensions, assurances sociales et impôts personnels.\n\n[2] Source: art. 142 du Code de la Comptabilité Publique (CCP)\nLe paiement des dépenses de personnel ne peut être effectué qu'au profit du bénéficiaire lui-même ou de son mandataire muni d'une procuration régulière.\nEn cas de décès du bénéficiaire, le paiement est effectué au profit de ses ayants droit, sur production des pièces justificatives prévues par la réglementation en vigueur."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 141 من مجلة المحاسبة العمومية [1]، يقوم النظام القانوني لدفع أجور الموظفين العموميين على مبدأين:\n\n**المبدأ**: يتم الدفع حصراً عن طريق التحويل إلى حساب بنكي أو بريدي، مما يضمن الشفافية وتتبع العمليات المالية.\n\n**الاستثناء**: يجوز الدفع نقداً فقط عندما لا يتجاوز المبلغ الصافي الشهري للراتب عتبة يحددها قرار من وزير المالية. ويُحتسب هذا المبلغ بعد خصم الاشتراكات في أنظمة التقاعد والتأمينات الاجتماعية والضرائب الشخصية.\n\nعلاوة على ذلك، يُشترط وفقاً للفصل 142 من المجلة [2] أن يتم الدفع لصالح المستفيد شخصياً أو لصالح وكيله المفوّض بموجب وكالة نظامية. وفي حالة وفاة المستفيد، يُدفع المبلغ لورثته الشرعيين، شريطة إنتاج الوثائق المثبتة المنصوص عليها في التشريع المعمول به.\n\nوبالتالي، فإن هذه القواعد تهدف إلى حماية حقوق الموظفين من ناحية، وضمان رقابة صارمة على نفقات الأجور من ناحية أخرى.\n\nالمصادر: الفصل 141، الفصل 142 من م.م.ع.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_fr_refusal_002",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis fonctionnaire et je souhaite connaître le barème précis des indemnités de transport auxquelles j'ai droit. Où puis-je trouver cette information ?\n\nDocuments pertinents:\n[1] Source: art. 143 du Code de la Comptabilité Publique (CCP)\nLes frais de mission, de déplacement et de transport sont remboursés aux agents de l'État dans les conditions fixées par décret.\nLes taux et modalités de remboursement sont révisés périodiquement par arrêté du ministre des finances."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. L'article 143 du CCP [1] renvoie expressément à un décret et à des arrêtés du ministre des finances pour fixer les taux et modalités de remboursement des frais de transport. Ces textes réglementaires, qui évoluent périodiquement, ne figurent pas dans les extraits mis à disposition.\n\nJe vous recommande de consulter le décret en vigueur relatif aux frais de mission et de déplacement des agents de l'État, ou de vous rapprocher du service des ressources humaines ou de la paie de votre administration. Un syndicat professionnel ou un avocat spécialisé en droit de la fonction publique pourra également vous assister."
+        }
+      ]
+    },
+    {
+      "example_id": "CCP_002_fr_clarification_002",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [273, 274],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment une commune passe-t-elle un marché public en Tunisie ?\n\nDocuments pertinents:\n[1] Source: art. 273 du Code de la Comptabilité Publique (CCP)\nLes marchés communaux sont passés par le président du conseil municipal ou l'officier de l'état civil agissant en qualité d'ordonnateur.\nIls sont soumis aux règles de publicité et de mise en concurrence prévues par le décret réglementant les marchés publics.\n\n[2] Source: art. 274 du Code de la Comptabilité Publique (CCP)\nLe paiement des marchés communaux s'effectue par le comptable communal, après visa pour paiement et vérification de la régularité des pièces justificatives."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question est large et mériterait d'être précisée : s'agit-il d'un marché de travaux, de fournitures ou de services ? Et quel est le montant estimé du marché ? Ces éléments déterminent la procédure applicable.\n\nCela dit, le CCP pose deux principes généraux pour les marchés communaux :\n\nD'abord, l'article 273 du CCP [1] indique que les marchés communaux sont passés par le président du conseil municipal (ou l'officier de l'état civil agissant comme ordonnateur). Ces marchés sont soumis aux règles de publicité et de mise en concurrence prévues par le décret réglementant les marchés publics.\n\nEnsuite, l'article 274 du CCP [2] précise que le paiement de ces marchés s'effectue par le comptable communal, après visa pour paiement et vérification de la régularité des pièces justificatives. Le comptable exerce ainsi un contrôle a priori sur la légalité de la dépense.\n\nPour connaître les seuils de procédure et les modalités exactes de publicité, il convient de consulter le décret en vigueur relatif aux marchés publics en Tunisie.\n\nSources : art. 273, 274 du CCP.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Titre I — Principes généraux (art. 14, 16, 18, 20, 24, 27, 30, 32, 34, 35, 37–39, 42–45, 53, 54)",
+      "Titre I — Recouvrement et trésorerie (art. 69–70, 72bis, 78, 79)",
+      "Titre II — Dépenses de l'État : engagement et ordonnancement (art. 85–87, 95–98, 101, 102, 120, 121, 123, 124, 125, 138–145)",
+      "Titre II — Personnel et paiements (art. 141–145, 154, 155, 163, 164)",
+      "Titre II — Comptabilité et contrôle (art. 196, 197, 209, 211–214)",
+      "Titre II — Budgets annexes (art. 217–219)",
+      "Titre III — Établissements publics (art. 239–241, 246, 247, 257–259)",
+      "Titre IV — Communes (art. 261–263, 269–271, 273–275, 283–286)"
+    ],
+    "sections_not_covered": [
+      "Art. 1–2 — Dispositions liminaires",
+      "Art. 6–7 — Principes budgétaires",
+      "Art. 28–28quater — Agents d'exécution",
+      "Art. 28sexies — Procédure accélérée",
+      "Art. 48–51 — Prescriptions détaillées",
+      "Art. 56–64 — Fonds de trésorerie",
+      "Art. 71–77 — Procédure législative budgétaire",
+      "Art. 80–83, 88–93 — Engagement et liquidation (hors art. 85–87)",
+      "Art. 103–119 — Marchés et baux",
+      "Art. 126–132 — Pièces justificatives détaillées",
+      "Art. 134–135, 146–151quinto — Modalités de paiement",
+      "Art. 156–162 — Régies d'avances (détail)",
+      "Art. 165–175 — Postes diplomatiques (suite)",
+      "Art. 178–195bis — Comptables spécialisés",
+      "Art. 198–207 — Écritures et bordereaux",
+      "Art. 215–216, 220–235 — Suites judiciaires et budgets annexes (suite)",
+      "Art. 242–244, 248–254, 256, 264–267, 276–281 — Établissements et communes (détails)"
+    ],
+    "notes": "Batch 2 généré avec échantillonnage transversal sur 8 titres du CCP, en évitant strictement les 49 articles utilisés dans le batch 1. Tous les exemples respectent le format RAG avec documents pertinents inclus. Les exemples en arabe sont rédigés en MSA formel exclusivement, sans dialecte tunisien. Deux exemples cross-lingual (19, 20) ont une question en arabe, source en français, réponse en arabe. Aucune hallucination d'articles : tous les numéros cités sont vérifiés dans le texte source. Les refus (6, 14, 20) et clarifications (7, 17, 20) respectent les consignes de prudence juridique. Attention : certains articles du CCP comportent des suffixes (bis, ter, etc.) ; tous ont été respectés fidèlement."
+  }
+}

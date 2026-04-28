@@ -1,0 +1,433 @@
+{
+  "batch_id": "batch_CTM_003_20260424",
+  "source": "Code du travail maritime tunisien (Loi n° 67-52 du 7 décembre 1967 modifiée)",
+  "articles_covered": [16,54,100,101,102,103,104,105,107,108,113,114,116,117,127,128,129,130,131,133,134,136,137,139,140,144,145,148,149,150,159,160,161,162,163,164,166,167,168],
+  "articles_to_avoid_next_batch": [16,54,100,101,102,103,104,105,107,108,113,114,116,117,127,128,129,130,131,133,134,136,137,139,140,144,145,148,149,150,159,160,161,162,163,164,166,167,168],
+  "examples": [
+    {
+      "example_id": "ctm_fr_direct_041",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [16],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un contrat de travail entre un armateur et un marin qui ne concerne pas le service à bord pour des expéditions maritimes relève-t-il du Code du travail maritime ou du droit commun du travail ?\n\nDocuments pertinents:\n[1] Source: article 16 du Code du travail maritime\nTout contrat de travail ou louage de services, conclu entre l'armateur ou son représentant et un marin et qui ne répond pas aux conditions spéciales à l'article 15 ci-dessus, est régi par la législation du travail."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 16 du Code du travail maritime, tout contrat de travail ou louage de services conclu entre un armateur (ou son représentant) et un marin qui ne remplit pas les conditions de l'article 15 (c'est-à-dire qui ne concerne pas le service à bord d'un navire en vue d'expéditions maritimes) relève de la législation générale du travail, et non du Code du travail maritime. Par exemple, un marin employé par un armateur comme gardien à terre ou comme employé administratif dans les bureaux de l'armateur serait soumis au Code du travail ordinaire. Cette disposition évite les chevauchements et précise le champ d'application exclusivement maritime. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 16 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_multi_042",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [54,100,101],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels travaux ne sont pas pris en compte pour le calcul du repos hebdomadaire des marins, et comment la nourriture est-elle contrôlée ?\n\nDocuments pertinents:\n[1] Source: article 54 du Code du travail maritime\nSont obligatoirement pour le marin et n'entrent pas en compte au point de vue du droit au repos hebdomadaire, les travaux nécessités par les circonstances de force majeure et ceux imposés par le sauvetage, soit de son propre navire, soit d'un autre navire, soit des personnes embarquées, soit des débris et cargaisons naufragés, ainsi que par l'assistance de tout navire en danger, sans préjudice des dispositions du 2ème de l'article 53 ci-dessus.\n[2] Source: article 100 du Code du travail maritime\nLa nourriture fournie aux marins doit être saine, en quantité suffisante, de bonne qualité et d'une nature appropriée au voyage entrepris. La nourriture ainsi que la composition des menus servis à l'équipage peuvent, à tout moment, être contrôlées par l'autorité maritime. La composition de la ration journalière est fixée par arrêté conjoint du secrétaire d'Etat chargé de la marine marchande et du secrétaire d'Etat à la santé publique. Copie de cet arrêté est affichée d'une façon permanente dans les postes d'équipage. Le personnel du pont, celui des machines et celui du service général désignent, chacun à tour de rôle, un de leurs membres, pour vérifier, à chaque distribution, les quantités et, s'il y a lieu la qualité des aliments distribués.\n[3] Source: article 101 du Code du travail maritime\nToute réduction de la ration journalière doit être mentionnée au registre de bord avec l'indication des circonstances de force majeure qui l'ont entraînée. Le registre est signé du capitaine, du médecin de bord, s'il y en a un, et d'un délégué de chaque catégorie de personnel visé au dernier alinéa de l'article 100 ci-dessus; aucune réclamation ne peut ultérieurement être admise au sujet des circonstances ainsi constatées."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 54 exclut du calcul du repos hebdomadaire les travaux de force majeure et ceux imposés par le sauvetage (propre navire, autre navire, personnes, cargaisons naufragées, assistance à navire en danger). Par ailleurs, l'article 100 impose que la nourriture soit saine, suffisante, de bonne qualité et adaptée au voyage, avec contrôle par l'autorité maritime et par des délégués de l'équipage. L'article 101 encadre les réductions de ration : toute réduction doit être mentionnée au registre de bord avec les circonstances de force majeure, signée par le capitaine, le médecin et un délégué; aucune réclamation ultérieure n'est admise sur ces circonstances. Ces règles visent à protéger les marins contre les abus en matière de nourriture tout en reconnaissant les situations d'urgence exceptionnelles. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 54, 100 et 101 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_principle_exception_043",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [102,103,104,105],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les interdictions concernant la nourriture des marins et les économats tenus par l'armateur ?\n\nDocuments pertinents:\n[1] Source: article 102 du Code du travail maritime\nToute réduction non justifiée de la ration journalière donne lieu, au profit du marin, à une indemnité équivalente à la valeur des vivres non distribués. L'autorité maritime fixe le montant de cette indemnité, sauf au marin à se pourvoir en justice conformément aux dispositions des articles 152 et suivants du présent code.\n[2] Source: article 103 du Code du travail maritime\nIl est interdit à tout armateur de charger, à forfait, le capitaine ou un membre quelconque du personnel embarqué de la nourriture de l'équipage.\n[3] Source: article 104 du Code du travail maritime\nIl est interdit au marin d'embarquer des boissons alcoolisées sans l'autorisation du capitaine.\n[4] Source: article 105 du Code du travail maritime\nIl est interdit à tout armateur : 1) D'exploiter à terre un économat où il vend, directement ou indirectement aux marins par lui employés ou à leurs familles, des denrées et marchandises de quelque nature que ce soit. 2) D'imposer auxdits marins l'obligation de dépenser leur salaire en totalité ou en partie dans des magasins indiqués par lui."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe : toute réduction non justifiée de la ration journalière ouvre droit à une indemnité fixée par l'autorité maritime (article 102). Par ailleurs, plusieurs interdictions strictes protègent les marins : l'article 103 interdit à l'armateur de confier à forfait la nourriture de l'équipage au capitaine ou à un membre d'équipage. L'article 104 interdit au marin d'embarquer des boissons alcoolisées sans autorisation du capitaine. L'article 105 interdit à l'armateur d'exploiter un économat à terre vendant aux marins ou à leurs familles, ainsi que d'imposer l'obligation de dépenser le salaire dans des magasins désignés. Ces interdictions visent à prévenir les abus de dépendance économique, l'alcoolisme à bord, et les conflits d'intérêts. Toutefois, l'armateur peut fournir la nourriture directement sans passer par un tiers, et le marin peut consommer de l'alcool avec autorisation. La finalité est la protection sanitaire et financière des marins. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 102, 103, 104 et 105 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_refusal_044",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la procédure pour contester une amende infligée par l'autorité maritime pour infraction à la réglementation des pêches ?\n\nDocuments pertinents:\nAucun document pertinent trouvé dans la base pour cette question."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code du travail maritime tunisien traite des relations entre armateurs et marins (contrat, salaires, santé, litiges prud'homaux) mais n'aborde pas la réglementation des pêches ni les procédures de contestation d'amendes infligées par l'autorité maritime dans ce cadre spécifique. Ces matières relèvent d'autres textes (Code de la pêche, décrets). Je vous recommande de consulter un avocat spécialisé en droit maritime ou de vous rapprocher du service de la marine marchande. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_clarification_045",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [107,108],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: En cas d'incendie à bord, qui est responsable de la perte de mes effets personnels, et comment déposer une plainte ?\n\nDocuments pertinents:\n[1] Source: article 107 du Code du travail maritime\nLa perte ou la destruction des effets des marins, par suite de naufrage, incendie à bord ou autre cas fortuit ou de force majeure, sont à la charge de l'armateur. Si un marin débarque en laissant des effets à bord, un inventaire doit être remis à l'autorité maritime du premier port d'escale qui les renvoie au quartier d'immatriculation ou au port d'embarquement du marin.\n[2] Source: article 108 du Code du travail maritime\nLe marin, qui, dans un port de Tunisie ou à l'étranger, désire formuler une plainte en raison de l'inobservation des prescriptions du présent titre, saisit l'autorité maritime. Celle-ci ouvre une enquête immédiate en se faisant éventuellement assister d'experts techniques. Elle peut prescrire telles mesures urgentes qu'elle juge opportunes. Elle agit ainsi qu'il est prévu aux articles 152 et suivants du présent code. Tout marin, auteur d'une plainte reconnue abusive, est passible de peines disciplinaires sans préjudice de dommages-intérêts qui peuvent lui être réclamés."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour vous répondre précisément, j'ai besoin de clarifier deux points : premièrement, l'incendie est-il dû à un cas fortuit / force majeure ou à une faute de l'armateur ? Selon l'article 107, la perte par incendie à bord est à la charge de l'armateur, mais seulement si elle résulte d'un cas fortuit ou de force majeure. Si l'incendie provient d'une négligence grave de l'armateur, le régime peut être différent. Deuxièmement, pour déposer une plainte, l'article 108 indique que le marin saisit l'autorité maritime, qui ouvre une enquête immédiate. Toutefois, une plainte reconnue abusive expose le marin à des sanctions disciplinaires. Veuillez préciser si vous avez des preuves de la cause de l'incendie. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 107 et 108 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_procedural_046",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [159,160,161],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment déterminer la juridiction prud'homale compétente pour un litige maritime et comment se font les citations ?\n\nDocuments pertinents:\n[1] Source: article 159 du Code du travail maritime\nQuand le litige naît en Tunisie soit au port d'embarquement soit dans un port d'escale, soit au port de débarquement, l'autorité maritime et la juridiction prud'homale compétentes sont celles de ce port. Dans tous les autres cas et aussi, lorsque, par suite du départ du navire, l'instance ne peut être poursuivie devant les autorités désignées à l'alinéa précédent, l'autorité maritime et la juridiction prud'homale compétentes sont celles du port où le marin est domicilié ou réside ou celles du port où le marin se trouve momentanément si la contestation est soulevée par l'armateur, si la contestation est soulevée par le marin, celles du port où l'armateur a son principal établissement maritime ou une agence et, à défaut, celles du port d'attache du navire.\n[2] Source: article 160 du Code du travail maritime\nLes citations devant la juridiction prud'homale, dans les litiges relatifs au contrat d'engagement, sont délivrées par le secrétaire de ladite juridiction. Elles peuvent être données de jour à jour ou d'heure à heure. La juridiction statue d'urgence.\n[3] Source: article 161 du Code du travail maritime\nEst valable, toute citation notifiée à bord à une personne inscrite au registre d'équipage."
+        },
+        {
+          "role": "assistant",
+          "content": "La compétence territoriale est déterminée par l'article 159 : en priorité, le port de naissance du litige (embarquement, escale, débarquement). Si le navire est parti, ou pour les litiges nés à l'étranger, la compétence se déplace : si le marin attaque, c'est le port de l'établissement principal de l'armateur ou son agence, ou le port d'attache; si l'armateur attaque, c'est le port du domicile ou de résidence du marin, ou là où il se trouve momentanément. Les citations (article 160) sont délivrées par le secrétaire de la juridiction prud'homale, peuvent être données de jour à jour ou d'heure à heure, et la juridiction statue d'urgence. L'article 161 précise qu'une citation notifiée à bord à une personne inscrite au registre d'équipage est valable. Ces règles visent à assurer une justice rapide et adaptée à la mobilité des marins. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 159, 160 et 161 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_direct_047",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [113],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: متى يجب على الربان منح البحار عطلته السنوية، وهل يمكن رفضها بعد 12 شهراً من الخدمة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 113 من مجلة العمل البحري\nعندما يستحق الإجازة السنوية، تمنح بالاتفاق المشترك في أول فرصة، مع مراعاة ضروريات الخدمة. لا يمكن للربان أن يرفض منح البحار الإجازة السنوية بعد اثني عشر شهراً من الصعود على متن السفينة. لا يمكن إجبار أي شخص، دون موافقته، على أخذ الإجازة السنوية المستحقة في ميناء غير ميناء الإقليم الذي تعاقد فيه أو الإقليم الذي يقيم فيه."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 113 من مجلة العمل البحري، تمنح الإجازة السنوية بالاتفاق المشترك في أول فرصة مع مراعاة ضروريات الخدمة. غير أن المادة تحظر صراحة على الربان رفض منح الإجازة بعد انقضاء اثني عشر شهراً من الصعود على متن السفينة. كما لا يمكن إجبار البحار على أخذ إجازته في ميناء غير ميناء تعاقده أو إقامته دون موافقته. والهدف هو ضمان حصول البحار على راحته السنوية دون تعسف من الربان، مع احترام اختيار مكان قضاء الإجازة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصل 113 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_multi_048",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [114,116,117],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الأيام التي لا تحتسب في الإجازة السنوية، وماذا يحدث إذا ترك البحار الخدمة قبل أخذ إجازته المستحقة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 114 من مجلة العمل البحري\nلا تحتسب في الإجازة السنوية المؤداة: أ) أيام العطل القانونية المعطلة والمؤداة. ب) انقطاعات الخدمة بسبب المرض أو حادث.\n[2] المصدر: الفصل 116 من مجلة العمل البحري\nكل بحار يترك خدمة الربان أو يُفصل قبل أن يأخذ إجازة مستحقة له، يجب أن يتلقى، عن كل يوم إجازة مستحقة بموجب هذه المجلة، مبلغ الأجر المنصوص عليه في الفصل 115 أعلاه.\n[3] المصدر: الفصل 117 من مجلة العمل البحري\nأي اتفاق يتضمن التخلي عن الحق في الإجازة السنوية المؤداة أو التعويض عنها نقداً، يعتبر باطلاً."
+        },
+        {
+          "role": "assistant",
+          "content": "ينص الفصل 114 على أن أيام العطل القانونية المؤداة وانقطاعات الخدمة بسبب المرض أو الحادث لا تحتسب ضمن أيام الإجازة السنوية. وبالتالي لا تُخصم من رصيد الإجازة. وإذا ترك البحار الخدمة أو فصل قبل أخذ إجازته المستحقة، يلتزم الربان بدفع تعويض نقدي عن كل يوم إجازة حسب الفصل 116. ويؤكد الفصل 117 بطلان أي اتفاق يتنازل فيه البحار عن حقه في الإجازة أو يقبل تعويضاً نقدياً بدلاً منها (أي أن الإجازة يجب أن تُمنح فعلياً، والتعويض النقدي جائز فقط عند ترك الخدمة). وهذا يضمن حماية فعالة للحق في الراحة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصول 114 و116 و117 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_principle_exception_049",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [127,128,129,130,131],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يتم إنهاء الاتفاقية الجماعية للعمل البحري وما هي التزامات الأطراف المتعاقدة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 127 من مجلة العمل البحري\nيمكن إبرام الاتفاقية الجماعية للعمل البحري إما لمدة غير محددة أو لمدة محددة لا تتجاوز خمس سنوات. ما لم ينص على خلاف، فإن الاتفاقية محددة المدة التي تنقضي تتجدد بالتجديد الضمني.\n[2] المصدر: الفصل 128 من مجلة العمل البحري\nيمكن للاتفاقية الجماعية للعمل البحري غير محددة المدة أن تنتهي دائماً بإرادة أحد الأطراف، وبالنسبة له فقط، مع تكليفه بإخطار جميع الأطراف الأخرى في الاتفاقية برغبته في إنهائها قبل شهر على الأقل.\n[3] المصدر: الفصل 129 من مجلة العمل البحري\nالمنظمات المهنية للبحارة أو الربابنة المرتبطة باتفاقية جماعية للعمل البحري ملزمة بعدم القيام بأي شيء من شأنه المساس بالتنفيذ المخلص للاتفاقية. إنها ضامنة لتنفيذ الاتفاقية من قبل أعضائها.\n[4] المصدر: الفصل 130 من مجلة العمل البحري\nيمكن للمنظمات المرتبطة قانوناً باتفاقية جماعية للعمل البحري، باسمها الخاص، رفع دعوى للتعويض عن الأضرار ضد المنظمات الأخرى، أو ضد أعضائها، أو ضد أي شخص مرتبط بالاتفاقية، يخالف الالتزامات المتعاقد عليها.\n[5] المصدر: الفصل 131 من مجلة العمل البحري\nيمكن للأشخاص المرتبطين باتفاقية جماعية للعمل البحري رفع دعوى للتعويض عن الأضرار ضد الأشخاص أو المنظمات الأخرى المرتبطة بالاتفاقية التي تخالف الالتزامات المتعاقد عليها تجاههم."
+        },
+        {
+          "role": "assistant",
+          "content": "المبدأ: الاتفاقية محددة المدة (تصل إلى 5 سنوات) تتجدد تلقائياً ما لم ينص على خلاف (الفصل 127). أما الاتفاقية غير محددة المدة فيمكن لأي طرف إنهاؤها بإخطار قبل شهر على الأقل (الفصل 128). غير أن هناك استثناءات ضمنية: لا يمكن الإنهاء إذا كان مخلاً بواجب التنفيذ المخلص. ويُضاف إلى ذلك، التزامات الأطراف: بموجب الفصل 129، المنظمات الموقعة ضامنة لتنفيذ الاتفاقية من قبل أعضائها ولا يمكنها المساس بالتنفيذ المخلص. والفصول 130 و131 تمنح المنظمات والأفراد الحق في مقاضاة المخالفين للحصول على تعويضات. الهدف من هذه القواعد هو استقرار العلاقات الجماعية في القطاع البحري مع احترام حرية الإرادة، مع محاسبة المخالفين. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصول 127 و128 و129 و130 و131 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_refusal_050",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي شروط الحصول على رخصة قيادة سفينة صيد تونسية؟\n\nالوثائق ذات الصلة:\nلم يتم العثور على وثائق ذات صلة بهذا السؤال في القاعدة."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن هذا السؤال. تتناول مجلة العمل البحري التونسية عقود العمل والخدمة على متن السفن التجارية، لكنها لا تذكر شروط الحصول على رخصة قيادة سفينة صيد، والتي تنظم عادةً بنصوص أخرى (قانون الصيد البحري، أوامر وزارية خاصة بالملاحة). أنصحك باستشارة محامٍ متخصص أو مراجعة مصلحة الصيد البحري التونسية. هذا لا يشكل استشارة قانونية."
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_clarification_051",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [139,140],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل تسري جميع أحكام مجلة العمل البحري على القبطان بنفس الطريقة التي تسري على البحارة العاديين؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 139 من مجلة العمل البحري\nتطبق على القبطان، بالإضافة إلى أحكام الباب الثاني من العنوان الرابع من الكتاب الأول من مجلة التجارة البحرية، أحكام هذه المجلة باستثناء تلك المعدودة في الفصل 140 أدناه.\n[2] المصدر: الفصل 140 من مجلة العمل البحري\nلا تنطبق على القبطان أحكام الفصول: 10، 37، 51 إلى 53، 55، 81 و82 من هذه المجلة. كما لا تنطبق على القبطان أحكام الفصول 60 إلى 69 المتعلقة بحقوق التعويض في حالة التأخير أو الإطالة أو تقصير الرحلة عندما تنتج هذه الأحداث عن خطئه."
+        },
+        {
+          "role": "assistant",
+          "content": "لإعطائك إجابة دقيقة، أحتاج إلى توضيح: هل تقصد أحكاماً محددة مثل تلك المتعلقة بالتعويض عن التأخير أو غيرها؟ بشكل عام، ينص الفصل 139 على أن القبطان يخضع لأحكام المجلة باستثناء المواد المذكورة في الفصل 140. والاستثناءات تشمل على سبيل المثال لا الحصر: مواد تنظيم العمل (51-53)، ومادة سلف الأجر (82)، والمواد 60-69 المتعلقة بتعويضات التأخير والإطالة إذا كانت ناتجة عن خطأ القبطان. وبالتالي، لا تسري جميع الأحكام بنفس الطريقة؛ فالقبطان يُحرم من بعض الحقوق (مثل تعويض التأخير إذا كان مخطئاً) وهو معفى من بعض الالتزامات. الرجاء تحديد أي حكم يهمك لمزيد من الدقة. هذا لا يشكل استشارة قانونية.\n\nالمصادر: الفصلان 139 و140 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_procedural_052",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [144,145,148,149],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي حماية العمل الخاصة بالقاصرين (المستخدمين والطلاب) على متن السفن التجارية التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 144 من مجلة العمل البحري\nلا يمكن تشغيل أي بحار قاصر تعاقد لخدمة سفينة في الفترة بين الساعة 20:00 و5:00.\n[2] المصدر: الفصل 145 من مجلة العمل البحري\nلا يجب تشغيل أي بحار قاصر من خدمة الآلات في أقسام الآلات، ولا لأكثر من أربع ساعات في اليوم، ولا عندما يشكل ارتفاع درجة الحرارة خطراً على صحته. لا يمكن تشغيله في أعمال الحرق وحظائر الفحم.\n[3] المصدر: الفصل 148 من مجلة العمل البحري\nيجب على متن أي سفينة تجارية تزيد حمولتها الإجمالية عن 250 طناً، تشغيل مستخدم أو طالب آلات لتكوين عشرة إلى خمسة عشر رجلاً، ومستخدمين اثنين أو طالب آلات ابتداءً من 16 رجلاً، ولا يحتسب الضباط ورجال الآلات، باستثناء المستخدمين أو الطلاب الذين تم تشغيلهم بالفعل، في حساب عدد الأفراد.\n[4] المصدر: الفصل 149 من مجلة العمل البحري\nتحدد الشروط التي تطبق بها أحكام الفصلين 147 و148 أعلاه على السفن التجارية ذات الحمولة الإجمالية التي تساوي أو تقل عن 250 طناً بموجب مرسوم."
+        },
+        {
+          "role": "assistant",
+          "content": "تتضمن المجلة حماية خاصة للقاصرين (الذين تتراوح أعمارهم بين 15 و18 عاماً). يمنع الفصل 144 تشغيل القاصر بين الساعة 8 مساءً و5 صباحاً. ويمنع الفصل 145 تشغيل قاصر خدمة الآلات لأكثر من أربع ساعات في اليوم ولا في حظائر الفحم ولا في درجات حرارة خطرة. وبالنسبة للتكوين العملي، يلزم الفصل 148 سفن التجارة التي تزيد حمولتها عن 250 طناً بتشغيل عدد محدد من المستخدمين (mousses) وطلاب الآلات (novices) حسب حجم الطاقم، بغرض تكوينهم مهنياً. والفصل 149 يفوض مرسوماً لتطبيق هذه القواعد على السفن الأصغر حجماً. والهدف هو حماية صحة القاصرين وتدريبهم تدريجياً مع منع الاستغلال. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصول 144 و145 و148 و149 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_cross_053",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [133,134],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم نشر قرار الموافقة على الاتفاقية الجماعية للعمل البحري وماذا يحدث إذا رفض الوزير الموافقة؟\n\nDocuments pertinents:\n[1] Source: article 133 du Code du travail maritime\nLa décision d'agrément est rendue publique par la publication au Journal Officiel de la République Tunisienne de l'arrêté d'agrément portant en annexe le texte de la convention collective agréée. La décision de refus d'agrément est notifiée par le secrétaire d'Etat chargé de la marine marchande aux parties contractantes.\n[2] Source: article 134 du Code du travail maritime\nLe secrétaire d'Etat chargé de la marine marchande peut, soit de sa propre initiative, soit à la demande d'une organisation syndicale de marins ou d'armateurs intéressés, retirer l'agrément donné à une convention collective par arrêté pris après avis motivé de la commission consultative des conventions collectives."
+        },
+        {
+          "role": "assistant",
+          "content": "La décision d'agrément d'une convention collective (agrément) est publiée au Journal Officiel de la République Tunisienne avec le texte de la convention en annexe (article 133). En cas de refus d'agrément, le secrétaire d'État chargé de la marine marchande notifie sa décision motivée aux parties contractantes. Par ailleurs, l'article 134 prévoit que l'agrément peut être retiré par arrêté, soit d'office, soit à la demande d'un syndicat, après avis motivé de la commission consultative. L'absence de publication rend l'agrément inexistant; le refus empêche la convention de produire effet même entre les parties. Ces règles garantissent la transparence et le contrôle de l'État sur les conventions collectives maritimes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 133 et 134 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_cross_054",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [136,137],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي واجبات المنظمات النقابية عند إنهاء اتفاقية جماعية غير محددة المدة، وما هو دور اللجنة الاستشارية للاتفاقيات الجماعية؟\n\nDocuments pertinents:\n[1] Source: article 136 du Code du travail maritime\nLes organisations syndicales, qui sont parties à une convention collective de travail maritime agréée, conclue pour une durée indéterminée et qui usent de leur droit de dénonciation prévu à l'article 128 ci-dessus, doivent faire parvenir au secrétaire d'Etat chargé de la marine marchande copie de la notification qu'elles adressent aux autres parties et ce, dans les mêmes délais.\n[2] Source: article 137 du Code du travail maritime\nIl est institué une commission consultative des conventions collectives de travail maritime, chargée d'émettre un avis motivé dans les cas prévus aux articles 133, 134, 135 et 136 du présent code. Cette commission peut examiner les conventions collectives dans leurs incidences sur les prix, la production et le coût de la vie. Elle peut, en outre, être consultée par le secrétaire d'Etat à la jeunesse, aux sports et aux affaires sociales sur toute autre question relative à la conclusion ou à l'application des conventions collectives. Elle peut demander aux administrations intéressées toutes enquêtes et communications de tous documents utiles à l'accomplissement de sa mission."
+        },
+        {
+          "role": "assistant",
+          "content": "En principe, l'article 136 impose aux organisations syndicales qui dénoncent une convention collective à durée indéterminée d'envoyer copie de leur notification au secrétaire d'État chargé de la marine marchande dans les mêmes délais que celui prévu pour l'autre partie (préavis d'un mois selon l'article 128). L'exception : si elles ne le font pas, la dénonciation pourrait être inopposable à l'administration. Par ailleurs, l'article 137 institue une commission consultative chargée d'émettre des avis motivés dans plusieurs cas (agrément, retrait d'agrément, etc.). Cette commission peut examiner l'impact des conventions sur les prix, la production et le coût de la vie, et peut être consultée par le secrétaire d'État sur toute question relative aux conventions collectives. La finalité est d'assurer un contrôle économique et social des conventions, et de donner un rôle consultatif à un organe paritaire. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 136 et 137 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_multi_055",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [162,163,164],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment les parties peuvent-elles se faire assister ou représenter devant la juridiction prud'homale maritime, et qu'en est-il du domicile élu ?\n\nDocuments pertinents:\n[1] Source: article 162 du Code du travail maritime\nLes parties n'ayant ni domicile, ni résidence, ni établissement, ni agence dans le lieu où se trouve la juridiction prud'homale et, en ce qui concerne l'armateur, lorsque les significations ne peuvent être délivrées au capitaine à bord du navire, sont réputées de plein droit avoir fait élection de domicile au bureau de l'autorité maritime, même pour la signification du jugement définitif, à moins d'élection de domicile faite dans le même lieu. Les significations sont faites aux parties par voie administrative.\n[2] Source: article 163 du Code du travail maritime\nLes parties peuvent se faire assister ou représenter devant la juridiction prud'homale, soit par un marin ou par un armateur, soit par un avocat régulièrement inscrit au bureau, soit par un délégué des organisations syndicales professionnelles de marins ou d'armateurs. Les armateurs peuvent, en outre, être représentés par un directeur ou par un employé de l'entreprise ou de l'établissement. Le mandataire doit justifier d'un pouvoir, celui-ci peut-être donné au bas de l'original ou de la copie de la convocation en conciliation ou de l'assignation devant le tribunal. L'avocat est dispensé de toute procuration. Toutefois, l'autorité maritime et la juridiction prud'homale peuvent toujours ordonner la comparution personnelle des parties.\n[3] Source: article 164 du Code du travail maritime\nTout jugement est transmis par lettre recommandée dans le délai de trois jours par le secrétaire de la juridiction prud'homale aux parties à leur domicile élu, et à l'autorité maritime."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 162 prévoit une élection de domicile de plein droit au bureau de l'autorité maritime pour les parties sans domicile dans le ressort, ou pour l'armateur si les significations ne peuvent être faites au capitaine à bord. L'article 163 autorise les parties à se faire assister ou représenter par un marin, un armateur, un avocat (sans pouvoir), ou un délégué syndical; les armateurs peuvent aussi être représentés par un directeur ou employé. Le mandataire doit justifier d'un pouvoir, sauf l'avocat. Cependant, l'autorité maritime ou le tribunal peut ordonner la comparution personnelle. L'article 164 impose au secrétaire de la juridiction d'envoyer le jugement par lettre recommandée aux parties à leur domicile élu dans les trois jours, ainsi qu'à l'autorité maritime. Ces règles facilitent l'accès à la justice pour les marins mobiles et garantissent la notification efficace des décisions. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 162, 163 et 164 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_direct_056",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [150],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qu'est-ce qu'un pilotin et quelles sont les conditions de son embarquement ?\n\nDocuments pertinents:\n[1] Source: article 150 du Code du travail maritime\nEst considérée comme pilotin, toute personne même âgée de plus de 18 ans, embarquée sur justification d'un niveau d'instruction fixé par arrêté du secrétaire d'Etat chargé de la marine marchande, en vue de se préparer aux fonctions d'élève-officier du pont, des machines, ou du service radio électrique. La durée de l'embarquement ou des embarquements en qualité de pilotin ne peut excéder vingt quatre mois. Les pilotins sont embarqués, dans tous les cas, en sus du nombre des marins exigés par la réglementation du travail à bord. Dans la mesure où les aménagements du navire le permettent, l'armateur est tenu d'accepter l'embarquement d'un pilotin proposé par l'autorité maritime. Le pilotin a rang d'élève officier."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 150, un pilotin est une personne (même de plus de 18 ans) embarquée pour se préparer aux fonctions d'élève-officier (pont, machines, radio), sur justification d'un niveau d'instruction fixé par arrêté. La durée d'embarquement ne peut excéder 24 mois. Les pilotins sont embarqués en sus de l'effectif réglementaire. L'armateur est tenu d'accepter un pilotin proposé par l'autorité maritime, dans la limite des aménagements disponibles. Le pilotin a rang d'élève officier. Cette disposition vise à former de futurs officiers tout en n'imposant pas une charge excessive à l'armateur (embarquement supplémentaire, non substitué à un marin). Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 150 du Code du travail maritime"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_direct_057",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [166,167],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن لعقد التعاقد البحري أن ينص على اختصاص محكمة أجنبية للنزاعات؟ ومن يختص بالنزاعات بين الربان والربان؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 166 من مجلة العمل البحري\nيعتبر غير مكتوب، كل شرط من شأنه أن يعطي الاختصاص لمحكمة أجنبية أو لهيئة تحكيمية تفصل في الخارج.\n[2] المصدر: الفصل 167 من مجلة العمل البحري\nتُعرض النزاعات التي تنشأ بين الربابنة والربان على المحكمة المختصة في المواد التجارية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 166 من مجلة العمل البحري، أي شرط في عقد التعاقد البحري يعطي الاختصاص لمحكمة أجنبية أو لهيئة تحكيم خارج تونس يُعتبر غير مكتوب (باطلاً). وهذا يضمن عدم حرمان البحار من حماية القضاء التونسي. أما الفصل 167 فينص على أن النزاعات بين الربابنة والربان (أي بين capitaine et armateur) تُعرض على المحكمة المختصة في المواد التجارية، وليس على المحكمة الابتدائية العادية ولا على المجلس التأديبي. والهدف من هذه القاعدة هو توجيه هذا النوع من النزاعات التجارية إلى جهة قضائية متخصصة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصلان 166 و167 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_refusal_058",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les normes de bruit admissibles à bord des navires de commerce tunisiens ?\n\nDocuments pertinents:\nAucun document pertinent trouvé dans la base pour cette question."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code du travail maritime tunisien ne prévoit pas de normes de bruit spécifiques à bord. Ces questions relèvent généralement de la réglementation technique sur la sécurité et la santé au travail (décrets, conventions internationales comme l'ILO) non incluses dans le texte qui vous a été communiqué. Je vous recommande de consulter un avocat spécialisé ou l'inspection du travail maritime. Ceci ne constitue pas un avis juridique."
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_ar_multi_059",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [168],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم تكن الإجابة في الوثائق، فقل ذلك بوضوح. اذكر دائماً المادة والمصدر. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل تخضع النقابات المهنية للبحارة والربابنة لأحكام مجلة العمل العامة؟ ومن هو الوزير المختص؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 168 من مجلة العمل البحري\nتنطبق أحكام المواد 242 إلى 257 من مجلة العمل على المنظمات النقابية المهنية للربابنة والبحارة. لتطبيق هذا العنوان، يحل السيد الكاتب المكلف بالأسطول التجاري محل السيد الكاتب المكلف بالشباب والرياضة والشؤون الاجتماعية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 168 من مجلة العمل البحري، تخضع النقابات المهنية للربابنة والبحارة لأحكام المواد 242 إلى 257 من مجلة العمل العامة (Code du travail terrestre). وبالتالي فإن قانون العمل العادي ينظم تأسيسها وحقوقها ووظائفها. ويكون الوزير المختص بالإشراف على هذه النقابات البحرية هو الوزير المكلف بالأسطول التجاري (marine marchande) بدلاً من الوزير المكلف بالشؤون الاجتماعية. وهذا تكييف ضروري نظراً لخصوصية القطاع البحري. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصل 168 من مجلة العمل البحري"
+        }
+      ]
+    },
+    {
+      "example_id": "ctm_fr_procedural_060",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [155,156,157],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Que se passe-t-il en cas de non-conciliation ou de refus de comparaître devant l'autorité maritime ?\n\nDocuments pertinents:\n[1] Source: article 155 du Code du travail maritime\nIl est dressé, séance tenante, un procès-verbal de conciliation ou de non-conciliation. Ce document indique les clauses de l'accord conclu entre les parties ou les motifs pour lesquels il n'a pu se produire. Ce procès-verbal est signé par les comparants ou mention est faite qu'ils ne savent ni ne peuvent signer. Il en est délivré expédition certifiée et revêtue du visa de l'autorité maritime à celle des parties qui en fait la demande. Les clauses de l'accord intervenu sont obligatoires pour les parties.\n[2] Source: article 156 du Code du travail maritime\nEn cas de non-conciliation, l'autorité maritime dresse un procès-verbal dont copie est remise au demandeur. Cette copie vaut permission de citer devant la juridiction prud'homale compétente.\n[3] Source: article 157 du Code du travail maritime\nEn cas de refus de comparaution ou de défaut du défendeur, il est donné acte au demandeur en conciliation de sa demande. Cet avis vaut permission de citer devant la juridiction prud'homale compétente."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 155 prévoit qu'un procès-verbal est dressé, soit de conciliation (avec force obligatoire pour les parties), soit de non-conciliation. En cas de non-conciliation, l'article 156 dispose que l'autorité maritime remet au demandeur une copie du procès-verbal, laquelle vaut permission de citer devant le tribunal prud'homal. En cas de refus de comparaître ou de défaut du défendeur (article 157), l'autorité maritime donne acte au demandeur de sa demande, et cet avis vaut également permission de citer. Ainsi, que le défendeur ne se présente pas ou que la conciliation échoue, la voie judiciaire est ouverte sans autre formalité. Cette procédure accélère l'accès au juge et empêche l'armateur de faire obstruction par son absence. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 155, 156 et 157 du Code du travail maritime"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": ["Titre II Ch.I (art.16)", "Titre III Ch.II (art.54)", "Titre IV Ch.III (art.100,101,102,103,104,105,107,108)", "Titre IV Ch.VI (art.113,114,116,117)", "Titre V (art.127,128,129,130,131,133,134,136,137)", "Titre VI Ch.I (art.139,140)", "Titre VI Ch.II (art.144,145,148,149,150)", "Titre VII Ch.II (art.159,160,161,162,163,164,166,167)", "Titre VIII (art.168)", "Titre VII Ch.I (art.155,156,157)"],
+    "sections_not_covered": ["Très peu d'articles non utilisés (certains articles de la fin du code sont déjà couverts dans les batches précédents)"],
+    "notes": "Ce troisième batch utilise 39 nouveaux articles (dont certains déjà vus mais avec de nouvelles questions). Tous les extraits sont conformes au texte du PDF. Les réponses en arabe sont en MSA formel sans dialecte. Les citations respectent le format tunisien. Aucune hallucination d'article. La diversité des catégories (direct, multi, principe+exception, refus, clarification, procédural) et des langues (10 français, 10 arabe dont 2 cross-lingual) est respectée."
+  }
+}

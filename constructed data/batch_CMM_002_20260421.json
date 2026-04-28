@@ -1,0 +1,518 @@
+{
+  "batch_id": "batch_CMM_002_20260421",
+  "source": "Code de Commerce Maritime de Tunisie (Loi n° 62-13 du 24 avril 1962)",
+  "articles_covered": [2, 5, 12, 16, 19, 28, 42, 45, 54, 59, 64, 69, 80, 83, 91, 101, 109, 115, 124, 131, 136, 140, 145, 152, 158, 164, 167, 172, 182, 195, 200, 208, 219, 226, 228, 234, 239, 246, 264, 287, 293, 298, 305, 328, 346, 364],
+  "articles_to_avoid_next_batch": [2, 5, 12, 16, 19, 28, 42, 45, 54, 59, 64, 69, 80, 83, 91, 101, 109, 115, 124, 131, 136, 140, 145, 152, 158, 164, 167, 172, 182, 195, 200, 208, 219, 226, 228, 234, 239, 246, 264, 287, 293, 298, 305, 328, 346, 364],
+  "examples": [
+    {
+      "example_id": "CMM_FR_DIRECT_004",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [2],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les bâtiments de guerre sont-ils soumis au Code de Commerce Maritime ?\n\nDocuments pertinents:\n[1] Source: Article 2 du Code de Commerce Maritime\nLes dispositions concernant les transports maritimes et les avaries communes ne sont, cependant, applicables qu'au transport à titre onéreux de marchandises ou de passagers.\nLes bâtiments de guerre et ceux qui sont affectés à un service public de l'Etat ou d'une collectivité publique locale ne sont soumis au présent Code que dans ses seuls dispositions concernant l'abordage, l'assistance et le sauvetage."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 2 du Code de Commerce Maritime [1], les bâtiments de guerre bénéficient d'un régime d'exception. En effet, ils ne sont pas soumis à l'ensemble des dispositions du code. Le législateur a limité leur assujettissement aux seules règles concernant l'abordage, l'assistance et le sauvetage. Ainsi, les dispositions relatives au transport de marchandises ou à l'armement ne leur sont pas applicables. Cette exception s'étend également aux navires affectés à un service public de l'État ou d'une collectivité publique locale.\n\nSources: art. 2 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_DIRECT_005",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [64],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la définition légale du pilote maritime ?\n\nDocuments pertinents:\n[1] Source: Article 64 du Code de Commerce Maritime\nLe pilote est la personne chargée par l'autorité maritime d'une fonction temporaire, selon les cas, obligatoire ou facultative, consistant à monter à bord du navire à l'entrée et à la sortie d'un port, havre ou fleuve et, sous le commandement, l'autorité et la responsabilité du capitaine, et à prendre en charge la conduite technique du navire."
+        },
+        {
+          "role": "assistant",
+          "content": "Selon l'article 64 du Code de Commerce Maritime [1], le pilote est défini comme un auxiliaire temporaire du commandement. Il est chargé par l'autorité maritime de monter à bord pour assister le capitaine lors des manœuvres d'entrée et de sortie des ports, havres ou fleuves. Il est essentiel de noter que, bien qu'il prenne en charge la conduite technique du navire, il agit sous le commandement, l'autorité et la responsabilité du capitaine. Ainsi, la présence du pilote ne décharge pas le capitaine de ses obligations de commandement.\n\nSources: art. 64 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_DIRECT_006",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [172],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La convention d'affrètement doit-elle obligatoirement être écrite ?\n\nDocuments pertinents:\n[1] Source: Article 172 du Code de Commerce Maritime\nLa convention d'affrètement doit être constatée par écrit.\nToutefois, lorsqu'il s'agit de navigation côtière de port à port tunisien, les parties sont dispensées de dresser un acte écrit."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 172 du Code de Commerce Maritime [1], le principe est l'exigence d'un écrit pour constater la convention d'affrètement, ce qui constitue une règle de preuve importante en matière commerciale. Toutefois, le législateur a prévu une exception pour la navigation côtière strictement limitée aux trajets de port tunisien à port tunisien. Dans ce cas précis, les parties sont dispensées de l'obligation de dresser un acte écrit, bien que, pour des raisons probatoires, il soit toujours recommandé de conserver une trace des engagements réciproques.\n\nSources: art. 172 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_MULTI_004",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [42, 45],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui compose l'équipage et quelles sont les conditions de capacité exigées pour les officiers ?\n\nDocuments pertinents:\n[1] Source: Article 42 du Code de Commerce Maritime\nL'équipage comprend l'ensemble des personnes embarquées qui ont conclu avec une personne qualifiée pour ce faire, un contrat ayant pour objet d'accomplir un service à bord, en vue d'une ou plusieurs expéditions maritimes et inscrites au registre d'équipage.\n[2] Source: Article 45 du Code de Commerce Maritime\nLe capitaine et les officiers du pont ou de la machine doivent posséder une capacité professionnelle constatée par des titres ou brevets."
+        },
+        {
+          "role": "assistant",
+          "content": "Selon l'article 42 du Code de Commerce Maritime [1], l'équipage se définit comme l'ensemble des personnes embarquées liées par un contrat de travail maritime et inscrites au registre d'équipage. Par ailleurs, l'article 45 [2] impose une exigence spécifique de capacité professionnelle pour les postes de commandement et techniques. Ainsi, le capitaine et les officiers, qu'ils soient du pont ou de la machine, doivent obligatoirement justifier de leur compétence par la détention de titres ou de brevets professionnels. Cette double condition garantit à la fois la régularité administrative de l'équipage et la sécurité nautique du navire.\n\nSources: art. 42 et 45 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_MULTI_005",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [80, 83],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les effets de l'inscription hypothécaire et que devient l'hypothèque en cas de perte du navire ?\n\nDocuments pertinents:\n[1] Source: Article 80 du Code de Commerce Maritime\nL'hypothèque doit être inscrite sur le registre matricule.\nL'inscription garantit, au même rang que le capital, trois années d'intérêts, à la condition, toutefois, que le taux d'intérêts soit indiqué dans l'acte et l'inscription.\n[2] Source: Article 83 du Code de Commerce Maritime\nEn cas de perte ou d'innavigabilité du navire, le créancier hypothécaire exerce ses droits sur les choses sauvées ou sur leur produit, alors même que la créance ne serait pas encore échue. Il exerce également ses droits sur les indemnités dues au propriétaire à raison des dommages subis par le navire et non réparés."
+        },
+        {
+          "role": "assistant",
+          "content": "L'inscription de l'hypothèque maritime sur le registre matricule produit des effets juridiques précis. En premier lieu, selon l'article 80 [1], elle garantit non seulement le capital mais aussi trois années d'intérêts au même rang, à condition que le taux soit stipulé dans l'acte et mentionné dans l'inscription. En second lieu, l'article 83 [2] régit le sort de la garantie en cas de sinistre majeur. En effet, en cas de perte ou d'innavigabilité totale du navire, le créancier hypothécaire ne perd pas ses droits : il les reporte de plein droit sur les choses sauvées (l'épave) ou leur produit de vente, ainsi que sur les indemnités d'assurance ou de dommages-intérêts dues au propriétaire. Il s'agit d'une subrogation réelle qui protège le créancier contre la disparition matérielle de son gage.\n\nSources: art. 80 et 83 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_PRINC_EXC_003",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [16],
+      "confidence_flag": "Texte modifié par la loi n° 2004-3 du 20 janvier 2004.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la forme requise pour un acte de vente d'un navire tunisien ?\n\nDocuments pertinents:\n[1] Source: Article 16 (Modifié par la loi n° 2004-3 du 20 janvier 2004) du Code de Commerce Maritime\nTout acte translatif de propriété de tout ou de parts indivises d'un navire tunisien doit être fait par un écrit rédigé auprès de l'autorité maritime compétente.\nTout transfert de propriété d'un navire Tunisien en Tunisie, fait en violation des dispositions de l'alinéa premier du présent article, est nul et non avenu."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 16 du Code de Commerce Maritime [1], le transfert de propriété d'un navire tunisien est soumis à un formalisme rigoureux. Le principe est que tout acte translatif, qu'il s'agisse de la totalité du navire ou de parts indivises, doit impérativement être constaté par un écrit. Par ailleurs, cet écrit doit être rédigé auprès de l'autorité maritime compétente, ce qui exclut les actes sous seing privé simples. La sanction du non-respect de cette formalité est particulièrement sévère : l'alinéa 2 prévoit expressément que le transfert effectué en violation de cette règle est nul et non avenu. Ainsi, l'écrit rédigé devant l'autorité maritime n'est pas une simple condition de preuve mais une condition de validité du transfert de propriété.\n\nSources: art. 16 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_PRINC_EXC_004",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [200],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Dans une charte-partie au voyage, qui assure la gestion commerciale du navire ?\n\nDocuments pertinents:\n[1] Source: Article 200 du Code de Commerce Maritime\nLa charte-partie au voyage ou location-transport est celle qui est convenue pour la durée nécessaire à l'accomplissement du ou des voyages envisagés.\nElle peut préciser la nature, la quantité des marchandises à charger et la personne du chargeur.\nLe fret peut être calculé à forfait ou d'après la quantité chargée.\nL'affréteur peut avoir la gestion commerciale du navire et le fréteur peut n'assumer que les obligations d'un entrepreneur de transport ou partie de celles-ci."
+        },
+        {
+          "role": "assistant",
+          "content": "Selon l'article 200 du Code de Commerce Maritime [1], la charte-partie au voyage se caractérise par une répartition spécifique des rôles entre fréteur et affréteur. Le principe est que le fréteur, en mettant son navire à disposition pour un voyage déterminé, peut n'assumer que les obligations d'un entrepreneur de transport, c'est-à-dire la gestion nautique et l'exécution matérielle du déplacement. En revanche, le texte prévoit expressément que l'affréteur peut avoir la gestion commerciale du navire, ce qui inclut le choix des cargaisons et la recherche de fret. Il s'agit là d'une nuance importante par rapport à d'autres types d'affrètement où la gestion commerciale reste souvent chez le fréteur.\n\nSources: art. 200 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_REFUSAL_002",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les règles spécifiques pour le transport de conteneurs frigorifiques (reefers) selon la législation tunisienne ?\n\nDocuments pertinents:\nAucun document pertinent trouvé dans la base de connaissances relative au Code de Commerce Maritime."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis, constitués du Code de Commerce Maritime, ne contiennent pas de dispositions spécifiques relatives au transport de conteneurs frigorifiques (reefers). Ce code régit les principes généraux du transport maritime mais ne descend pas dans le détail technique propre à certains types d'équipements spécialisés. Pour ce type de question très technique, je vous recommande de consulter un avocat spécialisé en droit des transports ou de vous référer aux conventions internationales et aux conditions générales des transporteurs."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_CLARIF_002",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [226, 244, 245],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la différence entre une opération de remorquage et une opération d'assistance ?\n\nDocuments pertinents:\n[1] Source: Article 226 du Code de Commerce Maritime\nIl y a convention de remorquage lorsqu'un ou plusieurs remorqueurs fournissent à un navire la force qui lui fait totalement ou partiellement défaut.\nToutes les parties doivent conjuguer et coordonner leurs efforts en vue du résultat recherché, sous la direction générale du navire remorqué.\n[2] Source: Article 244 du Code de Commerce Maritime\nL'assistance et le sauvetage des navires en danger... sont soumis aux dispositions ci-après.\n[3] Source: Article 245 du Code de Commerce Maritime\nTout acte d'assistance ou de sauvetage ayant eu un résultat utile donne lieu à une équitable rémunération."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question porte sur deux notions distinctes en droit maritime. Le remorquage [1] est un contrat par lequel un navire fournit sa force motrice à un autre navire qui en est dépourvu (totalement ou partiellement). Il s'agit d'une prestation de service planifiée, exécutée sous la direction du navire remorqué. En revanche, l'assistance [2][3] intervient face à une situation de danger. Pour vous répondre précisément, pourriez-vous clarifier le contexte de votre demande ? S'agit-il d'un service de remorquage portuaire convenu à l'avance, ou d'une intervention d'urgence suite à une avarie en mer ?"
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_PROC_002",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [109, 115, 124],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment se déroule la procédure de vente aux enchères d'un navire saisi ?\n\nDocuments pertinents:\n[1] Source: Article 109 du Code de Commerce Maritime\nCopie du procès-verbal de la saisie-exécution... est, sur le champ, remise au capitaine du port qui est requis d'apposer sa signature sur l'original. A partir de cet instant, il doit s'opposer au départ du navire...\n[2] Source: Article 115 du Code de Commerce Maritime\nLa vente sur saisie se fait à l'audience des criées du tribunal, trente jours au minimum après une opposition d'affiches et une insertion du texte de ces affiches au Journal Officiel de la République Tunisienne et dans un Journal Quotidien de Tunisie...\n[3] Source: Article 124 du Code de Commerce Maritime\nSeule l'adjudication suivie du paiement des frais et de la consignation du prix opère transfert de la propriété. Elle purge de plein droit le navire de tous privilèges, hypothèques, actions résolutoires et de toutes prénotations."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure de vente forcée d'un navire se déroule en plusieurs étapes clés. Premièrement, dès la signification de la saisie-exécution, l'article 109 [1] impose au capitaine du port de s'opposer au départ du navire, ce qui immobilise le bien. Deuxièmement, l'article 115 [2] organise la publicité de la vente : celle-ci a lieu à l'audience des criées du tribunal, au moins trente jours après l'affichage et la publication d'un avis dans le Journal Officiel et un quotidien. Enfin, l'article 124 [3] précise les effets juridiques de l'adjudication : ce n'est qu'après le paiement des frais et la consignation du prix que la propriété est transférée à l'adjudicataire, et que le navire est purgé de toutes les charges antérieures (hypothèques, privilèges). Ce mécanisme garantit à l'acquéreur un titre de propriété parfaitement net.\n\nSources: art. 109, 115 et 124 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_DIRECT_003",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [5],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يحق للسفن الأجنبية المرور بحرية في المياه الإقليمية التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 5 من مجلة التجارة البحرية\nللسفن من جميع الجنسيات أن تبحر بحرية في المياه الإقليمية التونسية شرط احترام القواعد التي نصت عليها الاتفاقيات الدولية والقوانين التونسية."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 5 من مجلة التجارة البحرية [1]، فإن المشرع التونسي يقر مبدأ حرية الملاحة في المياه الإقليمية التونسية للسفن من جميع الجنسيات. غير أن هذه الحرية ليست مطلقة، بل هي مقيدة بشرط جوهري يتمثل في وجوب احترام القواعد المقررة بموجب الاتفاقيات الدولية التي صادقت عليها تونس وكذلك القوانين والتراتيب التونسية النافذة. ويشمل هذا الالتزام مجالات متعددة كالسلامة البحرية ومنع التلوث والأمن.\n\nالمصادر: الفصل 5 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_DIRECT_004",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [59],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمارس الربان مهام ضابط الشرطة العدلية على متن السفينة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 59 من مجلة التجارة البحرية\nيمارس الربان مهام ضابط الشرطة العدلية فيما يتعلق بجميع الجنايات والجنح المرتكبة على ظهر السفينة.\nويقوم بمهام ضابط الحالة المدنية."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقا للفصل 59 من مجلة التجارة البحرية [1]، فإن الربان يضطلع بوظائف قانونية هامة تتجاوز مجرد قيادة السفينة. فبمقتضى هذا الفصل، يمارس الربان مهام ضابط الشرطة العدلية فيما يخص جميع الجنايات والجنح التي قد ترتكب على ظهر السفينة، مما يخوله سلطة جمع الأدلة وتحرير المحاضر. علاوة على ذلك، يقوم الربان أيضا بمهام ضابط الحالة المدنية، وهو مخول بتحرير عقود الولادات والوفيات التي قد تحدث خلال الرحلة البحرية. وتهدف هذه الأحكام إلى ضمان استمرارية الخدمة القضائية والمدنية في البيئة البحرية المنعزلة.\n\nالمصادر: الفصل 59 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_DIRECT_005",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [208],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الطرق القانونية لتداول سند الشحن في القانون البحري التونسي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 208 من مجلة التجارة البحرية\nيمكن تحرير سند الشحن للحامل أو للأمر أو لشخص معين.\nإذا كان سند الشحن للحامل تكون البضاعة قابلة للتسليم لأي شخص حامل لسند الشحن المذكور.\nإذا كان سند الشحن للأمر يمكن نقله بالتظهير ولو على بياض.\nإذا كان سند الشحن لشخص معين يمكن نقله لشخص آخر معين عن طريق بيان نقل."
+        },
+        {
+          "role": "assistant",
+          "content": "استنادا إلى الفصل 208 من مجلة التجارة البحرية [1]، فقد وضع المشرع التونسي ثلاثة أنظمة لتداول سند الشحن تتماشى مع طبيعة المعاملات التجارية. أولا، يمكن أن يكون السند للحامل، وفي هذه الحالة تنتقل ملكية البضاعة بمجرد تسليم الوثيقة المادية. ثانيا، يمكن أن يكون السند للأمر، وهو النظام الأكثر شيوعا في التجارة الدولية، حيث يتم نقل الحق في البضاعة عن طريق التظهير ولو كان تظهيرا على بياض. ثالثا، يمكن أن يكون السند لشخص معين، وفي هذه الحالة لا يمكن تداوله إلا عن طريق إجراء شكل هو بيان النقل. ويتيح هذا التنوع مرونة كبيرة للمتعاملين الاقتصاديين.\n\nالمصادر: الفصل 208 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_MULTI_002",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [12, 28],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي العقوبات المقررة على السفينة التي تبحر دون أوراقها القانونية أو تخالف قواعد القيد؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 12 من مجلة التجارة البحرية\nيعاقب مالك السفينة أو مجهزها إذا كانت السفينة غير مزودة بوثيقة أو بعدة وثائق قانونية بخطية قدرها ألفا دينار وبالسجن مدة عام أو بإحدى هاتين العقوبتين فقط... ويمكن للمحكمة أن تأمر علاوة على ذلك بمصادرة السفينة.\n[2] المصدر: الفصل 28 من مجلة التجارة البحرية (منقح بالقانون عدد 3 لسنة 2004)\nيعاقب بخطية قدرها ألف دينار كل شخص يخالف أحكام الفصول 15 و16 والفقرة الثانية من الفصل 23 والفصل 27 من هذه المجلة.\nوللإدارة المختصة سحب وثائق السفينة إلى حين تسوية وضعيتها الإدارية."
+        },
+        {
+          "role": "assistant",
+          "content": "تتعدد العقوبات المقررة لمخالفة الالتزامات المتعلقة بأوراق السفينة وقيدها في السجل العيني. فبمقتضى الفصل 12 [1]، في حالة الإبحار دون الأوراق القانونية، يتعرض مالك السفينة أو مجهزها لعقوبات جنائية قد تصل إلى السجن لمدة عام وخطية مالية قدرها ألفا دينار، مع إمكانية الحكم بمصادرة السفينة ذاتها. وبالانتقال إلى المخالفات الإدارية المتعلقة بإجراءات القيد ونقل الملكية، ينص الفصل 28 [2] على عقوبة مالية مخففة قدرها ألف دينار، ولكنه يمنح السلطة البحرية صلاحية إدارية هامة وهي سحب وثائق السفينة، مما يؤدي عمليا إلى شل حركتها ومنعها من الملاحة إلى غاية تسوية وضعيتها القانونية.\n\nالمصادر: الفصلان 12 و28 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_PRINC_EXC_003",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [19],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي حدود صلاحيات مدير السفينة المعين من قبل الشركاء في الملكية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 19 من مجلة التجارة البحرية\nيمكن إسناد إدارة السفينة بناء على مداولة الأغلبية إلى مدير يعين إما من بين الشركاء في الملكية وإما من غيرهم.\nللمدير سلطات الإدارة العادية. وله بوجه خاص إبرام جميع عقود النقل وتأمين السفينة. وهو يمثل قانونا الشركاء في الملكية لدى القضاء في كل ما يتعلق بتجهيز السفينة واستغلالها.\nغير أنه لا يمكنه اختيار الربان ولا رهن السفينة ولا إجراء الإصلاحات الهامة بدون إذن الأغلبية. ولا يمكنه القيام بأي تصرف من تصرفات التفويت."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 19 من مجلة التجارة البحرية [1]، فإن تعيين مدير لإدارة السفينة المملوكة على الشيوع يتم بقرار من أغلبية الشركاء. والمبدأ العام هو أن المدير يتمتع بكافة سلطات الإدارة العادية التي تمكنه من الاستغلال التجاري اليومي للسفينة، مثل إبرام عقود النقل وتأمين السفينة وتمثيل الشركاء أمام القضاء. غير أن هذا الفصل يورد استثناءات هامة تقيد هذه الصلاحيات حفاظا على حقوق الشركاء، حيث لا يجوز للمدير القيام بأعمال تعتبر من قبيل التصرفات القانونية الخطيرة دون إذن خاص من الأغلبية، وتشمل هذه الأعمال تحديدا: اختيار الربان، رهن السفينة، وإجراء الإصلاحات الهامة. كما يحظر عليه حظرا مطلقا القيام بأي تصرف من شأنه تفويت ملكية السفينة أو أجزاء منها، لأن ذلك يخرج عن نطاق وظيفته الإدارية.\n\nالمصادر: الفصل 19 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_REFUSAL_002",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي نسبة الضريبة على أرباح الشركات العاملة في مجال النقل البحري الدولي في تونس؟\n\nالوثائق ذات الصلة:\nلم يتم العثور على أي وثيقة ذات صلة في قاعدة المعارف المتعلقة بمجلة التجارة البحرية."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تحتوي مجلة التجارة البحرية على أية أحكام متعلقة بالنظام الضريبي للشركات العاملة في قطاع النقل البحري، إذ أن هذه المسائل تخضع لأحكام مجلة الضريبة على الدخل والمراسيم والقوانين المالية ذات الصلة. أنصحكم بالرجوع إلى نصوص القانون الجبائي التونسي أو استشارة محام مختص في الضرائب."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_CLARIF_002",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [101, 109],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يمكنني منع سفينة مدينة لي من مغادرة الميناء؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 101 من مجلة التجارة البحرية\nيمكن الحجز التحفظي على السفن التونسية أو الأجنبية ضمانا لدين بحري.\n[2] المصدر: الفصل 109 من مجلة التجارة البحرية\nتسلم نسخة من محضر الحجز التنفيذي حالا إلى قائد الميناء الذي يطلب منه وضع إمضائه على الأصل. ومنذ تلك اللحظة يجب عليه أن يعارض في سفر السفينة."
+        },
+        {
+          "role": "assistant",
+          "content": "إن الإجراء القانوني الذي تبحثون عنه هو الحجز على السفينة، ولكن يجب التمييز بين نوعين من الحجز تختلف شروطهما. فالحجز التحفظي [1] يهدف إلى ضمان حقوق الدائن قبل حصوله على حكم قضائي، ويتم بناء على إذن من القاضي إذا كان الدين بحريا. أما الحجز التنفيذي [2] فلا يتم إلا بعد صدور حكم قضائي نهائي أو استنادا إلى سند مسجل. في كلتا الحالتين، إجراء المنع من السفر يتم عن طريق إعلام قائد الميناء. هل يمكنكم توضيح ما إذا كنتم قد حصلتم بالفعل على حكم قضائي ضد مالك السفينة، أم أن الأمر لا يزال في مرحلة النزاع؟"
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_PROC_002",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [91, 115, 124],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: اشتريت سفينة وأريد تطهيرها من الرهون السابقة، كيف يتم ذلك قانونا؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 91 من مجلة التجارة البحرية\nيتم تطهير حقوق الدائنين المقيدين... من قبل المالك الجديد على النحو التالي.\n[2] المصدر: الفصل 115 من مجلة التجارة البحرية\nيقع البيع على معنى الحجز بجلسة البيع بالمزاد بالمحكمة بعد ثلاثين يوما على الأقل من تعليق إعلانات وإدراج نص هذه الإعلانات بالرائد الرسمي للجمهورية التونسية وبإحدى الجرائد اليومية التونسية...\n[3] المصدر: الفصل 124 من مجلة التجارة البحرية\nلا ينجر نقل الملكية إلا بالبيع بالمزاد العلني متبوعا بدفع المصاريف وبإيداع الثمن. ويطهر هذا البيع بقوة القانون السفينة من جميع الامتيازات والرهون والدعاوى الفسخية ومن جميع القيود الاحتياطية."
+        },
+        {
+          "role": "assistant",
+          "content": "إن تطهير السفينة من الرهون والامتيازات السابقة هو عملية قانونية دقيقة تسمى \"التطهير\" نظمها المشرع في الفصول 91 وما بعده [1]. تتمثل المرحلة الأولى في قيامكم، بصفتكم المالك الجديد، بتوجيه إعلام للدائنين المقيدين يتضمن عرضا لدفع ديونهم في حدود ثمن الشراء أو القيمة المصرح بها. أمام الدائنين خياران: إما قبول العرض، أو طلب بيع السفينة بالمزاد العلني وفق إجراءات الفصل 115 [2]. إذا لم يطلب أي دائن البيع بالمزاد خلال الأجل القانوني، فإن ملكيتكم تستقر ويتم تطهير السفينة جزئيا. غير أن التطهير الكامل والقاطع لا يتحقق فعليا، كما ينص الفصل 124 [3]، إلا عن طريق البيع بالمزاد العلني بجلسة المحكمة، حيث ينجر عن رسو المزاد ودفع الثمن تطهير السفينة بقوة القانون من كافة الحقوق السابقة.\n\nالمصادر: الفصول 91 و115 و124 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_CROSS_FR_AR_002",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [219],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: متى يبدأ وينتهي عقد نقل المسافرين بحراً وفق القانون التونسي؟\n\nDocuments pertinents:\n[1] Source: Article 219 du Code de Commerce Maritime\nLe contrat de transport par mer est la convention par laquelle un transporteur maritime s'engage, moyennant un prix, à faire parvenir une personne et ses bagages d'un port déterminé à un autre.\nIl comprend le séjour des passagers et de leurs bagages à bord du navire depuis l'embarquement jusqu'au débarquement, y compris ces opérations, à l'exclusion du séjour des passagers et de leurs bagages dans les gares maritimes et sur les quais."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 219 من مجلة التجارة البحرية [1]، فإن النطاق الزمني لعقد نقل المسافرين بحرا محدد بدقة. يبدأ العقد منذ لحظة شروع المسافر في عملية الصعود إلى السفينة، ويستمر طوال فترة إقامته على متنها، وينتهي عند إتمام عملية النزول من السفينة. وتجدر الإشارة إلى أن المشرع قد استثنى صراحة فترة وجود المسافر وأمتعته في المحطات البحرية أو على الأرصفة قبل الإبحار أو بعد الوصول، حيث لا تشملها مسؤولية الناقل البحري ما لم يتفق على خلاف ذلك أو يكون الناقل هو من وفر وسيلة النقل البري.\n\nالمصادر: الفصل 219 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_CROSS_AR_FR_002",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [255, 256, 264],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: Qu'est-ce que l'avarie commune et le jet à la mer est-il toujours considéré comme tel ?\n\nالوثائق ذات الصلة:\n[1] المصدر: Article 255 du Code de Commerce Maritime\nTous dommages et pertes subis par le navire, la cargaison et le fret... sont réputés avaries... Les avaries sont de deux sortes : avaries communes et avaries particulières.\n[2] المصدر: Article 256 du Code de Commerce Maritime\nSont avaries communes, les sacrifices et dépenses extraordinaires, intentionnellement et raisonnablement encourus pour le salut commun, afin de préserver d'un péril les biens engagés dans une même expédition maritime.\n[3] المصدر: Article 264 du Code de Commerce Maritime\nSont admis en avaries communes, les jets de cargaison et les dommages causés par le jet au navire et à la cargaison... Cependant, aucun jet de cargaison ne sera admis en avaries communes, si cette cargaison n'a pas été transportée conformément aux usages reconnus de commerce."
+        },
+        {
+          "role": "assistant",
+          "content": "L'avarie commune est définie aux articles 255 et 256 du Code de Commerce Maritime [1][2] comme un sacrifice ou une dépense extraordinaire, intentionnel et raisonnable, fait pour le salut commun face à un péril menaçant l'expédition maritime. Le jet de marchandises à la mer est l'exemple type de l'avarie commune, expressément visé à l'article 264 [3]. Toutefois, cet article prévoit une exception notable : le jet n'est pas admis en avarie commune si la cargaison n'a pas été transportée conformément aux usages reconnus du commerce. Ainsi, le transport en pontée contraire aux usages ou le transport de marchandises mal arrimées ne donnera pas lieu à contribution des autres intéressés.\n\nSources: art. 255, 256 et 264 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_PRINC_EXC_005",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [182],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui supporte les frais en cas de retard du navire causé par l'affréteur ?\n\nDocuments pertinents:\n[1] Source: Article 182 du Code de Commerce Maritime\nSi le navire est arrêté du départ, en cours de route ou au lieu de son déchargement, par le fait de l'affréteur, les frais et dommages du retard sont dus par ce dernier."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 182 du Code de Commerce Maritime [1], le principe est que l'affréteur doit réparer les conséquences de ses propres manquements. En effet, si le navire est immobilisé ou retardé à n'importe quel stade de l'expédition (au départ, en cours de route ou au déchargement) par un fait imputable à l'affréteur, c'est ce dernier qui supporte la charge financière de ce retard. Il s'agit d'une application du droit commun de la responsabilité contractuelle. Par ailleurs, cette disposition est à distinguer du régime des surestaries (articles 195 et suivants) qui concerne spécifiquement le dépassement des délais de chargement et de déchargement convenus.\n\nSources: art. 182 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_MULTI_003",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [131, 136],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو نطاق مسؤولية المجهز تجاه الغير عن أفعال الربان والبحارة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 131 من مجلة التجارة البحرية\nالمجهز مسؤول مدنيا عن أفعاله وأخطائه وتعهداته الشخصية، وعن التعهدات التي أبرمها الربان في نطاق مهامه. وهو مسؤول مدنيا عن أفعال أو أخطاء الربان وأعضاء الطاقم أثناء قيامهم بوظائفهم.\n[2] المصدر: الفصل 136 من مجلة التجارة البحرية\nيكون صندوق تحديد المسؤولية لمجموع الديون الناشئة عن حادث واحد دون اعتبار للديون الناشئة أو التي قد تنشأ عن حادث آخر."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 131 من مجلة التجارة البحرية [1]، فإن المجهز يتحمل مسؤولية مدنية شاملة عن الأفعال الضارة التي يرتكبها تابعوه. فالمبدأ هو مسؤوليته عن تعهدات الربان التي يبرمها في نطاق مهامه، وكذلك عن أخطاء الربان وأعضاء الطاقم أثناء أدائهم لوظائفهم، مما يجعل المجهز ضامنا لهم تجاه الغير. وبالرجوع إلى الفصل 136 [2]، نجد أن هذه المسؤولية، وإن كانت واسعة من حيث الأشخاص، إلا أنها محدودة القيمة بآلية الصندوق. فكل حادث بحري مستقل ينشئ صندوق تحديد مسؤولية خاصا به، ولا تختلط الديون الناشئة عن حوادث مختلفة في صندوق واحد. وهذا يضمن للمجهز إمكانية تقييم مخاطره المالية بشكل منفصل لكل رحلة أو حادث.\n\nالمصادر: الفصلان 131 و136 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "LIVRE PREMIER - TITRE I (Dispositions générales - Art. 2, 5)",
+      "LIVRE PREMIER - TITRE II (Papiers de bord - sanctions Art. 12)",
+      "LIVRE PREMIER - TITRE III - Chapitre I (Propriété des navires - Art. 16, 19)",
+      "LIVRE PREMIER - TITRE III - Section III (Immatriculation - Art. 28)",
+      "LIVRE PREMIER - TITRE IV - Chapitre I (Equipage - Art. 42, 45)",
+      "LIVRE PREMIER - TITRE IV - Chapitre II (Obligations du capitaine - Art. 54, 59)",
+      "LIVRE PREMIER - TITRE IV - Chapitre III (Pilote - Art. 64)",
+      "LIVRE II - TITRE I - Chapitre II (Privilèges - Art. 69)",
+      "LIVRE II - TITRE I - Chapitre III (Hypothèques - Art. 80, 83)",
+      "LIVRE II - TITRE I - Chapitre IV - Section II (Purge - Art. 91)",
+      "LIVRE II - TITRE II - Chapitre I (Saisie conservatoire - Art. 101)",
+      "LIVRE II - TITRE II - Section II (Saisie-exécution - Art. 109, 115, 124)",
+      "LIVRE III - TITRE II - Chapitre I (Responsabilité de l'armateur - Art. 131)",
+      "LIVRE III - TITRE II - Chapitre II (Limitation - Art. 136, 140)",
+      "LIVRE III - TITRE II - Chapitre III (Responsabilité marchandises - Art. 145)",
+      "LIVRE III - TITRE II - Chapitre IV (Passagers - Art. 152, 158)",
+      "LIVRE IV - TITRE I (Liberté contractuelle - Art. 164)",
+      "LIVRE IV - TITRE II (Personnes concourant - Art. 167)",
+      "LIVRE IV - TITRE III - Chapitre I (Affrètement - Art. 172)",
+      "LIVRE IV - TITRE III - Chapitre III (Obligations de l'affréteur - Art. 182)",
+      "LIVRE IV - TITRE III - Chapitre IV (Staries - Art. 195)",
+      "LIVRE IV - TITRE IV - Chapitre I (Types de chartes-parties - Art. 200)",
+      "LIVRE IV - TITRE IV - Chapitre II (Connaissement - Art. 208)",
+      "LIVRE IV - TITRE IV - Chapitre III (Passagers - Art. 219)",
+      "LIVRE IV - TITRE IV - Chapitre IV (Remorquage - Art. 226)",
+      "LIVRE IV - TITRE IV - Chapitre V (Ventes maritimes - Art. 228)",
+      "LIVRE IV - TITRE V (Prescription transport - Art. 234)",
+      "LIVRE V - TITRE I (Abordage - Art. 239)",
+      "LIVRE V - TITRE II (Assistance - Art. 246)",
+      "LIVRE V - TITRE III - Chapitre II (Avaries communes - Art. 264)",
+      "LIVRE V - TITRE III - Chapitre IV (Dispositions diverses avaries - Art. 287)",
+      "LIVRE V - TITRE IV (Prescription abordage - Art. 293)",
+      "LIVRE VI - TITRE I - Chapitre I (Contrat d'assurance - Art. 298, 305)",
+      "LIVRE VI - TITRE II - Chapitre I (Assurance corps - Art. 328)",
+      "LIVRE VI - TITRE II - Chapitre II (Assurance facultés - Art. 346)",
+      "LIVRE VI - TITRE III (Prescription assurances - Art. 364)"
+    ],
+    "sections_not_covered": [
+      "LIVRE I - TITRE III - Chapitre II (Publicité des droits - détails des registres)",
+      "LIVRE II - TITRE I - Chapitre IV - Section I (Extinction des privilèges - articles 87-90)",
+      "LIVRE II - TITRE II - Section III (Répartition du prix)",
+      "LIVRE IV - TITRE IV - Chapitre V (Ventes CIF, FOB - détails)",
+      "LIVRE VI - TITRE II - Chapitre III (Réassurance)"
+    ],
+    "notes": "Deuxième lot couvrant largement les régimes de responsabilité, la saisie, les contrats d'affrètement et les assurances. Le prochain lot pourrait approfondir les règles de procédure de saisie et les détails des ventes maritimes."
+  }
+}

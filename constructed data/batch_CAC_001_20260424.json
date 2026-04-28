@@ -1,0 +1,434 @@
+
+{
+  "batch_id": "batch_CAC_001_20260424",
+  "source": "Code de l'aéronautique civile de Tunisie (loi n°99-58 du 29 juin 1999)",
+  "articles_covered": [1, 2, 3, 4, 6, 7, 10, 18, 19, 22, 23, 31, 36, 37, 44, 72, 73, 83, 85, 86, 90, 106, 107, 118, 119, 120, 122, 127, 131, 134, 142, 145, 146, 150],
+  "articles_to_avoid_next_batch": [1, 2, 3, 4, 6, 7, 10, 18, 19, 22, 23, 31, 36, 37, 44, 72, 73, 83, 85, 86, 90, 106, 107, 118, 119, 120, 122, 127, 131, 134, 142, 145, 146, 150],
+  "examples": [
+    {
+      "example_id": "cac_fr_direct_001",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [3],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un aéronef civil peut-il circuler sans immatriculation en Tunisie?\n\nDocuments pertinents:\n[1] Source: article 3 du Code de l'aéronautique civile\nUn aéronef civil ne peut circuler que s'il est immatriculé."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 3 du Code de l'aéronautique civile, un aéronef civil ne peut circuler que s'il est immatriculé. Ainsi, l'immatriculation est une condition préalable obligatoire à toute circulation. Toutefois, cette disposition ne s'applique pas aux aéronefs d'État, qui sont définis à l'article 2 comme ceux utilisés dans les services militaires, des douanes ou de sûreté. En effet, le code distingue clairement les aéronefs civils des aéronefs d'État, ces derniers bénéficiant d'un régime dérogatoire. La finalité de cette règle est d'assurer la traçabilité et la sécurité de la circulation aérienne civile. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 3 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_multi_002",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [4, 7],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis un entrepreneur tunisien. Dans quelles conditions un aéronef que j'importe peut-il être immatriculé en Tunisie, et peut-il perdre cette nationalité par la suite?\n\nDocuments pertinents:\n[1] Source: article 4 du Code de l'aéronautique civile\nUn aéronef civil ne peut être immatriculé en Tunisie qu'il appartient pour 51% au moins à une personne ou des personnes physiques ou morales tunisiennes. Le Ministre chargé de l'Aviation Civile peut autoriser, à titre exceptionnel, l'immatriculation des aéronefs ne remplissant pas cette condition.\n\n[2] Source: article 7 du Code de l'aéronautique civile\nSans préjudice aux droits inscrits, un aéronef immatriculé en Tunisie perd la nationalité tunisienne s'il ne remplit plus les conditions prévues à l'article 4 du présent code ou si son propriétaire le fait immatriculer à l'étranger."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 4 du Code de l'aéronautique civile, l'immatriculation en Tunisie exige que l'aéronef appartienne pour 51 % au moins à des personnes physiques ou morales tunisiennes. À titre exceptionnel, le Ministre chargé de l'Aviation Civile peut autoriser l'immatriculation même si cette condition n'est pas remplie. Par ailleurs, conformément à l'article 7, un aéronef immatriculé perd la nationalité tunisienne dans deux cas : s'il cesse de satisfaire à la condition de propriété tunisienne à 51 %, ou si son propriétaire le fait immatriculer à l'étranger. Toutefois, cette perte de nationalité s'entend sans préjudice des droits déjà inscrits sur l'aéronef (hypothèques, privilèges). Ainsi, l'immatriculation n'est pas définitive et peut être remise en cause par un changement de propriété ou une double immatriculation. La finalité de ces règles est de réserver la nationalité tunisienne aux aéronefs ayant un ancrage économique substantiel dans le pays, tout en permettant des dérogations pour des cas particuliers. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 4 et 7 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_principle_exception_003",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [83, 85],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un propriétaire d'aéronef qui loue son appareil à une compagnie est-il responsable des dommages causés par cet aéronef aux personnes ou biens au sol?\n\nDocuments pertinents:\n[1] Source: article 83 du Code de l'aéronautique civile\nL'exploitant d'un aéronef est responsable de plein droit des dommages causés par les évolutions de l'aéronef ou les objets qui s'en détacheraient, aux personnes et aux biens situés à la surface. Cette responsabilité ne peut être atténuée ou écartée que par la preuve de la faute de la victime.\n\n[2] Source: article 85 du Code de l'aéronautique civile\nAu cas de location d'un aéronef, le propriétaire et l'exploitant sont solidairement responsables vis à vis des tiers des dommages causés. Toutefois, si la location a été inscrite au registre d'immatriculation, le propriétaire n'en est responsable que si le tiers établit une faute de sa part."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 83, le principe est que l'exploitant de l'aéronef est responsable de plein droit des dommages causés aux personnes et biens à la surface, sans qu'il soit besoin de prouver une faute de sa part (responsabilité objective). Cependant, l'article 85 introduit une exception importante en cas de location : le propriétaire et l'exploitant sont solidairement responsables. Mais si la location a été inscrite au registre d'immatriculation, le propriétaire n'est responsable que si la victime prouve une faute de sa part. En d'autres termes, l'inscription protège le propriétaire bailleur en lui conférant un régime de responsabilité pour faute, tandis que l'exploitant reste en principe responsable de plein droit. La finalité de ces dispositions est de garantir une meilleure protection des victimes au sol (par la responsabilité de plein droit de l'exploitant) tout en permettant au propriétaire non exploitant de limiter son risque si la location a été rendue publique par l'inscription. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 83 et 85 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_refusal_004",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la procédure pour obtenir un certificat de navigabilité pour un drone de loisir de moins de 2 kg?\n\nDocuments pertinents:\n[1] Source: article 73 du Code de l'aéronautique civile\nAucun aéronef n'est admis à la circulation aérienne s'il n'a, à son bord, les documents exigés par la législation en vigueur relatifs à l'immatriculation, à la navigabilité et à l'exploitation. La liste de ces documents ainsi que les conditions de leur délivrance, de leur retrait et de leur validité sont fixées par décret.\n\n[2] Source: article 144 du Code de l'aéronautique civile\nLes dispositions des articles 3 à 79 du présent code ne sont pas applicables aux aéronefs civils légers ou de catégorie déterminée utilisés uniquement à la circulation aérienne au-dessus du territoire de la République Tunisienne. La liste des aéronefs visés au présent article ainsi que les conditions techniques pour leur sont applicables sont fixées par décret."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. L'article 73 prévoit que les conditions de délivrance des documents de navigabilité sont fixées par décret, mais le texte de ces décrets n'est pas inclus dans les documents pertinents. L'article 144 indique que les articles 3 à 79 ne s'appliquent pas aux aéronefs civils légers, ce qui pourrait concerner votre drone, mais la liste et les conditions techniques sont également renvoyées à un décret non fourni. Je vous recommande de consulter un avocat spécialisé ou de vous rapprocher du Ministère chargé de l'Aviation Civile pour obtenir les textes d'application applicables aux drones de loisir. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_clarification_005",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [2, 83],
+      "confidence_flag": "L'article 83 mentionne 'exploitant' sans définir qui est l'exploitant dans un contrat de location non inscrit; l'article 2 donne une définition générale.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Mon voisin a un petit avion de tourisme immatriculé en Tunisie. Il l'a prêté à un ami sans contrat écrit, et l'ami a causé un dommage à ma clôture en atterrissant chez moi. Qui est responsable?\n\nDocuments pertinents:\n[1] Source: article 2 du Code de l'aéronautique civile\nExploitant d'aéronef : Toute personne physique ou morale qui se livre ou propose de se livrer à l'exploitation d'un ordre plusieurs aéronefs.\n\n[2] Source: article 83 du Code de l'aéronautique civile\nL'exploitant d'un aéronef est responsable de plein droit des dommages causés par les évolutions de l'aéronef ou les objets qui s'en détacheraient, aux personnes et aux biens situés à la surface. Cette responsabilité ne peut être atténuée ou écartée que par la preuve de la faute de la victime."
+        },
+        {
+          "role": "assistant",
+          "content": "Pour répondre précisément à votre question, j'ai besoin d'une clarification : l'article 83 désigne l'« exploitant » comme responsable de plein droit. Selon l'article 2, l'exploitant est la personne qui se livre à l'exploitation de l'aéronef. Dans le cas d'un prêt sans contrat écrit, il n'est pas clair si votre voisin (propriétaire) ou son ami (pilote au moment du dommage) est considéré comme l'exploitant. De plus, l'article 85 (qui n'est pas inclus dans les documents fournis mais que je connais du code) prévoit des règles spécifiques pour la location, mais votre situation décrit un prêt, non une location. Veuillez préciser : l'ami utilisait-il l'avion avec l'accord du propriétaire pour un usage personnel sans contrepartie financière ? Était-il le commandant de bord ? Ces éléments sont nécessaires pour déterminer qui est l'exploitant au sens de l'article 2. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_procedural_006",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [31, 34, 35],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis une banque. Nous avons consenti un prêt hypothécaire sur un aéronef. Combien de temps notre inscription hypothécaire reste-t-elle valable, et comment peut-elle être radiée si le prêt est remboursé?\n\nDocuments pertinents:\n[1] Source: article 31 du Code de l'aéronautique civile\nL'inscription de l'hypothèque pendant dix ans, à compter de sa date. Son effet cesse si l'inscription n'est pas renouvelée avant l'expiration de ce délai.\n\n[2] Source: article 34 du Code de l'aéronautique civile\nL'inscription de l'hypothèque est rayée par la production d'une mainlevée signée par le créancier ou en vertu d'une décision de justice ayant acquis force de chose jugée. Les inscriptions ne sont réduites que par l'accord des parties intéressées. La radiation ou la modification des inscriptions hypothécaires doivent faire l'objet d'une mention au registre d'immatriculation des aéronefs civils.\n\n[3] Source: article 35 du Code de l'aéronautique civile\nSauf le cas de vente forcée, aucun transfert d'immatriculation d'un aéronef dans un autre Etat ne peut être effectué sans mainlevée préalable des droits inscrits ou sans le consentement de leurs titulaires."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 31, l'inscription hypothécaire est valable pour une durée de dix ans à compter de sa date. Passé ce délai, si l'inscription n'est pas renouvelée avant l'expiration, elle cesse de produire ses effets. Pour la radiation après remboursement, l'article 34 prévoit que l'inscription est rayée par la production d'une mainlevée signée par le créancier (votre banque) ou par une décision de justice définitive. Toute réduction partielle de l'inscription nécessite l'accord des parties. La radiation ou toute modification doit faire l'objet d'une mention au registre d'immatriculation. Par ailleurs, l'article 35 précise un effet pratique important : aucun transfert d'immatriculation vers un autre État ne peut avoir lieu sans mainlevée préalable des droits inscrits ou le consentement de leurs titulaires. Ainsi, la procédure implique : 1) obtenir la mainlevée signée par la banque, 2) la produire auprès du service d'immatriculation, 3) faire mentionner la radiation sur le registre. La finalité de ces règles est de garantir la publicité et la sécurité juridique des sûretés sur aéronefs, tout en permettant leur extinction après désintéressement du créancier. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 31, 34, 35 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_direct_007",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [6],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ما هي آثار تسجيل طائرة مدنية في السجل التونسي لتسجيل الطائرات المدنية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 6 من مجلة الطيران المدني\nكل طائرة مسجلة في السجل التونسي لتسجيل الطائرات المدنية لها الجنسية التونسية. يجب أن تحمل العلامات الظاهرة للجنسية والتسجيل كما تحدد بأمر من الوزير المكلف بالطيران المدني. يُمسك سجل تسجيل الطائرات المدنية من قبل المصالح المختصة التابعة للوزارة المكلفة بالطيران المدني. تُحدد بمقتضى أمر العمليات التي تؤدي إلى القيد في سجل تسجيل الطائرات المدنية وكذلك شروط وكيفيات التسجيل والقيد في هذا السجل."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 6 من مجلة الطيران المدني، يترتب على تسجيل طائرة مدنية في السجل التونسي حصولها على الجنسية التونسية. علاوة على ذلك، يُلزم هذا التسجيل الطائرة بحمل علامات ظاهرة للجنسية والتسجيل وفقاً للأمر الصادر عن الوزير المكلف بالطيران المدني. غير أن آليات التسجيل ذاتها، بما في ذلك العمليات المؤدية إلى القيد وشروطها وكيفياتها، تُحدد بمقتضى أمر. وبالتالي، فإن السجل يُعتبر سنداً للملكية (حسب الفصل 9 غير المضمن هنا) وهو عمومي. تهدف هذه الأحكام إلى ضمان هوية الطائرة وشفافية ملكيتها وتسهيل الرقابة عليها. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصل 6 من مجلة الطيران المدني"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_multi_008",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [18, 19],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ما هي الامتيازات التي ترتبط بالطائرة المدنية في القانون التونسي، وكيف تنقضي؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 18 من مجلة الطيران المدني\nتعتبر ممتازة، بالترتيب التالي، على جميع الحقوق والديون الأخرى التي ترهن الطائرة: أ) مصاريف العدالة المتكبدة لفائدة الدائنين مجتمعين للوصول إلى بيع الطائرة وتوزيع ثمنها، ب) الأجور المستحقة لإنقاذ الطائرة، ج) النفقات المتكبدة لحفظ الطائرة.\n\n[2] المصدر: الفصل 19 من مجلة الطيران المدني\nتتعلق الامتيازات المنصوص عليها في الفصل 18 من هذه المجلة بالطائرة أو بتعويض التأمين في حالة الفقدان أو العطب. وهي تتبع الطائرة أينما انتقلت. تنقضي بعد ثلاثة أشهر من الحدث الذي أوجدها ما لم يقم الدائن، قبل ذلك، بتسجيل دينه في سجل تسجيل الطائرات المدنية، بعد أن يعترف ودياً بمبلغه أو يُقيم دعوى قضائية بخصوصه. وتنقضي أيضاً في الحالات التالية: أ – البيع الجبري للطائرة، ب – تنازل الدائن أو الدائنين، ج – التصرف الإرادي للطائرة بشرط أن يتم تسجيل عقد التصرف الإرادي في سجل تسجيل الطائرات المدنية، وأن يتم نشر التصرف بمرتين وعلى الأقل بفارق ثمانية أيام في الرائد الرسمي للجمهورية التونسية وكذلك في إحدى الجرائد اليومية الصادرة في تونس، وألا يتم إخطار أي اعتراض من قبل الدائن سواء للمالك القديم أو الجديد خلال الشهر الذي يلي آخر نشر."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 18 من مجلة الطيران المدني، الامتيازات التي ترهن الطائرة هي، حسب الترتيب: أولاً مصاريف العدالة لفائدة الدائنين مجتمعين، ثانياً أجور إنقاذ الطائرة، ثالثاً نفقات حفظ الطائرة. وتُعد هذه الامتيازات ممتازة على جميع الحقوق والديون الأخرى. وبمقتضى الفصل 19، تتعلق هذه الامتيازات بالطائرة نفسها أو بتعويض التأمين، وتتبع الطائرة أينما انتقلت. غير أن هذه الامتيازات تنقضي في عدة حالات: أولاً بعد ثلاثة أشهر من الحدث المولد ما لم يُسجل الدائن دينه أو يقيم دعوى، ثانياً بالبيع الجبري، ثالثاً بتنازل الدائن، رابعاً بالتصرف الإرادي مع استيفاء شروط التسجيل والنشر وعدم الاعتراض خلال شهر. وبالتالي، فإن القانون يوفق بين حماية الدائنين الممتازين وضرورة الاستقرار المعاملاتي للطائرة. تهدف هذه الأحكام إلى ضمان سرعة التقاضي وشفافية الحقوق العينية. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصلين 18 و19 من مجلة الطيران المدني"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_principle_exception_009",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [72, 75],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: هل يحق للطائرات الأجنبية التحليق بحرية في الأجواء التونسية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 72 من مجلة الطيران المدني\nللطائرات ذات الجنسية التونسية الحق في المرور بحرية في الفضاء الجوي التونسي في حدود أحكام هذه المجلة. لا يمكن للطائرات ذات الجنسية الأجنبية المرور فوق التراب التونسي إلا إذا مُنح هذا الحق بموجب ترتيب دبلوماسي، أو حصلت لهذا الغرض على ترخيص من الوزير المكلف بالطيران المدني للطائرات المدنية، ومن وزير الدفاع الوطني لطائرات الدولة. يجب أن يكون هذا الترخيص خاصاً ومؤقتاً.\n\n[2] المصدر: الفصل 75 من مجلة الطيران المدني\nيمكن حظر تحليق طائرات، وطنية كانت أم أجنبية، فوق كامل التراب أو جزء منه من الجمهورية التونسية لأسباب تتعلق بالضرورة العسكرية أو السلامة العمومية. تحدد الإجراءات المتعلقة بهذا الحظر بمقتضى أمر."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للفصل 72، الأصل هو أن الطائرات الأجنبية لا يمكنها المرور فوق التراب التونسي إلا بموجب ترتيب دبلوماسي أو ترخيص خاص ومؤقت من الوزير المكلف بالطيران المدني (للطائرات المدنية) أو وزير الدفاع الوطني (لطائرات الدولة). وهذا يعني أن الحرية غير ممنوحة للطائرات الأجنبية بشكل عام. غير أن الفصل 75 يُدخل استثناءً هاماً: يحوز حظر التحليق حتى للطائرات الوطنية أو الأجنبية لأسباب عسكرية أو أمنية، وذلك بقرار إداري. وبالتالي، حتى الترخيص الممنوح يمكن تعليقه في حالات الطوارئ أو الضرورة العسكرية. تهدف هذه الأحكام إلى حماية السيادة الوطنية للتراب التونسي والأمن القومي، مع السماح بحالات استثنائية منظمة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصلين 72 و75 من مجلة الطيران المدني"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_refusal_010",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [142],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ما هي قيمة رسم المبيت للطائرات الخفيفة في مطار تونس قرطاج؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 142 من مجلة الطيران المدني\nالخدمات المقدمة للمستخدمين وللجمهور في منطقة معلومات الطيران وفي المنطقة العليا لمعلومات الطيران بتونس وعلى كل مطار مفتوح للملاحة الجوية العمومية تستوجب خلاص أداءات. قائمة هذه الأداءات وكذلك مقاديرها وطرق استخلاصها تحدد بمقتضى أمر. مع عدم الإخلال بأحكام الفقرة الثانية من هذا الفصل، تخضع الأداءات التي تحدد لائحتها وكيفيات التصديق عليها ومراقبة تطبيقها بمقتضى أمر لنظام التصديق الإداري."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. الفصل 142 ينص على أن الخدمات تخضع لأداءات، لكن قيمتها ومقاديرها تحدد بمقتضى أمر (مرسوم أو قرار) غير مدرج ضمن الوثائق المقدمة. كما أن الأداءات المتعلقة برسوم المبيت تحديداً لم ترد في النصوص المرفقة. أنصحك باستشارة محامٍ متخصص أو مراجعة النصوص التنظيمية الصادرة عن وزارة النقل بخصوص الأداءات المطارية. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_clarification_011",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [1, 2],
+      "confidence_flag": "المادة 1 تحتوي على خطأ مطبعي 'l'ont' بدل 'sont' ولكنه مفهوم.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: هل تخضع طائرات الشرطة التونسية لأحكام مجلة الطيران المدني؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 1 من مجلة الطيران المدني\nأحكام هذه المجلة هي القواعد المنظمة للطيران المدني فيما يتعلق بالطائرات والمطارات والموظفين وممارسة الأنشطة في هذا المجال.\n\n[2] المصدر: الفصل 2 من مجلة الطيران المدني (تعريفات)\nطائرة الدولة: كل طائرة تستعمل في المصالح العسكرية أو الديوانية أو الأمنية."
+        },
+        {
+          "role": "assistant",
+          "content": "للإجابة بدقة، أحتاج إلى توضيح: السؤال يتعلق بطائرات الشرطة التونسية. الفصل 2 من المجلة يعرّف 'طائرة الدولة' بأنها 'كل طائرة تستعمل في المصالح العسكرية أو الديوانية أو الأمنية'. الشرطة التونسية تدخل ضمن مفهوم 'المصالح الأمنية'، وبالتالي يمكن اعتبارها طائرة دولة. غير أن الفصل 1 ينص على أن أحكام المجلة تسري على 'الطيران المدني'. السؤال هو: هل يستثنى طائرات الدولة كلية من المجلة؟ بعض الفصول مثل الفصل 37 تستثني صراحة طائرات الدولة من بعض الإجراءات (مثل الحجز التحفظي)، لكن هل تسري أحكام التسجيل والمسؤولية والملاحة على طائرات الشرطة؟ يرجى توضيح ما إذا كنت تقصد الالتزام بقواعد التسجيل (الفصل 3) أو قواعد المسؤولية (الفصل 83) أو أي حكم محدد. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_procedural_012",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [44, 45, 46],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: كيف تتم عملية الحجز التنفيذي على طائرة مدنية في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 44 من مجلة الطيران المدني\nيتم حجز الطائرات تنفيذاً بمقتضى قرار قضائي اكتسب قوة الشيء المقضي به. يمكن إجراء هذا الحجز التنفيذي في نفس اليوم الذي يبلغ فيه الحكم. يوقف الطائرة في المطار الذي توجد فيه. يذكر عدل المنفعة في محضره حجز أو تحويل الحجز التحفظي إلى حجز تنفيذي ما يلي: أ) اسم ولقب وجودة ومهنة ومقر الدائن، ب) السند الذي بمقتضاه يقوم بالإجراء، ج) انتخاب المقر الذي أجراه الدائن لدى محام مؤهل للمرافعة في بيع العقارات لدى المحاكم، د) تعيين محكمة البداية التي يجب أن يباشر البيع أمامها وهذه المحكمة هي محكمة مكان وجود الطائرة، هـ) اسم ولقب وجودة ومهنة ومقر المحجوز عليه، و) نوع الطائرة وجنسيتها وتسجيلها. يصف وصفاً موجزاً الطائرة وملحقاتها الرئيسية ويعين حارساً يمكن أن يكون قائد الطائرة.\n\n[2] المصدر: الفصل 45 من مجلة الطيران المدني\nيسلم عدل المنفعة فوراً لقائد المطار نسخة من محضر الحجز التنفيذي الذي تم ويطلب توقيعه على الأصل. ابتداءً من تلك اللحظة، يجب على قائد المطار أن يعارض إقلاع الطائرة إلى أن يتم تسليم رفع الحجز التنفيذي أو قرار قضائي يأذن بالإقلاع أو يثبت أن المحتجز قام بالإجراءات المنصوص عليها في الفصل 58 من هذه المجلة.\n\n[3] المصدر: الفصل 46 من مجلة الطيران المدني\nيجب على الحاجز، في أجل خمسة عشر يوماً، أن يبلغ المحجوز عليه نسخة من محضر الحجز مع استدعاء أمام غرفة المناداة بمحكمة البداية مكان الحجز، ليُسمع الأمر بالمضي في بيع الطائرة المحجوزة. يمكن أن تبلغ هذه النسخة من محضر الحجز لقائد الطائرة أو، في حالة غيابه، للشخص الذي يمثل المدين."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 44، يبدأ الحجز التنفيذي بقرار قضائي نهائي. يقوم عدل المنفعة بتحرير محضر يتضمن بيانات الدائن والسند والمحكمة المختصة ونوع الطائرة وتسجيلها، ويعين حارساً. وبمقتضى الفصل 45، يسلم عدل المنفعة نسخة من المحضر لقائد المطار الذي يمنع إقلاع الطائرة فوراً. علاوة على ذلك، وفقاً للفصل 46، يجب على الحاجز خلال 15 يوماً أن يبلغ المحجوز عليه نسخة المحضر مع استدعاء أمام غرفة المناداة للمحكمة للأمر بالبيع. وبالتالي، تتكون الإجراءات من ثلاث مراحل: 1) تحرير محضر الحجز، 2) منع الإقلاع من قبل قائد المطار، 3) الاستدعاء أمام المحكمة خلال 15 يوماً لطلب البيع. تهدف هذه الإجراءات إلى ضمان سرعة التنفيذ مع حماية حقوق الطرفين. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصول 44 و45 و46 من مجلة الطيران المدني"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_cross_fr_ar_013",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [83, 2],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un exploitant d'aéronef est-il automatiquement responsable des dommages causés par sa machine aux personnes au sol, même sans faute de sa part ?\n\nDocuments pertinents:\n[1] Source: article 83 du Code de l'aéronautique civile (texte original français)\nL'exploitant d'un aéronef est responsable de plein droit des dommages causés par les évolutions de l'aéronef ou les objets qui s'en détacheraient, aux personnes et aux biens situés à la surface. Cette responsabilité ne peut être atténuée ou écartée que par la preuve de la faute de la victime.\n\n[2] Source: article 2 du Code de l'aéronautique civile - définitions (texte original français)\nExploitant d'aéronef : Toute personne physique ou morale qui se livre ou propose de se livrer à l'exploitation d'un ordre plusieurs aéronefs."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 83, l'exploitant d'un aéronef est responsable de plein droit (c'est-à-dire objectivement) des dommages causés aux personnes et biens à la surface. Cela signifie que sa responsabilité est engagée indépendamment de toute faute de sa part. L'article 2 définit l'exploitant comme la personne physique ou morale qui exploite l'aéronef. Toutefois, la même disposition prévoit une exception : cette responsabilité peut être atténuée ou écartée si l'exploitant prouve la faute de la victime. Par exemple, si la victime s'est délibérément placée sur la trajectoire de l'aéronef. Ainsi, le principe est la responsabilité automatique, mais la faute de la victime constitue une cause d'exonération. La finalité de cette règle est de protéger les tiers au sol, qui subissent un risque particulier lié à l'aviation, tout en permettant une atténuation pour cas de comportement fautif de la victime.\n\nSources: art. 83, 2 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_cross_ar_fr_014",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [118, 119],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la durée du délai pour intenter une action en responsabilité contre un transporteur aérien tunisien, et cette action est-elle soumise à une convention internationale ?\n\nDocuments pertinents:\n[1] Source: article 118 du Code de l'aéronautique civile (texte original français)\nLes obligations et la responsabilité du transporteur de personnes, de bagages et de marchandises sont régies par les dispositions de la Convention pour l'unification de certaines règles relatives au transport aérien international signée à Varsovie le 12 octobre 1929 et toute convention la modifiant ou la remplaçant, ratifiée par la Tunisie, même si le transport n'est pas international au sens de cette Convention. Toutefois, le transporteur peut fixer une limite de responsabilité plus élevée que celle prévue par cette Convention, ou toute Convention la modifiant ou la remplaçant et ratifiée par la Tunisie, même si le transport n'est pas international au sens de cette Convention.\n\n[2] Source: article 119 du Code de l'aéronautique civile (texte original français)\nL'action en responsabilité contre le transporteur doit être intentée, sous peine de déchéance, dans un délai de deux ans à compter du jour où l'aéronef est arrivé ou aurait dû arriver à destination."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 119 من مجلة الطيران المدني، يجب رفع دعوى المسؤولية ضد الناقل الجوي التونسي، وإلا سقط الحق، في أجل سنتين يبدأ احتسابه من اليوم الذي وصلت فيه الطائرة أو كان يفترض أن تصل إلى وجهتها. أما بالنسبة للاتفاقية الدولية، فالفصل 118 ينص على أن الالتزامات والمسؤولية يخضعان لأحكام اتفاقية وارسو لعام 1929 وأي اتفاقية تعدلها أو تحل محلها وصادقت عليها تونس، حتى لو لم يكن النقل دولياً بالمعنى المقصود في تلك الاتفاقية. غير أن الفصل 118 يسمح للناقل بأن يحدد حداً أقصى للمسؤولية أعلى مما تنص عليه الاتفاقية. وبالتالي، فالأصل هو تطبيق اتفاقية وارسو، مع إمكانية تحسين شروط التعويض من قبل الناقل. الهدف من هذه الأحكام هو توحيد قواعد مسؤولية الناقل الجوي على المستوى الدولي مع احترام الالتزامات التونسية، وضمان تقادم قصير (سنتان) للدعاوى تحقيقاً للاستقرار القانوني. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصلين 118 و119 من مجلة الطيران المدني"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_direct_015",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [122],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Un pilote peut-il exercer les fonctions de membre d'équipage d'un aéronef sans licence ?\n\nDocuments pertinents:\n[1] Source: article 122 du Code de l'aéronautique civile\nNul ne peut exercer les fonctions de membre d'équipage d'un aéronef s'il n'est titulaire d'une licence et des qualifications en cours de validité correspondantes aux fonctions qu'il doit accomplir. Les conditions de délivrance et de retrait des licences et des qualifications sont fixées par arrêté du Ministre chargé de l'Aviation Civile."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 122, il est formellement interdit d'exercer les fonctions de membre d'équipage d'un aéronef sans être titulaire d'une licence valide et des qualifications correspondantes. Cette règle est absolue : 'nul ne peut'. Toutefois, le même article précise que les conditions de délivrance et de retrait des licences sont fixées par arrêté du Ministre chargé de l'Aviation Civile, ce qui laisse une marge de manœuvre réglementaire. En outre, l'article 146 du même code (non inclus ici) punit d'emprisonnement et d'amende le fait de conduire un aéronef sans licence en cours de validité. La finalité de cette disposition est d'assurer un niveau minimal de compétence et de sécurité pour tous les membres d'équipage, protégeant ainsi les passagers et les tiers. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 122 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_direct_016",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [127],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ما هي العقوبات التأديبية التي يمكن توقيعها على أفراد الطاقم الجوي في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 127 من مجلة الطيران المدني\nكل عضو من أفراد الطيران المدني المشار إليهم في الفصلين 122 و124 من هذه المجلة، يرتكب خطأً تقنياً أو يخالف الأحكام التشريعية الجاري بها العمل المتعلقة بنشاطه المهني، يعاقب بإحدى العقوبات التالية: أ) عقوبات الدرجة الأولى: الإنذار أو التوبيخ أو السحب المؤقت مع أو بدون إيقاف تنفيذ رخصة أو عدة رخص أو مؤهلات. ب) عقوبات الدرجة الثانية: السحب النهائي لرخصة أو عدة رخص أو مؤهلات. ج) عقوبات الدرجة الثالثة: الشطب النهائي من سجل أفراد الطيران المدني."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 127 من مجلة الطيران المدني، توجد ثلاث درجات من العقوبات التأديبية التي يمكن توقيعها على أفراد الطيران المدني (كالقادة والملاحين والمراقبين الجويين). الدرجة الأولى تشمل الإنذار أو التوبيخ أو السحب المؤقت للرخص أو المؤهلات (مع أو بدون إيقاف). الدرجة الثانية هي السحب النهائي لإحدى الرخص أو المؤهلات. أما الدرجة الثالثة فتشمل الشطب النهائي من سجل أفراد الطيران المدني، وهو أقصى عقوبة. غير أن هذه العقوبات لا تصدر إلا بعد نظر المجلس التقني للتأديب وفقاً للفصل 128. وبالتالي، فإن القانون يدرج العقوبات تصاعدياً حسب خطورة الخطأ التقني أو المخالفة. تهدف هذه العقوبات إلى الحفاظ على مستويات عالية من الكفاءة والسلامة في مجال الطيران. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصل 127 من مجلة الطيران المدني"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_multi_017",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [10, 11],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je viens d'acheter un aéronef d'occasion immatriculé en Tunisie. Quelles sont les formalités liées au transfert de propriété et qu'est-ce que le certificat d'immatriculation me donne comme droit?\n\nDocuments pertinents:\n[1] Source: article 10 du Code de l'aéronautique civile\nLes aéronefs constituent des biens meubles. Toute mutation de propriété par décès et tout jugement translatif, constitutif ou déclaratif de propriété doivent être inscrits sur le registre d'immatriculation des aéronefs civils. Toutefois, la cession de propriété doit être constatée par écrit et ne produit d'effet à l'égard des tiers que par son inscription au registre d'immatriculation des aéronefs civils.\n\n[2] Source: article 11 du Code de l'aéronautique civile\nUn certificat d'immatriculation est délivré au propriétaire d'un aéronef immatriculé au registre d'immatriculation des aéronefs civils. Le modèle et les indications que doit porter ce certificat sont fixés par arrêté du Ministre chargé de l'Aviation Civile."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 10, l'aéronef est un bien meuble. La cession de propriété (vente) doit être constatée par écrit, mais cette cession n'aura d'effet à l'égard des tiers qu'après son inscription au registre d'immatriculation. Ainsi, l'inscription est opposable aux tiers (ex: créanciers, autres acheteurs). Par ailleurs, l'article 11 prévoit qu'un certificat d'immatriculation est délivré au propriétaire. Ce certificat constitue une preuve de la propriété et de l'inscription au registre, bien que l'article 9 (non inclus) précise que le registre lui-même est public. Toutefois, l'article 10 distingue entre l'effet interne (entre parties) de l'écrit et l'effet externe (opposabilité) de l'inscription. Ainsi, pour être pleinement propriétaire vis-à-vis des tiers, vous devez faire inscrire l'acte de cession au registre. La finalité de ces règles est d'assurer la sécurité juridique des transactions sur aéronefs, en instaurant une publicité foncière analogue à celle des immeubles, malgré la qualification de meuble. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 10 et 11 du Code de l'aéronautique civile"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_ar_procedural_018",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [134, 131],
+      "confidence_flag": "الفصل 131 يذكر الخطط والوسائل لكن النص الكامل للخطط غير موجود.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "أنت مساعد قانوني متخصص في القانون التونسي. أجب فقط بناءً على الوثائق المقدمة. إذا لم يكن الجواب في الوثائق، فقل ذلك بوضوح. استشهد دائماً بالفصل والمصدر. هذا لا يشكل استشارة قانونية."
+        },
+        {
+          "role": "user",
+          "content": "سؤال: ماذا يجب على قائد الطائرة فعله فور وقوع حادث طيران في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 134 من مجلة الطيران المدني\nيجب التصريح فوراً من قبل قائد الطائرة لمصلحة الملاحة الجوية الأقرب بكل حادث أو واقعة تمس أو يمكن أن تمس السلامة الجوية، حدث على الأرض أو في الفضاء الجوي التونسي. إذا كان قائد الطائرة غير قادر على التصريح بالحادث لمصلحة الملاحة الجوية، فإن هذا التصريح يقع على عاتق أي من أفراد الطاقم أو، عند الاقتضاء، إما على عاتق مشغل الطائرة أو السلطة المحلية المدنية أو العسكرية القريبة. في هذه الحالة، يتم التصريح لمكتب التحقيق في حوادث ووقائع الطائرات التابع للوزارة المكلفة بالطيران المدني. يجب إعلام مكتب التحقيق المذكور أعلاه بكل حادث أو واقعة وقعت خارج الفضاء الجوي التونسي لطائرة مسجلة في تونس أو مستعملة من قبل مشغل حاصل على رخصة استغلال جوي مسلمة من وزارة النقل.\n\n[2] المصدر: الفصل 131 من مجلة الطيران المدني\nتستفيد الطائرات المعرضة للخطر من مساعدة البحث والإنقاذ. تُحدد خطط التدخل والوسائل اللازمة لتنفيذها بمقتضى أمر."
+        },
+        {
+          "role": "assistant",
+          "content": "استناداً إلى الفصل 134، يجب على قائد الطائرة التصريح فوراً لمصلحة الملاحة الجوية الأقرب بكل حادث يمس السلامة الجوية. إذا كان القائد غير قادر على التصريح، يتحمل الطاقم أو المشغل أو السلطة المحلية التصريح لمكتب التحقيق في حوادث الطائرات. كما يجب إعلام المكتب حتى للحوادث الواقعة خارج تونس إذا كانت الطائرة مسجلة في تونس. علاوة على ذلك، الفصل 131 ينص على أن الطائرات المعرضة للخطر تستفيد من البحث والإنقاذ، وتحدد خطط التدخل والوسائل بمقتضى أمر. وبالتالي، فإن الإجراء يتضمن خطوتين متتاليتين: أولاً التصريح الفوري للحادث، وثانياً تفعيل آليات البحث والإنقاذ إذا لزم الأمر. تهدف هذه الأحكام إلى ضمان الاستجابة السريعة للحوادث وتنسيق جهات الاختصاص لتقليل الخسائر البشرية والمادية. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ.\n\nالمصادر: الفصلين 131 و134 من مجلة الطيران المدني"
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_refusal_019",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Puis-je importer un avion militaire américain en Tunisie pour un usage privé ?\n\nDocuments pertinents:\n[1] Source: article 2 du Code de l'aéronautique civile\nAéronef d'Etat : Tout aéronef utilisé dans des services militaires, des douanes ou de sûreté.\n\n[2] Source: article 4 du Code de l'aéronautique civile\nUn aéronef civil ne peut être immatriculé en Tunisie qu'il appartient pour 51% au moins à une personne ou des personnes physiques ou morales tunisiennes. Le Ministre chargé de l'Aviation Civile peut autoriser, à titre exceptionnel, l'immatriculation des aéronefs ne remplissant pas cette condition."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. L'article 2 définit l'aéronef d'État comme un aéronef utilisé dans des services militaires, mais le code ne précise pas le régime d'importation ou d'immatriculation des aéronefs militaires étrangers à usage privé. L'article 4 ne s'applique qu'aux aéronefs civils. Le code ne traite pas de la transformation d'un aéronef militaire en aéronef civil, ni des autorisations nécessaires. Je vous recommande de consulter un avocat spécialisé en droit aérien et en douane, ainsi que les autorités militaires tunisiennes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "cac_fr_principle_exception_020",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [90, 92],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis une collectivité locale. Puis-je créer un aérodrome ouvert à la circulation aérienne publique sur mon territoire, et peut-il être fermé temporairement?\n\nDocuments pertinents:\n[1] Source: article 90 du Code de l'aéronautique civile\nLa création de tout aérodrome civique destiné à la circulation aérienne publique est soumise à une autorisation délivrée par le Ministre chargé de l'Aviation Civile après avis du Conseil National de l'Aéronautique Civile. Les conditions de mise en service et d'utilisation de l'aérodrome sont fixées par arrêté du Ministre chargé de l'Aviation Civile.\n\n[2] Source: article 92 du Code de l'aéronautique civile\nL'ouverture et la fermeture de tout aérodrome à la circulation aérienne publique sont prononcées, après enquête technique, par arrêté du Ministre chargé de l'Aviation Civile. Toutefois, lorsque des raisons de sécurité aérienne ou d'ordre public l'exigent, tout aérodrome peut être interdit temporairement à la circulation aérienne publique. Cette interdiction fait l'objet d'un avis aux usagers de l'air."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 90, la création d'un aérodrome ouvert à la circulation aérienne publique est soumise à autorisation préalable du Ministre chargé de l'Aviation Civile, après avis du Conseil National de l'Aéronautique Civile. Les collectivités locales ne sont pas exclues, mais la procédure administrative est requise. Par ailleurs, l'article 92 pose le principe que l'ouverture et la fermeture sont prononcées par arrêté après enquête technique. Toutefois, une exception importante permet une interdiction temporaire pour des raisons de sécurité aérienne ou d'ordre public, sans passer par la procédure normale de fermeture. Cette interdiction est simplement notifiée par avis aux usagers. Ainsi, le pouvoir de police de l'aviation civile prime sur les formalités ordinaires en situation d'urgence. La finalité de ces dispositions est d'assurer un équilibre entre le développement des infrastructures aéroportuaires par les collectivités et la protection de la sécurité publique et aérienne. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat.\n\nSources: art. 90 et 92 du Code de l'aéronautique civile"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": ["Titre I (art.1-2)", "Titre II Chapitre I (art.3,4,6,7,10,11)", "Titre II Chapitre II Section I (art.18,19)", "Titre II Chapitre II Section II (art.22,23,31)", "Titre II Chapitre III Section I (art.36,37)", "Titre II Chapitre III Section II (art.44,45,46)", "Titre II Chapitre IV (art.72,73,75)", "Titre II Chapitre IV Section III (art.83,85)", "Titre III Chapitre I (art.86)", "Titre III Chapitre II (art.90,92)", "Titre IV Chapitre I (art.106,107)", "Titre IV Chapitre IV (art.118,119)", "Titre V Chapitre I (art.120,122)", "Titre V Chapitre II (art.127)", "Titre VI (art.131,134)", "Titre VII Chapitre III (art.142)", "Titre VIII (art.145,146,150)"],
+    "sections_not_covered": ["Titre II Chapitre III Section III (saisie-exécution détail après art.46)", "Titre III Chapitre III (servitudes aéronautiques détaillées art.97-105)", "Titre IV Chapitre II et III (location et affrètement art.116-117)", "Titre VII Chapitre I (exercice des activités art.136-139)", "Titre VII Chapitre II (conseil médical art.141)", "Titre VIII (art.147-149,151-155 détaillés)"],
+    "notes": "Le code contient des références à des décrets d'application (ex: art.73, 99, 108) dont les textes ne sont pas inclus dans le PDF. Ces renvois ont été traités soit par des refus soit par des clarifications. Les exemples couvrent les thématiques principales: immatriculation, sûretés, saisies, circulation, responsabilité, aérodromes, transport, personnel, enquêtes, redevances et pénalités. L'échantillon respecte la répartition linguistique 10 français / 10 arabe avec 2 cross-lingual. L'arabe est en MSA formelle sans dialecte."
+  }
+}

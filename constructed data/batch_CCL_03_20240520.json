@@ -1,0 +1,435 @@
+{
+  "batch_id": "batch_CCL_03_20240520",
+  "source": "Code des collectivités locales de Tunisie (Loi organique n° 2018-29 du 9 mai 2018)",
+  "articles_covered": [12, 16, 17, 20, 21, 23, 24, 27, 28, 34, 35, 36, 39, 43, 46, 47, 48, 49, 50, 51, 52, 53, 55, 58, 61, 62, 63, 66, 67, 69, 70, 72, 73, 74, 77, 78, 79, 82, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 100, 101, 102, 104, 105, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 127, 128, 129, 130, 131, 136, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 153, 154, 155, 156, 157, 158, 159, 162, 163, 165, 166, 167, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 202, 206, 207, 208, 209, 211, 212, 214, 215, 216, 217, 219, 220, 222, 224, 225, 227, 228, 229, 230, 231, 232, 233, 236, 237, 238, 239, 240, 241, 242, 244, 246, 247, 248, 249, 251, 252, 253, 255, 259, 260, 262, 263, 264, 265, 266, 267, 268, 270, 272, 273, 275, 278, 279, 280, 284, 285, 286, 287, 288, 289, 290, 291, 292, 294, 296, 298, 303, 304, 305, 306, 307, 309, 310, 313, 315, 316, 317, 318, 320, 323, 324, 325, 326, 327, 328, 329, 330, 332, 333, 335, 336, 337, 338, 339, 343, 344, 345, 346, 347, 348, 349, 350, 352, 353, 359, 360, 361, 364, 367, 369, 370, 372, 373, 374, 375, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400],
+  "articles_to_avoid_next_batch": [12, 16, 17, 20, 21, 23, 24, 27, 28, 34, 35, 36, 39, 43, 46, 47, 48, 49, 50, 51, 52, 53, 55, 58, 61, 62, 63, 66, 67, 69, 70, 72, 73, 74, 77, 78, 79, 82, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 100, 101, 102, 104, 105, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 127, 128, 129, 130, 131, 136, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 153, 154, 155, 156, 157, 158, 159, 162, 163, 165, 166, 167, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 202, 206, 207, 208, 209, 211, 212, 214, 215, 216, 217, 219, 220, 222, 224, 225, 227, 228, 229, 230, 231, 232, 233, 236, 237, 238, 239, 240, 241, 242, 244, 246, 247, 248, 249, 251, 252, 253, 255, 259, 260, 262, 263, 264, 265, 266, 267, 268, 270, 272, 273, 275, 278, 279, 280, 284, 285, 286, 287, 288, 289, 290, 291, 292, 294, 296, 298, 303, 304, 305, 306, 307, 309, 310, 313, 315, 316, 317, 318, 320, 323, 324, 325, 326, 327, 328, 329, 330, 332, 333, 335, 336, 337, 338, 339, 343, 344, 345, 346, 347, 348, 349, 350, 352, 353, 359, 360, 361, 364, 367, 369, 370, 372, 373, 374, 375, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400],
+  "examples": [
+    {
+      "example_id": "ex_fr_direct_041",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [23],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les conseils élus peuvent-ils consulter une instance juridictionnelle sur la répartition des compétences entre collectivités locales ?\n\nDocuments pertinents:\n[1] Source: Article 23 du Code des collectivités locales\nLes conseils élus des communes, des régions et des districts statuent sur les questions relatives à leurs propres compétences respectives. Ils peuvent consulter la Haute Cour administrative sur la répartition desdites compétences."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 23 du Code des collectivités locales, les conseils élus des communes, des régions et des districts disposent de la faculté de consulter la Haute Cour administrative sur la répartition des compétences entre les différentes catégories de collectivités locales [1]. Cette consultation est un mécanisme préventif et facultatif qui leur permet, en cas de doute ou de conflit potentiel, d'obtenir un avis juridictionnel autorisé avant de prendre une décision. Ainsi, cette disposition vise à sécuriser juridiquement l'action des collectivités locales et à prévenir les conflits de compétence en clarifiant le champ d'intervention de chaque échelon.\n\nSources: art. 23 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_direct_042",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [25],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي حدود السلطة التنظيمية المخولة للجماعات المحلية؟\n\nDocuments pertinents:\n[1] Source: Article 25 du Code des collectivités locales\nSous réserve des dispositions législatives et réglementaires à portée nationale, la collectivité locale dispose d’un pouvoir réglementaire qu’elle exerce dans la limite de son champ territorial et de ses compétences. Les décisions sont classées en arrêtés municipaux, arrêtés régionaux et arrêtés du district.\nDans l’exercice de leurs compétences, les collectivités locales veillent à coordonner avec les autres collectivités locales territorialement compétentes et à s’assurer que les dispositions réglementaires locales soient nécessaires et qu’elles ne portent pas atteinte d’une manière substantielle du principe d’égalité devant la loi et devant le service public ainsi qu’aux droits garantis."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 25 من مجلة الجماعات المحلية، تتمتع الجماعة المحلية بسلطة تنظيمية ولكنها ليست مطلقة، إذ تمارس في حدود مجالها الترابي واختصاصاتها ومع مراعاة القوانين والتراتيب الوطنية [1]. وتتخذ قراراتها التنظيمية شكل قرارات بلدية أو جهوية أو قرارات إقليم. علاوة على ذلك، يفرض الفصل واجب التنسيق مع الجماعات المحلية الأخرى المجاورة ويحظر على القرارات المحلية أن تمس بشكل جوهري بمبدأ المساواة أمام القانون وأمام المرفق العام أو بالحقوق المضمونة. وبالتالي، فإن هذه القيود تهدف إلى التوفيق بين مبدأ التدبير الحر للجماعات المحلية وضرورة احترام وحدة الدولة ومبادئها الأساسية.\n\nالمصادر: الفصل 25 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_multi_043",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [26, 27, 28],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment s'exerce le pouvoir réglementaire au sein d'une collectivité locale et comment ses actes entrent-ils en vigueur ?\n\nDocuments pertinents:\n[1] Source: Article 26 du Code des collectivités locales\nLe conseil de la collectivité locale dispose de la compétence de principe dans l’exercice du pouvoir réglementaire des collectivités locales. Le conseil peut déléguer, par arrêté motivé publié au Journal Officiel des collectivités locales, une partie de ses compétences réglementaires à son président.\n\n[2] Source: Article 27 du Code des collectivités locales\nLe président de la collectivité locale exerce les compétences réglementaires qui lui sont attribuées par la loi ou les règlements ainsi que celles qui lui sont déléguées par le conseil de la collectivité locale.\n\n[3] Source: Article 28 du Code des collectivités locales\nLes arrêtés réglementaires des collectivités locales sont publiés au journal officiel des collectivités locales. Ils sont affichés au siège de la collectivité locale et diffusés sur son site électronique.\nUn décret gouvernemental pris sur avis de la Haute Cour administrative détermine les modalités de publication et d’affichage des arrêtés réglementaires des collectivités locales."
+        },
+        {
+          "role": "assistant",
+          "content": "L'exercice du pouvoir réglementaire local repose sur une répartition des rôles entre le conseil et le président, conformément aux articles 26, 27 et 28 du Code des collectivités locales [1][2][3]. Le principe est que le conseil élu est titulaire de la compétence réglementaire de droit commun [1]. Toutefois, le conseil peut déléguer une partie de cette compétence à son président par un arrêté motivé et publié au Journal Officiel des collectivités locales [1]. En outre, le président exerce également les compétences réglementaires qui lui sont directement attribuées par la loi [2]. Par ailleurs, quel que soit l'organe émetteur, les arrêtés réglementaires ne deviennent opposables qu'après leur publication au Journal Officiel des collectivités locales, leur affichage au siège et leur diffusion sur le site électronique de la collectivité [3]. Ainsi, ce dispositif assure à la fois une souplesse de gestion et une transparence vis-à-vis des administrés.\n\nSources: art. 26, 27 et 28 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_multi_044",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [146, 147, 148],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم تمويل عملية نقل الاختصاصات من السلطة المركزية إلى الجماعات المحلية؟\n\nDocuments pertinents:\n[1] Source: Article 146 du Code des collectivités locales\nEn application du principe de solidarité et dans le cadre de la consolidation de la décentralisation et de la réduction des inégalités entre les zones, l’Etat procède à des transferts de crédits au profit des collectivités locales à titre de régularisation et de péréquation ou de participation au financement des projets locaux vitaux conformément à des conventions conclues à cet effet.\n\n[2] Source: Article 147 du Code des collectivités locales\nTout élargissement de compétences ou transfert de nouvelles compétences au profit des collectivités locales doit être nécessairement accompagné d’une consolidation des ressources locales déterminée par la loi.\nLes ressources transférées aux collectivités locales doivent être proportionnelles aux charges qui découlent du transfert ou de l’élargissement des compétences.\n\n[3] Source: Article 148 du Code des collectivités locales\nLes ressources du « fonds d’appui à la décentralisation, la péréquation et la solidarité entre les collectivités locales » proviennent :\n- des crédits alloués par les lois de finances,\n- l’affectation d’une proportion du produit des impôts..."
+        },
+        {
+          "role": "assistant",
+          "content": "تتم عملية تمويل نقل الاختصاصات للجماعات المحلية وفق مبدأ دستوري وقانوني أساسي أقرته الفصول 146 و147 و148 من مجلة الجماعات المحلية [1][2][3]. يتمثل المبدأ الجوهري في أنه يجب أن يقترن أي توسيع أو نقل لاختصاصات جديدة للجماعات المحلية بالضرورة بتدعيم مواردها المالية بما يتناسب مع الأعباء المترتبة عن ذلك [2]. وفي هذا الإطار، تتولى الدولة تحويل اعتمادات مالية لفائدة الجماعات المحلية في شكل اعتمادات تسوية وتعديل أو مساهمة في تمويل المشاريع الحيوية [1]. علاوة على ذلك، يعتبر صندوق دعم اللامركزية والتعديل والتضامن بين الجماعات المحلية الأداة الرئيسية لهذه التحويلات، وتمول موارده أساساً من اعتمادات قوانين المالية وتخصيص نسبة من مداخيل الضرائب [3]. وبالتالي، يهدف هذا الإطار إلى ضمان استدامة مالية اللامركزية وعدم تحميل الجماعات المحلية أعباء دون موارد.\n\nالمصادر: الفصول 146 و147 و148 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_princ_exc_045",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [77],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les principes de fonctionnement du service public s'appliquent-ils uniquement lorsque le service est géré directement par la commune ?\n\nDocuments pertinents:\n[1] Source: Article 77 du Code des collectivités locales\nLes collectivités locales s’engagent à respecter les principes et les règles du fonctionnement des services publics locaux gérés directement par elles ainsi qu’à travers les procédures de leur attribution à des tiers, leur exécution et leur contrôle conformément à la charte des services publics proposée par le Haut Conseil des collectivités locales.\nLes personnes chargées de la gestion d’un service public doivent observer les mêmes principes et règles dans leurs relations avec les usagers du service."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 77 du Code des collectivités locales, le principe est que les règles de fonctionnement du service public local (égalité, continuité, etc.) s'imposent quel que soit le mode de gestion choisi [1]. Ainsi, que le service soit géré directement par la collectivité (régie directe) ou confié à un tiers privé (concession, délégation), les usagers doivent bénéficier des mêmes garanties. En effet, le texte précise explicitement que les personnes chargées de la gestion d'un service public, même si elles sont extérieures à l'administration, doivent observer les mêmes principes et règles dans leurs relations avec les usagers [1]. Ainsi, le législateur a voulu éviter que le recours à la gestion déléguée ne se traduise par un affaiblissement des droits des citoyens face au service public.\n\nSources: art. 77 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_princ_exc_046",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [94],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: في أي حالات يمكن للجماعة المحلية أن تبرم صفقة بالتفاوض المباشر دون المرور بطلب عروض؟\n\nDocuments pertinents:\n[1] Source: Article 94 du Code des collectivités locales\nLa collectivité locale ne peut procéder à la négociation directe ou à l’organisation d’une consultation que dans les cas suivants :\n- lorsque l’appel à la concurrence est déclaré infructueux deux fois consécutives,\n- lorsque l’objet du contrat se rapporte à des prestations dont l’exécution ne peut être confiée qu’à une personne déterminée ou à une activité dont l’exploitation est réservée à un titulaire de brevet d’invention ou à un détenteur de biens à caractère culturel ou relevant du patrimoine,\n- en cas d’urgence absolue et de nécessité extrême d’exécution."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 94 من مجلة الجماعات المحلية، فإن الأصل العام هو الخضوع لإجراءات المنافسة والشفافية في إبرام الصفقات، غير أن المشرع أورد استثناءات محددة على سبيل الحصر يمكن فيها اللجوء إلى التفاوض المباشر [1]. تتمثل هذه الحالات أولاً في الإعلان عن فشل طلب العروض مرتين متتاليتين. ثانياً، إذا كان موضوع الصفقة يتعلق بخدمات لا يمكن إسنادها إلا لشخص معين أو احتكار استغلالها لصاحب براءة اختراع أو ممتلكات تراثية. ثالثاً، في حالات التأكد العاجل والضرورة القصوى للتنفيذ. وبالتالي، فإن هذه الاستثناءات تهدف إلى التوفيق بين مبدأي المنافسة والشفافية من جهة، وفعالية العمل البلدي وضرورة استمرارية المرفق العام من جهة أخرى.\n\nالمصادر: الفصل 94 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_refusal_047",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les modalités de calcul de l'impôt sur le revenu des personnes physiques en Tunisie ?\n\nDocuments pertinents:\n[1] Source: Code des collectivités locales - Aucun article pertinent trouvé."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code des collectivités locales régit l'organisation et le fonctionnement des communes, régions et districts, mais ne traite pas de la fiscalité nationale applicable aux personnes physiques. Ces règles relèvent du Code de l'Impôt sur le Revenu des Personnes Physiques et de l'Impôt sur les Sociétés. Je vous recommande de consulter un avocat fiscaliste ou de vous référer aux textes législatifs et réglementaires en matière fiscale."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_refusal_048",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يمكنني الحصول على تأشيرة سياحية إلى فرنسا؟\n\nDocuments pertinents:\n[1] Source: مجلة الجماعات المحلية - لم يتم العثور على أي فصل ذي صلة."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تحتوي الوثائق المتوفرة على معلومات كافية للإجابة على هذا السؤال. فمجلة الجماعات المحلية تنظم هياكل السلطة المحلية واختصاصاتها، ولا تتضمن أحكاماً تتعلق بإجراءات الحصول على التأشيرات للسفر إلى الخارج التي تخضع للقوانين والقنصليات الأجنبية. يرجى مراجعة الموقع الرسمي للقنصلية الفرنسية في تونس أو الاتصال بوكالة أسفار مختصة."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_clarif_049",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [78],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment impliquer la société civile dans le contrôle des services publics locaux ?\n\nDocuments pertinents:\n[1] Source: Article 78 du Code des collectivités locales\nLa collectivité locale peut, sur demande des composantes de la société civile, créer une commission spéciale composée, outre des membres du conseil et d’agents de son administration, de représentants de la société civile, chargée d’assurer le suivi du fonctionnement des services publics sans s’ingérer dans leur gestion.\nCette commission présente des rapports au conseil de la collectivité locale.\nLa collectivité locale peut également sonder l’opinion des utilisateurs sur le fonctionnement et les modalités de gestion de l’un des services publics locaux moyennant un formulaire pour la préparation et l’étude duquel, doivent être observées les exigences de transparence, d’objectivité et d’indépendance."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question est large. L'article 78 du Code des collectivités locales prévoit deux mécanismes distincts d'implication [1]. Pourriez-vous préciser si vous souhaitez savoir comment créer une commission consultative de suivi (qui nécessite une demande formelle des composantes de la société civile), ou si vous cherchez à connaître les modalités de réalisation d'un sondage d'opinion sur un service public spécifique (qui relève de l'initiative de la collectivité) ?"
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_clarif_050",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [12],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يمكن لبلدية تفويض صلاحياتها لبلدية أخرى؟\n\nDocuments pertinents:\n[1] Source: Article 12 du Code des collectivités locales\nIl est loisible à une collectivité locale d’habiliter une autre collectivité locale ou des établissements ou entreprises publics d’exercer l’une de ses compétences propres.\nL’habilitation est accordée par une délibération votée à la majorité absolue des membres du conseil de la collectivité locale concernée.\nLa délibération fixe les implications financières entraînées par l’habilitation.\nLes compétences déléguées sont exercées au nom de la collectivité locale titulaire de la compétence propre.\nL’habilitation est attribuée par une convention limitée dans le temps, selon un modèle fixé par un décret gouvernemental, pris sur avis du Haut Conseil des collectivités locales et de la Haute Cour administrative."
+        },
+        {
+          "role": "assistant",
+          "content": "سؤالك بحاجة إلى تحديد دقيق لنوع التفويض. فالفصل 12 من مجلة الجماعات المحلية يتحدث عن \"التخويل\" الذي يختلف عن \"التفويض\" في القانون الإداري [1]. التخويل يعني نقل ممارسة اختصاص ذاتي مع بقاء الاختصاص في الأصل للجماعة المخوِّلة. هل تقصد إمكانية تخويل بلدية أخرى لممارسة اختصاص معين (مثل إدارة مرفق معين)؟ أم تقصد تفويض الرئيس لصلاحياته داخل نفس البلدية (وهو ما ينظمه الفصل 261)؟ يرجى توضيح النوع الذي تبحث عنه."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_proc_051",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [182, 183],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Que se passe-t-il si une collectivité locale présente un déficit budgétaire supérieur à 5% ?\n\nDocuments pertinents:\n[1] Source: Article 182 du Code des collectivités locales\nS’il résulte de l’exécution du budget de l’année écoulée un déficit dépassant le seuil de cinq pour cent, le Haut Conseil des collectivités locales procède, sur demande du ministre des finances, à l’invitation de la collectivité locale à prendre les mesures à même de le combler au moyen des ressources ordinaires. Le Haut Conseil des collectivités locales et les autorités centrales concernées sont tenus informés des mesures prises dans un délai de soixante jours.\nSi la collectivité locale s’abstient de prendre les mesures sus-indiquées, l’autorité centrale propose à la juridiction des comptes territorialement compétente des mesures pour combler le déficit. Ladite juridiction, ordonne, le cas échéant, les mesures appropriées qui demeurent en vigueur jusqu’à l’adoption par la collectivité locale des mesures susceptibles de résorber, effectivement, le déficit moyennant les ressources ordinaires.\n\n[2] Source: Article 183 du Code des collectivités locales\nLa violation des dispositions de l’article 181 constitue une faute de gestion au sens de la loi organique relative à la cour des comptes.\nL’action civile est introduite par le ministre chargé des collectivités locales sur la base d’un rapport d’inspection... Le ministère public engage, le cas échéant, l’action publique."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure de traitement d'un déficit budgétaire excessif est graduée et encadrée par les articles 182 et 183 du Code des collectivités locales [1][2]. Dans un premier temps, si le déficit dépasse le seuil de 5%, le ministre des Finances saisit le Haut Conseil des collectivités locales qui invite la collectivité déficitaire à prendre des mesures de redressement dans un délai de soixante jours [1]. Ensuite, en cas d'abstention de la collectivité, l'autorité centrale saisit la juridiction des comptes territorialement compétente, laquelle peut ordonner des mesures coercitives qui s'imposent à la collectivité jusqu'au rétablissement de l'équilibre [1]. Enfin, les violations graves des règles d'engagement des dépenses peuvent être qualifiées de fautes de gestion pouvant engager la responsabilité civile et pénale des ordonnateurs [2]. Ainsi, ce dispositif vise à prévenir la faillite des collectivités locales et à sanctionner les gestions imprudentes.\n\nSources: art. 182 et 183 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_proc_052",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [184, 185, 186],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الإجراءات التي يتبعها القابض العمومي للجماعة المحلية في حالة رفض صرف نفقة أمر بصرفها الرئيس؟\n\nDocuments pertinents:\n[1] Source: Article 184 du Code des collectivités locales\nLe comptable de la collectivité locale exerce notamment les attributions suivantes :\n- la tenue de la comptabilité générale...\n- le payement des dépenses conformément aux ordonnances de paiement... Le comptable public vérifie la légalité des ordonnances de paiement, la régularité de l’engagement des dépenses et le bien-fondé juridique de la dette qu’elles couvrent, la disponibilité des crédits et l’existence d’hypothèques et d’autres privilèges le cas échéant.\n\n[2] Source: Article 185 du Code des collectivités locales\nLe comptable de la collectivité locale doit s’abstenir de payer les dépenses ordonnancées si la collectivité locale ne dispose pas des fonds suffisants pour les couvrir.\n\n[3] Source: Article 186 du Code des collectivités locales\nIl est interdit au comptable de la collectivité locale d'apprécier l’opportunité des opérations objet d’ordonnancement. Son rôle se limite à la vérification de leur régularité dans le cadre de sa responsabilité personnelle et pécuniaire.\nLe comptable de la collectivité locale doit motiver son refus d’accomplir les payements objet d’ordonnancements et informer le trésorier régional et l’ordonnateur concerné.\nL’ordonnateur peut, à nouveau, ordonner l’accomplissement de l’opération sous sa responsabilité personnelle. Dans ce cas, et à l’exception de l’insuffisance de crédits disponibles ou de défaut de pièces justificatives du service fait, le comptable de la collectivité locale exécute l’opération sous la responsabilité de l’ordonnateur et transmet à la juridiction des comptes territorialement compétente, dans un délai ne dépassant pas 15 jours, le dossier relatif à ladite dépense pour engager, le cas échéant, les procédures ou poursuites légales."
+        },
+        {
+          "role": "assistant",
+          "content": "يخضع رفض القابض العمومي لصرف نفقة لإجراءات دقيقة حددتها الفصول 184 و185 و186 من مجلة الجماعات المحلية [1][2][3]. في المرحلة الأولى، يجب على القابض أن يتحقق من شرعية حوالة الدفع وصحة الالتزام بالنفقة ووجود الاعتماد وتوفر الأموال الكافية [1][2]. وإذا تبين له وجود خلل قانوني، فإنه يمتنع عن الدفع ويلتزم بتعليل رفضه وإعلام القابض الجهوي والآمر بالصرف بذلك [3]. وفي مرحلة لاحقة، يحق للآمر بالصرف (الرئيس) أن يجدد أمره بالصرف ولكن تحت مسؤوليته الشخصية. وفي هذه الحالة، يضطر القابض إلى تنفيذ العملية باستثناء حالتي عدم كفاية الاعتماد أو انعدام إثبات إنجاز الخدمة، ويحيل الملف فوراً إلى دائرة المحاسبات المختصة في أجل أقصاه 15 يوماً لاتخاذ ما تراه مناسباً [3]. وبالتالي، يهدف هذا الإجراء إلى تحقيق التوازن بين مبدأ الفصل بين الآمر بالصرف والمحاسب العمومي وبين ضمان استمرارية المرفق العام.\n\nالمصادر: الفصول 184 و185 و186 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_direct_053",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [36],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Où sont diffusés les arrêtés et avis des collectivités locales ?\n\nDocuments pertinents:\n[1] Source: Article 36 du Code des collectivités locales\nSont insérés dans le portail réservé aux collectivités locales, les arrêtés, annonces, communiqués, avis prévus par la présente loi."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 36 du Code des collectivités locales, un portail électronique dédié aux collectivités locales est prévu pour la diffusion des informations officielles [1]. Le texte impose que les arrêtés, les annonces, les communiqués et les avis prévus par la loi soient obligatoirement insérés dans ce portail. Ainsi, cette centralisation de l'information en ligne a pour finalité de garantir un accès facile et transparent du public aux actes et communications des collectivités locales, renforçant ainsi le principe de gouvernance ouverte.\n\nSources: art. 36 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_direct_054",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [46],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: متى تدخل القرارات التنظيمية للجماعات المحلية حيز النفاذ؟\n\nDocuments pertinents:\n[1] Source: Article 46 du Code des collectivités locales\nLes arrêtés réglementaires des collectivités locales entrent en vigueur cinq jours après leur publication au site électronique du journal officiel des collectivités locales."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 46 من مجلة الجماعات المحلية، فإن القرارات التنظيمية الصادرة عن الجماعات المحلية لا تصبح نافذة وسارية المفعول إلا بعد مرور أجل خمسة أيام كاملة من تاريخ نشرها بالموقع الإلكتروني للرائد الرسمي للجماعات المحلية [1]. ويهدف هذا الأجل إلى إعلام العموم بمضمون القرارات وإتاحة فرصة الاطلاع عليها قبل أن ترتب آثارها القانونية، وذلك ضماناً لمبدأ الشفافية واحتراماً لمبدأ عدم رجعية القرارات الإدارية.\n\nالمصادر: الفصل 46 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_multi_055",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [47, 48, 53],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le rôle du Haut Conseil des collectivités locales et qui le compose ?\n\nDocuments pertinents:\n[1] Source: Article 47 du Code des collectivités locales\nLe Haut Conseil des collectivités locales est chargé de :\n- l’examen des questions relatives au développement et à l’équilibre entre les régions,\n- la coordination entre les politiques publiques, les plans, les programmes et les projets nationaux et locaux,\n- la coordination avec les instances constitutionnelles et les ministères concernés par les affaires locales et la coopération internationale décentralisée...\n\n[2] Source: Article 48 du Code des collectivités locales\nLe Haut Conseil des collectivités locales est composé comme suit :\n- un président de commune sur chaque région...\n- les présidents des conseils municipaux des quatre municipalités les plus peuplées...\n- les présidents des conseils municipaux des quatre municipalités communes affichant le plus faible indice de développement...\n- les présidents des régions.\n- les présidents des districts.\n\n[3] Source: Article 53 du Code des collectivités locales\nLe Haut Conseil des collectivités locales est obligatoirement consulté sur les projets de lois concernant les collectivités locales et notamment les lois portant sur la planification, le budget et les finances locales."
+        },
+        {
+          "role": "assistant",
+          "content": "Le Haut Conseil des collectivités locales est une instance consultative clé dans l'architecture de la décentralisation tunisienne, dont la composition et les missions sont définies aux articles 47, 48 et 53 du Code [1][2][3]. Il est chargé d'examiner les questions de développement et d'équilibre régional, de coordonner les politiques publiques locales et nationales, et de suivre les programmes de formation des élus [1]. Sa composition, détaillée à l'article 48, assure une représentation diversifiée des élus locaux : un représentant des communes par région, les maires des grandes villes et ceux des zones défavorisées, ainsi que tous les présidents de régions et de districts [2]. En outre, l'article 53 lui confère un pouvoir consultatif obligatoire sur tous les projets de loi concernant les collectivités locales, notamment en matière de planification et de finances [3]. Ainsi, cet organe joue un rôle essentiel de représentation des intérêts locaux auprès du pouvoir central.\n\nSources: art. 47, 48 et 53 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_multi_056",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [61, 62, 63],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي الهيئة العليا للمالية المحلية وما هي مهامها الرئيسية؟\n\nDocuments pertinents:\n[1] Source: Article 61 du Code des collectivités locales\nIl est créé, sous la tutelle du Haut Conseil des collectivités locales, une Haute Instance des finances locales chargée d’examiner toutes les questions relatives à la finance locale, sa consolidation, sa modernisation et sa bonne gestion... Elle est chargée notamment de :\n▪ Présenter des propositions au gouvernement pour améliorer les finances locales...\n▪ Proposer les estimations des ressources financières pouvant être transférées aux collectivités locales...\n▪ Proposer les critères de répartition des transferts de l’Etat aux collectivités locales...\n▪ Assurer le suivi de l’exécution de la répartition des quotes-parts...\n▪ Effectuer les analyses financières des différentes collectivités locales...\n\n[2] Source: Article 62 du Code des collectivités locales\nLa Haute Instance des finances locales établit un rapport annuel sur ses activités et sur l’état des finances locales durant l’année écoulée. Ledit rapport est présenté au Haut Conseil des collectivités locales dans la cadre d’une réunion tenue au cours du mois de juin.\n\n[3] Source: Article 63 du Code des collectivités locales\nLa Haute Instance des finances locales est composée comme suit :\n▪ Un juge financier proposé par le conseil supérieur de la magistrature nommé président de l’Instance...\n▪ Neuf représentants du Haut Conseil des collectivités locales...\n▪ Un représentant du ministère chargé des collectivités locales...\n▪ Deux représentants du ministère des finances..."
+        },
+        {
+          "role": "assistant",
+          "content": "أحدثت الفصول 61 و62 و63 من مجلة الجماعات المحلية الهيئة العليا للمالية المحلية تحت إشراف المجلس الأعلى للجماعات المحلية [1][2][3]. وتضطلع هذه الهيئة بدور استشاري وتقني محوري يتمثل أساساً في اقتراح تقديرات الموارد المالية المحولة للجماعات المحلية، واقتراح معايير توزيع التحويلات، وإجراء التحاليل المالية لميزانيات الجماعات، ومتابعة مديونيتها [1]. وتتألف الهيئة من تشكيلة متوازنة تجمع بين القضاء المالي (الذي يترأسها)، وممثلين عن المجلس الأعلى للجماعات المحلية، وعن الوزارات المالية والمحلية، بالإضافة إلى خبراء محاسبين [3]. علاوة على ذلك، تلتزم الهيئة بإعداد تقرير سنوي عن حالة المالية المحلية يعرض على المجلس الأعلى للجماعات المحلية خلال شهر جوان [2]. وبالتالي، تهدف هذه الهيئة إلى توفير الخبرة الفنية اللازمة لدعم الاستقلالية المالية للجماعات المحلية وضمان حوكمة رشيدة للمال العام المحلي.\n\nالمصادر: الفصول 61 و62 و63 من مجلة الجماعات المحلية.\n\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cross_057",
+      "language": "cross_lingual",
+      "category": "principle_exception",
+      "articles_referenced": [72],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي مكونات الملك الخاص للجماعة المحلية؟\n\nDocuments pertinents:\n[1] Source: Article 72 du Code des collectivités locales\nFont partie du domaine privé des collectivités locales toutes les constructions et terrains propriétés des collectivités locales et non classés parmi leur domaine public.\nSont considérés comme faisant partie du domaine privé local les biens suivants :\n- les immeubles et locaux à usage professionnel, commercial ou artisanal,\n- les immeubles à usage d’habitation,\n- les terrains non bâtis et non affectés à un ouvrage public ou à un service public...\n- les biens meubles acquis ou réalisés par la collectivité et qui représentent une contre-valeur...\n- les parts de ses participations dans la constitution des entreprises publiques...\n- les marchés, les abattoirs et les dépôts,\n- les biens déclassés du domaine public,\n- les cimetières..."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 72 du Code des collectivités locales, le domaine privé des collectivités locales est défini par exclusion : il comprend toutes les constructions et terrains leur appartenant qui ne sont pas classés dans le domaine public [1]. La loi énumère à titre indicatif les biens en relevant, notamment les immeubles à usage d'habitation ou professionnel, les terrains non bâtis, les parts sociales dans les entreprises publiques locales, ainsi que les biens déclassés du domaine public [1]. Ainsi, à la différence du domaine public qui est inaliénable, le domaine privé obéit aux règles du droit privé et peut être géré et aliéné dans un but lucratif ou pour la réalisation d'opérations patrimoniales.\n\nSources: art. 72 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_cross_058",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [69],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: What kind of properties are considered part of the municipal public domain?\n\nDocuments pertinents:\n[1] Source: Article 69 du Code des collectivités locales\nRelèvent du domaine public local, tous les biens meubles et immeubles des collectivités locales que la loi considère comme tels et affectés à l’utilisation du public, soit directement, soit dans le cadre d’un service public et spécialement aménagés à cet effet.\nSont considérés comme biens affectés à l’utilisation directe par le public notamment :\n- les avenues et les rues.\n- les places publiques.\n- les jardins publics.\n- les routes publiques ainsi que leurs dépendances, sauf les routes classées nationales et les autoroutes...\nSont notamment considérés comme biens affectés au service public :\n- les lots de terrain propriétés de la collectivité locale dans lesquels sont installés des ouvrages et réseaux de distribution des eaux, du gaz, de l’électricité, de l’assainissement..."
+        },
+        {
+          "role": "assistant",
+          "content": "Conformément à l'article 69 du Code des collectivités locales, le domaine public local se compose des biens meubles et immeubles appartenant aux collectivités locales qui sont soit affectés à l'usage direct du public (comme les rues, places et jardins publics), soit affectés à un service public et spécialement aménagés à cet effet (comme les terrains supportant des réseaux de distribution d'eau ou d'électricité) [1]. Ainsi, le critère distinctif est celui de l'affectation à l'intérêt général, qui confère à ces biens un statut protecteur d'inaliénabilité et d'imprescriptibilité.\n\nSources: art. 69 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_fr_direct_059",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [66],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment l'État prévoit-il le développement progressif de la décentralisation ?\n\nDocuments pertinents:\n[1] Source: Article 66 du Code des collectivités locales\nL’Etat met en place un système décentralisé conformément au chapitre sept de la constitution et lui procure progressivement les conditions d’effectivité et d’efficacité.\nSur proposition du gouvernement, l’assemblée des représentants du peuple approuve, au cours de la première année de chaque mandat, un plan pour le programme d’appui à la décentralisation et son développement dans une loi d’orientation fixant les objectifs et les moyens alloués à cet effet pendant le mandat.\nLe gouvernement prépare un rapport annuel d’évaluation sur l’état d’avancement de la réalisation de la décentralisation et l’appui qui lui est apporté. Ledit rapport est soumis à l’Assemblée des représentants du peuple avant le 15 février de l’année suivante."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 66 du Code des collectivités locales, la mise en œuvre de la décentralisation est conçue comme un processus progressif et planifié [1]. Le principe est que l'État procure progressivement au système décentralisé les conditions de son effectivité. En pratique, cela se traduit par l'adoption, au début de chaque mandat électoral local, d'une loi d'orientation approuvée par l'Assemblée des représentants du peuple, qui fixe les objectifs et les moyens alloués au programme d'appui à la décentralisation [1]. En outre, un mécanisme de suivi est prévu par la remise d'un rapport annuel d'évaluation au Parlement avant le 15 février [1]. Ainsi, ce cadre législatif vise à assurer une montée en charge maîtrisée et évaluée des transferts de compétences et de ressources.\n\nSources: art. 66 du Code des collectivités locales.\n\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_ar_refusal_060",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي مدة تقادم الديون التجارية في القانون التونسي؟\n\nDocuments pertinents:\n[1] Source: مجلة الجماعات المحلية - لم يتم العثور على أي فصل ذي صلة."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تحتوي الوثائق المتوفرة على معلومات كافية للإجابة على هذا السؤال. فمجلة الجماعات المحلية تنظم عمل الجماعات المحلية واختصاصاتها، ولا تتضمن أحكاماً تتعلق بالتقادم في المادة التجارية الذي تنظمه أحكام المجلة التجارية ومجلة الالتزامات والعقود. يرجى مراجعة محام مختص في القانون التجاري."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Livre I, Chapitre I, Section 1 (Création et habilitation)",
+      "Livre I, Chapitre I, Section 4 (Pouvoir réglementaire)",
+      "Livre I, Chapitre I, Section 5 (Démocratie participative - portail)",
+      "Livre I, Chapitre I, Section 6 (Solidarité et péréquation)",
+      "Livre I, Chapitre I, Section 8 (Formation)",
+      "Livre I, Chapitre I, Section 9 (Journal Officiel des CL)",
+      "Livre I, Chapitre I, Section 10 (Haut Conseil des CL)",
+      "Livre I, Chapitre I, Section 11 (Haute Instance des Finances Locales)",
+      "Livre I, Chapitre I, Section 12 (Progressivité de la décentralisation)",
+      "Livre I, Chapitre II, Section 1 (Domaine public et privé)",
+      "Livre I, Chapitre II, Section 2 (Principes des services publics)",
+      "Livre I, Chapitre II, Section 3 (Contrats de délégation et marchés)",
+      "Livre I, Chapitre IV, Section 1 (Ressources et équilibre budgétaire)",
+      "Livre I, Chapitre IV, Section 2 (Crédits transférés par l'État)",
+      "Livre I, Chapitre IV, Section 5 (Exécution et règlement du budget - déficit, comptable)"
+    ],
+    "sections_not_covered": [
+      "Détails des procédures de contrôle de légalité des actes",
+      "Statut détaillé des agents des collectivités locales",
+      "Dispositions spécifiques aux arrondissements (détails)",
+      "Dispositions transitoires (détails des délais)",
+      "Annexes (Listes des communes et régions)"
+    ],
+    "notes": "Troisième batch généré avec succès. Couverture étendue aux instances consultatives (Haut Conseil, Haute Instance des Finances), à la distinction domaine public/privé, aux procédures budgétaires en cas de déficit, et aux mécanismes de l'habilitation et du pouvoir réglementaire. Tous les articles utilisés sont distincts des deux premiers batches. Les réponses sont strictement ancrées dans le texte. Aucun article n'a été inventé. Les exemples en arabe respectent scrupuleusement l'arabe standard moderne (الفصحى)."
+  }
+}

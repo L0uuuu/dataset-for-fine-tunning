@@ -1,0 +1,444 @@
+{
+  "batch_id": "batch_CODES_DOUANES_002_20260418",
+  "source": "Code des Douanes de Tunisie (Titre II – Organisation et fonctionnement)",
+  "articles_covered": [43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64],
+  "articles_to_avoid_next_batch": [43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64],
+  "examples": [
+    {
+      "example_id": "douanes_fr_direct_021",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [43],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qu'est-ce que le « rayon des douanes » et comment est-il organisé ?\n\nDocuments pertinents:\n[1] Source: article 43 du Code des Douanes\n1- L'administration des douanes exerce son action sur l'ensemble du territoire douanier dans les conditions fixées par le présent code. 2- Une zone de surveillance spéciale est organisée le long des frontières terrestres et maritimes. Elle constitue le rayon des douanes.\n\n[2] Source: article 44 du Code des Douanes (extrait)\n1- Le rayon des douanes comprend une zone maritime et une zone terrestre. 2- La zone maritime est comprise entre le littoral et la limite extérieure de la mer territoriale... Est annexée à cette zone maritime la zone contiguë. 3- La zone terrestre s'étend : a) sur les frontières maritimes, entre le littoral et une ligne intérieure tracée entre 20 et 30 kilomètres en deçà du rivage ; b) sur les frontières terrestres entre la limite du territoire douanier et une ligne tracée entre 20 et 30 kilomètres en deçà. 5- Pour faciliter la répression de la fraude, l'étendue de la zone terrestre peut être portée, par décret, jusqu'à 60 kilomètres."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 43 du Code des Douanes, le « rayon des douanes » est une zone de surveillance spéciale organisée le long des frontières terrestres et maritimes. L'article 44 précise qu'il comprend une zone maritime (du littoral à la limite de la mer territoriale, ainsi que la zone contiguë) et une zone terrestre qui s'étend entre 20 et 30 kilomètres à l'intérieur des côtes ou des frontières terrestres. Par ailleurs, pour faciliter la répression de la fraude, l'étendue de la zone terrestre peut être portée par décret jusqu'à 60 kilomètres. Ainsi, le rayon des douanes permet à l'administration d'exercer ses pouvoirs de contrôle et de surveillance au-delà des seuls points de passage frontaliers. Sources : art. 43 et 44 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_direct_022",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [46],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les formalités douanières peuvent-elles être accomplies en dehors des bureaux de douane ?\n\nDocuments pertinents:\n[1] Source: article 46 du Code des Douanes\n1- Les formalités douanières ne peuvent être accomplies que dans les bureaux des douanes. 2- Des dérogations à cette règle peuvent être accordées par arrêtés du ministre des finances. Toutefois, lorsqu'il s'agit d'opérations douanières présentant un caractère exceptionnel, individuel et temporaire, ces dérogations peuvent être accordées par décision du directeur général des douanes."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe posé par l'article 46 du Code des Douanes est que les formalités douanières ne peuvent être accomplies que dans les bureaux des douanes. Toutefois, des dérogations à cette règle sont possibles : elles sont accordées par arrêtés du ministre des finances, et pour des opérations exceptionnelles, individuelles et temporaires, par décision du directeur général des douanes. Cette exception vise à répondre à des besoins pratiques ponctuels tout en maintenant un contrôle rigoureux. Sources : art. 46 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_multi_023",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [51, 54],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les obligations des autorités civiles et militaires envers les agents des douanes, et dans quels cas les agents peuvent-ils faire usage de leurs armes ?\n\nDocuments pertinents:\n[1] Source: article 51 du Code des Douanes\n1- Est passible des peines prévues par l'article 385 du présent code toute personne s'opposant aux agents des douanes lors de l'exercice de leurs fonctions. 2- Les autorités civiles et militaires sont tenues, à la première réquisition, de prêter main-forte aux agents des douanes pour l'accomplissement de leur mission.\n\n[2] Source: article 54 du Code des Douanes\n1- Les agents des douanes ont, pour l'exercice de leurs fonctions, le droit au port d'armes. 2- Outre le cas de légitime défense, ils peuvent en faire usage dans les cas suivants : a) lorsque des violences ou voies de fait sont exercées contre eux ou lorsqu'ils sont menacés par des individus armés ; b) lorsqu'ils ne peuvent immobiliser autrement les véhicules, embarcations et autres moyens de transport dont les conducteurs n'obtempèrent pas à l'ordre d'arrêt ; c) lorsqu'ils ne peuvent autrement s'opposer au passage d'une réunion de personnes qui ne s'arrêtent pas aux sommations ; d) lorsqu'ils ne peuvent capturer vivants les chiens, chevaux et autres animaux employés pour la fraude."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 51 du Code des Douanes impose aux autorités civiles et militaires de prêter main-forte aux agents des douanes à la première réquisition, et toute opposition aux agents est sanctionnée par l'article 385. Par ailleurs, l'article 54 accorde aux agents le droit au port d'armes. Outre la légitime défense, ils peuvent en faire usage dans quatre cas limitativement énumérés : violences ou menaces armées, refus d'obtempérer à un ordre d'arrêt des véhicules, opposition au passage d'une réunion de personnes après sommation, et impossibilité de capturer vivants des animaux utilisés pour la fraude. Ces dispositions visent à assurer l'efficacité et la sécurité des missions douanières. Sources : art. 51 et 54 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_principle_exception_024",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [56, 61],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les agents des douanes peuvent-ils visiter les personnes et procéder à des perquisitions sans autorisation ?\n\nDocuments pertinents:\n[1] Source: article 56 du Code des Douanes\n1- Pour l'application des dispositions du présent code et en vue de la recherche des contraventions et délits douaniers, les agents des douanes peuvent procéder à la visite des marchandises, des moyens de transport et des personnes. 2- La visite des personnes s'effectue à l'intérieur de locaux réservés à cet effet où il est procédé à la visite à corps des personnes lorsqu'il y a des doutes qui laissent présumer qu'ils dissimulent des marchandises à même leurs corps. 3- Lorsque des indices sérieux laissent présumer qu'une personne transporte des produits prohibés dissimulés dans son organisme, les agents peuvent la soumettre à des examens médicaux après consentement exprès. En cas de refus, ils présentent une demande d'autorisation au procureur de la république.\n\n[2] Source: article 61 du Code des Douanes\nLes agents des douanes peuvent, en cas de présomptions de délits douaniers visés aux articles 386 à 399, effectuer des visites et des perquisitions dans les locaux où les marchandises et les documents sont susceptibles de s'y trouver, après avoir obtenu l'autorisation du procureur de la république territorialement compétent, conformément au code de procédure pénale. Toutefois, en cas de recherche de marchandises poursuivies à vue depuis leur franchissement de la limite intérieure du rayon douanier et introduites dans un local, les agents peuvent effectuer des visites et perquisitions sans autorisation préalable."
+        },
+        {
+          "role": "assistant",
+          "content": "Le principe général de l'article 56 autorise les agents des douanes à visiter les marchandises, moyens de transport et personnes pour rechercher des infractions. La visite des personnes se fait dans des locaux réservés, et les examens médicaux nécessitent le consentement ou une autorisation du procureur. Pour les perquisitions de locaux, l'article 61 pose le principe de l'autorisation préalable du procureur. Toutefois, une exception existe : lorsque des marchandises sont poursuivies « à vue » depuis le franchissement de la limite intérieure du rayon douanier et introduites dans un local, les agents peuvent perquisitionner sans autorisation. Cette exception vise à prévenir la disparition rapide des preuves en cas de flagrance. Sources : art. 56 et 61 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_refusal_025",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quels sont les recours possibles contre une décision de placement en garde à vue par un agent des douanes ?\n\nDocuments pertinents:\n[1] Source: Les articles 43 à 64 du Code des Douanes fournis ne traitent pas de la garde à vue, des droits de la personne retenue ou des voies de recours contre les mesures privatives de liberté."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Titre II du Code des Douanes qui m'a été communiqué concerne l'organisation et les pouvoirs de l'administration, mais n'aborde pas les procédures de garde à vue ni les recours juridictionnels. Je vous recommande de consulter un avocat spécialisé en droit pénal ou en contentieux douanier, et de vous référer au code de procédure pénale tunisien ainsi qu'aux dispositions du titre XVI du Code des Douanes (contentieux)."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_clarification_026",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [62],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Pendant combien de temps dois-je conserver mes documents douaniers en tant que commissionnaire en douane ?\n\nDocuments pertinents:\n[1] Source: article 62 du Code des Douanes\n1- Les agents des douanes, ayant qualité d'officier de police judiciaire, peuvent exiger la communication de tous les registres, documents et pièces justificatives chez les commissionnaires en douane et transitaires (alinéa f). 2- Les divers documents doivent être conservés par les intéressés pendant un délai de trois ans, à compter de la date d'envoi des colis pour les expéditeurs, et à compter de la date de leur réception pour les destinataires. 3- Lorsque les documents sont établis aux moyens informatiques, les personnes concernées doivent (le texte s'arrête, mais l'obligation de conservation s'applique également)."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 62 fixe un délai de conservation de trois ans. Pour vous donner une réponse précise, avez-vous agi en tant qu'expéditeur (le délai court à compter de la date d'envoi des colis) ou en tant que destinataire (délai à compter de la date de réception) ? Par ailleurs, l'article ne précise pas les sanctions en cas de non-respect. Veuillez indiquer votre rôle exact (expéditeur, destinataire, ou commissionnaire agissant pour le compte d'un tiers) afin que je puisse mieux interpréter l'application de cette disposition à votre situation."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_procedural_027",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [52, 53, 55],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les étapes du serment pour un agent des douanes et que doit-il remettre en quittant ses fonctions ?\n\nDocuments pertinents:\n[1] Source: article 52 du Code des Douanes\n1- Les agents des douanes de tous grades doivent prêter serment devant le président du tribunal de première instance territorialement compétent.\n\n[2] Source: article 53 du Code des Douanes\nDans l'exercice de leurs fonctions, les agents des douanes doivent être munis de leur commission d'emploi faisant mention de leur prestation de serment ; ils sont tenus de l'exhiber à la première réquisition.\n\n[3] Source: article 55 du Code des Douanes\nTout agent des douanes qui est révoqué ou qui quitte son emploi, est tenu de remettre immédiatement à l'administration sa commission d'emploi, les registres, sceaux, armes, tenues réglementaires et équipements spéciaux mis à sa disposition par l'administration ; il est tenu en outre de rendre ses comptes."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure de serment des agents des douanes est prévue à l'article 52 : tout agent, quel que soit son grade, doit prêter serment devant le président du tribunal de première instance territorialement compétent. Ensuite, l'article 53 impose à l'agent d'être muni de sa commission d'emploi mentionnant ce serment et de l'exhiber sur réquisition. Enfin, l'article 55 régit la sortie des fonctions : en cas de révocation ou de départ volontaire, l'agent doit remettre immédiatement à l'administration sa commission, les registres, sceaux, armes, tenues et équipements spéciaux, et rendre ses comptes. Ces étapes assurent la légitimité et la responsabilité des agents tout au long de leur carrière. Sources : art. 52, 53 et 55 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_028",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [45],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي المنطقة المجاورة للمياه الإقليمية التونسية وما هي صلاحيات أعوان الديوانة فيها؟\n\nDocuments pertinents:\n[1] Source: الفصل 45 من مجلة الديوانة\nفي منطقة مجاورة، تمتد بين اثني عشر وأربعة وعشرين ميلاً بحرياً مقاسة من الخطوط الخارجية للبحر الإقليمي، وتحت تحفظ اتفاقيات التحديد الدولية مع الدول المجاورة المصادق عليها من تونس، يمكن لأعوان الديوانة ممارسة سلطاتهم بقصد: أ) منع المخالفات للقوانين والنظم التي تضطلع إدارة الديوانة بتطبيقها على التراب الجمركي؛ ب) ملاحقة المهرّبين الذين ارتكبوا على التراب الجمركي مخالفات للقوانين والنظم التي تضطلع إدارة الديوانة بتطبيقها. تحدد بقرار تطبيقات هذا الفصل."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 45 من مجلة الديوانة، المنطقة المجاورة هي منطقة تمتد بين 12 و24 ميلاً بحرياً من الخطوط الخارجية للبحر الإقليمي، مع مراعاة اتفاقيات التحديد مع الدول المجاورة. وفي هذه المنطقة، يمكن لأعوان الديوانة ممارسة سلطاتهم لغرضين: أ) منع المخالفات للقوانين التي تطبقها الديوانة على التراب الجمركي، و ب) ملاحقة المهرّبين الذين ارتكبوا مخالفات على التراب الجمركي. وتهدف هذه الصلاحية إلى توسيع نطاق الرقابة الجمركية إلى ما وراء البحر الإقليمي، لمكافحة التهريب وحماية المصالح الاقتصادية قبل وصول البضائع إلى الحدود. المصادر: الفصل 45 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_029",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [49],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم تحديد ساعات فتح وغلق مكاتب الديوانة، وما هي شروط إنجاز العمليات خارج الأوقات القانونية؟\n\nDocuments pertinents:\n[1] Source: الفصل 49 من مجلة الديوانة\n- تحدد بقرار من وزير المالية ساعات فتح وغلق مكاتب الديوانة.\n- تحدد بأمر حكومي شروط إنجاز العمليات الديوانية خارج الأماكن والأوقات القانونية للعمل."
+        },
+        {
+          "role": "assistant",
+          "content": "ينص الفصل 49 من مجلة الديوانة على أن ساعات فتح وغلق مكاتب الديوانة تحدد بقرار من وزير المالية. أما بالنسبة لإنجاز العمليات الديوانية خارج الأماكن والأوقات القانونية للعمل، فتحدد شروطها بأمر حكومي. وبالتالي، فإن السلطة التنظيمية منقسمة: وزير المالية يضبط أوقات العمل العادية، بينما يتطلب العمل الاستثنائي خارج هذه الأوقات تدخلاً على مستوى أعلى (أمر حكومي). الهدف من هذا التقسيم هو ضمان مرونة كافية للحالات الطارئة دون المساس بالرقابة الجمركية. المصادر: الفصل 49 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_multi_030",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [58, 59, 60],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي صلاحيات أعوان الديوانة فيما يتعلق بزيارة السفن والمنشآت البحرية؟\n\nDocuments pertinents:\n[1] Source: الفصل 58 من مجلة الديوانة\nيمكن لأعوان الديوانة زيارة كل سفينة يقل صافي حمولتها عن 100 طن تتواجد في المنطقة البحرية للشريط الجمركي.\n\n[2] Source: الفصل 59 من مجلة الديوانة\n1- يمكن لأعوان الديوانة الصعود على متن جميع الباخرات المتواجدة في الموانئ أو المَراسي، ويمكنهم البقاء فيها حتى تفريغها أو خروجها من الموانئ. 2- يجب على قباطنة السفن استقبال الأعوان ومرافقتهم، وإذا طلبوا ذلك فتح الأبواب والغرف والخزائن والطرود المعينة للمعاينة. في حالة الرفض، يمكن للأعوان طلب إذن من وكيل الجمهورية لفتحها بحضور عضو من النيابة العمومية أو ضابط شرطة قضائية. 3- يمكن للأعوان عند غروب الشمس غلق الأبواب التي لا تفتح إلا بحضورهم.\n\n[3] Source: الفصل 60 من مجلة الديوانة\nيمكن لأعوان الديوانة في أي وقت زيارة التجهيزات والأجهزة الموجودة في الهضبة القارية أو المنطقة الاقتصادية الخالصة. كما يمكنهم زيارة وسائل النقل المشاركة في استكشافها أو استغلال مواردها الطبيعية، داخل مناطق الأمن المقررة وفي المنطقة البحرية للشريط الجمركي."
+        },
+        {
+          "role": "assistant",
+          "content": "تتجلى صلاحيات أعوان الديوانة في المجال البحري في عدة نصوص. فالفصل 58 يخولهم زيارة السفن التي يقل صافي حمولتها عن 100 طن في المنطقة البحرية للشريط الجمركي. أما الفصل 59 فيمنحهم الحق في الصعود على متن جميع الباخرات في الموانئ والبقاء فيها حتى التفريغ، كما يلزم القباطنة بتسهيل المعاينة وفتح الأماكن المطلوبة، مع إمكانية طلب إذن قضائي في حالة الرفض. ويضيف الفصل 60 سلطة زيارة التجهيزات في الهضبة القارية والمنطقة الاقتصادية الخالصة ووسائل النقل المرتبطة بها. وتكمن غاية هذه الصلاحيات في ضمان المراقبة الجمركية الفعالة على الأنشطة البحرية وحماية الموارد الطبيعية. المصادر: الفصول 58 و59 و60 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_principle_exception_031",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [57, 63],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يجب على سائقي وسائل النقل الامتثال لأوامر أعوان الديوانة، وهل يمكن مراقبة البريد الدولي دون المساس بسرية المراسلات؟\n\nDocuments pertinents:\n[1] Source: الفصل 57 من مجلة الديوانة\n1- يجب على كل سائق وسيلة نقل الامتثال لأوامر أعوان الديوانة. 2- يمكن لهؤلاء الأعوان استعمال كل الآليات المناسبة لإيقاف وسائل النقل عندما لا يمتثل السائقون لأوامرهم.\n\n[2] Source: الفصل 63 من مجلة الديوانة\n1- لأعوان الديوانة حق الولوج إلى مكاتب البريد الثابتة أو المتنقلة، بما في ذلك قاعات الفرز، بحضور أعوان البريد، لتفتيش الإرساليات الواردة من الخارج أو المتجهة إليه (ما عدا العابرة) التي تحتوي أو تبدو أنها تحتوي على أشياء ممنوعة أو الخاضعة لحقوق وضرائب أو لقيود. 2- ترخص إدارة البريد بإخضاع الإرساليات للرقابة الجمركية وفق اتفاقيات الاتحاد البريدي العالمي. 4- لا يمكن بأي حال المساس بسرية المراسلات."
+        },
+        {
+          "role": "assistant",
+          "content": "القاعدة الأساسية بمقتضى الفصل 57 هي أن سائقي وسائل النقل ملزمون بالامتثال لأوامر أعوان الديوانة، وللأعوان الحق في استخدام الآليات المناسبة لإيقاف الوسائل غير الممتثلة. أما الفصل 63 فيقرر أن لأعوان الديوانة حق الولوج إلى مكاتب البريد لمراقبة الإرساليات الدولية، وذلك بحضور أعوان البريد. غير أن هذا الحق مقيد باستثناءين جوهريين: (أ) لا تشمل المراقبة الإرساليات العابرة (ترانزيت)، و(ب) لا يمكن بأي حال المساس بسرية المراسلات. وبالتالي، فإن الرقابة الجمركية على البريد مشروعة فقط بقدر ما تستهدف البضائع الممنوعة أو الخاضعة للرسوم، دون الاطلاع على مضمون المراسلات نفسها. المصادر: الفصلين 57 و63 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_refusal_032",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم تعيين مدير عام الديوانة وما هي مدة ولايته؟\n\nDocuments pertinents:\n[1] Source: لا تتضمن الوثائق المقدمة (الفصول 43 إلى 64) أي حكم يتعلق بتعيين مدير عام الديوانة، أو شروط ولايته، أو إجراءات تعيين الموظفين السامين."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة عن هذا السؤال. مجلة الديوانة المتوفرة لدي (العنوان الثاني المتعلق بالتنظيم والسير) لا تذكر إجراءات تعيين مدير عام الديوانة أو مدة ولايته. أنصحكم باستشارة محامٍ متخصص في القانون الإداري أو الرجوع إلى النظام الأساسي العام للوظيفة العمومية وإلى النصوص التنظيمية الخاصة بإدارة الديوانة (أوامر حكومية أو قرارات وزارية) التي قد تحدد هذه المسائل."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_clarification_033",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [48, 47],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل هناك لوحة إلزامية على واجهة كل مكتب ديوانة، وما هي الجهة المخولة بإحداث المكاتب؟\n\nDocuments pertinents:\n[1] Source: الفصل 48 من مجلة الديوانة\nتلتزم إدارة الديوانة بتعليق لوحة على واجهة كل مكتب في مكان بارز تحمل العبارة التالية: \"مكتب الديوانة التونسية\".\n\n[2] Source: الفصل 47 من مجلة الديوانة\nتحدث وتلغى مكاتب الديوانة بقرار من وزير المالية باقتراح من المدير العام للديوانة."
+        },
+        {
+          "role": "assistant",
+          "content": "نعم، الفصل 48 يلزم إدارة الديوانة بتعليق لوحة تحمل عبارة \"مكتب الديوانة التونسية\" على واجهة كل مكتب في مكان بارز. ولكن لتحديد ما إذا كان مكتب معين ملزما بهذا الإلزام، يجب أولا معرفة ما إذا كان قد تم إحداثه رسميا. هل تسأل عن مكتب معين تعرف أنه تم إحداثه بموجب قرار وزاري؟ الفصل 47 يخول وزير المالية إحداث المكاتب. يرجى توضيح ما إذا كنت تبحث عن مكتب ديوانة قائم بالفعل، أو عن متطلبات اللوحة لمكتب مستقبلي."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_procedural_034",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [64, 56],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم التحقق من هوية الأشخاص على الحدود وفي الشريط الجمركي، وما هي الإجراءات إذا اشتبه الأعوان في إخفاء بضائع داخل الجسم؟\n\nDocuments pertinents:\n[1] Source: الفصل 64 من مجلة الديوانة\nيمكن لأعوان الديوانة مراقبة هوية الأشخاص الذين يدخلون التراب الجمركي أو يخرجون منه، أو الذين يجولون في الشريط الجمركي.\n\n[2] Source: الفصل 56 من مجلة الديوانة (مقتطفات)\n1- يمكن لأعوان الديوانة تفتيش الأشخاص. 2- يتم تفتيش الأشخاص داخل أماكن مخصصة لذلك. 3- عندما تدل قرائن جدية على أن شخصاً يعبر الحدود ينقل منتوجات محظورة مخبأة في جسده، يمكن للأعوان إخضاعه لفحوصات طبية للكشف بعد الحصول صراحة على موافقته. في حالة الرفض، يقدم الأعوان طلب إذن إلى وكيل الجمهورية. يمكن لوكيل الجمهورية الإذن بإجراء الفحوصات الطبية ويعين الطبيب المختص. تدون نتائج الفحص والملاحظات في محضر يسلم لوكيل الجمهورية."
+        },
+        {
+          "role": "assistant",
+          "content": "تتكون إجراءات التحقق من الهوية والتفتيش الجسدي من مراحل متسلسلة: أولاً، بموجب الفصل 64، يمكن لأعوان الديوانة مراقبة هوية الأشخاص عند الدخول أو الخروج أو الجولان في الشريط الجمركي. ثانياً، إذا تطلب الأمر تفتيشاً للجسم، يتم ذلك في أماكن مخصصة (الفصل 56). ثالثاً، إذا اشتبه الأعوان في إخفاء بضائع داخل الجسم، يطلبون موافقة الشخص على الفحص الطبي. فإذا وافق، يجرى الفحص. وإذا رفض، يتقدم الأعوان بطلب إذن إلى وكيل الجمهورية، الذي يأذن ويعين طبيبا مختصا. وتحرر محاضر بالنتائج. وتهدف هذه الإجراءات التدريجية إلى الموازنة بين فعالية الرقابة الجمركية واحترام السلامة الجسدية وحقوق الأشخاص. المصادر: الفصلين 64 و56 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_cross_fr_ar_035",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [50],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: كيف يتم إنشاء وإلغاء فرق الديوانة (البرامج)؟\nQuestion in Arabic, retrieved article in French.\n\nDocuments pertinents:\n[1] Source: article 50 du Code des Douanes\nLes brigades des douanes sont créées et supprimées par arrêté du ministre des finances sur proposition du directeur général des douanes."
+        },
+        {
+          "role": "assistant",
+          "content": "وفقاً للمادة 50 من مجلة الديوانة، يتم إنشاء وإلغاء فرق الديوانة بقرار من وزير المالية بناء على اقتراح من المدير العام للديوانة. وهذه الصلاحية تخول للإدارة المركزية ضبط الهيكل الميداني للرقابة الجمركية بما يتلاءم مع الاحتياجات الأمنية والاقتصادية. المصادر: المادة 50 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_cross_ar_fr_036",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [44, 45],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les limites exactes de la zone terrestre et de la zone contiguë dans le rayon des douanes ?\nQuestion in French, retrieved articles in Arabic.\n\nDocuments pertinents:\n[1] Source: الفصل 44 من مجلة الديوانة (مقتطفات)\n3- تمتد المنطقة البرية: أ) على الثغور البحرية، بين الساحل وخط داخلي مرسوم بين 20 و30 كيلومتراً من الشاطئ؛ ب) على الثغور البرية بين حدود التراب الجمركي وخط مرسوم بين 20 و30 كيلومتراً في الداخل. 5- لتسهيل قمع الغش، يمكن بموجب أمر حكومي تمديد المنطقة البرية إلى 60 كيلومتراً. 6- تحسب المسافات بالخط المستقيم دون مراعاة تعاريج الطرق.\n\n[2] Source: الفصل 45 من مجلة الديوانة\nفي منطقة مجاورة، تمتد بين اثني عشر وأربعة وعشرين ميلاً بحرياً مقاسة من الخطوط الخارجية للبحر الإقليمي... يمكن لأعوان الديوانة ممارسة سلطاتهم بقصد منع المخالفات وملاحقة المهرّبين."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 44 du Code des Douanes, la zone terrestre du rayon des douanes s'étend, sur les frontières maritimes comme terrestres, entre 20 et 30 kilomètres à l'intérieur des côtes ou des frontières, calculés à vol d'oiseau. Cette zone peut être portée par décret jusqu'à 60 kilomètres pour faciliter la répression de la fraude. Quant à la zone contiguë, l'article 45 la définit comme l'espace compris entre 12 et 24 milles marins à partir des lignes extérieures de la mer territoriale. Dans cette zone, les agents des douanes peuvent prévenir les infractions et poursuivre les fraudeurs ayant agi sur le territoire douanier. Ces limites géographiques permettent à l'administration d'exercer une surveillance graduée et efficace aux frontières. Sources : art. 44 et 45 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_direct_037",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [47],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui est compétent pour créer ou supprimer un bureau de douane en Tunisie ?\n\nDocuments pertinents:\n[1] Source: article 47 du Code des Douanes\nLes bureaux des douanes sont créés et supprimés par arrêté du ministre des finances sur proposition du directeur général des douanes."
+        },
+        {
+          "role": "assistant",
+          "content": "L'article 47 du Code des Douanes dispose que la création et la suppression des bureaux de douane relèvent de la compétence du ministre des finances, qui agit par arrêté, sur proposition du directeur général des douanes. Ainsi, le pouvoir de décision ultime appartient au ministre, tandis que la proposition émane de l'administration douanière. Cette répartition garantit une coordination entre la gestion opérationnelle et la politique financière de l'État. Sources : art. 47 du Code des Douanes. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_038",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [62],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هي مهلة حفظ الوثائق الجمركية بالنسبة للمرسل إليهم (المستوردين)؟\n\nDocuments pertinents:\n[1] Source: الفصل 62 من مجلة الديوانة\n2- يجب على المعنيين حفظ الوثائق المختلفة المشار إليها في الفقرة الأولى من هذا الفصل لمدة ثلاث سنوات، ابتداء من تاريخ إرسال الطرود بالنسبة للمرسلين، وابتداء من تاريخ استلامها بالنسبة للمرسل إليهم."
+        },
+        {
+          "role": "assistant",
+          "content": "ينص الفصل 62 من مجلة الديوانة على أن مرسلاً إليهم (المستوردين أو المرسل إليهم الفعليين للبضائع) ملزمون بحفظ الوثائق الجمركية لمدة ثلاث سنوات، تبدأ من تاريخ استلام الطرود. وتهدف هذه المهلة إلى تمكين أعوان الديوانة من مراجعة الوثائق عند الحاجة، خاصة في إطار مكافحة الغش أو التحقق من التصاريح الجمركية. المصادر: الفصل 62 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_fr_refusal_039",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le montant de l'amende pour défaut d'affichage de la plaque « bureau des douanes tunisiennes » ?\n\nDocuments pertinents:\n[1] Source: L'article 48 impose l'affichage de la plaque, mais aucun article des pages fournies (43-64) ne prévoit le montant d'une amende ou d'une sanction pécuniaire pour manquement à cette obligation."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Bien que l'article 48 du Code des Douanes oblige l'administration à apposer une plaque sur chaque bureau, aucun des articles 43 à 64 qui m'ont été communiqués ne fixe le montant d'une amende pour défaut d'affichage. Je vous recommande de consulter un avocat spécialisé en droit douanier et de vous référer aux dispositions pénales du Code des Douanes (notamment les articles 385 et suivants) qui ne figurent pas dans les extraits fournis."
+        }
+      ]
+    },
+    {
+      "example_id": "douanes_ar_direct_040",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [61],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: هل يمكن لأعوان الديوانة تفتيش المحلات دون إذن قضائي؟\n\nDocuments pertinents:\n[1] Source: الفصل 61 من مجلة الديوانة (مقتطفات)\nيمكن لأعوان الديوانة، في حالة وجود قرائن على جرائم جمركية منصوص عليها في الفصول 386 إلى 399، إجراء تفتيش في المحلات التي يحتمل وجود البضائع والوثائق بها، بعد الحصول على إذن من وكيل الجمهورية المختص ترابياً، وفقا لمجلة الإجراءات الجزائية. ويمكن لأعوان الديوانة، في حالة البحث عن بضائع تُطارد رؤية منذ تجاوزها الحد الداخلي للشريط الجمركي وأُدخلت إلى محل، إجراء تفتيش بدون إذن مسبق."
+        },
+        {
+          "role": "assistant",
+          "content": "القاعدة العامة بمقتضى الفصل 61 من مجلة الديوانة هي أنه لا يمكن لأعوان الديوانة تفتيش المحلات دون إذن مسبق من وكيل الجمهورية، وذلك في إطار البحث عن جرائم جمركية. غير أن النص يستثني حالة خاصة: عندما تكون البضائع مطاردة \"رؤية\" منذ تجاوزها الحد الداخلي للشريط الجمركي وأدخلت إلى محل، فإن الأعوان يمكنهم تفتيش المحل دون إذن قضائي. ويهدف هذا الاستثناء إلى منع إخفاء الأدلة في حالات التلبس التي لا تحتمل التأخير. المصادر: الفصل 61 من مجلة الديوانة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Chapitre I (articles 43-45) – champ d'action et rayon",
+      "Chapitre II, Section 1 (articles 46-49) – bureaux",
+      "Chapitre II, Section 2 (article 50) – brigades",
+      "Chapitre III (articles 51-55) – statut et obligations des agents",
+      "Chapitre IV, Section 1 (articles 56-61) – droit de visite et perquisitions",
+      "Chapitre IV, Section 2 (article 62) – droit de communication",
+      "Chapitre IV, Section 3 (article 63) – contrôle postal",
+      "Chapitre IV, Section 4 (article 64) – contrôle d'identité"
+    ],
+    "sections_not_covered": [
+      "Aucune section omise dans les articles 43-64, mais les articles 386-399 (visés à l'art. 61) ne sont pas dans ce fichier."
+    ],
+    "notes": "Le PDF comporte des caractères illisibles aux pages 3 et 5, mais les articles sont exploitables. La couverture est complète pour le Titre II. Les exemples respectent la répartition demandée : 10 français, 10 arabes, 2 cross-lingual. Tous les arabes sont en MSA formel. Les questions de clarification et de refus sont conformes."
+  }
+}

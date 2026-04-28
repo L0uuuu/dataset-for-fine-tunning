@@ -1,0 +1,494 @@
+{
+  "batch_id": "batch_CMM_003_20260421",
+  "source": "Code de Commerce Maritime de Tunisie (Loi n° 62-13 du 24 avril 1962)",
+  "articles_covered": [3, 9, 15, 29, 33, 46, 52, 61, 70, 81, 88, 103, 113, 121, 134, 141, 151, 166, 176, 189, 197, 210, 222, 233, 241, 251, 267, 277, 284, 291, 301, 311, 318, 330, 341, 349, 356],
+  "articles_to_avoid_next_batch": [3, 9, 15, 29, 33, 46, 52, 61, 70, 81, 88, 103, 113, 121, 134, 141, 151, 166, 176, 189, 197, 210, 222, 233, 241, 251, 267, 277, 284, 291, 301, 311, 318, 330, 341, 349, 356],
+  "examples": [
+    {
+      "example_id": "CMM_FR_DIRECT_007",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [3],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La navigation sur un lac salé communiquant avec la mer est-elle considérée comme navigation maritime ?\n\nDocuments pertinents:\n[1] Source: Article 3 du Code de Commerce Maritime\nLa navigation est dite maritime lorsqu'elle s'exerce sur la mer, dans les ports et les rades, sur les lacs, étangs, canaux et parties de rivières où les eaux sont salées et communiquent avec la mer."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 3 du Code de Commerce Maritime [1], la qualification de navigation maritime ne se limite pas à la haute mer. En effet, le législateur a adopté un critère géographique précis : la navigation est également dite maritime lorsqu'elle s'exerce sur les lacs, étangs, canaux et parties de rivières, à la double condition que les eaux y soient salées et qu'elles communiquent avec la mer. Ainsi, la navigation sur un lac salé relié à la mer, comme le lac de Tunis ou le lac de Bizerte, relève bien du champ d'application du présent code.\n\nSources: art. 3 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_DIRECT_008",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [81],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la durée de validité d'une inscription hypothécaire maritime ?\n\nDocuments pertinents:\n[1] Source: Article 81 du Code de Commerce Maritime\nL'inscription conserve l'hypothèque pendant dix ans à compter du jour de sa date. Son effet cesse si l'inscription n'est pas renouvelée avant l'expiration de ce délai.\nL'inscription est renouvelée sur la présentation, dans le délai susvisé, à l'autorité maritime, d'une requête du créancier contenant l'indication précise de l'inscription à renouveler."
+        },
+        {
+          "role": "assistant",
+          "content": "Selon l'article 81 du Code de Commerce Maritime [1], l'inscription d'une hypothèque maritime a une durée de validité limitée à dix ans à compter de sa date. Il s'agit d'un délai de péremption : passé ce délai, l'inscription cesse de produire ses effets et l'hypothèque n'est plus opposable aux tiers. Toutefois, le créancier peut préserver son rang en procédant au renouvellement de l'inscription avant l'expiration des dix ans, par la simple présentation à l'autorité maritime d'une requête identifiant précisément l'inscription à renouveler. En l'absence de renouvellement, une nouvelle inscription serait nécessaire mais elle prendrait rang à sa nouvelle date.\n\nSources: art. 81 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_DIRECT_009",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [52],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les navires de plaisance sont-ils obligés de tenir un livre de bord ?\n\nDocuments pertinents:\n[1] Source: Article 52 du Code de Commerce Maritime\nLes dispositions des articles 50 et 51 ne s'appliquent ni aux navires de plaisance, ni à ceux qui s'adonnent à la pêche côtière, ni à ceux qui ne sont pas susceptibles d'hypothèque."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 52 du Code de Commerce Maritime [1], les navires de plaisance bénéficient d'une dispense expresse concernant la tenue du livre de bord et du registre disciplinaire prévus aux articles 50 et 51. Cette exemption s'étend également aux navires de pêche côtière et à ceux qui ne sont pas susceptibles d'hypothèque. Le législateur a ainsi voulu alléger les obligations administratives pour les petites unités dont l'activité ne présente pas le même niveau de complexité ou de risque que la navigation commerciale au long cours.\n\nSources: art. 52 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_MULTI_006",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [15, 29],
+      "confidence_flag": "L'article 15 a été modifié implicitement par la loi 2004-3.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment rendre opposable aux tiers un droit de propriété sur un navire en construction ?\n\nDocuments pertinents:\n[1] Source: Article 15 du Code de Commerce Maritime\nLa propriété d'un navire en construction... est établie par une déclaration écrite portant sa signature légalisée...\n[2] Source: Article 29 du Code de Commerce Maritime\nTout droit relatif à un navire déjà immatriculé ne sera opposable aux tiers que par le fait et du jour de son inscription sur le feuillet matricule attribué audit navire par l'autorité maritime."
+        },
+        {
+          "role": "assistant",
+          "content": "La propriété d'un navire en construction obéit à un régime distinct selon son stade d'avancement. En premier lieu, conformément à l'article 15 [1], la propriété du navire en cours de construction est établie par une déclaration écrite dont la signature est légalisée. Ce document permet d'attester la propriété durant la phase de chantier. En second lieu, une fois le navire construit et immatriculé, l'article 29 [2] prend le relais : pour que ce droit de propriété soit opposable aux tiers, il doit impérativement être inscrit sur le feuillet matricule du navire tenu par l'autorité maritime. Ainsi, la déclaration de construction est insuffisante pour protéger le propriétaire contre les tiers une fois le navire immatriculé ; seule l'inscription au registre matricule confère l'opposabilité erga omnes.\n\nSources: art. 15 et 29 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_MULTI_007",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [166, 189],
+      "confidence_flag": "Article 166 modifié par la loi n° 98-22 du 16 mars 1998.",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Qui est considéré comme chargeur et quelle est sa responsabilité en cas de vice propre de la marchandise ?\n\nDocuments pertinents:\n[1] Source: Article 166 du Code de Commerce Maritime (Modifié par la loi n° 98-22 du 16 mars 1998)\nLe chargeur est toute personne par laquelle ou au nom de laquelle ou pour le compte de laquelle un contrat de transport de marchandises par mer est conclu avec un transporteur ainsi que toute personne par laquelle ou au nom de laquelle ou pour le compte de laquelle les marchandises sont effectivement remises au transporteur...\n[2] Source: Article 189 du Code de Commerce Maritime\nL'affréteur est responsable des dommages causés au navire ou aux marchandises chargées, soit par sa faute, soit par le vice propre de sa marchandise."
+        },
+        {
+          "role": "assistant",
+          "content": "La notion de chargeur est définie de manière large par l'article 166 du Code de Commerce Maritime [1]. Elle englobe non seulement la personne qui conclut le contrat de transport (le chargeur contractuel) mais aussi celle qui remet effectivement la marchandise au transporteur (le chargeur réel). Par ailleurs, l'article 189 [2], bien que rédigé en termes d'affrètement, établit un principe de responsabilité applicable au chargeur : celui-ci est responsable des dommages causés au navire ou aux autres marchandises qui résultent soit de sa faute personnelle, soit du vice propre de sa marchandise. En effet, le vice propre (comme la fermentation naturelle ou l'inflammabilité spontanée) est un risque que la loi fait peser sur le propriétaire de la cargaison, et non sur le transporteur.\n\nSources: art. 166 et 189 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_PRINC_EXC_006",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [176],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: La vente du navire met-elle fin aux contrats d'affrètement en cours ?\n\nDocuments pertinents:\n[1] Source: Article 176 du Code de Commerce Maritime\nL'aliénation du navire n'entraîne pas la résiliation d'une convention d'affrètement antérieurement conclue par le propriétaire.\nCelui-ci est tenu de déclarer les conventions d'affrètement conclues par lui, l'acquéreur est tenu, conjointement avec l'ancien propriétaire, de respecter les contrats dont il a eu connaissance ou qu'il sont inscrits sur le registre matricule ainsi que ceux en cours d'exécution."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 176 du Code de Commerce Maritime [1], le principe est la survie des contrats d'affrètement en cas de vente du navire. Ainsi, l'aliénation du navire n'entraîne pas automatiquement la résiliation des chartes-parties conclues antérieurement par le vendeur. Toutefois, ce principe est assorti d'une condition relative à la connaissance de l'acquéreur. En effet, l'acquéreur n'est tenu de respecter le contrat que s'il en a eu connaissance, soit parce que le vendeur les a déclarés, soit parce que le contrat est inscrit sur le registre matricule, soit parce qu'il s'agit d'un contrat en cours d'exécution visible. Dans ce cas, l'acquéreur et l'ancien propriétaire sont tenus conjointement au respect des obligations envers l'affréteur.\n\nSources: art. 176 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_PRINC_EXC_007",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [277],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les réparations provisoires effectuées sur un navire dans un port refuge sont-elles toujours prises en charge par l'avarie commune ?\n\nDocuments pertinents:\n[1] Source: Article 277 du Code de Commerce Maritime\nQuand des réparations provisoires sont effectuées à un navire dans un port de chargement, d'escale ou de refuge, pour le salut commun ou pour des avaries causées par un sacrifice d'avaries communes, le coût de ces réparations est admis en avaries communes.\nLorsque des réparations provisoires d'un dommage fortuit sont effectuées simplement pour permettre l'achèvement du voyage, leur coût sera admis en avaries communes, mais seulement jusqu'à concurrence de l'économie sur les dépenses qui auraient été encourues et admises en avaries communes, si ces réparations n'avaient pas été effectuées en ce lieu."
+        },
+        {
+          "role": "assistant",
+          "content": "Le régime des réparations provisoires en avarie commune est nuancé selon l'origine du dommage. Selon l'article 277 [1], le principe est que si les réparations provisoires concernent un dommage causé par un sacrifice d'avarie commune, leur coût intégral est admis en contribution. En revanche, s'il s'agit de réparer provisoirement un dommage fortuit (accidentel), l'admission en avarie commune n'est que partielle. Dans ce dernier cas, le coût n'est admis qu'à concurrence de l'économie réalisée, c'est-à-dire la différence entre le coût des réparations provisoires et celui des réparations définitives qui auraient dû être faites dans ce port. Ainsi, on évite que la collectivité des intérêts ne supporte plus que ce qu'elle aurait payé si les réparations définitives avaient été exécutées sur place.\n\nSources: art. 277 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_REFUSAL_003",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelles sont les normes techniques de construction des navires de pêche en Tunisie ?\n\nDocuments pertinents:\nAucun document pertinent trouvé dans la base de connaissances relative au Code de Commerce Maritime."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis, qui constituent le Code de Commerce Maritime, ne contiennent pas d'informations sur les normes techniques de construction navale. Ces questions relèvent de la réglementation technique (sécurité maritime, jaugeage) prise par les autorités compétentes et des règlements des sociétés de classification. Je vous recommande de consulter un architecte naval, une société de classification agréée en Tunisie, ou un avocat spécialisé en droit maritime pour obtenir ces informations techniques spécifiques."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_CLARIF_003",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [33, 70],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: J'ai un privilège maritime sur un navire. Dois-je l'inscrire pour être payé ?\n\nDocuments pertinents:\n[1] Source: Article 33 du Code de Commerce Maritime\nLes actes et décisions judiciaires présentés à l'inscription sont déposés, soit en original, soit en expédition. Ils sont conservés dans les archives.\n[2] Source: Article 70 du Code de Commerce Maritime\nLes dispositions ci-après, relatives aux privilèges maritimes, leur ordre et leur extinction, sont d'ordre public."
+        },
+        {
+          "role": "assistant",
+          "content": "Votre question est très pertinente car elle touche à une distinction fondamentale en droit maritime. Les privilèges maritimes, contrairement aux hypothèques, sont des droits de préférence attachés à la cause de la créance et existent indépendamment de toute inscription. L'article 70 [2] rappelle que ces dispositions sont d'ordre public. Cependant, l'article 33 [1] évoque la possibilité d'inscrire ou de prénoter certains droits, ce qui peut concerner les hypothèques mais aussi la publicité de certains actes. Afin de vous conseiller précisément, pourriez-vous préciser la nature exacte de votre créance (s'agit-il de salaires d'équipage, de frais de justice, de sauvetage, de réparations, etc.) ? En effet, le rang des privilèges est fixé par l'article 71 et leur durée de vie est limitée par l'article 88, mais l'inscription n'est pas une condition de leur existence."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_FR_PROC_003",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [141, 121],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment constituer le fonds de limitation de responsabilité de l'armateur ?\n\nDocuments pertinents:\n[1] Source: Article 140 du Code de Commerce Maritime\nSur requête de l'armateur qui entend se prévaloir des dispositions de l'article 132, le Président de la juridiction du lieu d'immatriculation du navire désigne un juge commis et autorise le dépôt à la Caisse des dépôts et consignations des sommes prévues à l'article 133...\n[2] Source: Article 141 du Code de Commerce Maritime\nL'armateur dépose à la Caisse des Dépôts et Consignations :\n1) la somme à laquelle il entend limiter sa responsabilité augmentée des intérêts légaux depuis le jour de l'événement jusqu'au jour du versement à la Caisse des Dépôts et Consignations,\n2) la somme à laquelle ont été arbitrés les frais."
+        },
+        {
+          "role": "assistant",
+          "content": "La procédure de constitution du fonds de limitation est une démarche judiciaire et financière. En premier lieu, selon l'article 140 [1], l'armateur doit déposer une requête auprès du Président du tribunal du lieu d'immatriculation du navire. Le président désigne alors un juge-commis et autorise le dépôt. En second lieu, conformément à l'article 141 [2], l'armateur doit effectuer le dépôt à la Caisse des Dépôts et Consignations. Ce dépôt comprend deux éléments : la somme forfaitaire calculée selon l'article 133 (150 ou 250 dinars par tonneau) majorée des intérêts légaux courus depuis l'accident, et une somme arbitrée pour couvrir les frais de la procédure de distribution. Une fois le fonds constitué, les créanciers ne peuvent plus saisir d'autres biens de l'armateur pour ces créances.\n\nSources: art. 140 et 141 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_DIRECT_006",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [46],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن لسفينة أن تبحر إذا كان ربانها لا يحمل الشهادات المطلوبة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 46 من مجلة التجارة البحرية\nيرفض دفتر الطاقم أو يسحب من كل سفينة لا يحمل ربانها وضباطها الشهادات التي يفرضها القانون الجاري به العمل إلا في صورة الترخيص الاستثنائي المعلل الذي تسلمه السلطة البحرية بناء على طلب كتابي."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 46 من مجلة التجارة البحرية [1]، فإن القاعدة العامة تمنع السفينة من الإبحار إذا كان ربانها أو ضباطها لا يستوفون الشروط القانونية المتعلقة بالشهادات المهنية. ويترتب على ذلك رفض تسليم دفتر الطاقم أو سحبه، مما يؤدي عمليا إلى توقيف السفينة عن الملاحة. غير أن المشرع أتاح استثناء يخول للسلطة البحرية منح ترخيص استثنائي معلل بناء على طلب كتابي، وذلك في حالات الضرورة القصوى، شريطة أن لا يمس ذلك بسلامة الملاحة. ويهدف هذا التشدد إلى ضمان أعلى معايير السلامة البحرية.\n\nالمصادر: الفصل 46 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_DIRECT_007",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [88],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي مدة سقوط الامتيازات البحرية الخاصة بأجور الربان والبحارة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 88 من مجلة التجارة البحرية\nتنقضي الامتيازات البحرية علاوة على ذلك بمضي سنة بالنسبة لجميع الديون فيما عدا تلك المنصوص عليها بالعددين 3 و4 من الفصل 71. وفي هاتين الحالتين تخفض المدة إلى ستة أشهر."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 88 من مجلة التجارة البحرية [1]، فإن مدة سقوط الامتيازات البحرية تختلف بحسب طبيعة الدين. فالقاعدة العامة هي أن الامتيازات البحرية تسقط بمضي سنة واحدة من تاريخ نشوء الدين. غير أن المشرع استثنى من ذلك الديون الناشئة عن عقد استخدام الربان والبحارة (العدد 3 من الفصل 71) والديون الناشئة عن المساعدة والإنقاذ البحري (العدد 4 من الفصل 71)، حيث خفض مدة السقوط إلى ستة أشهر فقط. ويهدف هذا التقصير في المدة إلى حث البحارة على المطالبة بحقوقهم بسرعة وعدم تركها معلقة لمدة طويلة، مما يحقق استقرار المعاملات البحرية.\n\nالمصادر: الفصل 88 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_DIRECT_008",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [134],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ماذا يحدث إذا تجاوزت تعويضات الأضرار الجسدية الحد الأقصى المخصص لها في صندوق تحديد المسؤولية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 134 من مجلة التجارة البحرية\nإذا تجاوز المبلغ الجملي للأضرار الجسدية مبلغ أربعين دينارا للطن، جاز للدائنين بسبب هذه الأضلاع أن يمارسوا حقوقهم بصفة احتياطية على مبلغ الأربعة وعشرين دينارا للطن المنصوص عليه بالعدد 1 من الفصل 133، فإذا وجد دائنون بسبب الأضلاع المادية اشتركوا معهم في قسمة مبلغ الأربعة وعشرين دينارا للطن..."
+        },
+        {
+          "role": "assistant",
+          "content": "استنادا إلى الفصل 134 من مجلة التجارة البحرية [1]، فإن المشرع التونسي وضع آلية توزيع احتياطية لضمان حماية أفضل لضحايا الأضرار الجسدية. ففي الحالة التي يتجاوز فيها مجموع التعويضات المستحقة عن الأضرار الجسدية المبلغ الأقصى المخصص لها وهو مائتان وخمسون دينارا للطن (أي ما يعادل في النص أربعين دينارا من الوحدة القديمة)، يسمح القانون لهؤلاء الدائنين بالمشاركة في المبلغ المخصص أصلا للأضرار المادية وهو مائة وخمسون دينارا للطن (أربعة وعشرون دينارا). وفي هذه الحالة، يشاركهم دائنو الأضرار المادية في نفس الوعاء بنسبة ما تبقى لهم من ديون. وهذا الترتيب يضمن عدم حرمان ضحايا الإصابات الجسدية من التعويض رغم محدودية الصندوق.\n\nالمصادر: الفصل 134 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_MULTI_003",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [103, 113],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: في عقد إيجار السفينة المجردة، أي السفن يمكن حجزها لضمان الدين البحري؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 103 من مجلة التجارة البحرية\nفي صورة إيجار سفينة مع إسناد التسيير الملاحي، إذا كان المستأجر هو المسؤول وحده عن دين بحري يتعلق بهذه السفينة، جاز للمدعي حجز هذه السفينة أو أي سفينة أخرى يملكها. ولا يمكن حجز أي سفينة أخرى للمؤجر بموجب هذا الدين البحري.\n[2] المصدر: الفصل 113 من مجلة التجارة البحرية\nتأمر المحكمة بالبيع وتضبط شروطه وتحيل القضية إلى الجلسة التي سيقع فيها البيع. ولا يمكن أن تبعد هذه الجلسة بأكثر من ثلاثة أشهر."
+        },
+        {
+          "role": "assistant",
+          "content": "يميز القانون البحري التونسي في مسألة الحجز بين ملكية السفينة واستغلالها. فبمقتضى الفصل 103 [1]، إذا كان الدين البحري ناشئا عن استغلال المستأجر للسفينة في إطار عقد الإيجار المجرد (مع إسناد التسيير الملاحي)، فإن للدائن الحق في حجز السفينة موضوع الدين، وكذلك أي سفينة أخرى يملكها المستأجر المدين. غير أن المشرع قيد هذا الحق بقيد هام لحماية المؤجر (المالك الحقيقي)، حيث لا يجوز حجز أي سفينة أخرى تعود ملكيتها للمؤجر بسبب هذا الدين. وبعد استكمال إجراءات الحجز، يأتي دور المحكمة وفقا للفصل 113 [2] التي تأمر بالبيع وتحدد جلسة لذلك في أجل أقصاه ثلاثة أشهر.\n\nالمصادر: الفصلان 103 و113 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_PRINC_EXC_004",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [210],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يحق للناقل البحري رفض إدراج بيانات الشاحن في سند الشحن؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 210 من مجلة التجارة البحرية\nيمكن للناقل أن يرفض إدراج تصريحات الشاحن المتعلقة بالعلامات أو بالعدد أو بالكمية أو بالوزن في سند الشحن إذا كانت لديه أسباب جدية للشك في صحتها أو إذا لم تتح له الوسائل العادية لمراقبتها. ولكن في هذه الحالة يجب عليه تحت طائلة عدم الاحتجاج بالرفض أن يقوم بذكر هذه الأسباب أو بيان الاستحالة بصفة مفصلة وخاصة."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 210 من مجلة التجارة البحرية [1]، فإن المبدأ هو وجوب إدراج بيانات الشاحن في سند الشحن كما هي. غير أن المشرع خول للناقل البحري استثناء هاما يمكنه من رفض إدراج تلك البيانات إذا تحققت إحدى حالتين: الأولى هي وجود أسباب جدية للشك في صحة البيانات المقدمة من الشاحن، والثانية هي عدم توفر الوسائل العادية لمراقبة تلك البيانات. ولكن، وحتى لا يتحول هذا الاستثناء إلى قاعدة، أوجب المشرع على الناقل إجراء شكليا لحماية الشاحن والغير، وهو أن يذكر بصفة مفصلة وخاصة في سند الشحن ذاته الأسباب التي دفعته إلى الرفض أو يبين استحالة المراقبة. فإذا لم يقم بذلك، كان الرفض غير قابل للاحتجاج به تجاه الغير.\n\nالمصادر: الفصل 210 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_REFUSAL_003",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي شروط الحصول على منحة مالية من صندوق تنمية الصيد البحري؟\n\nالوثائق ذات الصلة:\nلم يتم العثور على أي وثيقة ذات صلة في قاعدة المعارف المتعلقة بمجلة التجارة البحرية."
+        },
+        {
+          "role": "assistant",
+          "content": "لا تتضمن الوثائق المتوفرة، والمتمثلة في مجلة التجارة البحرية، أي معلومات حول صندوق تنمية الصيد البحري أو المنح المالية المتعلقة به، حيث أن هذا الموضوع يخضع لنصوص قانونية وترتيبية خاصة بقطاع الفلاحة والصيد البحري وليس بقانون التجارة البحرية. أنصحكم بالاتصال بالمندوبية الجهوية للتنمية الفلاحية أو استشارة محام مختص في القانون الإداري وقانون الصيد البحري."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_CLARIF_003",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [241, 251],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: كيف يتم تقدير مكافأة المساعدة البحرية ومن يتحمل خطأ المرشد؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 241 من مجلة التجارة البحرية\nتبقى المسؤولية المقررة بالفصول السابقة قائمة في الحالة التي يقع فيها التصادم بسبب خطأ مرشد ولو كانت حضوره إجباريا.\n[2] المصدر: الفصل 251 من مجلة التجارة البحرية\nتضبط المكافأة من قبل القاضي حسب الظروف معتمدا في ذلك على أسس النجاح المحرز والجهود المبذولة وجدارة المساعدين والخطر الذي تعرضت له السفينة المنجدة وركابها وطاقمها وحمولتها والمساعدون وسفينة المساعدة والمدة الزمنية المستغرقة والمصاريف والأضرار المتكبدة... ومن جهة أخرى قيمة الأشياء المنجاة."
+        },
+        {
+          "role": "assistant",
+          "content": "إن سؤالكم يتعلق بمبدأين قانونيين مختلفين. فيما يخص خطأ المرشد، ينص الفصل 241 [1] على قاعدة واضحة وهي أن السفينة تبقى مسؤولة عن أخطاء المرشد حتى ولو كان الاستعانة به إجبارية، لأن المرشد يعتبر مساعدا للربان وليس بديلا عنه في المسؤولية. أما فيما يخص تقدير مكافأة المساعدة البحرية، فالأمر مختلف تماما، إذ يخضع لتقدير القاضي وفق معايير موضوعية حددها الفصل 251 [2]. للإجابة بدقة أكبر، هل يمكنكم توضيح ما إذا كانت القضية تتعلق بحادث تصادم وقع بخطأ المرشد، أم بعملية إنقاذ بحري تستحق المكافأة؟"
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_PROC_003",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [197, 199],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي أيام الاستعداد في عقد الإيجار البحري وكيف يتم احتساب أيام التأخير؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 194 من مجلة التجارة البحرية\nالوقت الممنوح للمستأجر للشحن والتفريغ يسمى \"أيام الاستعداد\". هذا الوقت يعينه الاتفاق أو عند عدمه أعراف الميناء. ويجب حسابه باليوم ومن ساعة إلى ساعة.\n[2] المصدر: الفصل 195 من مجلة التجارة البحرية\nالوقت المستغرق بعد انتهاء أيام الاستعداد يسمى \"أيام التأخير\". في حالة أيام التأخير، يمنح للمؤجر تعويض جزافي دون حاجة إلى إنذار مسبق...\n[3] المصدر: الفصل 197 من مجلة التجارة البحرية\nلا تكون أيام الاستعداد قابلة للنقل من الشحن إلى التفريغ وبالعكس إلا إذا تم الاتفاق على ذلك."
+        },
+        {
+          "role": "assistant",
+          "content": "إن احتساب الآجال في عمليات الشحن والتفريغ يمر بمرحلتين زمنيتين متتاليتين. المرحلة الأولى هي أيام الاستعداد (Staries) التي نظمها الفصل 194 [1]، وهي المدة المتفق عليها أو الجاري بها العرف لإتمام العملية، وتحسب بدقة متناهية من ساعة إلى ساعة. بعد انتهاء هذه المدة دون إتمام العمل، تبدأ المرحلة الثانية وهي أيام التأخير (Surestaries) التي نص عليها الفصل 195 [2]، ويستحق عنها تعويض مالي جزافي تلقائيا دون حاجة إلى توجيه إنذار. ومن الأحكام الهامة التي تؤثر على سير هذه الآجال ما ورد في الفصل 197 [3]، وهو أن أيام الاستعداد غير قابلة للنقل، أي أن المستأجر إذا وفر وقتا في الشحن لا يحق له إضافته إلى وقت التفريغ، ما لم يوجد اتفاق صريح بين الطرفين يقضي بذلك.\n\nالمصادر: الفصول 194 و195 و197 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_CROSS_FR_AR_003",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [341],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: ما هو الأجل القانوني لكي يرد المؤمن على إخطار الهالك بالتخلي عن السفينة؟\n\nDocuments pertinents:\n[1] Source: Article 341 du Code de Commerce Maritime\nL'assureur, qui reçoit notification d'un délaissement et qui la refuse ou qui opte pour un règlement en perte totale sans transfert de propriété, doit notifier sa décision par lettre recommandée avec accusé de réception ou acte d'huissier notaire à l'assuré dans les trente jours de la notification de délaissement, et ce, à peine de forclusion."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 341 من مجلة التجارة البحرية [1]، فإن المؤمن ملزم باتخاذ موقف صريح من إخطار التخلي خلال أجل أقصاه ثلاثون يوما. يبدأ سريان هذا الأجل من تاريخ إعلامه بالتخلي. فإذا اختار المؤمن رفض التخلي أو فضل التسوية على أساس الخسارة الكلية دون نقل الملكية، وجب عليه أن يعلم المؤمن له بقراره عن طريق رسالة مضمونة الوصول مع الإشعار بالاستلام أو عن طريق محضر عدل منفذ، وإلا سقط حقه في الاعتراض لاحقا (سقوط الحق). وبالتالي، فإن صمت المؤمن بعد مضي ثلاثين يوما يرتب عليه قبول التخلي ضمنا.\n\nالمصادر: الفصل 341 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_CROSS_AR_FR_003",
+      "language": "cross_lingual",
+      "category": "multi_article",
+      "articles_referenced": [284, 291],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: Comment se calcule la contribution en avarie commune et les bagages des passagers contribuent-ils ?\n\nالوثائق ذات الصلة:\n[1] المصدر: Article 284 du Code de Commerce Maritime\nLa contribution à l'avarie commune est le rapport entre la masse créancière et la masse débitrice... Les colis postaux, les bagages des passagers et les effets personnels, pour lesquels il n'est pas délivré de connaissement, ne contribuent pas à l'avarie commune.\n[2] المصدر: Article 291 du Code de Commerce Maritime\nLe répartiteur d'avaries est désigné par la convention des parties ou, à défaut, par ordonnance de référé rendue à la requête de la partie la plus diligente."
+        },
+        {
+          "role": "assistant",
+          "content": "Le calcul de la contribution en avarie commune repose sur une règle de proportionnalité définie à l'article 284 [1] : la contribution est le rapport entre la masse créancière (le total des sacrifices et dépenses admis) et la masse débitrice (la valeur des biens sauvés et sacrifiés). Par ailleurs, le même article prévoit une exonération totale pour les bagages et effets personnels des passagers qui ne font pas l'objet d'un connaissement, lesquels ne contribuent jamais à l'avarie commune. En pratique, le calcul complexe de ces masses est confié à un expert indépendant appelé \"répartiteur d'avaries\". Selon l'article 291 [2], ce répartiteur est en principe désigné par accord des parties ; à défaut d'accord, la partie la plus diligente peut saisir le juge des référés pour qu'il procède à cette désignation.\n\nSources: art. 284 et 291 du Code de Commerce Maritime.\nCeci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "CMM_AR_PRINC_EXC_005",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [318],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكن التأمين على السفينة بقيمة تفوق قيمتها الحقيقية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 318 من مجلة التجارة البحرية\nعقد التأمين المبرم بمبلغ يفوق قيمة الشيء المؤمن عليه، ولو كانت القيمة المؤمن عليها قيمة متفقا عليها، يكون قابلا للإبطال بطلب من المؤمن إذا ثبت حصول غش أو تدليس وتبقى القسط مكتسبة له."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 318 من مجلة التجارة البحرية [1]، فإن المشرع التونسي لم يمنع من حيث المبدأ التأمين بقيمة تزيد عن القيمة الحقيقية للسفينة، خاصة في إطار ما يعرف بالقيمة المتفق عليها. غير أن هذا المبدأ يقيد باستثناء هام يتعلق بحسن النية. فإذا ثبت أن المؤمن له قد تعمد الغش أو التدليس بالمبالغة في قيمة السفينة بهدف تحقيق ربح غير مشروع عند تحقق الخسارة، فإن القانون يخول للمؤمن الحق في طلب إبطال العقد. وفي هذه الحالة، لا يقتصر الأمر على تخفيض التعويض، بل يبطل العقد برمته مع احتفاظ المؤمن بالأقساط المدفوعة كتعويض له عن الغش الذي تعرض له. وهذا حكم صارم يهدف إلى ردع محاولات الإثراء غير المشروع على حساب التأمين.\n\nالمصادر: الفصل 318 من مجلة التجارة البحرية.\nهذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "LIVRE PREMIER - TITRE I (Dispositions générales - Art. 3)",
+      "LIVRE PREMIER - TITRE II (Papiers de bord - Exceptions Art. 9, Sanctions Art. 12)",
+      "LIVRE PREMIER - TITRE III - Chapitre I (Propriété des navires - Art. 15)",
+      "LIVRE PREMIER - TITRE III - Chapitre II (Publicité des droits - Art. 29, 33)",
+      "LIVRE PREMIER - TITRE IV - Chapitre I (Equipage - Art. 46)",
+      "LIVRE PREMIER - TITRE IV - Chapitre II (Obligations du capitaine - Art. 52, 61)",
+      "LIVRE II - TITRE I - Chapitre I (Privilèges et hypothèques - Art. 70)",
+      "LIVRE II - TITRE I - Chapitre III (Hypothèques - Art. 81)",
+      "LIVRE II - TITRE I - Chapitre IV - Section I (Extinction des privilèges - Art. 88)",
+      "LIVRE II - TITRE II - Chapitre I (Saisie conservatoire - Art. 103)",
+      "LIVRE II - TITRE II - Section II (Saisie-exécution - Art. 113, 121)",
+      "LIVRE III - TITRE II - Chapitre II (Limitation de responsabilité - Art. 134, 141)",
+      "LIVRE III - TITRE II - Chapitre IV (Passagers - Art. 151)",
+      "LIVRE IV - TITRE II (Personnes concourant - Art. 166)",
+      "LIVRE IV - TITRE III - Chapitre II (Obligations du fréteur - Art. 176)",
+      "LIVRE IV - TITRE III - Chapitre III (Obligations de l'affréteur - Art. 189)",
+      "LIVRE IV - TITRE III - Chapitre IV (Staries - Art. 197)",
+      "LIVRE IV - TITRE IV - Chapitre II (Connaissement - Art. 210)",
+      "LIVRE IV - TITRE IV - Chapitre III (Passagers - Art. 222)",
+      "LIVRE IV - TITRE IV - Chapitre V (Ventes maritimes - Art. 233)",
+      "LIVRE V - TITRE I (Abordage - Art. 241)",
+      "LIVRE V - TITRE II (Assistance - Art. 251)",
+      "LIVRE V - TITRE III - Chapitre II (Avaries communes - Art. 267, 277)",
+      "LIVRE V - TITRE III - Chapitre III (Valeurs contributives - Art. 284)",
+      "LIVRE V - TITRE III - Chapitre IV (Dispositions diverses - Art. 291)",
+      "LIVRE VI - TITRE I - Chapitre I (Contrat d'assurance - Art. 301)",
+      "LIVRE VI - TITRE I - Chapitre II (Obligations des parties - Art. 311)",
+      "LIVRE VI - TITRE I - Chapitre II (Nullités - Art. 318)",
+      "LIVRE VI - TITRE II - Chapitre I (Assurance corps - Art. 330)",
+      "LIVRE VI - TITRE II - Chapitre I (Délaissement - Art. 341)",
+      "LIVRE VI - TITRE II - Chapitre II (Assurance facultés - Art. 349)",
+      "LIVRE VI - TITRE II - Chapitre II (Polices flottantes - Art. 356)"
+    ],
+    "sections_not_covered": [
+      "LIVRE I - TITRE III - Section III (Immatriculation - détails art. 25-27)",
+      "LIVRE II - TITRE II - Section III (Répartition du prix)",
+      "LIVRE III - TITRE II - Chapitre V (Constatation dommages - art. 158-160)",
+      "LIVRE IV - TITRE V (Compétence - art. 236)",
+      "LIVRE V - TITRE IV (Prescription abordage - art. 294-296)",
+      "LIVRE VI - TITRE III (Prescription assurances - art. 365)"
+    ],
+    "notes": "Troisième lot couvrant des sujets variés : construction navale, extinction des privilèges, responsabilité du pilote, répartiteur d'avaries, et détails du délaissement en assurance. Le prochain lot pourrait approfondir les règles de compétence juridictionnelle et les prescriptions spéciales."
+  }
+}

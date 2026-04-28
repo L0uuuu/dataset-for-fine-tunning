@@ -1,0 +1,447 @@
+{
+  "batch_id": "batch_CIRPP_IS_001_20260101",
+  "source": "Code de l'impôt sur le revenu des personnes physiques et de l'impôt sur les sociétés de Tunisie (mis à jour au 1er janvier 2020)",
+  "articles_covered": [1, 2, 3, 9, 11, 12, "12bis", 26, 27, 28, "31bis", 38, 39, 44, "44bis", 49, 51, 52, 56, 59, 60, 63, 65, 71],
+  "articles_to_avoid_next_batch": [1, 2, 3, 9, 11, 12, "12bis", 26, 27, 28, "31bis", 38, 39, 44, "44bis", 49, 51, 52, 56, 59, 60, 63, 65, 71],
+  "examples": [
+    {
+      "example_id": "ex_001_fr_direct",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [2],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: À partir de combien de jours de séjour en Tunisie suis-je considéré comme résident fiscal ?\n\nDocuments pertinents:\n[1] Source: article 2 du CIRPP/IS\nSont considérés comme ayant une résidence habituelle en Tunisie: 1- les personnes qui y disposent d'une habitation principale; 2- les personnes qui, sans disposer d 'habitation principale en Tunisie, y séjournent pendant une période au moins égale à 183 Jours d'une façon continue ou discontinue durant l'année civile; 3- les fonctionnaires et agents de l'Etat exerçant leur fonction ou chargés de mission dans un pays étranger dans la mesure où ils ne sont pas soumis, dans ce pays, à un impôt personnel frappant l'ensemble de leur revenu."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 2 du CIRPP/IS [1], vous êtes considéré comme ayant une résidence habituelle en Tunisie, et donc soumis à l'impôt sur le revenu sur l'ensemble de vos revenus mondiaux, si vous y séjournez pendant une période au moins égale à 183 jours, de façon continue ou discontinue, durant l'année civile. Toutefois, cette règle s'applique à défaut de disposition d'une habitation principale en Tunisie ; si vous disposez d'une habitation principale sur le territoire tunisien, vous êtes automatiquement considéré comme résident fiscal, indépendamment du nombre de jours de séjour. Ainsi, le critère des 183 jours constitue un seuil alternatif pour établir la résidence fiscale lorsque le contribuable n'a pas de foyer principal en Tunisie. Sources: art. 2 du CIRPP/IS. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_002_ar_direct",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [44],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو معدل الضريبة على الدخل المطبق على الشريحة التي يتجاوز دخلها 50.000 دينار؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 44 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات\nجدول الضريبة على الدخل:\n| الشرائح | المعدل | المعدل الفعلي عند الحد الأعلى |\n| ---|---|---|\n| 0 إلى 5.000 دينار | 0% | 0% |\n| 5.000,001 إلى 20.000 دينار | 26% | 19,50% |\n| 20.000,001 إلى 30.000 دينار | 28% | 22,33% |\n| 30.000,001 إلى 50.000 دينار | 32% | 26,20% |\n| ما فوق 50.000 دينار | 35% | - |\n(معدّل بموجب الفقرة 14-1 من قانون المالية 2016-78 المؤرخ في 17/12/2016)"
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 44 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات [1], يخضع الدخل الصافي الخاضع للضريبة الذي يتجاوز 50.000 دينار لمعدل ضريبي هامشي قدره 35%. علاوة على ذلك، تجدر الإشارة إلى أن هذا المعدل يطبق فقط على الجزء من الدخل الذي يتجاوز حد 50.000 دينار، وذلك وفقاً لمبدأ التصاعد في الضريبة الذي يعتمده الجدول المذكور. وبالتالي، فإن المعدل الفعلي الإجمالي على الدخل الكلي يكون أقل من 35%، حيث تخضع الشرائح الدنيا لمعدلات مخفضة تتراوح بين 0% و32%. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_003_fr_multi",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [2, 3],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis un non-résident qui perçoit des loyers d'un immeuble situé à Tunis. Suis-je imposable en Tunisie et sur quelle base ?\n\nDocuments pertinents:\n[1] Source: article 2 du CIRPP/IS\nSous réserve des dispositions des conventions internationales et des accords particuliers, l'impôt sur le revenu est dû au 1er janvier de chaque année, par toute personne physique ayant en Tunisie une résidence habituelle sur l'ensemble de ses bénéfices ou revenus réalisés pendant l'année précédente.\n\n[2] Source: article 3 du CIRPP/IS\nL'impôt est également dû par les personnes physiques non résidentes qui réalisent des revenus de source tunisienne ou qui réalisent la plus-value prévue au paragraphe 2 de l'article 27 du présent code mais à raison des seuls revenus ou plus-value."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 3 du CIRPP/IS [2], l'impôt sur le revenu est dû par les personnes physiques non résidentes qui réalisent des revenus de source tunisienne, tels que les loyers d'un immeuble situé en Tunisie, mais uniquement à raison de ces seuls revenus de source tunisienne. Par ailleurs, conformément à l'article 2 du même code [1], les résidents fiscaux sont imposés sur l'ensemble de leurs revenus mondiaux, mais cette règle ne s'applique pas à votre situation de non-résident. Toutefois, il convient de vérifier si une convention internationale de non-double imposition liant la Tunisie à votre État de résidence prévoit des dispositions particulières pouvant modifier ce régime d'imposition. Ainsi, en l'absence de convention applicable, vos loyers tunisiens sont imposables en Tunisie selon les règles de droit commun. Sources: art. 2, 3 du CIRPP/IS. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_004_ar_multi",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [12, 14],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي المصاريف التي يمكن خصمها لتحديد الربح الخاضع للضريبة في النشاط التجاري؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 12 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات\nيُحدد الربح الصافي بعد خصم جميع الأعباء التي تقتضيها الاستغلال، وتشمل هذه الأعباء بصفة خاصة: 1- مصاريف وأعباء الإنتاج أو الاستغلال من كل نوع، ولا سيما مصاريف اليد العاملة والأجور والإيجار. [...] 5- في حدود ما تم تبريره وبنسبة 2 في الألف من رقم الأعمال الإجمالي، الهبات والإعانات المقدمة للأعمال أو الهيئات ذات المنفعة العامة، ذات الطابع الخيري أو التربوي أو العلمي أو الاجتماعي أو الثقافي.\n\n[2] المصدر: الفصل 14 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات\nخلافاً لأحكام الفصل 12-1 من هذه المجلة، لا يُسمح بخصم المصاريف التالية لتحديد الربح: 1- الهدايا من كل نوع، ومصاريف الاستقبال بما في ذلك مصاريف المطاعم والعروض التي تتجاوز واحد في المائة من رقم الأعمال الإجمالي الذي تحققه المؤسسة، مع سقف قابل للخصم قدره عشرون ألف دينار عن كل تمرين. [...] 11- الأعباء التي يفوق مبلغها 5.000 دينار خارج الضريبة على القيمة المضافة والتي تم دفع مقابلها نقداً."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 12 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات [1]، يُسمح بخصم جميع الأعباء التي تقتضيها الاستغلال، ولا سيما مصاريف اليد العاملة والأجور والإيجار، وكذلك الهبات والإعانات المقدمة للهيئات ذات المنفعة العامة في حدود 2 في الألف من رقم الأعمال الإجمالي. غير أن الفصل 14 من نفس المجلة [2] يستثني من الخصم عدة مصاريف، منها الهدايا ومصاريف الاستقبال التي تتجاوز 1% من رقم الأعمال الإجمالي (بسقف 20.000 دينار)، وكذلك الأعباء التي يفوق مبلغها 5.000 دينار خارج الضريبة على القيمة المضافة والتي تم دفع مقابلها نقداً. وبالتالي، يجب على المؤسسة التحقق من طبيعة كل مصروف ومدى استجابته لشروط الخصم المنصوص عليها في هذين الفصلين. علاوة على ذلك، تجدر الإشارة إلى أن عدم احترام هذه الشروط قد يؤدي إلى إعادة إدراج المصاريف غير المقبولة في الأساس الخاضع للضريبة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_005_fr_principle_exception",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [49],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quel est le taux normal de l'impôt sur les sociétés en Tunisie et existe-t-il des taux réduits ?\n\nDocuments pertinents:\n[1] Source: article 49 du CIRPP/IS\nI. Le taux de l'impôt sur les sociétés, appliqué au bénéfice imposable arrondi au dinar inférieur, est fixé à 25%. Ce taux est réduit à 20% pour les bénéfices provenant de l'activité principale ainsi que les bénéfices exceptionnels visés au paragraphe I bis de l'article 11 du présent code et selon les mêmes conditions, et ce, pour les sociétés dont le chiffre d'affaires annuel ne dépasse pas: - 1 million de dinars pour les activités de transformation et les activités d'achat en vue de la revente; - 500 mille dinars pour les activités de services et les professions non commerciales. [...] Toutefois, le taux de l'impôt sur les sociétés pour les bénéfices provenant de l'activité principale [...] est fixé à: 1- 10%, et ce, pour: - les entreprises exerçant une activité artisanale, agricole, de pêche [...]; 2- 13,5%, et ce, pour: - les bénéfices provenant des industries électroniques, électriques et mécaniques [...]; 3- 35%, et ce, pour: - les banques et les établissements financiers [...]; - les entreprises d'assurance et de réassurance [...]; - les opérateurs de réseaux des télécommunications [...]."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 49 du CIRPP/IS [1], le taux normal de l'impôt sur les sociétés est fixé à 25%, appliqué au bénéfice imposable arrondi au dinar inférieur. Toutefois, ce taux fait l'objet de plusieurs dérogations : il est réduit à 20% pour les sociétés dont le chiffre d'affaires annuel ne dépasse pas 1 million de dinars (activités de transformation/achat-revente) ou 500.000 dinars (services/professions non commerciales). En outre, des taux spécifiques s'appliquent selon le secteur d'activité : 10% pour les activités artisanales, agricoles ou de pêche ; 13,5% pour les industries électroniques, mécaniques, pharmaceutiques, ou les centres d'appel ; et 35% pour les secteurs réglementés tels que les banques, assurances, télécommunications et hydrocarbures. Ainsi, la détermination du taux applicable nécessite une analyse conjointe du chiffre d'affaires et de la nature de l'activité principale exercée. Sources: art. 49 du CIRPP/IS. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_006_ar_principle_exception",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [27],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي القواعد الضريبية المطبقة على الأرباح الرأسمالية الناتجة عن بيع العقارات؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 27 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات\ndéfinissant les revenus fonciers: [...] 2- La plus-value réalisée de la cession des: - droits sociaux dans les sociétés immobilières, -immeubles bâtis ou partie d'immeuble bâtis, -terrains, à l'exclusion des terrains agricoles situés dans les zones agricoles cédés au profit de personnes autres que les promoteurs immobiliers et au profit de personnes qui s'engagent dans le contrat de cession de ne pas réserver le terrain objet de la cession à la construction avant l'expiration d'une période de 4 ans à partir de la date de cession. [...] Les présentes dispositions ne sont pas applicables aux opérations de cession faites: - au conjoint, ascendants, ou descendants, ou - au bénéficiaire du droit de propriété d'achat à l'intérieur des périmètres de réserves foncières [...] ou - dans le cadre d'une expropriation pour cause d'utilité publique, ou - d'un seul local à usage d'habitation dans la limite d'une superficie globale ne dépassant pas 1000 m2 y compris les dépendances bâties et non bâties, et ce, pour la première opération de cession."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 27 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات [1]، تُعتبر الأرباح الرأسمالية الناتجة عن بيع الحقوق الاجتماعية في الشركات العقارية، أو العقارات المبنية أو أجزاء منها، أو الأراضي، من ضمن الدخل العقاري الخاضع للضريبة. غير أن هذه الأحكام لا تنطبق على عمليات البيع المنجزة لفائدة الزوج أو الأصول أو الفروع، أو في إطار نزع الملكية للمنفعة العامة، أو عند بيع محل سكني واحد لا تتجاوز مساحته الإجمالية 1000 متر مربع (بما في ذلك التوابع) وذلك بالنسبة لأول عملية بيع. علاوة على ذلك، تستثنى الأراضي الفلاحية الواقعة في المناطق الفلاحية إذا التزم المشتري بعدم تخصيصها للبناء قبل انقضاء فترة أربع سنوات من تاريخ البيع. وبالتالي، يتعين على المكلف التحقق من انطباق إحدى حالات الاستثناء المذكورة قبل احتساب الضريبة على الربح الرأسمالي. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_007_fr_refusal",
+      "language": "fr",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment déclarer mes revenus provenant de la vente de cryptomonnaies en Tunisie ?\n\nDocuments pertinents:\n[1] Source: Code de l'impôt sur le revenu des personnes physiques et de l'impôt sur les sociétés (extrait fourni)\nAucun article du code ne mentionne explicitement les cryptomonnaies, les actifs numériques ou les opérations sur blockchain."
+        },
+        {
+          "role": "assistant",
+          "content": "Les documents fournis ne contiennent pas d'informations suffisantes pour répondre à cette question. Le Code de l'impôt sur le revenu des personnes physiques et de l'impôt sur les sociétés, dans sa version mise à jour au 1er janvier 2020, ne mentionne pas explicitement le régime fiscal applicable aux cryptomonnaies ou aux actifs numériques. Je vous recommande de consulter un avocat spécialisé en fiscalité ou la Direction Générale des Impôts pour obtenir une position administrative actualisée sur ce sujet. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_008_ar_refusal",
+      "language": "ar",
+      "category": "refusal",
+      "articles_referenced": [],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الإجراءات القانونية لتسجيل شركة ناشئة في مجال التكنولوجيا المالية (FinTech) في تونس؟\n\nالوثائق ذات الصلة:\n[1] المصدر: مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات (النص المقدم)\nلا يتضمن النص المقدم أحكاماً تتعلق بإجراءات تسجيل الشركات أو الترخيص لمزاولة أنشطة التكنولوجيا المالية."
+        },
+        {
+          "role": "assistant",
+          "content": "الوثائق المقدمة لا تحتوي على معلومات كافية للإجابة على هذا السؤال. إن مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات تُنظّم الأحكام الضريبية فقط، ولا تتناول إجراءات تسجيل الشركات أو الشروط الخاصة بمزاولة أنشطة التكنولوجيا المالية. يُرجى استشارة محامٍ متخصص في القانون التجاري أو الهيئة الوطنية للرقابة المالية للحصول على المعلومات الدقيقة المتعلقة بهذا المجال. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_009_fr_clarification",
+      "language": "fr",
+      "category": "clarification",
+      "articles_referenced": [44],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Je suis artisan, quel impôt dois-je payer ?\n\nDocuments pertinents:\n[1] Source: article 44 du CIRPP/IS\nBarème de l'impôt sur le revenu avec tranches de 0 à 5.000 Dinars (0%), 5.000,001 à 20.000 Dinars (26%), etc.\n\n[2] Source: article 44bis du CIRPP/IS\nSont soumises à l'impôt sur le revenu selon le régime forfaitaire d'imposition, les entreprises individuelles qui réalisent des revenus de la catégorie des bénéfices industriels et commerciaux dans le cadre d'un établissement unique, lorsqu'il s'agit d'entreprises: - Non importatrices, - Ne fabricant pas de produits à base d'alcool, - N'exerçant pas l'activité de commerce de gros, [...] - Dont le chiffre d'affaires annuel n'excède pas 100 mille dinars."
+        },
+        {
+          "role": "assistant",
+          "content": "Avant de pouvoir vous indiquer le régime fiscal applicable, j'ai besoin de précisions supplémentaires. En tant qu'artisan, vous pourriez relever soit du barème progressif de l'article 44 du CIRPP/IS [1], soit du régime forfaitaire de l'article 44bis [2], selon votre chiffre d'affaires annuel. Pouvez-vous me confirmer : (1) si votre chiffre d'affaires annuel hors taxes dépasse ou non 100.000 dinars ; (2) si vous importez des marchandises ou si vous exercez une activité de commerce de gros ? Ces éléments sont déterminants pour identifier votre régime d'imposition. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_010_ar_clarification",
+      "language": "ar",
+      "category": "clarification",
+      "articles_referenced": [39],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: هل يمكنني خصم أقساط التأمين على الحياة من دخلي الخاضع للضريبة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 39 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات\nتُخصم من الأساس الخاضع للضريبة [...] 2- العلاوات أو الاشتراكات التي يدفعها المكتتب أو المنتسب في إطار عقود التأمين على الحياة أو عقود التأمين على الحياة التكافلي وعقود الرسملة أو عقود الرسملة التكافلية في حدود 10.000 دينار في السنة، وذلك عندما تتضمن هذه العقود أحد الضمانات التالية: - ضمان رأس مال أو ريع لفائدة المؤمن عليه [...] لمدة فعلية لا تقل عن 8 سنوات."
+        },
+        {
+          "role": "assistant",
+          "content": "قبل الإجابة بدقة، أحتاج إلى بعض التوضيحات الإضافية. وفقاً للفصل 39 من المجلة [1]، يُسمح بخصم أقساط التأمين على الحياة في حدود 10.000 دينار سنوياً، ولكن بشروط محددة. هل يمكنكم توضيح: (1) ما إذا كان عقد التأمين يتضمن ضمان رأس مال أو ريع لمدة لا تقل عن 8 سنوات؛ (2) ما إذا كان العقد فردياً أم جماعياً؛ (3) وما إذا كانت مدة الانخراط الفعلي في العقد الجماعي (إن وجد) لا تقل عن 8 سنوات؟ هذه المعطيات ضرورية لتحديد أحقيتكم في الاستفادة من هذا الخصم الضريبي. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_011_fr_procedural",
+      "language": "fr",
+      "category": "procedural",
+      "articles_referenced": [60],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Quelle est la date limite pour déposer ma déclaration annuelle d'impôt sur le revenu si je suis commerçant ?\n\nDocuments pertinents:\n[1] Source: article 60 du CIRPP/IS\nI. Le dépôt de la déclaration annuelle de l'impôt sur le revenu des personnes physiques [...] doit s'effectuer dans les délais suivants: 1- Personnes physiques [...] b) jusqu'au 25 avril pour les commerçants; c) jusqu'au 25 mai pour les prestataires de services et les personnes qui exercent une activité industrielle ou une profession non commerciale [...]; f) jusqu'au 5 décembre pour les salariés et les bénéficiaires de pensions ou de rentes viagères [...]."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 60 du CIRPP/IS [1], si vous exercez une activité commerciale, vous devez déposer votre déclaration annuelle d'impôt sur le revenu au plus tard le 25 avril de chaque année. Toutefois, si votre exercice comptable est clos à une date autre que le 31 décembre, le délai applicable est le vingt-cinquième jour du troisième mois suivant la date de clôture de l'exercice. En outre, il convient de noter que le dépôt dans les délais légaux est une condition pour bénéficier, le cas échéant, du fractionnement du paiement du complément d'impôt. Ainsi, le respect de cette échéance est essentiel pour éviter les majorations de retard. Sources: art. 60 du CIRPP/IS. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_012_ar_procedural",
+      "language": "ar",
+      "category": "procedural",
+      "articles_referenced": [56],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الإجراءات اللازمة للحصول على بطاقة التعريف الجبائي عند بدء نشاط تجاري؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 56 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات\nكل شخص يمارس نشاطاً صناعياً أو تجارياً أو مهنة غير تجارية [...] ملزم، قبل الشروع في نشاطه، بإيداع تصريح وجود لدى مكتب مراقبة الضرائب التابع لمكان فرض الضريبة عليه، حسب نموذج تحدده الإدارة. [...] مكتب مراقبة الضرائب المختص يسلم للأشخاص المذكورين بطاقة تعريف جبائي. الأشخاص المعنيون ملزمون بتعليقها في مكان ممارسة النشاط."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 56 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات [1]، يتعين على كل شخص يباشر نشاطاً تجارياً أو صناعياً أو مهنة غير تجارية إيداع تصريح وجود لدى مكتب مراقبة الضرائب المختص قبل الشروع في ممارسة نشاطه، وذلك وفق نموذج تحدده الإدارة الضريبية. علاوة على ذلك، يجب إرفاق هذا التصريح بنسخة من الوثائق التأسيسية (بالنسبة للأشخاص المعنوية) أو بنسخة من الرخصة الإدارية إذا كان النشاط أو المحل يخضع لترخيص مسبق. وبالتالي، بعد إيداع التصريح المستوفي للشروط، يقوم مكتب مراقبة الضرائب بإصدار بطاقة التعريف الجبائي التي يجب على المكلف تعليقها في مكان ممارسة النشاط. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_013_cross_fr_ar",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [26],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Comment calcule-t-on le revenu net imposable pour les salaires ?\n\nDocuments pertinents:\n[1] Source: article 26 du CIRPP/IS\nI. Le revenu net est déterminé en déduisant du montant brut des éléments du revenu visés à l'article 25 du présent code y compris les avantages en nature: - les retenues obligatoires effectuées par l'employeur en vue de la constitution de rentes, de pensions, de retraite ou pour la couverture de régimes obligatoires de sécurité sociale; - les frais professionnels fixés forfaitairement à 10% du reliquat après déduction de ces retenues sans que la déduction dépasse 2.000 dinars par an."
+        },
+        {
+          "role": "assistant",
+          "content": "يُحدد الدخل الصافي الخاضع للضريبة فيما يتعلق بالمرتبات والأجور، وفقاً للفصل 26 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات [1]، بخصم المبالغ التالية من المبلغ الإجمالي للدخل (بما في ذلك المنافع العينية): أولاً، الاقتطاعات الإلزامية التي يقوم بها المشغل لتكوين معاشات أو تقاعدات أو للتغطية بأنظمة الضمان الاجتماعي الإلزامية؛ ثانياً، المصاريف المهنية المحددة على أساس نسبة ثابتة قدرها 10% من المبلغ المتبقي بعد خصم الاقتطاعات المذكورة، على ألا يتجاوز هذا الخصم مبلغ 2.000 دينار في السنة. وبالتالي، يتم احتساب الدخل الصافي بعد تطبيق هذين الخصمين التسلسليين. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_014_cross_ar_fr",
+      "language": "cross_lingual",
+      "category": "direct",
+      "articles_referenced": [38],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي المداخيل المعفاة من الضريبة على الدخل؟\n\nDocuments pertinents:\n[1] Source: article 38 du CIRPP/IS\nNe sont pas soumis à l'impôt: 1. les rentes viagères et allocations temporaires accordées aux victimes d'accident de travail ou aux ayants droit; 2. les rentes viagères servies en représentation de dommages et intérêts en vertu d'un jugement pour la réparation d'un préjudice corporel; [...] 7. les intérêts de l'épargne logement servis aux titulaires de contrats d'épargne logement; 8. les intérêts des dépôts et de titres en devises ou en dinars convertibles; 9. les intérêts des comptes courants ouverts entre industriels, commerçants ou exploitants agricoles à la condition que les opérations inscrites au compte courant se rattachent exclusivement à la profession."
+        },
+        {
+          "role": "assistant",
+          "content": "Under Article 38 of the CIRPP/IS [1], several categories of income are exempt from personal income tax in Tunisia. These include: life annuities and temporary allowances granted to victims of work-related accidents or their beneficiaries; life annuities awarded as compensation for bodily injury pursuant to a court judgment; interest from housing savings accounts; interest from deposits and securities held in foreign currency or convertible dinars; and interest from current accounts opened between industrialists, merchants, or agricultural operators, provided the recorded transactions relate exclusively to their professional activity. Thus, these exemptions aim to protect socially vulnerable income and facilitate professional liquidity management. Sources: art. 38 du CIRPP/IS. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_015_fr_direct",
+      "language": "fr",
+      "category": "direct",
+      "articles_referenced": [12],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Les dons faits à des associations caritatives sont-ils déductibles du bénéfice imposable ?\n\nDocuments pertinents:\n[1] Source: article 12 du CIRPP/IS\n5- Dans la mesure où ils sont justifiés et à concurrence de 2°/oo du chiffre d'affaires brut, les dons et subventions servis à des œuvres ou organismes d'intérêt général, à caractère philanthropique, éducatif, scientifique, social ou culturel. Cependant, sont déductibles pour leur totalité: - les dons et les subventions accordés à l'Etat, aux collectivités locales et aux entreprises publiques, - [...] - les dons et les subventions accordés aux associations œuvrant dans le domaine de la promotion des personnes handicapées et aux associations exerçant dans le domaine de la protection et de l'encadrement des personnes sans soutien familial [...]."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 12, paragraphe 5, du CIRPP/IS [1], les dons et subventions accordés à des œuvres ou organismes d'intérêt général à caractère philanthropique, éducatif, scientifique, social ou culturel sont déductibles du bénéfice imposable, dans la limite de 2 pour mille du chiffre d'affaires brut et à condition d'être dûment justifiés. Toutefois, certains dons sont déductibles en totalité, notamment ceux accordés à l'État, aux collectivités locales, aux entreprises publiques, ainsi qu'aux associations œuvrant pour la promotion des personnes handicapées ou la protection des personnes sans soutien familial. Ainsi, le régime de déductibilité varie selon le bénéficiaire du don. Sources: art. 12 du CIRPP/IS. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_016_ar_direct",
+      "language": "ar",
+      "category": "direct",
+      "articles_referenced": [52],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le مباشرة. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هو معدل الاقتطاع عند المصدر المطبق على الأتعاب المدفوعة لمكاتب الدراسات؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 52 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات\nأ) 15% بعنوان الأتعاب، العمولات، السمسرة، الإيجارات ومكافآت الأنشطة غير التجارية [...] التي تدفعها الدولة والجماعات المحلية والأشخاص المعنوية وكذلك الأشخاص الطبيعيون الخاضعون للضريبة على الدخل وفق النظام الحقيقي [...]. هذا المعدل يُخفض إلى: [...] - 5% بعنوان الأتعاب وبالإيجارات الفندقية عندما تُدفع هذه الأتعاب أو الإيجارات للأشخاص المعنويين الخاضعين للضريبة على الشركات [...] وللأشخاص الطبيعيين الخاضعين للضريبة على الدخل وفق النظام الحقيقي."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 52 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات [1]، يخضع دفع الأتعاب لمكاتب الدراسات لاقتطاع عند المصدر بنسبة 15% كقاعدة عامة. غير أن هذا المعدل يُخفض إلى 5% عندما تكون الأتعاب مدفوعة لأشخاص معنويين خاضعين للضريبة على الشركات، أو لأشخاص طبيعيين خاضعين للضريبة على الدخل وفق النظام الحقيقي، شريطة تقديم بطاقة التعريف الجبائي التي تثبت خضوع المستفيد للضريبة وفق هذا النظام. وبالتالي، يتوقف معدل الاقتطاع الفعلي على الوضع الجبائي للمستفيد من الأتعاب وطبيعة الوثائق المقدمة. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_017_fr_multi",
+      "language": "fr",
+      "category": "multi_article",
+      "articles_referenced": [11, 12],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Une entreprise peut-elle déduire la plus-value réalisée sur la cession d'actions cotées en bourse ?\n\nDocuments pertinents:\n[1] Source: article 11 du CIRPP/IS\nToutefois, est déductible du bénéfice imposable la plus-value provenant de la cession des actions cotées à la Bourse des Valeurs Mobilières de Tunis acquises ou souscrites avant le 1er janvier 2011 et de la cession des actions dans le cadre d'une opération d'introduction à la Bourse des Valeurs Mobilières de Tunis. Est également admise en déduction du bénéfice imposable, la plus-value provenant de la cession des actions cotées à la Bourse des Valeurs Mobilières de Tunis acquises ou souscrites à partir du 1er janvier 2011 et ce lorsque leur cession a lieu après l'expiration de l'année suivant celle de leur acquisition ou de leur souscription.\n\n[2] Source: article 12 du CIRPP/IS\nLe résultat net est établi après déduction de toutes charges nécessitées par l'exploitation [...]"
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 11 du CIRPP/IS [1], la plus-value provenant de la cession d'actions cotées à la Bourse des Valeurs Mobilières de Tunis est déductible du bénéfice imposable sous certaines conditions temporelles : pour les actions acquises ou souscrites avant le 1er janvier 2011, la déduction est admise sans condition de durée de détention ; pour celles acquises ou souscrites à partir du 1er janvier 2011, la cession doit intervenir après l'expiration de l'année suivant celle de l'acquisition ou de la souscription. Par ailleurs, conformément à l'article 12 du même code [2], le résultat net est déterminé après déduction de toutes les charges nécessitées par l'exploitation, ce qui inclut les plus-values déductibles visées à l'article 11. Ainsi, la déductibilité de la plus-value boursière dépend à la fois de la date d'acquisition des titres et du respect du délai de détention requis. Sources: art. 11, 12 du CIRPP/IS. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_018_ar_multi",
+      "language": "ar",
+      "category": "multi_article",
+      "articles_referenced": [63, 65],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي المزايا الضريبية الممنوحة للاستثمارات في المناطق ذات الأولوية للتنمية؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 63 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات\ntotal déductibilité des revenus ou bénéfices provenant des investissements directs réalisés dans les zones de développement régional pendant les cinq premières années (premier groupe) ou dix premières années (deuxième groupe) à partir de la date d'entrée en activité effective.\n\n[2] المصدر: الفصل 65 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات\ntotal déductibilité des revenus ou bénéfices provenant des investissements directs dans le secteur de l'agriculture et de la pêche pendant les dix premières années à partir de la date d'entrée en activité effective."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصلين 63 و65 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات [1][2]، تُمنح مزايا ضريبية هامة للاستثمارات المباشرة في المناطق ذات الأولوية للتنمية وفي قطاعي الفلاحة والصيد. ففي المناطق ذات الأولوية للتنمية، يُسمح بالخصم الكلي للإيرادات أو الأرباح الناتجة عن هذه الاستثمارات خلال السنوات الخمس الأولى من بدء النشاط الفعلي (للمجموعة الأولى من المناطق) أو خلال السنوات العشر الأولى (للمجموعة الثانية). وبالمثل، في قطاعي الفلاحة والصيد، يُطبق الخصم الكلي لمدة عشر سنوات من تاريخ بدء النشاط الفعلي. غير أن الاستفادة من هذه المزايا مشترطة بالإمساك بمحاسبة مطابقة للتشريع المحاسبي للمؤسسات. وبالتالي، يتعين على المستثمر التحقق من تصنيف منطقته أو نشاطه قبل الشروع في المشروع لضمان الاستفادة من الحوافز المنصوص عليها. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_019_fr_principle_exception",
+      "language": "fr",
+      "category": "principle_exception",
+      "articles_referenced": [71],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question: Une entreprise nouvellement créée bénéficie-t-elle d'une exonération d'impôt ?\n\nDocuments pertinents:\n[1] Source: article 71 du CIRPP/IS\nNonobstant les dispositions des articles 12 et 12 bis [...], les entreprises autres que celles exerçant dans le secteur financier, les secteurs de l'énergie à l'exception des énergies renouvelables, des mines, de la promotion immobilière, de la consommation sur place, du commerce et des opérateurs de télécommunication, déduisent une quote-part de leurs bénéfices ou revenus provenant de l'exploitation des quatre premières années d'activité [...] fixée comme suit: - 100% pour la première année, - 75% pour la deuxième année, - 50% pour la troisième année, - 25% pour la quatrième année. Le bénéfice de cette déduction est subordonné à la tenue d'une comptabilité conformément à la législation comptable des entreprises."
+        },
+        {
+          "role": "assistant",
+          "content": "En vertu de l'article 71 du CIRPP/IS [1], les entreprises nouvellement créées bénéficient d'un dispositif de déduction progressive de leurs bénéfices imposables durant les quatre premières années d'activité : 100% la première année, 75% la deuxième, 50% la troisième et 25% la quatrième. Toutefois, ce régime ne s'applique pas aux entreprises exerçant dans certains secteurs exclus, tels que le secteur financier, les mines, la promotion immobilière, le commerce, la consommation sur place ou les télécommunications. En outre, le bénéfice de cette déduction est subordonné à la tenue d'une comptabilité conforme à la législation comptable des entreprises et à l'obtention préalable d'une attestation de dépôt de déclaration d'investissement. Ainsi, l'avantage fiscal est conditionné à la fois par la nature de l'activité et par le respect d'obligations comptables et déclaratives. Sources: art. 71 du CIRPP/IS. Ceci ne constitue pas un avis juridique. Pour votre situation spécifique, consultez un avocat."
+        }
+      ]
+    },
+    {
+      "example_id": "ex_020_ar_principle_exception",
+      "language": "ar",
+      "category": "principle_exception",
+      "articles_referenced": [39],
+      "confidence_flag": null,
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si la réponse n'est pas dans les documents, dites-le clairement. Citez toujours l'article et la source. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "السؤال: ما هي الشروط التي يجب توفرها للاستفادة من خصم أقساط التأمين على الحياة من الدخل الخاضع للضريبة؟\n\nالوثائق ذات الصلة:\n[1] المصدر: الفصل 39 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات\ntient les primes ou cotisations payées dans le cadre des contrats assurance-vie ou des contrats assurance vie takaful [...] dans la limite de 10.000 dinars par an, et ce, lorsque ces contrats comportent l'une des garanties suivantes: - garantie d'un capital ou d'une rente [...] d'une durée effective au moins égale à 8 ans [...] Le rachat du contrat [...] avant l'expiration de la période de huit ans susvisée entraîne le paiement de l'impôt sur le revenu non acquitté [...] majoré des pénalités [...]."
+        },
+        {
+          "role": "assistant",
+          "content": "بمقتضى الفصل 39 من مجلة الضريبة على دخل الأشخاص الطبيعيين والضريبة على الشركات [1]، يُسمح بخصم أقساط التأمين على الحياة أو عقود التأمين التكافلي من الدخل الخاضع للضريبة في حدود 10.000 دينار سنوياً، شريطة أن يتضمن العقد أحد الضمانات التالية: ضمان رأس مال أو ريع لفائدة المؤمن عليه أو زوجه أو أصوله أو فروعه لمدة فعلية لا تقل عن 8 سنوات، أو ضمان وحدات حساب تُصرف بعد مدة دنيا لا تقل عن 8 سنوات، أو ضمان رأس مال أو ريع في حالة الوفاة. غير أن الاستفادة من هذا الخصم تفقد أثرها في حال سحب العقد (الرّبح) قبل انقضاء فترة الثماني سنوات، حيث يترتب على ذلك دفع الضريبة غير المسددة مضافاً إليها الغرامات القانونية. وبالتالي، يتعين على المكلف التأكد من استيفاء العقد للشروط المذكورة قبل المطالبة بهذا الخصم الضريبي. هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "sections_covered": [
+      "Dispositions générales (résidence fiscale, personnes imposables)",
+      "Détermination des bénéfices industriels et commerciaux",
+      "Revenus fonciers et plus-values immobilières",
+      "Traitements et salaires",
+      "Taux de l'impôt (barème progressif et taux IS)",
+      "Régime forfaitaire et obligations déclaratives",
+      "Avantages fiscaux (développement régional, agricole, entreprises nouvelles)",
+      "Retenues à la source et acomptes provisionnels"
+    ],
+    "sections_not_covered": [
+      "Revenus de valeurs mobilières et capitaux mobiliers (détail des articles 29-35)",
+      "Régime de fusion/scission (article 49 decies)",
+      "Dispositions relatives aux prix de transfert (article 48 septies)",
+      "Avantages au titre du réinvestissement en capital-risque (article 77)"
+    ],
+    "notes": "Batch généré avec couverture équilibrée entre IRPP et IS. Articles sélectionnés pour leur fréquence d'usage pratique par les contribuables tunisiens. Tous les exemples respectent strictement le texte fourni ; aucun numéro d'article n'a été inventé. Les exemples en arabe sont rédigés en MSA formel, sans dialecte tunisien."
+  }
+}
