@@ -1,0 +1,272 @@
+You are helping me generate high-quality training data to fine-tune Gemma 4 E4B
+as a legal RAG chatbot for Tunisian law. The chatbot will be deployed CPU-only
+with Qdrant (bge-m3 dense + sparse embeddings) and graph-based context expansion.
+
+I will upload a single Tunisian legal source PDF (a code — e.g., Code des
+obligations et contrats, Code des sociétés commerciales, Code du travail, etc.).
+
+═══════════════════════════════════════════════════════════════════
+YOUR TASK
+═══════════════════════════════════════════════════════════════════
+
+Generate exactly 5 COMPLEX REAL-LIFE SCENARIO training examples in valid JSON.
+Each scenario simulates a real Tunisian person describing a messy, multi-faceted
+legal problem — the way they would actually walk into a lawyer's office or type
+into a chatbot.
+
+IMPORTANT: Every article cited, every legal rule mentioned, must come DIRECTLY
+from the uploaded PDF. Do NOT invent articles, do NOT import rules from other
+codes, do NOT rely on general legal knowledge that isn't in the text.
+
+═══════════════════════════════════════════════════════════════════
+LANGUAGE SPLIT
+═══════════════════════════════════════════════════════════════════
+
+- 3 examples in French
+- 2 examples in Arabic (formal Modern Standard Arabic ONLY — see Arabic rules below)
+
+═══════════════════════════════════════════════════════════════════
+WHAT MAKES A "COMPLEX SCENARIO" (vs. a simple Q&A)
+═══════════════════════════════════════════════════════════════════
+
+Each scenario must have ALL of the following characteristics:
+
+1. NARRATIVE SITUATION (not a question)
+   The user tells a story: "Je suis gérant d'une SARL depuis 3 ans. Mon associé
+   majoritaire veut me révoquer sans motif. En même temps, j'ai découvert qu'il
+   a signé un contrat avec un fournisseur sans mon accord, engageant la société
+   pour 500 000 DT..."
+
+2. MULTIPLE INTERTWINED LEGAL ISSUES (minimum 3)
+   Each scenario must touch at least 3 distinct legal questions that naturally
+   arise from the same situation. These should span different chapters/sections
+   of the code when possible.
+   Examples of intertwined issues:
+   - Validity of a contract + liability for breach + damages calculation
+   - Manager dismissal + scope of authority + third-party protection
+   - Company formation defects + partner obligations + dissolution grounds
+
+3. REQUIRES 4–8 ARTICLES to answer properly
+   The assistant's answer must synthesize multiple articles. The retrieved context
+   should include 4–8 relevant articles.
+
+4. REALISTIC PERSONA
+   Each scenario must come from a believable Tunisian persona:
+   - A small business owner in Sfax dealing with a partner dispute
+   - An HR director in Tunis handling a complex employment situation
+   - A citizen who inherited property and faces contract issues
+   - A startup founder confused about corporate governance
+   - A tenant/landlord in a commercial lease dispute
+   Do NOT write sterile textbook hypotheticals. Include realistic details:
+   specific amounts in DT (Tunisian Dinars), city names, industry context,
+   emotional undertones ("je suis inquiet", "أنا قلق من...").
+
+5. SOME ISSUES THE CODE ANSWERS, SOME IT DOESN'T
+   At least one sub-issue in each scenario should be something the uploaded code
+   does NOT fully address — forcing the assistant to:
+   - Answer what it can from the retrieved articles
+   - Explicitly say which part it cannot answer from the provided documents
+   - Recommend consulting a specialist or checking another legal source
+
+═══════════════════════════════════════════════════════════════════
+ANSWER STRUCTURE (for the assistant response)
+═══════════════════════════════════════════════════════════════════
+
+The assistant's answer must follow this structure:
+
+(a) ACKNOWLEDGE THE SITUATION
+    Brief empathetic acknowledgment (1–2 sentences). Not robotic.
+    "Je comprends la complexité de votre situation. Plusieurs questions
+    juridiques se posent ici."
+
+(b) ISSUE-BY-ISSUE ANALYSIS
+    Break down the scenario into distinct legal issues. For each issue:
+    - Name the issue clearly (as a subheading in the answer text)
+    - State the applicable legal principle with article citation [1], [2], etc.
+    - Note relevant exceptions or conditions from the code
+    - Apply it briefly to the user's specific facts
+
+(c) LIMITS OF THE RESPONSE
+    Clearly identify what the provided documents do NOT cover:
+    "Concernant [specific sub-issue], les documents fournis ne contiennent pas
+    de dispositions applicables. Cette question relève de [other code/authority]."
+
+(d) PRACTICAL NEXT STEPS
+    Concrete, actionable recommendations:
+    "Je vous recommande de : (1) ... (2) ... (3) consulter un avocat spécialisé
+    en droit des sociétés pour les aspects non couverts ci-dessus."
+
+(e) SOURCES LINE
+    "Sources : art. X, Y, Z, W du [Code abbreviation]"
+
+(f) DISCLAIMER
+    French: "Ceci ne constitue pas un avis juridique. Pour votre situation
+    spécifique, consultez un avocat."
+    Arabic: "هذا لا يشكل استشارة قانونية. لوضعك الخاص، يُرجى استشارة محامٍ."
+
+TARGET LENGTH: 400–700 words per assistant answer.
+
+═══════════════════════════════════════════════════════════════════
+RETRIEVED CONTEXT FORMAT
+═══════════════════════════════════════════════════════════════════
+
+This is training data for a RAG system. The user message must simulate what the
+production system sends — the user's scenario PLUS the retrieved articles.
+
+Format the user message exactly like this:
+
+---
+Question :
+[The user's full scenario narrative — 80–200 words, first person, with details]
+
+Documents pertinents :
+[1] Source : Article X du [Code complet]
+[Full verbatim text of the article as it appears in the PDF]
+
+[2] Source : Article Y du [Code complet]
+[Full verbatim text of the article]
+
+[3] Source : Article Z du [Code complet]
+[Full verbatim text of the article]
+
+[4] Source : Article W du [Code complet]
+[Full verbatim text of the article]
+
+[... up to 8 articles]
+---
+
+For Arabic examples, use:
+---
+السؤال:
+[السيناريو الكامل]
+
+الوثائق ذات الصلة:
+[1] المصدر: الفصل X من [اسم المجلة]
+[النص الكامل للفصل]
+
+[2] المصدر: الفصل Y من [اسم المجلة]
+[النص الكامل للفصل]
+---
+
+CRITICAL: The article text in the retrieved context must be VERBATIM from the
+PDF. Do not paraphrase or summarize articles in the context section.
+
+═══════════════════════════════════════════════════════════════════
+CITATION RULES
+═══════════════════════════════════════════════════════════════════
+
+- In the assistant's answer, cite using inline references [1], [2], etc.
+  matching the document numbers in the retrieved context
+- End with a source line using standard Tunisian citation:
+  "Sources : art. X, Y, Z du [Code abbreviation]"
+- Arabic: "المصادر: الفصل X، Y، Z من [اسم المجلة]"
+- Use authentic abbreviations: COC, CSC, CT, CPCC, CP, etc.
+
+═══════════════════════════════════════════════════════════════════
+ARABIC LANGUAGE REQUIREMENTS
+═══════════════════════════════════════════════════════════════════
+
+All Arabic content — scenarios AND answers — must be in formal Modern Standard
+Arabic (الفصحى) exclusively. This is a legal chatbot for professional use.
+
+ABSOLUTELY FORBIDDEN in any Arabic text:
+- Tunisian dialect (Derja/دارجة): no شنوة، وقتاش، كيفاش، فيسع، باش، ياخي، برشا
+- Egyptian dialect: no عايز، ازاي، كده
+- Levantine dialect: no شو، كيف، هلق
+- Gulf dialect: no وش، ليش، حق
+- Any colloquial phrasing or informal register
+
+REQUIRED Arabic register:
+- Formal legal vocabulary: ما هي الشروط، كيف يتم، ما مدى، هل يجوز
+- Proper legal connectors: بمقتضى، وفقاً لـ، استناداً إلى، غير أنّ، علاوة على
+- The persona can express worry or urgency in formal register:
+  "أنا في وضع صعب" ✅ vs "حالتي خايبة" ❌
+
+═══════════════════════════════════════════════════════════════════
+SCENARIO DIVERSITY REQUIREMENTS
+═══════════════════════════════════════════════════════════════════
+
+The 5 scenarios MUST cover different parts of the code. Before generating:
+
+1. Read the PDF and identify its structure (livres, titres, chapitres)
+2. Assign each scenario to draw primarily from DIFFERENT chapters/titles
+3. Ensure no two scenarios share more than 2 articles in common
+4. Use different personas for each scenario
+
+═══════════════════════════════════════════════════════════════════
+ANTI-HALLUCINATION RULES
+═══════════════════════════════════════════════════════════════════
+
+- ONLY cite articles that exist in the uploaded PDF
+- ONLY state rules that are actually written in those articles
+- If an article number is unclear due to OCR quality, add a "confidence_flag"
+- If you cannot find enough articles to support 3+ issues for a scenario,
+  reduce to fewer issues rather than inventing content
+- I would rather have 4 solid scenarios than 5 with hallucinated references
+
+If the PDF has OCR issues, TELL ME IMMEDIATELY before generating.
+
+═══════════════════════════════════════════════════════════════════
+OUTPUT SCHEMA
+═══════════════════════════════════════════════════════════════════
+
+Return ONLY valid JSON. No preamble, no markdown code fences, no commentary.
+
+{
+  "batch_id": "batch_scenarios_[CODE_ABBREV]_[YYYYMMDD]",
+  "source": "<full name of the code>",
+  "batch_type": "complex_scenario",
+  "articles_covered": [<list of ALL article numbers used across all scenarios>],
+  "examples": [
+    {
+      "example_id": "scenario_[CODE]_[LANG]_[NUMBER]",
+      "language": "fr | ar",
+      "persona": "<brief persona description>",
+      "legal_issues_count": <number of distinct issues addressed>,
+      "articles_referenced": [<article numbers used>],
+      "issues_outside_code": ["<brief description of issue(s) the code doesn't cover>"],
+      "confidence_flag": "<optional: note any uncertainty about articles or text>",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Vous êtes un assistant juridique spécialisé dans le droit tunisien. Répondez uniquement à partir des documents fournis. Si une question dépasse le contenu des documents, indiquez-le clairement et recommandez de consulter un professionnel. Structurez votre réponse par problématique juridique. Citez toujours les articles et sources. Ceci ne constitue pas un avis juridique professionnel."
+        },
+        {
+          "role": "user",
+          "content": "Question :\n<full scenario narrative>\n\nDocuments pertinents :\n[1] Source : <citation>\n<verbatim article text>\n\n[2] Source : <citation>\n<verbatim article text>\n\n[...up to 8]"
+        },
+        {
+          "role": "assistant",
+          "content": "<structured answer following the (a)-(f) format above, 400-700 words>"
+        }
+      ]
+    }
+  ],
+  "coverage_summary": {
+    "chapters_covered": ["<list of chapters/titles touched>"],
+    "total_articles_used": <number>,
+    "persona_diversity": ["<list of personas used>"],
+    "notes": "<any observations about coverage gaps or PDF quality>"
+  }
+}
+
+═══════════════════════════════════════════════════════════════════
+ARABIC SYSTEM PROMPT
+═══════════════════════════════════════════════════════════════════
+
+For Arabic examples, use this system prompt:
+
+"أنتَ مساعد قانوني متخصص في القانون التونسي. أجب فقط استناداً إلى الوثائق المقدمة. إذا تجاوز السؤال محتوى الوثائق، وضّح ذلك صراحةً وأوصِ باستشارة متخصص. نظّم إجابتك حسب الإشكالية القانونية. استشهد دائماً بالفصول والمصادر. هذا لا يشكّل استشارة قانونية مهنية."
+
+═══════════════════════════════════════════════════════════════════
+BEFORE YOU START
+═══════════════════════════════════════════════════════════════════
+
+After reading the PDF, first output a brief analysis (NOT part of the JSON):
+1. Name of the code identified
+2. Structure overview (how many livres/titres/chapitres)
+3. Any OCR quality issues detected
+4. Your planned scenario distribution across sections
+5. Confirm you have enough article coverage for 5 complex scenarios
+
+Then, after I confirm, generate the JSON.
