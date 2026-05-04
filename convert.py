@@ -11,10 +11,23 @@ with open(input_file, encoding='utf-8') as f:
     data = json.load(f)
 
 questions = []
+multi_turn_pairs = []
+
 for i, entry in enumerate(data):
-    for msg in entry.get('messages', []):
+    messages = entry.get('messages', [])
+    turn_number = 0
+    
+    for msg in messages:
         if msg.get('role') == 'user':
-            questions.append((i + 1, msg['content']))
+            content = msg.get('content', '')
+            if content:
+                questions.append((i + 1, content))
+                turn_number += 1
+                multi_turn_pairs.append((i + 1, turn_number, 'user', content))
+        elif msg.get('role') == 'assistant':
+            content = msg.get('content', '')
+            if content:
+                multi_turn_pairs.append((i + 1, turn_number, 'assistant', content))
 
 SEPARATOR = '-' * 80
 
@@ -24,8 +37,10 @@ with open(output_txt, 'w', encoding='utf-8') as f:
         f.write(f"{'=' * 80}\n")
         f.write(f"CONVERSATION {i + 1}\n")
         f.write(f"{'=' * 80}\n\n")
-        for msg in entry.get('messages', []):
+        messages = entry.get('messages', [])
+        for msg_idx, msg in enumerate(messages):
             role = msg.get('role')
+            content = msg.get('content', '')
             if role == 'system':
                 continue
             elif role == 'user':
@@ -34,16 +49,16 @@ with open(output_txt, 'w', encoding='utf-8') as f:
                 label = 'ANSWER'
             else:
                 label = role.upper()
-            f.write(f"[{label}]\n{msg['content']}\n\n")
+            f.write(f"[{label}]\n{content}\n\n")
             f.write(f"{SEPARATOR}\n\n")
 
-# CSV file
+# CSV file — includes all user/assistant pairs with turn numbers
 with open(output_csv, 'w', encoding='utf-8', newline='') as f:
     writer = csv.writer(f)
-    writer.writerow(['conversation_index', 'question'])
-    for idx, q in questions:
-        writer.writerow([idx, q])
+    writer.writerow(['conversation_index', 'turn_number', 'role', 'content'])
+    for conv_idx, turn, role, content in multi_turn_pairs:
+        writer.writerow([conv_idx, turn, role, content])
 
-print(f"Done. {len(questions)} questions extracted.")
+print(f"Done. {len(questions)} user messages extracted.")
 print(f"  Text: {output_txt}")
-print(f"  CSV:  {output_csv}")
+print(f"  CSV:  {output_csv} ({len(multi_turn_pairs)} total messages with roles)")
